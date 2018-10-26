@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skatteberegner</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Undlader script.js filen som opgaven angiver skal anvendes da det bare besværliggør den simple opgave.
+        let indkomst = Number(prompt('Indtast din indkomst:'));
+        let ambi, pension, bundskat, samletskat, totalskat;
+
+        // Angivet procentsatser i variablerne, fremfor at ændre værdien flere steder i koden.
+        let ambipct = 8.0;
+        let pensionpct = 2.0;
+        let bundskatpct = 7.0;
+
+        ambi = (indkomst * ambipct) / 100;
+        pension = (indkomst * pensionpct) / 100;
+        bundskat = (indkomst * bundskatpct) / 100;
+        samletskat = ((ambipct + pensionpct) / 100) * indkomst; // Rettet: Variabler er case sensitive. Paranteser tilføjet med tanke på PEMDAS.
+        totalskat = ((ambipct + pensionpct + bundskatpct) / 100) * indkomst;
+
+        // Jeg gider ikke åbne konsollen når det kan skrives direkte til browservinduet.
+        document.write('Arbejdsmarkedsbidrag: ' + ambi + '<br />');
+        document.write('Særlig pensionsopsapring: ' + pension + '<br />');
+        document.write('Bundskat: ' + bundskat + '<br />');
+
+        document.write('Samlet skat: ' + samletskat + '<br />'); // Rettet: Variabler er case sensitive.
+        document.write('Samlet skat inkl. bundskat: ' + totalskat + '<br />');
+    </script>
+</body>
+</html>

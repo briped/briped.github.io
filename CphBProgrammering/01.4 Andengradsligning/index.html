@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andengradsligning</title>
+</head>
+<body>
+    <form name="andengradsligning">
+        <label for="a">Værdien for 'a':</label><br />
+        <input type="number" name="values" id="a" /><br />
+        <br />
+        <label for="b">Værdien for 'b':</label><br />
+        <input type="number" name="values" id="b" /><br />
+        <br />
+        <label for="c">Værdien for 'c':</label><br />
+        <input type="number" name="values" id="c" /><br />
+        <br />
+        <input type="button" value="Beregn" onclick="doCalc();" />
+    </form>
+    <p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mi>x</mi>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mo form="prefix">-</mo>
+                        <mi>b</mi>
+                        <mo>±</mo>
+                        <msqrt>
+                            <msup>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>-</mo>
+                            <mn>4</mn>
+                            <mo>*</mo>
+                            <mi>a</mi>
+                            <mo>*</mo>
+                            <mi>c</mi>
+                        </msqrt>
+                    </mrow>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>*</mo>
+                        <mi>a</mi>
+                    </mrow>
+                </mfrac>
+            </mrow>
+        </math>
+    </p>
+    <p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mi>d</mi>
+                <mo>=</mo>
+                <mn>dv</mn>
+            </mrow>
+        </math>
+    </p>
+    <p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mi>x1</mi>
+                <mo>=</mo>
+                <mn>x1v</mn>
+            </mrow>
+        </math>
+    </p>
+    <p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mi>x2</mi>
+                <mo>=</mo>
+                <mn>x2v</mn>
+            </mrow>
+        </math>
+    </p>
+    <script type="text/javascript">
+        function doCalc() {
+            let a, b, c, d, x1, x2, i;
+            a = Number(document.getElementById('a').value);
+            b = Number(document.getElementById('b').value);
+            c = Number(document.getElementById('c').value);
+            d = Math.pow(b, 2) - 4 * a * c;
+
+            x1 = (-b + Math.sqrt(d)) / 2 * a;
+            x2 = (-b - Math.sqrt(d)) / 2 * a;
+
+            let mi = document.getElementsByTagName('mi');
+            for (i = 0; i < mi.length; i++) {
+                if (mi[i].innerHTML == 'a') {
+                    mi[i].innerHTML = a;
+                }
+                if (mi[i].innerHTML == 'b') {
+                    mi[i].innerHTML = b;
+                }
+                if (mi[i].innerHTML == 'c') {
+                    mi[i].innerHTML = c;
+                }
+            }
+            let mn = document.getElementsByTagName('mn');
+            for (i = 0; i < mn.length; i++) {
+                if (mn[i].innerHTML == 'dv') {
+                    mn[i].innerHTML = d;
+                }
+                if (mn[i].innerHTML == 'x1v') {
+                    mn[i].innerHTML = x1;
+                }
+                if (mn[i].innerHTML == 'x2v') {
+                    mn[i].innerHTML = x2;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

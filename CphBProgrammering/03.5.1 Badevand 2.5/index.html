@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Badevand 2.5</title>
+</head>
+<body>
+<form>
+    <label for="temperatures">Temperatures (one per line):</label><br />
+    <textarea id="temperatures" cols="20" rows="5" onkeypress="if (event.keyCode === 13) doUpdate();"></textarea><br />
+</form>
+<p>Pressing 'Enter' checks the input.</p>
+<pre id="output"></pre>
+</body>
+<script src="script.js"></script>
+</html>

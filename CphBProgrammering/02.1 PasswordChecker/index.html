@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Checker</title>
+</head>
+<body>
+<form>
+    <label for="password">Password:</label><br />
+    <input type="text" name="password" id="password" onkeyup="doSubmit();" />
+</form>
+<p>Password længde er: <span id="passwordLength"></span></p>
+<script type="text/javascript">
+    function doSubmit() {
+        document.getElementById('passwordLength').innerHTML = document.getElementById('password').value.length;
+    }
+</script>
+</body>
+</html>

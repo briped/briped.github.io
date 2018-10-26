@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Badmintonfest</title>
+</head>
+<body>
+<form>
+    <label for="age">Alder:</label><br />
+    <input type="number" name="check" id="age" />
+    <label for="costume">Alder:</label><br />
+    <input type="text" name="check" id="costume" /><br />
+    <input type="button" value="Kontroller" onclick="doSubmit();" />
+</form>
+<p>
+    Må du komme ind? <span id="access"></span>
+</p>
+<script type="text/javascript">
+    function doSubmit() {
+        let age = Number(document.getElementById('age').value);
+        let costume = document.getElementById('costume').value;
+
+        let minAge = 18;
+        let maxAge = 25;
+        let arrCostumes = ['Cowboy', 'Astronaut', 'Playboy'];
+
+        if (age >= minAge && age <= maxAge) {
+            let i;
+            for (i = 0; i < arrCostumes.length; i++) {
+                if (arrCostumes[i].toLowerCase() == costume.toLowerCase()) {
+                    document.getElementById('access').innerHTML = 'JA';
+                    break;
+                }
+            }
+        }
+        else {
+            document.getElementById('access').innerHTML = 'NEJ';
+        }
+    }
+</script>
+</body>
+</html>
