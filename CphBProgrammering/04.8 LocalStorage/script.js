@@ -10,6 +10,8 @@ localStorage.getItem('state');
 */
 
 //TODO: Implementere localStorage (skal sætte mig ind i hvordan det virker).let loginState = false;
+// https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
+
 let loggedInAs = '';
 let passwordLength = 0;
 
