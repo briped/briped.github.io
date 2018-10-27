@@ -1,16 +1,4 @@
-/*
-Øvelse 8 (Bonus)
-Gem tilstanden i localstorage med
-
-localStorage.setItem('state', 'Værdi');
-
-og hent den igen når hjemmesiden indlæses - så tilstanden gemmes selvom browseren lukkes.
-
-localStorage.getItem('state');
-*/
-
-//TODO: Implementere localStorage (skal sætte mig ind i hvordan det virker).let loginState = false;
-// https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
+// https://developer.mozilla.org/en-US/docs/Web/API/Storage
 if (!localStorage.getItem('loginState')) {
     populateStorage(false, '', 0);
 }
@@ -20,7 +8,6 @@ validLogins.push(['administrator', 'Administrator']);
 validLogins.push(['root', 'toor']);
 validLogins.push(['backdoor', 'password']);
 
-let elBody = document.getElementsByTagName('body');
 let elUsername = document.getElementById('username');
 let elPassword = document.getElementById('password');
 let elLogin = document.getElementById('login');
@@ -28,9 +15,10 @@ let elLogout = document.getElementById('logout');
 let elLoggedIn = document.getElementById('loggedIn');
 let elLoggedOut = document.getElementById('loggedOut');
 
-elBody.onload = updateGUI;
 elLogin.onclick = validateLogin;
 elLogout.onclick = validateLogin;
+
+updateGUI();
 
 function populateStorage(loginState, loggedInAs, passwordLength) {
     console.log(`function populateStorage(loginState:${loginState}, loggedInAs:${loggedInAs}, passwordLength:${passwordLength})`); // Debugging
@@ -43,7 +31,7 @@ function populateStorage(loginState, loggedInAs, passwordLength) {
 function validateLogin() {
     console.log(`function validateLogin()`); // Debugging
     for (let l = 0; l < validLogins.length; l++) {
-        if (elUsername.value == validLogins[l][0] && elPassword.value == validLogins[l][1]) {
+        if (elUsername.value === validLogins[l][0] && elPassword.value === validLogins[l][1]) {
             populateStorage(true, elUsername.value, elPassword.value.length);
             elUsername.value = '';
             elPassword.value = '';
@@ -58,7 +46,7 @@ function validateLogin() {
 
 function updateGUI() {
     console.log(`function updateGUI()`); // Debugging
-    console.log(`localStorage.getItem('loginState'):${localStorage.getItem('loginState')}`); // Debugging
+    console.log(localStorage); // Debugging
     if (localStorage.getItem('loginState') === 'true') {
         // Apparently only strings are stored in localStorage, even though a boolean is stored. Apparently even with
         // loose comparison (localStorage.getItem('loginState') == true) it wont work. Why?
