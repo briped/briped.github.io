@@ -3,6 +3,9 @@
 
 let elInput = document.getElementById('input');
 let elOutput = document.getElementById('output');
+
+elInput.onchange = myEventHandler;
+
 elInput.onclick = myEventHandler;
 elInput.oncontextmenu = myEventHandler;
 
