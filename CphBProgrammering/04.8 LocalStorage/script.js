@@ -1,4 +1,15 @@
-let loginState = false;
+/*
+Øvelse 8 (Bonus)
+Gem tilstanden i localstorage med
+
+localStorage.setItem('state', 'Værdi');
+
+og hent den igen når hjemmesiden indlæses - så tilstanden gemmes selvom browseren lukkes.
+
+localStorage.getItem('state');
+*/
+
+//TODO: Implementere localStorage (skal sætte mig ind i hvordan det virker).let loginState = false;
 let loggedInAs = '';
 let passwordLength = 0;
 
