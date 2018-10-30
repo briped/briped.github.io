@@ -1,5 +1,3 @@
-
-
 let dog = {
     name: "Fido",
     makeSound: function(){
