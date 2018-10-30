@@ -5,8 +5,8 @@ let numberOfOnes = 0;
 
 
 //DONE count number of ones:
-for (i = 0; i < badeVand.length; i++) {
-    numberOfOnes += (badeVand === 1) ? 1 : 0;
+for (let i = 0; i < badeVand.length; i++) {
+    numberOfOnes += (badeVand[i] === 1) ? 1 : 0;
 }
 
 //Output the result to a div
