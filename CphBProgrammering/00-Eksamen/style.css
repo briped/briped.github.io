@@ -8,8 +8,8 @@ button.player1, button.player2 {
 }
 .circle0, .circle1, .circle2 {
     border: 1px solid gray;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -28,10 +28,50 @@ button.player1, button.player2 {
 #c4board {
     background-color: yellow;
     display: grid;
-    grid-template-columns: 82px 82px 82px 82px 82px 82px 82px;
+    grid-template-columns: 52px 52px 52px 52px 52px 52px 52px; /* circle height|width + circle border width * 2 */
     grid-gap: 5px;
     padding: 10px;
 }
 .content {
-    display: inline-block;
+    display: inline-block; /* Ensures that the element size is only as big is its content */
+}
+
+@media screen and (min-width: 800px) {
+    button.player1, button.player2 {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24pt;
+    }
+    .circle0, .circle1, .circle2 {
+        border: 1px solid gray;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+
+        display: table-cell;
+    }
+    .circle0 {
+        background-color: white;
+    }
+    .circle1, .player1 {
+        background-color: blue;
+    }
+    .circle2, .player2 {
+        background-color: red;
+    }
+    #c4board {
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 82px 82px 82px 82px 82px 82px 82px; /* circle height|width + circle border width * 2 */
+        grid-gap: 5px;
+        padding: 10px;
+    }
+    .content {
+        display: inline-block; /* Ensures that the element size is only as big is its content */
+    }
 }
