@@ -1,10 +1,59 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "header"
+        "content"
+    ;
+    grid-gap: 5px;
+}
+#title {
+    grid-area: title;
+    text-align: center;
+    font-size: 48pt;
+}
+#header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+            "currentPlayer player1 player2 resetGame"
+;
+    grid-gap: 5px;
+}
+#player1 {
+    grid-area: player1;
+    background-color: blue;
+    color: white;
+}
+#player2 {
+    grid-area: player2;
+    background-color: red;
+    color: white;
+}
+#resetGame {
+    grid-area: resetGame;
+}
+#content {
+    display: inline-block; /* Ensures that the element size is only as big is its content */
+    grid-area: content;
+}
+#board {
+    border: 1px solid magenta;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 42px 42px 42px 42px 42px 42px 42px; /* circle height|width + circle border width * 2 */
+    grid-gap: 5px;
+    padding: 10px;
+}
 button.player1, button.player2 {
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 .circle0, .circle1, .circle2 {
     border: 1px solid gray;
@@ -13,7 +62,6 @@ button.player1, button.player2 {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-
     display: table-cell;
 }
 .circle0 {
@@ -25,18 +73,72 @@ button.player1, button.player2 {
 .circle2, .player2 {
     background-color: red;
 }
-#c4board {
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: 42px 42px 42px 42px 42px 42px 42px; /* circle height|width + circle border width * 2 */
-    grid-gap: 5px;
-    padding: 10px;
-}
-.content {
-    display: inline-block; /* Ensures that the element size is only as big is its content */
+#currentPlayer {
+    grid-area: currentPlayer;
+    border: 1px solid gray;
+
+    height: 20px;
+    width: 20px;
+
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /*display: table-cell;*/
+    display: inline-block;
 }
 
 @media screen and (min-width: 650px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+                ". title ."
+                ". header ."
+                ". content ."
+    ;
+        grid-gap: 5px;
+    }
+    #title {
+        grid-area: title;
+    }
+    #header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                "currentPlayer player1 player2 resetGame"
+        ;
+        grid-gap: 5px;
+    }
+    #player1 {
+        grid-area: player1;
+        background-color: blue;
+        color: white;
+    }
+    #player2 {
+        grid-area: player2;
+        background-color: red;
+        color: white;
+    }
+    #resetGame {
+        grid-area: resetGame;
+    }
+    #content {
+        display: inline-block; /* Ensures that the element size is only as big is its content */
+        grid-area: content;
+    }
+    #board {
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 82px 82px 82px 82px 82px 82px 82px; /* circle height|width + circle border width * 2 */
+        grid-gap: 5px;
+        padding: 10px;
+    }
     button.player1, button.player2 {
         border: none;
         color: white;
@@ -52,7 +154,6 @@ button.player1, button.player2 {
         border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
-
         display: table-cell;
     }
     .circle0 {
@@ -64,14 +165,22 @@ button.player1, button.player2 {
     .circle2, .player2 {
         background-color: red;
     }
-    #c4board {
-        background-color: yellow;
-        display: grid;
-        grid-template-columns: 82px 82px 82px 82px 82px 82px 82px; /* circle height|width + circle border width * 2 */
-        grid-gap: 5px;
-        padding: 10px;
-    }
-    .content {
-        display: inline-block; /* Ensures that the element size is only as big is its content */
+    #currentPlayer {
+        grid-area: currentPlayer;
+        border: 1px solid gray;
+
+        height: 50px;
+        width: 50px;
+
+        font-size: 32pt;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        /*display: table-cell;*/
+        display: inline-block;
     }
 }

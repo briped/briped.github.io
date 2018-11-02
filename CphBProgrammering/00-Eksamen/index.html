@@ -5,11 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="strings.js"></script>
         <title>Connect 4</title>
     </head>
     <body>
-        <div class="content">
-            <div id="c4board"></div>
+        <div class="grid">
+            <div id="title">Connect 4</div>
+            <div id="header">
+                <div id="currentPlayer">1</div>
+                <div id="player1">Player 1: <span>0</span></div>
+                <div id="player2">Player 2: <span>0</span></div>
+                <button id="resetGame" onclick="resetGame();">New Game</button>
+            </div>
+            <div id="content">
+                <div id="board"></div>
+            </div>
         </div>
         <script type="text/javascript" src="script.js"></script>
     </body>
