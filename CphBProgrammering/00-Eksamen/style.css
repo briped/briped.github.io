@@ -8,8 +8,8 @@ button.player1, button.player2 {
 }
 .circle0, .circle1, .circle2 {
     border: 1px solid gray;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -28,7 +28,7 @@ button.player1, button.player2 {
 #c4board {
     background-color: yellow;
     display: grid;
-    grid-template-columns: 52px 52px 52px 52px 52px 52px 52px; /* circle height|width + circle border width * 2 */
+    grid-template-columns: 42px 42px 42px 42px 42px 42px 42px; /* circle height|width + circle border width * 2 */
     grid-gap: 5px;
     padding: 10px;
 }
@@ -36,7 +36,7 @@ button.player1, button.player2 {
     display: inline-block; /* Ensures that the element size is only as big is its content */
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 650px) {
     button.player1, button.player2 {
         border: none;
         color: white;
