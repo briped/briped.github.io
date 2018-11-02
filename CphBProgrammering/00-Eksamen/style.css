@@ -1,0 +1,37 @@
+button.player1, button.player2 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24pt;
+}
+.circle0, .circle1, .circle2 {
+    border: 1px solid gray;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+    display: table-cell;
+}
+.circle0 {
+    background-color: white;
+}
+.circle1, .player1 {
+    background-color: blue;
+}
+.circle2, .player2 {
+    background-color: red;
+}
+#c4board {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 82px 82px 82px 82px 82px 82px 82px;
+    grid-gap: 5px;
+    padding: 10px;
+}
+.content {
+    display: inline-block;
+}
