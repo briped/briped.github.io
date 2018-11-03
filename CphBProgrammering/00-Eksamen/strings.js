@@ -2,11 +2,13 @@ let lang = {
     en: {
         title: 'Connect 4',
         newGame: 'New Game',
-        Player: 'Player'
+        Player: 'Player',
+        WON: 'WON!'
     },
     da: {
         title: 'Fire på stribe',
         newGame: 'Nyt spil',
-        Player: 'Spiller'
+        Player: 'Spiller',
+        WON: 'VANDT!'
     }
 };
