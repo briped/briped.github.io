@@ -13,11 +13,10 @@
             <div id="overlayText"></div>
         </div>
         <div class="grid">
-            <div id="title">Connect 4</div>
+            <div id="title" onclick="showHideDebug();">Connect 4</div>
             <div id="header">
-                <div id="currentPlayer" onclick="showHideDebug();"><span>1</span></div>
-                <div id="player1"><span class="player">Player 1: </span><span class="score">0</span></div>
-                <div id="player2"><span class="player">Player 2: </span><span class="score">0</span></div>
+                <div id="player1"><span class="score">0</span></div>
+                <div id="player2"><span class="score">0</span></div>
                 <button id="resetGame" onclick="resetGame();">New Game</button>
             </div>
             <div id="content">

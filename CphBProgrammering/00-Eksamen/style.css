@@ -1,10 +1,10 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-        "title"
-        "header"
-        "content"
+        ". title ."
+        ". header ."
+        ". content ."
     ;
     grid-gap: 5px;
 }
@@ -17,11 +17,32 @@
 #header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 22px 1fr 1fr 1fr;
+    grid-template-columns: 32px 32px 1fr;
     grid-template-areas:
-            "currentPlayer player1 player2 resetGame"
+            "player1 player2 resetGame"
     ;
     grid-gap: 5px;
+}
+#player1, #player2 {
+    display: inline-block;
+    border: 1px solid gray;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#player1 .score, #player2 .score {
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 30px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 #player1 {
     grid-area: player1;
@@ -31,21 +52,6 @@
     grid-area: player2;
     background-color: red;
 }
-#player1, #player2 {
-    display: inline-block;
-
-    font-size: 14pt;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-}
-.score, .player {
-    display: inline-block;
-    vertical-align: middle;
-}
-.score {
-    font-weight: bold;
-}
 #resetGame {
     grid-area: resetGame;
 }
@@ -53,6 +59,7 @@
     display: inline-block; /* Ensures that the element size is only as big is its content */
     grid-area: content;
     justify-self: center;
+    position: relative;
 }
 #board {
     background-color: yellow;
@@ -65,7 +72,6 @@
 button.player1, button.player2 {
     display: inline-block;
     border: none;
-
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -82,10 +88,10 @@ button.player1, button.player2 {
     text-align: center;
 }
 .circle0 span, .circle1 span, .circle2 span {
-    font-size: 10pt;
-    text-align: center;
     margin-bottom: 15px;
     line-height: 40px;
+    font-size: 10pt;
+    text-align: center;
 }
 .circle0 {
     background-color: white;
@@ -96,28 +102,6 @@ button.player1, button.player2 {
 .circle2, .player2 {
     background-color: red;
 }
-#currentPlayer {
-    grid-area: currentPlayer;
-    border: 1px solid gray;
-
-    height: 20px;
-    width: 20px;
-
-    text-align: center;
-    vertical-align: middle;
-
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    display: inline-block;
-}
-#currentPlayer span {
-    font-size: 12pt;
-    color: white;
-    text-align: center;
-    margin-bottom: 5px;
-    line-height: 20px;
-}
 #overlay {
     position: fixed;
     display: none;
@@ -127,167 +111,51 @@ button.player1, button.player2 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
     cursor: pointer;
 }
 #overlayText {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     font-size: 50px;
     color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 .debug {
     cursor: pointer;
 }
 
 @media screen and (min-width: 650px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-                ". title ."
-                ". header ."
-                ". content ."
-        ;
-        grid-gap: 5px;
-    }
     #title {
-        grid-area: title;
-
         font-size: 36pt;
-        text-align: center;
     }
     #header {
-        grid-area: header;
-        display: grid;
-        grid-template-columns: 52px 1fr 1fr 1fr;
-        grid-template-areas:
-                "currentPlayer player1 player2 resetGame"
-        ;
-        grid-gap: 5px;
+        grid-template-columns: 52px 52px 1fr;
     }
-    #player1 {
-        grid-area: player1;
-        background-color: blue;
+    #player1, #player2 {
+        height: 50px;
+        width: 50px;
     }
-    #player2 {
-        grid-area: player2;
-        background-color: red;
-    }
-    .player {
-        font-size: 14pt;
-        color: white;
-        text-align: center;
-    }
-    .score {
-        font-size: 14pt;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-    }
-    .score, .player {
-        display: inline-block;
-        vertical-align: middle;
-    }
-    #resetGame {
-        grid-area: resetGame;
-    }
-    #content {
-        display: inline-block; /* Ensures that the element size is only as big is its content */
-        grid-area: content;
-        justify-self: center;
-        position: relative;
+    #player1 .score, #player2 .score {
+        font-size: 30pt;
+        line-height: 50px;
     }
     #board {
-        background-color: yellow;
-        border: 1px solid gray;
-        display: grid;
         grid-template-columns: 82px 82px 82px 82px 82px 82px 82px; /* circle height|width + circle border width * 2 */
-        grid-gap: 5px;
-        padding: 10px;
     }
     button.player1, button.player2 {
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
         font-size: 24pt;
     }
     .circle0, .circle1, .circle2 {
-        border: 1px solid gray;
         height: 80px;
         width: 80px;
-        border-radius: 50%;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        vertical-align: middle;
-        text-align: center;
     }
     .circle0 span, .circle1 span, .circle2 span {
-        font-size: 16pt;
-        text-align: center;
         margin-bottom: 50px;
         line-height: 80px;
-    }
-    .circle0 {
-        background-color: white;
-    }
-    .circle1, .player1 {
-        background-color: blue;
-    }
-    .circle2, .player2 {
-        background-color: red;
-    }
-    #currentPlayer {
-        grid-area: currentPlayer;
-        border: 1px solid gray;
-
-        height: 50px;
-        width: 50px;
-
-        text-align: center;
-        vertical-align: middle;
-
-        border-radius: 50%;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        display: inline-block;
-    }
-    #currentPlayer span {
-        font-size: 30pt;
-        color: white;
-        text-align: center;
-        margin-bottom: 5px;
-        line-height: 50px;
-    }
-    #overlay {
-        position: fixed;
-        display: none;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5);
-        z-index: 2;
-        cursor: pointer;
-    }
-    #overlayText {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-size: 50px;
-        color: white;
-        transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-    }
-    .debug {
-        cursor: pointer;
+        font-size: 16pt;
     }
 }
