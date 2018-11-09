@@ -3,32 +3,10 @@ const rows = 6;
 const columns = 7;
 
 // Global variables
-let gameArray, gameWon, currentPlayer, player1score = 0, player2score = 0, browserLanguage, debug = false, board = document.getElementById('board');
+let gameArray, gameWon, currentPlayer, score = [0,0,0], browserLanguage, debug = false, board = document.getElementById('board');
 
 // Start the game
 resetGame();
-
-function detectLanguage() {
-    if (debug === true) console.log(`function detectLanguage()...`); // Debugging
-    browserLanguage = 'en'; // Default language i no other is found...
-    for (let l = 0; l < navigator.languages.length; l++) {
-        for (let key in lang) {
-            if (lang.hasOwnProperty(key) && key === navigator.languages[l]) {
-                browserLanguage = key;
-                break;
-            }
-        }
-    }
-}
-
-function showHideDebug() {
-    if (debug === true) console.log(`function showHideDebug()...`);
-        debug = (debug !== true);
-    let elDebug = document.getElementsByClassName('debug');
-    for (let e = 0; e < elDebug.length; e++) {
-        elDebug[e].style.display = (debug === true) ? 'block' : 'none';
-    }
-}
 
 function resetGame() {
     if (debug === true) console.log(`function resetGame()...`);
@@ -45,15 +23,44 @@ function resetGame() {
     detectLanguage();
     document.getElementsByTagName('title')[0].innerHTML = lang[browserLanguage].title;
     document.getElementById('title').innerHTML = lang[browserLanguage].title;
-    document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = player1score;
-    document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = player2score;
+    document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = score[1];
+    document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = score[2];
     document.getElementById('resetGame').innerHTML = lang[browserLanguage].newGame;
     drawBoard();
 }
 
-function updatePlayer() {
-    if (debug === true) console.log(`function updatePlayer()...`); // Debugging
-    currentPlayer = (currentPlayer === 1) ? 2 : 1;
+function hideOverlay() {
+    if (debug === true) console.log(`function hideOverlay()...`);
+    document.getElementById('overlay').style.display = 'none';
+}
+
+function detectLanguage() {
+    if (debug === true) console.log(`function detectLanguage()...`); // Debugging
+    browserLanguage = 'en'; // Default language i no other is found...
+    for (let l = 0; l < navigator.languages.length; l++) {
+        for (let key in lang) {
+            if (lang.hasOwnProperty(key) && key === navigator.languages[l]) {
+                browserLanguage = key;
+                break;
+            }
+        }
+    }
+}
+
+function drawBoard() {
+    if (debug === true) console.log(`function drawBoard()...`); // Debugging
+    board.innerHTML = '';
+    for (let r = 0; r < gameArray.length; r++) {
+        let rowHTML = '';
+        let rowHeader = '';
+        for (let c = 0; c < gameArray[r].length; c++) {
+            if (r === 0) {
+                rowHeader += `<button id="c${c}" class="player${currentPlayer}" onclick="insertChecker(this);">${c + 1}</button>`;
+            }
+            rowHTML += `<div id="r${r}c${c}" class="circle${gameArray[r][c]}" onclick="insertChecker(this);"><span class="debug" style="display: ${(debug === true) ? 'block' : 'none'};">[${r}][${c}]</span></div>`;
+        }
+        board.innerHTML += (r === 0) ? rowHeader + rowHTML: rowHTML;
+    }
 }
 
 function insertChecker(e) {
@@ -64,10 +71,12 @@ function insertChecker(e) {
     if (updateArray(currentPlayer, col)) {
         gameWon = checkForWinner();
         if (gameWon !== 0) {
-            player1score = (currentPlayer === 1) ? player1score + 1 : player1score;
-            player2score = (currentPlayer === 2) ? player2score + 1 : player2score;
-            document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = player1score;
-            document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = player2score;
+            score[0]++;
+            score[1] = (currentPlayer === 1) ? score[1] + 1 : score[1];
+            score[2] = (currentPlayer === 2) ? score[2] + 1 : score[2];
+            document.getElementById('games').getElementsByClassName('score')[0].innerHTML = score[0];
+            document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = score[1];
+            document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = score[2];
             document.getElementById('overlayText').innerHTML = `${lang[browserLanguage].Player} ${gameWon}<br />${lang[browserLanguage].WON}`;
             document.getElementById('overlay').style.display = 'block';
         }
@@ -76,9 +85,18 @@ function insertChecker(e) {
     }
 }
 
-function hideOverlay() {
-    if (debug === true) console.log(`function hideOverlay()...`);
-    document.getElementById('overlay').style.display = 'none';
+function updateArray(player = -1, col = -1) {
+    if (debug === true) console.log(`function updateArray(player:${player}, col:${col})...`); // Debugging
+    if (col < 0 || col >= columns || gameWon !== 0) {
+        return false;
+    }
+    player = (player >= 0 && player <= 2) ? player : 0;
+    for (let r = gameArray.length; r > 0; r--) {
+        if (gameArray[r-1][col] === 0) {
+            gameArray[r-1][col] = player;
+            return true;
+        }
+    }
 }
 
 function checkForWinner(length = 4) {
@@ -140,32 +158,16 @@ function checkForWinner(length = 4) {
     return 0;
 }
 
-function drawBoard() {
-    if (debug === true) console.log(`function drawBoard()...`); // Debugging
-    board.innerHTML = '';
-    for (let r = 0; r < gameArray.length; r++) {
-        let rowHTML = '';
-        let rowHeader = '';
-        for (let c = 0; c < gameArray[r].length; c++) {
-            if (r === 0) {
-                rowHeader += `<button id="c${c}" class="player${currentPlayer}" onclick="insertChecker(this);">${c + 1}</button>`;
-            }
-            rowHTML += `<div id="r${r}c${c}" class="circle${gameArray[r][c]}" onclick="insertChecker(this);"><span class="debug" style="display: ${(debug === true) ? 'block' : 'none'};">[${r}][${c}]</span></div>`;
-        }
-        board.innerHTML += (r === 0) ? rowHeader + rowHTML: rowHTML;
-    }
+function updatePlayer() {
+    if (debug === true) console.log(`function updatePlayer()...`); // Debugging
+    currentPlayer = (currentPlayer === 1) ? 2 : 1;
 }
 
-function updateArray(player = -1, col = -1) {
-    if (debug === true) console.log(`function updateArray(player:${player}, col:${col})...`); // Debugging
-    if (col < 0 || col >= columns || gameWon !== 0) {
-        return false;
-    }
-    player = (player >= 0 && player <= 2) ? player : 0;
-    for (let r = gameArray.length; r > 0; r--) {
-        if (gameArray[r-1][col] === 0) {
-            gameArray[r-1][col] = player;
-            return true;
-        }
+function showHideDebug() {
+    if (debug === true) console.log(`function showHideDebug()...`);
+        debug = (debug !== true);
+    let elDebug = document.getElementsByClassName('debug');
+    for (let e = 0; e < elDebug.length; e++) {
+        elDebug[e].style.display = (debug === true) ? 'block' : 'none';
     }
 }

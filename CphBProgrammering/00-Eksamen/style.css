@@ -17,13 +17,13 @@
 #header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 32px 32px 1fr;
+    grid-template-columns: 32px 32px 32px 1fr;
     grid-template-areas:
-            "player1 player2 resetGame"
+            "games player1 player2 resetGame"
     ;
     grid-gap: 5px;
 }
-#player1, #player2 {
+#games, #player1, #player2 {
     display: inline-block;
     border: 1px solid gray;
     height: 30px;
@@ -34,7 +34,7 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
 }
-#player1 .score, #player2 .score {
+#games .score, #player1 .score, #player2 .score {
     display: inline-block;
     margin-bottom: 5px;
     line-height: 30px;
@@ -43,6 +43,10 @@
     color: white;
     text-align: center;
     vertical-align: middle;
+}
+#games {
+    grid-area: games;
+    background-color: lightgray;
 }
 #player1 {
     grid-area: player1;
@@ -133,13 +137,13 @@ button.player1, button.player2 {
         font-size: 36pt;
     }
     #header {
-        grid-template-columns: 52px 52px 1fr;
+        grid-template-columns: 52px 52px 52px 1fr;
     }
-    #player1, #player2 {
+    #games, #player1, #player2 {
         height: 50px;
         width: 50px;
     }
-    #player1 .score, #player2 .score {
+    #games .score, #player1 .score, #player2 .score {
         font-size: 30pt;
         line-height: 50px;
     }
