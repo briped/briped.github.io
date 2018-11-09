@@ -21,11 +21,7 @@ function resetGame() {
     currentPlayer = 1;
     hideOverlay();
     detectLanguage();
-    document.getElementsByTagName('title')[0].innerHTML = lang[browserLanguage].title;
-    document.getElementById('title').innerHTML = lang[browserLanguage].title;
-    document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = score[1];
-    document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = score[2];
-    document.getElementById('resetGame').innerHTML = lang[browserLanguage].newGame;
+    updatePageElements();
     drawBoard();
 }
 
@@ -44,6 +40,21 @@ function detectLanguage() {
                 break;
             }
         }
+    }
+}
+
+function updatePageElements() {
+    if (debug === true) console.log(`function updatePageElements()...`); // Debugging
+    document.getElementsByTagName('title')[0].innerHTML = lang[browserLanguage].title;
+    document.getElementById('title').innerHTML = lang[browserLanguage].title;
+    document.getElementById('games').getElementsByClassName('score')[0].innerHTML = score[0];
+    document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = score[1];
+    document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = score[2];
+    document.getElementById('resetGame').innerHTML = lang[browserLanguage].newGame;
+
+    if (gameWon !== 0) {
+        document.getElementById('overlayText').innerHTML = `${lang[browserLanguage].Player} ${gameWon}<br />${lang[browserLanguage].WON}`;
+        document.getElementById('overlay').style.display = 'block';
     }
 }
 
@@ -74,11 +85,7 @@ function insertChecker(e) {
             score[0]++;
             score[1] = (currentPlayer === 1) ? score[1] + 1 : score[1];
             score[2] = (currentPlayer === 2) ? score[2] + 1 : score[2];
-            document.getElementById('games').getElementsByClassName('score')[0].innerHTML = score[0];
-            document.getElementById('player1').getElementsByClassName('score')[0].innerHTML = score[1];
-            document.getElementById('player2').getElementsByClassName('score')[0].innerHTML = score[2];
-            document.getElementById('overlayText').innerHTML = `${lang[browserLanguage].Player} ${gameWon}<br />${lang[browserLanguage].WON}`;
-            document.getElementById('overlay').style.display = 'block';
+            updatePageElements();
         }
         updatePlayer();
         drawBoard();
