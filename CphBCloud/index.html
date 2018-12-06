@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
-    <title>Simple Map</title>
+    <title>CphBCloud Google Maps Demo</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 100%;
+            height: 80%;
         }
         /* Optional: Makes the sample page fill the window. */
         html, body {
@@ -20,16 +20,18 @@
 </head>
 <body>
 <div id="map"></div>
-<script>
-    var map;
+<script type="text/javascript">
+    // Nansensgade 19:
+    // 55.682207,12.5604123
+    let map;
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8
+            center: {lat: 55.682207, lng: 12.5604123},
+            zoom: 17
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-K9fJ5Z5y9elRzo7v6UZRxafO3Yf7_E&callback=initMap"
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-K9fJ5Z5y9elRzo7v6UZRxafO3Yf7_E&callback=initMap"
         async defer></script>
 </body>
 </html>
