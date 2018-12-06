@@ -23,10 +23,12 @@
 <script type="text/javascript">
     let map;
     function initMap() {
+        let CphB = {lat: 55.6821037, lng: 12.562491};
         map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 55.682207, lng: 12.5604123},
-            zoom: 17
+            center: {lat: 55.6821037, lng: 12.562491},
+            zoom: 20
         });
+        let marker = new google.maps.Marker({position: CphB, map: map});
     }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-K9fJ5Z5y9elRzo7v6UZRxafO3Yf7_E&callback=initMap"
