@@ -16,15 +16,35 @@
             margin: 0;
             padding: 0;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: 300px 500px;
+            grid-template-areas:
+                    "* header *"
+                    "* footer *"
+        ;
+            grid-gap: 5px;
+        }
+
+        #header {
+            grid-area: header;
+        }
+
+
+        #map {
+            grid-area: map;
+        }
     </style>
 </head>
 <body>
-<div id="header">
-    <h1>Google Maps Demo</h1>
-    <p>Simpel demonstration af Google Maps integration på en webside!</p>
-    <p>Betaling er ikke aktiveret, hvorfor integrationen vil give en fejl!</p>
+<div class="grid">
+    <div id="header">
+        <h1>Google Maps Demo</h1>
+        <p>Simpel demonstration af Google Maps integration på en webside!</p>
+        <p>Betaling er ikke aktiveret, hvorfor integrationen vil give en fejl!</p>
+    </div>
+    <div id="map"></div>
 </div>
-<div id="map"></div>
 <script type="text/javascript">
     // Nansensgade 19:
     // 55.682207,12.5604123
