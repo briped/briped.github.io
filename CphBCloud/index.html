@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <title>CphBCloud Google Maps Demo</title>
+    <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -16,44 +16,11 @@
             margin: 0;
             padding: 0;
         }
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1024px 1fr;
-            grid-template-areas:
-                    ". header ."
-                    ". content ."
-            ;
-        }
-
-        #header {
-            grid-area: header;
-        }
-
-
-        #content {
-            grid-area: content;
-        }
     </style>
 </head>
 <body>
-<div class="grid">
-    <div id="header">
-        <h1>Google Maps Demo</h1>
-        <p>Simpel demonstration af Google Maps integration på en webside!</p>
-        <p>Betaling er ikke aktiveret, hvorfor integrationen vil give en fejl!</p>
-    </div>
-    <div id="content">
-        <!--
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.395234548083!2d12.560294315658577!3d55.68211600490921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQwJzU1LjYiTiAxMsKwMzMnNDQuOSJF!5e0!3m2!1sen!2sdk!4v1544121554630" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        -->
-
-        <div id="map"></div>
-
-    </div>
-</div>
+<div id="map"></div>
 <script type="text/javascript">
-    // Nansensgade 19:
-    // 55.682207,12.5604123
     let map;
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -62,7 +29,7 @@
         });
     }
 </script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-K9fJ5Z5y9elRzo7v6UZRxafO3Yf7_E&callback=initMap"
-        async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-K9fJ5Z5y9elRzo7v6UZRxafO3Yf7_E&callback=initMap"
+        async defer type="text/javascript"></script>
 </body>
 </html>
