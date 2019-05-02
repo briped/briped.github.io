@@ -22,7 +22,7 @@ let last_ascii = 255;
 let ciphertext = '';
 
 for (let c = 0; c < plaintext.length; c++) {
-    ascii_value = c.charCodeAt(0);
+    ascii_value = c.toString().charCodeAt(0);
     ascii_rotated = ascii_value + iteration1rotation;
     if (ascii_rotated < first_ascii) {
         ascii_rotated = ascii_rotated - last_ascii + first_ascii
