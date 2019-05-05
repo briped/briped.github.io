@@ -179,7 +179,7 @@ function decode_transposition_cipher(input, column_key, block_size = 16, column_
 
 
 function encodePlaintext() {
-    let plaintext = document.getElementById('plaintext').value;
+    let plaintext = document.getElementById('plaintext').value.replace(/[\r\n]/g, '');
     console.log('input plaintext: ' + plaintext);
     let date = new Date(document.getElementById('date').value);
     let month = date.getMonth() + 1;
@@ -193,22 +193,25 @@ function encodePlaintext() {
     // First iteration / round
     ciphertext = encode_Caesar_cipher(plaintext, round1);
     console.log('encode round 1: ' + ciphertext);
+    document.getElementById('rounds').innerHTML = 'Round 1: ' + ciphertext + '<br />';
 
     // Second iteration / round
     ciphertext = encode_transposition_cipher(ciphertext, round2);
     console.log('encode round 2: ' + ciphertext);
+    document.getElementById('rounds').innerHTML += 'Round 2: ' + ciphertext + '<br />';
 
     // Third iteration / round
     //ciphertext = plaintext;
     ciphertext = encode_Caesar_cipher(ciphertext, round3);
     console.log('encode round 3: ' + ciphertext);
+    document.getElementById('rounds').innerHTML += 'Round 3: ' + ciphertext + '<br />';
 
     // Output the ciphertext.
     document.getElementById('result').innerText = ciphertext;
 }
 
 function decodeCiphertext() {
-    let ciphertext = document.getElementById('ciphertext').value;
+    let ciphertext = document.getElementById('ciphertext').value.replace(/[\r\n]/g, '');
     console.log('input ciphertext: ' + ciphertext);
     let date = new Date(document.getElementById('date').value);
     let month = date.getMonth() + 1;
@@ -222,15 +225,18 @@ function decodeCiphertext() {
     // Third iteration / round
     ciphertext = decode_Caesar_cipher(ciphertext, round3);
     console.log('decode round 3: ' + ciphertext);
+    document.getElementById('rounds').innerHTML = 'Round 3: ' + ciphertext + '<br />';
     //plaintext = ciphertext;
 
     // Second iteration / round
     ciphertext = decode_transposition_cipher(ciphertext, round2);
     console.log('decode round 2: ' + ciphertext);
+    document.getElementById('rounds').innerHTML += 'Round 2: ' + ciphertext + '<br />';
 
     // First iteration / round
     plaintext = decode_Caesar_cipher(ciphertext, round1);
     console.log('decode round 1: ' + plaintext);
+    document.getElementById('rounds').innerHTML += 'Round 1: ' + plaintext + '<br />';
 
     // Output the ciphertext.
     document.getElementById('result').innerText = plaintext;
