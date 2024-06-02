@@ -1,6 +1,5 @@
 ﻿$global:ApiBase = [uri]'https://api.dr.dk/radio/v2'
 $global:ImgBase = [uri]'https://asset.dr.dk/imagescaler/'
-$global:RssBase = [uri]'https://briped.github.io/podcast/'
 $global:Headers = @{
     'x-apikey' = $ApiKey
 }
