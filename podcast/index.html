@@ -1,0 +1,163 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Podcasts</title>
+            <style type="text/css">
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 10px;
+                padding: 10px;
+            }
+            .grid-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .podcast-container {
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+            }
+            .podcast-container img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .podcast-name {
+                margin-top: 5px;
+                text-align: center;
+                font-size: 14px;
+                color: #333;
+            }
+            .podcast-episodes {
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+                font-size: 12px;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 2px 5px;
+                border-radius: 3px;
+            }
+            </style>
+        </head>
+        <body>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/radioavisen.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a647ee397c22b8f3fdc4aab7a&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Radioavisen"></a>
+                        <div class="podcast-episodes">115 episoder</div>
+                    </div>
+                    <div class="podcast-name">Radioavisen</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/genstart.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba223a729888d1a2243f&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart"></a>
+                        <div class="podcast-episodes">706 episoder</div>
+                    </div>
+                    <div class="podcast-name">Genstart</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/tiden.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593b98a9c4b2f6de9d92d84&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Tiden"></a>
+                        <div class="podcast-episodes">115 episoder</div>
+                    </div>
+                    <div class="podcast-name">Tiden</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/ubegribeligt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315d3e81e2096ec3dc3d379&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Ubegribeligt"></a>
+                        <div class="podcast-episodes">96 episoder</div>
+                    </div>
+                    <div class="podcast-name">Ubegribeligt</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/prompt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a64d489401f6c4a4637238f44&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Prompt"></a>
+                        <div class="podcast-episodes">40 episoder</div>
+                    </div>
+                    <div class="podcast-name">Prompt</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/udsyn.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba979973a9c8373cfcf2&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Udsyn"></a>
+                        <div class="podcast-episodes">88 episoder</div>
+                    </div>
+                    <div class="podcast-name">Udsyn</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/brinkmanns-briks.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a636ba71d29364a6f99a09648&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Brinkmanns briks"></a>
+                        <div class="podcast-episodes">255 episoder</div>
+                    </div>
+                    <div class="podcast-name">Brinkmanns briks</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/enter-internettets-skygge.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a645ce7499b4349a053c62993&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Enter - Internettets skygge"></a>
+                        <div class="podcast-episodes">28 episoder</div>
+                    </div>
+                    <div class="podcast-name">Enter - Internettets skygge</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/bakspejl.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318bc6de354a45e20d4ce80&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Bakspejl"></a>
+                        <div class="podcast-episodes">99 episoder</div>
+                    </div>
+                    <div class="podcast-name">Bakspejl</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/genstart-dox.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a65cdea4bc83e7e202428fb5d&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart Dox"></a>
+                        <div class="podcast-episodes">6 episoder</div>
+                    </div>
+                    <div class="podcast-name">Genstart Dox</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/flyvende-tallerken.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a631759c11e2096ec3dc5a404&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Flyvende tallerken"></a>
+                        <div class="podcast-episodes">86 episoder</div>
+                    </div>
+                    <div class="podcast-name">Flyvende tallerken</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/de-lovloese.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a655efc0ba21bc7ed8b10188e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De lovløse"></a>
+                        <div class="podcast-episodes">33 episoder</div>
+                    </div>
+                    <div class="podcast-name">De lovløse</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/rockerne-mod-fiskerne.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315f300e354a45e20d1912e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Rockerne mod fiskerne"></a>
+                        <div class="podcast-episodes">2 episoder</div>
+                    </div>
+                    <div class="podcast-name">Rockerne mod fiskerne</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/de-hemmelige-aktionaerer.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a63177ede1e2096ec3dc5cf26&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De hemmelige aktionærer"></a>
+                        <div class="podcast-episodes">6 episoder</div>
+                    </div>
+                    <div class="podcast-name">De hemmelige aktionærer</div>
+                </div>
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="https://briped.github.io/podcast/dronekrigeren.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318cd7ce354a45e20d4e3b3&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Dronekrigeren"></a>
+                        <div class="podcast-episodes">16 episoder</div>
+                    </div>
+                    <div class="podcast-name">Dronekrigeren</div>
+                </div>
+        </div>
+    </body>
+</html>
