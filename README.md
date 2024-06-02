@@ -1,5 +1,3 @@
-# briped.github.io
-
 A place to play around with static web technologies, and maybe a few other bits and bobs.
 
 ## DR Podcast
