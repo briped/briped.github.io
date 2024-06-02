@@ -2,7 +2,7 @@
 $global:ImgBase = [uri]'https://asset.dr.dk/imagescaler/'
 $global:RssBase = [uri]'https://briped.github.io/podcast/'
 $global:Headers = @{
-    'x-apikey' = '6Wkh8s98Afx1ZAaTT4FuWODTmvWGDPpR'
+    'x-apikey' = $ApiKey
 }
 function Search-Podcast {
     [CmdletBinding()]
@@ -223,73 +223,40 @@ function New-Html {
     begin {
         Write-Verbose -Message $Podcast.Count
         $Html = @"
-    <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Podcasts</title>
-            <style type="text/css">
-            body {
-                margin: 0;
-                font-family: Arial, sans-serif;
-            }
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 10px;
-                padding: 10px;
-            }
-            .grid-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .podcast-container {
-                width: 100%;
-                padding-top: 100%;
-                position: relative;
-            }
-            .podcast-container img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            .podcast-name {
-                margin-top: 5px;
-                text-align: center;
-                font-size: 14px;
-                color: #333;
-            }
-            .podcast-episodes {
-                position: absolute;
-                bottom: 5px;
-                right: 5px;
-                font-size: 12px;
-                color: #fff;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 2px 5px;
-                border-radius: 3px;
-            }
-            </style>
-        </head>
-        <body>
-            <div class="grid-container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DR Podcasts</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title">DR Podcasts</h1>
+        </header>
+        <div class="grid-container">
 "@
     }
     process {
         $Html += @"
 
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)"></a>
+            <div class="grid-item" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
+                <div class="podcast-container">
+                    <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">$($Podcast.numberOfEpisodes) episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="$($Podcast.presentationUrl)">$($Podcast.title)</a></div>
+                    </a>
                 </div>
+                <div class="podcast-name">
+                    <a href="$($Podcast.presentationUrl)">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        $($Podcast.title)
+                    </a>
+                </div>
+            </div>
 "@
     }
     end {
