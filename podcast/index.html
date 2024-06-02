@@ -1,163 +1,256 @@
-    <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Podcasts</title>
-            <style type="text/css">
-            body {
-                margin: 0;
-                font-family: Arial, sans-serif;
-            }
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 10px;
-                padding: 10px;
-            }
-            .grid-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .podcast-container {
-                width: 100%;
-                padding-top: 100%;
-                position: relative;
-            }
-            .podcast-container img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            .podcast-name {
-                margin-top: 5px;
-                text-align: center;
-                font-size: 14px;
-                color: #333;
-            }
-            .podcast-episodes {
-                position: absolute;
-                bottom: 5px;
-                right: 5px;
-                font-size: 12px;
-                color: #fff;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 2px 5px;
-                border-radius: 3px;
-            }
-            </style>
-        </head>
-        <body>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/radioavisen.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a647ee397c22b8f3fdc4aab7a&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Radioavisen"></a>
-                        <div class="podcast-episodes">115 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p4/radioavisen-2467664383000">Radioavisen</a></div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DR Podcasts</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title">DR Podcasts</h1>
+        </header>
+        <div class="grid-container">
+            <div class="grid-item" title="Radioavisen - 118 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/radioavisen.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a647ee397c22b8f3fdc4aab7a&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Radioavisen">
+                        <div class="rss-icon"></div>
+                        <div class="podcast-episodes">118 episoder</div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/genstart.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba223a729888d1a2243f&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p4/radioavisen-2467664383000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Radioavisen
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Genstart - 706 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/genstart.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba223a729888d1a2243f&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">706 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/genstart-2642056922000">Genstart</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/tiden.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593b98a9c4b2f6de9d92d84&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Tiden"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/genstart-2642056922000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Genstart
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Tiden - 115 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/tiden.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593b98a9c4b2f6de9d92d84&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Tiden">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">115 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/tiden-3364647813000">Tiden</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/ubegribeligt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315d3e81e2096ec3dc3d379&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Ubegribeligt"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/tiden-3364647813000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Tiden
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Ubegribeligt - 96 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/ubegribeligt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315d3e81e2096ec3dc3d379&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Ubegribeligt">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">96 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/ubegribeligt-3455554599000">Ubegribeligt</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/prompt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a64d489401f6c4a4637238f44&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Prompt"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/ubegribeligt-3455554599000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Ubegribeligt
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Prompt - 40 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/prompt.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a64d489401f6c4a4637238f44&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Prompt">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">40 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/prompt-4712131124000">Prompt</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/udsyn.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba979973a9c8373cfcf2&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Udsyn"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/prompt-4712131124000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Prompt
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Udsyn - 88 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/udsyn.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6593ba979973a9c8373cfcf2&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Udsyn">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">88 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/udsyn-759561186000">Udsyn</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/brinkmanns-briks.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a636ba71d29364a6f99a09648&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Brinkmanns briks"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/udsyn-759561186000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Udsyn
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Brinkmanns briks - 255 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/brinkmanns-briks.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a636ba71d29364a6f99a09648&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Brinkmanns briks">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">255 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/brinkmanns-briks-2144855835000">Brinkmanns briks</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/enter-internettets-skygge.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a645ce7499b4349a053c62993&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Enter - Internettets skygge"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/brinkmanns-briks-2144855835000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Brinkmanns briks
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Enter - Internettets skygge - 28 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/enter-internettets-skygge.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a645ce7499b4349a053c62993&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Enter - Internettets skygge">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">28 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/enter-internettets-skygge-4577875523000">Enter - Internettets skygge</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/bakspejl.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318bc6de354a45e20d4ce80&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Bakspejl"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/enter-internettets-skygge-4577875523000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Enter - Internettets skygge
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Bakspejl - 99 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/bakspejl.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318bc6de354a45e20d4ce80&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Bakspejl">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">99 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/bakspejl-2868092680000">Bakspejl</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/genstart-dox.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a65cdea4bc83e7e202428fb5d&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart Dox"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/bakspejl-2868092680000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Bakspejl
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Genstart Dox - 6 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/genstart-dox.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a65cdea4bc83e7e202428fb5d&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Genstart Dox">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">6 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/genstart-dox-5314646134000">Genstart Dox</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/flyvende-tallerken.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a631759c11e2096ec3dc5a404&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Flyvende tallerken"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/genstart-dox-5314646134000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Genstart Dox
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Flyvende tallerken - 86 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/flyvende-tallerken.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a631759c11e2096ec3dc5a404&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Flyvende tallerken">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">86 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/flyvende-tallerken-2892284837000">Flyvende tallerken</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/de-lovloese.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a655efc0ba21bc7ed8b10188e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De lovløse"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/flyvende-tallerken-2892284837000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Flyvende tallerken
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="De lovløse - 33 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/de-lovloese.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a655efc0ba21bc7ed8b10188e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De lovløse">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">33 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/special-radio/de-lovloese-3337857881000">De lovløse</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/rockerne-mod-fiskerne.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315f300e354a45e20d1912e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Rockerne mod fiskerne"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/special-radio/de-lovloese-3337857881000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        De lovløse
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Rockerne mod fiskerne - 2 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/rockerne-mod-fiskerne.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6315f300e354a45e20d1912e&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Rockerne mod fiskerne">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">2 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/rockerne-mod-fiskerne-3372370660000">Rockerne mod fiskerne</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/de-hemmelige-aktionaerer.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a63177ede1e2096ec3dc5cf26&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De hemmelige aktionærer"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/rockerne-mod-fiskerne-3372370660000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Rockerne mod fiskerne
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="De hemmelige aktionærer - 6 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/de-hemmelige-aktionaerer.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a63177ede1e2096ec3dc5cf26&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="De hemmelige aktionærer">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">6 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/de-hemmelige-aktionaerer-2903874400000">De hemmelige aktionærer</a></div>
+                    </a>
                 </div>
-                <div class="grid-item">
-                    <div class="podcast-container">
-                        <a href="https://briped.github.io/podcast/dronekrigeren.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318cd7ce354a45e20d4e3b3&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Dronekrigeren"></a>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/de-hemmelige-aktionaerer-2903874400000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        De hemmelige aktionærer
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item" title="Dronekrigeren - 16 episoder">
+                <div class="podcast-container">
+                    <a href="https://briped.github.io/podcast/dronekrigeren.xml"><img src="https://asset.dr.dk/imagescaler/?protocol=https&#x26;server=api.dr.dk&#x26;file=%2fradio%2fv2%2fimages%2fraw%2furn%3adr%3aradio%3aimage%3a6318cd7ce354a45e20d4e3b3&#x26;scaleAfter=crop&#x26;quality=70&#x26;w=720&#x26;h=720" alt="Dronekrigeren">
+                        <div class="rss-icon"></div>
                         <div class="podcast-episodes">16 episoder</div>
-                    </div>
-                    <div class="podcast-name"><a href="https://www.dr.dk/lyd/p1/dronekrigeren-2272684245000">Dronekrigeren</a></div>
+                    </a>
                 </div>
+                <div class="podcast-name">
+                    <a href="https://www.dr.dk/lyd/p1/dronekrigeren-2272684245000">
+                        <div class="drlyd-icon">
+                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
+                        </div>
+                        Dronekrigeren
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
