@@ -288,7 +288,7 @@ function New-Html {
                         <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)"></a>
                         <div class="podcast-episodes">$($Podcast.numberOfEpisodes) episoder</div>
                     </div>
-                    <div class="podcast-name">$($Podcast.title)</div>
+                    <div class="podcast-name"><a href="$($Podcast.presentationUrl)">$($Podcast.title)</a></div>
                 </div>
 "@
     }
