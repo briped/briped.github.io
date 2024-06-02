@@ -1,3 +1,4 @@
+$global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')
 $Manifest = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'DRPodcast.psd1')
 Import-Module -Force -Name $Manifest
 $Favorites = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'favorites.json')
