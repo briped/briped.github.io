@@ -69,6 +69,10 @@ function Get-Podcast {
         Write-Verbose -Message "Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
         $Podcast = Invoke-RestMethod @Splatter
 
+        $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
+		$RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
+		$RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
+
         $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'Podcast'
         $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
         $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
@@ -82,8 +86,12 @@ function Get-Podcast {
         $UriBuilder = [System.UriBuilder]$ImgBase
         $UriBuilder.Query = $QueryCollection.ToString().Replace('&', '&#x26;')
         $ImageUri = $UriBuilder.Uri.AbsoluteUri
-        $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $($Podcast.slug.Replace("-$($Podcast.productionNumber)", ''))
+        Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
+        $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
+        Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
         $Podcast | Add-Member -NotePropertyName imageUri -NotePropertyValue $ImageUri
+        Write-Verbose -Message "Adding property: rssUri = $($RssUri))"
+        $Podcast | Add-Member -NotePropertyName rssUri -NotePropertyValue $RssUri
         $Podcast
     }
     end {}
@@ -125,7 +133,7 @@ function Get-Episode {
     }
     end {}
 }
-function New-RSSFeed {
+function New-Rss {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true
@@ -137,9 +145,6 @@ function New-RSSFeed {
         [System.Object]
         $Podcast
     )
-    $RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Podcast.sSlug).xml").LocalPath -split '/' | Where-Object { $_ }
-    $RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
-
     $Rss = @"
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" 
@@ -147,7 +152,7 @@ function New-RSSFeed {
     xmlns:media="http://search.yahoo.com/mrss/" 
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
-        <atom:link href="$($RssUri)" 
+        <atom:link href="$($Podcast.rssUri)" 
             rel="self" 
             type="application/rss+xml" />
         <title>$($Podcast.title.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</title>
@@ -163,7 +168,7 @@ function New-RSSFeed {
             <itunes:email>podcast@dr.dk</itunes:email>
             <itunes:name>DR</itunes:name>
         </itunes:owner>
-        <itunes:new-feed-url>$($RssUri)</itunes:new-feed-url>
+        <itunes:new-feed-url>$($Podcast.rssUri)</itunes:new-feed-url>
         <image>
             <url>$($Podcast.imageUri)</url>
             <title>$($Podcast.title.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</title>
@@ -202,4 +207,98 @@ function New-RSSFeed {
 </rss>
 "@
     $Rss
+}
+function New-Html {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true
+                  ,ValueFromPipeline = $true
+                  ,ValueFromPipelineByPropertyName = $true
+                  ,ValueFromRemainingArguments = $false
+                  ,Position = 0)]
+        [ValidateNotNullOrEmpty()]
+        [System.Object]
+        $Podcast
+    )
+    begin {
+        Write-Verbose -Message $Podcast.Count
+        $Html = @"
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Podcasts</title>
+            <style type="text/css">
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 10px;
+                padding: 10px;
+            }
+            .grid-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .podcast-container {
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+            }
+            .podcast-container img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .podcast-name {
+                margin-top: 5px;
+                text-align: center;
+                font-size: 14px;
+                color: #333;
+            }
+            .podcast-episodes {
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+                font-size: 12px;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 2px 5px;
+                border-radius: 3px;
+            }
+            </style>
+        </head>
+        <body>
+            <div class="grid-container">
+"@
+    }
+    process {
+        $Html += @"
+
+                <div class="grid-item">
+                    <div class="podcast-container">
+                        <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)"></a>
+                        <div class="podcast-episodes">$($Podcast.numberOfEpisodes) episoder</div>
+                    </div>
+                    <div class="podcast-name">$($Podcast.title)</div>
+                </div>
+"@
+    }
+    end {
+        $Html += @"
+
+        </div>
+    </body>
+</html>
+"@
+        $Html
+    }
 }
