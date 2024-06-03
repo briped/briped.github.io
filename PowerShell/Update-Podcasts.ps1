@@ -2,11 +2,13 @@ $global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot 
 $global:RssBase = [uri]'https://xmpl.dk/podcast/'
 $Manifest = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'DRPodcast.psd1')
 Import-Module -Force -Name $Manifest
-$Favorites = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'favorites.json')
+$Favorites = Get-Content -Raw -Encoding utf8 -Path (Join-Path -Path $PSScriptRoot -ChildPath 'favorites.json') | ConvertFrom-Json
+$Walled = Get-Content -Raw -Encoding utf8 -Path (Join-Path -Path $PSScriptRoot -ChildPath 'walled.json') | ConvertFrom-Json
 $FeedsPath = [System.IO.FileInfo](Join-Path -Path (Get-Item -Path $PSScriptRoot).Parent -ChildPath 'podcast')
 
-$Podcasts = Get-Content -Encoding utf8 -Path $Favorites.FullName | 
-	ConvertFrom-Json | 
+$Podcasts = $Favorites + $Walled | 
+	Sort-Object -Unique id | 
+	Sort-Object -Property title | 
 	Get-DRPodcast
 
 foreach ($Podcast in $Podcasts) {
