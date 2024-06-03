@@ -18,7 +18,7 @@ body {
 	max-width: 50rem;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	gap: 10px;
 	padding: 10px;
 }
@@ -26,7 +26,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 11rem;
+	/*height: 11rem;*/
 }
 .podcast-container {
 	width: 100%;
@@ -69,8 +69,10 @@ body {
 	border-radius: 3px;
 	display: none;
 }
-.podcast-container:hover .podcast-episodes {
-	display: block;
+.podcast-container:hover .podcast-episodes,
+.podcast-container:active .podcast-episodes,
+.podcast-container:focus .podcast-episodes {
+    display: block;
 }
 .rss-icon {
 	position: absolute;
@@ -83,7 +85,6 @@ body {
 	opacity: 0.5;
 }
 .drlyd-icon {
-	/*position: relative;*/
 	display: inline-block;
 	margin-right: 0;
 	width: 1em;
@@ -91,6 +92,36 @@ body {
 	vertical-align: middle;
 	background-image: url('icon-logo-drlyd.svg');
 	background-size: cover;
+}
+@media (hover: none) {
+    .podcast-episodes {
+        display: block;
+    }
+}
+@media (hover: hover) {
+	.podcast-episodes::after {
+		content: " episodes";
+	}
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Changed to two columns */
+        gap: 5px;
+        padding: 5px; /* Reduced padding */
+    }
+    .grid-item {
+        height: auto; /* Allow dynamic height */
+    }
+    .podcast-container {
+        padding-top: 100%; /* Maintain aspect ratio */
+    }
+    .podcast-container img {
+        width: 100%; /* Adjust image size */
+        height: 100%; /* Adjust image size */
+    }
+    .podcast-episodes {
+        display: block; /* Always show on small screens */
+    }
 }
 @media (prefers-color-scheme: dark) {
     body {
