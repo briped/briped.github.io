@@ -223,7 +223,7 @@ function New-Html {
         Write-Verbose -Message $Podcast.Count
         $Html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -244,7 +244,7 @@ function New-Html {
                 <div class="podcast-container">
                     <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)">
                         <div class="rss-icon"></div>
-                        <div class="podcast-episodes">$($Podcast.numberOfEpisodes) episoder</div>
+                        <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
                     </a>
                 </div>
                 <div class="podcast-name">
