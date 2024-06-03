@@ -72,7 +72,7 @@ function Get-Podcast {
 		$RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
 		$RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
 
-        $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'Podcast'
+        $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'SquareImage'
         $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
         $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
         $QueryCollection.Add('protocol', $ApiBase.Scheme)
