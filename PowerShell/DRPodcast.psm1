@@ -242,13 +242,13 @@ function New-Html {
 
             <div class="grid-item" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
                 <div class="podcast-container">
-                    <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)">
-                        <div class="rss-icon"></div>
-                        <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
-                    </a>
-                </div>
+                    <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)"></a>
+                    <a href="pcast://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="rss-icon"></div></a>
+                    <a href="feed://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="podcast-icon"></div></a>
+                    <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
+            </div>
                 <div class="podcast-name">
-                    <a href="$($Podcast.presentationUrl)">
+                    <a href="$($Podcast.presentationUrl)" target="_blank">
                         <div class="drlyd-icon">
                             <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
                         </div>
