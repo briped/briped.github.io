@@ -69,8 +69,8 @@ function Get-Podcast {
         $Podcast = Invoke-RestMethod @Splatter
 
         $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
-		$RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
-		$RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
+        $RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
+        $RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
 
         $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'SquareImage'
         $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
@@ -227,12 +227,13 @@ function New-Html {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DR Podcasts</title>
+        <title>DR Lyd - Recycled</title>
+        <link rel="icon" href="assets/icon-recycle.svg">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header class="header">
-            <h1 class="title">DR Podcasts</h1>
+            <h1 class="title">DR Lyd - Recycled</h1>
         </header>
         <div class="grid-container">
 "@
@@ -243,15 +244,13 @@ function New-Html {
             <div class="grid-item" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
                 <div class="podcast-container">
                     <a href="$($Podcast.rssUri)"><img src="$($Podcast.imageUri)" alt="$($Podcast.title)"></a>
-                    <a href="feed://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="rss-icon"></div></a>
-                    <a href="pcast://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="podcast-icon"></div></a>
+                    <a href="feed://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-rss"></div></a>
+                    <a href="pcast://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-app-pcast"></div></a>
                     <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
-            </div>
+                </div>
                 <div class="podcast-name">
                     <a href="$($Podcast.presentationUrl)" target="_blank">
-                        <div class="drlyd-icon">
-                            <img src="icon-logo-drlyd.svg" alt="DR Lyd logo">
-                        </div>
+                        <div class="icon-logo-drlyd"></div>
                         $($Podcast.title)
                     </a>
                 </div>
