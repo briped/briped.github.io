@@ -1,4 +1,7 @@
-﻿$global:ApiBase = [uri]'https://api.dr.dk/radio/v2'
+﻿$global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')
+$global:PodBase = [uri]'https://xmpl.dk/podcast/'
+$global:PodPath = [System.IO.FileInfo](Join-Path -Path (Get-Item -Path $PSScriptRoot).Parent -ChildPath 'podcast')
+$global:ApiBase = [uri]'https://api.dr.dk/radio/v2'
 $global:ImgBase = [uri]'https://asset.dr.dk/imagescaler/'
 $global:Headers = @{
     'x-apikey' = $ApiKey
@@ -40,7 +43,33 @@ function Search-Podcast {
         $Splatter.Uri = $UriBuilder.Uri
         Write-Verbose -Message "Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
         $Response = Invoke-RestMethod @Splatter
-        $Response.items
+        
+        foreach ($Podcast in $Response.items) {
+            $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
+            $RssPath = ([uri]"$($PodBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
+            $RssUri = [uri]"$($PodBase.Scheme)://$($PodBase.Host)/$($RssPath -join '/')"
+    
+            $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'podcast'
+            $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
+            $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
+            $QueryCollection.Add('protocol', $ApiBase.Scheme)
+            $QueryCollection.Add('server', $ApiBase.Host)
+            $QueryCollection.Add('file', "/$($ApiPath -join '/')")
+            $QueryCollection.Add('scaleAfter', 'crop')
+            $QueryCollection.Add('quality', 70)
+            $QueryCollection.Add('w', 720)
+            $QueryCollection.Add('h', 720)
+            $UriBuilder = [System.UriBuilder]$ImgBase
+            $UriBuilder.Query = $QueryCollection.ToString()
+            $ImageUri = $UriBuilder.Uri
+            Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
+            $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
+            Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
+            $Podcast | Add-Member -NotePropertyName imageUri -NotePropertyValue $ImageUri
+            Write-Verbose -Message "Adding property: rssUri = $($RssUri))"
+            $Podcast | Add-Member -NotePropertyName rssUri -NotePropertyValue $RssUri
+            $Podcast
+        }
     }
     end {}
 }
@@ -69,10 +98,10 @@ function Get-Podcast {
         $Podcast = Invoke-RestMethod @Splatter
 
         $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
-        $RssPath = ([uri]"$($RssBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
-        $RssUri = [uri]"$($RssBase.Scheme)://$($RssBase.Host)/$($RssPath -join '/')"
+        $RssPath = ([uri]"$($PodBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
+        $RssUri = [uri]"$($PodBase.Scheme)://$($PodBase.Host)/$($RssPath -join '/')"
 
-        $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'SquareImage'
+        $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'podcast'
         $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
         $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
         $QueryCollection.Add('protocol', $ApiBase.Scheme)
@@ -83,8 +112,8 @@ function Get-Podcast {
         $QueryCollection.Add('w', 720)
         $QueryCollection.Add('h', 720)
         $UriBuilder = [System.UriBuilder]$ImgBase
-        $UriBuilder.Query = $QueryCollection.ToString().Replace('&', '&#x26;')
-        $ImageUri = $UriBuilder.Uri.AbsoluteUri
+        $UriBuilder.Query = $QueryCollection.ToString()
+        $ImageUri = $UriBuilder.Uri
         Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
         $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
         Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
@@ -144,6 +173,20 @@ function New-Rss {
         [System.Object]
         $Podcast
     )
+    #https://www.rssboard.org/
+    function repl {
+        param(
+            [string]$String
+        )
+        $String.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('>', '&#x3E;')
+    }
+    $TitleSuffix = ' (recycled)'
+    $DescriptionSuffix = "`r`n`r`n<a href=`"$($PodBase)`">Recycled</a> DR Podcast."
+    $Title = repl($Podcast.title + $TitleSuffix)
+    $Description = repl($Podcast.description + $DescriptionSuffix)
+    if (!($ImageUri = Resolve-Path -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg") -ErrorAction SilentlyContinue)) {
+        $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+    }
     $Rss = @"
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" 
@@ -154,9 +197,9 @@ function New-Rss {
         <atom:link href="$($Podcast.rssUri)" 
             rel="self" 
             type="application/rss+xml" />
-        <title>$($Podcast.title.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</title>
+        <title>$($Title)</title>
         <link>$($Podcast.presentationUrl)</link>
-        <description>$($Podcast.description.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</description>
+        <description>$($Description)</description>
         <language>da</language>
         <copyright>DR</copyright>
         <managingEditor>podcast@dr.dk</managingEditor>
@@ -169,11 +212,11 @@ function New-Rss {
         </itunes:owner>
         <itunes:new-feed-url>$($Podcast.rssUri)</itunes:new-feed-url>
         <image>
-            <url>$($Podcast.imageUri)</url>
-            <title>$($Podcast.title.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</title>
+            <url>$($ImageUri)</url>
+            <title>$($Title)</title>
             <link>$($Podcast.presentationUrl)</link>
         </image>
-        <itunes:image href="$($Podcast.imageUri)" />
+        <itunes:image href="$($ImageUri)" />
         <media:restriction type="country" relationship="allow">dk</media:restriction>
 "@
     foreach ($Category in $Podcast.categories) {
@@ -188,8 +231,8 @@ function New-Rss {
         <item>
             <guid isPermaLink="false">$($Episode.productionNumber)</guid>
             <link>$($Episode.presentationUrl)</link>
-            <title>$($Episode.title.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</title>
-            <description>$($Episode.description.Replace('&', '&#x26;').Replace('<', '&#x3C;').Replace('<', '&#x3E;'))</description>
+            <title>$(repl($Episode.title))</title>
+            <description>$(repl($Episode.description))</description>
             <pubDate>$($Episode.publishTime.ToString("ddd, dd MMM yyyy HH:mm:ss zzz"))</pubDate>
             <itunes:explicit>$($Episode.explicitContent)</itunes:explicit>
             <itunes:author>DR</itunes:author>
@@ -266,4 +309,102 @@ function New-Html {
 "@
         $Html
     }
+}
+function Add-Watermark {
+    param (
+        [Parameter(Mandatory = $true)]
+        [System.IO.FileInfo]
+        $ImagePath
+        ,
+        [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
+        [string]
+        $OutputPath
+        ,
+        [Parameter()]
+        [ValidateNotNullOrEmpty()]
+        [System.IO.FileInfo]
+        $WatermarkPath
+        ,
+        # X position of watermark
+        [Parameter()]
+        [Alias('x')]
+        [int]
+        $PositionX
+        ,
+        # Y position of watermark
+        [Parameter()]
+        [Alias('y')]
+        [int]
+        $PositionY
+        ,
+        # Height of watermark
+        [Parameter()]
+        [ValidatePattern('[1-9]+(px|%)?')]
+        [Alias('h')]
+        [string]
+        $Height
+        ,
+        # Width of watermark
+        [Parameter()]
+        [ValidatePattern('[1-9]+(px|%)?')]
+        [Alias('w')]
+        [string]
+        $Width
+        ,
+        # Opacity of watermark
+        [Parameter()]
+        [ValidateRange(0, 100)]
+        [Alias('o')]
+        [int]
+        $Opacity
+    )
+    Add-Type -AssemblyName System.Drawing
+    $Image  = [System.Drawing.Image]::FromFile($ImagePath)
+    $Watermark = [System.Drawing.Image]::FromFile($WatermarkPath)
+    $Ratio = $Watermark.Width / $Watermark.Height
+
+    if ($Height -match '(?<n>\d+)(?<u>px|%)?') {
+        $Height = if ($Matches.u -eq '%') { [int](($Image.Height / 100) * $Matches.n) } else { [int]$Matches.n }
+    }
+    if ($Width -match '(?<n>\d+)(?<u>px|%)?') {
+        $Width = if ($Matches.u -eq '%') { [int](($Image.Width / 100) * $Matches.n) } else { [int]$Matches.n }
+    }
+    if (!$Width -and !$Height) {
+        $Width = $Watermark.Width
+        $Height = $Watermark.Height
+    }
+    elseif (!$Height) {
+        $Height = [int]($Width / $Ratio)
+    }
+    elseif (!$Width) {
+        $Width = [int]($Height * $Ratio)
+    }
+
+    $Graphics = [System.Drawing.Graphics]::FromImage($Image)
+    if ($Opacity) {
+        [float]$Opacity = if ($Opacity -gt 0) { $Opacity / 100 } else { $Opacity }
+        $ColorMatrix = New-Object System.Drawing.Imaging.ColorMatrix
+        $ColorMatrix.Matrix33 = $Opacity
+        $ImageAttributes = New-Object System.Drawing.Imaging.ImageAttributes
+        $ImageAttributes.SetColorMatrix($ColorMatrix, [System.Drawing.Imaging.ColorMatrixFlag]::Default, [System.Drawing.Imaging.ColorAdjustType]::Bitmap)
+    
+        $Graphics.DrawImage(
+            $Watermark,
+            [System.Drawing.Rectangle]::new($PositionX, $PositionY, $Width, $Height),
+            0,
+            0,
+            $Watermark.Width,
+            $Watermark.Height,
+            [System.Drawing.GraphicsUnit]::Pixel,
+            $ImageAttributes
+        )
+    }
+    else {
+        $Graphics.DrawImage($Watermark, $PositionX, $PositionY, $Width, $Height)
+    }
+    $Image.Save($OutputPath, [System.Drawing.Imaging.ImageFormat]::Jpeg)
+    $Graphics.Dispose()
+    $Image.Dispose()
+    $Watermark.Dispose()
 }
