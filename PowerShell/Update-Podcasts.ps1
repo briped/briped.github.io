@@ -3,7 +3,6 @@ $global:RssBase = [uri]'https://xmpl.dk/podcast/'
 $Manifest = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'DRPodcast.psd1')
 Import-Module -Force -Name $Manifest
 $Walled = Get-Content -Raw -Encoding utf8 -Path (Join-Path -Path $PSScriptRoot -ChildPath 'walled.json') | ConvertFrom-Json
-$FeedsPath = [System.IO.FileInfo](Join-Path -Path (Get-Item -Path $PSScriptRoot).Parent -ChildPath 'podcast')
 
 $Podcasts = $Walled | 
 	Sort-Object -Unique id | 
