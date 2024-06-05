@@ -26,7 +26,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/*height: 11rem;*/
 }
 .podcast-container {
 	width: 100%;
@@ -74,7 +73,7 @@ body {
 .podcast-container:focus .podcast-episodes {
     display: block;
 }
-.rss-icon, .podcast-icon {
+.icon-rss, .icon-app-pcast {
 	position: absolute;
 	bottom: 5px;
 	width: 30px;
@@ -82,24 +81,24 @@ body {
 	background-size: cover;
 	opacity: 0.5;
 }
-.rss-icon:hover, .podcast-icon:hover {
+.icon-rss:hover, .icon-app-pcast:hover {
 	opacity: 1.0;
 }
-.rss-icon {
+.icon-rss {
 	left: 5px;
-	background-image: url('icon-feed.svg');
+	background-image: url('assets/icon-rss.svg');
 }
-.podcast-icon {
+.icon-app-pcast {
 	right: 5px;
-	background-image: url('icon-podcast.svg');
+	background-image: url('assets/icon-app-pcast.svg');
 }
-.drlyd-icon {
+.icon-logo-drlyd {
 	display: inline-block;
 	margin-right: 0;
 	width: 1em;
 	height: 1em;
 	vertical-align: middle;
-	background-image: url('icon-logo-drlyd.svg');
+	background-image: url('assets/icon-logo-drlyd.svg');
 	background-size: cover;
 }
 @media (hover: none) {
@@ -149,7 +148,4 @@ body {
     .podcast-name a {
         color: #ccc;
     }
-	.drlyd-icon {
-		background-image: url('icon-logo-drlyd-dark.svg');
-	}
 }
