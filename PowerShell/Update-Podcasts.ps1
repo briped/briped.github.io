@@ -10,9 +10,9 @@ $Podcasts = $Walled |
 	Get-DRPodcast
 
 foreach ($Podcast in $Podcasts) {
-	$Feed = Join-Path -Path $FeedsPath -ChildPath "$($Podcast.sSlug).xml"
+	$Feed = Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).xml"
 	$Podcast | Add-Member -NotePropertyName episodes -NotePropertyValue $(Get-DREpisode -Id $Podcast.id -Limit 10000)
 	$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $Feed
 }
-$Html = Join-Path -Path $FeedsPath -ChildPath "index.html"
+$Html = Join-Path -Path $PodPath -ChildPath "index.html"
 $Podcasts | New-DRHtml | Out-File -Force -Encoding utf8 -FilePath $Html
