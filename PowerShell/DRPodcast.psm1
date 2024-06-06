@@ -239,7 +239,7 @@ function New-Rss {
             <itunes:author>DR</itunes:author>
             <itunes:duration>$(New-TimeSpan -Milliseconds $Episode.durationMilliseconds).ToString('hh\:mm\:ss')</itunes:duration>
             <media:restriction type="country" relationship="allow">dk</media:restriction>
-            <enclosure url="$($AudioAsset.url).$($AudioAsset.format)" 
+            <enclosure url="$($AudioAsset.url)" 
                 type="audio/mpeg" 
                 length="$($AudioAsset.fileSize)" />
         </item>
