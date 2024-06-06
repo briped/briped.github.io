@@ -184,8 +184,9 @@ function New-Rss {
     $DescriptionSuffix = "`r`n`r`n<a href=`"$($PodBase)`">Recycled</a> DR Podcast."
     $Title = repl($Podcast.title + $TitleSuffix)
     $Description = repl($Podcast.description + $DescriptionSuffix)
-    if (!($ImageUri = Resolve-Path -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg") -ErrorAction SilentlyContinue)) {
-        $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+    $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+    if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
+        $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
     }
     $Rss = @"
 <?xml version="1.0" encoding="utf-8"?>
@@ -282,8 +283,9 @@ function New-Html {
 "@
     }
     process {
-        if (!($ImageUri = Resolve-Path -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg") -ErrorAction SilentlyContinue)) {
-            $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+        $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+        if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
+            $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
         }
         $Html += @"
 
