@@ -48,8 +48,9 @@ function Search-Podcast {
             $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
             $RssPath = ([uri]"$($PodBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
             $RssUri = [uri]"$($PodBase.Scheme)://$($PodBase.Host)/$($RssPath -join '/')"
-    
+            Set-ImageAssetUri -Podcast $Podcast
             $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'podcast'
+            <#
             $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
             $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
             $QueryCollection.Add('protocol', $ApiBase.Scheme)
@@ -62,6 +63,8 @@ function Search-Podcast {
             $UriBuilder = [System.UriBuilder]$ImgBase
             $UriBuilder.Query = $QueryCollection.ToString()
             $ImageUri = $UriBuilder.Uri
+            #>
+            $ImageUri = $ImageAsset.Uri
             Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
             $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
             Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
@@ -101,7 +104,8 @@ function Get-Podcast {
         $RssPath = ([uri]"$($PodBase.AbsoluteUri)/$($Sslug).xml").LocalPath -split '/' | Where-Object { $_ }
         $RssUri = [uri]"$($PodBase.Scheme)://$($PodBase.Host)/$($RssPath -join '/')"
 
-        $ImageAsset = $Podcast.imageAssets | Where-Object target -eq 'podcast'
+        Set-ImageAssetUri -Podcast $Podcast
+        <#
         $ApiPath = ([uri]"$($ApiBase.AbsoluteUri)/images/raw/$($ImageAsset.id)").LocalPath -split '/' | Where-Object { $_ }
         $QueryCollection = [System.Web.HttpUtility]::ParseQueryString([string]::Empty)
         $QueryCollection.Add('protocol', $ApiBase.Scheme)
@@ -114,10 +118,9 @@ function Get-Podcast {
         $UriBuilder = [System.UriBuilder]$ImgBase
         $UriBuilder.Query = $QueryCollection.ToString()
         $ImageUri = $UriBuilder.Uri
+        #>
         Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
         $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
-        Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
-        $Podcast | Add-Member -NotePropertyName imageUri -NotePropertyValue $ImageUri
         Write-Verbose -Message "Adding property: rssUri = $($RssUri))"
         $Podcast | Add-Member -NotePropertyName rssUri -NotePropertyValue $RssUri
         $Podcast
@@ -227,8 +230,8 @@ function New-Rss {
 "@
     }
     foreach ($Episode in $Podcast.episodes) {
-        $AudioAsset = $Episode.audioAssets | Where-Object { $_.format -eq 'mp4' -and $_.bitrate -eq 64 }
         $Rss += @"
+
         <item>
             <guid isPermaLink="false">$($Episode.productionNumber)</guid>
             <link>$($Episode.presentationUrl)</link>
@@ -239,9 +242,21 @@ function New-Rss {
             <itunes:author>DR</itunes:author>
             <itunes:duration>$(New-TimeSpan -Milliseconds $Episode.durationMilliseconds).ToString('hh\:mm\:ss')</itunes:duration>
             <media:restriction type="country" relationship="allow">dk</media:restriction>
+"@
+        $AudioAssets = $Episode.audioAssets | Where-Object -Property target -EQ -Value 'Progressive'
+        $AudioArray  = $AudioAssets | Where-Object -Property format -EQ 'mp3' | Sort-Object -Property bitrate -Descending
+        $AudioArray += $AudioAssets | Where-Object -Property format -EQ 'mp4' | Sort-Object -Property bitrate -Descending
+        foreach ($AudioAsset in $AudioArray) {
+            $ContentType = if ($AudioAsset.format -eq 'mp4') { 'audio/x-m4a' } else { 'audio/mpeg' }
+            $Rss += @"
+
             <enclosure url="$($AudioAsset.url)" 
-                type="audio/mpeg" 
+                type="$($ContentType)" 
                 length="$($AudioAsset.fileSize)" />
+"@
+        }
+        $Rss += @"
+
         </item>
 "@
     }
@@ -314,6 +329,36 @@ function New-Html {
 "@
         $Html
     }
+}
+function Set-ImageAssetUri {
+	[CmdletBinding()]
+	param (
+		[Parameter(Mandatory = $true)]
+		[Alias('p')]
+		[object]
+		$Podcast
+		,
+		[Parameter()]
+		[Alias('w')]
+		[int]
+		$Width = 720
+	)
+	$AssetUri = [uri]'https://asset.dr.dk/imagescaler/?protocol=https&server=api.dr.dk&file='
+	$AssetFilePath = '/radio/v2/images/raw/'
+	foreach ($a in $Podcast.imageAssets) {
+		$r = $a.ratio -split ':'
+		$Height = [Math]::Round($Width / ($r[0] / $r[1]))
+		[string]$Uri  = $AssetUri.AbsoluteUri
+		$Uri += [uri]::EscapeDataString($AssetFilePath + $a.id)
+		$Uri += "&scaleAfter=crop&quality=70&w=$($Width)&h=$($Height)"
+		[uri]$Uri = $Uri
+		if (!($a | Get-Member -Name 'uri')) {
+			$a | Add-Member -NotePropertyName 'uri' -NotePropertyValue $Uri
+		}
+		else {
+			$a.uri = $Uri
+		}
+	}
 }
 function Add-Watermark {
     param (

@@ -5,13 +5,17 @@ $WatermarkPath = Join-Path -Path $PodPath -ChildPath 'assets' -AdditionalChildPa
 function Get-WalledPodcast {
 	$Podcasts = Search-DRPodcast -Type series -Query * -Limit 10000 | Where-Object podcastUrl
 	foreach ($Podcast in $Podcasts) {
+		# Get the original RSS feed.
 		$Response = Invoke-WebRequest -Uri $Podcast.podcastUrl
+		# Check if the podcast is walled. Skip if not walled.
 		if ($Response.Content -notmatch 'utm_source=thirdparty') { continue }
-		$CoverOrig = Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).original.jpg"
-		$CoverPath = Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg"
-		Invoke-WebRequest -Uri $Podcast.imageUri -OutFile $CoverOrig
-		Add-DRWatermark -ImagePath $CoverOrig -WatermarkPath $WatermarkPath -OutputPath $CoverPath -PositionX 0 -PositionY 10 -Width 180 -Opacity 70
-		#Remove-Item -Path $CoverOrig
+		foreach ($Image in $Podcast.imageAssets) {
+			# Set the unique image name.
+			$ImageName = "$($Podcast.sSlug)_$($Image.ratio.Replace(':', '-'))_$($Image.target.ToLower())_$(($Image.id -split ':')[-1]).$(($Image.format -split '/')[-1])"
+			# Download the image.
+			Invoke-WebRequest -Uri $Image.uri -OutFile $(Join-Path -Path $PodPath -ChildPath '.source' -AdditionalChildPath $ImageName)
+		}
+		#Add-DRWatermark -ImagePath $CoverOrig -WatermarkPath $WatermarkPath -OutputPath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg") -PositionX 0 -PositionY 10 -Width 180 -Opacity 70
 		$Podcast | Select-Object -Property title, @{N='slug'; E={$Podcast.slug.Replace("-$($Podcast.productionNumber)", '')}}, id
 	}
 }
