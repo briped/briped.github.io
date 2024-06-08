@@ -41,7 +41,7 @@ function Search-Podcast {
         if ($Limit -gt 0) { $QueryCollection.Add('limit', $Limit) }
         $UriBuilder.Query = $QueryCollection.ToString()
         $Splatter.Uri = $UriBuilder.Uri
-        Write-Verbose -Message "Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
         $Response = Invoke-RestMethod @Splatter
         
         foreach ($Podcast in $Response.items) {
@@ -65,11 +65,11 @@ function Search-Podcast {
             $ImageUri = $UriBuilder.Uri
             #>
             $ImageUri = $ImageAsset.Uri
-            Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
+            Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding property: sSlug = $($Sslug))"
             $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
-            Write-Verbose -Message "Adding property: imageUri = $($ImageUri))"
+            Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding property: imageUri = $($ImageUri))"
             $Podcast | Add-Member -NotePropertyName imageUri -NotePropertyValue $ImageUri
-            Write-Verbose -Message "Adding property: rssUri = $($RssUri))"
+            Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding property: rssUri = $($RssUri))"
             $Podcast | Add-Member -NotePropertyName rssUri -NotePropertyValue $RssUri
             $Podcast
         }
@@ -97,7 +97,7 @@ function Get-Podcast {
     }
     process {
         $Splatter.Uri = "$($ApiBase)/series/$($Id)"
-        Write-Verbose -Message "Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
         $Podcast = Invoke-RestMethod @Splatter
 
         $Sslug = $Podcast.slug.Replace("-$($Podcast.productionNumber)", '')
@@ -119,9 +119,9 @@ function Get-Podcast {
         $UriBuilder.Query = $QueryCollection.ToString()
         $ImageUri = $UriBuilder.Uri
         #>
-        Write-Verbose -Message "Adding property: sSlug = $($Sslug))"
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding property: sSlug = $($Sslug))"
         $Podcast | Add-Member -NotePropertyName sSlug -NotePropertyValue $Sslug
-        Write-Verbose -Message "Adding property: rssUri = $($RssUri))"
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding property: rssUri = $($RssUri))"
         $Podcast | Add-Member -NotePropertyName rssUri -NotePropertyValue $RssUri
         $Podcast
     }
@@ -158,7 +158,7 @@ function Get-Episode {
         $UriBuilder = [System.UriBuilder]$Splatter.Uri
         $UriBuilder.Query = $QueryCollection.ToString()
         $Splatter.Uri = $UriBuilder.Uri
-        Write-Verbose -Message "Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Invoke-RestMethod @$($Splatter | ConvertTo-Json -Compress)"
         $Response = Invoke-RestMethod @Splatter
         $Response.items
     }
@@ -176,6 +176,7 @@ function New-Rss {
         [System.Object]
         $Podcast
     )
+    Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Generating RSS for '$($Podcast.title)'."
     #https://www.rssboard.org/
     function repl {
         param(
@@ -187,10 +188,12 @@ function New-Rss {
     $DescriptionSuffix = "`r`n`r`n<a href=`"$($PodBase)`">Recycled</a> DR Podcast."
     $Title = repl($Podcast.title + $TitleSuffix)
     $Description = repl($Podcast.description + $DescriptionSuffix)
-    $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+    $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
+    $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
     if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
         $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
     }
+    Write-Verbose -Message "$($MyInvocation.MyCommand.Name): ImageUri: $($ImageUri)"
     $Rss = @"
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" 
@@ -225,8 +228,9 @@ function New-Rss {
 "@
     foreach ($Category in $Podcast.categories) {
         $Rss += @"
-    <category>$($Category)</category>
-    <itunes:category text="$($Category)" />
+
+        <category>$($Category)</category>
+        <itunes:category text="$($Category)" />
 "@
     }
     foreach ($Episode in $Podcast.episodes) {
@@ -261,6 +265,7 @@ function New-Rss {
 "@
     }
     $Rss += @"
+
     </channel>
 </rss>
 "@
@@ -279,7 +284,7 @@ function New-Html {
         $Podcast
     )
     begin {
-        Write-Verbose -Message $Podcast.Count
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Generating HTML for $($Podcast.Count) podcasts."
         $Html = @"
 <!DOCTYPE html>
 <html lang="da">
@@ -298,10 +303,12 @@ function New-Html {
 "@
     }
     process {
-        $ImageUri = $Podcast.imageUri.AbsoluteUri.Replace($Podcast.imageUri.Query, $Podcast.imageUri.Query.Replace('&', '&#x26;'))
+        $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
+        $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
         if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
             $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
         }
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): ImageUri: $($ImageUri)"
         $Html += @"
 
             <div class="grid-item" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
@@ -343,6 +350,7 @@ function Set-ImageAssetUri {
 		[int]
 		$Width = 720
 	)
+    Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Adding image URIs to podcast '$($Podcast.title)'."
 	$AssetUri = [uri]'https://asset.dr.dk/imagescaler/?protocol=https&server=api.dr.dk&file='
 	$AssetFilePath = '/radio/v2/images/raw/'
 	foreach ($a in $Podcast.imageAssets) {
@@ -352,7 +360,7 @@ function Set-ImageAssetUri {
 		$Uri += [uri]::EscapeDataString($AssetFilePath + $a.id)
 		$Uri += "&scaleAfter=crop&quality=70&w=$($Width)&h=$($Height)"
 		[uri]$Uri = $Uri
-		if (!($a | Get-Member -Name 'uri')) {
+		if (!$a.uri) {
 			$a | Add-Member -NotePropertyName 'uri' -NotePropertyValue $Uri
 		}
 		else {
