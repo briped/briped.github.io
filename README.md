@@ -1,6 +1,6 @@
 A place to play around with static web technologies, and maybe a few other bits and bobs.
 
-## DR Podcast
+## DR Podcast - Recycled
 
 [<img alt="Recycled DR Lyd logo" src="/podcast/assets/icon-logo-drlyd-recycled-800x800.jpg" width="150">](https://briped.github.io/podcast/)
 
