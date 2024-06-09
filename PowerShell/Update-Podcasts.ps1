@@ -18,6 +18,5 @@ foreach ($Podcast in $Podcasts) {
 	}
 	$Podcast | ConvertTo-Json -Depth 10 | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).json")
 	$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).xml")
-	#$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).TEST.xml")
 }
 $Podcasts | New-DRHtml | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "index.html")

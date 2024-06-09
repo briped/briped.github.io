@@ -15,7 +15,7 @@ function Get-WalledPodcast {
 			# Download the image.
 			Invoke-WebRequest -Uri $Image.uri -OutFile $(Join-Path -Path $PodPath -ChildPath '.source' -AdditionalChildPath $ImageName)
 		}
-		#Add-DRWatermark -ImagePath $CoverOrig -WatermarkPath $WatermarkPath -OutputPath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg") -PositionX 0 -PositionY 10 -Width 180 -Opacity 70
+		Add-DRWatermark -PositionX 0 -PositionY 10 -Width 180 -Opacity 70 -ImagePath $CoverOrig -WatermarkPath $WatermarkPath -OutputPath $(Join-Path -Path $PodPath -ChildPath 'cover' -AdditionalChildPath "$($Podcast.sSlug).jpg")
 		$Podcast | Select-Object -Property title, @{N='slug'; E={$Podcast.slug.Replace("-$($Podcast.productionNumber)", '')}}, id
 	}
 }

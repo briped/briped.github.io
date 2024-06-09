@@ -190,8 +190,10 @@ function New-Rss {
     $Description = repl($Podcast.description + $DescriptionSuffix)
     $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
     $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
-    if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
-        $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
+    #if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
+    #    $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
+    if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath 'cover' -AdditionalChildPath "$($Podcast.sSlug).jpg")) {
+        $ImageUri = "$($PodBase.AbsoluteUri)/cover/$($Podcast.sSlug).jpg"
     }
     Write-Verbose -Message "$($MyInvocation.MyCommand.Name): ImageUri: $($ImageUri)"
     $Rss = @"
@@ -305,8 +307,10 @@ function New-Html {
     process {
         $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
         $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
-        if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
-            $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
+        #if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).jpg")) {
+        #    $ImageUri = "$($PodBase.AbsoluteUri)/$($Podcast.sSlug).jpg"
+        if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath 'cover' -AdditionalChildPath "$($Podcast.sSlug).jpg")) {
+            $ImageUri = "$($PodBase.AbsoluteUri)/cover/$($Podcast.sSlug).jpg"
         }
         Write-Verbose -Message "$($MyInvocation.MyCommand.Name): ImageUri: $($ImageUri)"
         $Html += @"

@@ -117,6 +117,9 @@ function RecycleCover {
 }
 $SourcePath = [System.IO.FileInfo](Join-Path -Path (Get-Item -Path $PSScriptRoot).Parent -ChildPath 'podcast' -AdditionalChildPath '.source')
 $Watermark = Join-Path -Path $SourcePath -ChildPath 'assets' -AdditionalChildPath 'icon-recycle.png'
-Get-ChildItem -Path $PodSourcePathPath -Filter '*_1-1_podcast_*.jpeg' | ForEach-Object {
-    RecycleCover -WatermarkPath $Watermark -ImagePath $_ -OutputPath "$(($_.Name -split '_1-1_podcast_')[0]).jpg"
+Get-ChildItem -Path $SourcePath -Filter '*_1-1_podcast_*.jpeg' | ForEach-Object {
+    $Output = Join-Path -Path $SourcePath.Directory -ChildPath 'cover' -AdditionalChildPath 'alt',"$(($_.Name -split '_1-1_podcast_')[0]).jpg"
+    if (!(Test-Path -PathType Leaf -Path $Output)) {
+        RecycleCover -WatermarkPath $Watermark -ImagePath $_ -OutputPath $Output
+    }
 }
