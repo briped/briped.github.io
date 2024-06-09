@@ -1,16 +1,12 @@
-$VerbosePreference = 'Continue'
-$global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')
-$global:RssBase = [uri]'https://xmpl.dk/podcast/'
 $Manifest = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'DRPodcast.psd1')
 Import-Module -Force -Name $Manifest
-#<#
-$Walled = Get-Content -Raw -Encoding utf8 -Path (Join-Path -Path $PSScriptRoot -ChildPath 'walled.json') | ConvertFrom-Json
 
+$Walled = Get-Content -Raw -Encoding utf8 -Path (Join-Path -Path $PSScriptRoot -ChildPath 'walled.json') | ConvertFrom-Json
 $Podcasts = $Walled | 
 	Sort-Object -Unique id | 
 	Sort-Object -Property title | 
 	Get-DRPodcast
-#>
+
 foreach ($Podcast in $Podcasts) {
 	if (!$Podcast.episodes) {
 		Write-Verbose -Message "Adding episodes to '$($Podcast.title)'."

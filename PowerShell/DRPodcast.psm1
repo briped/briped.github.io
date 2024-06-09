@@ -1,4 +1,14 @@
-﻿$global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')
+﻿if ($global:ApiKey.Length -ne 32) {
+    if ($null -ne $env:API_KEY -and $env:API_KEY.Length -eq 32) {
+        $global:ApiKey = $env:API_KEY
+    }
+    elseif (Test-Path -PathType Leaf -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')) {
+        $global:ApiKey = Get-Content -TotalCount 1 -Path (Join-Path -Path $PSScriptRoot -ChildPath '.apiKey')
+    }
+    else {
+        throw 'API key missing.'
+    }
+}
 $global:PodBase = [uri]'https://xmpl.dk/podcast/'
 $global:PodPath = [System.IO.FileInfo](Join-Path -Path (Get-Item -Path $PSScriptRoot).Parent -ChildPath 'podcast')
 $global:ApiBase = [uri]'https://api.dr.dk/radio/v2'
