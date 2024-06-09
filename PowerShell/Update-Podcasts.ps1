@@ -12,11 +12,11 @@ foreach ($Podcast in $Podcasts) {
 		Write-Verbose -Message "Adding episodes to '$($Podcast.title)'."
 		$Podcast | Add-Member -NotePropertyName episodes -NotePropertyValue $(Get-DREpisode -Id $Podcast.id -Limit 10000)
 	}
-	$JsonPath = Join-Path -Path $PodPath -ChildPath 'data' -AdditionalChildPath "$($Podcast.sSlug).json"
-	$OldJson = Get-Content -Encoding utf8 -Path $JsonPath | ConvertFrom-Json -Depth 10
-	$NewJson = $Podcast | ConvertTo-Json -Depth 10
-	if (!(Compare-Object -ReferenceObject $OldJson -DifferenceObject $Podcast)) {
-		$NewJson | Out-File -Force -Encoding utf8 -FilePath $JsonPath
+	$Json = Join-Path -Path $PodPath -ChildPath 'data' -AdditionalChildPath "$($Podcast.sSlug).json"
+	$Old = Get-Content -Encoding utf8 -Path $Json | ConvertFrom-Json -Depth 10
+	$Comparison = Compare-Object -ReferenceObject $Old -DifferenceObject $Podcast
+	if ($Comparison) {
+		$Podcast | ConvertTo-Json -Depth 10 | Out-File -Force -Encoding utf8 -FilePath $Json
 		$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).xml")
 	}
 }
