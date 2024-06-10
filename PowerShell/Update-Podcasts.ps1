@@ -14,7 +14,7 @@ foreach ($Podcast in $Podcasts) {
 	}
 	$Json = Join-Path -Path $PodPath -ChildPath 'data' -AdditionalChildPath "$($Podcast.sSlug).json"
 	$Old = Get-Content -Encoding utf8 -Path $Json | ConvertFrom-Json -Depth 10
-	$Comparison = Compare-Object -ReferenceObject $Old -DifferenceObject $Podcast
+	$Comparison = Compare-Object -ReferenceObject $Old.latestEpisodeStartTime -DifferenceObject $Podcast.latestEpisodeStartTime
 	if ($Comparison) {
 		$Podcast | ConvertTo-Json -Depth 10 | Out-File -Force -Encoding utf8 -FilePath $Json
 		$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).xml")
