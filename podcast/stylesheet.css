@@ -73,7 +73,7 @@ body {
 .podcast-container:focus .podcast-episodes {
     display: block;
 }
-.icon-rss, .icon-app-pcast {
+.icon-rss, .icon-app-pcast, .icon-app-pktc {
 	position: absolute;
 	bottom: 5px;
 	width: 30px;
@@ -81,7 +81,7 @@ body {
 	background-size: cover;
 	opacity: 0.5;
 }
-.icon-rss:hover, .icon-app-pcast:hover {
+.icon-rss:hover, .icon-app-pcast:hover, .icon-app-pktc:hover {
 	opacity: 1.0;
 }
 .icon-rss {
@@ -91,6 +91,10 @@ body {
 .icon-app-pcast {
 	right: 5px;
 	background-image: url('assets/icon-app-pcast.svg');
+}
+.icon-app-pktc {
+	right: 5px;
+	background-image: url('assets/icon-app-pktc.svg');
 }
 .icon-logo-drlyd {
 	display: inline-block;

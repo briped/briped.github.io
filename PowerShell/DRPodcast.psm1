@@ -311,7 +311,7 @@ function New-Html {
                 <div class="podcast-container">
                     <a href="$($Podcast.rssUri)"><img src="$($ImageUri)" alt="$($Podcast.title)"></a>
                     <a href="feed://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-rss"></div></a>
-                    <a href="pcast://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-app-pcast"></div></a>
+                    <a href="pktc://subscribe/$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-app-pktc"></div></a>
                     <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
                 </div>
                 <div class="podcast-name">
