@@ -73,7 +73,7 @@ body {
 .podcast-container:focus .podcast-episodes {
     display: block;
 }
-.icon-rss, .icon-app-pcast, .icon-app-pktc {
+.icon-rss, .icon-app-pcast, .icon-app-pktc, .icon-app-overcast {
 	position: absolute;
 	bottom: 5px;
 	width: 30px;
@@ -81,12 +81,16 @@ body {
 	background-size: cover;
 	opacity: 0.5;
 }
-.icon-rss:hover, .icon-app-pcast:hover, .icon-app-pktc:hover {
+.icon-rss:hover, .icon-app-pcast:hover, .icon-app-pktc:hover, .icon-app-overcast:hover {
 	opacity: 1.0;
 }
 .icon-rss {
 	left: 5px;
 	background-image: url('assets/icon-rss.svg');
+}
+.icon-app-overcast {
+	left: 5px;
+	background-image: url('assets/icon-app-overcast.svg');
 }
 .icon-app-pcast {
 	right: 5px;

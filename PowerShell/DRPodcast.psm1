@@ -310,7 +310,7 @@ function New-Html {
             <div class="grid-item" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
                 <div class="podcast-container">
                     <a href="$($Podcast.rssUri)"><img src="$($ImageUri)" alt="$($Podcast.title)"></a>
-                    <a href="feed://$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-rss"></div></a>
+                    <a href="overcast://x-callback-url/add?url=$([uri]::EscapeDataString($Podcast.rssUri))"><div class="icon-app-overcast"></div></a>
                     <a href="pktc://subscribe/$($Podcast.rssUri.Host)$($Podcast.rssUri.PathAndQuery)"><div class="icon-app-pktc"></div></a>
                     <div class="podcast-episodes">$($Podcast.numberOfEpisodes)</div>
                 </div>
