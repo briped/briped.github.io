@@ -267,7 +267,7 @@ function New-Rss {
 "@
     $Rss
 }
-function New-Html {
+function New-HtmlOld {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true
@@ -327,6 +327,78 @@ function New-Html {
         $Html += @"
 
         </div>
+    </body>
+</html>
+"@
+        $Html
+    }
+}
+function New-Html {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true
+                  ,ValueFromPipeline = $true
+                  ,ValueFromPipelineByPropertyName = $true
+                  ,ValueFromRemainingArguments = $false
+                  ,Position = 0)]
+        [ValidateNotNullOrEmpty()]
+        [System.Object]
+        $Podcast
+    )
+    begin {
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): Generating HTML for $($Podcast.Count) podcasts."
+        $Html = @"
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DR Lyd - Recycled</title>
+        <link rel="icon" href="assets/icon-recycle.svg">
+        <link rel="stylesheet" href="https://www.dr.dk/global/publik.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <a href="https://www.dr.dk/lyd" target="_blank"><img class="logo drlyd" src="assets/icon-logo-drlyd.svg" alt="DR Lyd - Recycled"/></a>
+            <div class="title">
+                <h1>DR Lyd</h1>
+                <h2>Recycled</h2>
+            </div>
+            <a href="https://github.com/briped/briped.github.io" target="_blank"><img class="logo github" src="assets/icon-logo-github-light.svg" alt="Github"/></a>
+        </header>
+        <main>
+            <div class="grid">
+"@
+    }
+    process {
+        $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
+        $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
+        if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath 'cover' -AdditionalChildPath "$($Podcast.sSlug).jpg")) {
+            $ImageUri = "$($PodBase.Scheme)://$($PodBase.Host)/$((([uri]"$($PodBase.AbsoluteUri)/cover/$($Podcast.sSlug).jpg").AbsolutePath -split '/' | Where-Object { $_ }) -join '/')"
+        }
+        Write-Verbose -Message "$($MyInvocation.MyCommand.Name): ImageUri: $($ImageUri)"
+        $Html += @"
+
+                <div class="podcast" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
+                    <div class="cover">
+                        <a href="$($Podcast.rssUri)"><img src="$($ImageUri)" alt="$($Podcast.title)"></a>
+                        <a href="$($Podcast.rssUri)"><div class="icon-rss"></div></a>
+                        <a href="$($Podcast.presentationUrl)" target="_blank"><div class="icon-logo-drlyd"></div></a>
+                        <div class="episodes">$($Podcast.numberOfEpisodes)</div>
+                    </div>
+                    <div class="name">$($Podcast.title)</div>
+                </div>
+"@
+    }
+    end {
+        $Html += @"
+
+            </div>
+        </main>
+        <footer>
+            <p>Last updated: $(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssK')</p>
+        </footer>
     </body>
 </html>
 "@
