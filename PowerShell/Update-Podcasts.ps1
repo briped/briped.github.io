@@ -13,9 +13,12 @@ foreach ($Podcast in $Podcasts) {
 		$Podcast | Add-Member -NotePropertyName episodes -NotePropertyValue $(Get-DREpisode -Id $Podcast.id -Limit 10000)
 	}
 	$Json = Join-Path -Path $PodPath -ChildPath 'data' -AdditionalChildPath "$($Podcast.sSlug).json"
-	$Old = Get-Content -Encoding utf8 -Path $Json | ConvertFrom-Json -Depth 10
-	$Comparison = Compare-Object -ReferenceObject $Old.latestEpisodeStartTime -DifferenceObject $Podcast.latestEpisodeStartTime
-	if ($Comparison) {
+	$Exists = Test-Path -PathType Leaf -Path $Json
+	if ($Exists) {
+		$Old = Get-Content -Encoding utf8 -Path $Json | ConvertFrom-Json -Depth 10
+		$Changed = Compare-Object -ReferenceObject $Old.latestEpisodeStartTime -DifferenceObject $Podcast.latestEpisodeStartTime
+	}
+	if ($Changed -or !$Exists) {
 		$Podcast | ConvertTo-Json -Depth 10 | Out-File -Force -Encoding utf8 -FilePath $Json
 		$Podcast | New-DRRss | Out-File -Force -Encoding utf8 -FilePath $(Join-Path -Path $PodPath -ChildPath "$($Podcast.sSlug).xml")
 	}
