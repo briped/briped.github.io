@@ -240,7 +240,7 @@ function New-Rss {
             <pubDate>$($Episode.publishTime.ToString("ddd, dd MMM yyyy HH:mm:ss zzz"))</pubDate>
             <itunes:explicit>$($Episode.explicitContent)</itunes:explicit>
             <itunes:author>DR</itunes:author>
-            <itunes:duration>$(New-TimeSpan -Milliseconds $Episode.durationMilliseconds).ToString('hh\:mm\:ss')</itunes:duration>
+            <itunes:duration>$((New-TimeSpan -Milliseconds $Episode.durationMilliseconds).ToString('hh\:mm\:ss'))</itunes:duration>
             <media:restriction type="country" relationship="allow">dk</media:restriction>
 "@
         $AudioAssets = $Episode.audioAssets | Where-Object -Property target -EQ -Value 'Progressive'
