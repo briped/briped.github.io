@@ -372,7 +372,13 @@ function New-Html {
 "@
     }
     process {
-        $ImageAsset = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' -and $_.target -eq 'Podcast' }
+        $ImageAssets = $Podcast.imageAssets | Where-Object { $_.ratio -eq '1:1' }
+        if ($ImageAssets.target -contains 'Podcast') {
+            $ImageAssets | Where-Object { $_.target -eq 'Podcast' }
+        }
+        else {
+            $ImageAssets | Where-Object { $_.target -eq 'Default' }
+        }
         $ImageUri = $ImageAsset.uri.AbsoluteUri.Replace($ImageAsset.uri.Query, $ImageAsset.uri.Query.Replace('&', '&#x26;'))
         if (Test-Path -PathType Leaf -Path (Join-Path -Path $PodPath -ChildPath 'cover' -AdditionalChildPath "$($Podcast.sSlug).jpg")) {
             $ImageUri = "$($PodBase.Scheme)://$($PodBase.Host)/$((([uri]"$($PodBase.AbsoluteUri)/cover/$($Podcast.sSlug).jpg").AbsolutePath -split '/' | Where-Object { $_ }) -join '/')"
