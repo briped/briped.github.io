@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 9,
+  "numberOfEpisodes": 10,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-03-27T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-04-24T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545174",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545174",
+      "publishTime": "2025-04-24T19:20:00+02:00",
+      "startTime": "2025-04-24T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/ny-dansk-violinkoncert-og-sibelius-1-12422545174",
+      "order": 638811194025017174,
+      "previousId": "urn:dr:radio:episode:67d75a92d3290942c12cd399",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fc35ed5526fe4ad95762c9/353861b5bb646b15dafcd6986806b8f209e0b8ff7d527fe8e606b0fee547ade7"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545174",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-24T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67fc35ed5526fe4ad95762c9",
+      "slug": "ny-dansk-violinkoncert-og-sibelius-1-12422545174",
+      "title": "Ny dansk violinkoncert og Sibelius 1.",
+      "description": "Thomas Agerfeldt Olesen er en dybt personlig stemme blandt tidens komponister, så det bliver spændende at høre uropførelsen af hans Violinkoncert, der er skrevet med tanke på koncertens hollandske solist, Simone Lamsma. Allerede i sin Symfoni nr. 1 viser Sibelius at han var en mester udi melankoli, dramatik og længselsfulde toner. Thomas Agerfeldt-Olesen: Violinkoncert. Uropførelse. Sibelius: Symfoni nr. 1. Simone Lamsma, violin. DR Symfoniorkestret. Otto Tausk, dirigent. (- direkte fra DR Koncerthuset). \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68089f8ab5640041418d7bcc",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o*Kd}Gxtx]t7RjRj~WR*f,j[aej[%NofxajZfkoft7ayofR*jtayayR*RjayoLfkj[ofRjj[R*a|"
+        },
+        {
+          "id": "urn:dr:radio:image:68089f8ab5640041418d7bcc",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o*Kd}Gxtx]t7RjRj~WR*f,j[aej[%NofxajZfkoft7ayofR*jtayayR*RjayoLfkj[ofRjj[R*a|"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545134",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-03-27T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/med-planeterne-af-gustav-holst-12422545134",
       "order": 638787002025013134,
+      "nextId": "urn:dr:radio:episode:67fc35ed5526fe4ad95762c9",
       "previousId": "urn:dr:radio:episode:67ce1fce62350c30cc80ae7b",
       "series": {
         "title": "Torsdagskoncerten",
