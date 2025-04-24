@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 2,
+  "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-04-23T18:55:00+02:00",
+  "latestEpisodeStartTime": "2025-04-24T18:55:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p1/nyheder-fra-groenland-756188856000",
   "psdbUrn": "urn:dr:mu:bundle:57d7b8176187a40ef4069712",
   "psdbSlug": "nyheder-fra-groenland-pa-dansk",
@@ -81,6 +81,98 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:16122506174",
+      "durationMilliseconds": 300000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "16122506174",
+      "publishTime": "2025-04-24T18:55:00+02:00",
+      "startTime": "2025-04-24T18:55:00+02:00",
+      "endTime": "2025-04-28T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p1/nyheder-fra-groenland/nyheder-fra-groenland/paa-dansk-16122506174",
+      "order": 638811177000081174,
+      "previousId": "urn:dr:radio:episode:67ee53eef15fbe15e582802e",
+      "series": {
+        "title": "Nyheder fra Grønland",
+        "id": "urn:dr:radio:series:5fa26328330eac2f135b7a1b",
+        "slug": "nyheder-fra-groenland-756188856000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p1/nyheder-fra-groenland-756188856000",
+        "learnId": "urn:dr:ocs:audio:content:series:756188856000"
+      },
+      "channel": {
+        "title": "P1",
+        "id": "urn:dr:radio:channel:5fa156d1da351264f87b462d",
+        "slug": "p1",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p1"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67ee5375f15fbe15e5827b24/fe547c70c2210f5c64963e5a5c4acaafcb64bfa3f56ecf18b272407bb582dd09"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:16122506174",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-24T18:55:00+02:00",
+      "id": "urn:dr:radio:episode:67ee5375f15fbe15e5827b24",
+      "slug": "paa-dansk-16122506174",
+      "title": "På dansk",
+      "description": "Få de seneste nyheder fra Grønland serveret på dansk.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67ec8d979e6976d765d6e9b2",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "N?QRFWoLj[oLaeoL*Jfko}j[aej[kCfQayfQkCfQ"
+        },
+        {
+          "id": "urn:dr:radio:image:67ec8d979e6976d765d6e9b3",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o;QRFWoLkCoLaeoL*Jfkozj[fQj[kCfQaefQkCfkozfQVsf6aef6ayfQj[fQayfQVsfQozfQozfk"
+        },
+        {
+          "id": "urn:dr:radio:image:67ec8d979e6976d765d6e9b4",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o,QHnojFf6o1aKof*Jaeozf6fQj[j[aeaeaykCfkt7f6R5f6aefQjZjZj[jtf6fQa0j[o}j[ozfQ"
+        },
+        {
+          "id": "urn:dr:radio:image:67ec8d979e6976d765d6e9b3",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o;QRFWoLkCoLaeoL*Jfkozj[fQj[kCfQaefQkCfkozfQVsf6aef6ayfQj[fQayfQVsfQozfQozfk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A0F08",
+            "#F5F0EC"
+          ]
+        },
+        "colors": {
+          "dark": "#3A0F08",
+          "light": "#F5F0EC"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:16122506173",
       "durationMilliseconds": 300000,
       "categories": [
@@ -92,6 +184,7 @@
       "endTime": "2025-04-27T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p1/nyheder-fra-groenland/nyheder-fra-groenland/paa-dansk-16122506173",
       "order": 638810313000080173,
+      "nextId": "urn:dr:radio:episode:67ee5375f15fbe15e5827b24",
       "previousId": "urn:dr:radio:episode:67ee5375f15fbe15e5827b3d",
       "series": {
         "title": "Nyheder fra Grønland",
