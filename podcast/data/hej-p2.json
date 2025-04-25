@@ -17,7 +17,7 @@
   "numberOfEpisodes": 20,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-04-24T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-04-25T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530175",
+      "durationMilliseconds": 9000000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530175",
+      "publishTime": "2025-04-25T08:30:00+02:00",
+      "startTime": "2025-04-25T08:30:00+02:00",
+      "endTime": "2025-05-24T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/min-bedste-cykeloplevelse-12422530175",
+      "order": 638811668025082175,
+      "previousId": "urn:dr:radio:episode:67ee66be034014f391185485",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f519d68e208bf2ad23cfea/fe0bb0aa40c47940c49986c90d4ff61ef3c56903cbf10b3d13d5eb03f732c75c"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530175",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-25T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f519d68e208bf2ad23cfea",
+      "slug": "min-bedste-cykeloplevelse-12422530175",
+      "title": "Min bedste cykeloplevelse",
+      "description": "Hvilken cykeloplevelse glemmer du aldrig og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVært: Jakob Wivel og Helle Kristensen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530174",
       "durationMilliseconds": 8525953,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-05-23T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/mit-bedste-radiominde-12422530174",
       "order": 638810804025081174,
+      "nextId": "urn:dr:radio:episode:67f519d68e208bf2ad23cfea",
       "previousId": "urn:dr:radio:episode:67f79fca42308537cfa1b58b",
       "series": {
         "title": "Hej P2",
@@ -1652,7 +1739,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/klassisk-musik-for-saxofon-12422530134",
       "order": 638786612025061134,
       "nextId": "urn:dr:radio:episode:67d8ab50b9256eefac87c87c",
-      "previousId": "urn:dr:radio:episode:67d608582a51a3dbbe85a338",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1688,92 +1774,6 @@
       "slug": "klassisk-musik-for-saxofon-12422530134",
       "title": "Klassisk musik for saxofon",
       "description": "Vi dyrker den klassiske saxofon. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Jakob Wivel og Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530133",
-      "durationMilliseconds": 8527177,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530133",
-      "publishTime": "2025-03-26T08:30:00+01:00",
-      "startTime": "2025-03-26T08:30:00+01:00",
-      "endTime": "2025-04-24T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/hvad-ser-du-ud-ad-dit-vindue-12422530133",
-      "order": 638785748025060133,
-      "nextId": "urn:dr:radio:episode:67d75a935a443496f52e6f2f",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67d608582a51a3dbbe85a338/5ccf6cd6bfc461bb9cf5512824ced07b570f2a2c0bf3df43b151186e7c35e2c1"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530133",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-03-26T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:67d608582a51a3dbbe85a338",
-      "slug": "hvad-ser-du-ud-ad-dit-vindue-12422530133",
-      "title": "Hvad ser du ud ad dit vindue?",
-      "description": "Fortæl om din udsigt lige nu - og send gerne et billede med! \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Mette Greiffenberg og Helle Kristensen.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
