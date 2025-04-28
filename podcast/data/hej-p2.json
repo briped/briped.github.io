@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 20,
+  "numberOfEpisodes": 19,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-04-25T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-04-28T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,8 +74,94 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530181",
+      "durationMilliseconds": 8525748,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530181",
+      "publishTime": "2025-04-28T08:30:00+02:00",
+      "startTime": "2025-04-28T08:30:00+02:00",
+      "endTime": "2025-05-27T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-hyldest-til-forstaden-12422530181",
+      "order": 638814260025083181,
+      "previousId": "urn:dr:radio:episode:67f519d68e208bf2ad23cfea",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f521de4e7f0c858901583d/4f6ab0587ec7ccb6ab8e9792b228697f09079497315fefcc76b9ef9fb9f65df4"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530181",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-28T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f521de4e7f0c858901583d",
+      "slug": "en-hyldest-til-forstaden-12422530181",
+      "title": "En hyldest til forstaden",
+      "description": "Hvad er det bedste ved forstaden? Fortæl, fortæl!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVærter: Malene Wichmann og Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530175",
-      "durationMilliseconds": 9000000,
+      "durationMilliseconds": 8523816,
       "categories": [
         "Musik",
         "Klassisk"
@@ -86,6 +172,7 @@
       "endTime": "2025-05-24T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/min-bedste-cykeloplevelse-12422530175",
       "order": 638811668025082175,
+      "nextId": "urn:dr:radio:episode:67f521de4e7f0c858901583d",
       "previousId": "urn:dr:radio:episode:67ee66be034014f391185485",
       "series": {
         "title": "Hej P2",
@@ -110,7 +197,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f519d68e208bf2ad23cfea/fe0bb0aa40c47940c49986c90d4ff61ef3c56903cbf10b3d13d5eb03f732c75c"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f519d68e208bf2ad23cfea/668c5dbed54dd4006b0895063dcf000a2b3c00d34d33f95951380ee13ce92c4c"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530175",
@@ -1565,7 +1652,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/idraetshal-12422530141",
       "order": 638790068025063141,
       "nextId": "urn:dr:radio:episode:67df43592940a33a24ffe7e9",
-      "previousId": "urn:dr:radio:episode:67d8ab50b9256eefac87c87c",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1601,179 +1687,6 @@
       "slug": "idraetshal-12422530141",
       "title": "Idrætshal",
       "description": "Hvad har du senest oplevet i en idrætshal?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Jakob Wivel og Helle Kristensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530135",
-      "durationMilliseconds": 8523743,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530135",
-      "publishTime": "2025-03-28T08:30:00+01:00",
-      "startTime": "2025-03-28T08:30:00+01:00",
-      "endTime": "2025-04-26T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-hyldest-til-chokolade-12422530135",
-      "order": 638787476025062135,
-      "nextId": "urn:dr:radio:episode:67dca10e2940a33a24ef2460",
-      "previousId": "urn:dr:radio:episode:67d75a935a443496f52e6f2f",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67d8ab50b9256eefac87c87c/172400cda5d29614ed6662cbfa8e0529808cd91ae39a983bd47ea56f1e8d4d9d"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530135",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-03-28T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:67d8ab50b9256eefac87c87c",
-      "slug": "en-hyldest-til-chokolade-12422530135",
-      "title": "En hyldest til chokolade",
-      "description": "Hvis jeg siger chokolade, hvad siger du så?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Jakob Wivel og Helle Kristensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530134",
-      "durationMilliseconds": 8522116,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530134",
-      "publishTime": "2025-03-27T08:30:00+01:00",
-      "startTime": "2025-03-27T08:30:00+01:00",
-      "endTime": "2025-04-25T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/klassisk-musik-for-saxofon-12422530134",
-      "order": 638786612025061134,
-      "nextId": "urn:dr:radio:episode:67d8ab50b9256eefac87c87c",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67d75a935a443496f52e6f2f/28feb3d476be47bfb7944cca0c7189e2f7d7aa11eaea3cd14e6c9267ba241e61"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530134",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-03-27T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:67d75a935a443496f52e6f2f",
-      "slug": "klassisk-musik-for-saxofon-12422530134",
-      "title": "Klassisk musik for saxofon",
-      "description": "Vi dyrker den klassiske saxofon. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Jakob Wivel og Mette Greiffenberg.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
