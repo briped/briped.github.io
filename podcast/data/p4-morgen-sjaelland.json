@@ -16,7 +16,7 @@
   "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-04-28T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-04-29T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland-836637357000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fbe06187a4031cfd7823",
   "psdbSlug": "p4sjaelland-morgen",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14702520182",
+      "durationMilliseconds": 14100000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14702520182",
+      "publishTime": "2025-04-29T06:05:00+02:00",
+      "startTime": "2025-04-29T06:05:00+02:00",
+      "endTime": "2025-05-03T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland/p4-morgen-sjaelland/p4-morgen-14702520182",
+      "order": 638815035000084182,
+      "previousId": "urn:dr:radio:episode:68017be6af5624554f9449cc",
+      "series": {
+        "title": "P4 Morgen Sjælland",
+        "id": "urn:dr:radio:series:5fa294f1330eac2f135bba84",
+        "slug": "p4-morgen-sjaelland-836637357000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland-836637357000",
+        "learnId": "urn:dr:ocs:audio:content:series:836637357000"
+      },
+      "channel": {
+        "title": "P4 Sjælland",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
+        "slug": "p4sjaelland",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6802cd25aa49e222d5abee94/57ee2d01b5d72fa1461a6ca6f42c72bd6e1fc5834673a17cfdf69c02dccc702d"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702520182",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-29T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:6802cd25aa49e222d5abee94",
+      "slug": "p4-morgen-14702520182",
+      "title": "P4 Morgen",
+      "punchline": "Musik, nyheder og trafik - en humørfyldt begyndelse på hverdagen!",
+      "description": "Stå op med P4 Morgen Sjælland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc8dc755587518300a39",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8dc755587518300a39",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#191F29",
+            "#D19F6A"
+          ]
+        },
+        "colors": {
+          "dark": "#191F29",
+          "light": "#D19F6A"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14702520181",
       "durationMilliseconds": 14100000,
       "categories": [
@@ -85,6 +171,7 @@
       "endTime": "2025-05-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland/p4-morgen-sjaelland/p4-morgen-14702520181",
       "order": 638814171000083181,
+      "nextId": "urn:dr:radio:episode:6802cd25aa49e222d5abee94",
       "previousId": "urn:dr:radio:episode:67fd86ddaa336dd2f710f527",
       "series": {
         "title": "P4 Morgen Sjælland",
@@ -172,7 +259,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland/p4-morgen-sjaelland/p4-morgen-14702520175",
       "order": 638811579000082175,
       "nextId": "urn:dr:radio:episode:68017be6af5624554f9449cc",
-      "previousId": "urn:dr:radio:episode:67fc35d7036df1a93c62a1fb",
       "series": {
         "title": "P4 Morgen Sjælland",
         "id": "urn:dr:radio:series:5fa294f1330eac2f135bba84",
@@ -206,92 +292,6 @@
       "latestPublishTime": "2025-04-25T06:05:00+02:00",
       "id": "urn:dr:radio:episode:67fd86ddaa336dd2f710f527",
       "slug": "p4-morgen-14702520175",
-      "title": "P4 Morgen",
-      "punchline": "Musik, nyheder og trafik - en humørfyldt begyndelse på hverdagen!",
-      "description": "Stå op med P4 Morgen Sjælland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8dc755587518300a39",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8dc755587518300a39",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#191F29",
-            "#D19F6A"
-          ]
-        },
-        "colors": {
-          "dark": "#191F29",
-          "light": "#D19F6A"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702520174",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702520174",
-      "publishTime": "2025-04-24T06:05:00+02:00",
-      "startTime": "2025-04-24T06:05:00+02:00",
-      "endTime": "2025-04-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland/p4-morgen-sjaelland/p4-morgen-14702520174",
-      "order": 638810715000081174,
-      "nextId": "urn:dr:radio:episode:67fd86ddaa336dd2f710f527",
-      "series": {
-        "title": "P4 Morgen Sjælland",
-        "id": "urn:dr:radio:series:5fa294f1330eac2f135bba84",
-        "slug": "p4-morgen-sjaelland-836637357000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-morgen-sjaelland-836637357000",
-        "learnId": "urn:dr:ocs:audio:content:series:836637357000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fc35d7036df1a93c62a1fb/fd2b9507dc1fa70af6e349bc17a2000d578ce682a92587c2879e0b3859addc50"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702520174",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-24T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:67fc35d7036df1a93c62a1fb",
-      "slug": "p4-morgen-14702520174",
       "title": "P4 Morgen",
       "punchline": "Musik, nyheder og trafik - en humørfyldt begyndelse på hverdagen!",
       "description": "Stå op med P4 Morgen Sjælland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",

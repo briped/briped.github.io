@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 19,
+  "numberOfEpisodes": 20,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-04-28T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-04-29T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530182",
+      "durationMilliseconds": 8526379,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530182",
+      "publishTime": "2025-04-29T08:30:00+02:00",
+      "startTime": "2025-04-29T08:30:00+02:00",
+      "endTime": "2025-05-28T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/kaffeoplevelser-12422530182",
+      "order": 638815124025084182,
+      "previousId": "urn:dr:radio:episode:67f521de4e7f0c858901583d",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f522068e208bf2ad240835/c3e0d5add1b72e8cd409d89bdafab40afd0d2c0cacfc143d82c77447b147dad0"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530182",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-29T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f522068e208bf2ad240835",
+      "slug": "kaffeoplevelser-12422530182",
+      "title": "Kaffeoplevelser",
+      "description": "Hvilke særlige oplevelser har du haft med kaffe? Fortæl løs!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVærter: Jakob Wivel og Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530181",
       "durationMilliseconds": 8525748,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-05-27T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-hyldest-til-forstaden-12422530181",
       "order": 638814260025083181,
+      "nextId": "urn:dr:radio:episode:67f522068e208bf2ad240835",
       "previousId": "urn:dr:radio:episode:67f519d68e208bf2ad23cfea",
       "series": {
         "title": "Hej P2",
