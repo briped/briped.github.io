@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 42,
+  "numberOfEpisodes": 33,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-04-29T17:30:00+02:00",
+  "latestEpisodeStartTime": "2025-04-30T06:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
   "psdbUrn": "urn:dr:mu:bundle:57d7faf36187a4031cfd77c2",
   "psdbSlug": "nyheder-nv4-radio",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14702510183",
+      "durationMilliseconds": 180000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14702510183",
+      "publishTime": "2025-04-30T06:30:00+02:00",
+      "startTime": "2025-04-30T06:30:00+02:00",
+      "endTime": "2025-05-04T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-06-30-14702510183",
+      "order": 638815914000085183,
+      "previousId": "urn:dr:radio:episode:6802cd26036df1a93c8d1bb4",
+      "series": {
+        "title": "P4 Sjælland regionale nyheder",
+        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
+        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
+      },
+      "channel": {
+        "title": "P4 Sjælland",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
+        "slug": "p4sjaelland",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68041ef4036df1a93c959a60/bc2a4a2bb83b37d9c23af3e79dd5362f584cbafb94ade345c90de3fcc3a3a98a"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702510183",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-30T06:30:00+02:00",
+      "id": "urn:dr:radio:episode:68041ef4036df1a93c959a60",
+      "slug": "seneste-nyt-kl-06-30-14702510183",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#122B2F",
+            "#FEFEFE"
+          ]
+        },
+        "colors": {
+          "dark": "#122B2F",
+          "light": "#FEFEFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14702519182",
       "durationMilliseconds": 180000,
       "categories": [
@@ -84,6 +169,7 @@
       "endTime": "2025-05-03T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-17-30-14702519182",
       "order": 638815446000084182,
+      "nextId": "urn:dr:radio:episode:68041ef4036df1a93c959a60",
       "previousId": "urn:dr:radio:episode:6802cd26af5624554f9cbad8",
       "series": {
         "title": "P4 Sjælland regionale nyheder",
@@ -2750,7 +2836,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-07-30-14702512176",
       "order": 638812494000115176,
       "nextId": "urn:dr:radio:episode:67fed834036df1a93c73b909",
-      "previousId": "urn:dr:radio:episode:67fd86d4036df1a93c6b4c4e",
       "series": {
         "title": "P4 Sjælland regionale nyheder",
         "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
@@ -2785,865 +2870,6 @@
       "id": "urn:dr:radio:episode:67fed83baf5624554f836373",
       "slug": "seneste-nyt-kl-07-30-14702512176",
       "title": "Seneste nyt kl. 07:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702519175",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702519175",
-      "publishTime": "2025-04-25T17:30:00+02:00",
-      "startTime": "2025-04-25T17:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-17-30-14702519175",
-      "order": 638811990000082175,
-      "nextId": "urn:dr:radio:episode:67fed83baf5624554f836373",
-      "previousId": "urn:dr:radio:episode:67fd86e35838261650be1148",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86d4036df1a93c6b4c4e/5ddcd6a713bcc0968bf36cf34ce90c098b71af17e4a8edbef26f5405e5e0d8a5"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702519175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T17:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86d4036df1a93c6b4c4e",
-      "slug": "seneste-nyt-kl-17-30-14702519175",
-      "title": "Seneste nyt kl. 17:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702518175",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702518175",
-      "publishTime": "2025-04-25T16:30:00+02:00",
-      "startTime": "2025-04-25T16:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-16-30-14702518175",
-      "order": 638811954000082175,
-      "nextId": "urn:dr:radio:episode:67fd86d4036df1a93c6b4c4e",
-      "previousId": "urn:dr:radio:episode:67fd86e4af5624554f7af01a",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86e35838261650be1148/99f763947da437460cd89e8999208d06f4e2c070725dd75eafbd8d2a04af2eb8"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702518175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T16:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86e35838261650be1148",
-      "slug": "seneste-nyt-kl-16-30-14702518175",
-      "title": "Seneste nyt kl. 16:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702517175",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702517175",
-      "publishTime": "2025-04-25T15:30:00+02:00",
-      "startTime": "2025-04-25T15:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-15-30-14702517175",
-      "order": 638811918000082175,
-      "nextId": "urn:dr:radio:episode:67fd86e35838261650be1148",
-      "previousId": "urn:dr:radio:episode:67fd86f9db3f608c23b37093",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86e4af5624554f7af01a/381891d9db6ac1458895554f85f645596cca9affbd1cf63620b6bc5a4bf20df4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702517175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T15:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86e4af5624554f7af01a",
-      "slug": "seneste-nyt-kl-15-30-14702517175",
-      "title": "Seneste nyt kl. 15:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702516175",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702516175",
-      "publishTime": "2025-04-25T12:30:00+02:00",
-      "startTime": "2025-04-25T12:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-12-30-14702516175",
-      "order": 638811810000115175,
-      "nextId": "urn:dr:radio:episode:67fd86e4af5624554f7af01a",
-      "previousId": "urn:dr:radio:episode:67fd86ded20d2c6fb4d7dcf5",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86f9db3f608c23b37093/0ad124eb95baaacded21e42d907b38f93f0b64105f4361e79d3504addeb5579d"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702516175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T12:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86f9db3f608c23b37093",
-      "slug": "seneste-nyt-kl-12-30-14702516175",
-      "title": "Seneste nyt kl. 12:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702515175",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702515175",
-      "publishTime": "2025-04-25T11:30:00+02:00",
-      "startTime": "2025-04-25T11:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-11-30-14702515175",
-      "order": 638811774000115175,
-      "nextId": "urn:dr:radio:episode:67fd86f9db3f608c23b37093",
-      "previousId": "urn:dr:radio:episode:67fd86e3d20d2c6fb4d7dd4f",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86ded20d2c6fb4d7dcf5/a00afbb92caff6e9c992fbc92436037b9d04f94efda6e24e6c1259a4c28bcadf"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702515175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T11:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86ded20d2c6fb4d7dcf5",
-      "slug": "seneste-nyt-kl-11-30-14702515175",
-      "title": "Seneste nyt kl. 11:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702514175",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702514175",
-      "publishTime": "2025-04-25T10:30:00+02:00",
-      "startTime": "2025-04-25T10:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-10-30-14702514175",
-      "order": 638811738000115175,
-      "nextId": "urn:dr:radio:episode:67fd86ded20d2c6fb4d7dcf5",
-      "previousId": "urn:dr:radio:episode:67fd86de036df1a93c6b4cbe",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86e3d20d2c6fb4d7dd4f/f0d9e3a051ea20fb4c452ff9da65cd5504d100d43f2333c18d8fe632c6d36508"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702514175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T10:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86e3d20d2c6fb4d7dd4f",
-      "slug": "seneste-nyt-kl-10-30-14702514175",
-      "title": "Seneste nyt kl. 10:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702513175",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702513175",
-      "publishTime": "2025-04-25T09:30:00+02:00",
-      "startTime": "2025-04-25T09:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-09-30-14702513175",
-      "order": 638811702000114175,
-      "nextId": "urn:dr:radio:episode:67fd86e3d20d2c6fb4d7dd4f",
-      "previousId": "urn:dr:radio:episode:67fd86deaf5624554f7aefa7",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86de036df1a93c6b4cbe/e3198260f8efedc02e38f0388c2ea0986ba214622c05e7f9457bc278c2ec8012"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702513175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86de036df1a93c6b4cbe",
-      "slug": "seneste-nyt-kl-09-30-14702513175",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702511175",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702511175",
-      "publishTime": "2025-04-25T08:30:00+02:00",
-      "startTime": "2025-04-25T08:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-08-30-14702511175",
-      "order": 638811666000114175,
-      "nextId": "urn:dr:radio:episode:67fd86de036df1a93c6b4cbe",
-      "previousId": "urn:dr:radio:episode:67fd86c7aa336dd2f710f434",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86deaf5624554f7aefa7/6b229ddcc9a3b4853c7e6ffa4287c725db738fa2743c00df9eec9c21f64ce7a8"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702511175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86deaf5624554f7aefa7",
-      "slug": "seneste-nyt-kl-08-30-14702511175",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702512175",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702512175",
-      "publishTime": "2025-04-25T07:30:00+02:00",
-      "startTime": "2025-04-25T07:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-07-30-14702512175",
-      "order": 638811630000114175,
-      "nextId": "urn:dr:radio:episode:67fd86deaf5624554f7aefa7",
-      "previousId": "urn:dr:radio:episode:67fd86de5838261650be10f3",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86c7aa336dd2f710f434/af1fef473154502199a8301fd0325bc7ec3a2cfc664deb45cac61b0d10594cde"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702512175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86c7aa336dd2f710f434",
-      "slug": "seneste-nyt-kl-07-30-14702512175",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#FEFEFE"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#FEFEFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14702510175",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14702510175",
-      "publishTime": "2025-04-25T06:30:00+02:00",
-      "startTime": "2025-04-25T06:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-06-30-14702510175",
-      "order": 638811594000082175,
-      "nextId": "urn:dr:radio:episode:67fd86c7aa336dd2f710f434",
-      "series": {
-        "title": "P4 Sjælland regionale nyheder",
-        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
-      },
-      "channel": {
-        "title": "P4 Sjælland",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
-        "slug": "p4sjaelland",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fd86de5838261650be10f3/93598a98d7f85b853ffda1457b36d8e52d48c1e8090eb49f3d7c45d3b347b4e6"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702510175",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-25T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:67fd86de5838261650be10f3",
-      "slug": "seneste-nyt-kl-06-30-14702510175",
-      "title": "Seneste nyt kl. 06:30",
       "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
       "imageAssets": [
         {
