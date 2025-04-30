@@ -17,7 +17,7 @@
   "numberOfEpisodes": 20,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-04-29T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-04-30T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530183",
+      "durationMilliseconds": 8524066,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530183",
+      "publishTime": "2025-04-30T08:30:00+02:00",
+      "startTime": "2025-04-30T08:30:00+02:00",
+      "endTime": "2025-05-29T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/komponister-med-p-12422530183",
+      "order": 638815988025085183,
+      "previousId": "urn:dr:radio:episode:67f522068e208bf2ad240835",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f522431002625760757a60/352f33b244e9c343db5e3144b7b0ff62fbe7c4a12a223093a402449d2e1a3bc4"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530183",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-04-30T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f522431002625760757a60",
+      "slug": "komponister-med-p-12422530183",
+      "title": "Komponister med P",
+      "description": "Vi skal høre klassisk musik af komponister med P. Men hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVærter: Jakob Wivel og Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530182",
       "durationMilliseconds": 8526379,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-05-28T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/kaffeoplevelser-12422530182",
       "order": 638815124025084182,
+      "nextId": "urn:dr:radio:episode:67f522431002625760757a60",
       "previousId": "urn:dr:radio:episode:67f521de4e7f0c858901583d",
       "series": {
         "title": "Hej P2",
@@ -1652,7 +1739,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/historiske-romaner-12422530143",
       "order": 638791796025065143,
       "nextId": "urn:dr:radio:episode:67e0948c2940a33a24083611",
-      "previousId": "urn:dr:radio:episode:67dca10e2940a33a24ef2460",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1688,92 +1774,6 @@
       "slug": "historiske-romaner-12422530143",
       "title": "Historiske romaner",
       "description": "Hej P2 er programmet hvor du kan dele dine oplevelser, erfaringer og betragtninger ud fra dagens emne. Sammen kortlægger og undersøger vi kulturen stort som småt. Vi giver dit input radiovinger, hvis du skriver til HejP2@dr.dk. \nVærter: Jakob Wivel og Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530141",
-      "durationMilliseconds": 8524191,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530141",
-      "publishTime": "2025-03-31T08:30:00+02:00",
-      "startTime": "2025-03-31T08:30:00+02:00",
-      "endTime": "2025-04-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/idraetshal-12422530141",
-      "order": 638790068025063141,
-      "nextId": "urn:dr:radio:episode:67df43592940a33a24ffe7e9",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67dca10e2940a33a24ef2460/d9585133b757b2edb2aa490fd8133634eebdf5be1386000089788354d6680ed6"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530141",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-03-31T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67dca10e2940a33a24ef2460",
-      "slug": "idraetshal-12422530141",
-      "title": "Idrætshal",
-      "description": "Hvad har du senest oplevet i en idrætshal?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Jakob Wivel og Helle Kristensen.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
