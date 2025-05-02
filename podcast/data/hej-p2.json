@@ -17,7 +17,7 @@
   "numberOfEpisodes": 21,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-01T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-05-02T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530185",
+      "durationMilliseconds": 9000000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530185",
+      "publishTime": "2025-05-02T08:30:00+02:00",
+      "startTime": "2025-05-02T08:30:00+02:00",
+      "endTime": "2025-05-31T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/min-bedste-togrejse-12422530185",
+      "order": 638817716025087185,
+      "previousId": "urn:dr:radio:episode:67f522751045f0766471c5cf",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f5229fe0158a0b0c8f8797/a1bcc9b760230684efac3bc79f732bcb578b65bacd2471b930699ec90cceb745"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530185",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-02T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f5229fe0158a0b0c8f8797",
+      "slug": "min-bedste-togrejse-12422530185",
+      "title": "Min bedste togrejse",
+      "description": "Hvilken togrejse glemmer du aldrig og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Jakob Wivel.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530184",
       "durationMilliseconds": 8516193,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-05-30T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/maj-musik-12422530184",
       "order": 638816852025086184,
+      "nextId": "urn:dr:radio:episode:67f5229fe0158a0b0c8f8797",
       "previousId": "urn:dr:radio:episode:67f522431002625760757a60",
       "series": {
         "title": "Hej P2",
@@ -1739,7 +1826,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/blid-musik-12422530144",
       "order": 638792660025066144,
       "nextId": "urn:dr:radio:episode:67e1e537b70a76fbf8137550",
-      "previousId": "urn:dr:radio:episode:67df43592940a33a24ffe7e9",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1775,92 +1861,6 @@
       "slug": "blid-musik-12422530144",
       "title": "Blid musik",
       "description": "Hvilke blide klassiske toner skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk    \nVærter: Mette Greiffenberg og Malene Wichmann.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530143",
-      "durationMilliseconds": 8523385,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530143",
-      "publishTime": "2025-04-02T08:30:00+02:00",
-      "startTime": "2025-04-02T08:30:00+02:00",
-      "endTime": "2025-05-01T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/historiske-romaner-12422530143",
-      "order": 638791796025065143,
-      "nextId": "urn:dr:radio:episode:67e0948c2940a33a24083611",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67df43592940a33a24ffe7e9/a11f1c34881baaa6859c43fb01e9e1ff93121d1ec2e77d5eca5e1e22759c7ddf"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530143",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-02T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67df43592940a33a24ffe7e9",
-      "slug": "historiske-romaner-12422530143",
-      "title": "Historiske romaner",
-      "description": "Hej P2 er programmet hvor du kan dele dine oplevelser, erfaringer og betragtninger ud fra dagens emne. Sammen kortlægger og undersøger vi kulturen stort som småt. Vi giver dit input radiovinger, hvis du skriver til HejP2@dr.dk. \nVærter: Jakob Wivel og Mette Greiffenberg.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
