@@ -16,7 +16,7 @@
   "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-06T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-05-07T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn-1092718367000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fc436187a4031cfd7844",
   "psdbSlug": "p4kbh-morgen",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14802520193",
+      "durationMilliseconds": 14100000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14802520193",
+      "publishTime": "2025-05-07T06:05:00+02:00",
+      "startTime": "2025-05-07T06:05:00+02:00",
+      "endTime": "2025-05-11T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn/p4-morgen-koebenhavn/p4-morgen-14802520193",
+      "order": 638821947000090193,
+      "previousId": "urn:dr:radio:episode:680c07cab564004141a3e2bd",
+      "series": {
+        "title": "P4 Morgen København",
+        "id": "urn:dr:radio:series:5fa1597ada351264f87b5413",
+        "slug": "p4-morgen-koebenhavn-1092718367000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn-1092718367000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092718367000"
+      },
+      "channel": {
+        "title": "P4 København",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
+        "slug": "p4kbh",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:680d5979b564004141ac4b8f/03838eb740a952169d579e03b5cdc3687ac22eda6bab8d48d50a47fc5561551e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802520193",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-07T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:680d5979b564004141ac4b8f",
+      "slug": "p4-morgen-14802520193",
+      "title": "P4 Morgen",
+      "punchline": "Nyheder hver halve time, aktuelle reportager,\nvejr, musik og trafik",
+      "description": "Stå op med P4 Morgen København og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc8c52248c98a4403c59",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NgGRnnNH0NWX%Ls.^*WCM|oLkCazE5s.%Kj[RQWC"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8c52248c98a4403c59",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NgGRnnNH0NWX%Ls.^*WCM|oLkCazE5s.%Kj[RQWC"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#36220B",
+            "#DCC791"
+          ]
+        },
+        "colors": {
+          "dark": "#36220B",
+          "light": "#DCC791"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802520192",
       "durationMilliseconds": 14100000,
       "categories": [
@@ -85,6 +171,7 @@
       "endTime": "2025-05-10T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn/p4-morgen-koebenhavn/p4-morgen-14802520192",
       "order": 638821083000089192,
+      "nextId": "urn:dr:radio:episode:680d5979b564004141ac4b8f",
       "previousId": "urn:dr:radio:episode:680ab5988335367e1b342c17",
       "series": {
         "title": "P4 Morgen København",
@@ -172,7 +259,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn/p4-morgen-koebenhavn/p4-morgen-14802520191",
       "order": 638820219000088191,
       "nextId": "urn:dr:radio:episode:680c07cab564004141a3e2bd",
-      "previousId": "urn:dr:radio:episode:6806c203af5624554fb63d88",
       "series": {
         "title": "P4 Morgen København",
         "id": "urn:dr:radio:series:5fa1597ada351264f87b5413",
@@ -206,92 +292,6 @@
       "latestPublishTime": "2025-05-05T06:05:00+02:00",
       "id": "urn:dr:radio:episode:680ab5988335367e1b342c17",
       "slug": "p4-morgen-14802520191",
-      "title": "P4 Morgen",
-      "punchline": "Nyheder hver halve time, aktuelle reportager,\nvejr, musik og trafik",
-      "description": "Stå op med P4 Morgen København og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8c52248c98a4403c59",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NgGRnnNH0NWX%Ls.^*WCM|oLkCazE5s.%Kj[RQWC"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8c52248c98a4403c59",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NgGRnnNH0NWX%Ls.^*WCM|oLkCazE5s.%Kj[RQWC"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#36220B",
-            "#DCC791"
-          ]
-        },
-        "colors": {
-          "dark": "#36220B",
-          "light": "#DCC791"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802520185",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802520185",
-      "publishTime": "2025-05-02T06:05:00+02:00",
-      "startTime": "2025-05-02T06:05:00+02:00",
-      "endTime": "2025-05-06T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn/p4-morgen-koebenhavn/p4-morgen-14802520185",
-      "order": 638817627000087185,
-      "nextId": "urn:dr:radio:episode:680ab5988335367e1b342c17",
-      "series": {
-        "title": "P4 Morgen København",
-        "id": "urn:dr:radio:series:5fa1597ada351264f87b5413",
-        "slug": "p4-morgen-koebenhavn-1092718367000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-morgen-koebenhavn-1092718367000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092718367000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6806c203af5624554fb63d88/5beee398cba0acb1afb776e5650880ebf22968dd300f14526f542bbcdbf1993b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802520185",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-02T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6806c203af5624554fb63d88",
-      "slug": "p4-morgen-14802520185",
       "title": "P4 Morgen",
       "punchline": "Nyheder hver halve time, aktuelle reportager,\nvejr, musik og trafik",
       "description": "Stå op med P4 Morgen København og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
