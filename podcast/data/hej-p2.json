@@ -17,7 +17,7 @@
   "numberOfEpisodes": 21,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-08T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-05-09T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530195",
+      "durationMilliseconds": 8518899,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530195",
+      "publishTime": "2025-05-09T08:30:00+02:00",
+      "startTime": "2025-05-09T08:30:00+02:00",
+      "endTime": "2025-06-07T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/oplevelser-paa-havet-12422530195",
+      "order": 638823764025092195,
+      "previousId": "urn:dr:radio:episode:67f63b698e208bf2ad2b6ac0",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f63b878e208bf2ad2b6b85/40ff963f5852d50fdaa4c638c8f9e33498b9f5256644565de0f6c0ebd767f60e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530195",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-09T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f63b878e208bf2ad2b6b85",
+      "slug": "oplevelser-paa-havet-12422530195",
+      "title": "Oplevelser på havet",
+      "description": "Hvilken sejltur glemmer du aldrig?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530194",
       "durationMilliseconds": 8523950,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-06-06T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/smaa-sportsgrene-12422530194",
       "order": 638822900025091194,
+      "nextId": "urn:dr:radio:episode:67f63b878e208bf2ad2b6b85",
       "previousId": "urn:dr:radio:episode:67f63b4a867a0ea6fee5aa8b",
       "series": {
         "title": "Hej P2",
@@ -1739,7 +1826,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/hvad-sidder-der-paa-dit-koeleskab-12422530154",
       "order": 638798708025071154,
       "nextId": "urn:dr:radio:episode:67eb1247ab50e584ac320108",
-      "previousId": "urn:dr:radio:episode:67e87d228b2e4877edd9d73a",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1775,92 +1861,6 @@
       "slug": "hvad-sidder-der-paa-dit-koeleskab-12422530154",
       "title": "Hvad sidder der på dit køleskab?",
       "description": "Hvad har du hængende på dit køleskab og hvorfor? Fortæl, fortæl!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVærter: Jakob Wivel og Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530153",
-      "durationMilliseconds": 8513361,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530153",
-      "publishTime": "2025-04-09T08:30:00+02:00",
-      "startTime": "2025-04-09T08:30:00+02:00",
-      "endTime": "2025-05-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/oploeftende-musik-12422530153",
-      "order": 638797844025070153,
-      "nextId": "urn:dr:radio:episode:67e9c0f98b2e4877ede20018",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e87d228b2e4877edd9d73a/56ef0a420c26459fbec727437c1fa69f6eeaf7eddb3510563c41b30520eee650"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530153",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-09T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67e87d228b2e4877edd9d73a",
-      "slug": "oploeftende-musik-12422530153",
-      "title": "Opløftende musik",
-      "description": "Hvilket stykke klassisk musik synes du er opløftende og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVærter: Jakob Wivel og Mette Greiffenberg.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
