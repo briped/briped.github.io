@@ -17,7 +17,7 @@
   "numberOfEpisodes": 5,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-08T12:03:00+02:00",
+  "latestEpisodeStartTime": "2025-05-09T12:03:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1652350131000",
   "productionNumber": "1652350131000",
@@ -81,6 +81,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13332547195",
+      "durationMilliseconds": 7020024,
+      "categories": [
+        "Musik",
+        "Pop"
+      ],
+      "productionNumber": "13332547195",
+      "publishTime": "2025-05-09T12:03:00+02:00",
+      "startTime": "2025-05-09T12:03:00+02:00",
+      "endTime": "2025-05-13T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/fredag-9-maj-2025-13332547195",
+      "order": 638823889800052195,
+      "previousId": "urn:dr:radio:episode:680eab09b21aafec6d93cbf3",
+      "series": {
+        "title": "Popdatering",
+        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
+        "slug": "popdatering-1652350131000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
+        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
+      },
+      "channel": {
+        "title": "P3",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
+        "slug": "p3",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p3"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6808eeffb21aafec6d6f3e90/722025d52db541c4379ee80518b1d53a43732125475600660d752c1f4bd8617f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13332547195",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-09T12:03:00+02:00",
+      "id": "urn:dr:radio:episode:6808eeffb21aafec6d6f3e90",
+      "slug": "fredag-9-maj-2025-13332547195",
+      "title": "Fredag 9. maj. 2025",
+      "description": "I Popdatering præsenterer Marie Hobitz dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6808eeffb21aafec6d6f3e91",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NPAKz2tSD4m,n3R*Z3W=Txjst7WBX8iwrrX-Nxay"
+        },
+        {
+          "id": "urn:dr:radio:image:6808eeffb21aafec6d6f3e92",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odB5OsX-I:r?rrVshff+W;f+X8X8ODmlr?bHR,bHtQXmbIafnijZa0bbXSfkt7f+O@i_i_a{n%oL"
+        },
+        {
+          "id": "urn:dr:radio:image:6808eeffb21aafec6d6f3e92",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odB5OsX-I:r?rrVshff+W;f+X8X8ODmlr?bHR,bHtQXmbIafnijZa0bbXSfkt7f+O@i_i_a{n%oL"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bf",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#410501",
+            "#01FEF6"
+          ]
+        },
+        "colors": {
+          "dark": "#410501",
+          "light": "#01FEF6"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:16122533194",
       "durationMilliseconds": 7020000,
       "categories": [
@@ -93,6 +186,7 @@
       "endTime": "2025-05-12T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/kaempe-besoeg-fra-aphaca-og-annika-16122533194",
       "order": 638823027825072194,
+      "nextId": "urn:dr:radio:episode:6808eeffb21aafec6d6f3e90",
       "previousId": "urn:dr:radio:episode:680d59430d013d05019cae73",
       "series": {
         "title": "Popdatering",
@@ -513,7 +607,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/velkommen-til-tanketravl-elektronisk-pop-16122533191",
       "order": 638820435825069191,
       "nextId": "urn:dr:radio:episode:680c0797ac55d09aca64e450",
-      "previousId": "urn:dr:radio:episode:6808ee15b5640041418f833b",
       "series": {
         "title": "Popdatering",
         "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
@@ -623,100 +716,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "ofALzsXlNGnOr?soujWWS5kCf+ozI;idr?azW;WBOspHofWBniWBn4bbbvkCkCX8tka0i_s:WBWB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#410501",
-            "#01FEF6"
-          ]
-        },
-        "colors": {
-          "dark": "#410501",
-          "light": "#01FEF6"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:13332547187",
-      "durationMilliseconds": 7020024,
-      "categories": [
-        "Musik",
-        "Pop"
-      ],
-      "productionNumber": "13332547187",
-      "publishTime": "2025-05-04T12:03:00+02:00",
-      "startTime": "2025-05-04T12:03:00+02:00",
-      "endTime": "2025-05-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/soendag-4-maj-2025-13332547187",
-      "order": 638819569800091187,
-      "nextId": "urn:dr:radio:episode:680ab57eb5640041419b5b90",
-      "series": {
-        "title": "Popdatering",
-        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
-        "slug": "popdatering-1652350131000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
-        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
-      },
-      "channel": {
-        "title": "P3",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
-        "slug": "p3",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p3"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6808ee15b5640041418f833b/4e86bb4ecd9af5c7f1563766fa857a8d1e6e83a2b28848715c74a423c0df45a7"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:13332547187",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-04T12:03:00+02:00",
-      "id": "urn:dr:radio:episode:6808ee15b5640041418f833b",
-      "slug": "soendag-4-maj-2025-13332547187",
-      "title": "Søndag 4. maj. 2025",
-      "punchline": "Bliv (p)opdateret på de seneste nyheder indenfor poppens verden",
-      "description": "I Popdatering præsenterer Nynne Givskov dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.\nMedvirkende: Zuloo, Finneas, hypnotisør Mads Aggerholm.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6808ee15b5640041418f833c",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NNAnGrxtD4n5VYR+zBaeL2Wqt6kCEMRPwIX,XTs."
-        },
-        {
-          "id": "urn:dr:radio:image:6808ee15b5640041418f833d",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocBX.co}Sdi_wJniujj[S6bbkWbuI;Z$r=bHR+WBS#O?ocjZaKn%rqkWS#ofofkVTdrrV@j[oeaz"
-        },
-        {
-          "id": "urn:dr:radio:image:6808ee15b5640041418f833d",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocBX.co}Sdi_wJniujj[S6bbkWbuI;Z$r=bHR+WBS#O?ocjZaKn%rqkWS#ofofkVTdrrV@j[oeaz"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bf",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
         }
       ],
       "visualIdentity": {
