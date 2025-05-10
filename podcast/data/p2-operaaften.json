@@ -18,7 +18,7 @@
   "numberOfEpisodes": 18,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-03T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-10T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566196",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566196",
+      "publishTime": "2025-05-10T19:20:00+02:00",
+      "startTime": "2025-05-10T19:20:00+02:00",
+      "endTime": "2025-06-08T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/trubaduren-fra-the-met-12422566196",
+      "order": 638825018025019196,
+      "previousId": "urn:dr:radio:episode:67e3e9e9c75558751829d1f3",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e3ea1c52248c98a43a03d1/a520ba9fce7b7f36f85cd4a4e3b6de18123f961e170b1b38e5da5b255c2c841b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566196",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-10T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67e3ea1c52248c98a43a03d1",
+      "slug": "trubaduren-fra-the-met-12422566196",
+      "title": "Trubaduren fra The Met",
+      "description": "Oplev Verdis Trubaduren fra The Met, med et velsyngende cast bestående af bl.a. Michael Fabiano og Rachel Willis-Sørensen. I pausen fortæller danske tenor Anders Kampmann om tenorstemmen og hvad det egentlig er, som kendetegner en \"rigtig Verdi-tenor\". \nDaniele Callegari, dirigent. \nMetropolitanoperaens kor og orkester. \n(Metropolitanoperaen d. 29. oktober 2024). \nVært: Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6812015aac55d09aca8cbed3",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o9C#oMIpx]EMoNi_I9JARQt6axxZ0ybv$LxGR*S$JCIpShNIt7Ip~BR*S~I;jrjG$MbINGS5WBxa"
+        },
+        {
+          "id": "urn:dr:radio:image:6812015aac55d09aca8cbed3",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o9C#oMIpx]EMoNi_I9JARQt6axxZ0ybv$LxGR*S$JCIpShNIt7Ip~BR*S~I;jrjG$MbINGS5WBxa"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2C1522",
+            "#F7CF77"
+          ]
+        },
+        "colors": {
+          "dark": "#2C1522",
+          "light": "#F7CF77"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566186",
       "durationMilliseconds": 11403500,
       "categories": [
@@ -88,6 +168,7 @@
       "endTime": "2025-06-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/arabella-af-richard-strauss-12422566186",
       "order": 638818970025018186,
+      "nextId": "urn:dr:radio:episode:67e3ea1c52248c98a43a03d1",
       "previousId": "urn:dr:radio:episode:67ecc04fb71197bdbe1b16a1",
       "series": {
         "title": "P2 Operaaften",
@@ -169,7 +250,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/festen-12422566156",
       "order": 638800826025015156,
       "nextId": "urn:dr:radio:episode:67e3e9e9c75558751829d1f3",
-      "previousId": "urn:dr:radio:episode:67e3375f1a04e7b53e0650c8",
+      "previousId": "urn:dr:radio:episode:66e9fd0c374be7e3ced2543b",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
@@ -236,87 +317,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422566146",
-      "durationMilliseconds": 11403500,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422566146",
-      "publishTime": "2025-04-05T19:20:00+02:00",
-      "startTime": "2025-04-05T19:20:00+02:00",
-      "endTime": "2025-05-04T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/jake-heggies-moby-dick-12422566146",
-      "order": 638794778025014146,
-      "nextId": "urn:dr:radio:episode:67ecc04fb71197bdbe1b16a1",
-      "previousId": "urn:dr:radio:episode:66e9fd0c374be7e3ced2543b",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e3375f1a04e7b53e0650c8/a4f1581ac24bf06c9f1fdd76aeaf777dc988e0f9d122d2f2613a7baa4fa9e56d"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566146",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-05T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67e3375f1a04e7b53e0650c8",
-      "slug": "jake-heggies-moby-dick-12422566146",
-      "title": "Jake Heggies Moby-Dick",
-      "description": "Det er en af amerikansk litteraturs helt store romaner som komponisten Jake Heggie har sat i musik og som vi sender i Operaaften denne gang. \nUd af den 600 sider lange fortælling former Heggie en havbrusende opera i to akter om liv, død og genfødsel, hvor hvalfangeren Ahab tager sin søfolk på en farlig tur for at dræbe den hvide kaskelothval Moby-Dick. \nDet store tema er, hvordan det er at være i verden uden at have kontrollen over hvad der sker. \nKaptajn Ahab er sunget af Bogdan Jovanovich, tenor, Greenhorn er sunget af tenoren Dominick Chenes, Thomas Glass, bariton, synger rollen som Starbuck, og basbaritonen Ryan Speedo Green har rollen som Queequeq. \nMetropolitan Operaens mandskor og orkester. \nDirigent: Karen Kamensek. \nGreenhorn er sunget af Dominick Chenes. \nStarbuck er sunget af  Thomas Glass. \n(New York 29.marts). \nVært: Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67eba3feab50e584ac35e2ac",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oCAcxM^%0f57xu?FM{RjtRtRR*WB59NJ-nw]IpNdkWR*Rjxa%1RkjEaybcofaKNGt7oyWBRjofxt"
-        },
-        {
-          "id": "urn:dr:radio:image:67eba3feab50e584ac35e2ac",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oCAcxM^%0f57xu?FM{RjtRtRR*WB59NJ-nw]IpNdkWR*Rjxa%1RkjEaybcofaKNGt7oyWBRjofxt"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2C1522",
-            "#F7CF77"
-          ]
-        },
-        "colors": {
-          "dark": "#2C1522",
-          "light": "#F7CF77"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422466396",
       "durationMilliseconds": 9600000,
       "categories": [
@@ -329,7 +329,7 @@
       "startTime": "2024-09-28T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/flagermusen-med-knud-romer-12422466396",
       "order": 638631480000039396,
-      "nextId": "urn:dr:radio:episode:67e3375f1a04e7b53e0650c8",
+      "nextId": "urn:dr:radio:episode:67ecc04fb71197bdbe1b16a1",
       "previousId": "urn:dr:radio:episode:66e0c24f7b10ecca0b1dc9b4",
       "series": {
         "title": "P2 Operaaften",
