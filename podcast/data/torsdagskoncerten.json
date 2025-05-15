@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 10,
+  "numberOfEpisodes": 11,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-08T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-15T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545204",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545204",
+      "publishTime": "2025-05-15T19:20:00+02:00",
+      "startTime": "2025-05-15T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/ravel-og-gaasemors-historier-12422545204",
+      "order": 638829338025020204,
+      "previousId": "urn:dr:radio:episode:67f6370f8e208bf2ad2b4b41",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f63849867a0ea6fee59602/062d0c9838122935d06384f226e8fe950821f5be93312813b647690bebc438d6"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545204",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-15T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
+      "slug": "ravel-og-gaasemors-historier-12422545204",
+      "title": "Ravel og Gåsemors Historier",
+      "description": "Hør DR Symfoniorkestret i en koncert med Ravels farverige orkesterværk \"Gåsemors Historier\", hvor han genfortæller gamle franske eventyr i musik. Koncerten indledes med to andre fortællende værker, der opføres for første gang i Danmark: den amerikanske komponist Nico Muhlys \"Register hvor vi kan opleve Koncerthusets store orgel, og svenske Andrea Tarrodi \"Carmelopardalis\", der digter om venskabet med en giraf.  \nJames McVinnie, orgel. \nDR Symfoniorkestret. \nDirigent: Pekka Kuusisto. \n( - direkte fra Koncerthuset). \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6819d1460766aecd9d940335",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oB8|;VRi00%M-;M{j@ofM{WB-;Rjj@ayt8WBIUxu9Ft7-;M{Int7M{WBxaofRjWB%MWBM{t7fRRj"
+        },
+        {
+          "id": "urn:dr:radio:image:6819d1460766aecd9d940335",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oB8|;VRi00%M-;M{j@ofM{WB-;Rjj@ayt8WBIUxu9Ft7-;M{Int7M{WBxaofRjWB%MWBM{t7fRRj"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545194",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-05-08T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/blomstedt-og-beethovens-7-12422545194",
       "order": 638823290025019194,
+      "nextId": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
       "previousId": "urn:dr:radio:episode:67f526f81045f0766471e491",
       "series": {
         "title": "Torsdagskoncerten",
@@ -164,6 +243,7 @@
       "endTime": "2025-06-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/popelka-og-smetana-en-rejse-langs-moldau-12422545184",
       "order": 638817242025018184,
+      "nextId": "urn:dr:radio:episode:67f6370f8e208bf2ad2b4b41",
       "previousId": "urn:dr:radio:episode:67fc35ed5526fe4ad95762c9",
       "series": {
         "title": "Torsdagskoncerten",
