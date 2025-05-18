@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 13,
+  "numberOfEpisodes": 14,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-04T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-18T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
   "psdbUrn": "urn:dr:mu:bundle:58653c7ba11f9f1504d1ccca",
   "psdbSlug": "p2-guldkoncerten-p2d",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554207",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422554207",
+      "publishTime": "2025-05-18T19:20:00+02:00",
+      "startTime": "2025-05-18T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-lamberto-gardelli-og-robert-riefling-12422554207",
+      "order": 638831930025020207,
+      "previousId": "urn:dr:radio:episode:67f527531045f0766471e807",
+      "series": {
+        "title": "P2 Guldkoncerten",
+        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
+        "slug": "p2-guldkoncerten-1206952410000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f638b08e208bf2ad2b58d9/d9ea6338d62c299a318a4d72442914ad091b6461dc003805e5707730ce519135"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554207",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-18T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67f638b08e208bf2ad2b58d9",
+      "slug": "dr-symfoniorkestret-100-aar-lamberto-gardelli-og-robert-riefling-12422554207",
+      "title": "DR Symfoniorkestret 100 år: Lamberto Gardelli og Robert Riefling",
+      "description": "Blandt de chefdirigenter, som DR Symfoniorkestret har haft gennem årene, er italieneren Lamberto Gardelli. Han afsluttede en lang, international karriere ved at være chefdirigent i DR fra 1986 til 1988. Gardelli var en fornem musiker af den gamle skole og havde naturligt hjemme i den romantiske musik. I Guldkoncerten kan du bl.a. høre ham dirigere Griegs Klaverkoncert med den norske pianist Robert Riefling som solist, optaget i 1988 blot to måneder inden Rieflings død. Respighi: Roms fontæner. \tGrieg: Klaverkoncert. \t\tCarl Nielsen: Symfoni nr. 4, \"Det uudslukkelige. Robert Riefling, klaver. DR Symfoniorkestret. Dirigent: Lamberto Gardelli. (Koncert i Radiohusets Koncertsal, 7. april 1988).  \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:681dedce692dcd6021f7afde",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKCZ65IoRjxuRjIo~VWBIV%LIVaeR*xat7R*RjWB9Z%L%LIot7R*9Zxut7M|xuayRQt6WWRjt7of"
+        },
+        {
+          "id": "urn:dr:radio:image:681dedce692dcd6021f7afde",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKCZ65IoRjxuRjIo~VWBIV%LIVaeR*xat7R*RjWB9Z%L%LIot7R*9Zxut7M|xuayRQt6WWRjt7of"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#412001",
+            "#FA9F20"
+          ]
+        },
+        "colors": {
+          "dark": "#412001",
+          "light": "#FA9F20"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422554187",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-05-04T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/musik-til-danmarks-befrielse-12422554187",
       "order": 638819834025018187,
+      "nextId": "urn:dr:radio:episode:67f638b08e208bf2ad2b58d9",
       "previousId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -477,6 +556,7 @@
       "productionNumber": "12422554077",
       "publishTime": "2025-02-16T19:20:00+01:00",
       "startTime": "2025-02-16T19:20:00+01:00",
+      "endTime": "2025-08-16T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/leonard-bernstein-og-claudio-arrau-12422554077",
       "order": 638753306025007077,
       "nextId": "urn:dr:radio:episode:67b66560ff5c53172ffa8ca8",
@@ -880,7 +960,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/klaveraften-med-rudolf-serkin-12422454497",
       "order": 638692824000049497,
       "nextId": "urn:dr:radio:episode:675a1ab1d05e2f52e9aba256",
-      "previousId": "urn:dr:radio:episode:672bf607421f1136651688a5",
+      "previousId": "urn:dr:radio:episode:66aab51f2c41b5a137ef8e77",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -947,18 +1027,18 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422454467",
-      "durationMilliseconds": 9600000,
+      "learnId": "urn:dr:ocs:audio:content:playable:12422454327",
+      "durationMilliseconds": 9600024,
       "categories": [
         "Musik",
         "Klassisk"
       ],
-      "productionNumber": "12422454467",
-      "publishTime": "2024-11-17T19:20:00+01:00",
-      "startTime": "2024-11-17T19:20:00+01:00",
-      "endTime": "2025-05-17T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/bruckner-200-aar-12422454467",
-      "order": 638674680000046467,
+      "productionNumber": "12422454327",
+      "publishTime": "2025-05-11T19:20:00+02:00",
+      "startTime": "2024-08-11T19:20:00+02:00",
+      "endTime": "2025-06-09T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/liedaften-med-peter-schreier-12422454327",
+      "order": 638589936000032327,
       "nextId": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
       "previousId": "urn:dr:radio:episode:6698409edc0ed299b4c0dc2a",
       "series": {
@@ -984,32 +1064,32 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:672bf607421f1136651688a5/ac35c5f626af6f266f45b89d58f5989ea87acb4824852c7cc4dd54c25961a8de"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66aab51f2c41b5a137ef8e77/2a22fe32b54efa14466d195da7a9ce5dedcfc97f8e5433c68b74716823d3c764"
         }
       ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454467",
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454327",
       "isAvailableOnDemand": true,
       "hasVideo": false,
       "explicitContent": false,
-      "latestPublishTime": "2024-11-17T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:672bf607421f1136651688a5",
-      "slug": "bruckner-200-aar-12422454467",
-      "title": "Bruckner 200 år",
-      "description": "I år er det 200 år siden, den østrigske komponist Anton Bruckner blev født, og det markeres over hele verden. Bruckners musik var forbløffende længe om at slå igennem i Danmark. I Guldkoncerten kan du høre historiske optagelser fra perioden 1958-1966, lavet ved nogle af de første koncerter, hvor DR Symfoniorkestret og Radiokoret opførte værker af Bruckner. Bruckner: Symfoni nr. 9. DR Symfoniorkestret. Dirigent: Rafael Kubelik. (Radiohusets Koncertsal, 5. marts 1959). Bruckner: Te Deum. \t\t\tSolister: Kirsten Schultz, Else Paaske, Andor Kaposy & Ulrik Cold. DR Symfoniorkestret og Radiokoret. Dirigent: Militiades Caridis. (Radiohusets Koncertsal, 3. januar 1966). Bruckner: Motetter (Christus factus est; Locus iste; Ave Maria). DR Radiokoret. Dirigent: Niels Møller. (Slesvig Domkirke, 27. april 1958). \nVært: Louise Hjorth.",
+      "latestPublishTime": "2025-05-11T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:66aab51f2c41b5a137ef8e77",
+      "slug": "liedaften-med-peter-schreier-12422454327",
+      "title": "Liedaften med Peter Schreier",
+      "description": "Den tyske sanger Peter Schreier begyndte sit musikerliv som drengesolist i Dresden. Som tenor optrådte han gennem mere end et halvt århundrede, og under Den kolde krig var han en af de få østtyske sangere, der havde en verdensomspændende karriere. I 1988 modtog han Sonnings Musikpris i København. Hør ham i en fremragende koncertoptagelse fra 1984, hvor han bl.a. synger tyske lieder, et af hans specialer.Vært: Benedikte Granvig.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67ecfb2cda7f73f37cb61bc5",
+          "id": "urn:dr:radio:image:67f8e45faa49e222d56a0c66",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o98zruIU00^+ogM{oHogogM{oft7M|oKofj]WARjRiofogWAoeWWRjofofRjogj[ogWBj?kCWAof"
+          "blurHash": "oHF=pza|I+~Wxun$RrV?9G%MxaIU%Fa#-oj]jvNGV{%2M}Rj%2tRIUocn*IUWCj[IUs;%MM{azxa"
         },
         {
-          "id": "urn:dr:radio:image:67ecfb2cda7f73f37cb61bc5",
+          "id": "urn:dr:radio:image:67f8e45faa49e222d56a0c66",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o98zruIU00^+ogM{oHogogM{oft7M|oKofj]WARjRiofogWAoeWWRjofofRjogj[ogWBj?kCWAof"
+          "blurHash": "oHF=pza|I+~Wxun$RrV?9G%MxaIU%Fa#-oj]jvNGV{%2M}Rj%2tRIUocn*IUWCj[IUs;%MM{azxa"
         }
       ],
       "visualIdentity": {
@@ -1039,7 +1119,7 @@
       "endTime": "2025-05-26T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/dr-symfoniorkestret-i-amsterdam-12422454307",
       "order": 638577840000030307,
-      "nextId": "urn:dr:radio:episode:672bf607421f1136651688a5",
+      "nextId": "urn:dr:radio:episode:66aab51f2c41b5a137ef8e77",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
