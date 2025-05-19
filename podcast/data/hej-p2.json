@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 21,
+  "numberOfEpisodes": 20,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-16T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-05-19T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,8 +74,94 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530211",
+      "durationMilliseconds": 8527463,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530211",
+      "publishTime": "2025-05-19T08:30:00+02:00",
+      "startTime": "2025-05-19T08:30:00+02:00",
+      "endTime": "2025-06-17T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-hyldest-til-belgien-12422530211",
+      "order": 638832404025098211,
+      "previousId": "urn:dr:radio:episode:67f663bd841d31b4a651556e",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f66418841d31b4a65157cb/3140a1ed14d39da65238a537e493fdd7df6275cdf0cdae9f570cb91f6717473b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530211",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-19T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:67f66418841d31b4a65157cb",
+      "slug": "en-hyldest-til-belgien-12422530211",
+      "title": "En hyldest til Belgien",
+      "description": "Hvad er det bedste ved Belgien? Fortæl løs!  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530205",
-      "durationMilliseconds": 9000024,
+      "durationMilliseconds": 8520311,
       "categories": [
         "Musik",
         "Klassisk"
@@ -86,6 +172,7 @@
       "endTime": "2025-06-14T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/musik-af-ravel-12422530205",
       "order": 638829812025097205,
+      "nextId": "urn:dr:radio:episode:67f66418841d31b4a65157cb",
       "previousId": "urn:dr:radio:episode:67f6639e867a0ea6fee6b82e",
       "series": {
         "title": "Hej P2",
@@ -110,7 +197,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f663bd841d31b4a651556e/a5d5daac390c58cb4a013067f65f90dd9a9a48b976a7c50a07c8ac435003fdb3"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f663bd841d31b4a651556e/c55f0e43f482d371e95e40a146bc264240a2349424fafadec410a660961e8433"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530205",
@@ -1652,7 +1739,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/gode-melodier-12422530172",
       "order": 638809076025079172,
       "nextId": "urn:dr:radio:episode:67f79fca42308537cfa1b58b",
-      "previousId": "urn:dr:radio:episode:67ee7d52034014f39118e626",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1688,179 +1774,6 @@
       "slug": "gode-melodier-12422530172",
       "title": "Gode melodier",
       "description": "Vi dyrker den gode melodi i klassisk musik. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVærter: Jakob Wivel og Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530165",
-      "durationMilliseconds": 8514563,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530165",
-      "publishTime": "2025-04-18T08:30:00+02:00",
-      "startTime": "2025-04-18T08:30:00+02:00",
-      "endTime": "2025-05-17T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/ro-i-musikken-12422530165",
-      "order": 638805620025077165,
-      "nextId": "urn:dr:radio:episode:67f7915a42308537cfa14c11",
-      "previousId": "urn:dr:radio:episode:67ee7d15f15fbe15e58397df",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67ee7d52034014f39118e626/214bf74585d1585b0dab101cafea95390c96b2df9730d9cc24d94c3a38919fd5"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530165",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-18T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67ee7d52034014f39118e626",
-      "slug": "ro-i-musikken-12422530165",
-      "title": "Ro i musikken",
-      "description": "Hvilket stykke klassisk musik skaber ro for dig?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVærter: Malene Wichmann og Benedikte Bové.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530164",
-      "durationMilliseconds": 8523672,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530164",
-      "publishTime": "2025-04-17T08:30:00+02:00",
-      "startTime": "2025-04-17T08:30:00+02:00",
-      "endTime": "2025-05-16T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/bibelen-i-musik-12422530164",
-      "order": 638804756025076164,
-      "nextId": "urn:dr:radio:episode:67ee7d52034014f39118e626",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67ee7d15f15fbe15e58397df/22373c34f7eb9f9c3e8a526fc333b977fd24356710fb26785cd0287575f29926"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530164",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-17T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67ee7d15f15fbe15e58397df",
-      "slug": "bibelen-i-musik-12422530164",
-      "title": "Bibelen i musik",
-      "description": "Hej P2 er programmet hvor du kan dele dine oplevelser, erfaringer og betragtninger ud fra dagens emne. Sammen kortlægger og undersøger vi kulturen stort som småt. Vi giver dit input radiovinger, hvis du skriver til HejP2@dr.dk.\nVærter: Malene Wichmann og Mette Greiffenberg.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
