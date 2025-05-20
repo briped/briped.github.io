@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 159,
+  "numberOfEpisodes": 160,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-19T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-20T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543212",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543212",
+      "publishTime": "2025-05-20T19:20:00+02:00",
+      "startTime": "2025-05-20T19:20:00+02:00",
+      "endTime": "2025-06-18T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/naar-jazz-og-klassisk-smelter-sammen-gershwin-og-escaich-12422543212",
+      "order": 638833658025080212,
+      "previousId": "urn:dr:radio:episode:67f638e1867a0ea6fee599d8",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f639098e208bf2ad2b5b44/b080b7a66dbbca4dbeec19f1ce7fb6284d477f1741c1f36f34557066b1786d4c"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543212",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-20T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
+      "slug": "naar-jazz-og-klassisk-smelter-sammen-gershwin-og-escaich-12422543212",
+      "title": "Når jazz og klassisk smelter sammen: Gershwin og Escaich",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Hvis der er en komponist der har et ben i hver lejr, så er det George Gershwin. Trænet i både jazz og klassisk kompositionsmusik. I aften kan du høre to af hans kendte \"jazziske\" værker: En amerikaner i Paris og Rhapsody in blue. Franske Thierry Escaich går i hans fodspor og har komponeret en koncert for bigband og orkester: George Gershwin: En amerikaner i Paris. George Gershwin: Rhapsody in Blue. Thierry Escaich: Koncert for bigband og orkester (uropførelse). George Gershwin: Udvalgte sange, arrangeret for bigband og orkester. Hessischer Rundfunks Bigband. Frankfurts Radiosymfoniorkester. Dirigent (og klaver) Alain Altinoglu. (Alte Oper, Frankfurt 14. marts).  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:681deefd002e131c0a786303",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocD0QBIT4m%Mxuj]jsogRjWAt7ayD$t7xuofa#Ria#ayj[ofj[fRRjayt7WBWAj[j]WBt7j[WBof"
+        },
+        {
+          "id": "urn:dr:radio:image:681deefd002e131c0a786303",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocD0QBIT4m%Mxuj]jsogRjWAt7ayD$t7xuofa#Ria#ayj[ofj[fRRjayt7WBWAj[j]WBt7j[WBof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543211",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +166,7 @@
       "startTime": "2025-05-19T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/en-hyldest-til-kammerkoncerten-med-den-danske-strygekvartet-12422543211",
       "order": 638832794025079211,
+      "nextId": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
       "previousId": "urn:dr:radio:episode:67f6387c867a0ea6fee5975b",
       "series": {
         "title": "P2 Koncerten",
@@ -9533,6 +9614,7 @@
       "productionNumber": "12422443341",
       "publishTime": "2024-08-19T19:20:00+02:00",
       "startTime": "2024-08-19T19:20:00+02:00",
+      "endTime": "2025-08-19T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/smaek-paa-farverne-i-eicmf-12422443341",
       "order": 638596922024257341,
       "nextId": "urn:dr:radio:episode:66b7e544ae4e85101d0941fe",
