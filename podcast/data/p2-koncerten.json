@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 160,
+  "numberOfEpisodes": 159,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-21T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-23T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543215",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543215",
+      "publishTime": "2025-05-23T19:20:00+02:00",
+      "startTime": "2025-05-23T19:20:00+02:00",
+      "endTime": "2025-06-21T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/fransk-franskere-franskest-12422543215",
+      "order": 638836250025082215,
+      "previousId": "urn:dr:radio:episode:67f63928867a0ea6fee59b92",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f63965867a0ea6fee59d1d/8b55e3d4b5fae701672489b8126e0f4f72cead99e25f2a6cac6a664ba8597895"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543215",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-23T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67f63965867a0ea6fee59d1d",
+      "slug": "fransk-franskere-franskest-12422543215",
+      "title": "Fransk, franskere, franskest!",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Ravel, Ibert og Debussy kæmper ved denne koncert om titlen Fransk Mester med tre af deres mest velskrevne værker. Tombeau de Couperin af Ravel, fløjtekoncerten af Ibert og Debussys La Mer. Det er stærkeste opstilling fra alle. Emmanuel Pahud, fløjte. Hungarian Radio Symphony Orchestra. Dirigent: János Kovács. (Béla Bartók National Concert Hall, Budapest 30. april). \nVært: Charlotte Norholt.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:681defd33723e0ca771c637e",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocDbc.Rj0fxtxZR+V@xaWWM{t7oLI=WBxZogRjoKM{WXxajYWCofNHays:s:R*RjRkWCt6oLWBs:"
+        },
+        {
+          "id": "urn:dr:radio:image:681defd33723e0ca771c637e",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocDbc.Rj0fxtxZR+V@xaWWM{t7oLI=WBxZogRjoKM{WXxajYWCofNHays:s:R*RjRkWCt6oLWBs:"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543213",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "endTime": "2025-06-19T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/onsdag-21-maj-2025-12422543213",
       "order": 638834522025081213,
+      "nextId": "urn:dr:radio:episode:67f63965867a0ea6fee59d1d",
       "previousId": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
       "series": {
         "title": "P2 Koncerten",
@@ -1374,7 +1455,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/p2-talentet-i-esbjerg-12422543173",
       "order": 638810330025065173,
       "nextId": "urn:dr:radio:episode:67ee3c05f15fbe15e581d491",
-      "previousId": "urn:dr:radio:episode:67ee46b8034014f391177791",
+      "previousId": "urn:dr:radio:episode:67e564ced5634992e72456d8",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1442,87 +1523,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543172",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543172",
-      "publishTime": "2025-04-22T19:20:00+02:00",
-      "startTime": "2025-04-22T19:20:00+02:00",
-      "endTime": "2025-05-21T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/beethovens-heroiske-symfoni-og-griegs-eneste-klaverkoncert-12422543172",
-      "order": 638809466025064172,
-      "nextId": "urn:dr:radio:episode:67ee3b4f034014f391172a9d",
-      "previousId": "urn:dr:radio:episode:67e564ced5634992e72456d8",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67ee46b8034014f391177791/312055070836734d672bbea8b190a2d33331b68bc6e91dc52cd4e1e55aa85968"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543172",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-22T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67ee46b8034014f391177791",
-      "slug": "beethovens-heroiske-symfoni-og-griegs-eneste-klaverkoncert-12422543172",
-      "title": "Beethovens heroiske symfoni og Griegs eneste klaverkoncert",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Det er to sværvægtere du kan høre i denne P2 koncert: Beethovens hyldest til det heroiske i mennesket (egentlig havde han tilegnet Napoleon!) og så hans livsbekræftende klaverkoncert i G-dur. Erwin Schulhoff: Fem stykker for strygekvartet (i version fopr orkester).Beethoven: Klaverkoncert nr. 4 i G-dur. Beethoven: Symfoni nr. 3, Eroica. Paul Lewis, klaver. Bayerns radiosymfoniorkester. Dirigent: Manfred Honeck. (Hercules-salen, München 4. april).  \nVært: Charlotte Norholt.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ffa3805d2cc6993e4acdcd",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o86aSDWV0fs:=|s:-Vt6E2Io=|%1j[ayayoLa|WCI:Rk%1%1ELM|56s:=|NGIpfQWBR*xaxaIoRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67ffa3805d2cc6993e4acdcd",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o86aSDWV0fs:=|s:-Vt6E2Io=|%1j[ayayoLa|WCI:Rk%1%1ELM|56s:=|NGIpfQWBR*xaxaIoRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543167",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1534,7 +1534,7 @@
       "startTime": "2025-04-20T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/no-resting-place-med-ars-nova-12422543167",
       "order": 638807738025114167,
-      "nextId": "urn:dr:radio:episode:67ee46b8034014f391177791",
+      "nextId": "urn:dr:radio:episode:67ee3b4f034014f391172a9d",
       "previousId": "urn:dr:radio:episode:67ef0696f15fbe15e58739cd",
       "series": {
         "title": "P2 Koncerten",
@@ -12532,7 +12532,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/det-hoeje-nord-med-det-kongelige-kapel-12422443215",
       "order": 638521754024084215,
       "nextId": "urn:dr:radio:episode:6647d56dd0395abe5cb3d69b",
-      "previousId": "urn:dr:radio:episode:663e9b25ce5ca8cff2427bfc",
+      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12600,87 +12600,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443212",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443212",
-      "publishTime": "2024-05-21T19:20:00+02:00",
-      "startTime": "2024-05-21T19:20:00+02:00",
-      "endTime": "2025-05-21T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/musik-og-krig-i-aarhus-12422443212",
-      "order": 638519162024082212,
-      "nextId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
-      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:663e9b25ce5ca8cff2427bfc/fca3bc52d00fa3de254581f65cb9e4d6c4bf38724cdc993a9df1b19bedb9c257"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443212",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-05-21T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:663e9b25ce5ca8cff2427bfc",
-      "slug": "musik-og-krig-i-aarhus-12422443212",
-      "title": "Musik og krig i Aarhus",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Desværre er krig blevet noget vi taler om igen. I Aarhus byder symfoniorkestret på en usædvanlig koncert med krigen som tema. Hør et af de mest berømte krigsværker, Sjostakovtjs Stalingradsymfoni (skrevet i 1943) sat i scene af krigsveteraner der fortæller om konflikt, sammenhold og fællesskaber.Aarhus Symfoniorkester.  Dirigent: Andrey Boreyko. (Musikhuset Aarhus 16. maj). \nCa. kl. 21.30 \nEdward Elgar: Cellokoncert.\nSteven Isserlis, cello.\nLondon Symfonikerne.\nDirifgent: Richard Hickox.\nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67eccfa81c128984740a2298",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oqK9@;ENNHS5ofWX0ga}t6j@aej?ENoLoLoJa}oJoy%0ayayj]fkaLn%WXWXfiWBt6WCWCbHayj["
-        },
-        {
-          "id": "urn:dr:radio:image:67eccfa81c128984740a2298",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oqK9@;ENNHS5ofWX0ga}t6j@aej?ENoLoLoJa}oJoy%0ayayj]fkaLn%WXWXfiWBt6WCWCbHayj["
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443041",
       "durationMilliseconds": 9602629,
       "categories": [
@@ -12692,7 +12611,7 @@
       "startTime": "2024-01-22T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/nordenvind-fra-vest-med-esbjerg-ensemble-12422443041",
       "order": 638415446024013041,
-      "nextId": "urn:dr:radio:episode:663e9b25ce5ca8cff2427bfc",
+      "nextId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
       "previousId": "urn:dr:radio:episode:6571bb46122adb1868f10869",
       "series": {
         "title": "P2 Koncerten",
