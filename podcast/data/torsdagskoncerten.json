@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 11,
+  "numberOfEpisodes": 12,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-22T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-29T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,8 +74,86 @@
   "episodes": [
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545214",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545224",
       "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545224",
+      "publishTime": "2025-05-29T19:20:00+02:00",
+      "startTime": "2025-05-29T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/barbara-hannigans-orkesterleg-12422545224",
+      "order": 638841434025022224,
+      "previousId": "urn:dr:radio:episode:67f639468e208bf2ad2b5cf3",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681488988e3a344c9160a336/fa193e876e9393c14fcaec9264d1ce8f7e231ae794507513c1297171aff78ebb"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545224",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-29T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681488988e3a344c9160a336",
+      "slug": "barbara-hannigans-orkesterleg-12422545224",
+      "title": "Barbara Hannigans orkesterleg",
+      "description": "Hør DR Symfoniorkestret spille med canadiske Barbara Hannigan i spidsen som både dirigent og sanger, når hun går på tværs af genrer og epoker og leger med Gershwins swingende univers. Aftenens sæsonafslutningskoncert byder på et nyt værk af den iranske komponist Golfram Khayam, der har studeret i USA samt på amerikanske, ikoniske værker fra især årene omkring 1930. \nGolfam Khayam Je ne suis pas une fable à conter. \nCrawford Seeger: Andante for strygere.  \nIves: Three Places in New England. \nRichard Rodgers: The Carousel Waltz. \nGershwin: Girl Crazy (suite). \nDR Symfoniorkestret.  \nDirigent: Barbara Hannigan, sopran. \n(- direkte fra Koncerthuset). \nVært: Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6835c236f0501130c3bd4a70",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJDR{At7IqogEMM{^joLE2%LR*R*0gM|IVxtxZR-I:NG%1IVt6M|NGxt%1M{Rkae57oyt6t6jvxu"
+        },
+        {
+          "id": "urn:dr:radio:image:6835c236f0501130c3bd4a70",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJDR{At7IqogEMM{^joLE2%LR*R*0gM|IVxtxZR-I:NG%1IVt6M|NGxt%1M{Rkae57oyt6t6jvxu"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545214",
+      "durationMilliseconds": 9582436,
       "categories": [
         "Musik",
         "Klassisk"
@@ -85,6 +163,7 @@
       "startTime": "2025-05-22T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/nordisk-musiktopmoede-12422545214",
       "order": 638835386025021214,
+      "nextId": "urn:dr:radio:episode:681488988e3a344c9160a336",
       "previousId": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
       "series": {
         "title": "Torsdagskoncerten",
@@ -109,7 +188,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f639468e208bf2ad2b5cf3/a32dd2e8bd046e90e6b88dfba1e3097f58c4af05affbcd72b9935093a5f677a0"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f639468e208bf2ad2b5cf3/9d3cfacc93c5fd2583120d4a2cc80aed847aee92fb78e1c84d5d168abfcdbc3e"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545214",
@@ -636,6 +715,7 @@
       "productionNumber": "12422545094",
       "publishTime": "2025-02-27T19:20:00+01:00",
       "startTime": "2025-02-27T19:20:00+01:00",
+      "endTime": "2025-08-27T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/carmina-burana-med-dr-symfoniorkestret-kor-og-solister-12422545094",
       "order": 638762810025009094,
       "nextId": "urn:dr:radio:episode:67ce1fce62350c30cc80ae7b",
