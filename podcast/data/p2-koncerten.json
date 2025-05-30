@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 160,
+  "numberOfEpisodes": 158,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-28T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-30T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543225",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543225",
+      "publishTime": "2025-05-30T19:20:00+02:00",
+      "startTime": "2025-05-30T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mozarts-store-messe-i-c-mol-og-ny-basunkoncert-af-signe-lykke-12422543225",
+      "order": 638842298025086225,
+      "previousId": "urn:dr:radio:episode:68079827b21aafec6d666e95",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6807986eb564004141867019/df6493394297e71f144adc387fedf8bdb29c0d4ebf79563eb66edad6c2b0f3e4"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543225",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-30T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:6807986eb564004141867019",
+      "slug": "mozarts-store-messe-i-c-mol-og-ny-basunkoncert-af-signe-lykke-12422543225",
+      "title": "Mozarts store Messe i c-mol og ny basunkoncert af Signe Lykke",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Ligesom hans Requiem forblev Mozarts Messe i c-mol ufuldendt, og alligevel er den, ligesom døsmessen, et ubegribeligt underværk. \nDet kan du opleve ved Kapellets symfoniske afslutningskoncert, hvor der er også er en uropførelse af Signe Lykke på programmet. Stjernebasunisten Jesper Busk Sørensen er solist i hendes nyskrevne basunkoncert. \nDenise Beck, sopran. \nElisabeth Jansson, mezzo. \nJacob Skov Andersen, tenor. \nHenning von Schulman, bas. \nJesper Busk Sørensen, basun. \nDet Kongelige Kapel. \nDet Kongelige Operakor. \nDirigent: Marie Jacquot. \n(Operaen, Store Scene, København 29. maj). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:683871deb55477aa473e4c34",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oDDc|7VX6C0L%h-pbxVqMwtSWXx^0ep0-o%2R4IT%OM{t6tSRjRPNIWXaJ%2WVIUS5kDn$jEozRO"
+        },
+        {
+          "id": "urn:dr:radio:image:683871deb55477aa473e4c34",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oDDc|7VX6C0L%h-pbxVqMwtSWXx^0ep0-o%2R4IT%OM{t6tSRjRPNIWXaJ%2WVIUS5kDn$jEozRO"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543223",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +166,7 @@
       "endTime": "2025-06-26T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/til-minde-om-per-noergaard-12422543223",
       "order": 638840570025085223,
+      "nextId": "urn:dr:radio:episode:6807986eb564004141867019",
       "previousId": "urn:dr:radio:episode:680797e6b21aafec6d666d04",
       "series": {
         "title": "P2 Koncerten",
@@ -1292,7 +1372,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/brahms-1-symfoni-og-stjernehornist-spiller-rohloff-12422543185",
       "order": 638818106025070185,
       "nextId": "urn:dr:radio:episode:67f636a0867a0ea6fee58a5c",
-      "previousId": "urn:dr:radio:episode:67f3c598b726bd5dde248023",
+      "previousId": "urn:dr:radio:episode:67ee3b4f034014f391172a9d",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1360,168 +1440,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543183",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543183",
-      "publishTime": "2025-04-30T19:20:00+02:00",
-      "startTime": "2025-04-30T19:20:00+02:00",
-      "endTime": "2025-05-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/alma-og-gustav-mahler-med-en-unik-ung-stemme-12422543183",
-      "order": 638816378025069183,
-      "nextId": "urn:dr:radio:episode:67f527167778ce8121d2bd26",
-      "previousId": "urn:dr:radio:episode:67f3c53eb726bd5dde247da8",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f3c598b726bd5dde248023/a80a91cf2c1038fef3754b2b097dc41e9704ab804cd46e3d9ae63e4e66a14daa"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543183",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-30T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67f3c598b726bd5dde248023",
-      "slug": "alma-og-gustav-mahler-med-en-unik-ung-stemme-12422543183",
-      "title": "Alma og Gustav Mahler med en unik  ung stemme",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Alma Mahler er omdrejningspunkt ved denne koncert, hvor hendes egne sange bliver sat sammen med musik af to mænd, der begge var forelskede i hende - nemlig Alexander Zemlinsky og Gustav Mahler. Især i sangene havde Gustav og Alma en fælles forståelse og de fylder hele første del af koncerten ud, og her får vi mulighed for at stifte bekendtskab med Bella Adamova, en af de mest spændende og unikke unge sangere lige nu. \nKoncerten slutter med Zemlinsky's 1. symfoni.  Bella Adamova, mezzo-sopran. Prague Radio Symphony Orchestra.  Dirigent: Gregor Mayrhofer. (Bethlehem Kapel, Prag 2. januar). \nVært: Esben Tange.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6808a2b48347569edee809ad",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oEIWyJ?G0x~W%M=x%fM{D%t6xaRPo|%M-p?GxbIoMx-p?HWBNGIpIU%2%ME1I:R+%1ShXSRjNG%2"
-        },
-        {
-          "id": "urn:dr:radio:image:6808a2b48347569edee809ad",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oEIWyJ?G0x~W%M=x%fM{D%t6xaRPo|%M-p?GxbIoMx-p?HWBNGIpIU%2%ME1I:R+%1ShXSRjNG%2"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543182",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543182",
-      "publishTime": "2025-04-29T19:20:00+02:00",
-      "startTime": "2025-04-29T19:20:00+02:00",
-      "endTime": "2025-05-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/beethoven-mandolin-og-uzbekistan-12422543182",
-      "order": 638815514025068182,
-      "nextId": "urn:dr:radio:episode:67f3c598b726bd5dde248023",
-      "previousId": "urn:dr:radio:episode:67ee3b4f034014f391172a9d",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f3c53eb726bd5dde247da8/1f8e449c156efd0ec1037a3a78a2568d419d2f528526b99c8a71fe8e8dc40055"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543182",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-29T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67f3c53eb726bd5dde247da8",
-      "slug": "beethoven-mandolin-og-uzbekistan-12422543182",
-      "title": "Beethoven, Mandolin og Uzbekistan",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "En særlig oplevelse venter med garanti ved denne koncert. Bach og Beethoven bliver sat sammen med den Uzbekiske komponist Aziza Sadikova, og det store symfoniorkesteret står overfor den spinkle og elegante mandolin.  Bach: Fuga. Bach: Partita nr. 2. Aziza Sadikov: Chaconne. Beethoven: Symfoni nr. 7. Jacob Reuven, mandolin.  Orchestre National de France. Dirigent: Omer Meir Wellber. (Auditorium, Radio France 1. februar 2024). \nVært: Louise Hjorth.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6808a2448347569edee806fa",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHH0kdtlIBVr#kwv:Qsl^1i{XT=x+aRit7-Uofxt}@S~sSniR*r=IrR+-Qs-M|NHwbxZS$oJj[Na"
-        },
-        {
-          "id": "urn:dr:radio:image:6808a2448347569edee806fa",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHH0kdtlIBVr#kwv:Qsl^1i{XT=x+aRit7-Uofxt}@S~sSniR*r=IrR+-Qs-M|NHwbxZS$oJj[Na"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543173",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1533,7 +1451,7 @@
       "startTime": "2025-04-23T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/p2-talentet-i-esbjerg-12422543173",
       "order": 638810330025065173,
-      "nextId": "urn:dr:radio:episode:67f3c53eb726bd5dde247da8",
+      "nextId": "urn:dr:radio:episode:67f527167778ce8121d2bd26",
       "previousId": "urn:dr:radio:episode:67e564ced5634992e72456d8",
       "series": {
         "title": "P2 Koncerten",
@@ -12453,7 +12371,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/sonningpriskoncert-med-emmanuel-pahud-og-odense-symfoniorkester-12422443224",
       "order": 638526920024340224,
       "nextId": "urn:dr:radio:episode:664bc94625344ca0474c67b0",
-      "previousId": "urn:dr:radio:episode:6647d56dd0395abe5cb3d69b",
+      "previousId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12521,87 +12439,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443222",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443222",
-      "publishTime": "2024-05-28T19:20:00+02:00",
-      "startTime": "2024-05-28T19:20:00+02:00",
-      "endTime": "2025-05-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/amatis-trio-og-quasthoff-menneskeheden-i-krig-12422443222",
-      "order": 638525210024086222,
-      "nextId": "urn:dr:radio:episode:66582c6faa0174c4c8de9482",
-      "previousId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6647d56dd0395abe5cb3d69b/890923d81aaccc6cdd6fdf88577e0def72b06c2d0e651fa0dff805980aecb520"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-05-28T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:6647d56dd0395abe5cb3d69b",
-      "slug": "amatis-trio-og-quasthoff-menneskeheden-i-krig-12422443222",
-      "title": "Amatis Trio og Quasthoff: Menneskeheden i krig",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Historien er ikke kun tal, steder og begivenheder, men rigtige ægte menneskeskæbner. Tag med til en usædvanlig koncert, hvor mennesket er i centrum: Thomas Quasthoff reciterer breve skrevet af soldater og pårørende i 1. verdenskrig - til musik af Schubert, Schumann, Sjostakovitj, Webern og Korngold samt Rebecca Clarke og Fritz Kreisler.\nAmatis Trio.\nThomas Quasthoff, recitation.\n(Mogens Dahl Koncertsal 23. maj).  \nVært: Ole Bartholin Kiilerich.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd3291b3cf2409c6cbe52",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oC9%SJj[0eNb=}=}X.t6#nxaNtkWDiWX%g%LIAjEM{R*xut6M|RjXSadM{RjozNHMyRjR*RjsTjF"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd3291b3cf2409c6cbe52",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oC9%SJj[0eNb=}=}X.t6#nxaNtkWDiWX%g%LIAjEM{R*xut6M|RjXSadM{RjozNHMyRjR*RjsTjF"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443215",
       "durationMilliseconds": 9411980,
       "categories": [
@@ -12614,7 +12451,7 @@
       "endTime": "2025-06-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/det-hoeje-nord-med-det-kongelige-kapel-12422443215",
       "order": 638521754024084215,
-      "nextId": "urn:dr:radio:episode:6647d56dd0395abe5cb3d69b",
+      "nextId": "urn:dr:radio:episode:66582c6faa0174c4c8de9482",
       "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "series": {
         "title": "P2 Koncerten",
