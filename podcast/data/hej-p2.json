@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-29T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-05-30T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530225",
+      "durationMilliseconds": 8522874,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530225",
+      "publishTime": "2025-05-30T08:30:00+02:00",
+      "startTime": "2025-05-30T08:30:00+02:00",
+      "endTime": "2025-06-28T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/skovtur-i-danmark-12422530225",
+      "order": 638841908025107225,
+      "previousId": "urn:dr:radio:episode:6819e91b005cc6aa547b25e3",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6819e9300766aecd9d94a55e/1b9908d13f78dbcd4dec82f0b93de091ea0ea58d1b7c9aa9a9ca50d9e7321f41"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530225",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-30T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:6819e9300766aecd9d94a55e",
+      "slug": "skovtur-i-danmark-12422530225",
+      "title": "Skovtur i Danmark",
+      "description": "Hvor er det bedste skovturssted i Danmark?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530224",
       "durationMilliseconds": 8517106,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-06-27T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/smukke-kirkerum-12422530224",
       "order": 638841044025106224,
+      "nextId": "urn:dr:radio:episode:6819e9300766aecd9d94a55e",
       "previousId": "urn:dr:radio:episode:6819e911005cc6aa547b25a0",
       "series": {
         "title": "Hej P2",
@@ -1826,7 +1913,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/maj-musik-12422530184",
       "order": 638816852025086184,
       "nextId": "urn:dr:radio:episode:67f5229fe0158a0b0c8f8797",
-      "previousId": "urn:dr:radio:episode:67f522431002625760757a60",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1862,92 +1948,6 @@
       "slug": "maj-musik-12422530184",
       "title": "Maj-musik",
       "description": "Hvilken klassisk musik passer til måneden maj?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530183",
-      "durationMilliseconds": 8524066,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530183",
-      "publishTime": "2025-04-30T08:30:00+02:00",
-      "startTime": "2025-04-30T08:30:00+02:00",
-      "endTime": "2025-05-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/komponister-med-p-12422530183",
-      "order": 638815988025085183,
-      "nextId": "urn:dr:radio:episode:67f522751045f0766471c5cf",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f522431002625760757a60/352f33b244e9c343db5e3144b7b0ff62fbe7c4a12a223093a402449d2e1a3bc4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530183",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-30T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67f522431002625760757a60",
-      "slug": "komponister-med-p-12422530183",
-      "title": "Komponister med P",
-      "description": "Vi skal høre klassisk musik af komponister med P. Men hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk.  \nVærter: Jakob Wivel og Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
