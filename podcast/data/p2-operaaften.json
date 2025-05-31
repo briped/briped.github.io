@@ -18,7 +18,7 @@
   "numberOfEpisodes": 19,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-24T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-05-31T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566226",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566226",
+      "publishTime": "2025-05-31T19:20:00+02:00",
+      "startTime": "2025-05-31T19:20:00+02:00",
+      "endTime": "2025-06-29T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/katja-kabanova-12422566226",
+      "order": 638843162025022226,
+      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:680f7686c422b00d000707a2/6857a3daeedbfe88484edb22fda275f38b504add0787bb6273c36a1cc411b549"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566226",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-31T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:680f7686c422b00d000707a2",
+      "slug": "katja-kabanova-12422566226",
+      "title": "Katja Kabanova",
+      "description": "Vi sender Leos Janáceks opera Katja Kabanova fra Münchens nationalteater. Glæd dig til John Daszak og Corinne Winters i de to hovedpartier som Tichon og Katja Kabanova. Bliv klogere på den litterære periode \"Russisk realisme\" i aften, når vi sender opera om Katja Kabanova og drømmen om et frit liv. Cæcilie snakker med ekspert i russisk litteratur og kultur Niels Peter Bock Nielsen. \n(Marc Albrecht dirigent, Bayerns Symfoniorkester, 17. marts 2025). \nVært: Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6838718cf526fd481f66b05c",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oEBWoc0LK+%NxIOFyXi^#lI:Ntsm#mtRI.ROr=bH%KR-n4ofShV@I9-;IoRiw^bHV?ozofV@bbkC"
+        },
+        {
+          "id": "urn:dr:radio:image:6838718cf526fd481f66b05c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oEBWoc0LK+%NxIOFyXi^#lI:Ntsm#mtRI.ROr=bH%KR-n4ofShV@I9-;IoRiw^bHV?ozofV@bbkC"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2C1522",
+            "#F7CF77"
+          ]
+        },
+        "colors": {
+          "dark": "#2C1522",
+          "light": "#F7CF77"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566216",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "startTime": "2025-05-24T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/nyskrevet-opera-over-nobelpristagers-roman-12422566216",
       "order": 638837114025021216,
+      "nextId": "urn:dr:radio:episode:680f7686c422b00d000707a2",
       "previousId": "urn:dr:radio:episode:67f6389b867a0ea6fee59824",
       "series": {
         "title": "P2 Operaaften",
@@ -167,6 +248,7 @@
       "endTime": "2025-06-15T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/donizettis-lucrezia-borgia-12422566206",
       "order": 638831066025020206,
+      "nextId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
       "previousId": "urn:dr:radio:episode:67e3ea1c52248c98a43a03d1",
       "series": {
         "title": "P2 Operaaften",
@@ -815,7 +897,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/la-boheme-med-rosa-lund-og-tuberkulose-12422466336",
       "order": 638595192000033336,
       "nextId": "urn:dr:radio:episode:66bbd85cf75f3c40064f0de7",
-      "previousId": "urn:dr:radio:episode:6696eea14c5e3fc85b05ce70",
+      "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
@@ -882,87 +964,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422466306",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422466306",
-      "publishTime": "2025-04-26T19:20:00+02:00",
-      "startTime": "2024-07-27T19:20:00+02:00",
-      "endTime": "2025-05-25T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/werther-fra-la-scala-12422466306",
-      "order": 638576976000030306,
-      "nextId": "urn:dr:radio:episode:66b29e6a2e626c739742ed2f",
-      "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6696eea14c5e3fc85b05ce70/05bcf85d82c0b8ad20520fc0dfdeb6aad28bad9b6133152e2163c4ed12183c3b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422466306",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-26T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:6696eea14c5e3fc85b05ce70",
-      "slug": "werther-fra-la-scala-12422466306",
-      "title": "Werther fra La Scala",
-      "description": "Lyt til operaen af den franske komponist, baseret på Goethes berømte brevroman fra 1774 om Den unge Werthers lidelser. \nBenjamin Bernheim, Werther. \nJean Sébastien Bou, Albert. \nVictoria Karkacheva, Charlotte. \nFrancesca Pia Vitale, Sophie. \nLa Scala Operaens Orkester. \nDirigent: Alain Altinoglu. \n(La Scala Operaen, juni 2024). \nVært: Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:680896b2b21aafec6d6d0415",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oCC?m4$c8^yE%2D$8^bbtSVrbYohVrW?%NV?NG%NtlaeROtSV@RixDbcbIV?ogWB9Eaeoyayt8t7"
-        },
-        {
-          "id": "urn:dr:radio:image:680896b2b21aafec6d6d0415",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oCC?m4$c8^yE%2D$8^bbtSVrbYohVrW?%NV?NG%NtlaeROtSV@RixDbcbIV?ogWB9Eaeoyayt8t7"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2C1522",
-            "#F7CF77"
-          ]
-        },
-        "colors": {
-          "dark": "#2C1522",
-          "light": "#F7CF77"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422466146",
       "durationMilliseconds": 13208021,
       "categories": [
@@ -975,7 +976,7 @@
       "startTime": "2024-04-06T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/saul-paa-operaen-paa-holmen-12422466146",
       "order": 638480280000014146,
-      "nextId": "urn:dr:radio:episode:6696eea14c5e3fc85b05ce70",
+      "nextId": "urn:dr:radio:episode:66b29e6a2e626c739742ed2f",
       "previousId": "urn:dr:radio:episode:63e6517a2a690b2e6ffcb6e7",
       "series": {
         "title": "P2 Operaaften",
