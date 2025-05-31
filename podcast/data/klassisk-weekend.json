@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 13,
+  "numberOfEpisodes": 14,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-31T07:03:00+02:00",
+  "latestEpisodeStartTime": "2025-05-31T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend-3529576594000",
   "psdbUrn": "urn:dr:mu:bundle:6273de017140141c98d61b76",
   "psdbSlug": "klassisk-weekend",
@@ -82,6 +82,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422532622",
+      "durationMilliseconds": 5102888,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422532622",
+      "publishTime": "2025-05-31T08:30:00+02:00",
+      "startTime": "2025-05-31T08:30:00+02:00",
+      "endTime": "2025-06-29T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend/klassisk-weekend-2025/loerdag-31-maj-2025-12422532622",
+      "order": 638842772025022622,
+      "previousId": "urn:dr:radio:episode:682cfcbbf65c9b85107a1953",
+      "series": {
+        "title": "Klassisk weekend",
+        "id": "urn:dr:radio:series:6273de0d610339aadabdfd28",
+        "slug": "klassisk-weekend-3529576594000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend-3529576594000",
+        "learnId": "urn:dr:ocs:audio:content:series:3529576594000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682cfcc6f65c9b85107a1a93/a0fad05a168f83c2835168a29e2be5fe1fbf9b50cd0b33a1c3a7c667f47537eb"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422532622",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-05-31T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:682cfcc6f65c9b85107a1a93",
+      "slug": "loerdag-31-maj-2025-12422532622",
+      "title": "Lørdag 31. maj. 2025",
+      "description": "Nyd weekendens rolige morgenstund i selskab med den klassiske musik og din morgenvært Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e5",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZM~FVQ6.8-?x]5,^+ELjct8NbwIT0r=NIs+afof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e6",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oXMrcBP+%M=~xuAq~D9ts;tRNInOKPnPR+jFoLofr=bIt7t7xZShS5S5s.f,ozxas:bHofxtt7bG"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e7",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e6",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oXMrcBP+%M=~xuAq~D9ts;tRNInOKPnPR+jFoLofr=bIt7t7xZShS5S5s.f,ozxas:bHofxtt7bG"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3C0623",
+            "#F9BEC7"
+          ]
+        },
+        "colors": {
+          "dark": "#3C0623",
+          "light": "#F9BEC7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422532226",
       "durationMilliseconds": 3420541,
       "categories": [
@@ -94,6 +187,7 @@
       "endTime": "2025-06-29T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend/klassisk-weekend-2025/loerdag-31-maj-2025-12422532226",
       "order": 638842719825043226,
+      "nextId": "urn:dr:radio:episode:682cfcc6f65c9b85107a1a93",
       "previousId": "urn:dr:radio:episode:68251466245624a1c07ea8f8",
       "series": {
         "title": "Klassisk weekend",
