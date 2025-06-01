@@ -17,7 +17,7 @@
   "numberOfEpisodes": 5,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-05-31T12:03:00+02:00",
+  "latestEpisodeStartTime": "2025-06-01T12:03:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1652350131000",
   "productionNumber": "1652350131000",
@@ -81,6 +81,100 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13332547227",
+      "durationMilliseconds": 7020000,
+      "categories": [
+        "Musik",
+        "Pop"
+      ],
+      "productionNumber": "13332547227",
+      "publishTime": "2025-06-01T12:03:00+02:00",
+      "startTime": "2025-06-01T12:03:00+02:00",
+      "endTime": "2025-06-05T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/soendag-1-jun-2025-13332547227",
+      "order": 638843761800095227,
+      "previousId": "urn:dr:radio:episode:6821f6ce002e131c0a941a2f",
+      "series": {
+        "title": "Popdatering",
+        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
+        "slug": "popdatering-1652350131000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
+        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
+      },
+      "channel": {
+        "title": "P3",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
+        "slug": "p3",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p3"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6821f6f63723e0ca773759dc/8f868958aa6a10b82ce473143589dca6ecb11cd2cb4955af5d6f39eba282168e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13332547227",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-01T12:03:00+02:00",
+      "id": "urn:dr:radio:episode:6821f6f63723e0ca773759dc",
+      "slug": "soendag-1-jun-2025-13332547227",
+      "title": "Søndag 1. jun. 2025",
+      "punchline": "Bliv (p)opdateret på de seneste nyheder indenfor poppens verden",
+      "description": "I Popdatering præsenterer Nynne Givskov dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6821f6f63723e0ca773759dd",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NNAnGrxtD4n5VYR+zBaeL2Wqt6kCEMRPwIX,XTs."
+        },
+        {
+          "id": "urn:dr:radio:image:6821f6f63723e0ca773759de",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocBX.co}Sdi_wJniujj[S6bbkWbuI;Z$r=bHR+WBS#O?ocjZaKn%rqkWS#ofofkVTdrrV@j[oeaz"
+        },
+        {
+          "id": "urn:dr:radio:image:6821f6f63723e0ca773759de",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocBX.co}Sdi_wJniujj[S6bbkWbuI;Z$r=bHR+WBS#O?ocjZaKn%rqkWS#ofofkVTdrrV@j[oeaz"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bf",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#410501",
+            "#01FEF6"
+          ]
+        },
+        "colors": {
+          "dark": "#410501",
+          "light": "#01FEF6"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:13332547226",
       "durationMilliseconds": 7020000,
       "categories": [
@@ -93,6 +187,7 @@
       "endTime": "2025-06-04T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/loerdag-31-maj-2025-13332547226",
       "order": 638842897800075226,
+      "nextId": "urn:dr:radio:episode:6821f6f63723e0ca773759dc",
       "previousId": "urn:dr:radio:episode:6821f7513723e0ca77375c25",
       "series": {
         "title": "Popdatering",
@@ -421,7 +516,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/vaer-med-til-at-skabe-ilma-16122533223",
       "order": 638840307825083223,
       "nextId": "urn:dr:radio:episode:682a599817231fc7641bdf0f",
-      "previousId": "urn:dr:radio:episode:6827b7a261175376c10c692e",
       "series": {
         "title": "Popdatering",
         "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
@@ -503,145 +597,6 @@
       "title": "Vær med til at skabe ILMA",
       "punchline": "Bliv (p)opdateret på de seneste nyheder indenfor poppens verden",
       "description": "I Popdatering præsenterer Ena Cosovic dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu. Vi har inviteret den dansk/bosniske kunstner ILMA i studiet for at fortælle om sit co-creator univers. Hør alt om det næste album, som bliver udgivet på en helt speciel måde, og den nye single \"Cut Ties\". Vi har også forelsket os i den nye single fra Dos Santos og Karoline Mousing \"Urørlig\" om at føle sig 100% som sig selv. De mest shazamede sange er igen i dag lidt af en overraskelse, så vi dykker ned i toppen af listen, der byder på en gammel klassiker. Vi leger også \"Pass eller Play\" med Stine, der ringer fra Helsingør. Hun ved lige præcis, hvad hun har brug for, og vælger bangeren \"Yeah\" af Usher ft. Lil Jon & Ludacris.\nMedvirkende: ILMA, Dos Santos & Karoline Mousing.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bd",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NP9RqRb^D4n4rWjczAWBPUofozkBEgn5wIXmb^bH"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1be",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofALzsXlNGnOr?soujWWS5kCf+ozI;idr?azW;WBOspHofWBniWBn4bbbvkCkCX8tka0i_s:WBWB"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bf",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1be",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofALzsXlNGnOr?soujWWS5kCf+ozI;idr?azW;WBOspHofWBniWBn4bbbvkCkCX8tka0i_s:WBWB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#410501",
-            "#01FEF6"
-          ]
-        },
-        "colors": {
-          "dark": "#410501",
-          "light": "#01FEF6"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:16122533222",
-      "durationMilliseconds": 7020000,
-      "categories": [
-        "Musik",
-        "Pop"
-      ],
-      "productionNumber": "16122533222",
-      "publishTime": "2025-05-27T12:03:00+02:00",
-      "startTime": "2025-05-27T12:03:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/kasper-hoerer-alt-fra-mozart-til-volbeat-16122533222",
-      "order": 638839443825082222,
-      "nextId": "urn:dr:radio:episode:682908bc61175376c115298c",
-      "series": {
-        "title": "Popdatering",
-        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
-        "slug": "popdatering-1652350131000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
-        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
-      },
-      "channel": {
-        "title": "P3",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
-        "slug": "p3",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p3"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 64,
-          "fileSize": 57478980,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/269cc666dff95f3fcf4f690a13863f3b2769f9ae07f394b0dff8537970e1698c"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 192,
-          "fileSize": 169800374,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/4899fd81d0bc8fc550c71309b7e7487da93238bf0af68923149cff0960f9112b"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 256,
-          "fileSize": 225961333,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/2e4d2fe480fb04b0e22a7f85faa0bab7551e1b8d56266990735d9b62946836e9"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp3",
-          "bitrate": 64,
-          "fileSize": 56160753,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/b1ab162fdb6bf6610efc33dc155043679abd04526e0d4b667e1241d9d8059a7c"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp3",
-          "bitrate": 192,
-          "fileSize": 168481521,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/9d720022a8e267df0919f787b4342f6c4557a9150f74c128d7eaf64277cd8204"
-        },
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7a261175376c10c692e/b8f600fd5776dda7090597c92fc13c94f0e625d40d60975c3ff7f3cedf7bdc19"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:16122533222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T12:03:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7a261175376c10c692e",
-      "slug": "kasper-hoerer-alt-fra-mozart-til-volbeat-16122533222",
-      "title": "Kasper hører alt fra Mozart til Volbeat",
-      "punchline": "Bliv (p)opdateret på de seneste nyheder indenfor poppens verden",
-      "description": "I Popdatering præsenterer Ena Cosovic dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu. Vi skal snakke om Nicklas Sahls nyeste single \"Trampoline\", som har en sindssyg dejlig melodi, et omkvæd som sætter sig fast, og en lyd som er fuld af håb. Vi venter også i spænding på Zar Paulos næste album, men kan indtil da se deres dokumentar \"Elendig Software\" på DRTV, hvor bandet snakker om at ville være Danmarks bedste liveband. De er godt på vej, og du kan opleve dem på flere festivaler til sommer. På listen over de mest shazamede sange finder vi et par overraskelser og en meget genkendelig førsteplads. I \"Milliardklubben\" fyrer vi op for festen med en ægte EDM-banger. Vi leger også \"Pass eller Play\" med mureren Kasper, der ringer fra arbejdet i Bjæverskov. Han vælger bangeren \"Higher Love\" af Kygo & Whitney Houston.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3dee9121fd4cfc19ab1bd",
