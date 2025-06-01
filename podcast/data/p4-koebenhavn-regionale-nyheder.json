@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 42,
+  "numberOfEpisodes": 33,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-05-31T12:30:00+02:00",
+  "latestEpisodeStartTime": "2025-06-01T07:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
   "psdbUrn": "urn:dr:mu:bundle:57d7d1f06187a4031cfd57e0",
   "psdbSlug": "regionale-nyheder-kh4",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14802507227",
+      "durationMilliseconds": 120000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14802507227",
+      "publishTime": "2025-06-01T07:30:00+02:00",
+      "startTime": "2025-06-01T07:30:00+02:00",
+      "endTime": "2025-06-05T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-07-30-14802507227",
+      "order": 638843598000152227,
+      "previousId": "urn:dr:radio:episode:682cfcbb7b626ea9bb35f421",
+      "series": {
+        "title": "P4 København regionale nyheder",
+        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
+        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
+        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
+      },
+      "channel": {
+        "title": "P4 København",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
+        "slug": "p4kbh",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682e4e7235191597f7ccfcd9/83326f655c14067b65765cab6bb4a9abf0ce1a3667d1c6aa69939ea16b665c71"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802507227",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-01T07:30:00+02:00",
+      "id": "urn:dr:radio:episode:682e4e7235191597f7ccfcd9",
+      "slug": "seneste-nyt-kl-07-30-14802507227",
+      "title": "Seneste nyt kl. 07:30",
+      "description": "Hør seneste regionale nyheder fra P4 København.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#1D1F25",
+            "#9CD0D9"
+          ]
+        },
+        "colors": {
+          "dark": "#1D1F25",
+          "light": "#9CD0D9"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802512226",
       "durationMilliseconds": 120000,
       "categories": [
@@ -84,6 +169,7 @@
       "endTime": "2025-06-04T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-12-30-14802512226",
       "order": 638842914000151226,
+      "nextId": "urn:dr:radio:episode:682e4e7235191597f7ccfcd9",
       "previousId": "urn:dr:radio:episode:682cfcc7f65c9b85107a1a9a",
       "series": {
         "title": "P4 København regionale nyheder",
@@ -2750,7 +2836,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-06-30-14802506223",
       "order": 638840106000105223,
       "nextId": "urn:dr:radio:episode:682908d561175376c1152c20",
-      "previousId": "urn:dr:radio:episode:6827b7b361175376c10c6aee",
       "series": {
         "title": "P4 København regionale nyheder",
         "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
@@ -2784,865 +2869,6 @@
       "latestPublishTime": "2025-05-28T06:30:00+02:00",
       "id": "urn:dr:radio:episode:682908bffe63eba0a9bc8a7d",
       "slug": "seneste-nyt-kl-06-30-14802506223",
-      "title": "Seneste nyt kl. 06:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802517222",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802517222",
-      "publishTime": "2025-05-27T17:30:00+02:00",
-      "startTime": "2025-05-27T17:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-17-30-14802517222",
-      "order": 638839638000104222,
-      "nextId": "urn:dr:radio:episode:682908bffe63eba0a9bc8a7d",
-      "previousId": "urn:dr:radio:episode:6827b7b77b626ea9bb126efb",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7b361175376c10c6aee/33907ddc5e5500c0939f9470b647b97a8f08900b4edf8e5da7ea82f305daa09b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802517222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T17:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7b361175376c10c6aee",
-      "slug": "seneste-nyt-kl-17-30-14802517222",
-      "title": "Seneste nyt kl. 17:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802516222",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802516222",
-      "publishTime": "2025-05-27T16:30:00+02:00",
-      "startTime": "2025-05-27T16:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-16-30-14802516222",
-      "order": 638839602000104222,
-      "nextId": "urn:dr:radio:episode:6827b7b361175376c10c6aee",
-      "previousId": "urn:dr:radio:episode:6827b7cc61175376c10c6d87",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7b77b626ea9bb126efb/2d43e1e8aafa2f1a5ee6ce86270919cf642718ec94c600fe329809d3d827afe9"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802516222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T16:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7b77b626ea9bb126efb",
-      "slug": "seneste-nyt-kl-16-30-14802516222",
-      "title": "Seneste nyt kl. 16:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802515222",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802515222",
-      "publishTime": "2025-05-27T15:30:00+02:00",
-      "startTime": "2025-05-27T15:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-15-30-14802515222",
-      "order": 638839566000104222,
-      "nextId": "urn:dr:radio:episode:6827b7b77b626ea9bb126efb",
-      "previousId": "urn:dr:radio:episode:6827b7d01f1aded0221ded27",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7cc61175376c10c6d87/5e909df277dc50ad26bcdde85e94f9d5a9ffe7a0355bcdd5d4b2435254204e75"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802515222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T15:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7cc61175376c10c6d87",
-      "slug": "seneste-nyt-kl-15-30-14802515222",
-      "title": "Seneste nyt kl. 15:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802512222",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802512222",
-      "publishTime": "2025-05-27T12:30:00+02:00",
-      "startTime": "2025-05-27T12:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-12-30-14802512222",
-      "order": 638839458000147222,
-      "nextId": "urn:dr:radio:episode:6827b7cc61175376c10c6d87",
-      "previousId": "urn:dr:radio:episode:6827b7cc7b626ea9bb12716c",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7d01f1aded0221ded27/11965e4080e94edcbeb8d47e3a22ec15ca2545446bfd91ec4decae6df92570bc"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802512222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T12:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7d01f1aded0221ded27",
-      "slug": "seneste-nyt-kl-12-30-14802512222",
-      "title": "Seneste nyt kl. 12:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802511222",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802511222",
-      "publishTime": "2025-05-27T11:30:00+02:00",
-      "startTime": "2025-05-27T11:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-11-30-14802511222",
-      "order": 638839422000147222,
-      "nextId": "urn:dr:radio:episode:6827b7d01f1aded0221ded27",
-      "previousId": "urn:dr:radio:episode:6827b7cd1f1aded0221decc6",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7cc7b626ea9bb12716c/6bd82b55a6dc2bbc8b0766023140b26a43aecde1cf31c5331aa770c70a8a8314"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802511222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T11:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7cc7b626ea9bb12716c",
-      "slug": "seneste-nyt-kl-11-30-14802511222",
-      "title": "Seneste nyt kl. 11:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802510222",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802510222",
-      "publishTime": "2025-05-27T10:30:00+02:00",
-      "startTime": "2025-05-27T10:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-10-30-14802510222",
-      "order": 638839386000147222,
-      "nextId": "urn:dr:radio:episode:6827b7cc7b626ea9bb12716c",
-      "previousId": "urn:dr:radio:episode:6827b7c661175376c10c6cce",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7cd1f1aded0221decc6/78a4d5ecca7d6680b261b2b401bed09606f6b81bdf58decbdd68d9ed4c8463fe"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802510222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T10:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7cd1f1aded0221decc6",
-      "slug": "seneste-nyt-kl-10-30-14802510222",
-      "title": "Seneste nyt kl. 10:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802509222",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802509222",
-      "publishTime": "2025-05-27T09:30:00+02:00",
-      "startTime": "2025-05-27T09:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-09-30-14802509222",
-      "order": 638839350000147222,
-      "nextId": "urn:dr:radio:episode:6827b7cd1f1aded0221decc6",
-      "previousId": "urn:dr:radio:episode:6827b7c6af70dee974a604d4",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7c661175376c10c6cce/b1225f955476121aac211996aab8102e85c7760293bc6babb774dc326264f653"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802509222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7c661175376c10c6cce",
-      "slug": "seneste-nyt-kl-09-30-14802509222",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802508222",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802508222",
-      "publishTime": "2025-05-27T08:30:00+02:00",
-      "startTime": "2025-05-27T08:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-08-30-14802508222",
-      "order": 638839314000147222,
-      "nextId": "urn:dr:radio:episode:6827b7c661175376c10c6cce",
-      "previousId": "urn:dr:radio:episode:6827b7b67b626ea9bb126eb0",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7c6af70dee974a604d4/faf42cf134607957ae0ce569cd1422ec7045e028e5ace8011ccd8aba8d735697"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802508222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7c6af70dee974a604d4",
-      "slug": "seneste-nyt-kl-08-30-14802508222",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802507222",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802507222",
-      "publishTime": "2025-05-27T07:30:00+02:00",
-      "startTime": "2025-05-27T07:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-07-30-14802507222",
-      "order": 638839278000147222,
-      "nextId": "urn:dr:radio:episode:6827b7c6af70dee974a604d4",
-      "previousId": "urn:dr:radio:episode:6827b7b31f1aded0221de9ff",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7b67b626ea9bb126eb0/c9e38532b9ebda1ed97d178c2b112e1294a33ca838e47dd7cc6f03bad91d5c28"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802507222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7b67b626ea9bb126eb0",
-      "slug": "seneste-nyt-kl-07-30-14802507222",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Hør seneste regionale nyheder fra P4 København.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#1D1F25",
-            "#9CD0D9"
-          ]
-        },
-        "colors": {
-          "dark": "#1D1F25",
-          "light": "#9CD0D9"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14802506222",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14802506222",
-      "publishTime": "2025-05-27T06:30:00+02:00",
-      "startTime": "2025-05-27T06:30:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-06-30-14802506222",
-      "order": 638839242000104222,
-      "nextId": "urn:dr:radio:episode:6827b7b67b626ea9bb126eb0",
-      "series": {
-        "title": "P4 København regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
-        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
-      },
-      "channel": {
-        "title": "P4 København",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
-        "slug": "p4kbh",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6827b7b31f1aded0221de9ff/caa216d306188f6045e0c4f470e16beb042b56b3180f083bc0a275fd8c765003"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802506222",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-27T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:6827b7b31f1aded0221de9ff",
-      "slug": "seneste-nyt-kl-06-30-14802506222",
       "title": "Seneste nyt kl. 06:30",
       "description": "Hør seneste regionale nyheder fra P4 København.",
       "imageAssets": [
