@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 158,
+  "numberOfEpisodes": 156,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-05-30T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-02T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543231",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543231",
+      "publishTime": "2025-06-02T19:20:00+02:00",
+      "startTime": "2025-06-02T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/sommerstemning-med-dr-pigekoret-og-vilma-12422543231",
+      "order": 638844890025087231,
+      "previousId": "urn:dr:radio:episode:6807986eb564004141867019",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a06680766aecd9d9569bd/c31879ea8338b590f979b8b77f247b481b6f80f8fb74e08ad0c2c1f591827d88"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543231",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-02T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681a06680766aecd9d9569bd",
+      "slug": "sommerstemning-med-dr-pigekoret-og-vilma-12422543231",
+      "title": "Sommerstemning med DR Pigekoret og Vilma",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Kom til koncert med noget af den allersmukkeste musik når DR Pigekoret synger kendte sommersange som Danmark, nu blunder den lyse nat, Jeg gik mig ud en sommerdag og korklassikeren Yndigt dufter Danmark - side om side med mere moderne klange og sange af Katrine Muff, Aphaca og den unge sanger og sangskriver Vilma. \nDR Pigekoret. \nVilma, vokal. \nChristoffer Møller, keyboards. \nGustaf Ljunggren, vokal mm. \nDirigent: Charlotte Rowan. \n(DR Koncerthuset 25. maj 2025). \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:683d66885f16b6983092c907",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJEU.T9v57^*EM%2wGxaNHR*fOs:0fsRxZIoRjaxtRWZWEWBoft7E2%LR+E3xuofoME1oJs.M|WD"
+        },
+        {
+          "id": "urn:dr:radio:image:683d66885f16b6983092c907",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJEU.T9v57^*EM%2wGxaNHR*fOs:0fsRxZIoRjaxtRWZWEWBoft7E2%LR+E3xuofoME1oJs.M|WD"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543225",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-05-30T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mozarts-store-messe-i-c-mol-og-ny-basunkoncert-af-signe-lykke-12422543225",
       "order": 638842298025086225,
+      "nextId": "urn:dr:radio:episode:681a06680766aecd9d9569bd",
       "previousId": "urn:dr:radio:episode:68079827b21aafec6d666e95",
       "series": {
         "title": "P2 Koncerten",
@@ -9211,6 +9291,7 @@
       "productionNumber": "12422443355",
       "publishTime": "2024-08-30T19:20:00+02:00",
       "startTime": "2024-08-30T19:20:00+02:00",
+      "endTime": "2025-08-30T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/novo-kvartetten-spiller-nielsen-glass-og-schumann-12422443355",
       "order": 638606426024264355,
       "nextId": "urn:dr:radio:episode:66c7b6476342fe81115d4fc9",
@@ -12209,7 +12290,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/hundrede-procent-herrekor-12422443231",
       "order": 638530394024089231,
       "nextId": "urn:dr:radio:episode:665261e4be7905fb09ba062a",
-      "previousId": "urn:dr:radio:episode:664bc94625344ca0474c67b0",
+      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12277,249 +12358,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443225",
-      "durationMilliseconds": 10500024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443225",
-      "publishTime": "2024-05-31T19:20:00+02:00",
-      "startTime": "2024-05-31T19:20:00+02:00",
-      "endTime": "2025-05-31T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/musikfestdage-i-diamanten-med-trio-con-brio-12422443225",
-      "order": 638527802024088225,
-      "nextId": "urn:dr:radio:episode:664fc6456c14bfedd6311bcf",
-      "previousId": "urn:dr:radio:episode:66582c6faa0174c4c8de9482",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:664bc94625344ca0474c67b0/4db33a201fd2ad81a82fc9f005906db67e81b73c7f7daaec34edfd6e7930826c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443225",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-05-31T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:664bc94625344ca0474c67b0",
-      "slug": "musikfestdage-i-diamanten-med-trio-con-brio-12422443225",
-      "title": "Musikfestdage i Diamanten - med Trio con Brio",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "En ny festival kommer til verden i denne weekend - vær med direkte når det sker og Trio con Brio med flere spiller åbningskoncerten. Søren Sætter-Lassen fortolker Holbergs \"Niels Klims underjordiske rejse\" og musikken er af bl.a. Grieg, Stravinskij, Saint-Saëns, Ravel og Bent Sørensen. (- direkte fra Diamanten i København). \nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecda40852d6a4412cd7d36",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oOFhx1^j?GxuxuR*~pNuo#xuj]V@IoM|RjxGRjWBV?%2jES3W=t7RjxaWBNGoJxaNHWBkCoJj[f5"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecda40852d6a4412cd7d36",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oOFhx1^j?GxuxuR*~pNuo#xuj]V@IoM|RjxGRjWBV?%2jES3W=t7RjxaWBNGoJxaNHWBkCoJj[f5"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443224",
-      "durationMilliseconds": 13214492,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443224",
-      "publishTime": "2024-05-30T18:50:00+02:00",
-      "startTime": "2024-05-30T18:50:00+02:00",
-      "endTime": "2025-05-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/sonningpriskoncert-med-emmanuel-pahud-og-odense-symfoniorkester-12422443224",
-      "order": 638526920024340224,
-      "nextId": "urn:dr:radio:episode:664bc94625344ca0474c67b0",
-      "previousId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66582c6faa0174c4c8de9482/f6410b05532fb3ff8aa7cc2947900f2c928a936369ed2f4ed4e044d09c6748d3"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443224",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-05-30T18:50:00+02:00",
-      "id": "urn:dr:radio:episode:66582c6faa0174c4c8de9482",
-      "slug": "sonningpriskoncert-med-emmanuel-pahud-og-odense-symfoniorkester-12422443224",
-      "title": "Sonningpriskoncert med Emmanuel Pahud og Odense Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Han er nok vor tids bedste fløjtenist - schweitziske Emmanuel Pahud, som i aften modtager Leonie Sonnings musikpris. Et kæmpe teknisk overskud, en stærk musikalitet og så bevæger han sig ubesværet mellem ny og gammel musik. Du får det hele med i aftenens direkte koncert, hvor musikken er af Bára Gísladóttir, Carl Nielsen, Debussy og Sofia Gubaidulina. Emmanuel Pahud, fløjte. Rafaell Altino, bratsch. Zachery Hatcher, harpe. Odense Symfoniorkester. Dirigent: Anu Tali. (-Direkte fra Carl Nielsen Salen i Odense). \nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67eccfb0b71197bdbe1b9423",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "ocDbc.Rj0fxtxZR+V@xaWWM{t7oLI=WBxZogRjoKM{WXxajYWCofNHays:s:R*RjRkWCt6oLWBs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67eccfb0b71197bdbe1b9423",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "ocDbc.Rj0fxtxZR+V@xaWWM{t7oLI=WBxZogRjoKM{WXxajYWCofNHays:s:R*RjRkWCt6oLWBs:"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443215",
-      "durationMilliseconds": 9411980,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443215",
-      "publishTime": "2024-05-24T19:20:00+02:00",
-      "startTime": "2024-05-24T19:20:00+02:00",
-      "endTime": "2025-06-01T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/det-hoeje-nord-med-det-kongelige-kapel-12422443215",
-      "order": 638521754024084215,
-      "nextId": "urn:dr:radio:episode:66582c6faa0174c4c8de9482",
-      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66428edf1f2aa99964a5ad41/e2affd883115cd123f3b05e1dd76997ad15ae36186e14a26b7706b3ae116f31f"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443215",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-05-24T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
-      "slug": "det-hoeje-nord-med-det-kongelige-kapel-12422443215",
-      "title": "Det høje nord med det Kongelige Kapel",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Hvordan lyder vores del af verden? Det kan du få et eksempel på i aften, hvor Kapellet byder på musik der smager af vores del af verden. Osmo Vänskä, som selv er finne, kommer med Carl Nielsens Helios-ouverture, Sibelius' Violinkoncert og Kong Christian d. II-suite og uddrag af Griegs Peer Gynt-suiter.  Det Kongelige Kapel. Daniel Lozakovich, violin. Dirigent: Osmo Vänskä. (- fra Operaen i København). \nVært: Celine Haastrup.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecdbf6b71197bdbe1c1aed",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oZHwc8$*X8IpxDof0fV@snbbt7jZNx%LRkniIpaxt6NGozofa#ofE2jaaen%s.Rk%LofjZt7f+W;"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecdbf6b71197bdbe1c1aed",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oZHwc8$*X8IpxDof0fV@snbbt7jZNx%LRkniIpaxt6NGozofa#ofE2jaaen%s.Rk%LofjZt7f+W;"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443041",
       "durationMilliseconds": 9602629,
       "categories": [
@@ -12531,7 +12369,7 @@
       "startTime": "2024-01-22T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/nordenvind-fra-vest-med-esbjerg-ensemble-12422443041",
       "order": 638415446024013041,
-      "nextId": "urn:dr:radio:episode:66428edf1f2aa99964a5ad41",
+      "nextId": "urn:dr:radio:episode:664fc6456c14bfedd6311bcf",
       "previousId": "urn:dr:radio:episode:6571bb46122adb1868f10869",
       "series": {
         "title": "P2 Koncerten",
