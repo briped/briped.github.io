@@ -14,10 +14,10 @@
     "Musik",
     "Underholdning"
   ],
-  "numberOfEpisodes": 1,
+  "numberOfEpisodes": 2,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-06-02T12:15:00+02:00",
+  "latestEpisodeStartTime": "2025-06-03T12:15:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe-4154777683000",
   "psdbUrn": "urn:dr:mu:bundle:63a4f98f539f02177cc519bb",
   "psdbSlug": "p5-pa-stribe",
@@ -79,141 +79,282 @@
   },
   "sSlug": "p5-paa-stribe",
   "rssUri": "https://xmpl.dk/podcast/p5-paa-stribe.xml",
-  "episodes": {
-    "type": "Episode",
-    "learnId": "urn:dr:ocs:audio:content:playable:15452527231",
-    "durationMilliseconds": 6300024,
-    "categories": [
-      "Musik",
-      "Underholdning"
-    ],
-    "productionNumber": "15452527231",
-    "publishTime": "2025-06-02T12:15:00+02:00",
-    "startTime": "2025-06-02T12:15:00+02:00",
-    "endTime": "2025-06-06T23:59:00+02:00",
-    "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe/p5-paa-stribe/mandag-2-jun-2025-15452527231",
-    "order": 638844633000108231,
-    "series": {
-      "title": "P5 på stribe",
-      "id": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
-      "slug": "p5-paa-stribe-4154777683000",
-      "type": "Series",
+  "episodes": [
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:15452527232",
+      "durationMilliseconds": 6300024,
+      "categories": [
+        "Musik",
+        "Underholdning"
+      ],
+      "productionNumber": "15452527232",
+      "publishTime": "2025-06-03T12:15:00+02:00",
+      "startTime": "2025-06-03T12:15:00+02:00",
+      "endTime": "2025-06-07T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe/p5-paa-stribe/tirsdag-3-jun-2025-15452527232",
+      "order": 638845497000109232,
+      "previousId": "urn:dr:radio:episode:682fa0397524aa7e93d87187",
+      "series": {
+        "title": "P5 på stribe",
+        "id": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
+        "slug": "p5-paa-stribe-4154777683000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe-4154777683000",
+        "learnId": "urn:dr:ocs:audio:content:series:4154777683000"
+      },
+      "channel": {
+        "title": "P5",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
+        "slug": "p5",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p5"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 51584270,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/941de151734dbb087a91165af6b48836391d706c50a239b12254b2bd7f3a3dd5"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 152385602,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/51247a622b7b207bf368bdec6a8cb7bacef0e07e81405f752aac45214e3f69fa"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 202786368,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/a7ad1fa707135a790d8bcc76196bb970fe6694e43c36789e857c090afb2914b7"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 50401013,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/31b9eee07c2256598fdca9c0dd5436d9c03b12022bd1713c1b9492df3c33d226"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 151202165,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/e6a80d247a3593de4a5cb9b71d691a6e623b9034f1b7f35774d14f8454d2c951"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832070d35191597f7e6983a/5f1c05ac10b9cdfb5e4982bb02cf0fe8e00f0e437cf6b213e7a68500e0eccf24"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:15452527232",
       "isAvailableOnDemand": true,
-      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe-4154777683000",
-      "learnId": "urn:dr:ocs:audio:content:series:4154777683000"
-    },
-    "channel": {
-      "title": "P5",
-      "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
-      "slug": "p5",
-      "type": "Channel",
-      "presentationUrl": "https://www.dr.dk/lyd/p5"
-    },
-    "audioAssets": [
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 64,
-        "fileSize": 51584126,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/12e245ab18e31c3a4e2c9538c754c4cb960fc1b307f4bbddb7a7437c34a3ff03"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 192,
-        "fileSize": 152385796,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/c3ac5489dbae2aa5f8eab8938e8f49c3cbb93d6d5c7bb832a8dbbe57ddcaf987"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 256,
-        "fileSize": 202786499,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/7cd3507b077f95ae4191909e29ceab1985e0e7da51ad9166ccab2bafaab20c10"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 64,
-        "fileSize": 50401013,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/a14255d1cba2e29b95d08cf17f2626366ba9581a7db338f564c167da44315230"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 192,
-        "fileSize": 151202165,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/d800423a94ba5ea0e84d6ab0e2ba8eb0d9531839dcb56c6a7a961ffc367a0fed"
-      },
-      {
-        "type": "Audio",
-        "target": "Stream",
-        "isStreamLive": false,
-        "format": "HLS",
-        "bitrate": 0,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/97fa5c3d24b35e49b1a4c6cacdcf1c1b91778ce5a0296ed558a450e3ac55cd59"
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-03T12:15:00+02:00",
+      "id": "urn:dr:radio:episode:6832070d35191597f7e6983a",
+      "slug": "tirsdag-3-jun-2025-15452527232",
+      "title": "Tirsdag 3. jun. 2025",
+      "description": "''P5 på Stribe'' er quizzen der tager pulsen på din paratviden, både når det kommer til aktuelle begivenheder, men også når det gælder forskellige kategorier, lige fra de generelle om mad, musik og sport, til de mere specialiserede om alt lige fra 'Afrika' og 'Brætspil' til 'Matador' og 'Michael Jackson'. 5 kategorier - 5 spørgsmål - og 5 lyttere der får chancen for at gå hele vejen og få: ''P5 på Stribe''. \nVært: Dennis Johannesson.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d7",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NRC6uu0nx[fiRR%0xuWCNGt5s:WCoea#jZayWXj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d9",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oODSK]0nx]R,afxY={nkIpxWxZf8%1afV[xFs-jtjYxFspWCS2R+NGayxGoLW.WWNbWCoLs.j?WV"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#003041",
+            "#FDC453"
+          ]
+        },
+        "colors": {
+          "dark": "#003041",
+          "light": "#FDC453"
+        }
       }
-    ],
-    "ocsUrn": "urn:dr:ocs:audio:content:playable:15452527231",
-    "isAvailableOnDemand": true,
-    "hasVideo": false,
-    "explicitContent": false,
-    "latestPublishTime": "2025-06-02T12:15:00+02:00",
-    "id": "urn:dr:radio:episode:682fa0397524aa7e93d87187",
-    "slug": "mandag-2-jun-2025-15452527231",
-    "title": "Mandag 2. jun. 2025",
-    "description": "''P5 på Stribe'' er quizzen der tager pulsen på din paratviden, både når det kommer til aktuelle begivenheder, men også når det gælder forskellige kategorier, lige fra de generelle om mad, musik og sport, til de mere specialiserede om alt lige fra 'Afrika' og 'Brætspil' til 'Matador' og 'Michael Jackson'. 5 kategorier - 5 spørgsmål - og 5 lyttere der får chancen for at gå hele vejen og få: ''P5 på Stribe''. \nVært: Dennis Johannesson.",
-    "imageAssets": [
-      {
-        "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d7",
-        "target": "Default",
-        "ratio": "16:9",
-        "format": "image/jpeg",
-        "blurHash": "NRC6uu0nx[fiRR%0xuWCNGt5s:WCoea#jZayWXj["
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:15452527231",
+      "durationMilliseconds": 6300024,
+      "categories": [
+        "Musik",
+        "Underholdning"
+      ],
+      "productionNumber": "15452527231",
+      "publishTime": "2025-06-02T12:15:00+02:00",
+      "startTime": "2025-06-02T12:15:00+02:00",
+      "endTime": "2025-06-06T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe/p5-paa-stribe/mandag-2-jun-2025-15452527231",
+      "order": 638844633000108231,
+      "nextId": "urn:dr:radio:episode:6832070d35191597f7e6983a",
+      "series": {
+        "title": "P5 på stribe",
+        "id": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
+        "slug": "p5-paa-stribe-4154777683000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p5/p5-paa-stribe-4154777683000",
+        "learnId": "urn:dr:ocs:audio:content:series:4154777683000"
       },
-      {
-        "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
-        "target": "SquareImage",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
+      "channel": {
+        "title": "P5",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
+        "slug": "p5",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p5"
       },
-      {
-        "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d9",
-        "target": "Podcast",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "oODSK]0nx]R,afxY={nkIpxWxZf8%1afV[xFs-jtjYxFspWCS2R+NGayxGoLW.WWNbWCoLs.j?WV"
-      },
-      {
-        "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
-        "target": "Default",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
-      }
-    ],
-    "visualIdentity": {
-      "gradient": {
-        "colors": [
-          "#003041",
-          "#FDC453"
-        ]
-      },
-      "colors": {
-        "dark": "#003041",
-        "light": "#FDC453"
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 51584126,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/12e245ab18e31c3a4e2c9538c754c4cb960fc1b307f4bbddb7a7437c34a3ff03"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 152385796,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/c3ac5489dbae2aa5f8eab8938e8f49c3cbb93d6d5c7bb832a8dbbe57ddcaf987"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 202786499,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/7cd3507b077f95ae4191909e29ceab1985e0e7da51ad9166ccab2bafaab20c10"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 50401013,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/a14255d1cba2e29b95d08cf17f2626366ba9581a7db338f564c167da44315230"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 151202165,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/d800423a94ba5ea0e84d6ab0e2ba8eb0d9531839dcb56c6a7a961ffc367a0fed"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682fa0397524aa7e93d87187/97fa5c3d24b35e49b1a4c6cacdcf1c1b91778ce5a0296ed558a450e3ac55cd59"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:15452527231",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-02T12:15:00+02:00",
+      "id": "urn:dr:radio:episode:682fa0397524aa7e93d87187",
+      "slug": "mandag-2-jun-2025-15452527231",
+      "title": "Mandag 2. jun. 2025",
+      "description": "''P5 på Stribe'' er quizzen der tager pulsen på din paratviden, både når det kommer til aktuelle begivenheder, men også når det gælder forskellige kategorier, lige fra de generelle om mad, musik og sport, til de mere specialiserede om alt lige fra 'Afrika' og 'Brætspil' til 'Matador' og 'Michael Jackson'. 5 kategorier - 5 spørgsmål - og 5 lyttere der får chancen for at gå hele vejen og få: ''P5 på Stribe''. \nVært: Dennis Johannesson.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d7",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NRC6uu0nx[fiRR%0xuWCNGt5s:WCoea#jZayWXj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d9",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oODSK]0nx]R,afxY={nkIpxWxZf8%1afV[xFs-jtjYxFspWCS2R+NGayxGoLW.WWNbWCoLs.j?WV"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1bc51646c9e6cca90d8",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oRCis,0nx[R,WCxY-oWEIpt3xFjbxaR+Rks.oKj@WVs.oLWCWVR+RkWVs:j[bFazR+WVoLs.j?ay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#003041",
+            "#FDC453"
+          ]
+        },
+        "colors": {
+          "dark": "#003041",
+          "light": "#FDC453"
+        }
       }
     }
-  }
+  ]
 }
