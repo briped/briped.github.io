@@ -17,7 +17,7 @@
   "numberOfEpisodes": 156,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-06-02T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-03T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543232",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543232",
+      "publishTime": "2025-06-03T19:20:00+02:00",
+      "startTime": "2025-06-03T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/den-danske-strygekvartet-og-lars-mikkelsen-12422543232",
+      "order": 638845754025088232,
+      "previousId": "urn:dr:radio:episode:681a06680766aecd9d9569bd",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a06a5005cc6aa547be8f3/09e02417bd2b6d36fa13700b95c343b41e37824e84e5d5ad92986aa8dc2bad8b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543232",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-03T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681a06a5005cc6aa547be8f3",
+      "slug": "den-danske-strygekvartet-og-lars-mikkelsen-12422543232",
+      "title": "Den Danske Strygekvartet & Lars Mikkelsen",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Hør skuespiller Lars Mikkelsen og Den Danske Strygekvartet i den gribende musikdramatiske koncert \"Jeg trykker varmt din hånd\". Her indrammes ord og sætninger fra Shostakovich' breve af en lydcollage plukket fra hans 15 strygekvartetter. Bratschist Asbjørn Nørgaard fra har udviklet teksten til én kraftfuld monolog, og Karen-Lise Mynster har instrueret. \nLars Mikkelsen, skuespiller. \nDen Danske Strygekvartet. \n(Bellevue Teater, 26. maj). \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:683ee3816108806e0a6914b4",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oSEeS-S40fWoR+ay~BofELWVR*R*WWoLoLj@WBaybFj[WBWBoLoLWBs:R*jZjtR+%2s.NGjZWVWB"
+        },
+        {
+          "id": "urn:dr:radio:image:683ee3816108806e0a6914b4",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oSEeS-S40fWoR+ay~BofELWVR*R*WWoLoLj@WBaybFj[WBWBoLoLWBs:R*jZjtR+%2s.NGjZWVWB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543231",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-06-02T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/sommerstemning-med-dr-pigekoret-og-vilma-12422543231",
       "order": 638844890025087231,
+      "nextId": "urn:dr:radio:episode:681a06a5005cc6aa547be8f3",
       "previousId": "urn:dr:radio:episode:6807986eb564004141867019",
       "series": {
         "title": "P2 Koncerten",
@@ -125,18 +205,18 @@
       "description": "Kom til koncert med noget af den allersmukkeste musik når DR Pigekoret synger kendte sommersange som Danmark, nu blunder den lyse nat, Jeg gik mig ud en sommerdag og korklassikeren Yndigt dufter Danmark - side om side med mere moderne klange og sange af Katrine Muff, Aphaca og den unge sanger og sangskriver Vilma. \nDR Pigekoret. \nVilma, vokal. \nChristoffer Møller, keyboards. \nGustaf Ljunggren, vokal mm. \nDirigent: Charlotte Rowan. \n(DR Koncerthuset 25. maj 2025). \nVært: Esben Tange.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:683d66885f16b6983092c907",
+          "id": "urn:dr:radio:image:683ea7b7f526fd481f8f5726",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "oJEU.T9v57^*EM%2wGxaNHR*fOs:0fsRxZIoRjaxtRWZWEWBoft7E2%LR+E3xuofoME1oJs.M|WD"
+          "blurHash": "oGEdF?1J,C%2WA9]^0$hn%-ANys+9v-AShR*WUW=IoJRs:IpxDflEh$%I:spoMR*xaxFjtxGayR*"
         },
         {
-          "id": "urn:dr:radio:image:683d66885f16b6983092c907",
+          "id": "urn:dr:radio:image:683ea7b7f526fd481f8f5726",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "oJEU.T9v57^*EM%2wGxaNHR*fOs:0fsRxZIoRjaxtRWZWEWBoft7E2%LR+E3xuofoME1oJs.M|WD"
+          "blurHash": "oGEdF?1J,C%2WA9]^0$hn%-ANys+9v-AShR*WUW=IoJRs:IpxDflEh$%I:spoMR*xaxFjtxGayR*"
         }
       ],
       "visualIdentity": {
@@ -7133,7 +7213,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/hvordan-ville-det-lyde-hvis-schubert-var-en-moderne-singer-songwriter-12422443452",
       "order": 638664314024302452,
       "nextId": "urn:dr:radio:episode:67201934310eb7c15c197d3d",
-      "previousId": "urn:dr:radio:episode:671ac4fc8177eb4ef9d8b74a",
+      "previousId": "urn:dr:radio:episode:67238e91832f7a5b81946eeb",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -7201,87 +7281,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443451",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443451",
-      "publishTime": "2024-11-04T19:20:00+01:00",
-      "startTime": "2024-11-04T19:20:00+01:00",
-      "endTime": "2025-06-02T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/debutkoncert-med-en-af-danmarks-mest-lovende-pianister-12422443451",
-      "order": 638663450024301451,
-      "nextId": "urn:dr:radio:episode:671c165fc0065080aada9d6f",
-      "previousId": "urn:dr:radio:episode:67238e91832f7a5b81946eeb",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:671ac4fc8177eb4ef9d8b74a/5737abb0e673b09d37a6a9cac1f63d8686e10ce528e7645b928639cb50d365b7"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443451",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-11-04T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:671ac4fc8177eb4ef9d8b74a",
-      "slug": "debutkoncert-med-en-af-danmarks-mest-lovende-pianister-12422443451",
-      "title": "Debutkoncert med en af Danmarks mest lovende pianister",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Gustav Piekut har allerede etableret sig som en af de mest fremtrædende unge pianister i landet. Nu færdiggør han sine studier på konservatoriet med et brag af en klaveraften med stort K! Vi kommer vidt omkring komponister der på hver deres måde presser det meste ud af både instrument og pianist. Værker af Debussy, Janacek, Chopin og Schubert.  Gustav Piekut, klaver. (DKDM's Koncertsal, København, 23. oktober).\nVært: Rie Koch.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67eccd6f706eb0b600783cf7",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o98:@m57M|%14:WX%0s;9a^jM|Io$*0fxa^jkCs:s:WBWBxaNHoe%1%2ayE2NGoLxZNHofWBR+s:"
-        },
-        {
-          "id": "urn:dr:radio:image:67eccd6f706eb0b600783cf7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o98:@m57M|%14:WX%0s;9a^jM|Io$*0fxa^jkCs:s:WBWBxaNHoe%1%2ayE2NGoLxZNHofWBR+s:"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443444",
       "durationMilliseconds": 9600000,
       "categories": [
@@ -7293,7 +7292,7 @@
       "startTime": "2024-10-31T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/allehelgen-med-dr-vokalensemblet-12422443444",
       "order": 638659994024346444,
-      "nextId": "urn:dr:radio:episode:671ac4fc8177eb4ef9d8b74a",
+      "nextId": "urn:dr:radio:episode:671c165fc0065080aada9d6f",
       "previousId": "urn:dr:radio:episode:670af2e87a29711438f8283d",
       "series": {
         "title": "P2 Koncerten",
