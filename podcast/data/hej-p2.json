@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-06-03T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-06-04T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530233",
+      "durationMilliseconds": 8521262,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530233",
+      "publishTime": "2025-06-04T08:30:00+02:00",
+      "startTime": "2025-06-04T08:30:00+02:00",
+      "endTime": "2025-07-03T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-hyldest-til-rossini-12422530233",
+      "order": 638846228025110233,
+      "previousId": "urn:dr:radio:episode:681b51a6a75c4b5835055ca5",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681b524aa75c4b583505609c/15fc6e8150e04ff2b26a731057f13a898e50a8286915776c4cf64f5cd786d315"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530233",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-04T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:681b524aa75c4b583505609c",
+      "slug": "en-hyldest-til-rossini-12422530233",
+      "title": "En hyldest til Rossini",
+      "description": "Hvad skal vi høre af den store italiener - og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk. \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530232",
       "durationMilliseconds": 8523856,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-07-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/en-sjov-bog-12422530232",
       "order": 638845364025109232,
+      "nextId": "urn:dr:radio:episode:681b524aa75c4b583505609c",
       "previousId": "urn:dr:radio:episode:681a0ed6005cc6aa547c1c66",
       "series": {
         "title": "Hej P2",
@@ -1826,7 +1913,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/musikalske-biografier-12422530192",
       "order": 638821172025089192,
       "nextId": "urn:dr:radio:episode:67f63b4a867a0ea6fee5aa8b",
-      "previousId": "urn:dr:radio:episode:67f63b0e8e208bf2ad2b6886",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1862,92 +1948,6 @@
       "slug": "musikalske-biografier-12422530192",
       "title": "Musikalske biografier",
       "description": "Kan du anbefale en biografi om en komponist eller musiker?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#26251B",
-            "#C9C35F"
-          ]
-        },
-        "colors": {
-          "dark": "#26251B",
-          "light": "#C9C35F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530191",
-      "durationMilliseconds": 8525560,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530191",
-      "publishTime": "2025-05-05T08:30:00+02:00",
-      "startTime": "2025-05-05T08:30:00+02:00",
-      "endTime": "2025-06-03T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/80-aaret-for-danmarks-befrielse-12422530191",
-      "order": 638820308025088191,
-      "nextId": "urn:dr:radio:episode:67f63b22867a0ea6fee5a96b",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f63b0e8e208bf2ad2b6886/762c38a8b82eef76a75d5ac29d8155af2aea26b45518c1ac413ace397640c732"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530191",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-05T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:67f63b0e8e208bf2ad2b6886",
-      "slug": "80-aaret-for-danmarks-befrielse-12422530191",
-      "title": "80-året for Danmarks Befrielse",
-      "description": "Hvilke spor har Befrielsen sat i din familie? Fortæl historien.  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Malene Wichmann.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
