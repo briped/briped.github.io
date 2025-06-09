@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 42,
+  "numberOfEpisodes": 33,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-06-08T12:30:00+02:00",
+  "latestEpisodeStartTime": "2025-06-09T07:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c59b6187a40ef4069be3",
   "psdbSlug": "p4-syd-nyheder",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14502513241",
+      "durationMilliseconds": 120000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14502513241",
+      "publishTime": "2025-06-09T07:30:00+02:00",
+      "startTime": "2025-06-09T07:30:00+02:00",
+      "endTime": "2025-06-13T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-07-30-14502513241",
+      "order": 638850510000160241,
+      "previousId": "urn:dr:radio:episode:6837895b2174f5590b188a50",
+      "series": {
+        "title": "P4 Syd regionale nyheder",
+        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
+        "slug": "p4-syd-regionale-nyheder-836635191000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
+        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
+      },
+      "channel": {
+        "title": "P4 Syd",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
+        "slug": "p4syd",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682c50ec7b626ea9bb319b9f/40ee99fbfb0886147fee5d8913959d8ec9468338d78f52677e5542d86c7da42f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502513241",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-09T07:30:00+02:00",
+      "id": "urn:dr:radio:episode:682c50ec7b626ea9bb319b9f",
+      "slug": "seneste-nyt-kl-07-30-14502513241",
+      "title": "Seneste nyt kl. 07:30",
+      "description": "Seneste nyt kl. 07:30",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#103131",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#103131",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14502518237",
       "durationMilliseconds": 120000,
       "categories": [
@@ -84,6 +169,7 @@
       "endTime": "2025-06-12T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-12-30-14502518237",
       "order": 638849826000159237,
+      "nextId": "urn:dr:radio:episode:682c50ec7b626ea9bb319b9f",
       "previousId": "urn:dr:radio:episode:6837895a2174f5590b188a33",
       "series": {
         "title": "P4 Syd regionale nyheder",
@@ -2750,7 +2836,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-06-30-14502512234",
       "order": 638847018000111234,
       "nextId": "urn:dr:radio:episode:682d74daf65c9b85107d37db",
-      "previousId": "urn:dr:radio:episode:6832438035191597f7e8364d",
       "series": {
         "title": "P4 Syd regionale nyheder",
         "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
@@ -2784,865 +2869,6 @@
       "latestPublishTime": "2025-06-05T06:30:00+02:00",
       "id": "urn:dr:radio:episode:682d74bbf65c9b85107d3700",
       "slug": "seneste-nyt-kl-06-30-14502512234",
-      "title": "Seneste nyt kl. 06:30",
-      "description": "Seneste nyt kl. 06:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502522233",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502522233",
-      "publishTime": "2025-06-04T17:30:00+02:00",
-      "startTime": "2025-06-04T17:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-17-30-14502522233",
-      "order": 638846550000110233,
-      "nextId": "urn:dr:radio:episode:682d74bbf65c9b85107d3700",
-      "previousId": "urn:dr:radio:episode:6832437935191597f7e835d8",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832438035191597f7e8364d/e88e5b16f94aff66dad9cb14d6cc144a43059cfd4e7a8815f876c522b11399bd"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502522233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T17:30:00+02:00",
-      "id": "urn:dr:radio:episode:6832438035191597f7e8364d",
-      "slug": "seneste-nyt-kl-17-30-14502522233",
-      "title": "Seneste nyt kl. 17:30",
-      "description": "Seneste nyt kl. 17:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502521233",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502521233",
-      "publishTime": "2025-06-04T16:30:00+02:00",
-      "startTime": "2025-06-04T16:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-16-30-14502521233",
-      "order": 638846514000110233,
-      "nextId": "urn:dr:radio:episode:6832438035191597f7e8364d",
-      "previousId": "urn:dr:radio:episode:683243792b555b20090cdb75",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832437935191597f7e835d8/cf037c372440492b2d1d959ad6186553da5c7ff4ce6501cb96ff8736b9a49737"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502521233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T16:30:00+02:00",
-      "id": "urn:dr:radio:episode:6832437935191597f7e835d8",
-      "slug": "seneste-nyt-kl-16-30-14502521233",
-      "title": "Seneste nyt kl. 16:30",
-      "description": "Seneste nyt kl. 16:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502519233",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502519233",
-      "publishTime": "2025-06-04T15:30:00+02:00",
-      "startTime": "2025-06-04T15:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-15-30-14502519233",
-      "order": 638846478000110233,
-      "nextId": "urn:dr:radio:episode:6832437935191597f7e835d8",
-      "previousId": "urn:dr:radio:episode:682c802261175376c12bf649",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683243792b555b20090cdb75/752cdd4cd00f4dc6445f436e7929149b1a26c10437de0995909156ac38ab2d5e"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502519233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T15:30:00+02:00",
-      "id": "urn:dr:radio:episode:683243792b555b20090cdb75",
-      "slug": "seneste-nyt-kl-15-30-14502519233",
-      "title": "Seneste nyt kl. 15:30",
-      "description": "Seneste nyt kl. 15:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502518233",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502518233",
-      "publishTime": "2025-06-04T12:30:00+02:00",
-      "startTime": "2025-06-04T12:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-12-30-14502518233",
-      "order": 638846370000155233,
-      "nextId": "urn:dr:radio:episode:683243792b555b20090cdb75",
-      "previousId": "urn:dr:radio:episode:682c5cc8f65c9b8510761162",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682c802261175376c12bf649/d32ecfa46cec7e7200b2c7d2489e0c999283d76ec2e143ad82cba11b818efb6a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502518233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T12:30:00+02:00",
-      "id": "urn:dr:radio:episode:682c802261175376c12bf649",
-      "slug": "seneste-nyt-kl-12-30-14502518233",
-      "title": "Seneste nyt kl. 12:30",
-      "description": "Seneste nyt kl. 12:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502517233",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502517233",
-      "publishTime": "2025-06-04T11:30:00+02:00",
-      "startTime": "2025-06-04T11:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-11-30-14502517233",
-      "order": 638846334000155233,
-      "nextId": "urn:dr:radio:episode:682c802261175376c12bf649",
-      "previousId": "urn:dr:radio:episode:682c5c9f7b626ea9bb31ed4d",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682c5cc8f65c9b8510761162/0e622662324c79a22a5dbba4ec97e8cd61fd678c17f2983d1f5cc84d5dac4cea"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502517233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T11:30:00+02:00",
-      "id": "urn:dr:radio:episode:682c5cc8f65c9b8510761162",
-      "slug": "seneste-nyt-kl-11-30-14502517233",
-      "title": "Seneste nyt kl. 11:30",
-      "description": "Seneste nyt kl. 11:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502516233",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502516233",
-      "publishTime": "2025-06-04T10:30:00+02:00",
-      "startTime": "2025-06-04T10:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-10-30-14502516233",
-      "order": 638846298000155233,
-      "nextId": "urn:dr:radio:episode:682c5cc8f65c9b8510761162",
-      "previousId": "urn:dr:radio:episode:683243d035191597f7e83b2c",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682c5c9f7b626ea9bb31ed4d/439446623687d76f15fe442b8ee82a56cf7d9c661ac9139bbe003ec6c1599001"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502516233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T10:30:00+02:00",
-      "id": "urn:dr:radio:episode:682c5c9f7b626ea9bb31ed4d",
-      "slug": "seneste-nyt-kl-10-30-14502516233",
-      "title": "Seneste nyt kl. 10:30",
-      "description": "Seneste nyt kl. 10:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502515233",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502515233",
-      "publishTime": "2025-06-04T09:30:00+02:00",
-      "startTime": "2025-06-04T09:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-09-30-14502515233",
-      "order": 638846262000155233,
-      "nextId": "urn:dr:radio:episode:682c5c9f7b626ea9bb31ed4d",
-      "previousId": "urn:dr:radio:episode:683243782b343f1fadc247bd",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683243d035191597f7e83b2c/41784454a2e63f58c8b686152a702b09256a89d4ee20cd8b39251c201822f6de"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502515233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:683243d035191597f7e83b2c",
-      "slug": "seneste-nyt-kl-09-30-14502515233",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Seneste nyt kl. 09:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502514233",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502514233",
-      "publishTime": "2025-06-04T08:30:00+02:00",
-      "startTime": "2025-06-04T08:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-08-30-14502514233",
-      "order": 638846226000155233,
-      "nextId": "urn:dr:radio:episode:683243d035191597f7e83b2c",
-      "previousId": "urn:dr:radio:episode:683243782b555b20090cdb6f",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683243782b343f1fadc247bd/83bb86c482f404ef77c6d033a5986c22acdda4876d478ecd48c6641bcc7324bb"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502514233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:683243782b343f1fadc247bd",
-      "slug": "seneste-nyt-kl-08-30-14502514233",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Seneste nyt kl. 08:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502513233",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502513233",
-      "publishTime": "2025-06-04T07:30:00+02:00",
-      "startTime": "2025-06-04T07:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-07-30-14502513233",
-      "order": 638846190000155233,
-      "nextId": "urn:dr:radio:episode:683243782b343f1fadc247bd",
-      "previousId": "urn:dr:radio:episode:6832438135191597f7e8365a",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683243782b555b20090cdb6f/3cf8d44df27dafa2990f2371e7a92bf124bd4de52544d2f7e2a88f6d6fa7f682"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502513233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:683243782b555b20090cdb6f",
-      "slug": "seneste-nyt-kl-07-30-14502513233",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Seneste nyt kl. 07:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c927bb2e9899b2c17bb7",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14502512233",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14502512233",
-      "publishTime": "2025-06-04T06:30:00+02:00",
-      "startTime": "2025-06-04T06:30:00+02:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder/p4-syd-regionale-nyheder/seneste-nyt-kl-06-30-14502512233",
-      "order": 638846154000110233,
-      "nextId": "urn:dr:radio:episode:683243782b555b20090cdb6f",
-      "series": {
-        "title": "P4 Syd regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-        "slug": "p4-syd-regionale-nyheder-836635191000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd/p4-syd-regionale-nyheder-836635191000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635191000"
-      },
-      "channel": {
-        "title": "P4 Syd",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464a",
-        "slug": "p4syd",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4syd"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6832438135191597f7e8365a/47260609a244e3322176eb8cbc9ba537e68cd7c32aaa9b4f27e86118256c266f"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14502512233",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-04T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:6832438135191597f7e8365a",
-      "slug": "seneste-nyt-kl-06-30-14502512233",
       "title": "Seneste nyt kl. 06:30",
       "description": "Seneste nyt kl. 06:30",
       "imageAssets": [
