@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 155,
+  "numberOfEpisodes": 156,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-06-09T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-10T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543242",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543242",
+      "publishTime": "2025-06-10T19:20:00+02:00",
+      "startTime": "2025-06-10T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/rostrum-hvem-vinder-grand-prixet-for-klassisk-musik-12422543242",
+      "order": 638851802025092242,
+      "previousId": "urn:dr:radio:episode:6819b92a005cc6aa5479da70",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a0752005cc6aa547bed61/cf4fd59862e8ae93ba460cc5527dc30872c21c1bd13094f250ca4dbbdf567c41"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543242",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-10T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681a0752005cc6aa547bed61",
+      "slug": "rostrum-hvem-vinder-grand-prixet-for-klassisk-musik-12422543242",
+      "title": "Rostrum - hvem vinder grand prixet for klassisk musik?",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Hvordan lyder ny musik i dag? Fold de nysgerrige ører ud og tag med på opdagelse i den klassiske pendant til Melodi Grand Prix! Alle landene i EBU (den europæiske radiounion) kan deltage og Danmark er selvfølgelig også med i konkurrencen.  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:683ed5cef526fd481f908d74",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oOF=?iDi9Fa#D%%g00.8t6IUt7Ri9ZM{x[%MjYoKt7Rjaea#t7ozWBWBRjt7xtM{nhoft7aeRjt7"
+        },
+        {
+          "id": "urn:dr:radio:image:683ed5cef526fd481f908d74",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oOF=?iDi9Fa#D%%g00.8t6IUt7Ri9ZM{x[%MjYoKt7Rjaea#t7ozWBWBRjt7xtM{nhoft7aeRjt7"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543241",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-06-09T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/carl-nielsen-med-london-filharmonikerne-12422543241",
       "order": 638850938025091241,
+      "nextId": "urn:dr:radio:episode:681a0752005cc6aa547bed61",
       "previousId": "urn:dr:radio:episode:681489acdf3e92be8a646d82",
       "series": {
         "title": "P2 Koncerten",
@@ -285,18 +365,25 @@
       "description": "DSQ har som koncertarrangør flere gange kastet sig ud i at bryde grænser og har ved flere lejligheder arbejdet sammen med singer/songwriters indenfor den rytmiske musik. Nyeste skud på stammen er samarbejdet med Guldimund som du kan høre her.\nGuldimund, guitar og sang. \nAnja Backmann, kor. \nVillads Hoffman, mandola. \nArendse Nordtorp Pedersen, violin. \nMathæus Bech. kontrabas. \nCarlo Becker, trumpet. \n + DSQ (den danske strygekvartet). \n(DKDM 14. marts)\nVært: Benedikte Granvig.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:683f1c0df526fd481f92542c",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oSJ?ZtM|0MxZ-oWWDjShkqWCM|oeIVt6kWjFt6aft7WBWUoesmR+S#WVe.ofWBoeX8jtsmaft6R+"
+          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
         },
         {
-          "id": "urn:dr:radio:image:683f1c0df526fd481f92542c",
+          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oSJ?ZtM|0MxZ-oWWDjShkqWCM|oeIVt6kWjFt6aft7WBWUoesmR+S#WVe.ofWBoeX8jtsmaft6R+"
+          "format": "image/jpeg",
+          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
         }
       ],
       "visualIdentity": {
@@ -9372,6 +9459,7 @@
       "productionNumber": "12422443361",
       "publishTime": "2024-09-02T19:20:00+02:00",
       "startTime": "2024-09-02T19:20:00+02:00",
+      "endTime": "2025-09-09T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/middle-east-peace-ensemble-der-er-brug-for-broer-ikke-groefter-12422443361",
       "order": 638609018024265361,
       "nextId": "urn:dr:radio:episode:66c907bca127df4c0a2d16bc",
