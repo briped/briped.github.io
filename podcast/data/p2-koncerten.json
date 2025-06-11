@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 156,
+  "numberOfEpisodes": 157,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-06-10T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-11T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543243",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543243",
+      "publishTime": "2025-06-11T19:20:00+02:00",
+      "startTime": "2025-06-11T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/per-noergaards-verden-12422543243",
+      "order": 638852666025093243,
+      "previousId": "urn:dr:radio:episode:681a0752005cc6aa547bed61",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a077a0766aecd9d9570cb/b102c28b0eb2e545fc4fcc3697e4ab4bf0de586276d6000c92cf51fc125a9561"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543243",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-11T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681a077a0766aecd9d9570cb",
+      "slug": "per-noergaards-verden-12422543243",
+      "title": "Per Nørgårds verden",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Per Nørgård (1932-2025) er en af de største skikkelser i dansk musik. Med en musik i stadig forvandling igennem mere end 60 år var han et musikalsk fyrtårn, der inspirerede andre og som lyser langt ind i fremtiden. Hør uddrag af nogle af Per Nørgårds hovedværker. Fra Symfoni nr. 1 Sinfonia austera (streng) over Rejse ind i den gyldne skærm, hvor uendelighedsrækken høres i sin urform, til den lysende, legende Symfoni nr. 8. Mød også mennesket Per Nørgård, der med sin smittende nysgerrighed åbnede op for nye erkendelser.\nGæster: Sanger og konservatorierektor Helen Gjerris, komponisterne Rune Glerup og Signe Lykke samt cellist Jakob Kullberg.\nVærter: Celine Haastrup og Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68496f49864cf94f951cdc16",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWE:0s4noft6RjRj~qIUt7axRjWV4n%Mt7M{WBt74n-;ofM{j[ofa}xuRjj[t7Rjxuogayofj[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:68496f49864cf94f951cdc16",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWE:0s4noft6RjRj~qIUt7axRjWV4n%Mt7M{WBt74n-;ofM{j[ofa}xuRjj[t7Rjxuogayofj[WB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543242",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -84,8 +163,10 @@
       "productionNumber": "12422543242",
       "publishTime": "2025-06-10T19:20:00+02:00",
       "startTime": "2025-06-10T19:20:00+02:00",
+      "endTime": "2025-07-09T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/rostrum-hvem-vinder-grand-prixet-for-klassisk-musik-12422543242",
-      "order": 638851802025092242,
+      "order": 638851730025092242,
+      "nextId": "urn:dr:radio:episode:681a077a0766aecd9d9570cb",
       "previousId": "urn:dr:radio:episode:6819b92a005cc6aa5479da70",
       "series": {
         "title": "P2 Koncerten",
@@ -163,8 +244,9 @@
       "productionNumber": "12422543241",
       "publishTime": "2025-06-09T19:20:00+02:00",
       "startTime": "2025-06-09T19:20:00+02:00",
+      "endTime": "2025-07-08T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/carl-nielsen-med-london-filharmonikerne-12422543241",
-      "order": 638850938025091241,
+      "order": 638850866025091241,
       "nextId": "urn:dr:radio:episode:681a0752005cc6aa547bed61",
       "previousId": "urn:dr:radio:episode:681489acdf3e92be8a646d82",
       "series": {
@@ -243,8 +325,9 @@
       "productionNumber": "12422543235",
       "publishTime": "2025-06-06T19:20:00+02:00",
       "startTime": "2025-06-06T19:20:00+02:00",
+      "endTime": "2025-07-05T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mendelssohns-skotske-og-lalos-spanske-12422543235",
-      "order": 638848346025090235,
+      "order": 638848274025090235,
       "nextId": "urn:dr:radio:episode:6819b92a005cc6aa5479da70",
       "previousId": "urn:dr:radio:episode:681a06b90766aecd9d956bb3",
       "series": {
@@ -365,25 +448,18 @@
       "description": "DSQ har som koncertarrangør flere gange kastet sig ud i at bryde grænser og har ved flere lejligheder arbejdet sammen med singer/songwriters indenfor den rytmiske musik. Nyeste skud på stammen er samarbejdet med Guldimund som du kan høre her.\nGuldimund, guitar og sang. \nAnja Backmann, kor. \nVillads Hoffman, mandola. \nArendse Nordtorp Pedersen, violin. \nMathæus Bech. kontrabas. \nCarlo Becker, trumpet. \n + DSQ (den danske strygekvartet). \n(DKDM 14. marts)\nVært: Benedikte Granvig.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:68496e10d9427b607789e928",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oCF#%OkVGvM{?cRj~qrW-;E1%MNG5RRORPIUw]WBNaM_I;IojYt6x]RjxvbHxu%2oLI:bI%2xat7"
         },
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:68496e10d9427b607789e928",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oCF#%OkVGvM{?cRj~qrW-;E1%MNG5RRORPIUw]WBNaM_I;IojYt6x]RjxvbHxu%2oLI:bI%2xat7"
         }
       ],
       "visualIdentity": {
@@ -9056,6 +9132,7 @@
       "productionNumber": "12422443372",
       "publishTime": "2024-09-10T19:20:00+02:00",
       "startTime": "2024-09-10T19:20:00+02:00",
+      "endTime": "2025-09-10T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/truls-moerk-i-underholdnings-orkestrets-haydn-festival-12422443372",
       "order": 638615930024270372,
       "nextId": "urn:dr:radio:episode:66d39495391cb9ae19a7355d",
