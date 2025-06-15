@@ -17,7 +17,7 @@
   "numberOfEpisodes": 15,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-06-01T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-15T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
   "psdbUrn": "urn:dr:mu:bundle:58653c7ba11f9f1504d1ccca",
   "psdbSlug": "p2-guldkoncerten-p2d",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554247",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422554247",
+      "publishTime": "2025-06-15T19:20:00+02:00",
+      "startTime": "2025-06-15T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/sidste-aften-med-horowitz-12422554247",
+      "order": 638856122025024247,
+      "previousId": "urn:dr:radio:episode:681a063f005cc6aa547be671",
+      "series": {
+        "title": "P2 Guldkoncerten",
+        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
+        "slug": "p2-guldkoncerten-1206952410000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a07fff57e0225791e97a3/f13e6c6bf2d0e87bcfb106d6f82d0b70456c1686757c6adab58095c93103fcf2"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554247",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-15T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
+      "slug": "sidste-aften-med-horowitz-12422554247",
+      "title": "Sidste aften med Horowitz",
+      "description": "Ved en koncert i Hamborg, sommeren 1987, spillede den legendariske pianist Vladimir Horowitz for sidste gang for sit beundrende publikum. Han var da 83 år og i fineste form - ingen vidste, at denne sidste koncert på hans Europaturné ville blive hans sidste overhovedet. Horowitz døde først to et halvt år senere. \nFørst et par årtier senere blev denne optagelse af hans sidste koncert offentliggjort. \nMozart: Rondo, D-dur og Klaversonate, B-dur. \nLiszt: Valse-caprice nr. 6. \nSchumann: Kinderszenen. \t\nChopin: Mazurka, h-mol og Polonaise, As-Vladimir Horowitz, klaver. \n(Koncert i Laeiszhalle, Hamborg, 21. juli 1987). \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:684ae4996544fa2dfc46b048",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oZB.+Jof0gRj={t6xZayRkofoeWBIqWV$%oeWWayNHfQt6ayafoeR*j[s:WWR*jsafoLoeWVWCfP"
+        },
+        {
+          "id": "urn:dr:radio:image:684ae4996544fa2dfc46b048",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oZB.+Jof0gRj={t6xZayRkofoeWBIqWV$%oeWWayNHfQt6ayafoeR*j[s:WWR*jsafoLoeWVWCfP"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#412001",
+            "#FA9F20"
+          ]
+        },
+        "colors": {
+          "dark": "#412001",
+          "light": "#FA9F20"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422554227",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-06-01T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-mahlers-opstandelsessymfoni-12422554227",
       "order": 638844026025022227,
+      "nextId": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
       "previousId": "urn:dr:radio:episode:680796e3b21aafec6d6666d3",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -635,6 +714,7 @@
       "productionNumber": "12422554097",
       "publishTime": "2025-03-02T19:20:00+01:00",
       "startTime": "2025-03-02T19:20:00+01:00",
+      "endTime": "2025-09-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-nye-fund-med-nicolai-malko-12422554097",
       "order": 638765402025009097,
       "nextId": "urn:dr:radio:episode:67c8da723c672e012fe452d6",
@@ -1038,7 +1118,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/de-ni-laesninger-i-britisk-tv-12422454517",
       "order": 638704920000051517,
       "nextId": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
-      "previousId": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
+      "previousId": "urn:dr:radio:episode:66cf9edd4c2f09fed33085f5",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1105,20 +1185,19 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422454497",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422454367",
       "durationMilliseconds": 9600000,
       "categories": [
         "Musik",
         "Klassisk"
       ],
-      "productionNumber": "12422454497",
-      "publishTime": "2024-12-08T19:20:00+01:00",
-      "startTime": "2024-12-08T19:20:00+01:00",
-      "endTime": "2025-06-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/klaveraften-med-rudolf-serkin-12422454497",
-      "order": 638692824000049497,
+      "productionNumber": "12422454367",
+      "publishTime": "2025-06-08T19:20:00+02:00",
+      "startTime": "2024-09-08T19:20:00+02:00",
+      "endTime": "2025-07-07T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/det-kongelige-kapel-kurt-masur-og-kim-sjoegren-12422454367",
+      "order": 638614128000036367,
       "nextId": "urn:dr:radio:episode:675a1ab1d05e2f52e9aba256",
-      "previousId": "urn:dr:radio:episode:66aab51f2c41b5a137ef8e77",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1142,111 +1221,32 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6747a623f43ee13a09b26785/618b07f4bb211f1ff7e109dd57e74995e689b53615a33ab6bb4bbb7bdc91a32c"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66cf9edd4c2f09fed33085f5/253289ac20e70e928288869ed2f745de99ddc28b7ff43149c0e372f918c4106f"
         }
       ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454497",
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454367",
       "isAvailableOnDemand": true,
       "hasVideo": false,
       "explicitContent": false,
-      "latestPublishTime": "2024-12-08T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
-      "slug": "klaveraften-med-rudolf-serkin-12422454497",
-      "title": "Klaveraften med Rudolf Serkin",
-      "description": "Pianisten Rudolf Serkin (1903-1991) er en sand legende fra klaverets historie. En musiker, i hvis hænder klaveret blev mere end et instrument, fordi hans evner til at tegne musikkens lange linjer og genskabe komponistens vision var så fænomenal. Serkin var født i Østrig-Ungarn, kom som vidunderbarn til Wien, men måtte som jøde flygte til USA i 1930'erne. Selv om han debuterede allerede under 1. Verdenskrig, varede hans karriere helt til 1989. I denne udgave af Guldkoncerten kan du høre Rudolf Serkin på toppen ved en koncert i 1957, hvor han spiller musik fra sit kernerepertoire af tysk-østrigske klassikere. Beethoven: Klaversonate op. 57 Appassionata. Brahms: Händel-variationer. Mendelssohn: Introduktion og Rondo capriccioso. Schubert: Impromptu, f-mol. J.S. Bach: Capriccio. (Teatro Kursaal, Lugano, 22. maj 1957). \nVært: Rie Koch.",
+      "latestPublishTime": "2025-06-08T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:66cf9edd4c2f09fed33085f5",
+      "slug": "det-kongelige-kapel-kurt-masur-og-kim-sjoegren-12422454367",
+      "title": "Det Kongelige Kapel, Kurt Masur og Kim Sjøgren",
+      "description": "I 1981 optrådte den store østtyske dirigent Kurt Masur for første gang i Danmark. Det var ved en koncert med Det Kongelige Kapel, hvor man også for første gang kunne høre den dengang 26-årige violinist, Kim Sjøgren, som solist i Carl Nielsens Violinkoncert. \nProkofjev: Symfoni nr. 1. \nCarl Nielsen: Violinkoncert.    \nSchumann: Symfoni nr. 2. \nDet Kongelige Kapel. \nKim Sjøgren, violin. \nDirigent: Kurt Masur. \n(- Odd Fellow Palæet, 8. maj 1981). \nCa. 21.20. \nBeethoven: Kejserkoncerten. \nUSSR's Symfoniorkester. \nEmil Gilels, klaver. \nDirigent: Kurt Masur. \nVært: Rie Koch.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67eccffdc14ec5cf16540bad",
+          "id": "urn:dr:radio:image:6825cc7161175376c1ff43e3",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "oMAAaaj[00WB%Mt7IUWB%Mt7RjWBWBofj[RjoffQIUayxuj[WBayt7ayayj[WBj[M{ayt7j[RjfQ"
+          "blurHash": "o8ECwcxu009F-;~q_3-;Rjayt7t700t7%MM{WBIUt7WCWBt7WBWB4nWB%M?bWBRjxuofM{WBt7t7"
         },
         {
-          "id": "urn:dr:radio:image:67eccffdc14ec5cf16540bad",
+          "id": "urn:dr:radio:image:6825cc7161175376c1ff43e3",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "oMAAaaj[00WB%Mt7IUWB%Mt7RjWBWBofj[RjoffQIUayxuj[WBayt7ayayj[WBj[M{ayt7j[RjfQ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#412001",
-            "#FA9F20"
-          ]
-        },
-        "colors": {
-          "dark": "#412001",
-          "light": "#FA9F20"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422454327",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422454327",
-      "publishTime": "2025-05-11T19:20:00+02:00",
-      "startTime": "2024-08-11T19:20:00+02:00",
-      "endTime": "2025-06-09T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/liedaften-med-peter-schreier-12422454327",
-      "order": 638589936000032327,
-      "nextId": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
-      "series": {
-        "title": "P2 Guldkoncerten",
-        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
-        "slug": "p2-guldkoncerten-1206952410000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66aab51f2c41b5a137ef8e77/2a22fe32b54efa14466d195da7a9ce5dedcfc97f8e5433c68b74716823d3c764"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454327",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-11T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66aab51f2c41b5a137ef8e77",
-      "slug": "liedaften-med-peter-schreier-12422454327",
-      "title": "Liedaften med Peter Schreier",
-      "description": "Den tyske sanger Peter Schreier begyndte sit musikerliv som drengesolist i Dresden. Som tenor optrådte han gennem mere end et halvt århundrede, og under Den kolde krig var han en af de få østtyske sangere, der havde en verdensomspændende karriere. I 1988 modtog han Sonnings Musikpris i København. Hør ham i en fremragende koncertoptagelse fra 1984, hvor han bl.a. synger tyske lieder, et af hans specialer.Vært: Benedikte Granvig.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67f8e45faa49e222d56a0c66",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHF=pza|I+~Wxun$RrV?9G%MxaIU%Fa#-oj]jvNGV{%2M}Rj%2tRIUocn*IUWCj[IUs;%MM{azxa"
-        },
-        {
-          "id": "urn:dr:radio:image:67f8e45faa49e222d56a0c66",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHF=pza|I+~Wxun$RrV?9G%MxaIU%Fa#-oj]jvNGV{%2M}Rj%2tRIUocn*IUWCj[IUs;%MM{azxa"
+          "blurHash": "o8ECwcxu009F-;~q_3-;Rjayt7t700t7%MM{WBIUt7WCWBt7WBWB4nWB%M?bWBRjxuofM{WBt7t7"
         }
       ],
       "visualIdentity": {
