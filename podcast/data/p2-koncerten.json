@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 160,
+  "numberOfEpisodes": 159,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-06-18T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-06-19T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543604",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543604",
+      "publishTime": "2025-06-19T19:20:00+02:00",
+      "startTime": "2025-06-19T19:20:00+02:00",
+      "endTime": "2025-07-18T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/muti-og-berlinerfilharmonikerne-12422543604",
+      "order": 638859578025225604,
+      "previousId": "urn:dr:radio:episode:681a086e812b2174b24d3d4b",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b519b55477aa472bf864/3b74fa7fabc7c428038a1e94c6fa1d66c63cf56e41985053e18df714e2ca8aa0"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543604",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-06-19T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:6835b519b55477aa472bf864",
+      "slug": "muti-og-berlinerfilharmonikerne-12422543604",
+      "title": "Muti og Berlinerfilharmonikerne",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Under Riccardo Mutis ledelse præsenterer Berliner Philharmoniker et blandet program af italiensk og tysk musik. Rossinis medrivende ouverture til Wilhelm Tell og den stemningsfulde balletmusik fra Verdis opera Sicilianske Vesper udstråler mere end noget andet \"\"italienskhed\"\". Som afslutning på programmet gør den dunkle blanding af længsel og trøst i Brahms' Anden Symfoni værket til et skelsættende eksempel på sen tysk romantik. \nBerlinerfilharmonikerne. \nDirigent: Riccardo Muti. \n(Teatro Petruzelli, Bari 1. maj).  \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6853d1c8de5d5eb0ff585e96",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oHC~YVE14o~Bo~VrZ#%1-:aeE1t7M{Wq%LE1R*-:pIM|IUxuxaIU5SjGxaR+r=kC9uSOofnhozog"
+        },
+        {
+          "id": "urn:dr:radio:image:6853d1c8de5d5eb0ff585e96",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oHC~YVE14o~Bo~VrZ#%1-:aeE1t7M{Wq%LE1R*-:pIM|IUxuxaIU5SjGxaR+r=kC9uSOofnhozog"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543253",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "endTime": "2025-07-17T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bezuidenhout-hammerklaver-og-mozart-12422543253",
       "order": 638858714025097253,
+      "nextId": "urn:dr:radio:episode:6835b519b55477aa472bf864",
       "previousId": "urn:dr:radio:episode:681a08460766aecd9d957639",
       "series": {
         "title": "P2 Koncerten",
@@ -366,25 +447,18 @@
       "description": "Hør en koncert hvor du kan drømme dig tilbage til barndommens magi med tonerne fra E.T., opleve heroiske eventyr med Indiana Jones, mærke spændingen i en galakse langt, langt borte med musik fra Star Wars, flyve til Ønskeøen med Kaptajn Klo og lade dig bevæge af den hjerteskærende musik fra Schindlers Liste. \nAnna Agafia Egholm, violin. \nChristine Nonbo, vokal. \nDRSymfoniorkestret. \nJakob Stegelmann, scenevært. \n(Direkte fra DR Koncerthuset).  \nVært: Esben Tange.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:6853d4f9de5d5eb0ff587a3a",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oJAcSks:Z~xa~CWBs;j[9toLs:WVMxR*S~WARPs:$*j]xaWCxaofg3ofM{flkWj[R+R*aeWWR*f6"
         },
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:6853d4f9de5d5eb0ff587a3a",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oJAcSks:Z~xa~CWBs;j[9toLs:WVMxR*S~WARPs:$*j]xaWCxaofg3ofM{flkWj[R+R*aeWWR*f6"
         }
       ],
       "visualIdentity": {
@@ -1461,7 +1535,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/onsdag-21-maj-2025-12422543213",
       "order": 638834522025081213,
       "nextId": "urn:dr:radio:episode:67f63965867a0ea6fee59d1d",
-      "previousId": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
+      "previousId": "urn:dr:radio:episode:67f638e1867a0ea6fee599d8",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1529,87 +1603,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543212",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543212",
-      "publishTime": "2025-05-20T19:20:00+02:00",
-      "startTime": "2025-05-20T19:20:00+02:00",
-      "endTime": "2025-06-18T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/naar-jazz-og-klassisk-smelter-sammen-gershwin-og-escaich-12422543212",
-      "order": 638833658025080212,
-      "nextId": "urn:dr:radio:episode:67f63928867a0ea6fee59b92",
-      "previousId": "urn:dr:radio:episode:67f638e1867a0ea6fee599d8",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f639098e208bf2ad2b5b44/b080b7a66dbbca4dbeec19f1ce7fb6284d477f1741c1f36f34557066b1786d4c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543212",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-20T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
-      "slug": "naar-jazz-og-klassisk-smelter-sammen-gershwin-og-escaich-12422543212",
-      "title": "Når jazz og klassisk smelter sammen: Gershwin og Escaich",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Hvis der er en komponist der har et ben i hver lejr, så er det George Gershwin. Trænet i både jazz og klassisk kompositionsmusik. I aften kan du høre to af hans kendte \"jazziske\" værker: En amerikaner i Paris og Rhapsody in blue. Franske Thierry Escaich går i hans fodspor og har komponeret en koncert for bigband og orkester: George Gershwin: En amerikaner i Paris. George Gershwin: Rhapsody in Blue. Thierry Escaich: Koncert for bigband og orkester (uropførelse). George Gershwin: Udvalgte sange, arrangeret for bigband og orkester. Hessischer Rundfunks Bigband. Frankfurts Radiosymfoniorkester. Dirigent (og klaver) Alain Altinoglu. (Alte Oper, Frankfurt 14. marts).  \nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:681deefd002e131c0a786303",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocD0QBIT4m%Mxuj]jsogRjWAt7ayD$t7xuofa#Ria#ayj[ofj[fRRjayt7WBWAj[j]WBt7j[WBof"
-        },
-        {
-          "id": "urn:dr:radio:image:681deefd002e131c0a786303",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocD0QBIT4m%Mxuj]jsogRjWAt7ayD$t7xuofa#Ria#ayj[ofj[fRRjayt7WBWAj[j]WBt7j[WBof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543211",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1621,7 +1614,7 @@
       "startTime": "2025-05-19T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/en-hyldest-til-kammerkoncerten-med-den-danske-strygekvartet-12422543211",
       "order": 638832794025079211,
-      "nextId": "urn:dr:radio:episode:67f639098e208bf2ad2b5b44",
+      "nextId": "urn:dr:radio:episode:67f63928867a0ea6fee59b92",
       "previousId": "urn:dr:radio:episode:67f6387c867a0ea6fee5975b",
       "series": {
         "title": "P2 Koncerten",
@@ -9140,6 +9133,7 @@
       "productionNumber": "12422443383",
       "publishTime": "2024-09-18T19:20:00+02:00",
       "startTime": "2024-09-18T19:20:00+02:00",
+      "endTime": "2025-09-18T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/ensemble-storstroem-og-p2-talentet-louise-mcclelland-jacobsen-12422443383",
       "order": 638622842024275383,
       "nextId": "urn:dr:radio:episode:66de20974312715628cdfccb",
@@ -12541,7 +12535,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/dr-vokalensemblets-sommerkoncert-12422443255",
       "order": 638545946024100255,
       "nextId": "urn:dr:radio:episode:666b6d87bd3b233240709836",
-      "previousId": "urn:dr:radio:episode:6663849bd7483692b49be3c9",
+      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12609,87 +12603,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443252",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443252",
-      "publishTime": "2024-06-18T19:20:00+02:00",
-      "startTime": "2024-06-18T19:20:00+02:00",
-      "endTime": "2025-06-18T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/1899-zemlinky-schonberg-og-ravel-lige-foer-aarhundredeskiftet-12422443252",
-      "order": 638543354024098252,
-      "nextId": "urn:dr:radio:episode:666779bbe40614b67ab3362a",
-      "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6663849bd7483692b49be3c9/2fa3bb55998a943265e4525564286c5f198418c8a7fe3c664cdd045ea02d23ec"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443252",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-06-18T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:6663849bd7483692b49be3c9",
-      "slug": "1899-zemlinky-schonberg-og-ravel-lige-foer-aarhundredeskiftet-12422443252",
-      "title": "1899 - Zemlinky, Schönberg og Ravel lige før århundredeskiftet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Schönberg skrev sit smukke senromantiske strygerværk Verklärte Nacht samme år som Ravel lavede sit flotte orkesteropus Sheherazade. Hør dem begge i kammerudgaver samt Zemlinkys mindre kendte Mailblumen fra samme år, med sopransolisten Fanny Soyer. \nMalin William Olsson, Kirstine Schneider, violin. \nLoan Cazal, Magda Stevensson, bratsch. \nDorothea Wolff, Juliane von Hahn, cello. \nJoachim Becerra Thomsen, fløjte. \nAndreas Fosdal, obo. \nMorten Sønderskov Jensen, Viktor Wennesz, klarinet. \nSebastian Stevensson, fagot. \nDavid MAP Palmquist, horn. \nKristoffer Hyldig, klaver.  \nRamsey Harvard, kontrabas. \nThomas Teisner, slagtøj. \nFanny Soyer, sopran.  \nDirigent: Carl-Oscar Østerlind.  \n(Unitarernes Hus 15. juni). \nVært: Ole Bartholin Kiilerich.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67eccfa9706eb0b600785252",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oEC~I{E*56oe=|nh0$e.jGR*W.WC56$g-pWBE2t7MyX8XRt7w|ayxZWWNGof%2jYNtWBjFRjkCof"
-        },
-        {
-          "id": "urn:dr:radio:image:67eccfa9706eb0b600785252",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oEC~I{E*56oe=|nh0$e.jGR*W.WC56$g-pWBE2t7MyX8XRt7w|ayxZWWNGof%2jYNtWBjFRjkCof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443041",
       "durationMilliseconds": 9602629,
       "categories": [
@@ -12701,7 +12614,7 @@
       "startTime": "2024-01-22T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/nordenvind-fra-vest-med-esbjerg-ensemble-12422443041",
       "order": 638415446024013041,
-      "nextId": "urn:dr:radio:episode:6663849bd7483692b49be3c9",
+      "nextId": "urn:dr:radio:episode:666779bbe40614b67ab3362a",
       "previousId": "urn:dr:radio:episode:6571bb46122adb1868f10869",
       "series": {
         "title": "P2 Koncerten",
