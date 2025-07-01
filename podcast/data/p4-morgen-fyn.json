@@ -16,7 +16,7 @@
   "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-06-30T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-07-01T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fb3d6187a4031cfd77dd",
   "psdbSlug": "p4fyn-morgen",
@@ -82,6 +82,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14602520272",
+      "durationMilliseconds": 14100048,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14602520272",
+      "publishTime": "2025-07-01T06:05:00+02:00",
+      "startTime": "2025-07-01T06:05:00+02:00",
+      "endTime": "2025-07-05T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/tirsdag-1-jul-2025-14602520272",
+      "order": 638869469025129272,
+      "previousId": "urn:dr:radio:episode:683595cab55477aa472b060c",
+      "series": {
+        "title": "P4 Morgen Fyn",
+        "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
+        "slug": "p4-morgen-fyn-1092703350000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092703350000"
+      },
+      "channel": {
+        "title": "P4 Fyn",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
+        "slug": "p4fyn",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68358eb65f16b698305e9f1a/c3c4da05aa92825bafff98448bb40c939fccc1a6e718380aefa9a26275c00d88"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602520272",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-01T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:68358eb65f16b698305e9f1a",
+      "slug": "tirsdag-1-jul-2025-14602520272",
+      "title": "Tirsdag 1. jul. 2025",
+      "punchline": "Reportager og interviews, gæster i studiet, og sport, trafik og musik",
+      "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009df",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NKE1%HxcBTNFouNs}DV?NsbIOYbbv#WAI:WXR+WX"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e1",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oQDRd9xbS~V@-UWA}ZnjWoaes;ay+]ngjXoLSOogwJsTR*j?R*Wq-Ct8X9azWBWA$+jvozo0oejZ"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#301212",
+            "#D79494"
+          ]
+        },
+        "colors": {
+          "dark": "#301212",
+          "light": "#D79494"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14602520271",
       "durationMilliseconds": 14100000,
       "categories": [
@@ -93,6 +186,7 @@
       "endTime": "2025-07-04T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/mandag-30-jun-2025-14602520271",
       "order": 638868605025128271,
+      "nextId": "urn:dr:radio:episode:68358eb65f16b698305e9f1a",
       "previousId": "urn:dr:radio:episode:685095a09b0d242d0ff54b8d",
       "series": {
         "title": "P4 Morgen Fyn",
@@ -187,7 +281,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/p4-morgen-14602520265",
       "order": 638866013025127265,
       "nextId": "urn:dr:radio:episode:683595cab55477aa472b060c",
-      "previousId": "urn:dr:radio:episode:684f450ffb2d71c8d234bb62",
       "series": {
         "title": "P4 Morgen Fyn",
         "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
@@ -221,99 +314,6 @@
       "latestPublishTime": "2025-06-27T06:05:00+02:00",
       "id": "urn:dr:radio:episode:685095a09b0d242d0ff54b8d",
       "slug": "p4-morgen-14602520265",
-      "title": "P4 Morgen",
-      "punchline": "Reportager og interviews, gæster i studiet, og sport, trafik og musik",
-      "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009df",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NKE1%HxcBTNFouNs}DV?NsbIOYbbv#WAI:WXR+WX"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e1",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oQDRd9xbS~V@-UWA}ZnjWoaes;ay+]ngjXoLSOogwJsTR*j?R*Wq-Ct8X9azWBWA$+jvozo0oejZ"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#301212",
-            "#D79494"
-          ]
-        },
-        "colors": {
-          "dark": "#301212",
-          "light": "#D79494"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602520264",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602520264",
-      "publishTime": "2025-06-26T06:05:00+02:00",
-      "startTime": "2025-06-26T06:05:00+02:00",
-      "endTime": "2025-06-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/p4-morgen-14602520264",
-      "order": 638865149025126264,
-      "nextId": "urn:dr:radio:episode:685095a09b0d242d0ff54b8d",
-      "series": {
-        "title": "P4 Morgen Fyn",
-        "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
-        "slug": "p4-morgen-fyn-1092703350000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092703350000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:684f450ffb2d71c8d234bb62/60e28e4dec8cea0236288b3a8816674fef18d4de8fc98e0fe0b5c50fede350c0"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602520264",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-26T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:684f450ffb2d71c8d234bb62",
-      "slug": "p4-morgen-14602520264",
       "title": "P4 Morgen",
       "punchline": "Reportager og interviews, gæster i studiet, og sport, trafik og musik",
       "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
