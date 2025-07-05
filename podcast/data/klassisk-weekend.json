@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 13,
+  "numberOfEpisodes": 14,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-05T07:03:00+02:00",
+  "latestEpisodeStartTime": "2025-07-05T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend-3529576594000",
   "psdbUrn": "urn:dr:mu:bundle:6273de017140141c98d61b76",
   "psdbSlug": "klassisk-weekend",
@@ -82,6 +82,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422532627",
+      "durationMilliseconds": 5105636,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422532627",
+      "publishTime": "2025-07-05T08:30:00+02:00",
+      "startTime": "2025-07-05T08:30:00+02:00",
+      "endTime": "2025-08-03T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend/klassisk-weekend-2025/loerdag-5-jul-2025-12422532627",
+      "order": 638873012025027627,
+      "previousId": "urn:dr:radio:episode:681cb26d923dffbb1977fec8",
+      "series": {
+        "title": "Klassisk weekend",
+        "id": "urn:dr:radio:series:6273de0d610339aadabdfd28",
+        "slug": "klassisk-weekend-3529576594000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend-3529576594000",
+        "learnId": "urn:dr:ocs:audio:content:series:3529576594000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681cb7d4923dffbb197823c1/e5126c40cc77b404c28b5c967893084c1b7fbd45f5e8d6cbdd5bb9c27a46ad79"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422532627",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-05T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:681cb7d4923dffbb197823c1",
+      "slug": "loerdag-5-jul-2025-12422532627",
+      "title": "Lørdag 5. jul. 2025",
+      "description": "Nyd weekendens rolige morgenstund i selskab med den klassiske musik og din morgenvært Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e5",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZM~FVQ6.8-?x]5,^+ELjct8NbwIT0r=NIs+afof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e6",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oXMrcBP+%M=~xuAq~D9ts;tRNInOKPnPR+jFoLofr=bIt7t7xZShS5S5s.f,ozxas:bHofxtt7bG"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e7",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e78d178b2e4877edd3b4e6",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oXMrcBP+%M=~xuAq~D9ts;tRNInOKPnPR+jFoLofr=bIt7t7xZShS5S5s.f,ozxas:bHofxtt7bG"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3C0623",
+            "#F9BEC7"
+          ]
+        },
+        "colors": {
+          "dark": "#3C0623",
+          "light": "#F9BEC7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422532276",
       "durationMilliseconds": 3422276,
       "categories": [
@@ -94,6 +187,7 @@
       "endTime": "2025-08-03T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-weekend/klassisk-weekend-2025/loerdag-5-jul-2025-12422532276",
       "order": 638872959825057276,
+      "nextId": "urn:dr:radio:episode:681cb7d4923dffbb197823c1",
       "previousId": "urn:dr:radio:episode:6849fe05a02c6c76eebbb921",
       "series": {
         "title": "Klassisk weekend",
