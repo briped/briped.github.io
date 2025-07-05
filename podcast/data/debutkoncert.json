@@ -17,7 +17,7 @@
   "numberOfEpisodes": 6,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-06-07T12:15:00+02:00",
+  "latestEpisodeStartTime": "2025-07-05T12:15:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
   "psdbUrn": "urn:dr:mu:bundle:644f94fe539f0217286bfd97",
   "psdbSlug": "debutkoncert",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422564007",
+      "durationMilliseconds": 2460072,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422564007",
+      "publishTime": "2025-07-05T12:15:00+02:00",
+      "startTime": "2025-07-05T12:15:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/michael-germer-violin-12422564007",
+      "order": 638873147025007007,
+      "previousId": "urn:dr:radio:episode:6824438c6f051f913cfbfde1",
+      "series": {
+        "title": "Debutkoncert",
+        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
+        "slug": "debutkoncert-4568946429000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
+        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682720d27b626ea9bb0e5a78/733ba440732f0aa352e3ea842ff310a5a419b3c895c84c684d8e5a5aaf166114"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564007",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-05T12:15:00+02:00",
+      "id": "urn:dr:radio:episode:682720d27b626ea9bb0e5a78",
+      "slug": "michael-germer-violin-12422564007",
+      "title": "Michael Germer - violin",
+      "description": "I dag kan du komme til koncert med den danske violinist Michael Germer, der allerede er ved at opbygge en solid solokarriere. Ved sin debutkoncert på Det Kongelige Danske Musikkonservatorium i midten af maj havde han allieret sig med gode kræfter i det etablerede danske musikmiljø, bl.a. pianisten Marianna Shirinyan og cellisten Andreas Brantelid. På programmet stod blandt andet den virtuose klavertrio skrevet af en purung Korngold. \nKorngold: Klavertrio op. 1. \nMichael Germer, violin. \nAndreas Brantelid, cello. \nMarianna Shirinyan, klaver. \n(Konservatoriets Koncertsal, 14. maj).",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685950b9ed17755fc8eaeaea",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o66Hipxa0LWC?Gxt%2xaIoE1%2?GNGofo2M|WBxaM{M{f+%LRkE19ZNG?G%2E1E1D*of?Gt6M{Rj"
+        },
+        {
+          "id": "urn:dr:radio:image:685950b9ed17755fc8eaeaea",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o66Hipxa0LWC?Gxt%2xaIoE1%2?GNGofo2M|WBxaM{M{f+%LRkE19ZNG?G%2E1E1D*of?Gt6M{Rj"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2E1613",
+            "#ED8E6E"
+          ]
+        },
+        "colors": {
+          "dark": "#2E1613",
+          "light": "#ED8E6E"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422564006",
       "durationMilliseconds": 1920024,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-06-07T12:15:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/gerbrich-meijer-klarinet-12422564006",
       "order": 638848955025006006,
+      "nextId": "urn:dr:radio:episode:682720d27b626ea9bb0e5a78",
       "previousId": "urn:dr:radio:episode:67ee3c05034014f391172f2e",
       "series": {
         "title": "Debutkoncert",
@@ -323,7 +402,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/william-castaldi-trompet-12422564002",
       "order": 638740091025002002,
       "nextId": "urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a",
-      "previousId": "urn:dr:radio:episode:676b3e08b4143ed398b517d9",
+      "previousId": "urn:dr:radio:episode:674654f79936bcec98bfd868",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
@@ -390,86 +469,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422564001",
-      "durationMilliseconds": 1620000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422564001",
-      "publishTime": "2025-01-04T12:15:00+01:00",
-      "startTime": "2025-01-04T12:15:00+01:00",
-      "endTime": "2025-07-04T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/quinn-parker-basun-12422564001",
-      "order": 638715899025001001,
-      "nextId": "urn:dr:radio:episode:6790323c2a51e1bacbbf1315",
-      "previousId": "urn:dr:radio:episode:674654f79936bcec98bfd868",
-      "series": {
-        "title": "Debutkoncert",
-        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
-        "slug": "debutkoncert-4568946429000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
-        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:676b3e08b4143ed398b517d9/5d36ab61788e5721a9802187410882a0fc87a82e80bc79f0b882f16742956236"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564001",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-01-04T12:15:00+01:00",
-      "id": "urn:dr:radio:episode:676b3e08b4143ed398b517d9",
-      "slug": "quinn-parker-basun-12422564001",
-      "title": "Quinn Parker - basun",
-      "description": "Kom med til debutkoncert i København, når basunisten Quinn Parker debuterer. Den amerikanske basunist debuterede fra DKDM i et program, der både bød på blød basun i de største hits, såvel som et nyere værk med den lokkende titel \"Hudbasun\" af den svenske komponist Anders Hillborg. \nGrainger/Brian Bindner (arr.): Willow, Willow. \nDebussy: Beau Soir. \nBritten: The Holy Sonnets of John Donne, op. 35: Since She Whom I Lov'd. \nHillborg: Hudbasun. \nQuinn Parker, recitation og basun. \nLove Persson, klaver. \n(Konservatoriets Koncertsal 11. september).",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd1f11e3d006c1665ce1d",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o~JkZQj[xuoeM|fQ~qj[t7fQRjayxvj[ayayoLfQNGa|Rjj[t7ayWBWBRjj[ofayxaayWBj[j[j["
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd1f11e3d006c1665ce1d",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o~JkZQj[xuoeM|fQ~qj[t7fQRjayxvj[ayayoLfQNGa|Rjj[t7ayWBWBRjj[ofayxaayWBj[j[j["
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2E1613",
-            "#ED8E6E"
-          ]
-        },
-        "colors": {
-          "dark": "#2E1613",
-          "light": "#ED8E6E"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422464012",
       "durationMilliseconds": 1980000,
       "categories": [
@@ -482,7 +481,7 @@
       "endTime": "2025-09-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert/katrin-helena-kuslap-sopran-12422464012",
       "order": 638691705000012012,
-      "nextId": "urn:dr:radio:episode:676b3e08b4143ed398b517d9",
+      "nextId": "urn:dr:radio:episode:6790323c2a51e1bacbbf1315",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
