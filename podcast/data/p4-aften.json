@@ -16,7 +16,7 @@
   "numberOfEpisodes": 4,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-07T18:05:00+02:00",
+  "latestEpisodeStartTime": "2025-07-09T18:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften-760480043000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c2856187a40ef4069b6a",
   "psdbSlug": "p4-aften",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13652570283",
+      "durationMilliseconds": 14100024,
+      "categories": [
+        "Musik"
+      ],
+      "productionNumber": "13652570283",
+      "publishTime": "2025-07-09T18:05:00+02:00",
+      "startTime": "2025-07-09T18:05:00+02:00",
+      "endTime": "2025-07-13T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften/p4-aften-2025/onsdag-9-jul-2025-13652570283",
+      "order": 638876813025120283,
+      "previousId": "urn:dr:radio:episode:684fcba191259fc7e51b1175",
+      "series": {
+        "title": "P4 Aften",
+        "id": "urn:dr:radio:series:5fa26bd7330eac2f135ba5e9",
+        "slug": "p4-aften-760480043000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften-760480043000",
+        "learnId": "urn:dr:ocs:audio:content:series:760480043000"
+      },
+      "channel": {
+        "title": "P4",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4644",
+        "slug": "p4",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:684fd3b5794dc00c1fb3ef72/4c3b5185a2014e41feaca6591ca2bddcf4d0ffbba7e191416c825b7362f31aea"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13652570283",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-09T18:05:00+02:00",
+      "id": "urn:dr:radio:episode:684fd3b5794dc00c1fb3ef72",
+      "slug": "onsdag-9-jul-2025-13652570283",
+      "title": "Onsdag 9. jul. 2025",
+      "punchline": "Underholdende historier og playlister godt suppleret af lytterne",
+      "description": "Samarbejde er nøgleordet i P4 Aften. For det er her, P4's lyttere supplerer playlisten, så programmet bliver et fælles projekt. Underholdende lytterhistorier, gode og overraskende sangvalg og ikke mindst P4's fantastiske musik udgør og skaber P4 Aften.\nVært: Torben Møller.\nwww.dr.dk/lyd/p4",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e433be682019fd19874e73",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NMG[Zv$PD#tS%#J6~Ubbx^s;RjRjcCOYXAMxMx%3"
+        },
+        {
+          "id": "urn:dr:radio:image:67e433be682019fd19874e72",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oKIEeKrXDN-qjHbY~ob^%hf+j[ael8T0XSD%bFkXs?rXVr%NkCV?NHWBt6axWCt7-Tt7S5RjR*SN"
+        },
+        {
+          "id": "urn:dr:radio:image:67e433be682019fd19874e72",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oKIEeKrXDN-qjHbY~ob^%hf+j[ael8T0XSD%bFkXs?rXVr%NkCV?NHWBt6axWCt7-Tt7S5RjR*SN"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3D050B",
+            "#B9B6B3"
+          ]
+        },
+        "colors": {
+          "dark": "#3D050B",
+          "light": "#B9B6B3"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:13652570281",
       "durationMilliseconds": 14100072,
       "categories": [
@@ -85,6 +171,7 @@
       "endTime": "2025-07-11T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften/p4-aften-2025/mandag-7-jul-2025-13652570281",
       "order": 638875085025119281,
+      "nextId": "urn:dr:radio:episode:684fd3b5794dc00c1fb3ef72",
       "previousId": "urn:dr:radio:episode:684aba2ad406e37f17c739f4",
       "series": {
         "title": "P4 Aften",
@@ -259,7 +346,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften/p4-aften-2025/loerdag-5-jul-2025-13652570276",
       "order": 638873355825117276,
       "nextId": "urn:dr:radio:episode:684aba2ad406e37f17c739f4",
-      "previousId": "urn:dr:radio:episode:682b13f48b4fd2d3aecc8ad6",
       "series": {
         "title": "P4 Aften",
         "id": "urn:dr:radio:series:5fa26bd7330eac2f135ba5e9",
@@ -294,92 +380,6 @@
       "id": "urn:dr:radio:episode:684ab493226e738f5762b8fb",
       "slug": "loerdag-5-jul-2025-13652570276",
       "title": "Lørdag 5. jul. 2025",
-      "punchline": "Underholdende historier og playlister godt suppleret af lytterne",
-      "description": "Samarbejde er nøgleordet i P4 Aften. For det er her, P4's lyttere supplerer playlisten, så programmet bliver et fælles projekt. Underholdende lytterhistorier, gode og overraskende sangvalg og ikke mindst P4's fantastiske musik udgør og skaber P4 Aften.\nVært: Louise Dreisig.\nwww.dr.dk/lyd/p4",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e433be682019fd19874e73",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NMG[Zv$PD#tS%#J6~Ubbx^s;RjRjcCOYXAMxMx%3"
-        },
-        {
-          "id": "urn:dr:radio:image:67e433be682019fd19874e72",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oKIEeKrXDN-qjHbY~ob^%hf+j[ael8T0XSD%bFkXs?rXVr%NkCV?NHWBt6axWCt7-Tt7S5RjR*SN"
-        },
-        {
-          "id": "urn:dr:radio:image:67e433be682019fd19874e72",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oKIEeKrXDN-qjHbY~ob^%hf+j[ael8T0XSD%bFkXs?rXVr%NkCV?NHWBt6axWCt7-Tt7S5RjR*SN"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3D050B",
-            "#B9B6B3"
-          ]
-        },
-        "colors": {
-          "dark": "#3D050B",
-          "light": "#B9B6B3"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:13652570274",
-      "durationMilliseconds": 14100048,
-      "categories": [
-        "Musik"
-      ],
-      "productionNumber": "13652570274",
-      "publishTime": "2025-07-03T18:05:00+02:00",
-      "startTime": "2025-07-03T18:05:00+02:00",
-      "endTime": "2025-07-07T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften/p4-aften-2025/torsdag-3-jul-2025-13652570274",
-      "order": 638871629025111274,
-      "nextId": "urn:dr:radio:episode:684ab493226e738f5762b8fb",
-      "series": {
-        "title": "P4 Aften",
-        "id": "urn:dr:radio:series:5fa26bd7330eac2f135ba5e9",
-        "slug": "p4-aften-760480043000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4/p4-aften-760480043000",
-        "learnId": "urn:dr:ocs:audio:content:series:760480043000"
-      },
-      "channel": {
-        "title": "P4",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4644",
-        "slug": "p4",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b13f48b4fd2d3aecc8ad6/934f46a0d1606410bae542f1a968ea0e02555295084f7fff9019d126cb46df5c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:13652570274",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-03T18:05:00+02:00",
-      "id": "urn:dr:radio:episode:682b13f48b4fd2d3aecc8ad6",
-      "slug": "torsdag-3-jul-2025-13652570274",
-      "title": "Torsdag 3. jul. 2025",
       "punchline": "Underholdende historier og playlister godt suppleret af lytterne",
       "description": "Samarbejde er nøgleordet i P4 Aften. For det er her, P4's lyttere supplerer playlisten, så programmet bliver et fælles projekt. Underholdende lytterhistorier, gode og overraskende sangvalg og ikke mindst P4's fantastiske musik udgør og skaber P4 Aften.\nVært: Louise Dreisig.\nwww.dr.dk/lyd/p4",
       "imageAssets": [
