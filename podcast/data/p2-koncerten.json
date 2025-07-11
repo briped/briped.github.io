@@ -17,7 +17,7 @@
   "numberOfEpisodes": 159,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-07-10T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-11T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543285",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543285",
+      "publishTime": "2025-07-11T19:20:00+02:00",
+      "startTime": "2025-07-11T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/verdens-bedste-brass-12422543285",
+      "order": 638878586025124285,
+      "previousId": "urn:dr:radio:episode:685e4b1177533c998336249c",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994ba95582916ea8cebd/5ac90cb3ec8778dc1f953a5b3f4520c3fa901c69c480407364d62b894e592577"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543285",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-11T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
+      "slug": "verdens-bedste-brass-12422543285",
+      "title": "Verdens bedste Brass?",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Siden 1988 har Stockholm Chamber Brass været et af verdens førende messingensembler. Deres gennembrud kom med en 1. pris ved en international konkurrence i Frankrig. \nEnsemblet er dedikeret til at udvide messingkvintettens repertoire og har bestilt over 50 nye værker, hvoraf mange er blevet standardværker. De har udgivet seks anmelderroste albums, der spænder fra kvintetklassikere til deres seneste udgivelse, \"THEN\", med renæssancemusik. Om albummet \"CLOCKWORKS\" skrev American Record Guide: \"Jeg kan ikke forestille mig, at en bedre messingkvintet nogensinde har eksisteret.\" \nHildegaard von Bingen: Improvisation on O Ecclesia. \nClaudio Monteverdi: Suite. \nDjuro Zivkovic: Quintette Byzantine. \nKarin Rehnquist: Valv. \nEnglish Madrigals. \nViktor Evald: Quintet no. 1. \nMalcolm Arnold: Brass Quintet. \nStockholm Chamber Brass. \n(Sæby Kirke 10. juli). \nCa 21.00. \nBruckner: Symfoni nr. 4.  \nBergen Filharmonikerne. \nDirigent: Thomas Dausgaard. \nVært: Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685bf65d6c43d38565f17ea3",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o%Ji;5NGxas:Nar=}qofjtaykCjEvzofNGjtn$xas9oJjZj[jFogt7ays:WBkCRjSNR*j[a}ayWq"
+        },
+        {
+          "id": "urn:dr:radio:image:685bf65d6c43d38565f17ea3",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o%Ji;5NGxas:Nar=}qofjtaykCjEvzofNGjtn$xas9oJjZj[jFogt7ays:WBkCRjSNR*j[a}ayWq"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543606",
       "durationMilliseconds": 9600000,
       "categories": [
@@ -87,6 +166,7 @@
       "endTime": "2025-08-08T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/danmarks-underholdningsorkester-og-adam-fischer-hylder-europa-12422543606",
       "order": 638877722025227606,
+      "nextId": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
       "previousId": "urn:dr:radio:episode:681c994a923dffbb19775236",
       "series": {
         "title": "P2 Koncerten",
@@ -1131,7 +1211,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/en-spillemand-folketone-og-skumringslys-med-camerata-bern-12422543261",
       "order": 638863034025099261,
       "nextId": "urn:dr:radio:episode:6814893bdf3e92be8a6468fb",
-      "previousId": "urn:dr:radio:episode:681a08abae6c25c88ba8c21e",
+      "previousId": "urn:dr:radio:episode:6835b519b55477aa472bf864",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1199,87 +1279,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543255",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543255",
-      "publishTime": "2025-06-20T19:20:00+02:00",
-      "startTime": "2025-06-20T19:20:00+02:00",
-      "endTime": "2025-07-10T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/beethoven-beethoven-12422543255",
-      "order": 638860442025098255,
-      "nextId": "urn:dr:radio:episode:6825c77161175376c1ff22fa",
-      "previousId": "urn:dr:radio:episode:6835b519b55477aa472bf864",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a08abae6c25c88ba8c21e/f80d8ff53bcc48129dd09eee602b6afe7d33c99e2723355059d5a6b9abbd9831"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543255",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-20T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681a08abae6c25c88ba8c21e",
-      "slug": "beethoven-beethoven-12422543255",
-      "title": "Beethoven, Beethoven!",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Christian Tetzlaff har  et talent for at tilføre værker sit eget unikke perspektiv. Ved aftenens koncert kan vi høre ham give Beethovens Violinkoncert en livlig, vibrerende og dybt personlig fortolkning af denne klassiker. Efter pausen fører Daniele Gatti og Orchestre de la Suisse Romande os igennem den monumentale Eroica symfoni af Beethoven. \nChristian Tetzlaff, violin. \nOrchestre de la Suisse Romande. \nDirigent: Daniele Gatti.  \n(Victoria Hall, Geneve 21. maj). \nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68554a20de5d5eb0ff652baf",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "okL4vmWC_NWX%2of~qR%oeWBIUWB%MWBRjj]M{f6adWBM{xut7WBNHfRxtjsfkRjt7ayRjWBofof"
-        },
-        {
-          "id": "urn:dr:radio:image:68554a20de5d5eb0ff652baf",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "okL4vmWC_NWX%2of~qR%oeWBIUWB%MWBRjj]M{f6adWBM{xut7WBNHfRxtjsfkRjt7ayRjWBofof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543604",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1292,7 +1291,7 @@
       "endTime": "2025-07-18T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/muti-og-berlinerfilharmonikerne-12422543604",
       "order": 638859578025225604,
-      "nextId": "urn:dr:radio:episode:681a08abae6c25c88ba8c21e",
+      "nextId": "urn:dr:radio:episode:6825c77161175376c1ff22fa",
       "previousId": "urn:dr:radio:episode:681a086e812b2174b24d3d4b",
       "series": {
         "title": "P2 Koncerten",
