@@ -17,7 +17,7 @@
   "numberOfEpisodes": 16,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-06-29T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-13T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
   "psdbUrn": "urn:dr:mu:bundle:58653c7ba11f9f1504d1ccca",
   "psdbSlug": "p2-guldkoncerten-p2d",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554287",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422554287",
+      "publishTime": "2025-07-13T19:20:00+02:00",
+      "startTime": "2025-07-13T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/eugen-jochum-dirigerer-mozart-12422554287",
+      "order": 638880314025028287,
+      "previousId": "urn:dr:radio:episode:68271d237b626ea9bb0e422a",
+      "series": {
+        "title": "P2 Guldkoncerten",
+        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
+        "slug": "p2-guldkoncerten-1206952410000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c662b77f3385e308eca/ebd682edba016d7243a1c70174a362d616bd0a7c6fe893bdfc7817a5c274c2bb"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554287",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-13T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9c662b77f3385e308eca",
+      "slug": "eugen-jochum-dirigerer-mozart-12422554287",
+      "title": "Eugen Jochum dirigerer Mozart",
+      "description": "I 1956 fejrede man Mozarts 200-år med et væld af koncerter. Bl.a. ved Mozartfestivalen i Würzburg. Her dirigerede den store tyske dirigent Eugen Jochum det nyetablerede Bayerns Radiosymfoniorkester, som han var dirigent for lige fra begyndelsen. \nMozart store C-mol messe blev ved koncerten opført i en forlænget version, hvor det ufuldendte storværk af Mozart var færdiggjort af 1800-talskomponisten Georg Alois Schmitt ud fra Mozarts forlæg. \nIrmgard Seefried & Annelies Kupper, sopran; Lorenz Fehenberger, tenor & Kim Borg, bas. \nBayerns Radiosymfoniorkester og Radiokor. \nDirigent: Eugen Jochum. \n(Koncert i Stephanskirken, Würzburg, 20. juni 1956). \nVært: Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685bf8e676745065a8ee6a5b",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVEMLDxu00D%xuofM{WBt7ofofofj[ayRjfQoft7IUof%MWBRjWBWBRjj[t7t7ofWBt7ofRjRjay"
+        },
+        {
+          "id": "urn:dr:radio:image:685bf8e676745065a8ee6a5b",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVEMLDxu00D%xuofM{WBt7ofofofj[ayRjfQoft7IUof%MWBRjWBWBRjj[t7t7ofWBt7ofRjRjay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#412001",
+            "#FA9F20"
+          ]
+        },
+        "colors": {
+          "dark": "#412001",
+          "light": "#FA9F20"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422554267",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-06-29T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/alfred-brendel-in-memoriam-12422554267",
       "order": 638868218025026267,
+      "nextId": "urn:dr:radio:episode:681c9c662b77f3385e308eca",
       "previousId": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -123,25 +202,18 @@
       "description": "Tidligere denne måned døde den østrigske pianist Alfred Brendel. Han var en ledestjerne for alverdens musiklyttere og pianister, der beundrede den utrolige klarhed og autoritet i hans fuldendt formede fortolkninger. \nBrendel stod for klassisk musikkultur af reneste art med fokus på de mest centrale komponister og en total ydmyghed over for deres partiturer. I Guldkoncerten kan du høre en koncert fra Berlin, 1976, hvor Alfred Brendel bl.a. spillede Beethovens storværk Diabelli-variationer. \nJ.S. Bach: Kromatisk fantasi og fuga. \nJ.S. Bach: Fantasi og fuga, a-mol. \nLiszt: Ungarsk rapsodi nr. 13, 17 og 11.                                                     \nBeethoven: Diabelli-variationer.                                                                 \nJ.S. Bach: Nun komm, der Heiden Heiland.\nKoncert i Filharmonien, Berlin, 23. februar 1976. \nVært: Esben Tange.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e97d408e43b46d284a5e3f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NnIW+Kr;Mxo#kDM|0#Sit8adV@xaMyR+t7Rkayay"
-        },
-        {
-          "id": "urn:dr:radio:image:67e97d408e43b46d284a5e40",
+          "id": "urn:dr:radio:image:6863f6c86b585d8906cf5bd2",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "ojH1YsxZMwoIn$fk0gR+o#WXRkj@IBaexuflofjZ?HoLIUf5oebHNGoft7j?R*j[IpayfkbIxaay"
+          "format": "image/png",
+          "blurHash": "oGBM_PWB0000-;~qD%%MM{%MxuD%xuIUxuxut7WBRjt7ofRjRjt7Rjoft7RjM{ayM{WBt7ofWBj["
         },
         {
-          "id": "urn:dr:radio:image:67e97d408e43b46d284a5e40",
+          "id": "urn:dr:radio:image:6863f6c86b585d8906cf5bd2",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "ojH1YsxZMwoIn$fk0gR+o#WXRkj@IBaexuflofjZ?HoLIUf5oebHNGoft7j?R*j[IpayfkbIxaay"
+          "format": "image/png",
+          "blurHash": "oGBM_PWB0000-;~qD%%MM{%MxuD%xuIUxuxut7WBRjt7ofRjRjt7Rjoft7RjM{ayM{WBt7ofWBj["
         }
       ],
       "visualIdentity": {
@@ -563,6 +635,7 @@
       "productionNumber": "12422554147",
       "publishTime": "2025-04-06T19:20:00+02:00",
       "startTime": "2025-04-06T19:20:00+02:00",
+      "endTime": "2025-10-06T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-dr-s-jubilaeumskoncert-1975-12422554147",
       "order": 638795642025014147,
       "nextId": "urn:dr:radio:episode:67f527531045f0766471e807",
@@ -642,6 +715,7 @@
       "productionNumber": "12422554137",
       "publishTime": "2025-03-30T19:20:00+02:00",
       "startTime": "2025-03-30T19:20:00+02:00",
+      "endTime": "2025-09-30T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/sonningprisen-til-pierre-boulez-1985-12422554137",
       "order": 638789594025013137,
       "nextId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
@@ -1045,7 +1119,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/john-frandsen-og-isabelle-van-keulen-12422554037",
       "order": 638729114025003037,
       "nextId": "urn:dr:radio:episode:67917989ec59142e673121bf",
-      "previousId": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
+      "previousId": "urn:dr:radio:episode:671038b5f341a59a1bd4fba0",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1112,18 +1186,18 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422554017",
-      "durationMilliseconds": 9600000,
+      "learnId": "urn:dr:ocs:audio:content:playable:12422454437",
+      "durationMilliseconds": 9603236,
       "categories": [
         "Musik",
         "Klassisk"
       ],
-      "productionNumber": "12422554017",
-      "publishTime": "2025-01-05T19:20:00+01:00",
-      "startTime": "2025-01-05T19:20:00+01:00",
-      "endTime": "2025-07-05T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/celibidache-dirigerer-verdis-requiem-12422554017",
-      "order": 638717018025001017,
+      "productionNumber": "12422454437",
+      "publishTime": "2025-07-06T19:20:00+02:00",
+      "startTime": "2024-10-27T19:20:00+01:00",
+      "endTime": "2025-08-04T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/leif-segerstam-in-memoriam-12422454437",
+      "order": 638656500000043437,
       "nextId": "urn:dr:radio:episode:677f058781654c75b603f28b",
       "previousId": "urn:dr:radio:episode:66e214b5374be7e3ceaef6ba",
       "series": {
@@ -1149,32 +1223,32 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:676c8f87d81a4d6d6bba905f/48b93bf529b2720856be06f2361eda0825bac38fe607805c45014cd74fc05795"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:671038b5f341a59a1bd4fba0/5752038b2b576c2b24b0a991f608b61424ee4689712f5c73920a968c685b52ce"
         }
       ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554017",
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454437",
       "isAvailableOnDemand": true,
       "hasVideo": false,
       "explicitContent": false,
-      "latestPublishTime": "2025-01-05T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
-      "slug": "celibidache-dirigerer-verdis-requiem-12422554017",
-      "title": "Celibidache dirigerer Verdis Requiem",
-      "description": "Det Kongelige Teater og DR slog deres korsangere sammen til ét stort kæmpekor, da den verdensberømte dirigent Sergiu Celibidache i 1963 kom til København for at opføre Verdis storslåede Requiem. Men koncerten blev anledning til en skandale, fordi Celibidache efter en enkelt dårlig anmeldelse af koncerten nægtede nogensinde at dirigere i København igen. Først flere år senere faldt han til ro og vendte tilbage. I denne udgave af Guldkoncerten kan du for første gang siden dengang høre hele den historiske koncert. Verdi: Requiem. Solister: Agnes Giebel, Marga Höffgen, William McAlpine og Kim Borg. Det Kongelige Operakor og DR Radiokoret. Det Kongelige Kapel. Dirigent: Sergiu Celibidache. Koncert i Odd Fellow Palæet, (København, 30. maj 1963). \nVært: Louise Hjorth.",
+      "latestPublishTime": "2025-07-06T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:671038b5f341a59a1bd4fba0",
+      "slug": "leif-segerstam-in-memoriam-12422454437",
+      "title": "Leif Segerstam in memoriam",
+      "description": "Sidste år døde den finske dirigent og komponist Leif Segerstam, 80 år gammel. Han var fra 1988 til 1995 chefdirigent for DR Symfoniorkestret, og med sine mirakuløse musikalske talenter bragte han orkestret ind i en ny, international æra. \nI denne udgave af Guldkoncerten kan du høre den første koncert, Leif Segerstam gav som chefdirigent i Danmark - en karakteristisk blanding af finsk, dansk og senromantisk, spillet med stor intensitet, dynamik og bredde. \nBrahms: Klaverkoncert nr. 1, d-mol.                                        \nCarl Nielsen: Symfoni nr. 4, Det uudslukkelige. \nOlli Mustonen, klaver. \nDR Symfoniorkestret. \nDirigent: Leif Segerstam. \n(Radiohusets Koncertsal, 29. december 1988). \nVært: Esben Tange.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67ecd3d61e3d006c1665e39e",
+          "id": "urn:dr:radio:image:6853b7cf047dbd9dedf547fd",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o96[2HRj00%M_3D%ofRjWBxuRjRjD%j[-;M{IUxut7t7M{Rj%MofWBt7ofWBofRjfQWBRjoft7WB"
+          "blurHash": "oRNP5woeIqnjJ8sn|[Nb$$$$sBxFAEJ8-9s.J8NboesnI=jsj[a|I;oJoeW;xFWW=wkBI=jGR+ay"
         },
         {
-          "id": "urn:dr:radio:image:67ecd3d61e3d006c1665e39e",
+          "id": "urn:dr:radio:image:6853b7cf047dbd9dedf547fd",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o96[2HRj00%M_3D%ofRjWBxuRjRjD%j[-;M{IUxut7t7M{Rj%MofWBt7ofWBofRjfQWBRjoft7WB"
+          "blurHash": "oRNP5woeIqnjJ8sn|[Nb$$$$sBxFAEJ8-9s.J8NboesnI=jsj[a|I;oJoeW;xFWW=wkBI=jGR+ay"
         }
       ],
       "visualIdentity": {
@@ -1204,8 +1278,7 @@
       "endTime": "2025-07-21T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/ashkenazy-og-maisky-12422454387",
       "order": 638626224000038387,
-      "nextId": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
-      "previousId": "urn:dr:radio:episode:66cf9edd4c2f09fed33085f5",
+      "nextId": "urn:dr:radio:episode:671038b5f341a59a1bd4fba0",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1255,85 +1328,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "o59GQ~?b9t9ZVr^j~U={WBM{IoR*I9i^%M-:j]IVw]V@R*bvozxatSozM|IoWWt8SiW=xZ$%aeIp"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#412001",
-            "#FA9F20"
-          ]
-        },
-        "colors": {
-          "dark": "#412001",
-          "light": "#FA9F20"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422454367",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422454367",
-      "publishTime": "2025-06-08T19:20:00+02:00",
-      "startTime": "2024-09-08T19:20:00+02:00",
-      "endTime": "2025-07-07T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/det-kongelige-kapel-kurt-masur-og-kim-sjoegren-12422454367",
-      "order": 638614128000036367,
-      "nextId": "urn:dr:radio:episode:66e214b5374be7e3ceaef6ba",
-      "series": {
-        "title": "P2 Guldkoncerten",
-        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
-        "slug": "p2-guldkoncerten-1206952410000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66cf9edd4c2f09fed33085f5/253289ac20e70e928288869ed2f745de99ddc28b7ff43149c0e372f918c4106f"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422454367",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-08T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66cf9edd4c2f09fed33085f5",
-      "slug": "det-kongelige-kapel-kurt-masur-og-kim-sjoegren-12422454367",
-      "title": "Det Kongelige Kapel, Kurt Masur og Kim Sjøgren",
-      "description": "I 1981 optrådte den store østtyske dirigent Kurt Masur for første gang i Danmark. Det var ved en koncert med Det Kongelige Kapel, hvor man også for første gang kunne høre den dengang 26-årige violinist, Kim Sjøgren, som solist i Carl Nielsens Violinkoncert. \nProkofjev: Symfoni nr. 1. \nCarl Nielsen: Violinkoncert.    \nSchumann: Symfoni nr. 2. \nDet Kongelige Kapel. \nKim Sjøgren, violin. \nDirigent: Kurt Masur. \n(- Odd Fellow Palæet, 8. maj 1981). \nCa. 21.20. \nBeethoven: Kejserkoncerten. \nUSSR's Symfoniorkester. \nEmil Gilels, klaver. \nDirigent: Kurt Masur. \nVært: Rie Koch.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6825cc7161175376c1ff43e3",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o8ECwcxu009F-;~q_3-;Rjayt7t700t7%MM{WBIUt7WCWBt7WBWB4nWB%M?bWBRjxuofM{WBt7t7"
-        },
-        {
-          "id": "urn:dr:radio:image:6825cc7161175376c1ff43e3",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o8ECwcxu009F-;~q_3-;Rjayt7t700t7%MM{WBIUt7WCWBt7WBWB4nWB%M?bWBRjxuofM{WBt7t7"
         }
       ],
       "visualIdentity": {
