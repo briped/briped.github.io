@@ -16,7 +16,7 @@
   "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-14T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-07-15T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten-836657953000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c7736187a40ef4069c10",
   "psdbSlug": "p4trekanten-morgen-radio",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14042520292",
+      "durationMilliseconds": 14100000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14042520292",
+      "publishTime": "2025-07-15T06:05:00+02:00",
+      "startTime": "2025-07-15T06:05:00+02:00",
+      "endTime": "2025-07-19T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten/p4-morgen-trekanten/tirsdag-15-jul-2025-14042520292",
+      "order": 638881563000140292,
+      "previousId": "urn:dr:radio:episode:682623a561175376c1019c91",
+      "series": {
+        "title": "P4 Morgen Trekanten",
+        "id": "urn:dr:radio:series:5fb624c5f45a4df9a5f9bfef",
+        "slug": "p4-morgen-trekanten-836657953000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten-836657953000",
+        "learnId": "urn:dr:ocs:audio:content:series:836657953000"
+      },
+      "channel": {
+        "title": "P4 Trekanten",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
+        "slug": "p4trekanten",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682623a861175376c1019cd7/8dfdb5b33ed0028d557708ab3beea067bea4edd8a623dfbd1133bfc914dc0c20"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042520292",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-15T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:682623a861175376c1019cd7",
+      "slug": "tirsdag-15-jul-2025-14042520292",
+      "title": "Tirsdag 15. jul. 2025",
+      "punchline": "Nyheder, reportager, trafik, vejr, sport og den gode P4-musik",
+      "description": "Stå op med P4 Morgen Trekanten og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc88c039d56f04e68c10",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "WRLq#2#sAE-r_4%N~qxbt7RjD%WAtSxvRPM{bIRjtSRjRit8jZae"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c039d56f04e68c10",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "WRLq#2#sAE-r_4%N~qxbt7RjD%WAtSxvRPM{bIRjtSRjRit8jZae"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#13282F",
+            "#D0D6F6"
+          ]
+        },
+        "colors": {
+          "dark": "#13282F",
+          "light": "#D0D6F6"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14042520291",
       "durationMilliseconds": 14100024,
       "categories": [
@@ -85,6 +171,7 @@
       "endTime": "2025-07-18T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten/p4-morgen-trekanten/mandag-14-jul-2025-14042520291",
       "order": 638880699000139291,
+      "nextId": "urn:dr:radio:episode:682623a861175376c1019cd7",
       "previousId": "urn:dr:radio:episode:682623a57b626ea9bb076a8d",
       "series": {
         "title": "P4 Morgen Trekanten",
@@ -172,7 +259,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten/p4-morgen-trekanten/fredag-11-jul-2025-14042520285",
       "order": 638878107000138285,
       "nextId": "urn:dr:radio:episode:682623a561175376c1019c91",
-      "previousId": "urn:dr:radio:episode:682623a861175376c1019ccf",
       "series": {
         "title": "P4 Morgen Trekanten",
         "id": "urn:dr:radio:series:5fb624c5f45a4df9a5f9bfef",
@@ -207,92 +293,6 @@
       "id": "urn:dr:radio:episode:682623a57b626ea9bb076a8d",
       "slug": "fredag-11-jul-2025-14042520285",
       "title": "Fredag 11. jul. 2025",
-      "punchline": "Nyheder, reportager, trafik, vejr, sport og den gode P4-musik",
-      "description": "Stå op med P4 Morgen Trekanten og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc88c039d56f04e68c10",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "WRLq#2#sAE-r_4%N~qxbt7RjD%WAtSxvRPM{bIRjtSRjRit8jZae"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c039d56f04e68c10",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "WRLq#2#sAE-r_4%N~qxbt7RjD%WAtSxvRPM{bIRjtSRjRit8jZae"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#13282F",
-            "#D0D6F6"
-          ]
-        },
-        "colors": {
-          "dark": "#13282F",
-          "light": "#D0D6F6"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042520284",
-      "durationMilliseconds": 14100024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042520284",
-      "publishTime": "2025-07-10T06:05:00+02:00",
-      "startTime": "2025-07-10T06:05:00+02:00",
-      "endTime": "2025-07-14T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten/p4-morgen-trekanten/torsdag-10-jul-2025-14042520284",
-      "order": 638877243000137284,
-      "nextId": "urn:dr:radio:episode:682623a57b626ea9bb076a8d",
-      "series": {
-        "title": "P4 Morgen Trekanten",
-        "id": "urn:dr:radio:series:5fb624c5f45a4df9a5f9bfef",
-        "slug": "p4-morgen-trekanten-836657953000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-morgen-trekanten-836657953000",
-        "learnId": "urn:dr:ocs:audio:content:series:836657953000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682623a861175376c1019ccf/742806ff4a64f3ed0cd74496137831c33ce2736df0b79907eb6292be9477fc77"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042520284",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-10T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:682623a861175376c1019ccf",
-      "slug": "torsdag-10-jul-2025-14042520284",
-      "title": "Torsdag 10. jul. 2025",
       "punchline": "Nyheder, reportager, trafik, vejr, sport og den gode P4-musik",
       "description": "Stå op med P4 Morgen Trekanten og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
       "imageAssets": [
