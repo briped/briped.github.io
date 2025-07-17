@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 159,
+  "numberOfEpisodes": 160,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-07-16T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-17T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543607",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543607",
+      "publishTime": "2025-07-17T19:20:00+02:00",
+      "startTime": "2025-07-17T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
+      "order": 638883770025228607,
+      "previousId": "urn:dr:radio:episode:681c995b1720bd973dfaa9a7",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:685e4b2f84761efefa19fddc/6e2386f20b0f10cb4971a079a0f02c6ddf978952c7dfd7202212aa182dbf0b8b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543607",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-17T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
+      "slug": "wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
+      "title": "Wiener Filharmonikernes Sommernatskoncert 2025",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Wiener Filharmonikernes årlige Sommernatskoncert finder traditionen tro sted i Schönbrunns barokke park med slottet som storslået kulisse. \nDen polske stjernetenor Piotr Beczala får sin debut med arier fra Carmen og Turandot, samt kendte operetteklassikere. Desuden optræder Wiener Sängerknaben for første gang på den imponerende udendørsscene. \nProgrammet tager publikum med på en rejse gennem europæiske lydlandskaber, fra Griegs \"Morgenstemning\" til Dvoráks \"Slavisk Dans\", og afsluttes traditionen tro med Johann Strauss II's \"Wiener Blut\". \nPiotr Beczala, tenor. \nWienerfilharmonikerne. \nWiener Sängerknaben. \nDirigent: Tugan Sokhiev. \n(Schönbrunn Slotshave, Wien 13. juni).  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685e8b5b84761efefa1c321f",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oYJ7{.-;~qx]sm%2x[xa?HoLWqR*57s.RjMxNGWV^*j[kDt7aeRjr?t7RjIooeRjRjjsofaybHs:"
+        },
+        {
+          "id": "urn:dr:radio:image:685e8b5b84761efefa1c321f",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oYJ7{.-;~qx]sm%2x[xa?HoLWqR*57s.RjMxNGWV^*j[kDt7aeRjr?t7RjIooeRjRjjsofaybHs:"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543293",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +166,7 @@
       "endTime": "2025-08-14T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mozart-moeder-handel-alexander-s-feast-12422543293",
       "order": 638882906025127293,
+      "nextId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
       "previousId": "urn:dr:radio:episode:681c994b083a81efebded266",
       "series": {
         "title": "P2 Koncerten",
@@ -8893,6 +8973,7 @@
       "productionNumber": "12422443423",
       "publishTime": "2024-10-16T19:20:00+02:00",
       "startTime": "2024-10-16T19:20:00+02:00",
+      "endTime": "2025-10-16T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/maecenens-optegnelser-brantelid-harald-haugaard-janne-thomsen-m-fl-12422443423",
       "order": 638647034024291423,
       "nextId": "urn:dr:radio:episode:670af2e87a29711438f8283d",
