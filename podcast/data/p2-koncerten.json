@@ -17,7 +17,7 @@
   "numberOfEpisodes": 160,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-07-17T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-18T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543295",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543295",
+      "publishTime": "2025-07-18T19:20:00+02:00",
+      "startTime": "2025-07-18T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/romantiske-mestervaerker-med-popelka-12422543295",
+      "order": 638884634025128295,
+      "previousId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994ba90908f76a9e7b4e/ea6cae3e8677e60fc0b2d52a109f81677f2c2a9802fa50771423e29665c957ca"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543295",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-18T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
+      "slug": "romantiske-mestervaerker-med-popelka-12422543295",
+      "title": "Romantiske Mesterværker med Popelka",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Oplev en aften med romantik og virtuositet, når WDR Symfoniorkester, dirigenten Petr Popelka og pianisten Alexandre Kantorow træder på scenen. \nKoncerten åbner med fuld skrue på dramaet i Richard Wagners Faust Ouverture. Derefter klavervirtuositet af den særligt imponerende slags Liszts Klaverkoncert nr. 2, inden aftenen kulminerer på en mere festlig tone i Robert Schumanns \"Rhinske\" Symfoni. \nAlexandre Kantorow, klaver. \nWDR Symfoniorkester. \nDirigent: Petr Popelka. \n(Filharmonien, Köln 14. marts). \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685bfaed9f240a4462c8c4f3",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oTDbWos.9tkCE2IpNHNHs:ayWBxa0fWV-oWBxtofays:Rkj[xaNGs:xZWBf6jtR*ofWVNHoLWBj["
+        },
+        {
+          "id": "urn:dr:radio:image:685bfaed9f240a4462c8c4f3",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oTDbWos.9tkCE2IpNHNHs:ayWBxa0fWV-oWBxtofays:Rkj[xaNGs:xZWBf6jtR*ofWVNHoLWBj["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543607",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-07-17T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
       "order": 638883770025228607,
+      "nextId": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
       "previousId": "urn:dr:radio:episode:681c995b1720bd973dfaa9a7",
       "series": {
         "title": "P2 Koncerten",
@@ -1615,7 +1695,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/muti-og-berlinerfilharmonikerne-12422543604",
       "order": 638859578025225604,
       "nextId": "urn:dr:radio:episode:6825c77161175376c1ff22fa",
-      "previousId": "urn:dr:radio:episode:681a086e812b2174b24d3d4b",
+      "previousId": "urn:dr:radio:episode:681a08460766aecd9d957639",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1683,87 +1763,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543253",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543253",
-      "publishTime": "2025-06-18T19:20:00+02:00",
-      "startTime": "2025-06-18T19:20:00+02:00",
-      "endTime": "2025-07-17T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bezuidenhout-hammerklaver-og-mozart-12422543253",
-      "order": 638858714025097253,
-      "nextId": "urn:dr:radio:episode:6835b519b55477aa472bf864",
-      "previousId": "urn:dr:radio:episode:681a08460766aecd9d957639",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a086e812b2174b24d3d4b/af430f737083c41f38101025f9ee36d00724ab74a72949e9af634193eaac7d59"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543253",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-18T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681a086e812b2174b24d3d4b",
-      "slug": "bezuidenhout-hammerklaver-og-mozart-12422543253",
-      "title": "Bezuidenhout, hammerklaver og Mozart",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Det kommer til at lyde som Mozart selv hørte det. Med hammerklaver og  strenge af tarm spiller spiller specialisterne Kristian Bezuidenhout og Conosne Quartet en koncert hvor værk og instrumenter nogenlunde deler fødselsår. \nEmilie Mayer: Strygekvaret i G-dur.  \nMozart: Klaverkoncert nr. 13. \nMozart: Klaverkvintet i Es-dur. \nKristian Bezuidenhout, hammerklaver. Consone Quartet.  \n(Rococo Teateret, Schwetzingen 14. maj).  \nVært: Charlotte Norholt.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68528b194c236f179efb8914",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oQAS_Es:0fNH-ps:oeoffRRkR*ofIpfQ%1azNHoLNGayt6ofayjZIoayxtoLR*ayofayWBj[ofay"
-        },
-        {
-          "id": "urn:dr:radio:image:68528b194c236f179efb8914",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oQAS_Es:0fNH-ps:oeoffRRkR*ofIpfQ%1azNHoLNGayt6ofayjZIoayxtoLR*ayofayWBj[ofay"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543252",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1775,7 +1774,7 @@
       "startTime": "2025-06-17T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/festkoncert-fra-oesterbro-kammermusikfestival-12422543252",
       "order": 638857850025096252,
-      "nextId": "urn:dr:radio:episode:681a086e812b2174b24d3d4b",
+      "nextId": "urn:dr:radio:episode:6835b519b55477aa472bf864",
       "previousId": "urn:dr:radio:episode:681a0827005cc6aa547bf30e",
       "series": {
         "title": "P2 Koncerten",
@@ -11074,6 +11073,7 @@
       "productionNumber": "12422443345",
       "publishTime": "2024-08-23T19:20:00+02:00",
       "startTime": "2024-08-23T19:20:00+02:00",
+      "endTime": "2025-10-17T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/jacquots-tiltraedelseskoncert-med-kapellet-strauss-mozart-og-korngold-12422443345",
       "order": 638600378024260345,
       "nextId": "urn:dr:radio:episode:66be7beda56be59b02a6e43a",
