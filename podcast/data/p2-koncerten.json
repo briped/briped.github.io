@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 160,
+  "numberOfEpisodes": 161,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-07-24T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-25T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543305",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543305",
+      "publishTime": "2025-07-25T19:20:00+02:00",
+      "startTime": "2025-07-25T19:20:00+02:00",
+      "endTime": "2025-08-23T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/vivaldi-og-rameau-12422543305",
+      "order": 638890682025132305,
+      "previousId": "urn:dr:radio:episode:685e4b5877533c9983362701",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995ba95582916ea8cf70/0c761c4f060e170df954dd27a0733e796d9f744ec0623c4658afd368d77c3e5a"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543305",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-25T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c995ba95582916ea8cf70",
+      "slug": "vivaldi-og-rameau-12422543305",
+      "title": "Vivaldi og Rameau",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "I 1710'erne var Dresden grebet af en veritabel Vivaldi eufori. Dette skyldtes hofkoncertmester Johann Pisendel, der introducerede sit orkester for musik af sin lærer, Antonio Vivaldi. Vivaldi komponerede, som en form for gengæld, sine berømte Dresden-koncerter specifikt til Pisendels store orkester. \nI samme periode hed den ubestridte operakonge Jean-Philippe Rameau, en komponist der først sent i livet helligede sig operagenren. Hans opera Les Boréades, baseret på et mytologisk emne, fortæller en kærlighedshistorie med en lykkelig slutning. \nFabio Biondi, violin. \nFinnish Radio Symphony Orchestra.  \nDirigent: Fabio Biondi. \n(Music Centre, Helsinki 2. maj). \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685e994c7118b1c197fb999d",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oGEB+^T09v9u9awv={-oxuIpEMsmrr$#E2bv%MkC0gxC$~IpWX%MNxX9sli_RjE2-oozkCIoM{aJ"
+        },
+        {
+          "id": "urn:dr:radio:image:685e994c7118b1c197fb999d",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oGEB+^T09v9u9awv={-oxuIpEMsmrr$#E2bv%MkC0gxC$~IpWX%MNxX9sli_RjE2-oozkCIoM{aJ"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543608",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "endTime": "2025-08-22T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/oereorm-dvoraks-violinkoncert-og-amy-beach-12422543608",
       "order": 638889818025229608,
+      "nextId": "urn:dr:radio:episode:681c995ba95582916ea8cf70",
       "previousId": "urn:dr:radio:episode:681c995ba90908f76a9e7bff",
       "series": {
         "title": "P2 Koncerten",
