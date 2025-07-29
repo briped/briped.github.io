@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 161,
+  "numberOfEpisodes": 162,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-07-28T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-07-29T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543312",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543312",
+      "publishTime": "2025-07-29T19:20:00+02:00",
+      "startTime": "2025-07-29T19:20:00+02:00",
+      "endTime": "2025-08-27T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/yuja-wang-kapustin-og-tjajkovksij-12422543312",
+      "order": 638894138025134312,
+      "previousId": "urn:dr:radio:episode:681c994cb3140b1c1f3b76ed",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994ca75c4b58350e1ea7/7a8b7bd65b5749ee8a95908b55b91da31ab2d50cb43d6ac50c142fc36ad0317c"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543312",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-29T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994ca75c4b58350e1ea7",
+      "slug": "yuja-wang-kapustin-og-tjajkovksij-12422543312",
+      "title": "Yuja Wang, Kapustin og Tjajkovksij.",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Oplev en aften med Yuja Wang som aftenens helt store hovedperson i et dristigt og legende program. Den kinesiske pianist tøver ikke med at fremføre to af repertoirets mest virtuose klaverkoncerter - og hun dirigerer dem endda selv fra klaveret. \nSom en legende indledning til hver koncert byder Wang på uventede forspil: Før Kapustins koncert lyder Stravinskys Oktet for blæsere, et værk komponisten selv kaldte 'et lydobjekt' fyldt med skjult ironi. Inden Tjajkovskijs berømte klaverkoncert kommer Beethovens flamboyante Coriolan Ouverture. \nYuja Wang, klaver. \nMahler Chamber Orchestra. \nDirigent: Yuja Wang. \n(Opéra Berlioz, Montpellier 7. juli). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685e97ca7118b1c197fb8d67",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oeD[nRt70fRjxaso9aV@%LkWaeoc%fX8RPw]S#NHM|Rjs:t7sojZxZs:WqR*aeazs:WBRkoLbboL"
+        },
+        {
+          "id": "urn:dr:radio:image:685e97ca7118b1c197fb8d67",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oeD[nRt70fRjxaso9aV@%LkWaeoc%fX8RPw]S#NHM|Rjs:t7sojZxZs:WqR*aeazs:WBRkoLbboL"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543311",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "endTime": "2025-08-26T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/praegtige-skabninger-med-the-tallis-scholars-12422543311",
       "order": 638893274025133311,
+      "nextId": "urn:dr:radio:episode:681c994ca75c4b58350e1ea7",
       "previousId": "urn:dr:radio:episode:681c995ba95582916ea8cf70",
       "series": {
         "title": "P2 Koncerten",
@@ -9375,6 +9456,7 @@
       "productionNumber": "12422443421",
       "publishTime": "2024-10-14T19:20:00+02:00",
       "startTime": "2024-10-14T19:20:00+02:00",
+      "endTime": "2025-10-28T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/dr-pigekoret-i-moerke-12422443421",
       "order": 638645306024289421,
       "nextId": "urn:dr:radio:episode:6701b8a6b90c51f5c0935021",
