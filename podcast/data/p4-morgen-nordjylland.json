@@ -16,7 +16,7 @@
   "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-28T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-07-29T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland-836648273000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c4a76187a40ef4069ba6",
   "psdbSlug": "p4nord-morgen",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14102520312",
+      "durationMilliseconds": 14100024,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14102520312",
+      "publishTime": "2025-07-29T06:05:00+02:00",
+      "startTime": "2025-07-29T06:05:00+02:00",
+      "endTime": "2025-08-02T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland/p4-morgen-nordjylland/tirsdag-29-jul-2025-14102520312",
+      "order": 638893659000149312,
+      "previousId": "urn:dr:radio:episode:6835b948f0501130c3bcfe7b",
+      "series": {
+        "title": "P4 Morgen Nordjylland",
+        "id": "urn:dr:radio:series:5fa294fc330eac2f135bba91",
+        "slug": "p4-morgen-nordjylland-836648273000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland-836648273000",
+        "learnId": "urn:dr:ocs:audio:content:series:836648273000"
+      },
+      "channel": {
+        "title": "P4 Nordjylland",
+        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465d",
+        "slug": "p4nord",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4nord"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b9695f16b6983060110d/19e5295d4f7901fd505adac418328d0981c45b132987880c0e17c2a0ce97e2f3"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14102520312",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-29T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:6835b9695f16b6983060110d",
+      "slug": "tirsdag-29-jul-2025-14102520312",
+      "title": "Tirsdag 29. jul. 2025",
+      "punchline": "Nyheder, interview og reportage, trafik, vejr og masser af musik",
+      "description": "Stå op med P4 Morgen Nordjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc8fc755587518300a52",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8fc755587518300a52",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#171B2A",
+            "#D49F67"
+          ]
+        },
+        "colors": {
+          "dark": "#171B2A",
+          "light": "#D49F67"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14102520311",
       "durationMilliseconds": 14100024,
       "categories": [
@@ -85,6 +171,7 @@
       "endTime": "2025-08-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland/p4-morgen-nordjylland/mandag-28-jul-2025-14102520311",
       "order": 638892795000148311,
+      "nextId": "urn:dr:radio:episode:6835b9695f16b6983060110d",
       "previousId": "urn:dr:radio:episode:6835b969f0501130c3bd0043",
       "series": {
         "title": "P4 Morgen Nordjylland",
@@ -172,7 +259,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland/p4-morgen-nordjylland/fredag-25-jul-2025-14102520305",
       "order": 638890203000147305,
       "nextId": "urn:dr:radio:episode:6835b948f0501130c3bcfe7b",
-      "previousId": "urn:dr:radio:episode:6835b959f0501130c3bcff5d",
       "series": {
         "title": "P4 Morgen Nordjylland",
         "id": "urn:dr:radio:series:5fa294fc330eac2f135bba91",
@@ -207,92 +293,6 @@
       "id": "urn:dr:radio:episode:6835b969f0501130c3bd0043",
       "slug": "fredag-25-jul-2025-14102520305",
       "title": "Fredag 25. jul. 2025",
-      "punchline": "Nyheder, interview og reportage, trafik, vejr og masser af musik",
-      "description": "Stå op med P4 Morgen Nordjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8fc755587518300a52",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8fc755587518300a52",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NdH1*xOZRks9Iqt60MIUxZWVoeofSi-oS5s,ocR,"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#171B2A",
-            "#D49F67"
-          ]
-        },
-        "colors": {
-          "dark": "#171B2A",
-          "light": "#D49F67"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14102520304",
-      "durationMilliseconds": 14100024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14102520304",
-      "publishTime": "2025-07-24T06:05:00+02:00",
-      "startTime": "2025-07-24T06:05:00+02:00",
-      "endTime": "2025-07-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland/p4-morgen-nordjylland/torsdag-24-jul-2025-14102520304",
-      "order": 638889339000146304,
-      "nextId": "urn:dr:radio:episode:6835b969f0501130c3bd0043",
-      "series": {
-        "title": "P4 Morgen Nordjylland",
-        "id": "urn:dr:radio:series:5fa294fc330eac2f135bba91",
-        "slug": "p4-morgen-nordjylland-836648273000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-morgen-nordjylland-836648273000",
-        "learnId": "urn:dr:ocs:audio:content:series:836648273000"
-      },
-      "channel": {
-        "title": "P4 Nordjylland",
-        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465d",
-        "slug": "p4nord",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4nord"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b959f0501130c3bcff5d/83049be7d47f7c9fbf9d8ff4ac23de524f34abd9e82eb00bb969b374b9900035"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14102520304",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-24T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835b959f0501130c3bcff5d",
-      "slug": "torsdag-24-jul-2025-14102520304",
-      "title": "Torsdag 24. jul. 2025",
       "punchline": "Nyheder, interview og reportage, trafik, vejr og masser af musik",
       "description": "Stå op med P4 Morgen Nordjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
       "imageAssets": [
