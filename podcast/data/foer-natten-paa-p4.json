@@ -16,7 +16,7 @@
   "numberOfEpisodes": 4,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-29T22:03:00+02:00",
+  "latestEpisodeStartTime": "2025-07-30T22:03:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4-3862397300000",
   "psdbUrn": "urn:dr:mu:bundle:632a3a3c714014019424d7dd",
   "psdbSlug": "foer-natten-pa-p4",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13652590313",
+      "durationMilliseconds": 7020000,
+      "categories": [
+        "Musik"
+      ],
+      "productionNumber": "13652590313",
+      "publishTime": "2025-07-30T22:03:00+02:00",
+      "startTime": "2025-07-30T22:03:00+02:00",
+      "endTime": "2025-08-03T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4/foer-natten-paa-p4/onsdag-30-jul-2025-13652590313",
+      "order": 638895097800211313,
+      "previousId": "urn:dr:radio:episode:68394b19f526fd481f6c3508",
+      "series": {
+        "title": "Før natten på P4",
+        "id": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
+        "slug": "foer-natten-paa-p4-3862397300000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4-3862397300000",
+        "learnId": "urn:dr:ocs:audio:content:series:3862397300000"
+      },
+      "channel": {
+        "title": "P4",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4644",
+        "slug": "p4",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68394b24f526fd481f6c354e/90c97aea6683c085fad3bb841b3fb11f7d17897acacce42f5dd23187545257db"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13652590313",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-07-30T22:03:00+02:00",
+      "id": "urn:dr:radio:episode:68394b24f526fd481f6c354e",
+      "slug": "onsdag-30-jul-2025-13652590313",
+      "title": "Onsdag 30. jul. 2025",
+      "description": "Dit radiofoniske klap på skulderen. Vi siger tak for i dag med god karma og masser af den bedste musik til døgnets sidste timer.\nVært: Stine Bram.\nwww.dr.dk/lyd/p4",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fcd",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NQG[BHEl0n]~IVNdIXw]tROFt7e.E2xFt7I;xZxF"
+        },
+        {
+          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fce",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oMIXE#5@AK^P9bNG9I$1e.SOS%bJ59%1s,EMxtxa.AEks+xGxBRj9_ofs+s.acxZw]jYR+WroLR*"
+        },
+        {
+          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fce",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oMIXE#5@AK^P9bNG9I$1e.SOS%bJ59%1s,EMxtxa.AEks+xGxBRj9_ofs+s.acxZw]jYR+WroLR*"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#191929",
+            "#9CB5D3"
+          ]
+        },
+        "colors": {
+          "dark": "#191929",
+          "light": "#9CB5D3"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:13652590312",
       "durationMilliseconds": 7020024,
       "categories": [
@@ -84,6 +169,7 @@
       "endTime": "2025-08-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4/foer-natten-paa-p4/tirsdag-29-jul-2025-13652590312",
       "order": 638894233800210312,
+      "nextId": "urn:dr:radio:episode:68394b24f526fd481f6c354e",
       "previousId": "urn:dr:radio:episode:68394b0f5f16b69830780d4d",
       "series": {
         "title": "Før natten på P4",
@@ -256,7 +342,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4/foer-natten-paa-p4/soendag-27-jul-2025-13652590307",
       "order": 638892469800208307,
       "nextId": "urn:dr:radio:episode:68394b0f5f16b69830780d4d",
-      "previousId": "urn:dr:radio:episode:68394afbf526fd481f6c3431",
       "series": {
         "title": "Før natten på P4",
         "id": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
@@ -291,91 +376,6 @@
       "id": "urn:dr:radio:episode:68394afb5f16b69830780cad",
       "slug": "soendag-27-jul-2025-13652590307",
       "title": "Søndag 27. jul. 2025",
-      "description": "Dit radiofoniske klap på skulderen. Vi siger tak for i dag med god karma og masser af den bedste musik til døgnets sidste timer.\nVært: Stine Bram.\nwww.dr.dk/lyd/p4",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fcd",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NQG[BHEl0n]~IVNdIXw]tROFt7e.E2xFt7I;xZxF"
-        },
-        {
-          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fce",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oMIXE#5@AK^P9bNG9I$1e.SOS%bJ59%1s,EMxtxa.AEks+xGxBRj9_ofs+s.acxZw]jYR+WroLR*"
-        },
-        {
-          "id": "urn:dr:radio:image:67e46b8c52248c98a43d5fce",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oMIXE#5@AK^P9bNG9I$1e.SOS%bJ59%1s,EMxtxa.AEks+xGxBRj9_ofs+s.acxZw]jYR+WroLR*"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#191929",
-            "#9CB5D3"
-          ]
-        },
-        "colors": {
-          "dark": "#191929",
-          "light": "#9CB5D3"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:13652590306",
-      "durationMilliseconds": 7020024,
-      "categories": [
-        "Musik"
-      ],
-      "productionNumber": "13652590306",
-      "publishTime": "2025-07-26T22:03:00+02:00",
-      "startTime": "2025-07-26T22:03:00+02:00",
-      "endTime": "2025-07-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4/foer-natten-paa-p4/loerdag-26-jul-2025-13652590306",
-      "order": 638891641800207306,
-      "nextId": "urn:dr:radio:episode:68394afb5f16b69830780cad",
-      "series": {
-        "title": "Før natten på P4",
-        "id": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
-        "slug": "foer-natten-paa-p4-3862397300000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4/foer-natten-paa-p4-3862397300000",
-        "learnId": "urn:dr:ocs:audio:content:series:3862397300000"
-      },
-      "channel": {
-        "title": "P4",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4644",
-        "slug": "p4",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68394afbf526fd481f6c3431/56dafd37fb7acbff2333c37e5b2b47967839f82e54109a988c85312d9b07cd21"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:13652590306",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-26T22:03:00+02:00",
-      "id": "urn:dr:radio:episode:68394afbf526fd481f6c3431",
-      "slug": "loerdag-26-jul-2025-13652590306",
-      "title": "Lørdag 26. jul. 2025",
       "description": "Dit radiofoniske klap på skulderen. Vi siger tak for i dag med god karma og masser af den bedste musik til døgnets sidste timer.\nVært: Stine Bram.\nwww.dr.dk/lyd/p4",
       "imageAssets": [
         {
