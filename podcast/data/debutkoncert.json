@@ -17,7 +17,7 @@
   "numberOfEpisodes": 6,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-07-05T12:15:00+02:00",
+  "latestEpisodeStartTime": "2025-08-02T12:15:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
   "psdbUrn": "urn:dr:mu:bundle:644f94fe539f0217286bfd97",
   "psdbSlug": "debutkoncert",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422564008",
+      "durationMilliseconds": 2340024,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422564008",
+      "publishTime": "2025-08-02T12:15:00+02:00",
+      "startTime": "2025-08-02T12:15:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/justina-la-cour-violin-12422564008",
+      "order": 638897339025008008,
+      "previousId": "urn:dr:radio:episode:682720d27b626ea9bb0e5a78",
+      "series": {
+        "title": "Debutkoncert",
+        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
+        "slug": "debutkoncert-4568946429000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
+        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682720df7b626ea9bb0e5ada/7eaf102d05cd0d75aa7aaf974fd7f75586df7dff29f3eff16b8c84b3c829022a"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564008",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-02T12:15:00+02:00",
+      "id": "urn:dr:radio:episode:682720df7b626ea9bb0e5ada",
+      "slug": "justina-la-cour-violin-12422564008",
+      "title": "Justina La Cour - violin",
+      "description": "I dag kan du komme til koncert med violinisten Justina La Cour. Ved sin debutkoncert på Det Kongelige Danske Musikkonservatorium 28. maj havde Justina sammensat et dansk-fransk program. Ikke mindst fordi hun spiller sammen med en fransk pianist, Marina Saiki, som spillede med til hendes debut. \nLanggaard: Aubade.\nFranck: Violinsonate. \nJustina La Cour, violin. \nMarina Saiki, klaver. \n(Konservatoriets Koncertsal, 28. maj).",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:685950ba4b7ae82155e38a9f",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKGlYH9F0x^+RobuD*S_%Mn4D%x[XS%1R6Io-=RkX3niX5kXn$M{t9tQV[oLoxRjade:n$NFo#oM"
+        },
+        {
+          "id": "urn:dr:radio:image:685950ba4b7ae82155e38a9f",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKGlYH9F0x^+RobuD*S_%Mn4D%x[XS%1R6Io-=RkX3niX5kXn$M{t9tQV[oLoxRjade:n$NFo#oM"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2E1613",
+            "#ED8E6E"
+          ]
+        },
+        "colors": {
+          "dark": "#2E1613",
+          "light": "#ED8E6E"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422564007",
       "durationMilliseconds": 2460072,
       "categories": [
@@ -85,6 +163,7 @@
       "startTime": "2025-07-05T12:15:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/michael-germer-violin-12422564007",
       "order": 638873147025007007,
+      "nextId": "urn:dr:radio:episode:682720df7b626ea9bb0e5ada",
       "previousId": "urn:dr:radio:episode:6824438c6f051f913cfbfde1",
       "series": {
         "title": "Debutkoncert",
@@ -319,10 +398,11 @@
       "productionNumber": "12422564004",
       "publishTime": "2025-04-05T12:15:00+02:00",
       "startTime": "2025-04-05T12:15:00+02:00",
+      "endTime": "2025-10-05T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/cecilia-bergman-guitar-12422564004",
       "order": 638794523025004004,
       "nextId": "urn:dr:radio:episode:67ee3c05034014f391172f2e",
-      "previousId": "urn:dr:radio:episode:6790323c2a51e1bacbbf1315",
+      "previousId": "urn:dr:radio:episode:674654f79936bcec98bfd868",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
@@ -389,86 +469,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422564002",
-      "durationMilliseconds": 1800000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422564002",
-      "publishTime": "2025-02-01T12:15:00+01:00",
-      "startTime": "2025-02-01T12:15:00+01:00",
-      "endTime": "2025-08-01T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/william-castaldi-trompet-12422564002",
-      "order": 638740091025002002,
-      "nextId": "urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a",
-      "previousId": "urn:dr:radio:episode:674654f79936bcec98bfd868",
-      "series": {
-        "title": "Debutkoncert",
-        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
-        "slug": "debutkoncert-4568946429000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
-        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6790323c2a51e1bacbbf1315/66e10c6439b0ab600d499904dcbc5fb6206f5bff1951f4ca35a0782ccb228e12"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564002",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-02-01T12:15:00+01:00",
-      "id": "urn:dr:radio:episode:6790323c2a51e1bacbbf1315",
-      "slug": "william-castaldi-trompet-12422564002",
-      "title": "William Castaldi - trompet",
-      "description": "Kom med til koncert i Aarhus, når trompetisten William Castaldi debuterer. Den italienske trompetist debuterede fra Det Jyske Musikkonservatorium i et program, der både bød på en britisk fanfare, amerikansk svævende trompetmystik og Italiensk belcanto på trompet. \n\nBritten: Fanfare for St.Ensbury. \nAlan Hovhaness: Prayer of St. Gregory. \nJoseph Forestier (arr. Castaldi): Fantasi over tema fra Don Pasquale af Donizetti. \nWilliam Castaldi, trompet. \nMiquel Pla Forcadell, trumpet. \nPhilippe Neumann, trumpet. \nMaria Eshpai, klaver.  \n(Musikhuset Aarhus 26. juni 2024).",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd826c14ec5cf16546570",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oG8gT;Rk0Kf5?HxuV[xaS1Ioxbxua{ayjZt7WVRkNaRjxat7NGRjInofxbayWBR*RjWVxaofM{ay"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd826c14ec5cf16546570",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oG8gT;Rk0Kf5?HxuV[xaS1Ioxbxua{ayjZt7WVRkNaRjxat7NGRjInofxbayWBR*RjWVxaofM{ay"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2E1613",
-            "#ED8E6E"
-          ]
-        },
-        "colors": {
-          "dark": "#2E1613",
-          "light": "#ED8E6E"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422464012",
       "durationMilliseconds": 1980000,
       "categories": [
@@ -481,7 +481,7 @@
       "endTime": "2025-09-01T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert/katrin-helena-kuslap-sopran-12422464012",
       "order": 638691705000012012,
-      "nextId": "urn:dr:radio:episode:6790323c2a51e1bacbbf1315",
+      "nextId": "urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
