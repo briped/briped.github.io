@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 162,
+  "numberOfEpisodes": 160,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-08-01T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-08-04T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543321",
+      "durationMilliseconds": 7803500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543321",
+      "publishTime": "2025-08-04T19:20:00+02:00",
+      "startTime": "2025-08-04T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/oremandsgaard-kammermusikfest-kammerperler-og-mestervaerker-12422543321",
+      "order": 638899322025137321,
+      "previousId": "urn:dr:radio:episode:681c994c2b77f3385e307b0d",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994c923dffbb19775245/7507ebe9ba199e2e313af64d9b0ce99894a17887f502adfc393d30249564b474"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543321",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-04T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994c923dffbb19775245",
+      "slug": "oremandsgaard-kammermusikfest-kammerperler-og-mestervaerker-12422543321",
+      "title": "Oremandsgaard Kammermusikfest: Kammerperler og Mesterværker",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Oplev en aften med mangfoldig kammermusik, der spænder fra Poulencs lyriske fløjtesonate (spillet på blokfløjte af Michala Petri) til Ruders' intense strygekvartet nr. 3 \"Motet\", samt Pärts kontemplative Fratres og elegant charme i Mozarts fløjtekvartet. \nKoncerten kulminerer med Schumanns storslåede Klaverkvintet, et hovedværk i kammermusikrepertoiret, som forener klaverets kraft med strygekvartettens enhed. En aften fyldt med varierede udtryk og fremragende musikere. \nMichala Petri, blokfløjter. \nGustav Piekut, klaver. \nAlexander Sitkovetsky, violin. \nAdam Koch, violin. \nMichael Grolid, bratsch. \nJoel Laakso, cello. \n(Oremandsgaard, 2 august). \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6863ef0c2a64b2dee7a6cb10",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o|L;Kl-=tRxGt7xu~pW=NGV@WBWVs:jtofj[jZWVIoaxofbHjZj[bIjZjsa}a|j[xuWBayj[ofj["
+        },
+        {
+          "id": "urn:dr:radio:image:6863ef0c2a64b2dee7a6cb10",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o|L;Kl-=tRxGt7xu~pW=NGV@WBWVs:jtofj[jZWVIoaxofbHjZj[bIjZjsa}a|j[xuWBayj[ofj["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543315",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-08-01T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/ro-paa-koncert-fra-odsherred-kammermusikfestival-12422543315",
       "order": 638896730025136315,
+      "nextId": "urn:dr:radio:episode:681c994c923dffbb19775245",
       "previousId": "urn:dr:radio:episode:685e4b7677533c99833627fb",
       "series": {
         "title": "P2 Koncerten",
@@ -1615,7 +1695,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/schumann-h-c-andersen-og-dvoraks-dumkytrio-12422543281",
       "order": 638875130025121281,
       "nextId": "urn:dr:radio:episode:681c994ab3140b1c1f3b76d8",
-      "previousId": "urn:dr:radio:episode:681c994a2b77f3385e307af3",
+      "previousId": "urn:dr:radio:episode:681c994ac56338368d767773",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1683,168 +1763,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543275",
-      "durationMilliseconds": 9603548,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543275",
-      "publishTime": "2025-07-04T19:20:00+02:00",
-      "startTime": "2025-07-04T19:20:00+02:00",
-      "endTime": "2025-08-02T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/latin-amerikansk-aften-med-gustavo-dudamel-12422543275",
-      "order": 638872538025120275,
-      "nextId": "urn:dr:radio:episode:681c994aa75c4b58350e1e91",
-      "previousId": "urn:dr:radio:episode:685e4ae984761efefa19fb5e",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994a2b77f3385e307af3/6d8c4adf4b65300612fb19e1fca9687394b60b754d23c036c7096ab1b534ba20"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543275",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-04T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c994a2b77f3385e307af3",
-      "slug": "latin-amerikansk-aften-med-gustavo-dudamel-12422543275",
-      "title": "Latin-amerikansk aften med Gustavo Dudamel",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Vær med til Berlinerfilharmonikernes sæsonafslutningen med Gustavo Dudamel bag roret. Det bliver et program fyldt med sommerenergi og passion, der tager dig med på en musikalsk rejse over Nord- og Sydamerika. Komponister fra Mexico, Venezuela og Puerto Rico leverer uimodståelig danseenergi, mens andre genopliver nordamerikansk folkemusik. Aftenen kulminerer med Leonard Bernsteins sammenstilling af disse verdener i dansene fra hans legendariske West Side Story. \nRyan Speedo Green: basbariton. \nBerlinerfilharmonikerne. \nDirigent: Gustavo Dudamel. \n(Waldbühne Berlin, 28. juni).  \nVært: Louise Hjorth.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:685bf3849f240a4462c88314",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYDbj2s:0fs.={NaV@kBX8WVr?sTNHs:xZR*NbaybvR*V@xGg3f*NaoLsAWCoyj@t7j[jZayR*s:"
-        },
-        {
-          "id": "urn:dr:radio:image:685bf3849f240a4462c88314",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYDbj2s:0fs.={NaV@kBX8WVr?sTNHs:xZR*NbaybvR*V@xGg3f*NaoLsAWCoyj@t7j[jZayR*s:"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543605",
-      "durationMilliseconds": 9603548,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543605",
-      "publishTime": "2025-07-03T19:20:00+02:00",
-      "startTime": "2025-07-03T19:20:00+02:00",
-      "endTime": "2025-08-01T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bach-og-vivaldi-med-freiburg-baroque-orchestra-12422543605",
-      "order": 638871674025226605,
-      "nextId": "urn:dr:radio:episode:681c994a2b77f3385e307af3",
-      "previousId": "urn:dr:radio:episode:681c994ac56338368d767773",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:685e4ae984761efefa19fb5e/de3e827218f7c9e5f9692f0104e8e289bf478393485dae7b7387ad4685f62551"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543605",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-03T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:685e4ae984761efefa19fb5e",
-      "slug": "bach-og-vivaldi-med-freiburg-baroque-orchestra-12422543605",
-      "title": "Bach og Vivaldi med Freiburg Baroque Orchestra",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Det er en aften i barokkens tegn når det anerkendte Freiburg Baroque Orchestra under ledelse af den virtuose violinist Gottfried von der Goltz tager kærlig fat på to af barokkens ubestridte mestre: Johann Sebastian Bach og Antonio Vivaldi.\nKoncertens højdepunkt er Bachs Brandenburg Koncert nr. 4, hvor den ekvilibristiske Bach viser sine overlegne kontrapunktiske evner. \nFreiburg Baroque Orchestra. \nDirigent og solist: Gottfried von der Goltz. \n(Konzerthaus, Freiburg im Breisgau 28. november). \nVært: Rie Koch.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:685e8abe143c4443059fefe9",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oCB.ZME1R+I:Rlv~}XxtIo%1NHRQZ$%LR%of%1IoogNGxtRjfit6R%aeozofM|xuIos.ogn$R+kD"
-        },
-        {
-          "id": "urn:dr:radio:image:685e8abe143c4443059fefe9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oCB.ZME1R+I:Rlv~}XxtIo%1NHRQZ$%LR%of%1IoogNGxtRjfit6R%aeozofM|xuIos.ogn$R+kD"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543273",
       "durationMilliseconds": 9603548,
       "categories": [
@@ -1856,7 +1774,7 @@
       "startTime": "2025-07-02T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/noerre-vosborg-kammermusikfestival-med-en-af-verdens-foerende-oboister-12422543273",
       "order": 638870738025119273,
-      "nextId": "urn:dr:radio:episode:685e4ae984761efefa19fb5e",
+      "nextId": "urn:dr:radio:episode:681c994aa75c4b58350e1e91",
       "previousId": "urn:dr:radio:episode:681c995a9514fc4eb6c86299",
       "series": {
         "title": "P2 Koncerten",
@@ -12614,7 +12532,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/musica-ficta-fejrer-weyses-250-aars-foedselsdag-i-silkeborg-12422443321",
       "order": 638584826024249321,
       "nextId": "urn:dr:radio:episode:66a41da8d8139ad3a354e1c6",
-      "previousId": "urn:dr:radio:episode:669ed851573ab8ccb397dc51",
+      "previousId": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12682,87 +12600,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443315",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443315",
-      "publishTime": "2024-08-02T19:20:00+02:00",
-      "startTime": "2024-08-02T19:20:00+02:00",
-      "endTime": "2025-08-02T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/aarets-p2-kunstner-bjarke-mogensen-og-aarhus-kammerorkester-12422443315",
-      "order": 638582234024248315,
-      "nextId": "urn:dr:radio:episode:66a2ccc6573ab8ccb3aa6372",
-      "previousId": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:669ed851573ab8ccb397dc51/e6e2ff7671670df4b70f768daacdf376a89f0a2bdb805c3734d8cfdc3a9d182c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443315",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-02T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:669ed851573ab8ccb397dc51",
-      "slug": "aarets-p2-kunstner-bjarke-mogensen-og-aarhus-kammerorkester-12422443315",
-      "title": "Årets P2 Kunstner, Bjarke Mogensen og Aarhus Kammerorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Tag med til en spændende koncert der kommer hele paletten rundt: Nyt/gammelt, dansk/udenlandsk og tango/klassisk blander sig i denne koncert med årets P2-kunstner, akkordeonisten Bjarke Mogensen. Tilmed skal vi høre en ukrainsk koncert for akkordeon og strygere. Musik af Carl Nielsen, Ihor Shamo, Pernille Sejlund, Georgs Pelecis og Astor Piazzolla.Bjarke Mogensen, akkordeon.Aarhus Kammerorkester.Dirigent: Magnus Plejdrup.(- direkte fra Sct. Lukas Kirke i Aarhus).\nVært: Benedikte Granvig.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd1ba1e3d006c1665cb80",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o%LqCEs;jEt7jYof~qozV@WWWBbIx]X9ofaxjsofM{oJaeaxaya{o0jYj[a}bHayWBWWbHkCofj["
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd1ba1e3d006c1665cb80",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o%LqCEs;jEt7jYof~qozV@WWWBbIx]X9ofaxjsofM{oJaeaxaya{o0jYj[a}bHayWBWWbHkCofj["
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443303",
       "durationMilliseconds": 9601383,
       "categories": [
@@ -12774,7 +12611,7 @@
       "startTime": "2024-07-24T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/oremandsgaards-med-folkemusik-i-bagagen-12422443303",
       "order": 638574386024243303,
-      "nextId": "urn:dr:radio:episode:669ed851573ab8ccb397dc51",
+      "nextId": "urn:dr:radio:episode:66a2ccc6573ab8ccb3aa6372",
       "previousId": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "series": {
         "title": "P2 Koncerten",
