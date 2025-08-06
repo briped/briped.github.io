@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-08-05T07:05:00+02:00",
+  "latestEpisodeStartTime": "2025-08-06T07:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen-758661407000",
   "psdbUrn": "urn:dr:mu:bundle:57d7bb206187a40ef4069a46",
   "psdbSlug": "p2-morgenmusik",
@@ -75,6 +75,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422538323",
+      "durationMilliseconds": 3303647,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422538323",
+      "publishTime": "2025-08-06T07:05:00+02:00",
+      "startTime": "2025-08-06T07:05:00+02:00",
+      "endTime": "2025-09-04T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/onsdag-6-aug-2025-12422538323",
+      "order": 638900607000156323,
+      "previousId": "urn:dr:radio:episode:681c7243a75c4b58350d0907",
+      "series": {
+        "title": "Klassisk morgen",
+        "id": "urn:dr:radio:series:5fa2651a330eac2f135b82e3",
+        "slug": "klassisk-morgen-758661407000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen-758661407000",
+        "learnId": "urn:dr:ocs:audio:content:series:758661407000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c7236a75c4b58350d0731/2e8503ebc2bea50fe9eb72120e8862cd976e178b9e585d8c6988e1473b1e6ade"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422538323",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-06T07:05:00+02:00",
+      "id": "urn:dr:radio:episode:681c7236a75c4b58350d0731",
+      "slug": "onsdag-6-aug-2025-12422538323",
+      "title": "Onsdag 6. aug. 2025",
+      "punchline": "En frisk morgenvært serverer klassisk musik til dagens første rutiner",
+      "description": "Drømmer du om en morgenblid begyndelse, så står P2 parat. Vi vækker dig med lyden af den klassiske musik, al det skønne, og vi garanterer en rolig start på dagen med masser af musikalsk medvind.\nVært: Benedikte Bové.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc8bc755587518300a08",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NjOCHJ.8NGxC%L?a~VI;oLxZRkR*%Mt6oJM|NGV@"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8bc755587518300a09",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oZOL[S_3RjV?xu?a~WIpoexaR*R*tm={s:IVM|Rj9bn$WCRkofs-IpxDkCt6ofj[-UWDf6kCoJf+"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8bc755587518300a09",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oZOL[S_3RjV?xu?a~WIpoexaR*R*tm={s:IVM|Rj9bn$WCRkofs-IpxDkCt6ofj[-UWDf6kCoJf+"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3B2507",
+            "#EBBE99"
+          ]
+        },
+        "colors": {
+          "dark": "#3B2507",
+          "light": "#EBBE99"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422538322",
       "durationMilliseconds": 3302601,
       "categories": [
@@ -87,6 +174,7 @@
       "endTime": "2025-09-03T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/tirsdag-5-aug-2025-12422538322",
       "order": 638899743000155322,
+      "nextId": "urn:dr:radio:episode:681c7236a75c4b58350d0731",
       "previousId": "urn:dr:radio:episode:681c727f923dffbb19763f1c",
       "series": {
         "title": "Klassisk morgen",
@@ -1847,7 +1935,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/tirsdag-8-jul-2025-12422538282",
       "order": 638875551000135282,
       "nextId": "urn:dr:radio:episode:681c7231a75c4b58350d06ce",
-      "previousId": "urn:dr:radio:episode:681c7230a75c4b58350d06c1",
       "series": {
         "title": "Klassisk morgen",
         "id": "urn:dr:radio:series:5fa2651a330eac2f135b82e3",
@@ -1884,93 +1971,6 @@
       "title": "Tirsdag 8. jul. 2025",
       "punchline": "En frisk morgenvært serverer klassisk musik til dagens første rutiner",
       "description": "Drømmer du om en morgenblid begyndelse, så står P2 parat. Vi vækker dig med lyden af den klassiske musik, al det skønne, og vi garanterer en rolig start på dagen med masser af musikalsk medvind.\nVært: Rie Koch.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8bc755587518300a08",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NjOCHJ.8NGxC%L?a~VI;oLxZRkR*%Mt6oJM|NGV@"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8bc755587518300a09",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oZOL[S_3RjV?xu?a~WIpoexaR*R*tm={s:IVM|Rj9bn$WCRkofs-IpxDkCt6ofj[-UWDf6kCoJf+"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8bc755587518300a09",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oZOL[S_3RjV?xu?a~WIpoexaR*R*tm={s:IVM|Rj9bn$WCRkofs-IpxDkCt6ofj[-UWDf6kCoJf+"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3B2507",
-            "#EBBE99"
-          ]
-        },
-        "colors": {
-          "dark": "#3B2507",
-          "light": "#EBBE99"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422538281",
-      "durationMilliseconds": 3303716,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422538281",
-      "publishTime": "2025-07-07T07:05:00+02:00",
-      "startTime": "2025-07-07T07:05:00+02:00",
-      "endTime": "2025-08-05T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/mandag-7-jul-2025-12422538281",
-      "order": 638874687000134281,
-      "nextId": "urn:dr:radio:episode:681c7231923dffbb19763aa3",
-      "series": {
-        "title": "Klassisk morgen",
-        "id": "urn:dr:radio:series:5fa2651a330eac2f135b82e3",
-        "slug": "klassisk-morgen-758661407000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen-758661407000",
-        "learnId": "urn:dr:ocs:audio:content:series:758661407000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c7230a75c4b58350d06c1/02fc8e585bc6e34206501ef3453d72fc411c112b82d285c018a943643f849bfe"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422538281",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-07T07:05:00+02:00",
-      "id": "urn:dr:radio:episode:681c7230a75c4b58350d06c1",
-      "slug": "mandag-7-jul-2025-12422538281",
-      "title": "Mandag 7. jul. 2025",
-      "punchline": "En frisk morgenvært serverer klassisk musik til dagens første rutiner",
-      "description": "Drømmer du om en morgenblid begyndelse, så står P2 parat. Vi vækker dig med lyden af den klassiske musik, al det skønne, og vi garanterer en rolig start på dagen med masser af musikalsk medvind.\nVært: Tina Rømer.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e4dc8bc755587518300a08",
