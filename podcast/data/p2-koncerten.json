@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 158,
+  "numberOfEpisodes": 155,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-08-14T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-08-18T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543341",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543341",
+      "publishTime": "2025-08-18T19:20:00+02:00",
+      "startTime": "2025-08-18T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/valdemar-og-ludvig-to-stjerneskud-indtager-nyborg-slotskoncerter-12422543341",
+      "order": 638911418025145341,
+      "previousId": "urn:dr:radio:episode:6880c69cdd7ee14cc3f4e7e2",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994d083a81efebded28d/7be6f95eee928df7cbb60bf4ff82c46555ae3598746ea7229ed37b8e171b5d9e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543341",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-18T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994d083a81efebded28d",
+      "slug": "valdemar-og-ludvig-to-stjerneskud-indtager-nyborg-slotskoncerter-12422543341",
+      "title": "Valdemar og Ludvig: To stjerneskud indtager Nyborg Slotskoncerter",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Gør dig klar til en aften i selskab med to af Nordens mest spændende unge musikere: Valdemar Wenzel Most ved klaveret og Ludvig Gudim på violin. Valdemar er udnævnt til P2 Talent i 2025 og har, ligesom Ludvig, allerede vundet adskillige priser og høstet stor anerkendelse for sit spil. Buen bliver spændt og alle oktaver taget i brug når de to præsenterer musik fra Mozart til Messiaen! \nMozart: Sonate i A dur, No. 22, K. 305. \nBrahms: Sonate i G dur, No. 1, Op. 78. \nMessiaen: Tema og Variationer.  \nFranck: Sonate i A dur. \nValdemar Wenzel Most, klaver.  \nLudvig Gudim, violin. \n(Nyborg Kirke 17. august). \nVært: Charlotte Norholt.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:689f1f9e7630d613ccf73e04",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oA7nRZ,CNG560KNG.8nhjZRkIUNHnNe-W=bwo#ofnhn$bIW=X8bINHSOoes-s.f6NHShjZsmxDsm"
+        },
+        {
+          "id": "urn:dr:radio:image:689f1f9e7630d613ccf73e04",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oA7nRZ,CNG560KNG.8nhjZRkIUNHnNe-W=bwo#ofnhn$bIW=X8bINHSOoes-s.f6NHShjZsmxDsm"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543612",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-08-14T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/stemmer-fra-skyggen-aabningskoncert-fra-festivalen-skyggekvinder-12422543612",
       "order": 638907962025232612,
+      "nextId": "urn:dr:radio:episode:681c994d083a81efebded28d",
       "previousId": "urn:dr:radio:episode:681c994da95582916ea8ced7",
       "series": {
         "title": "P2 Koncerten",
@@ -125,25 +205,18 @@
       "description": "Aftenens koncert er mere end blot en samling af smukke melodier; den er en hyldest til de kvindelige komponister, hvis enestående talent og vision har stået i musikhistoriens skygge. Sammen med bl.a. Nightingale String Quartet  belyser Steinaatrioen komponister som Louise Farrenc, hvis musik bugner af melodisk opfindsomhed og formmæssig beherskelse, og Elfrida Andrée, en pioner i svensk musik, hvis værker vidner om originalitet og styrke. Gennem aftenen får vi også indblik i musik af Hildegard Sehested og S. Meyer, der på hver deres måde har beriget det klassiske repertoire med unikke stemmer. \nSteinaatrioen.  \nNightingale String Quartet. \nZachary Hatcher, harpe. \nElias Holm, klaver. \nRikke Sandberg, klaver.  \nMichael Grolid, bratch.  \nHenrik Dam Thomsen, cello. \n(Unitarernes Hus, København 8. august). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:689eef6d7f05fbe163bc4a90",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oLD]Cut70{S1?akVtixt-ot6NGkBEet7?Gt6M{oe?ZWBoyWCR+WB%LoMIVRkRkjaxtW.R+kBo3az"
         },
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:689eef6d7f05fbe163bc4a90",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oLD]Cut70{S1?akVtixt-ot6NGkBEet7?Gt6M{oe?ZWBoyWCR+WB%LoMIVRkRkjaxtW.R+kBo3az"
         }
       ],
       "visualIdentity": {
@@ -292,25 +365,18 @@
       "description": "Equinox Festival i København inviterer til en koncertoplevelse, der dykker ned i en række af kammermusikkens mere ukendte mesterværker. \nFørste del byder på Florence Prices 5 Folksongs in Counterpoint, et værk der smukt forener folkemelodiernes enkelhed med kontrapunktisk dybde. Derefter følger Louise Farrencs sjældent hørte Sekstet for klaver og blæsere, som demonstrerer Farrencs mesterskab i at skabe elegant og udtryksfuld musik for denne rige besætning. \nEfter pausen bevæger vi os ind i Joan Towers energiske Noon Dance, et fængslende værk fra en af vor tids fremtrædende komponister, og Reynaldo Hahns Klaverkvintet. \nAdam Koch, violin. \nEmma Gibout, violin. \nEmily Davis, violin. \nKei Tojo, bratsch. \nMinna Svedberg, bratsch. \nJoel Laakso, cello.  \nDorothea Wolff, cello. \nJoachim Becerra Thomsen, fløjte. \nFelicia Greciuc, obo. \nGerbrich Meijer, klarinet. \nNikolaj Henriques, fagot. \nClaudio Flückiger, horn. \nYannick Rafalimanana, klaver.  \nSara Rosendal, slagtøj. \n(Copenhagen Contemporary, København 9.august). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:689eefd21e7c054776b0a590",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oMLyfHt701RQShWVIBnNsDyCS~aLS|Si%LRjRPadD*W;bvaKxtt7E3Sio#RjRjs-nNoextaKWCX8"
         },
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:689eefd21e7c054776b0a590",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oMLyfHt701RQShWVIBnNsDyCS~aLS|Si%LRjRPadD*W;bvaKxtt7E3Sio#RjRjs-nNoextaKWCX8"
         }
       ],
       "visualIdentity": {
@@ -1624,7 +1690,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
       "order": 638883770025228607,
       "nextId": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
-      "previousId": "urn:dr:radio:episode:681c995b1720bd973dfaa9a7",
+      "previousId": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1692,87 +1758,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543293",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543293",
-      "publishTime": "2025-07-16T19:20:00+02:00",
-      "startTime": "2025-07-16T19:20:00+02:00",
-      "endTime": "2025-08-14T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mozart-moeder-handel-alexander-s-feast-12422543293",
-      "order": 638882906025127293,
-      "nextId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
-      "previousId": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995b1720bd973dfaa9a7/a12f860a7a4b9d7afdff2b1af2821e92a2a42ea42f8a0bbaa004fedafb8141e6"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543293",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-16T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c995b1720bd973dfaa9a7",
-      "slug": "mozart-moeder-handel-alexander-s-feast-12422543293",
-      "title": "Mozart møder Händel: Alexander's Feast",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Händels originale værk, \"Alexander's Feast\", fra 1736 er et dramatisk oratorium baseret på et digt af John Dryden, der skildrer musikkens magt til at påvirke Alexander den Stores følelser. I 1790 genorkestrerede Mozart det for at tilpasse det tidens smag, primært ved at tilføje mere fyldige træblæserpartier. Dette skabte en fascinerende blanding af barok genialitet og klassicistisk klang, der sikrede Händels værk et nyt publikum. \nLouise Alder, sopran. \nSiyabonga Maqungo, tenor. \nMorgan Pearse, bas. \nSalzburg Bach Choir. \nCamerata Salzburg. \nKordirigent: Michael Schneider. \nDirigent: Ivor Bolton. \n(Mozarteum, Grand Hall, Salzburg 25. januar). \nVært: Louise Hjorth.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:685bfa7c76745065a8ee78e8",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oBDSzVMxx]xuIot8?wIUn%WBIooyIUofn~RjRjM{adogM{%MoLs:9FoeM{%MM{Rj-oRjt7jFWBof"
-        },
-        {
-          "id": "urn:dr:radio:image:685bfa7c76745065a8ee78e8",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oBDSzVMxx]xuIot8?wIUn%WBIooyIUofn~RjRjM{adogM{%MoLs:9FoeM{%MM{Rj-oRjt7jFWBof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543285",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1784,7 +1769,7 @@
       "startTime": "2025-07-11T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/verdens-bedste-brass-12422543285",
       "order": 638878586025124285,
-      "nextId": "urn:dr:radio:episode:681c995b1720bd973dfaa9a7",
+      "nextId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
       "previousId": "urn:dr:radio:episode:681c994a923dffbb19775236",
       "series": {
         "title": "P2 Koncerten",
@@ -12057,7 +12042,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/smaek-paa-farverne-i-eicmf-12422443341",
       "order": 638596922024257341,
       "nextId": "urn:dr:radio:episode:66b7e544ae4e85101d0941fe",
-      "previousId": "urn:dr:radio:episode:66b14cd9bb6bec18800d24a7",
+      "previousId": "urn:dr:radio:episode:66a56efc573ab8ccb3b64ede",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12125,249 +12110,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443335",
-      "durationMilliseconds": 11400024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443335",
-      "publishTime": "2024-08-16T19:20:00+02:00",
-      "startTime": "2024-08-16T19:20:00+02:00",
-      "endTime": "2025-08-16T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/filmmusik-i-dr-koncerthuset-12422443335",
-      "order": 638594330024256335,
-      "nextId": "urn:dr:radio:episode:66b54131765224ac02442b8a",
-      "previousId": "urn:dr:radio:episode:66bdce99ef70be2ca1bf1771",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66b14cd9bb6bec18800d24a7/a148bdb6dd2afc24dcc7c120ab79fac71f3dcc57a93df7531978933cc9e49349"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443335",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-16T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66b14cd9bb6bec18800d24a7",
-      "slug": "filmmusik-i-dr-koncerthuset-12422443335",
-      "title": "Filmmusik i DR Koncerthuset",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "150 sangere og musikere står klar på scenen til en aften med den bedste musik fra Hollywoodfilm. Hør musik af bl.a. John Williams, Nino Rota, John Barry, Bernard Hermann, James Horner og Ennio Morricone - fra bl.a. Titanic, Forrest Gump, No Time To Die, Godfather og Casablanca. Medvirkende: DR Symfoniorkestret, DR Koncertkoret, Christian Schumann (dirigent). Sceneværter: Maria Månson og Caspar Phillipson - direkte fra DR Koncerthuset.\nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecda65852d6a4412cd7ed6",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oQINmJxrWFt3V]t75ANIRRV[sCoL9HxZNHRlNHM|EMk9%JWXtPk90OM}M~oL%1t6?Es,%0%JNHfQ"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecda65852d6a4412cd7ed6",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oQINmJxrWFt3V]t75ANIRRV[sCoL9HxZNHRlNHM|EMk9%JWXtPk90OM}M~oL%1t6?Es,%0%JNHfQ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443334",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443334",
-      "publishTime": "2024-08-15T19:20:00+02:00",
-      "startTime": "2024-08-15T19:20:00+02:00",
-      "endTime": "2025-08-15T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/christina-aastrand-og-ensemble-hermes-12422443334",
-      "order": 638593466024344334,
-      "nextId": "urn:dr:radio:episode:66b14cd9bb6bec18800d24a7",
-      "previousId": "urn:dr:radio:episode:66aea9f56257516c803770af",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66bdce99ef70be2ca1bf1771/79a34d872f662f4b3b7ab3ce91d4bf239d0b4f1e0af52458c6095d2dca77ea39"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443334",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-15T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66bdce99ef70be2ca1bf1771",
-      "slug": "christina-aastrand-og-ensemble-hermes-12422443334",
-      "title": "Christina Åstrand og Ensemble Hermes",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Tag en supererfaren koncertmester og sæt hende sammen med det nyere unge strygerensemble Hermes. Læg dertil et spændende program med både kendt og ukendt musik af bl.a. Sibelius, Signe Lykke, Elgar og Piazzolla - så har du ingredienserne i aftenens direkte koncert fra Vendsyssel Festivalen. \nChristina Åstrand, violin. \nEnsemble Hermes.  \n(- direkte fra Saltum Kirke).\nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd7d4c733554ec6f19c87",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o%Lzjeof.S%LxuX9~qNGtRWBV@jYkWt7RPW;RjjsogofRjayWBWBt7WBs:WBWWoLkCa|aeoLf6kB"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd7d4c733554ec6f19c87",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o%Lzjeof.S%LxuX9~qNGtRWBV@jYkWt7RPW;RjjsogofRjayWBWBt7WBs:WBWWoLkCa|aeoLf6kB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443333",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443333",
-      "publishTime": "2024-08-14T19:20:00+02:00",
-      "startTime": "2024-08-14T19:20:00+02:00",
-      "endTime": "2025-08-14T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/kyiv-kammerkor-i-krigens-skygge-12422443333",
-      "order": 638592602024255333,
-      "nextId": "urn:dr:radio:episode:66bdce99ef70be2ca1bf1771",
-      "previousId": "urn:dr:radio:episode:66a56efc573ab8ccb3b64ede",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66aea9f56257516c803770af/7583524f99de47c36abd0c3ebade356a2c6d0a33a6f164c56e9ff54b72169f02"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443333",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-14T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66aea9f56257516c803770af",
-      "slug": "kyiv-kammerkor-i-krigens-skygge-12422443333",
-      "title": "Kyiv Kammerkor i krigens skygge",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "På trods af krigen i hjemlandet turnerer det berømte ukrainske kor stadig. For at markere situationen har sangerne valgt at komme med et program der er 50/50 klassisk kormusik og ukrainsk folkemusik. Musik af bl.a. Yevhen Stankovych, Mykola Leontovych og Mykola Lysenko. Kyiv Kammerkor.  Dirigent: Mykola Hobdych. (- direkte fra Sorø Klosterkirke). \nVært: Esben Tange.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd33d706eb0b600787b64",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oBC$u~t6^*ofD*%2^*of-payRjt70MWB9aayxtR*4:WBE1oLxuae?at6jYofRkt69aof%1azWXfk"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd33d706eb0b600787b64",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oBC$u~t6^*ofD*%2^*of-payRjt70MWB9aayxtR*4:WBE1oLxuae?at6jYofRkt69aof%1azWXfk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443323",
       "durationMilliseconds": 9600000,
       "categories": [
@@ -12380,7 +12122,7 @@
       "endTime": "2025-08-25T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/kvinderne-frem-i-lyset-equinox-festivalens-aabningskoncert-12422443323",
       "order": 638586554024251323,
-      "nextId": "urn:dr:radio:episode:66aea9f56257516c803770af",
+      "nextId": "urn:dr:radio:episode:66b54131765224ac02442b8a",
       "previousId": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
       "series": {
         "title": "P2 Koncerten",
