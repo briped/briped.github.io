@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 6,
+  "numberOfEpisodes": 7,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-08-18T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-08-19T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530342",
+      "durationMilliseconds": 8523359,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530342",
+      "publishTime": "2025-08-19T08:30:00+02:00",
+      "startTime": "2025-08-19T08:30:00+02:00",
+      "endTime": "2025-09-17T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/store-svenskere-12422530342",
+      "order": 638911892025298342,
+      "previousId": "urn:dr:radio:episode:681ca2c22e64822ed59474a7",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2852b77f3385e30bc92/d413fad10de5403973ac1a00384f74838e51e7364ed23b23465d84882e947115"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530342",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-19T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:681ca2852b77f3385e30bc92",
+      "slug": "store-svenskere-12422530342",
+      "title": "Store svenskere",
+      "description": "Hvilken stor svensker synes du skal hyldes og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530341",
       "durationMilliseconds": 8526466,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-09-16T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/danmarks-bedste-baenk-12422530341",
       "order": 638911028025297341,
+      "nextId": "urn:dr:radio:episode:681ca2852b77f3385e30bc92",
       "previousId": "urn:dr:radio:episode:681ca28b1e0a1c49e0656024",
       "series": {
         "title": "Hej P2",
@@ -121,7 +208,7 @@
       "id": "urn:dr:radio:episode:681ca2c22e64822ed59474a7",
       "slug": "danmarks-bedste-baenk-12422530341",
       "title": "Danmarks bedste bænk",
-      "description": "Hvor står Danmarks bedste bænk?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Jakob Wivel og Malene Wichmann.",
+      "description": "Hvor står Danmarks bedste bænk?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
@@ -208,7 +295,7 @@
       "id": "urn:dr:radio:episode:681ca28b1e0a1c49e0656024",
       "slug": "sommerens-bedste-bog-12422530335",
       "title": "Sommerens bedste bog",
-      "description": "Hvad fik du rent faktisk læst i sommerferien i år?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann og Malena Rønnow.",
+      "description": "Hvad fik du rent faktisk læst i sommerferien i år?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
@@ -295,7 +382,7 @@
       "id": "urn:dr:radio:episode:681ca2841e0a1c49e0655fe8",
       "slug": "eventyrmusik-12422530334",
       "title": "Eventyrmusik",
-      "description": "I dag gælder det klassisk musik inspireret af eventyr. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Jakob Wivel og Malene Wichmann.",
+      "description": "I dag gælder det klassisk musik inspireret af eventyr. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
@@ -382,7 +469,7 @@
       "id": "urn:dr:radio:episode:681ca2842e64822ed59472c6",
       "slug": "min-bedste-reparation-12422530333",
       "title": "Min bedste reparation",
-      "description": "Hvad er du mest stolt af selv at have fikset?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Cæcilie Iburg Printzlau og Malena Rønnow.",
+      "description": "Hvad er du mest stolt af selv at have fikset?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
@@ -469,7 +556,7 @@
       "id": "urn:dr:radio:episode:681ca284c56338368d76b76c",
       "slug": "selvforkaelelse-12422530332",
       "title": "Selvforkælelse",
-      "description": "Hvad gør du, hvis du føler trang til at forkæle dig selv i hverdagen?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk\nVært: Jakob Wivel og Cæcilie Iburg Printzlau.",
+      "description": "Hvad gør du, hvis du føler trang til at forkæle dig selv i hverdagen?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk\nVært: Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
@@ -555,7 +642,7 @@
       "id": "urn:dr:radio:episode:681ca283a75c4b58350e5fb5",
       "slug": "min-musiklaerer-12422530331",
       "title": "Min musiklærer",
-      "description": "Fortæl om en musiklærer der har gjort eller gør en forskel for dig!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk   \nVært: Jakob Wivel og Cæcilie Iburg Printzlau.",
+      "description": "Fortæl om en musiklærer der har gjort eller gør en forskel for dig!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk   \nVært: Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
