@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 9,
+  "numberOfEpisodes": 10,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-08-15T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-08-21T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,6 +74,84 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545344",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545344",
+      "publishTime": "2025-08-21T19:20:00+02:00",
+      "startTime": "2025-08-21T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
+      "order": 638914010025034344,
+      "previousId": "urn:dr:radio:episode:68595da86c43d38565da79cf",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995d1720bd973dfaa9c4/b340ff53522be6f5ee17b00af36a0c23435a0d446aa7d0198116dafa1732feee"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545344",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-21T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
+      "slug": "a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
+      "title": "A night at The Proms med Luisi og DR Symfoniorkestret",
+      "description": "Hør Beethovens 9. symfoni med Fabio Luisi og DR Symfoniorkestret i en direkte koncert fra \"The Proms\" i den ikoniske koncertsal Royal Albert Hall.  \nDet er en begivenhed at være inviteret til The Proms og her er alle sejl sat: Beethovens 9. Symfoni er et storværk med et humanistisk budskab om fred mellem mennesker, som desværre er lige så aktuelt i dag. Koncerten indledes med Bent Sørensens billedrige minder fra landet og storbyen i \"Evening Land\" og engelske Anna Clynes kalejdoskop over tidens gang i korværket \"The Years\".  \nBent Sørensen: Evening Land. \nAnna Clyne: The Years.   \nLudwig van Beethoven: Symfoni nr. 9.  \nMedvirkende: \nClara Cecilie Thomsen, sopran. \nJasmin White, kontraalt.  \nIssachah Savage, tenor. \nAdam Palka, bas. \nDR Koncertkoret. \nDR Symfoniorkestret. \nDirigent: Fabio Luisi.  \n( - direkte fra Royal Albert Hall). \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68a6f942a4542a14a453a932",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oPI3qCIn=yWCS$s:.AM{XTWBkCflGvRiOEbHjFW=={WBwIoeV@ofF2j?M{ofjEoLRibHRiofWUfQ"
+        },
+        {
+          "id": "urn:dr:radio:image:68a6f942a4542a14a453a932",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oPI3qCIn=yWCS$s:.AM{XTWBkCflGvRiOEbHjFW=={WBwIoeV@ofF2j?M{ofjEoLRibHRiofWUfQ"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545335",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +164,7 @@
       "endTime": "2025-09-15T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/agents-only-live-twice-12422545335",
       "order": 638908826025056335,
+      "nextId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
       "previousId": "urn:dr:radio:episode:681c996bb3140b1c1f3b7831",
       "series": {
         "title": "Torsdagskoncerten",
@@ -320,6 +399,7 @@
       "productionNumber": "12422545204",
       "publishTime": "2025-05-15T19:20:00+02:00",
       "startTime": "2025-05-15T19:20:00+02:00",
+      "endTime": "2025-11-15T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/ravel-og-gaasemors-historier-12422545204",
       "order": 638829338025020204,
       "nextId": "urn:dr:radio:episode:67f639468e208bf2ad2b5cf3",
