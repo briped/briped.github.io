@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 154,
+  "numberOfEpisodes": 153,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-08-27T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-08-28T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543354",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543354",
+      "publishTime": "2025-08-28T19:20:00+02:00",
+      "startTime": "2025-08-28T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/henschel-kvartetten-i-soroe-klosterkirke-12422543354",
+      "order": 638920058025233354,
+      "previousId": "urn:dr:radio:episode:681c994eb3140b1c1f3b770f",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68aec6233d1da25c23e8a920/86d0a16ad35a627d236cbccd99d26c72092700be099e5e0ea25f783a31c7963b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543354",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-28T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:68aec6233d1da25c23e8a920",
+      "slug": "henschel-kvartetten-i-soroe-klosterkirke-12422543354",
+      "title": "Henschel Kvartetten i Sorø Klosterkirke",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Sorø Internationale Musikfestival åbner dørene til den smukke klosterkirke i Sorø, når den anerkendte Henschel Kvartetten gæster. Kvartetten, kendt for deres formidable samspil og fortolkninger, præsenterer et program, der spænder over klassicismens elegance til det 20. århundredes ekspressivitet. \nKoncerten indledes med Ludwig van Beethovens Strygekvartet op. 18 nr. 1 i F-dur, et tidligt mesterværk, der viser hans innovative tilgang til genren. Herefter følger Leos Janáceks Strygekvartet nr. 1, \"Kreutzersonaten\", et dramatisk og lidenskabeligt værk inspireret af Tolstojs fortælling. Efter pausen afrundes aftenen med Franz Schuberts Strygekvartet i a-mol, D. 804, \"Rosamunde\", et lyrisk og melankolsk hovedværk i genren. \nHenschel Kvartetten. \n(Sorø Klosterkirke 27. august). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b01aabca1e334d4f483998",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oNH_F$-SyB9_tjnP??ENxD=^r@oM~l%0nit7IqNH--ocNbt6WBaeR+R*RRf8jGWCE3NHsmfRofR+"
+        },
+        {
+          "id": "urn:dr:radio:image:68b01aabca1e334d4f483998",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oNH_F$-SyB9_tjnP??ENxD=^r@oM~l%0nit7IqNH--ocNbt6WBaeR+R*RRf8jGWCE3NHsmfRofR+"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543353",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-08-27T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/eventyr-i-ord-og-musik-12422543353",
       "order": 638919194025151353,
+      "nextId": "urn:dr:radio:episode:68aec6233d1da25c23e8a920",
       "previousId": "urn:dr:radio:episode:681c994e923dffbb1977525b",
       "series": {
         "title": "P2 Koncerten",
@@ -1446,7 +1526,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bach-12422543313",
       "order": 638895002025135313,
       "nextId": "urn:dr:radio:episode:685e4b7677533c99833627fb",
-      "previousId": "urn:dr:radio:episode:681c994ca75c4b58350e1ea7",
+      "previousId": "urn:dr:radio:episode:681c995ba90908f76a9e7bff",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1514,87 +1594,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543312",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543312",
-      "publishTime": "2025-07-29T19:20:00+02:00",
-      "startTime": "2025-07-29T19:20:00+02:00",
-      "endTime": "2025-08-27T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/yuja-wang-kapustin-og-tjajkovksij-12422543312",
-      "order": 638894138025134312,
-      "nextId": "urn:dr:radio:episode:681c994c1720bd973dfaa911",
-      "previousId": "urn:dr:radio:episode:681c995ba90908f76a9e7bff",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994ca75c4b58350e1ea7/7a8b7bd65b5749ee8a95908b55b91da31ab2d50cb43d6ac50c142fc36ad0317c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543312",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-29T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c994ca75c4b58350e1ea7",
-      "slug": "yuja-wang-kapustin-og-tjajkovksij-12422543312",
-      "title": "Yuja Wang, Kapustin og Tjajkovksij.",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Oplev en aften med Yuja Wang som aftenens helt store hovedperson i et dristigt og legende program. Den kinesiske pianist tøver ikke med at fremføre to af repertoirets mest virtuose klaverkoncerter - og hun dirigerer dem endda selv fra klaveret. \nSom en legende indledning til hver koncert byder Wang på uventede forspil: Før Kapustins koncert lyder Stravinskys Oktet for blæsere, et værk komponisten selv kaldte 'et lydobjekt' fyldt med skjult ironi. Inden Tjajkovskijs berømte klaverkoncert kommer Beethovens flamboyante Coriolan Ouverture. \nYuja Wang, klaver. \nMahler Chamber Orchestra. \nDirigent: Yuja Wang. \n(Opéra Berlioz, Montpellier 7. juli). \nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:685e97ca7118b1c197fb8d67",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oeD[nRt70fRjxaso9aV@%LkWaeoc%fX8RPw]S#NHM|Rjs:t7sojZxZs:WqR*aeazs:WBRkoLbboL"
-        },
-        {
-          "id": "urn:dr:radio:image:685e97ca7118b1c197fb8d67",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oeD[nRt70fRjxaso9aV@%LkWaeoc%fX8RPw]S#NHM|Rjs:t7sojZxZs:WqR*aeazs:WBRkoLbboL"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543303",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1606,7 +1605,7 @@
       "startTime": "2025-07-23T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/uropfoerelse-og-unikt-carl-nielsen-vaerk-fra-nordisk-kammermusikfestival-12422543303",
       "order": 638888954025131303,
-      "nextId": "urn:dr:radio:episode:681c994ca75c4b58350e1ea7",
+      "nextId": "urn:dr:radio:episode:681c994c1720bd973dfaa911",
       "previousId": "urn:dr:radio:episode:681c994b2b77f3385e307b04",
       "series": {
         "title": "P2 Koncerten",
@@ -9044,6 +9043,7 @@
       "productionNumber": "12422443483",
       "publishTime": "2024-11-27T19:20:00+01:00",
       "startTime": "2024-11-27T19:20:00+01:00",
+      "endTime": "2025-11-27T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/copenhagen-renaissance-music-festival-12422443483",
       "order": 638683322024315483,
       "nextId": "urn:dr:radio:episode:673bc8c9a5616e0084138690",
@@ -11879,7 +11879,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/novo-kvartetten-spiller-nielsen-glass-og-schumann-12422443355",
       "order": 638606426024264355,
       "nextId": "urn:dr:radio:episode:66c7b6476342fe81115d4fc9",
-      "previousId": "urn:dr:radio:episode:66bfcd64a127df4c0a018fc7",
+      "previousId": "urn:dr:radio:episode:66ba87b2a56be59b029464f6",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -11947,87 +11947,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443352",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443352",
-      "publishTime": "2024-08-27T19:20:00+02:00",
-      "startTime": "2024-08-27T19:20:00+02:00",
-      "endTime": "2025-08-27T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/absalon-string-quartet-og-wallis-giunta-i-tivoli-12422443352",
-      "order": 638603834024262352,
-      "nextId": "urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7",
-      "previousId": "urn:dr:radio:episode:66ba87b2a56be59b029464f6",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66bfcd64a127df4c0a018fc7/95a3d0e6e2218ad9aff025602c9cdd28174fc2a6d0f5cf63a3fbd7efabe39ff7"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443352",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-27T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66bfcd64a127df4c0a018fc7",
-      "slug": "absalon-string-quartet-og-wallis-giunta-i-tivoli-12422443352",
-      "title": "Absalon String Quartet og Wallis Giunta i Tivoli",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Mens andre lavede brød og babyer under coronaen, lavede vi en strygekvartet. Sådan siger medlemmerne af Absalon strygekvartetten. Kun et par år efter vandt de P2s Kammermusikkonkurrence - og nu er de allerede at finde på Tivolis sommerklassisk-program. Hør dem sammen med den irsk-canadiske mezzosopran Wallis Giunta i musik af Schubert, Barber, Respighi, Vaughan Williams og Debussy.  Wallis Giunta, sopran.Absalon String Quartet: Thera Ortved og Andreas Lienhøft Larsen, violin. Alva Rasmussen, bratsch. Hedda Lydianna Aadland, cello. (Glassalen, Tivoli 25. august).  \nVært: Ole Bartholin Kiilerich.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd4e2b71197bdbe1bd137",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "orI}9ZV@o#t7emRj_NNGxaogNGV@-;n$oLj]jZaykqozRjR+ofs.xakDayoLkCWVofozoLj[kCa}"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd4e2b71197bdbe1bd137",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "orI}9ZV@o#t7emRj_NNGxaogNGV@-;n$oLj]jZaykqozRjR+ofs.xakDayoLkCWVofozoLj[kCa}"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443345",
       "durationMilliseconds": 9608132,
       "categories": [
@@ -12040,7 +11959,7 @@
       "endTime": "2025-10-17T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/jacquots-tiltraedelseskoncert-med-kapellet-strauss-mozart-og-korngold-12422443345",
       "order": 638600378024260345,
-      "nextId": "urn:dr:radio:episode:66bfcd64a127df4c0a018fc7",
+      "nextId": "urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7",
       "previousId": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
       "series": {
         "title": "P2 Koncerten",
