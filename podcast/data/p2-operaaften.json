@@ -18,7 +18,7 @@
   "numberOfEpisodes": 5,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-08-23T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-08-30T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566356",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566356",
+      "publishTime": "2025-08-30T19:20:00+02:00",
+      "startTime": "2025-08-30T19:20:00+02:00",
+      "endTime": "2025-09-28T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/oedipus-rex-fra-salzburg-12422566356",
+      "order": 638921786025035356,
+      "previousId": "urn:dr:radio:episode:681c9c20923dffbb1977644a",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c202b77f3385e308cf5/e49341f99b38dfd2c8114fcf70051a5432387182c0f448cd15a2420acfcb4451"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566356",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-08-30T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9c202b77f3385e308cf5",
+      "slug": "oedipus-rex-fra-salzburg-12422566356",
+      "title": "Oedipus Rex fra Salzburg",
+      "description": "Oplev skuespiller Christoph Waltz som fortæller i Stravinskys en-timers operaoratorium, om kong Ødipus og hans forfærdelige skæbne. Glæd dig især til at høre den prisbelønnede tenor Allan Clayton som Kong Ødipus. I studiet får vi besøg af studielektor og PhD i græsk og latin Kristoffer Maribo, som vil fortælle lidt om tragedien og hvad det er, der driver historien frem. \n(Wienerfilharmonikerne, Salzburg, 27. juli 2025). \nDirigent: Esa-Pekka Salonen. \nVært: Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b023223f603095c2962a33",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odL4sc%M~qD%-;NGt7RjofRjWBt7RjWBxuxuM{fQ%MRjt7j[M{oft7t7M{ofRjRjxuRjayWBfQt7"
+        },
+        {
+          "id": "urn:dr:radio:image:68b023223f603095c2962a33",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odL4sc%M~qD%-;NGt7RjofRjWBt7RjWBxuxuM{fQ%MRjt7j[M{oft7t7M{ofRjRjxuRjayWBfQt7"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2C1522",
+            "#F7CF77"
+          ]
+        },
+        "colors": {
+          "dark": "#2C1522",
+          "light": "#F7CF77"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566346",
       "durationMilliseconds": 10503500,
       "categories": [
@@ -88,6 +168,7 @@
       "endTime": "2025-09-21T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/tragedien-om-oedipus-en-opera-af-george-enescu-12422566346",
       "order": 638915738025034346,
+      "nextId": "urn:dr:radio:episode:681c9c202b77f3385e308cf5",
       "previousId": "urn:dr:radio:episode:681c9c5dc56338368d768b24",
       "series": {
         "title": "P2 Operaaften",
@@ -249,7 +330,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/nyskrevet-opera-over-nobelpristagers-roman-12422566216",
       "order": 638837114025021216,
       "nextId": "urn:dr:radio:episode:681c9c5dc56338368d768b24",
-      "previousId": "urn:dr:radio:episode:66d7886ab605ffd4194eadaa",
+      "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
@@ -316,87 +397,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422466376",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422466376",
-      "publishTime": "2025-07-26T19:20:00+02:00",
-      "startTime": "2024-09-14T19:20:00+02:00",
-      "endTime": "2025-08-26T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/missy-mazzolis-opera-proving-up-12422466376",
-      "order": 638619312000037376,
-      "nextId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
-      "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66d7886ab605ffd4194eadaa/3b0d3091d87e6713e5242dfa97d46a39ab6a2ad68f75c53fa52685a3d7d3d398"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422466376",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-26T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66d7886ab605ffd4194eadaa",
-      "slug": "missy-mazzolis-opera-proving-up-12422466376",
-      "title": "Missy Mazzolis opera Proving Up",
-      "description": "Håbefulde nybyggere drager i stor stil vestpå i Amerika i anden del af 18-tallet og for at få en jordlod, skal du kunne bygge et hus og bevise at du kan dyrke land. Det er den måde du kan hævde at jorden er din.  \nDet er The American Dream der gerne skal gå i opfyldelse, men sådan går det ikke for alle.  \nDet er en musikalsk fortælling om de fysiske og følelsesmæssige besværligheder ved at bosætte sig i Vesten, baseret på en novelle af Karen Russel. \nMedvirkende: Tenoren Michael Slattery er drengen Miles, hans far, Pa, er sunget af John Moore, hans mor, Ma, er sunget af er sunget af Talise Trevigne, de to søstre er Abigail Nims og Cree Carrico, Sodbuster er sunget af Andrew Harris. International Contemporary Ensemble. \nDirigent: Christopher Rountree. \nVært: Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecfb0f0f01d71f79d999f6",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oDCq_RwOQ-s;}@9]btsWMyWBkqoMOXNa$*W;NaW;M{s:X8R%n$kC=|WVI:bbs:axM{jaoyayn%oL"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecfb0f0f01d71f79d999f6",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oDCq_RwOQ-s;}@9]btsWMyWBkqoMOXNa$*W;NaW;M{s:X8R%n$kC=|WVI:bbs:axM{jaoyayn%oL"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2C1522",
-            "#F7CF77"
-          ]
-        },
-        "colors": {
-          "dark": "#2C1522",
-          "light": "#F7CF77"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422466146",
       "durationMilliseconds": 13208021,
       "categories": [
@@ -409,7 +409,7 @@
       "startTime": "2024-04-06T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften/saul-paa-operaen-paa-holmen-12422466146",
       "order": 638480280000014146,
-      "nextId": "urn:dr:radio:episode:66d7886ab605ffd4194eadaa",
+      "nextId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
