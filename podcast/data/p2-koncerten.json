@@ -17,7 +17,7 @@
   "numberOfEpisodes": 154,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-08-29T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-09-01T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543361",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543361",
+      "publishTime": "2025-09-01T19:20:00+02:00",
+      "startTime": "2025-09-01T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/cellomarathon-swensen-og-aarhus-kammerorkester-12422543361",
+      "order": 638923514025153361,
+      "previousId": "urn:dr:radio:episode:681c994ea75c4b58350e1ec6",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994e1720bd973dfaa92c/48987f4c4d18bef7d3fb82b94b0aaa1d8409c8a15e4884e0aa4cf74758e64596"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543361",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-01T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994e1720bd973dfaa92c",
+      "slug": "cellomarathon-swensen-og-aarhus-kammerorkester-12422543361",
+      "title": "Cellomarathon: Swensen og Aarhus Kammerorkester",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Nyd en aften med cellolækkerier!  Jonathan Swensen har nok trætte fingre efter i aften - han er cellosolist i tre ud af de fire værker - akkompagneret af det unge Aarhus-orkester.\nHaydn: Cellokoncert nr. 1. \nGiovanni Sollima: Fecit Neap 17 for solo-cello og orkester. \nSchubert (arr. Mahler): Døden og Pigen, 1. sats. \nElgar: Cellokoncert i e-mol. \nJonathan Swensen, cello. \nAarhus Kammereorkester. \nMagnus Plejdrup, dirigent. \n(- direkte fra Diamanten i København). \nVært: Carsten Wolf Andersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b02791ca1e334d4f48ab2a",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVI5Y-%MIUM{-;WB~qt7xuWBM{WBt7t7xuRjjuoft7RjWBM{t7ofWBj[t7ofM{WB-;WBM{t7ofj["
+        },
+        {
+          "id": "urn:dr:radio:image:68b02791ca1e334d4f48ab2a",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVI5Y-%MIUM{-;WB~qt7xuWBM{WBt7t7xuRjjuoft7RjWBM{t7ofWBj[t7ofM{WB-;WBM{t7ofj["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543355",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-08-29T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bornholms-musikfestival-12422543355",
       "order": 638920922025152355,
+      "nextId": "urn:dr:radio:episode:681c994e1720bd973dfaa92c",
       "previousId": "urn:dr:radio:episode:68aec6233d1da25c23e8a920",
       "series": {
         "title": "P2 Koncerten",
@@ -9043,6 +9123,7 @@
       "productionNumber": "12422443485",
       "publishTime": "2024-11-29T19:20:00+01:00",
       "startTime": "2024-11-29T19:20:00+01:00",
+      "endTime": "2025-11-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/orgelfetival-med-verdensstjerne-12422443485",
       "order": 638685050024316485,
       "nextId": "urn:dr:radio:episode:673fbcd8aa7bc2beaee5db7a",
@@ -11878,7 +11959,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/middle-east-peace-ensemble-der-er-brug-for-broer-ikke-groefter-12422443361",
       "order": 638609018024265361,
       "nextId": "urn:dr:radio:episode:66c907bca127df4c0a2d16bc",
-      "previousId": "urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7",
+      "previousId": "urn:dr:radio:episode:66ba87b2a56be59b029464f6",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -11946,87 +12027,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443355",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443355",
-      "publishTime": "2024-08-30T19:20:00+02:00",
-      "startTime": "2024-08-30T19:20:00+02:00",
-      "endTime": "2025-08-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/novo-kvartetten-spiller-nielsen-glass-og-schumann-12422443355",
-      "order": 638606426024264355,
-      "nextId": "urn:dr:radio:episode:66c7b6476342fe81115d4fc9",
-      "previousId": "urn:dr:radio:episode:66ba87b2a56be59b029464f6",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7/8ae982ed87e65b43c2dcd5679ccaf92d235d922ab0c6640ccfedea60fa2f8d7b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443355",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-08-30T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7",
-      "slug": "novo-kvartetten-spiller-nielsen-glass-og-schumann-12422443355",
-      "title": "Novo kvartetten spiller Nielsen, Glass og Schumann",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Den har vind i sejlene, den danske Novo Quartet, som vandt P2s kammermusikkonkurrence i 2020. Sidste år modtog de et stort legat fra statens kunstfond og i år har de tilmed skabt deres egen festival. I aften kan du høre dem fra Schubertiaden i Roskilde i et program der strækker sig fra tidlig romantik til amerikansk minimalisme. Carl Nielsen: Strygekvartet Op.5. Philip Glass: Strygekvartet nr. 2.  Robert Schumann: Strygekvartet op. 41, nr 3. Novo Quartet: Kaya Kato Møller og Nikolai Vasili Nedergaard, violin. Daniel Sledzinski, bratsch. Signe Ebstrup Bitsch, cello. (- direkte fra Roskilde Gymnasium).  \nVært: Rie Koch.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd4e21e3d006c1665f084",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oNDbvbofs.W;$M-o~pWWs:ofRjxZ%MbIR+S3V@M|tRj[M|Rkt6R*t7oLJ8R*t6t6WVjss:s:oLoe"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd4e21e3d006c1665f084",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oNDbvbofs.W;$M-o~pWWs:ofRjxZ%MbIR+S3V@M|tRj[M|Rkt6R*t7oLJ8R*t6t6WVjss:s:oLoe"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443345",
       "durationMilliseconds": 9608132,
       "categories": [
@@ -12039,7 +12039,7 @@
       "endTime": "2025-10-17T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/jacquots-tiltraedelseskoncert-med-kapellet-strauss-mozart-og-korngold-12422443345",
       "order": 638600378024260345,
-      "nextId": "urn:dr:radio:episode:66c3c1a4a56be59b02bf9bd7",
+      "nextId": "urn:dr:radio:episode:66c7b6476342fe81115d4fc9",
       "previousId": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
       "series": {
         "title": "P2 Koncerten",
