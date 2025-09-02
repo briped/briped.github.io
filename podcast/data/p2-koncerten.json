@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 154,
+  "numberOfEpisodes": 155,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-09-01T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-09-02T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543362",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543362",
+      "publishTime": "2025-09-02T19:20:00+02:00",
+      "startTime": "2025-09-02T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/dr-vokalensemblet-paa-the-proms-12422543362",
+      "order": 638924378025154362,
+      "previousId": "urn:dr:radio:episode:681c994e1720bd973dfaa92c",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995eb3140b1c1f3b77c3/0968a2b5dc140523bd88e4308e6b045679b0967780032f63f1d5371c23eb2227"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543362",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-02T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c995eb3140b1c1f3b77c3",
+      "slug": "dr-vokalensemblet-paa-the-proms-12422543362",
+      "title": "DR Vokalensemblet på The Proms",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Hør DR Vokalensemblet i en koncert fra \"The Proms\", hvor musikken er en samtale over århundreder. Fra Bach og Palestrina til engelske Ethel Smythe og Carl Nielsen, som var inspirerede af de gamle komponister. Derimellem danske sommersange, sange af Alma og Gustav Mahler og af slovenske Uros Krek.  \nMusik bl.a. \nJ.S. Bach: \"Komm, Jesu, komm\". \nEthyl Smythe: \"Komm, süsser Tod\". \nPalestrina: \"Fratres ego enim accepi\". \nCarl Nielsen: \"Tre motetter\".  \nMedvirkende: \nDR Vokalensemblet. \nGraham Ross, dirigent. \n(Bristol Beacon 23. august 2025).  \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b038593d1da25c23f52207",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oFA]Tv^Psk=^}=slNHEM58S5xaI;EMS2I:RkS5WBjrjF-Us:NGayS#xZ-Ut6R*kCI;ofs:V@WBs9"
+        },
+        {
+          "id": "urn:dr:radio:image:68b038593d1da25c23f52207",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oFA]Tv^Psk=^}=slNHEM58S5xaI;EMS2I:RkS5WBjrjF-Us:NGayS#xZ-Ut6R*kCI;ofs:V@WBs9"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543361",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-09-01T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/cellomarathon-swensen-og-aarhus-kammerorkester-12422543361",
       "order": 638923514025153361,
+      "nextId": "urn:dr:radio:episode:681c995eb3140b1c1f3b77c3",
       "previousId": "urn:dr:radio:episode:681c994ea75c4b58350e1ec6",
       "series": {
         "title": "P2 Koncerten",
