@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 1,
+  "numberOfEpisodes": 2,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-04-08T16:05:00+02:00",
+  "latestEpisodeStartTime": "2025-09-02T16:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag-5067528119000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:5067528119000",
   "productionNumber": "5067528119000",
@@ -77,141 +77,282 @@
   },
   "sSlug": "klassisk-eftermiddag",
   "rssUri": "https://xmpl.dk/podcast/klassisk-eftermiddag.xml",
-  "episodes": {
-    "type": "Episode",
-    "learnId": "urn:dr:ocs:audio:content:playable:12422560152",
-    "durationMilliseconds": 6900024,
-    "categories": [
-      "Musik",
-      "Klassisk"
-    ],
-    "productionNumber": "12422560152",
-    "publishTime": "2025-09-01T16:05:00+02:00",
-    "startTime": "2025-04-08T16:05:00+02:00",
-    "endTime": "2025-09-05T23:59:00+02:00",
-    "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag/klassisk-eftermiddag-2025/tirsdag-8-apr-2025-12422560152",
-    "order": 638797181025070152,
-    "series": {
-      "title": "Klassisk eftermiddag",
-      "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
-      "slug": "klassisk-eftermiddag-5067528119000",
-      "type": "Series",
+  "episodes": [
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422560362",
+      "durationMilliseconds": 6603444,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422560362",
+      "publishTime": "2025-09-02T16:05:00+02:00",
+      "startTime": "2025-09-02T16:05:00+02:00",
+      "endTime": "2025-09-06T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag/klassisk-eftermiddag-2025/tirsdag-2-sep-2025-12422560362",
+      "order": 638924261025175362,
+      "previousId": "urn:dr:radio:episode:67e72b7d8b2e4877edd1397e",
+      "series": {
+        "title": "Klassisk eftermiddag",
+        "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
+        "slug": "klassisk-eftermiddag-5067528119000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag-5067528119000",
+        "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 54067608,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/49f00c51f1218df6b1f0c73055f4e3c67f075931dc3e743134a65eaef071efac"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 159724675,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/bf4747730cfc89b48f863283b631bcdeeeb73facb19f8f3920a03783c94e6fb8"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 212553056,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/e9da5ef84afc42c549c841f7ed2a78c47d2533ace8df9328a8be8bb5a9395dd9"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 52828407,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/fbe2556f5d620fc5408f2828356da27bfac0da79568443a84722e7700bb5ec77"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 158484471,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/1250f8df378c7901d77cd994a95a83cd918c1f7f3606bf9c803c5755aa52ceb9"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c86e7843441d87a74362a/3135f40a38d4212777e12ac89b8288a012f09000a5ca11a37fd58ff7d398d2a5"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422560362",
       "isAvailableOnDemand": true,
-      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag-5067528119000",
-      "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
-    },
-    "channel": {
-      "title": "P2",
-      "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-      "slug": "p2",
-      "type": "Channel",
-      "presentationUrl": "https://www.dr.dk/lyd/p2"
-    },
-    "audioAssets": [
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 64,
-        "fileSize": 56496549,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/29066bb1fbb95264dedf116826d28f0b385b4937be34b3ac5d162e2fbe5105eb"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 192,
-        "fileSize": 166898143,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/30eb7a1ed8a4fb8163749d94be46fa0edacb24a768893841aa64f11776883459"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 256,
-        "fileSize": 222099396,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/22f54f17d3fa6175964e5709d95ac9332d3ebfcf03ac6e2573ae48e7537578ee"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 64,
-        "fileSize": 55200951,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/d2057d42aebeff3e1d869eadcf01b5b0df93ec2d54049eeb713096a70850224c"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 192,
-        "fileSize": 165602103,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/f35ffc6b5f5b3a59eded8dbcaa9263b746f4a02f1ba81a3b48d88bec7a3a5635"
-      },
-      {
-        "type": "Audio",
-        "target": "Stream",
-        "isStreamLive": false,
-        "format": "HLS",
-        "bitrate": 0,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/51e932163feedaf5554976391d6c67acef767eb02d3898c6d2aba30890a4e284"
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-02T16:05:00+02:00",
+      "id": "urn:dr:radio:episode:681c86e7843441d87a74362a",
+      "slug": "tirsdag-2-sep-2025-12422560362",
+      "title": "Tirsdag 2. sep. 2025",
+      "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Nina Ørum.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cb",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NcJH~*owS6oMn.oM0FbFR.jva%fSxcagWBoeS1bH"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#011A40",
+            "#9CA2D6"
+          ]
+        },
+        "colors": {
+          "dark": "#011A40",
+          "light": "#9CA2D6"
+        }
       }
-    ],
-    "ocsUrn": "urn:dr:ocs:audio:content:playable:12422560152",
-    "isAvailableOnDemand": true,
-    "hasVideo": false,
-    "explicitContent": false,
-    "latestPublishTime": "2025-09-01T16:05:00+02:00",
-    "id": "urn:dr:radio:episode:67e72b7d8b2e4877edd1397e",
-    "slug": "tirsdag-8-apr-2025-12422560152",
-    "title": "Tirsdag 8. apr. 2025",
-    "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Nina Ørum.",
-    "imageAssets": [
-      {
-        "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cb",
-        "target": "Default",
-        "ratio": "16:9",
-        "format": "image/png",
-        "blurHash": "NcJH~*owS6oMn.oM0FbFR.jva%fSxcagWBoeS1bH"
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422560152",
+      "durationMilliseconds": 6900024,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422560152",
+      "publishTime": "2025-09-01T16:05:00+02:00",
+      "startTime": "2025-04-08T16:05:00+02:00",
+      "endTime": "2025-09-05T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag/klassisk-eftermiddag-2025/tirsdag-8-apr-2025-12422560152",
+      "order": 638797181025070152,
+      "nextId": "urn:dr:radio:episode:681c86e7843441d87a74362a",
+      "series": {
+        "title": "Klassisk eftermiddag",
+        "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
+        "slug": "klassisk-eftermiddag-5067528119000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-eftermiddag-5067528119000",
+        "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
       },
-      {
-        "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
-        "target": "SquareImage",
-        "ratio": "1:1",
-        "format": "image/png",
-        "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
       },
-      {
-        "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
-        "target": "Podcast",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
-      },
-      {
-        "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
-        "target": "Default",
-        "ratio": "1:1",
-        "format": "image/png",
-        "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
-      }
-    ],
-    "visualIdentity": {
-      "gradient": {
-        "colors": [
-          "#011A40",
-          "#9CA2D6"
-        ]
-      },
-      "colors": {
-        "dark": "#011A40",
-        "light": "#9CA2D6"
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 56496549,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/29066bb1fbb95264dedf116826d28f0b385b4937be34b3ac5d162e2fbe5105eb"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 166898143,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/30eb7a1ed8a4fb8163749d94be46fa0edacb24a768893841aa64f11776883459"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 222099396,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/22f54f17d3fa6175964e5709d95ac9332d3ebfcf03ac6e2573ae48e7537578ee"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 55200951,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/d2057d42aebeff3e1d869eadcf01b5b0df93ec2d54049eeb713096a70850224c"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 165602103,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/f35ffc6b5f5b3a59eded8dbcaa9263b746f4a02f1ba81a3b48d88bec7a3a5635"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e72b7d8b2e4877edd1397e/51e932163feedaf5554976391d6c67acef767eb02d3898c6d2aba30890a4e284"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422560152",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-01T16:05:00+02:00",
+      "id": "urn:dr:radio:episode:67e72b7d8b2e4877edd1397e",
+      "slug": "tirsdag-8-apr-2025-12422560152",
+      "title": "Tirsdag 8. apr. 2025",
+      "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Nina Ørum.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cb",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NcJH~*owS6oMn.oM0FbFR.jva%fSxcagWBoeS1bH"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cc",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "odJH{tovSJoLe@o00EbFWUf6WFjY%4ahe?j?WUk9?Zahnlj?WnkBWZa#oIj@a#j]E5baj=f8o3ju"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#011A40",
+            "#9CA2D6"
+          ]
+        },
+        "colors": {
+          "dark": "#011A40",
+          "light": "#9CA2D6"
+        }
       }
     }
-  }
+  ]
 }
