@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 155,
+  "numberOfEpisodes": 156,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-09-02T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-09-03T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543363",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543363",
+      "publishTime": "2025-09-03T19:20:00+02:00",
+      "startTime": "2025-09-03T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/ny-ung-stjernetrio-ved-schubertiaden-i-roskilde-12422543363",
+      "order": 638925242025155363,
+      "previousId": "urn:dr:radio:episode:681c995eb3140b1c1f3b77c3",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c994ea90908f76a9e7b7a/99dfb1172b8b95065c3cea4c11abdda6a0b36a18657614790f1d0fe9e3863e75"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543363",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-03T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c994ea90908f76a9e7b7a",
+      "slug": "ny-ung-stjernetrio-ved-schubertiaden-i-roskilde-12422543363",
+      "title": "Ny ung stjernetrio ved Schubertiaden i Roskilde",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Trio Theros er navnet på et nystiftet ensemble med tre af Danmarks mest fremtrædende unge musikere: Violinisten Anna Agafia Egholm, cellisten Jonathan Swensen og pianisten Gustav Piekut. Hør deres flotte koncert under Schubertiaden i Roskilde. \nSjostakovitj: Klavertrio nr. 1. \nBeethoven: Klavertrio i Es-dur op. 70, nr 2. \nSchubert: Klavertrio nr 1 i B-dur. \nGustav Piekut, klaver. \nAnna Agafia Egholm, violin. \nJonathan Swensen, cello. \nHør også late night concert med sanger/sangskriver Mira Siegel, bl.a. numrene Bridges og I'll Be Seeing You. \n(Koncertkapellet, Roskilde 22. august). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b0399d4d4cdb5b6fa10967",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o98XFB%M9FD%D%D%00M{of%M?b-;oft7WBofWBM{%MM{xuRjIUofD%t7t7ofRjRjD%ay%MoffQt7"
+        },
+        {
+          "id": "urn:dr:radio:image:68b0399d4d4cdb5b6fa10967",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o98XFB%M9FD%D%D%00M{of%M?b-;oft7WBofWBM{%MM{xuRjIUofD%t7t7ofRjRjD%ay%MoffQt7"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543362",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-09-02T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/dr-vokalensemblet-paa-the-proms-12422543362",
       "order": 638924378025154362,
+      "nextId": "urn:dr:radio:episode:681c994ea90908f76a9e7b7a",
       "previousId": "urn:dr:radio:episode:681c994e1720bd973dfaa92c",
       "series": {
         "title": "P2 Koncerten",
@@ -9123,6 +9203,7 @@
       "productionNumber": "12422443491",
       "publishTime": "2024-12-02T19:20:00+01:00",
       "startTime": "2024-12-02T19:20:00+01:00",
+      "endTime": "2025-12-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/else-marie-pade-100-aar-12422443491",
       "order": 638687642024317491,
       "nextId": "urn:dr:radio:episode:67410e5101732c1ea9083b23",
