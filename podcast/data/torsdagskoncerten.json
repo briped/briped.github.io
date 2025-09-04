@@ -17,7 +17,7 @@
   "numberOfEpisodes": 10,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-08-21T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-09-04T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,8 +74,86 @@
   "episodes": [
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545344",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545364",
       "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545364",
+      "publishTime": "2025-09-04T19:20:00+02:00",
+      "startTime": "2025-09-04T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/blomstedt-og-bruckners-9-12422545364",
+      "order": 638926106025036364,
+      "previousId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995fa90908f76a9e7c22/71cf9c5b29a806d47d64e00367f179a237b2fcd2e45f4700ccd51ee525cdfce1"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545364",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-04T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
+      "slug": "blomstedt-og-bruckners-9-12422545364",
+      "title": "Blomstedt og Bruckners 9.",
+      "description": "Æresdirigent Herbert Blomstedt er tilbage med en komponist han har dyrket hele livet: Anton Bruckner. \"Når man oplever hans musik, mærker man en skønhed og storhed bag horisonten, som vil vare for evigt,\" har han sagt. \nVed denne koncert kan du høre Bruckners 9. symfoni, som var det sidste værk, Bruckner arbejdede på før sin død, og som han ikke nåede at fuldføre. Den peger tilbage på et langt komponistliv med passager og temaer fra tidligere værker, både symfonier og messer - måske vidste han, at denne ville blive den sidste. \nMedvirkende: \nDR Symfoniorkestret.  \nHerbert Blomstedt, dirigent.  \n( - direkte fra DR Koncerthuset). \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68b039d03d1da25c23f52e21",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oiD]0UWB0foy-oaew|fjNGa$oLj?Sdj[soodWqaybwWBaKoLt7R*Rkaxt6ofWVWBadj]W=WBjZbH"
+        },
+        {
+          "id": "urn:dr:radio:image:68b039d03d1da25c23f52e21",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oiD]0UWB0foy-oaew|fjNGa$oLj?Sdj[soodWqaybwWBaKoLt7R*Rkaxt6ofWVWBadj]W=WBjZbH"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545344",
+      "durationMilliseconds": 13186188,
       "categories": [
         "Musik",
         "Klassisk"
@@ -85,6 +163,7 @@
       "startTime": "2025-08-21T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
       "order": 638914010025034344,
+      "nextId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
       "previousId": "urn:dr:radio:episode:68595da86c43d38565da79cf",
       "series": {
         "title": "Torsdagskoncerten",
@@ -109,7 +188,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995d1720bd973dfaa9c4/b340ff53522be6f5ee17b00af36a0c23435a0d446aa7d0198116dafa1732feee"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995d1720bd973dfaa9c4/64e1f328e20b58debe9467cdcb58b9c91b90665507b13989de1956acc3d88620"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545344",
@@ -320,6 +399,7 @@
       "productionNumber": "12422545214",
       "publishTime": "2025-05-22T19:20:00+02:00",
       "startTime": "2025-05-22T19:20:00+02:00",
+      "endTime": "2025-11-22T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/nordisk-musiktopmoede-12422545214",
       "order": 638835386025021214,
       "nextId": "urn:dr:radio:episode:681c996bb3140b1c1f3b7831",
@@ -723,7 +803,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/luisi-og-ein-heldenleben-12422545124",
       "order": 638780954025012124,
       "nextId": "urn:dr:radio:episode:67d75a92d3290942c12cd399",
-      "previousId": "urn:dr:radio:episode:67b270b9160fceee2fa87bfa",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
@@ -773,85 +852,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "otIY5?D%?bof%MRj~qRjt7%MayofxuayM{xuayayWBayRjayofRjRjayj[WBt7ayofofj[Rjayj["
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545094",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545094",
-      "publishTime": "2025-02-27T19:20:00+01:00",
-      "startTime": "2025-02-27T19:20:00+01:00",
-      "endTime": "2025-08-27T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/carmina-burana-med-dr-symfoniorkestret-kor-og-solister-12422545094",
-      "order": 638762810025009094,
-      "nextId": "urn:dr:radio:episode:67ce1fce62350c30cc80ae7b",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67b270b9160fceee2fa87bfa/8ee5a1458ba1b3c863a7183a5eb182d0675b21c85b3d4bd7d4cf772d5db9c691"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545094",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-02-27T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:67b270b9160fceee2fa87bfa",
-      "slug": "carmina-burana-med-dr-symfoniorkestret-kor-og-solister-12422545094",
-      "title": "Carmina Burana med DR Symfoniorkestret, kor og solister",
-      "description": "Lyt med når DR Symfoniorkestret med kor og solister hylder skæbnens gudinde i det ikoniske åbningskor i Carl Orffs Carmina Burana, der fejrer livet og lysten, kærligheden og hengivelsen og ikke mindst frås og druk. Inden da kan du høre den franske komponist Francis Poulencs charmerende orgelkoncert med domorganist Hanne Kuhlman som solist. \nPoulenc: Orgelkoncert. \nCarl Orff: Carmina Burana. \nHanne Kuhlmann, orgel. \nDénise Beck, sopran. \nMorten Grove Frandsen, tenor. \nJóhann Kristinsson, baryton. \nKøbenhavns Drengekor. \nDR Koncertkoret.  \nDirigent: Martina Batic. \n( - direkte fra DR Koncerthuset).  \nVært: Celine Haastrup.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecdadc852d6a4412cd849f",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oIBVkyxvNH$%0xIos?R-aeRiNExF9Zohs:ROt3WXXox^bbe-xBV?tTn,RiR%rqf5ahRjR%W9WAkD"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecdadc852d6a4412cd849f",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oIBVkyxvNH$%0xIos?R-aeRiNExF9Zohs:ROt3WXXox^bbe-xBV?tTn,RiR%rqf5ahRjR%W9WAkD"
         }
       ],
       "visualIdentity": {
