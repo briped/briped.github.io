@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 18,
+  "numberOfEpisodes": 19,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-09-03T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-09-04T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530364",
+      "durationMilliseconds": 8519283,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530364",
+      "publishTime": "2025-09-04T08:30:00+02:00",
+      "startTime": "2025-09-04T08:30:00+02:00",
+      "endTime": "2025-10-03T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/et-forbillede-12422530364",
+      "order": 638925716025310364,
+      "previousId": "urn:dr:radio:episode:681ca287a75c4b58350e5fd0",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca28cf811f507147f2809/a509b71b7119df70f1ee096b3f446e35f621b1478ab4ec114da48b0f53366e8f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530364",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-04T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:681ca28cf811f507147f2809",
+      "slug": "et-forbillede-12422530364",
+      "title": "Et forbillede",
+      "description": "Er der en person, der er ældre end dig, som du ser op til?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a57",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NtKKW0~ANKbqn$V[xboyWBRkayj[xu%Ls:M}WUt5"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3d02e52248c98a4394a58",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofLNSC}[Nfx?s.so%MtQWBRjWCbGtS?Zs:IpWCt6M|RkWDxZt6a}s.RkWBoeWBjsaejYWXofoKRk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#26251B",
+            "#C9C35F"
+          ]
+        },
+        "colors": {
+          "dark": "#26251B",
+          "light": "#C9C35F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530363",
       "durationMilliseconds": 8522058,
       "categories": [
@@ -86,6 +172,7 @@
       "endTime": "2025-10-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/min-amulet-12422530363",
       "order": 638924852025309363,
+      "nextId": "urn:dr:radio:episode:681ca28cf811f507147f2809",
       "previousId": "urn:dr:radio:episode:681ca287923dffbb197792bb",
       "series": {
         "title": "Hej P2",
