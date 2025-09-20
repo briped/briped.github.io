@@ -18,7 +18,7 @@
   "numberOfEpisodes": 7,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-09-13T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-09-20T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,6 +75,87 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566386",
+      "durationMilliseconds": 13203500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566386",
+      "publishTime": "2025-09-20T19:20:00+02:00",
+      "startTime": "2025-09-20T19:20:00+02:00",
+      "endTime": "2025-10-19T23:59:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/haendels-julius-caesar-fra-salzburg-12422566386",
+      "order": 638939930025038386,
+      "previousId": "urn:dr:radio:episode:681c9c21a75c4b58350e3191",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c21923dffbb19776453/e1cca54da6a735e9e5ab9a4740d730724b12a67e2137e59122edc66a80b9a248"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566386",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-20T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9c21923dffbb19776453",
+      "slug": "haendels-julius-caesar-fra-salzburg-12422566386",
+      "title": "Hændels Julius Cæsar fra Salzburg",
+      "description": "I operaaften denne gang sender vi en af Hændels største operasucceser fra 1724, hvor historien fortæller om den magtfulde romerske general og hærfører Julius Cæsar, der rejser fra Rom til Ægypten for at få redet trådene ud i uvenskabet mellem Cleopatra og hendes bror, Tolomeo, da de begge ønsker tronen i Egypten. \nCæsar og kleopatra bliver forelskede og Cæsar støtter kleopatra, således at hun får magten. \nKontratenoren Christophe Dumaux er Julius Cæsar, Kleopatra er sunget af sopranen Olga Kulchynska, Cornelia af mezzosopranen  Lucile Richardot, og hendes søn, Sextus synges af Federico Fiorio, sopran. Tolomeo bliver sunget af kontratenoren Yuriy Mynenko. \nLe Concert d'Astrée. \nMusikalsk ledelse: Emanuelle Haïm. \nSalzburg Bachkor. \nI pausen fortæller dirigenten og cembalisten Lars Ulrik Mortensen om den store betydning det fik for Concerto Copenhagen at være med til at opføre netop Julius Cæsar i Danmark på Det kongelige Teater tilbage i 2002.\nDet er en barokopera er populær, fordi handlingens psykologiske logik er helt ligetil og karaktererne udvikler sig fra start til slut: Hændel formår med sin musik at vise flere aspekter af en menneskelig udvikling. \n(Grosses Festspilhaus, Salzburg 26 juli).  \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68cd2ed9fc6a9c7e395c769c",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oLF5mm%Ns=~WS#NH~BM_R*%LNGM{NwE2M{RiM|WBOFIqt8t8jGWBtQoJxat7s:ozxasos:WBNGjs"
+        },
+        {
+          "id": "urn:dr:radio:image:68cd2ed9fc6a9c7e395c769c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oLF5mm%Ns=~WS#NH~BM_R*%LNGM{NwE2M{RiM|WBOFIqt8t8jGWBtQoJxat7s:ozxasos:WBNGjs"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2C1522",
+            "#F7CF77"
+          ]
+        },
+        "colors": {
+          "dark": "#2C1522",
+          "light": "#F7CF77"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566376",
       "durationMilliseconds": 13203500,
       "categories": [
@@ -88,11 +169,13 @@
       "endTime": "2025-10-12T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/operaaften-don-giovanni-fra-aix-en-provence-12422566376",
       "order": 638933882025037376,
+      "nextId": "urn:dr:radio:episode:681c9c21923dffbb19776453",
       "previousId": "urn:dr:radio:episode:681c9c202b77f3385e308cf5",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
@@ -174,6 +257,7 @@
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
@@ -250,11 +334,12 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/tragedien-om-oedipus-en-opera-af-george-enescu-12422566346",
       "order": 638915738025034346,
       "nextId": "urn:dr:radio:episode:681c9c202b77f3385e308cf5",
-      "previousId": "urn:dr:radio:episode:681c9c5dc56338368d768b24",
+      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
@@ -317,87 +402,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422566336",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422566336",
-      "publishTime": "2025-08-16T19:20:00+02:00",
-      "startTime": "2025-08-16T19:20:00+02:00",
-      "endTime": "2025-09-14T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/loerdag-16-aug-2025-12422566336",
-      "order": 638909690025033336,
-      "nextId": "urn:dr:radio:episode:681c9c20923dffbb1977644a",
-      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c5dc56338368d768b24/ff84bcc72d00b3a458136d5252cfb3c75ecb05142b499347ef855cc05b0745f7"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566336",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-08-16T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c9c5dc56338368d768b24",
-      "slug": "loerdag-16-aug-2025-12422566336",
-      "title": "Lørdag 16. aug. 2025",
-      "description": "Fra operahuse i hele verden udvælger vi de allerbedste operaer og sender dem i deres fulde længde. P2s operaværter introducerer værkerne og inviterer gæster indenfor.  \nVært: Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:689f1f56b14aa969ddf37043",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHGRk]Dj0yE%IUD%9Xo}$Qn3bHX9VXxuODXm%2xGRNae%2WARjf5I:kWxFspNGs:-VjFNGoeW=Rk"
-        },
-        {
-          "id": "urn:dr:radio:image:689f1f56b14aa969ddf37043",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oHGRk]Dj0yE%IUD%9Xo}$Qn3bHX9VXxuODXm%2xGRNae%2WARjf5I:kWxFspNGs:-VjFNGoeW=Rk"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2C1522",
-            "#F7CF77"
-          ]
-        },
-        "colors": {
-          "dark": "#2C1522",
-          "light": "#F7CF77"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566216",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -410,12 +414,13 @@
       "startTime": "2025-05-24T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/nyskrevet-opera-over-nobelpristagers-roman-12422566216",
       "order": 638837114025021216,
-      "nextId": "urn:dr:radio:episode:681c9c5dc56338368d768b24",
+      "nextId": "urn:dr:radio:episode:681c9c20923dffbb1977644a",
       "previousId": "urn:dr:radio:episode:67f6389b867a0ea6fee59824",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
@@ -497,6 +502,7 @@
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
@@ -576,6 +582,7 @@
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
         "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
         "type": "Series",
         "isAvailableOnDemand": true,
         "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
