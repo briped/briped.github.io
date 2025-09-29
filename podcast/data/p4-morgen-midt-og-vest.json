@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 5,
+  "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-09-26T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-09-29T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest-1092713704000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fbb86187a4031cfd7810",
   "psdbSlug": "p4vest-morgen",
@@ -82,6 +82,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14202520401",
+      "durationMilliseconds": 14100000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14202520401",
+      "publishTime": "2025-09-29T06:05:00+02:00",
+      "startTime": "2025-09-29T06:05:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/mandag-29-sep-2025-14202520401",
+      "order": 638947227000193401,
+      "previousId": "urn:dr:radio:episode:6835abba8602af869f7da623",
+      "series": {
+        "title": "P4 Morgen Midt & Vest",
+        "id": "urn:dr:radio:series:5fa15962da351264f87b53a7",
+        "slug": "p4-morgen-midt-og-vest-1092713704000",
+        "productionNumber": "1092713704000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest-1092713704000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092713704000"
+      },
+      "channel": {
+        "title": "P4 Midt & Vest",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4650",
+        "slug": "p4vest",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4vest"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b86dd37c69cd6657644a/ebe0677f1a64c03328af62d112ba9d05dfdab7a153e3a5b5910255f17fb683ac"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14202520401",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-29T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:6835b86dd37c69cd6657644a",
+      "slug": "mandag-29-sep-2025-14202520401",
+      "title": "Mandag 29. sep. 2025",
+      "punchline": "Vi starter dagen med god musik, nyheder, sport og reportager",
+      "description": "Stå op med P4 Morgen Midt- og vestjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68627bad84761efefa3e5269",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "N6FE[iIU-5?aRk-6VDsm0#Nas.ni0fkCsmoJocXS"
+        },
+        {
+          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
+        },
+        {
+          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6d",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oAFX;kMe-TS%Mx-5}9$iIWogX9t69aspw|rqt6OYOYM|ww-AM{Eg8{%2%1Rjx]V@%2slIoS4ofae"
+        },
+        {
+          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#23251C",
+            "#B2AEA4"
+          ]
+        },
+        "colors": {
+          "dark": "#23251C",
+          "light": "#B2AEA4"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14202520395",
       "durationMilliseconds": 14100000,
       "categories": [
@@ -90,8 +183,10 @@
       "productionNumber": "14202520395",
       "publishTime": "2025-09-26T06:05:00+02:00",
       "startTime": "2025-09-26T06:05:00+02:00",
+      "endTime": "2025-12-26T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/fredag-26-sep-2025-14202520395",
       "order": 638944635000192395,
+      "nextId": "urn:dr:radio:episode:6835b86dd37c69cd6657644a",
       "previousId": "urn:dr:radio:episode:6835b86df0501130c3bcf526",
       "series": {
         "title": "P4 Morgen Midt & Vest",
@@ -187,7 +282,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/torsdag-25-sep-2025-14202520394",
       "order": 638943771000191394,
       "nextId": "urn:dr:radio:episode:6835abba8602af869f7da623",
-      "previousId": "urn:dr:radio:episode:6835ab7fb55477aa472bb5b7",
       "series": {
         "title": "P4 Morgen Midt & Vest",
         "id": "urn:dr:radio:series:5fa15962da351264f87b53a7",
@@ -223,290 +317,6 @@
       "id": "urn:dr:radio:episode:6835b86df0501130c3bcf526",
       "slug": "torsdag-25-sep-2025-14202520394",
       "title": "Torsdag 25. sep. 2025",
-      "punchline": "Vi starter dagen med god musik, nyheder, sport og reportager",
-      "description": "Stå op med P4 Morgen Midt- og vestjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68627bad84761efefa3e5269",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N6FE[iIU-5?aRk-6VDsm0#Nas.ni0fkCsmoJocXS"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6d",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oAFX;kMe-TS%Mx-5}9$iIWogX9t69aspw|rqt6OYOYM|ww-AM{Eg8{%2%1Rjx]V@%2slIoS4ofae"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#23251C",
-            "#B2AEA4"
-          ]
-        },
-        "colors": {
-          "dark": "#23251C",
-          "light": "#B2AEA4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14202520393",
-      "durationMilliseconds": 14100024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14202520393",
-      "publishTime": "2025-09-24T06:05:00+02:00",
-      "startTime": "2025-09-24T06:05:00+02:00",
-      "endTime": "2025-09-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/onsdag-24-sep-2025-14202520393",
-      "order": 638942907000190393,
-      "nextId": "urn:dr:radio:episode:6835b86df0501130c3bcf526",
-      "previousId": "urn:dr:radio:episode:6835abb9ef271ab62ebbeea1",
-      "series": {
-        "title": "P4 Morgen Midt & Vest",
-        "id": "urn:dr:radio:series:5fa15962da351264f87b53a7",
-        "slug": "p4-morgen-midt-og-vest-1092713704000",
-        "productionNumber": "1092713704000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest-1092713704000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092713704000"
-      },
-      "channel": {
-        "title": "P4 Midt & Vest",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4650",
-        "slug": "p4vest",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835ab7fb55477aa472bb5b7/b46cbddcf8ac86117e2b2fc37a2bb202bb11ec6daec23254afc7d425ff14fcc4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14202520393",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-24T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835ab7fb55477aa472bb5b7",
-      "slug": "onsdag-24-sep-2025-14202520393",
-      "title": "Onsdag 24. sep. 2025",
-      "punchline": "Vi starter dagen med god musik, nyheder, sport og reportager",
-      "description": "Stå op med P4 Morgen Midt- og vestjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68627bad84761efefa3e5269",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N6FE[iIU-5?aRk-6VDsm0#Nas.ni0fkCsmoJocXS"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6d",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oAFX;kMe-TS%Mx-5}9$iIWogX9t69aspw|rqt6OYOYM|ww-AM{Eg8{%2%1Rjx]V@%2slIoS4ofae"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#23251C",
-            "#B2AEA4"
-          ]
-        },
-        "colors": {
-          "dark": "#23251C",
-          "light": "#B2AEA4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14202520392",
-      "durationMilliseconds": 14100024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14202520392",
-      "publishTime": "2025-09-23T06:05:00+02:00",
-      "startTime": "2025-09-23T06:05:00+02:00",
-      "endTime": "2025-09-27T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/tirsdag-23-sep-2025-14202520392",
-      "order": 638942043000189392,
-      "nextId": "urn:dr:radio:episode:6835ab7fb55477aa472bb5b7",
-      "previousId": "urn:dr:radio:episode:6835b86d5f16b698306004ea",
-      "series": {
-        "title": "P4 Morgen Midt & Vest",
-        "id": "urn:dr:radio:series:5fa15962da351264f87b53a7",
-        "slug": "p4-morgen-midt-og-vest-1092713704000",
-        "productionNumber": "1092713704000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest-1092713704000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092713704000"
-      },
-      "channel": {
-        "title": "P4 Midt & Vest",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4650",
-        "slug": "p4vest",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835abb9ef271ab62ebbeea1/a6fdb6b2e8f1391ea70773d9e9f23b4b55493a3cbfacb60dad3d21cbd7d28eac"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14202520392",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-23T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835abb9ef271ab62ebbeea1",
-      "slug": "tirsdag-23-sep-2025-14202520392",
-      "title": "Tirsdag 23. sep. 2025",
-      "punchline": "Vi starter dagen med god musik, nyheder, sport og reportager",
-      "description": "Stå op med P4 Morgen Midt- og vestjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68627bad84761efefa3e5269",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N6FE[iIU-5?aRk-6VDsm0#Nas.ni0fkCsmoJocXS"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6d",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oAFX;kMe-TS%Mx-5}9$iIWogX9t69aspw|rqt6OYOYM|ww-AM{Eg8{%2%1Rjx]V@%2slIoS4ofae"
-        },
-        {
-          "id": "urn:dr:radio:image:68627b7c84761efefa3e4f6c",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7E.U*9F-mOZIA=s]~xG9ubcX9xa0fbboMaJxsOZF{ELsm-UIUEM00%M%1M{%NV?%3xDE2R-ofWB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#23251C",
-            "#B2AEA4"
-          ]
-        },
-        "colors": {
-          "dark": "#23251C",
-          "light": "#B2AEA4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14202520391",
-      "durationMilliseconds": 14100024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14202520391",
-      "publishTime": "2025-09-22T06:05:00+02:00",
-      "startTime": "2025-09-22T06:05:00+02:00",
-      "endTime": "2025-09-26T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest/p4-morgen-midt-og-vest/mandag-22-sep-2025-14202520391",
-      "order": 638941179000188391,
-      "nextId": "urn:dr:radio:episode:6835abb9ef271ab62ebbeea1",
-      "series": {
-        "title": "P4 Morgen Midt & Vest",
-        "id": "urn:dr:radio:series:5fa15962da351264f87b53a7",
-        "slug": "p4-morgen-midt-og-vest-1092713704000",
-        "productionNumber": "1092713704000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-morgen-midt-og-vest-1092713704000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092713704000"
-      },
-      "channel": {
-        "title": "P4 Midt & Vest",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4650",
-        "slug": "p4vest",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4vest"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b86d5f16b698306004ea/47499e58b2347b13e1cf40626ce5b98099d8a699c702b9c5551fcd25c28aaf1d"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14202520391",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-22T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835b86d5f16b698306004ea",
-      "slug": "mandag-22-sep-2025-14202520391",
-      "title": "Mandag 22. sep. 2025",
       "punchline": "Vi starter dagen med god musik, nyheder, sport og reportager",
       "description": "Stå op med P4 Morgen Midt- og vestjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
       "imageAssets": [

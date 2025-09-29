@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 5,
+  "numberOfEpisodes": 3,
   "presentationType": "CurrentAffairs",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-09-26T06:05:00+02:00",
+  "latestEpisodeStartTime": "2025-09-29T06:05:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland-836671277000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fb966187a4031cfd7800",
   "psdbSlug": "p4aarhus-morgen-radio",
@@ -74,6 +74,92 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14302520401",
+      "durationMilliseconds": 14100024,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14302520401",
+      "publishTime": "2025-09-29T06:05:00+02:00",
+      "startTime": "2025-09-29T06:05:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/mandag-29-sep-2025-14302520401",
+      "order": 638947229025193401,
+      "previousId": "urn:dr:radio:episode:6835b5955f16b698305fdfe5",
+      "series": {
+        "title": "P4 Morgen Østjylland",
+        "id": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
+        "slug": "p4-morgen-oestjylland-836671277000",
+        "productionNumber": "836671277000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland-836671277000",
+        "learnId": "urn:dr:ocs:audio:content:series:836671277000"
+      },
+      "channel": {
+        "title": "P4 Østjylland",
+        "id": "urn:dr:radio:channel:5fa156d1da351264f87b4629",
+        "slug": "p4aarhus",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b595b55477aa472c0009/aa9db912d4d05d78163a4cf65a478ac62e1135faf55da6e89615d984b225b2ea"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14302520401",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-29T06:05:00+02:00",
+      "id": "urn:dr:radio:episode:6835b595b55477aa472c0009",
+      "slug": "mandag-29-sep-2025-14302520401",
+      "title": "Mandag 29. sep. 2025",
+      "punchline": "Nyheder, interview og reportage, trafik, vejr, sport og masser af musik",
+      "description": "Stå op med P4 Morgen Østjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#292C15",
+            "#B8CDE1"
+          ]
+        },
+        "colors": {
+          "dark": "#292C15",
+          "light": "#B8CDE1"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14302520395",
       "durationMilliseconds": 14100024,
       "categories": [
@@ -82,8 +168,10 @@
       "productionNumber": "14302520395",
       "publishTime": "2025-09-26T06:05:00+02:00",
       "startTime": "2025-09-26T06:05:00+02:00",
+      "endTime": "2025-12-26T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/fredag-26-sep-2025-14302520395",
       "order": 638944637025192395,
+      "nextId": "urn:dr:radio:episode:6835b595b55477aa472c0009",
       "previousId": "urn:dr:radio:episode:6835b595b55477aa472c0003",
       "series": {
         "title": "P4 Morgen Østjylland",
@@ -172,7 +260,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/torsdag-25-sep-2025-14302520394",
       "order": 638943773025191394,
       "nextId": "urn:dr:radio:episode:6835b5955f16b698305fdfe5",
-      "previousId": "urn:dr:radio:episode:6835b5a55f16b698305fe17c",
       "series": {
         "title": "P4 Morgen Østjylland",
         "id": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
@@ -208,269 +295,6 @@
       "id": "urn:dr:radio:episode:6835b595b55477aa472c0003",
       "slug": "torsdag-25-sep-2025-14302520394",
       "title": "Torsdag 25. sep. 2025",
-      "punchline": "Nyheder, interview og reportage, trafik, vejr, sport og masser af musik",
-      "description": "Stå op med P4 Morgen Østjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#292C15",
-            "#B8CDE1"
-          ]
-        },
-        "colors": {
-          "dark": "#292C15",
-          "light": "#B8CDE1"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14302520393",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14302520393",
-      "publishTime": "2025-09-24T06:05:00+02:00",
-      "startTime": "2025-09-24T06:05:00+02:00",
-      "endTime": "2025-09-28T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/onsdag-24-sep-2025-14302520393",
-      "order": 638942909025190393,
-      "nextId": "urn:dr:radio:episode:6835b595b55477aa472c0003",
-      "previousId": "urn:dr:radio:episode:6835b5a55f16b698305fe177",
-      "series": {
-        "title": "P4 Morgen Østjylland",
-        "id": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
-        "slug": "p4-morgen-oestjylland-836671277000",
-        "productionNumber": "836671277000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland-836671277000",
-        "learnId": "urn:dr:ocs:audio:content:series:836671277000"
-      },
-      "channel": {
-        "title": "P4 Østjylland",
-        "id": "urn:dr:radio:channel:5fa156d1da351264f87b4629",
-        "slug": "p4aarhus",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b5a55f16b698305fe17c/fc40e8999e506e7f836bf797fe98aa55f6be50197b1d36cbee5193f6b3804b97"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14302520393",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-24T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835b5a55f16b698305fe17c",
-      "slug": "onsdag-24-sep-2025-14302520393",
-      "title": "Onsdag 24. sep. 2025",
-      "punchline": "Nyheder, interview og reportage, trafik, vejr, sport og masser af musik",
-      "description": "Stå op med P4 Morgen Østjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#292C15",
-            "#B8CDE1"
-          ]
-        },
-        "colors": {
-          "dark": "#292C15",
-          "light": "#B8CDE1"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14302520392",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14302520392",
-      "publishTime": "2025-09-23T06:05:00+02:00",
-      "startTime": "2025-09-23T06:05:00+02:00",
-      "endTime": "2025-09-27T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/tirsdag-23-sep-2025-14302520392",
-      "order": 638942045025189392,
-      "nextId": "urn:dr:radio:episode:6835b5a55f16b698305fe17c",
-      "previousId": "urn:dr:radio:episode:6835b5955f16b698305fdfe0",
-      "series": {
-        "title": "P4 Morgen Østjylland",
-        "id": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
-        "slug": "p4-morgen-oestjylland-836671277000",
-        "productionNumber": "836671277000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland-836671277000",
-        "learnId": "urn:dr:ocs:audio:content:series:836671277000"
-      },
-      "channel": {
-        "title": "P4 Østjylland",
-        "id": "urn:dr:radio:channel:5fa156d1da351264f87b4629",
-        "slug": "p4aarhus",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b5a55f16b698305fe177/878790b3a9b443782a5a9e33e9087e1974543a607a6198e1d3d0ac450c35b657"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14302520392",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-23T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835b5a55f16b698305fe177",
-      "slug": "tirsdag-23-sep-2025-14302520392",
-      "title": "Tirsdag 23. sep. 2025",
-      "punchline": "Nyheder, interview og reportage, trafik, vejr, sport og masser af musik",
-      "description": "Stå op med P4 Morgen Østjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc8752248c98a4403c0e",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NVCjR$.Tx^xvD%adNH%2t7S2xtWVH?ITRPn$ozof"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#292C15",
-            "#B8CDE1"
-          ]
-        },
-        "colors": {
-          "dark": "#292C15",
-          "light": "#B8CDE1"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14302520391",
-      "durationMilliseconds": 14100000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14302520391",
-      "publishTime": "2025-09-22T06:05:00+02:00",
-      "startTime": "2025-09-22T06:05:00+02:00",
-      "endTime": "2025-09-26T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland/p4-morgen-oestjylland-2025/mandag-22-sep-2025-14302520391",
-      "order": 638941181025188391,
-      "nextId": "urn:dr:radio:episode:6835b5a55f16b698305fe177",
-      "series": {
-        "title": "P4 Morgen Østjylland",
-        "id": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
-        "slug": "p4-morgen-oestjylland-836671277000",
-        "productionNumber": "836671277000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus/p4-morgen-oestjylland-836671277000",
-        "learnId": "urn:dr:ocs:audio:content:series:836671277000"
-      },
-      "channel": {
-        "title": "P4 Østjylland",
-        "id": "urn:dr:radio:channel:5fa156d1da351264f87b4629",
-        "slug": "p4aarhus",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4aarhus"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b5955f16b698305fdfe0/2c3a55ecb412341a079236bb0b806a5f3e54474d95e3729bd0a26f1691578884"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14302520391",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-22T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835b5955f16b698305fdfe0",
-      "slug": "mandag-22-sep-2025-14302520391",
-      "title": "Mandag 22. sep. 2025",
       "punchline": "Nyheder, interview og reportage, trafik, vejr, sport og masser af musik",
       "description": "Stå op med P4 Morgen Østjylland og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
       "imageAssets": [
