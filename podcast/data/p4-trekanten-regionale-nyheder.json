@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 42,
+  "numberOfEpisodes": 33,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-09-29T17:30:00+02:00",
+  "latestEpisodeStartTime": "2025-09-30T06:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c7856187a40ef4069c15",
   "psdbSlug": "p4-trekanten-nyheder",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14042512402",
+      "durationMilliseconds": 180000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14042512402",
+      "publishTime": "2025-09-30T06:30:00+02:00",
+      "startTime": "2025-09-30T06:30:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-06-30-14042512402",
+      "order": 638948106000195402,
+      "previousId": "urn:dr:radio:episode:68264332a72ce7cfebbe9f11",
+      "series": {
+        "title": "P4 Trekanten regionale nyheder",
+        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
+        "slug": "p4-trekanten-regionale-nyheder-836635901000",
+        "productionNumber": "836635901000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
+        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
+      },
+      "channel": {
+        "title": "P4 Trekanten",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
+        "slug": "p4trekanten",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68262ced61175376c101e603/fecb3a5d9f54721f6f274bd9ea8591888e5d225bb1afd5de93ace2107fe629ab"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042512402",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-30T06:30:00+02:00",
+      "id": "urn:dr:radio:episode:68262ced61175376c101e603",
+      "slug": "seneste-nyt-kl-06-30-14042512402",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#122B2F",
+            "#F9E5D4"
+          ]
+        },
+        "colors": {
+          "dark": "#122B2F",
+          "light": "#F9E5D4"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14042523401",
       "durationMilliseconds": 180024,
       "categories": [
@@ -81,8 +166,10 @@
       "productionNumber": "14042523401",
       "publishTime": "2025-09-29T17:30:00+02:00",
       "startTime": "2025-09-29T17:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-17-30-14042523401",
       "order": 638947638000194401,
+      "nextId": "urn:dr:radio:episode:68262ced61175376c101e603",
       "previousId": "urn:dr:radio:episode:6826417961175376c1029002",
       "series": {
         "title": "P4 Trekanten regionale nyheder",
@@ -166,6 +253,7 @@
       "productionNumber": "14042522401",
       "publishTime": "2025-09-29T16:30:00+02:00",
       "startTime": "2025-09-29T16:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-16-30-14042522401",
       "order": 638947602000194401,
       "nextId": "urn:dr:radio:episode:68264332a72ce7cfebbe9f11",
@@ -252,6 +340,7 @@
       "productionNumber": "14042519401",
       "publishTime": "2025-09-29T15:30:00+02:00",
       "startTime": "2025-09-29T15:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-15-30-14042519401",
       "order": 638947566000194401,
       "nextId": "urn:dr:radio:episode:6826417961175376c1029002",
@@ -338,6 +427,7 @@
       "productionNumber": "14042518401",
       "publishTime": "2025-09-29T12:30:00+02:00",
       "startTime": "2025-09-29T12:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-12-30-14042518401",
       "order": 638947458000272401,
       "nextId": "urn:dr:radio:episode:68263fda7b626ea9bb084ec4",
@@ -424,6 +514,7 @@
       "productionNumber": "14042517401",
       "publishTime": "2025-09-29T11:30:00+02:00",
       "startTime": "2025-09-29T11:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-11-30-14042517401",
       "order": 638947422000272401,
       "nextId": "urn:dr:radio:episode:68263e53a72ce7cfebbe7908",
@@ -510,6 +601,7 @@
       "productionNumber": "14042516401",
       "publishTime": "2025-09-29T10:30:00+02:00",
       "startTime": "2025-09-29T10:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-10-30-14042516401",
       "order": 638947386000272401,
       "nextId": "urn:dr:radio:episode:68263c6d7b626ea9bb08329b",
@@ -596,6 +688,7 @@
       "productionNumber": "14042515401",
       "publishTime": "2025-09-29T09:30:00+02:00",
       "startTime": "2025-09-29T09:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-09-30-14042515401",
       "order": 638947350000272401,
       "nextId": "urn:dr:radio:episode:68263a4461175376c1024f66",
@@ -682,6 +775,7 @@
       "productionNumber": "14042514401",
       "publishTime": "2025-09-29T08:30:00+02:00",
       "startTime": "2025-09-29T08:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-08-30-14042514401",
       "order": 638947314000272401,
       "nextId": "urn:dr:radio:episode:6826383161175376c1023d6d",
@@ -768,6 +862,7 @@
       "productionNumber": "14042513401",
       "publishTime": "2025-09-29T07:30:00+02:00",
       "startTime": "2025-09-29T07:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-07-30-14042513401",
       "order": 638947278000272401,
       "nextId": "urn:dr:radio:episode:6826340461175376c1021f7e",
@@ -854,6 +949,7 @@
       "productionNumber": "14042512401",
       "publishTime": "2025-09-29T06:30:00+02:00",
       "startTime": "2025-09-29T06:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-06-30-14042512401",
       "order": 638947242000194401,
       "nextId": "urn:dr:radio:episode:682631cd61175376c10209ab",
@@ -2771,7 +2867,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-06-30-14042512395",
       "order": 638944650000193395,
       "nextId": "urn:dr:radio:episode:682631d361175376c1020a52",
-      "previousId": "urn:dr:radio:episode:682643327b626ea9bb0869b8",
       "series": {
         "title": "P4 Trekanten regionale nyheder",
         "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
@@ -2806,875 +2901,6 @@
       "latestPublishTime": "2025-09-26T06:30:00+02:00",
       "id": "urn:dr:radio:episode:68262cda7b626ea9bb07b156",
       "slug": "seneste-nyt-kl-06-30-14042512395",
-      "title": "Seneste nyt kl. 06:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042523394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042523394",
-      "publishTime": "2025-09-25T17:30:00+02:00",
-      "startTime": "2025-09-25T17:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-17-30-14042523394",
-      "order": 638944182000192394,
-      "nextId": "urn:dr:radio:episode:68262cda7b626ea9bb07b156",
-      "previousId": "urn:dr:radio:episode:6826417961175376c1028fef",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682643327b626ea9bb0869b8/9f31b6fe55bf17442325276490f9ef1ff36b0257d4fdecb0989c54602c04c8d0"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042523394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T17:30:00+02:00",
-      "id": "urn:dr:radio:episode:682643327b626ea9bb0869b8",
-      "slug": "seneste-nyt-kl-17-30-14042523394",
-      "title": "Seneste nyt kl. 17:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042522394",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042522394",
-      "publishTime": "2025-09-25T16:30:00+02:00",
-      "startTime": "2025-09-25T16:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-16-30-14042522394",
-      "order": 638944146000192394,
-      "nextId": "urn:dr:radio:episode:682643327b626ea9bb0869b8",
-      "previousId": "urn:dr:radio:episode:68263fe57b626ea9bb084fcc",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6826417961175376c1028fef/9dd13137209e42a47fc1b857bfdfc2af597338047ed5289163f3bd03d030fa4e"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042522394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T16:30:00+02:00",
-      "id": "urn:dr:radio:episode:6826417961175376c1028fef",
-      "slug": "seneste-nyt-kl-16-30-14042522394",
-      "title": "Seneste nyt kl. 16:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042519394",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042519394",
-      "publishTime": "2025-09-25T15:30:00+02:00",
-      "startTime": "2025-09-25T15:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-15-30-14042519394",
-      "order": 638944110000192394,
-      "nextId": "urn:dr:radio:episode:6826417961175376c1028fef",
-      "previousId": "urn:dr:radio:episode:68263e52a72ce7cfebbe78f0",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68263fe57b626ea9bb084fcc/48aeadf4dad4e0c72e3a80cf6ceca1171efacce8c8757c5e3a5918cf1eae5636"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042519394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T15:30:00+02:00",
-      "id": "urn:dr:radio:episode:68263fe57b626ea9bb084fcc",
-      "slug": "seneste-nyt-kl-15-30-14042519394",
-      "title": "Seneste nyt kl. 15:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042518394",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042518394",
-      "publishTime": "2025-09-25T12:30:00+02:00",
-      "startTime": "2025-09-25T12:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-12-30-14042518394",
-      "order": 638944002000268394,
-      "nextId": "urn:dr:radio:episode:68263fe57b626ea9bb084fcc",
-      "previousId": "urn:dr:radio:episode:68263c617b626ea9bb08313b",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68263e52a72ce7cfebbe78f0/521bfe0a86e940cee7ebf74643eb9bd6f306c01b583d79ec1db7aca01ed10ec5"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042518394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T12:30:00+02:00",
-      "id": "urn:dr:radio:episode:68263e52a72ce7cfebbe78f0",
-      "slug": "seneste-nyt-kl-12-30-14042518394",
-      "title": "Seneste nyt kl. 12:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042517394",
-      "durationMilliseconds": 120000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042517394",
-      "publishTime": "2025-09-25T11:30:00+02:00",
-      "startTime": "2025-09-25T11:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-11-30-14042517394",
-      "order": 638943966000268394,
-      "nextId": "urn:dr:radio:episode:68263e52a72ce7cfebbe78f0",
-      "previousId": "urn:dr:radio:episode:68263a4361175376c1024f4d",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68263c617b626ea9bb08313b/99079871d84821f016b6db92c7c5e81f0a4b12d0088d5860a3b13a23bb2c17b4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042517394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T11:30:00+02:00",
-      "id": "urn:dr:radio:episode:68263c617b626ea9bb08313b",
-      "slug": "seneste-nyt-kl-11-30-14042517394",
-      "title": "Seneste nyt kl. 11:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042516394",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042516394",
-      "publishTime": "2025-09-25T10:30:00+02:00",
-      "startTime": "2025-09-25T10:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-10-30-14042516394",
-      "order": 638943930000268394,
-      "nextId": "urn:dr:radio:episode:68263c617b626ea9bb08313b",
-      "previousId": "urn:dr:radio:episode:682638247b626ea9bb08065d",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68263a4361175376c1024f4d/9e9445780bd9cb0e760ec31d9cf280c837778cf58125c49f82a2849b7c315582"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042516394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T10:30:00+02:00",
-      "id": "urn:dr:radio:episode:68263a4361175376c1024f4d",
-      "slug": "seneste-nyt-kl-10-30-14042516394",
-      "title": "Seneste nyt kl. 10:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042515394",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042515394",
-      "publishTime": "2025-09-25T09:30:00+02:00",
-      "startTime": "2025-09-25T09:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-09-30-14042515394",
-      "order": 638943894000268394,
-      "nextId": "urn:dr:radio:episode:68263a4361175376c1024f4d",
-      "previousId": "urn:dr:radio:episode:682633ec5613c06071006e73",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682638247b626ea9bb08065d/bc193d7f0da18306f053adac065f5d02c566ff0db62f7cac611a68ac700e452c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042515394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:682638247b626ea9bb08065d",
-      "slug": "seneste-nyt-kl-09-30-14042515394",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042514394",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042514394",
-      "publishTime": "2025-09-25T08:30:00+02:00",
-      "startTime": "2025-09-25T08:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-08-30-14042514394",
-      "order": 638943858000268394,
-      "nextId": "urn:dr:radio:episode:682638247b626ea9bb08065d",
-      "previousId": "urn:dr:radio:episode:682631d361175376c1020a49",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682633ec5613c06071006e73/eb5e9a11dc91bfad241a1191bdccc3ed7f980164e6c32c4dbab3ae8ca61eef5c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042514394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:682633ec5613c06071006e73",
-      "slug": "seneste-nyt-kl-08-30-14042514394",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042513394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042513394",
-      "publishTime": "2025-09-25T07:30:00+02:00",
-      "startTime": "2025-09-25T07:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-07-30-14042513394",
-      "order": 638943822000268394,
-      "nextId": "urn:dr:radio:episode:682633ec5613c06071006e73",
-      "previousId": "urn:dr:radio:episode:68262cda7b626ea9bb07b151",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682631d361175376c1020a49/926b362de466ddae7d16d6d6ab1e2fe94722d1ba8e3366f6f297e93d62343930"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042513394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:682631d361175376c1020a49",
-      "slug": "seneste-nyt-kl-07-30-14042513394",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9242b53e8e759bb9ba9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NJMRul5T0#S2of={Gb$fnNNGxFoz9v%1n$adS3of"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#122B2F",
-            "#F9E5D4"
-          ]
-        },
-        "colors": {
-          "dark": "#122B2F",
-          "light": "#F9E5D4"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14042512394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14042512394",
-      "publishTime": "2025-09-25T06:30:00+02:00",
-      "startTime": "2025-09-25T06:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder/p4-trekanten-regionale-nyheder/seneste-nyt-kl-06-30-14042512394",
-      "order": 638943786000192394,
-      "nextId": "urn:dr:radio:episode:682631d361175376c1020a49",
-      "series": {
-        "title": "P4 Trekanten regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-        "slug": "p4-trekanten-regionale-nyheder-836635901000",
-        "productionNumber": "836635901000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten/p4-trekanten-regionale-nyheder-836635901000",
-        "learnId": "urn:dr:ocs:audio:content:series:836635901000"
-      },
-      "channel": {
-        "title": "P4 Trekanten",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4659",
-        "slug": "p4trekanten",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4trekanten"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68262cda7b626ea9bb07b151/7b587e718b70db8c15d03556501f18af621eaa61b6ddd549434eababdea9fce8"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14042512394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:68262cda7b626ea9bb07b151",
-      "slug": "seneste-nyt-kl-06-30-14042512394",
       "title": "Seneste nyt kl. 06:30",
       "description": "Hør seneste regionale nyheder fra P4 Trekanten.",
       "imageAssets": [

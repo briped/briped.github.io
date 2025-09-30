@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 42,
+  "numberOfEpisodes": 33,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-09-29T17:30:00+02:00",
+  "latestEpisodeStartTime": "2025-09-30T06:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
   "psdbUrn": "urn:dr:mu:bundle:57d7d3156187a4031cfd57f5",
   "psdbSlug": "regionale-nyheder-od4",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14602506402",
+      "durationMilliseconds": 180024,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14602506402",
+      "publishTime": "2025-09-30T06:30:00+02:00",
+      "startTime": "2025-09-30T06:30:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-06-30-14602506402",
+      "order": 638948106000194402,
+      "previousId": "urn:dr:radio:episode:6835c0a6f0501130c3bd3ad9",
+      "series": {
+        "title": "P4 Fyn regionale nyheder",
+        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
+        "slug": "p4-fyn-regionale-nyheder-846728334000",
+        "productionNumber": "846728334000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
+        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
+      },
+      "channel": {
+        "title": "P4 Fyn",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
+        "slug": "p4fyn",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683595adbd7f09b343f6aa84/37e51550cb5c32bdfa55bf6d3a66c81cda4d9d824528890669c7035a5e86048c"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602506402",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-09-30T06:30:00+02:00",
+      "id": "urn:dr:radio:episode:683595adbd7f09b343f6aa84",
+      "slug": "seneste-nyt-kl-06-30-14602506402",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#15152D",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#15152D",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14602517401",
       "durationMilliseconds": 180000,
       "categories": [
@@ -81,8 +166,10 @@
       "productionNumber": "14602517401",
       "publishTime": "2025-09-29T17:30:00+02:00",
       "startTime": "2025-09-29T17:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-17-30-14602517401",
       "order": 638947638000193401,
+      "nextId": "urn:dr:radio:episode:683595adbd7f09b343f6aa84",
       "previousId": "urn:dr:radio:episode:6835ba92dc1fbc0f1f77d96b",
       "series": {
         "title": "P4 Fyn regionale nyheder",
@@ -166,6 +253,7 @@
       "productionNumber": "14602516401",
       "publishTime": "2025-09-29T16:30:00+02:00",
       "startTime": "2025-09-29T16:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-16-30-14602516401",
       "order": 638947602000193401,
       "nextId": "urn:dr:radio:episode:6835c0a6f0501130c3bd3ad9",
@@ -252,6 +340,7 @@
       "productionNumber": "14602515401",
       "publishTime": "2025-09-29T15:30:00+02:00",
       "startTime": "2025-09-29T15:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-15-30-14602515401",
       "order": 638947566000193401,
       "nextId": "urn:dr:radio:episode:6835ba92dc1fbc0f1f77d96b",
@@ -338,6 +427,7 @@
       "productionNumber": "14602512401",
       "publishTime": "2025-09-29T12:30:00+02:00",
       "startTime": "2025-09-29T12:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-12-30-14602512401",
       "order": 638947458000272401,
       "nextId": "urn:dr:radio:episode:6835ba26d37c69cd665778d8",
@@ -424,6 +514,7 @@
       "productionNumber": "14602511401",
       "publishTime": "2025-09-29T11:30:00+02:00",
       "startTime": "2025-09-29T11:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-11-30-14602511401",
       "order": 638947422000272401,
       "nextId": "urn:dr:radio:episode:6835b970dc1fbc0f1f77cae1",
@@ -510,6 +601,7 @@
       "productionNumber": "14602510401",
       "publishTime": "2025-09-29T10:30:00+02:00",
       "startTime": "2025-09-29T10:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-10-30-14602510401",
       "order": 638947386000272401,
       "nextId": "urn:dr:radio:episode:6835b89ad37c69cd6657659f",
@@ -596,6 +688,7 @@
       "productionNumber": "14602509401",
       "publishTime": "2025-09-29T09:30:00+02:00",
       "startTime": "2025-09-29T09:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-09-30-14602509401",
       "order": 638947350000272401,
       "nextId": "urn:dr:radio:episode:6835b62cb55477aa472c0aaa",
@@ -682,6 +775,7 @@
       "productionNumber": "14602508401",
       "publishTime": "2025-09-29T08:30:00+02:00",
       "startTime": "2025-09-29T08:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-08-30-14602508401",
       "order": 638947314000272401,
       "nextId": "urn:dr:radio:episode:68359b9c5f16b698305f1ab8",
@@ -768,6 +862,7 @@
       "productionNumber": "14602507401",
       "publishTime": "2025-09-29T07:30:00+02:00",
       "startTime": "2025-09-29T07:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-07-30-14602507401",
       "order": 638947278000272401,
       "nextId": "urn:dr:radio:episode:683599f4bd7f09b343f6d389",
@@ -854,6 +949,7 @@
       "productionNumber": "14602506401",
       "publishTime": "2025-09-29T06:30:00+02:00",
       "startTime": "2025-09-29T06:30:00+02:00",
+      "endTime": "2025-12-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-06-30-14602506401",
       "order": 638947242000193401,
       "nextId": "urn:dr:radio:episode:6835968cbd7f09b343f6b75d",
@@ -2771,7 +2867,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-06-30-14602506395",
       "order": 638944650000192395,
       "nextId": "urn:dr:radio:episode:6835967bbd7f09b343f6b688",
-      "previousId": "urn:dr:radio:episode:6835bab2dc1fbc0f1f77dafd",
       "series": {
         "title": "P4 Fyn regionale nyheder",
         "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
@@ -2806,875 +2901,6 @@
       "latestPublishTime": "2025-09-26T06:30:00+02:00",
       "id": "urn:dr:radio:episode:683595a2b55477aa472b0318",
       "slug": "seneste-nyt-kl-06-30-14602506395",
-      "title": "Seneste nyt kl. 06:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602517394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602517394",
-      "publishTime": "2025-09-25T17:30:00+02:00",
-      "startTime": "2025-09-25T17:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-17-30-14602517394",
-      "order": 638944182000191394,
-      "nextId": "urn:dr:radio:episode:683595a2b55477aa472b0318",
-      "previousId": "urn:dr:radio:episode:6835bab2d37c69cd66577eb2",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835bab2dc1fbc0f1f77dafd/f00d37b36f3be50d875a0587d32e3d65b8c0aeac31c5c90afb72ed085847cd8b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602517394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T17:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835bab2dc1fbc0f1f77dafd",
-      "slug": "seneste-nyt-kl-17-30-14602517394",
-      "title": "Seneste nyt kl. 17:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602516394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602516394",
-      "publishTime": "2025-09-25T16:30:00+02:00",
-      "startTime": "2025-09-25T16:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-16-30-14602516394",
-      "order": 638944146000191394,
-      "nextId": "urn:dr:radio:episode:6835bab2dc1fbc0f1f77dafd",
-      "previousId": "urn:dr:radio:episode:6835ba2bdc1fbc0f1f77d48c",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835bab2d37c69cd66577eb2/7751a00c7a998175523a4c3c5ddaf93927fb936fd28b80cdcf596f155f1b28d5"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602516394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T16:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835bab2d37c69cd66577eb2",
-      "slug": "seneste-nyt-kl-16-30-14602516394",
-      "title": "Seneste nyt kl. 16:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602515394",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602515394",
-      "publishTime": "2025-09-25T15:30:00+02:00",
-      "startTime": "2025-09-25T15:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-15-30-14602515394",
-      "order": 638944110000191394,
-      "nextId": "urn:dr:radio:episode:6835bab2d37c69cd66577eb2",
-      "previousId": "urn:dr:radio:episode:6835b94ff0501130c3bcfeec",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835ba2bdc1fbc0f1f77d48c/34395de0773874d73d75b22535b274ccb1f3787bb3c31fcb14bddce350b5b91a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602515394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T15:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835ba2bdc1fbc0f1f77d48c",
-      "slug": "seneste-nyt-kl-15-30-14602515394",
-      "title": "Seneste nyt kl. 15:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602512394",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602512394",
-      "publishTime": "2025-09-25T12:30:00+02:00",
-      "startTime": "2025-09-25T12:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-12-30-14602512394",
-      "order": 638944002000268394,
-      "nextId": "urn:dr:radio:episode:6835ba2bdc1fbc0f1f77d48c",
-      "previousId": "urn:dr:radio:episode:6835ac8453679be9eba672f3",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835b94ff0501130c3bcfeec/ccb58f48231f034cea9366eb38257deff91b2e3adf4ac11dcdbfb2e8b17c9361"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602512394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T12:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835b94ff0501130c3bcfeec",
-      "slug": "seneste-nyt-kl-12-30-14602512394",
-      "title": "Seneste nyt kl. 12:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602511394",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602511394",
-      "publishTime": "2025-09-25T11:30:00+02:00",
-      "startTime": "2025-09-25T11:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-11-30-14602511394",
-      "order": 638943966000268394,
-      "nextId": "urn:dr:radio:episode:6835b94ff0501130c3bcfeec",
-      "previousId": "urn:dr:radio:episode:6835a82c5f16b698305f6c65",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835ac8453679be9eba672f3/4f035554af0e0cf781a9416bd61ef5c18221422c5e873c1e63443933f7f00c12"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602511394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T11:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835ac8453679be9eba672f3",
-      "slug": "seneste-nyt-kl-11-30-14602511394",
-      "title": "Seneste nyt kl. 11:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602510394",
-      "durationMilliseconds": 120024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602510394",
-      "publishTime": "2025-09-25T10:30:00+02:00",
-      "startTime": "2025-09-25T10:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-10-30-14602510394",
-      "order": 638943930000268394,
-      "nextId": "urn:dr:radio:episode:6835ac8453679be9eba672f3",
-      "previousId": "urn:dr:radio:episode:68359b7c5f16b698305f18b7",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835a82c5f16b698305f6c65/25ef50c7385f8f2418e451e27893c925173b61c2ee04c488aebda138e6adc4df"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602510394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T10:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835a82c5f16b698305f6c65",
-      "slug": "seneste-nyt-kl-10-30-14602510394",
-      "title": "Seneste nyt kl. 10:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602509394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602509394",
-      "publishTime": "2025-09-25T09:30:00+02:00",
-      "startTime": "2025-09-25T09:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-09-30-14602509394",
-      "order": 638943894000268394,
-      "nextId": "urn:dr:radio:episode:6835a82c5f16b698305f6c65",
-      "previousId": "urn:dr:radio:episode:6835999fb55477aa472b2986",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68359b7c5f16b698305f18b7/45b86de0c1735ab13aa16bcf5ec3104d12961230a66592901c70117d0ef982d2"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602509394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:68359b7c5f16b698305f18b7",
-      "slug": "seneste-nyt-kl-09-30-14602509394",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602508394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602508394",
-      "publishTime": "2025-09-25T08:30:00+02:00",
-      "startTime": "2025-09-25T08:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-08-30-14602508394",
-      "order": 638943858000268394,
-      "nextId": "urn:dr:radio:episode:68359b7c5f16b698305f18b7",
-      "previousId": "urn:dr:radio:episode:6835969c037aa47a6dd47e19",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835999fb55477aa472b2986/b7555105e8d309dd0cde5a8472de8e824658c6ca4823889615b3834807bdd894"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602508394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835999fb55477aa472b2986",
-      "slug": "seneste-nyt-kl-08-30-14602508394",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602507394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602507394",
-      "publishTime": "2025-09-25T07:30:00+02:00",
-      "startTime": "2025-09-25T07:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-07-30-14602507394",
-      "order": 638943822000268394,
-      "nextId": "urn:dr:radio:episode:6835999fb55477aa472b2986",
-      "previousId": "urn:dr:radio:episode:683595b7fe5ec8521a271c1f",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835969c037aa47a6dd47e19/e46388ae9d316a73c38694eece101df42b56502a5034c0fbb2bcdf45c574b28c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602507394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:6835969c037aa47a6dd47e19",
-      "slug": "seneste-nyt-kl-07-30-14602507394",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Hør seneste regionale nyheder fra P4 Fyn.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c92452248c98a4390048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NUG^bB%fTHNat7sD?[a1IVNan*xttQjaV[RjbHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#15152D",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#15152D",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602506394",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14602506394",
-      "publishTime": "2025-09-25T06:30:00+02:00",
-      "startTime": "2025-09-25T06:30:00+02:00",
-      "endTime": "2025-09-29T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder/p4-fyn-regionale-nyheder-2025/seneste-nyt-kl-06-30-14602506394",
-      "order": 638943786000191394,
-      "nextId": "urn:dr:radio:episode:6835969c037aa47a6dd47e19",
-      "series": {
-        "title": "P4 Fyn regionale nyheder",
-        "id": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-        "slug": "p4-fyn-regionale-nyheder-846728334000",
-        "productionNumber": "846728334000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-fyn-regionale-nyheder-846728334000",
-        "learnId": "urn:dr:ocs:audio:content:series:846728334000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683595b7fe5ec8521a271c1f/b7127da63673d7766e18e3c7c6a321136ffe14bfd406f93264afe4f021b9cf2c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602506394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:683595b7fe5ec8521a271c1f",
-      "slug": "seneste-nyt-kl-06-30-14602506394",
       "title": "Seneste nyt kl. 06:30",
       "description": "Hør seneste regionale nyheder fra P4 Fyn.",
       "imageAssets": [
