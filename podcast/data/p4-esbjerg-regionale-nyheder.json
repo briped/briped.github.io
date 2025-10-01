@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 20,
+  "numberOfEpisodes": 17,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-09-30T17:30:00+02:00",
+  "latestEpisodeStartTime": "2025-10-01T06:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c320a11fa007bcfbc806",
   "psdbSlug": "p4-esbjerg-nyheder",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14032512403",
+      "durationMilliseconds": 180000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14032512403",
+      "publishTime": "2025-10-01T06:30:00+02:00",
+      "startTime": "2025-10-01T06:30:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-06-30-14032512403",
+      "order": 638948970000195403,
+      "previousId": "urn:dr:radio:episode:682b2466ec33d960f2f539ec",
+      "series": {
+        "title": "P4 Esbjerg regionale nyheder",
+        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
+        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
+        "productionNumber": "836630723000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
+        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
+      },
+      "channel": {
+        "title": "P4 Esbjerg",
+        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
+        "slug": "p4esbjerg",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b10117b626ea9bb293b16/6ec4880afae85a5b2b94aa8bde362db6a99ad7630a61f74ba8c1e051439ea748"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032512403",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-01T06:30:00+02:00",
+      "id": "urn:dr:radio:episode:682b10117b626ea9bb293b16",
+      "slug": "seneste-nyt-kl-06-30-14032512403",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Seneste nyt kl. 06:30",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#103131",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#103131",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032521402",
       "durationMilliseconds": 180000,
       "categories": [
@@ -81,8 +166,10 @@
       "productionNumber": "14032521402",
       "publishTime": "2025-09-30T17:30:00+02:00",
       "startTime": "2025-09-30T17:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-17-30-14032521402",
       "order": 638948502000194402,
+      "nextId": "urn:dr:radio:episode:682b10117b626ea9bb293b16",
       "previousId": "urn:dr:radio:episode:682b1ec9eb45b0de14fc85b3",
       "series": {
         "title": "P4 Esbjerg regionale nyheder",
@@ -166,6 +253,7 @@
       "productionNumber": "14032520402",
       "publishTime": "2025-09-30T16:30:00+02:00",
       "startTime": "2025-09-30T16:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-16-30-14032520402",
       "order": 638948466000194402,
       "nextId": "urn:dr:radio:episode:682b2466ec33d960f2f539ec",
@@ -252,6 +340,7 @@
       "productionNumber": "14032519402",
       "publishTime": "2025-09-30T15:30:00+02:00",
       "startTime": "2025-09-30T15:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-15-30-14032519402",
       "order": 638948430000194402,
       "nextId": "urn:dr:radio:episode:682b1ec9eb45b0de14fc85b3",
@@ -338,6 +427,7 @@
       "productionNumber": "14032515402",
       "publishTime": "2025-09-30T09:30:00+02:00",
       "startTime": "2025-09-30T09:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-09-30-14032515402",
       "order": 638948214000196402,
       "nextId": "urn:dr:radio:episode:682b1d6deb45b0de14fc7c7d",
@@ -424,6 +514,7 @@
       "productionNumber": "14032514402",
       "publishTime": "2025-09-30T08:30:00+02:00",
       "startTime": "2025-09-30T08:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-08-30-14032514402",
       "order": 638948178000196402,
       "nextId": "urn:dr:radio:episode:682b169cf65c9b85106da682",
@@ -510,6 +601,7 @@
       "productionNumber": "14032513402",
       "publishTime": "2025-09-30T07:30:00+02:00",
       "startTime": "2025-09-30T07:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-07-30-14032513402",
       "order": 638948142000196402,
       "nextId": "urn:dr:radio:episode:682b136c61175376c122b7ea",
@@ -596,6 +688,7 @@
       "productionNumber": "14032512402",
       "publishTime": "2025-09-30T06:30:00+02:00",
       "startTime": "2025-09-30T06:30:00+02:00",
+      "endTime": "2025-12-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-06-30-14032512402",
       "order": 638948106000194402,
       "nextId": "urn:dr:radio:episode:682b120061175376c122ac2e",
@@ -1382,7 +1475,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-16-30-14032520395",
       "order": 638945010000192395,
       "nextId": "urn:dr:radio:episode:682b24667b626ea9bb29d3a4",
-      "previousId": "urn:dr:radio:episode:682b16e1f65c9b85106daa48",
       "series": {
         "title": "P4 Esbjerg regionale nyheder",
         "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
@@ -1419,353 +1511,6 @@
       "slug": "seneste-nyt-kl-16-30-14032520395",
       "title": "Seneste nyt kl. 16:30",
       "description": "Seneste nyt kl. 16:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14032515395",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14032515395",
-      "publishTime": "2025-09-26T09:30:00+02:00",
-      "startTime": "2025-09-26T09:30:00+02:00",
-      "endTime": "2025-09-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-09-30-14032515395",
-      "order": 638944758000194395,
-      "nextId": "urn:dr:radio:episode:682b1ec91137fe1a3d054ebd",
-      "previousId": "urn:dr:radio:episode:682b136c61175376c122b7df",
-      "series": {
-        "title": "P4 Esbjerg regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
-        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
-        "productionNumber": "836630723000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
-        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
-      },
-      "channel": {
-        "title": "P4 Esbjerg",
-        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
-        "slug": "p4esbjerg",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b16e1f65c9b85106daa48/a1991f5ca8adc9c4bbbfafa2a733e038a44fd1da5c4c0e170a46d1fe3aa36152"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032515395",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-26T09:30:00+02:00",
-      "id": "urn:dr:radio:episode:682b16e1f65c9b85106daa48",
-      "slug": "seneste-nyt-kl-09-30-14032515395",
-      "title": "Seneste nyt kl. 09:30",
-      "description": "Seneste nyt kl. 09:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14032514395",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14032514395",
-      "publishTime": "2025-09-26T08:30:00+02:00",
-      "startTime": "2025-09-26T08:30:00+02:00",
-      "endTime": "2025-09-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-08-30-14032514395",
-      "order": 638944722000194395,
-      "nextId": "urn:dr:radio:episode:682b16e1f65c9b85106daa48",
-      "previousId": "urn:dr:radio:episode:682b12167b626ea9bb294b0f",
-      "series": {
-        "title": "P4 Esbjerg regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
-        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
-        "productionNumber": "836630723000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
-        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
-      },
-      "channel": {
-        "title": "P4 Esbjerg",
-        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
-        "slug": "p4esbjerg",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b136c61175376c122b7df/702606fbdaf0071e805703bfc914b46072a85f373f5404bd3400f937445b51b7"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032514395",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-26T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:682b136c61175376c122b7df",
-      "slug": "seneste-nyt-kl-08-30-14032514395",
-      "title": "Seneste nyt kl. 08:30",
-      "description": "Seneste nyt kl. 08:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14032513395",
-      "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14032513395",
-      "publishTime": "2025-09-26T07:30:00+02:00",
-      "startTime": "2025-09-26T07:30:00+02:00",
-      "endTime": "2025-09-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-07-30-14032513395",
-      "order": 638944686000194395,
-      "nextId": "urn:dr:radio:episode:682b136c61175376c122b7df",
-      "previousId": "urn:dr:radio:episode:682b0feda956e6f133235edc",
-      "series": {
-        "title": "P4 Esbjerg regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
-        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
-        "productionNumber": "836630723000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
-        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
-      },
-      "channel": {
-        "title": "P4 Esbjerg",
-        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
-        "slug": "p4esbjerg",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b12167b626ea9bb294b0f/57ce769baf83ab06c873410dd832c8b3b12623bd8bf2cb61b6af399db06a7706"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032513395",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-26T07:30:00+02:00",
-      "id": "urn:dr:radio:episode:682b12167b626ea9bb294b0f",
-      "slug": "seneste-nyt-kl-07-30-14032513395",
-      "title": "Seneste nyt kl. 07:30",
-      "description": "Seneste nyt kl. 07:30",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
-        },
-        {
-          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpg",
-          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#103131",
-            "#97CDD7"
-          ]
-        },
-        "colors": {
-          "dark": "#103131",
-          "light": "#97CDD7"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14032512395",
-      "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
-      "productionNumber": "14032512395",
-      "publishTime": "2025-09-26T06:30:00+02:00",
-      "startTime": "2025-09-26T06:30:00+02:00",
-      "endTime": "2025-09-30T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-06-30-14032512395",
-      "order": 638944650000192395,
-      "nextId": "urn:dr:radio:episode:682b12167b626ea9bb294b0f",
-      "series": {
-        "title": "P4 Esbjerg regionale nyheder",
-        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
-        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
-        "productionNumber": "836630723000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
-        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
-      },
-      "channel": {
-        "title": "P4 Esbjerg",
-        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
-        "slug": "p4esbjerg",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b0feda956e6f133235edc/1cd46dbea5fa8493a403be228773daee21ceae4e7910412d18808c985bf9f4c6"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032512395",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-26T06:30:00+02:00",
-      "id": "urn:dr:radio:episode:682b0feda956e6f133235edc",
-      "slug": "seneste-nyt-kl-06-30-14032512395",
-      "title": "Seneste nyt kl. 06:30",
-      "description": "Seneste nyt kl. 06:30",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
