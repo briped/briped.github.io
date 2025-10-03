@@ -17,7 +17,7 @@
   "numberOfEpisodes": 159,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-01T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-03T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543405",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543405",
+      "publishTime": "2025-10-03T19:20:00+02:00",
+      "startTime": "2025-10-03T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mahlers-6-med-aalborg-og-aarhus-symfoniorkester-12422543405",
+      "order": 638951162025172405,
+      "previousId": "urn:dr:radio:episode:681c9950923dffbb1977527b",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9961a90908f76a9e7c3d/291cb1ae5226ddd276bd4cbb7c63f2cd9bff103fb2f087480b3ad7d9b27e37cf"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543405",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-03T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9961a90908f76a9e7c3d",
+      "slug": "mahlers-6-med-aalborg-og-aarhus-symfoniorkester-12422543405",
+      "title": "Mahlers 6. med Aalborg og Aarhus Symfoniorkester",
+      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
+      "description": "Det kræver et stort orkester at opføre Mahlers storslåede 6. Symfoni. Derfor er der musikere fra hele to jyske symfoniorkestre på scenen i aften - og et instrument Mahler opfandt til lejligheden: Mahlerhammeren, som repræsenterer skæbnen - og som skal lyde som et øksehug. \nMahler: Symfoni nr. 6. \nAalborg Symfoniorkester. \nAarhus Symfoniorkester. \nDirigent: Dmitry Matvienko. \n(- direkte fra Musikkens Hus i Aalborg). \nVært: Klaus Møller-Jørgensen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68dd2a96983f96266a5bffdb",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWG+j%V?x^WA9F%M_N-po#RjRjt7D%axWB%Lj[Rjt6D*oM%MM{WBj@ogf7ayWCRjxtRjWBxtRjWB"
+        },
+        {
+          "id": "urn:dr:radio:image:68dd2a96983f96266a5bffdb",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWG+j%V?x^WA9F%M_N-po#RjRjt7D%axWB%Lj[Rjt6D*oM%MM{WBj@ogf7ayWCRjxtRjWBxtRjWB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543403",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +166,7 @@
       "startTime": "2025-10-01T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/ars-nova-fejrer-arvo-parts-90-aar-12422543403",
       "order": 638949434025171403,
+      "nextId": "urn:dr:radio:episode:681c9961a90908f76a9e7c3d",
       "previousId": "urn:dr:radio:episode:681c9950c56338368d7677c0",
       "series": {
         "title": "P2 Koncerten",
@@ -9321,6 +9402,7 @@
       "productionNumber": "12422543014",
       "publishTime": "2025-01-02T19:20:00+01:00",
       "startTime": "2025-01-02T19:20:00+01:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/nytaarskoncert-fra-det-kongelige-teater-12422543014",
       "order": 638714426025103014,
       "nextId": "urn:dr:radio:episode:676f32897475010a5703cd1b",
@@ -12194,7 +12276,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/aarets-p2-kunstner-bjarke-mogensen-og-prinsens-musikkorps-12422443403",
       "order": 638634938024283403,
       "nextId": "urn:dr:radio:episode:66f72c438168ebc64d5ef936",
-      "previousId": "urn:dr:radio:episode:66edf2c8b126e5971228c02d",
+      "previousId": "urn:dr:radio:episode:66de20974312715628cdfccb",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12263,88 +12345,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443402",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443402",
-      "publishTime": "2024-10-01T19:20:00+02:00",
-      "startTime": "2024-10-01T19:20:00+02:00",
-      "endTime": "2025-10-01T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/esbjerg-ensemble-aabner-saesonen-12422443402",
-      "order": 638634074024282402,
-      "nextId": "urn:dr:radio:episode:66ef433eb126e597122e7df9",
-      "previousId": "urn:dr:radio:episode:66de20974312715628cdfccb",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:66edf2c8b126e5971228c02d/a8e8b7159168e7039a00b7d3b11c4cfa67373c3a091228e8c87d8ffd8702953c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443402",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-10-01T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:66edf2c8b126e5971228c02d",
-      "slug": "esbjerg-ensemble-aabner-saesonen-12422443402",
-      "title": "Esbjerg Ensemble åbner sæsonen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
-      "description": "Tag med til Esbjerg og hør et af landets bedste kammerensembler i musik der spænder fra klasikken til i dag. Beethoven: Strygetrio i G-dur. Pavel Haas: Blæserkvintet. Kaija Saariaho: Six Japanese Gardens - for slagtøj og elektronik. Gustav Holst: Sextet for obo, klarinet, fagot og strygetrio. Esbjerg Ensemble. (Syddansk Musikkonservatorium, Esbjerg 29. september). \nca. kl. 21.15\nPavel Haas:\nStrygekvartet nr. 1 og 3.\nPavel Haas Kvartetten.\nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd3501e3d006c1665de2e",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYF{uYNuI:SKofj@1FR*WobIWosoIo,[t7NtaejZ^8Nta}WBjZazABV@RjxHkCkCxHxas:sCWBS1"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd3501e3d006c1665de2e",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYF{uYNuI:SKofj@1FR*WobIWosoIo,[t7NtaejZ^8Nta}WBjZazABV@RjxHkCkCxHxas:sCWBS1"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443384",
       "durationMilliseconds": 9600000,
       "categories": [
@@ -12357,7 +12357,7 @@
       "endTime": "2025-12-27T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/aarhus-har-faaet-ny-chef-og-med-ham-foelger-et-skift-i-hele-byens-grundtone-12422443384",
       "order": 638623706024345384,
-      "nextId": "urn:dr:radio:episode:66edf2c8b126e5971228c02d",
+      "nextId": "urn:dr:radio:episode:66ef433eb126e597122e7df9",
       "previousId": "urn:dr:radio:episode:66db7d82fb1a3138527e388d",
       "series": {
         "title": "P2 Koncerten",
