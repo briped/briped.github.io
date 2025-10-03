@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-02T12:15:00+02:00",
+  "latestEpisodeStartTime": "2025-10-03T12:15:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/siesta-4193034243000",
   "psdbUrn": "urn:dr:mu:bundle:63b75b80539f0231281713fc",
   "psdbSlug": "mood-mix",
@@ -82,6 +82,100 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422533405",
+      "durationMilliseconds": 2700484,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422533405",
+      "publishTime": "2025-10-03T12:15:00+02:00",
+      "startTime": "2025-10-03T12:15:00+02:00",
+      "endTime": "2025-11-01T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/siesta/siesta/fredag-3-okt-2025-12422533405",
+      "order": 638950905000040405,
+      "previousId": "urn:dr:radio:episode:681cbeaa923dffbb197857c6",
+      "series": {
+        "title": "Siesta",
+        "id": "urn:dr:radio:series:63b75c5ff77905a0bdcd2521",
+        "slug": "siesta-4193034243000",
+        "productionNumber": "4193034243000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/siesta-4193034243000",
+        "learnId": "urn:dr:ocs:audio:content:series:4193034243000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681cbf05a75c4b58350f24bf/89d201ebc16dd772a5def2e43195bc1bbbb3bb31a0d31c52d91e43a14786230b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422533405",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-03T12:15:00+02:00",
+      "id": "urn:dr:radio:episode:681cbf05a75c4b58350f24bf",
+      "slug": "fredag-3-okt-2025-12422533405",
+      "title": "Fredag 3. okt. 2025",
+      "description": "Siesta er fuld af musik der klinger optimistisk, med ukuelig tro på det hele i en glædesfuld tone. Siesta til den perfekte fredagsstemning.\nVært: Claus Berthelsen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:677681a75e5e1a6ed3e62237",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NRC~*f~9ofIpoJxYR+M{R*bIoft6xtofM|IoRkj["
+        },
+        {
+          "id": "urn:dr:radio:image:677695ee5e5e1a6ed3e6818b",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPJ*9a8wn#tmWBi^NKRiR-IpWVkCxZxaRkIVWrRjWqoys:ofoeR*IoRkjss:t6j]s.kCRkRkj@jZ"
+        },
+        {
+          "id": "urn:dr:radio:image:677695ee5e5e1a6ed3e6818b",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPJ*9a8wn#tmWBi^NKRiR-IpWVkCxZxaRkIVWrRjWqoys:ofoeR*IoRkjss:t6j]s.kCRkRkj@jZ"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3e1f98936e4f519ad9832",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#14222D",
+            "#C7A48F"
+          ]
+        },
+        "colors": {
+          "dark": "#14222D",
+          "light": "#C7A48F"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422533404",
       "durationMilliseconds": 2701458,
       "categories": [
@@ -94,6 +188,7 @@
       "endTime": "2025-10-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/siesta/siesta/torsdag-2-okt-2025-12422533404",
       "order": 638950041000040404,
+      "nextId": "urn:dr:radio:episode:681cbf05a75c4b58350f24bf",
       "previousId": "urn:dr:radio:episode:681cbd82923dffbb19784e94",
       "series": {
         "title": "Siesta",
@@ -2354,7 +2449,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/siesta/siesta/torsdag-4-sep-2025-12422533364",
       "order": 638925849000036364,
       "nextId": "urn:dr:radio:episode:681cbf05923dffbb19785a70",
-      "previousId": "urn:dr:radio:episode:681cbd81a75c4b58350f19c0",
       "series": {
         "title": "Siesta",
         "id": "urn:dr:radio:series:63b75c5ff77905a0bdcd2521",
@@ -2412,100 +2506,6 @@
           "ratio": "1:1",
           "format": "image/jpeg",
           "blurHash": "oGB3HQ};ohEMax$*R,NFNHNGWXbHng%3RjIoR-WBbHozoJt7axWBRlM{axxuj?ofoefRWXRjaxof"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3e1f98936e4f519ad9832",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#14222D",
-            "#C7A48F"
-          ]
-        },
-        "colors": {
-          "dark": "#14222D",
-          "light": "#C7A48F"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422533363",
-      "durationMilliseconds": 2698547,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422533363",
-      "publishTime": "2025-09-03T12:15:00+02:00",
-      "startTime": "2025-09-03T12:15:00+02:00",
-      "endTime": "2025-10-02T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/siesta/siesta/onsdag-3-sep-2025-12422533363",
-      "order": 638924985000035363,
-      "nextId": "urn:dr:radio:episode:681cbea8923dffbb1978579d",
-      "series": {
-        "title": "Siesta",
-        "id": "urn:dr:radio:series:63b75c5ff77905a0bdcd2521",
-        "slug": "siesta-4193034243000",
-        "productionNumber": "4193034243000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/siesta-4193034243000",
-        "learnId": "urn:dr:ocs:audio:content:series:4193034243000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681cbd81a75c4b58350f19c0/db4b5c34d48ad7c491fc04b713c605d4a443f23b59dcaa9a9f5087951586c6c2"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422533363",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-03T12:15:00+02:00",
-      "id": "urn:dr:radio:episode:681cbd81a75c4b58350f19c0",
-      "slug": "onsdag-3-sep-2025-12422533363",
-      "title": "Onsdag 3. sep. 2025",
-      "description": "Dagens Siesta er fuld af drama. Til dig der vil smittes og forføres af musik med noget på spil. Nyd musik der spiller på hele følelsesregistret med store armbevægelser.\nVært: Carsten Wolf Andersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6827241d61175376c10884e7",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NRC~*f~9ofIpoJxYR+M{R*bIoft6xtofM|IoRkj["
-        },
-        {
-          "id": "urn:dr:radio:image:6827241d61175376c10884e9",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oDJ$y@Tu9G$,%LI.BVE1#S10V@oJ;^-pAHQ.E2OYrqgNb]$MW=S49uMy$$S~$*X8^PACwfI;RP-U"
-        },
-        {
-          "id": "urn:dr:radio:image:6827241d61175376c10884e9",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oDJ$y@Tu9G$,%LI.BVE1#S10V@oJ;^-pAHQ.E2OYrqgNb]$MW=S49uMy$$S~$*X8^PACwfI;RP-U"
         },
         {
           "id": "urn:dr:radio:image:67e3e1f98936e4f519ad9832",
