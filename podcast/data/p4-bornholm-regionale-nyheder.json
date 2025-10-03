@@ -13,10 +13,10 @@
   "categories": [
     "Nyheder"
   ],
-  "numberOfEpisodes": 56,
+  "numberOfEpisodes": 57,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-10-02T17:30:00+02:00",
+  "latestEpisodeStartTime": "2025-10-03T06:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder-846720669000",
   "psdbUrn": "urn:dr:mu:bundle:57d7d2016187a4031cfd57e6",
   "psdbSlug": "regionale-nyheder-roe4",
@@ -73,6 +73,91 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14902506405",
+      "durationMilliseconds": 180000,
+      "categories": [
+        "Nyheder"
+      ],
+      "productionNumber": "14902506405",
+      "publishTime": "2025-10-03T06:30:00+02:00",
+      "startTime": "2025-10-03T06:30:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-06-30-14902506405",
+      "order": 638950698000197405,
+      "previousId": "urn:dr:radio:episode:68418e89052e78b6ec41ca1a",
+      "series": {
+        "title": "P4 Bornholm regionale nyheder",
+        "id": "urn:dr:radio:series:5fa2957d330eac2f135bbcba",
+        "slug": "p4-bornholm-regionale-nyheder-846720669000",
+        "productionNumber": "846720669000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder-846720669000",
+        "learnId": "urn:dr:ocs:audio:content:series:846720669000"
+      },
+      "channel": {
+        "title": "P4 Bornholm",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4647",
+        "slug": "p4bornholm",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4bornholm"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6830495463111b2801728775/c34d3f0ebe709656798f91dc2a5ac4afbc869d552a3e8571f1d283e1ee6098e7"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14902506405",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-03T06:30:00+02:00",
+      "id": "urn:dr:radio:episode:6830495463111b2801728775",
+      "slug": "seneste-nyt-kl-06-30-14902506405",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Seneste nyt kl. 06:30",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c92abb2e9899b2c17c91",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NeI$$wXnO@S4ozs9?^RPMxR+jFt7S$xZV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c92abb2e9899b2c17c91",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NeI$$wXnO@S4ozs9?^RPMxR+jFt7S$xZV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1E07",
+            "#97CCD8"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1E07",
+          "light": "#97CCD8"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14902517404",
       "durationMilliseconds": 180024,
       "categories": [
@@ -81,8 +166,10 @@
       "productionNumber": "14902517404",
       "publishTime": "2025-10-02T17:30:00+02:00",
       "startTime": "2025-10-02T17:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-17-30-14902517404",
       "order": 638950230000196404,
+      "nextId": "urn:dr:radio:episode:6830495463111b2801728775",
       "previousId": "urn:dr:radio:episode:68418cd3052e78b6ec41ba09",
       "series": {
         "title": "P4 Bornholm regionale nyheder",
@@ -166,6 +253,7 @@
       "productionNumber": "14902516404",
       "publishTime": "2025-10-02T16:30:00+02:00",
       "startTime": "2025-10-02T16:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-16-30-14902516404",
       "order": 638950194000196404,
       "nextId": "urn:dr:radio:episode:68418e89052e78b6ec41ca1a",
@@ -252,6 +340,7 @@
       "productionNumber": "14902515404",
       "publishTime": "2025-10-02T15:30:00+02:00",
       "startTime": "2025-10-02T15:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-15-30-14902515404",
       "order": 638950158000196404,
       "nextId": "urn:dr:radio:episode:68418cd3052e78b6ec41ba09",
@@ -338,6 +427,7 @@
       "productionNumber": "14902512404",
       "publishTime": "2025-10-02T12:30:00+02:00",
       "startTime": "2025-10-02T12:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-12-30-14902512404",
       "order": 638950050000275404,
       "nextId": "urn:dr:radio:episode:68418675a0451cdf26d9e733",
@@ -424,6 +514,7 @@
       "productionNumber": "14902511404",
       "publishTime": "2025-10-02T11:30:00+02:00",
       "startTime": "2025-10-02T11:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-11-30-14902511404",
       "order": 638950014000275404,
       "nextId": "urn:dr:radio:episode:684182e1052e78b6ec416fc8",
@@ -510,6 +601,7 @@
       "productionNumber": "14902510404",
       "publishTime": "2025-10-02T10:30:00+02:00",
       "startTime": "2025-10-02T10:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-10-30-14902510404",
       "order": 638949978000275404,
       "nextId": "urn:dr:radio:episode:684181b1052e78b6ec4163e5",
@@ -596,6 +688,7 @@
       "productionNumber": "14902509404",
       "publishTime": "2025-10-02T09:30:00+02:00",
       "startTime": "2025-10-02T09:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-09-30-14902509404",
       "order": 638949942000275404,
       "nextId": "urn:dr:radio:episode:6830736fb014e3ecf862bc12",
@@ -682,6 +775,7 @@
       "productionNumber": "14902508404",
       "publishTime": "2025-10-02T08:30:00+02:00",
       "startTime": "2025-10-02T08:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-08-30-14902508404",
       "order": 638949906000275404,
       "nextId": "urn:dr:radio:episode:68306bc1bc0c69d54d985e4d",
@@ -768,6 +862,7 @@
       "productionNumber": "14902507404",
       "publishTime": "2025-10-02T07:30:00+02:00",
       "startTime": "2025-10-02T07:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-07-30-14902507404",
       "order": 638949870000275404,
       "nextId": "urn:dr:radio:episode:68305dc619464da632639f7d",
@@ -854,6 +949,7 @@
       "productionNumber": "14902506404",
       "publishTime": "2025-10-02T06:30:00+02:00",
       "startTime": "2025-10-02T06:30:00+02:00",
+      "endTime": "2026-01-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4bornholm/p4-bornholm-regionale-nyheder/p4-bornholm-regionale-nyheder/seneste-nyt-kl-06-30-14902506404",
       "order": 638949834000196404,
       "nextId": "urn:dr:radio:episode:68304fa3bc0c69d54d97a960",
