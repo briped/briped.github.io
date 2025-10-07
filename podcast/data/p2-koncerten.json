@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 160,
+  "numberOfEpisodes": 161,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-06T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-07T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543412",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543412",
+      "publishTime": "2025-10-07T19:20:00+02:00",
+      "startTime": "2025-10-07T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/ro-paa-koncert-med-esbjerg-ensemble-12422543412",
+      "order": 638954618025174412,
+      "previousId": "urn:dr:radio:episode:681c99622b77f3385e307bf8",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9962a95582916ea8cfb1/44b0d9068041b5ec5bb3753b7452c3ab5dc4d0e8134197944095eaf41924b097"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543412",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-07T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9962a95582916ea8cfb1",
+      "slug": "ro-paa-koncert-med-esbjerg-ensemble-12422543412",
+      "title": "Ro På koncert med Esbjerg Ensemble",
+      "description": "WHO siger at den største sundhedsudfordring de næste 10 år er vores mentale helbred. En af årsagerne er vores opskruede tempo og manglende evne til at geare ned. Det vil P2 og en række danske ensembler gøre noget ved med initiativet Ro På, som både er en række koncerter og en samling podcasts i DR Lyd. Oplev en aften hvor Esbjerg Ensemble har sammensat musik til indre ro. Musik af bl.a. Bach og Per Nørgard.\nEsbjerg Ensemble.\n(Musikhuset Esbjerg 4. oktober). \nVært: Claus Berthelsen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68e4e1130942424ec2074cfe",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o6Bpd==LaPaw%J${-rE0t5W,IpWA-3bISvXRM}NKOgWHs=x[a}xu029tM}WVNGt7ksn,oxWAe:ni"
+        },
+        {
+          "id": "urn:dr:radio:image:68e4e1130942424ec2074cfe",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o6Bpd==LaPaw%J${-rE0t5W,IpWA-3bISvXRM}NKOgWHs=x[a}xu029tM}WVNGt7ksn,oxWAe:ni"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543411",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-10-06T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/meditationskoncert-med-dr-vokalensemblet-12422543411",
       "order": 638953754025173411,
+      "nextId": "urn:dr:radio:episode:681c9962a95582916ea8cfb1",
       "previousId": "urn:dr:radio:episode:681c9961a90908f76a9e7c3d",
       "series": {
         "title": "P2 Koncerten",
@@ -122,7 +202,6 @@
       "id": "urn:dr:radio:episode:681c99622b77f3385e307bf8",
       "slug": "meditationskoncert-med-dr-vokalensemblet-12422543411",
       "title": "Meditationskoncert med DR Vokalensemblet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Luk øjnene, træk vejret dybt og lad musikken tage dig på rejse. DR Vokalensemblet har sammensat et musikalsk flow der byder på musik fra Bach til Billy Joel, med klange og rytmer der både stryger med hårene og overrasker. DR Vokalensemblets meditationskoncerter er blevet en tradition, og der er rift om pladserne. Men her kan du høre koncerten i radioen eller lige når det passer. \nMusik bl.a. Bach, Ola Gjeilo, Erland von Koch, Billy Joel m.fl. \nMedvirkende: \nJeanette Balland, saxofon. \nDR Vokalensemblet. \nDirigent: Anastasia Kildisa. \n(Vor Frue Kirke, København, 4. oktober). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -203,7 +282,6 @@
       "id": "urn:dr:radio:episode:681c9961a90908f76a9e7c3d",
       "slug": "mahlers-6-med-aalborg-og-aarhus-symfoniorkester-12422543405",
       "title": "Mahlers 6. med Aalborg og Aarhus Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det kræver et stort orkester at opføre Mahlers storslåede 6. Symfoni. Derfor er der musikere fra hele to jyske symfoniorkestre på scenen i aften - og et instrument Mahler opfandt til lejligheden: Mahlerhammeren, som repræsenterer skæbnen - og som skal lyde som et øksehug. \nMahler: Symfoni nr. 6. \nAalborg Symfoniorkester. \nAarhus Symfoniorkester. \nDirigent: Dmitry Matvienko. \n(- direkte fra Musikkens Hus i Aalborg). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -284,7 +362,6 @@
       "id": "urn:dr:radio:episode:681c9950923dffbb1977527b",
       "slug": "ars-nova-fejrer-arvo-parts-90-aar-12422543403",
       "title": "Ars Nova fejrer Arvo Pärts 90 år",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Estiske Arvo Pärt er en ener. Hans kontemplative, rolige toner og klange er næsten genre for sig selv. Og han har skrevet et væld af kormusik, så selvfølgelig markerer et af landets bedste vokalensembler hans 90 år i år. Hør hans egen musik - sat i perspektiv af komponister som Palestrina, Erik Esenvalds og Mette Nielsen. \nArs Nova Copenhagen. \nDirigent: Sofi Jeannin. \n(Trinitatis Kirke, København 28. september). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -366,7 +443,6 @@
       "id": "urn:dr:radio:episode:681c9950c56338368d7677c0",
       "slug": "wiener-filharmonikerne-spiller-schuberts-4-og-bruckners-messe-nr-3-12422543402",
       "title": "Wiener Filharmonikerne spiller Schuberts 4. og Bruckners Messe nr. 3",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En koncert der ganske enkelt er svær at sige nej til: Måske verdens bedste symfoniorkester. En symfoni med en af de smukkeste andensatser der nogensinde er skrevet og en romantisk messe af Bruckner.  \nYing Fang, sopran. \nWiebke Lehmkuhl, kontra-alt. \nPavol Breslik, tenor. \nWilliam Thomas, bas. \nWiener Statsoperaens kor. \nWiener Filharmonikerne. \nDirigent: Riccardo Muti. \n(Salzburg Festival 15. august).  \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -447,7 +523,6 @@
       "id": "urn:dr:radio:episode:681c998d2b77f3385e307d25",
       "slug": "dr-vokalensemblet-og-a-symphony-of-man-12422543401",
       "title": "DR Vokalensemblet og A Symphony of Man",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblet og dirigent Philip Faber i to farverige nye værker der kredser om menneskets sørgelige evne til at ødelægge. Værkerne omkranses af smukke renæssancemotetter af Palestrina. Komponisten Peter Navarro Alonsos symfoni for stemmer beskriver den smukke verden over for de menneskeskabte katastrofer. Og Edgar Godoy genfortæller myten om Babelstårnet, så den babyloniske forvirring bliver en ny begyndelse.  \nPeter Navarro Alsonso: A Symphony of Man. \nEdgar Moya Godoy: El Larillo Que Cayó (Murstenen der faldt). \nPalestrina: Osculetur me og Nigra sum sed formosa. \nMedvirkende: \nDR Vokalensemblet. \nDirigent: Philip Faber. \n(Trinitatis Kirke, København, 26. nov). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -529,7 +604,6 @@
       "id": "urn:dr:radio:episode:681c9961a75c4b58350e1f8e",
       "slug": "piazzolla-i-ny-festival-aalborg-kammermusikfestival-12422543395",
       "title": "Piazzolla i ny festival: Aalborg Kammermusikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En ny kammermusikfestival er født i det nordjyske og vi er med - direkte - for at høre tangoens lidenskab, rytme og intensitet, i musik af bl.a. Astor Piazzolla og Jacob Gade. \nAstrid Mikaelyan, violin. \nThomas Lundström, cello.  \nJulie Holmegaard Schade, akkordeon. \n(- direkte fra Utzon Centret i Aalborg). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -610,7 +684,6 @@
       "id": "urn:dr:radio:episode:681c99502b77f3385e307b38",
       "slug": "aarets-p2-kunstnere-nightingale-string-quartet-med-jonas-froelund-12422543393",
       "title": "Årets P2 Kunstnere: Nightingale String Quartet med Jonas Frølund",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Vi har glædet os til at du skal høre denne koncert! Nightingale er årets P2 Kunstnere og her får du den stærke kvartet sammen med en af landets førende unge klarinettister, Jonas Frølund. De spiller Bent Sørensens spritnye Klarinetkvintet og Brahms ældre ditto. \nJonas Frølund, klarinet. \nNightingale String Quartet. \n(- direkte fra La Oficina på Frederiksberg).  \nKl. 19.20-20.00: \nSørensen: Serenidad. \nMartin Fröst, klarinet. \nDR Symfoniorkestret. \nDirigent: Thomas Søndergård. \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -691,7 +764,6 @@
       "id": "urn:dr:radio:episode:681c9950a90908f76a9e7b89",
       "slug": "droemme-paa-frederiksberg-festspil-12422543392",
       "title": "Drømme på Frederiksberg Festspil",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Mystiske, inderlige og sanselige drømme: Tag med til Frederiksberg og hør først pianisten Zlata Chochieva kredse om Skrjabins mystisk og symbolsk lyriske toneverden. \nHerefter tager den norske Vertavo strygekvartet over, sammen med  Jonas Frølund i drømmende musik af Mozart og Ravel og et helt nykomponeret værk af Anders Koppel. \nZlata Chochieva, klaver. \nJonas Frølund, klarinet. \nVertavo String Quartet. \n(La Oficina, Frederiksberg 13. september).  \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -772,7 +844,6 @@
       "id": "urn:dr:radio:episode:681c994f083a81efebded2a9",
       "slug": "kjoeller-rastogi-i-odense-12422543391",
       "title": "Kjøller / Rastogi i Odense",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tag med til Odense Kammermusikforening og hør soloklarinettist i Aarhus Symfoniorkester, Mathias Kjøller og pianisten Søren Rastogi i et flot program med en hel række af hovedværkerne inden for klarinet-klaverrepertoiret: Musik af Schumann, Brahms, Debussy, Alban Berg, Lennard Bernstein og Francis Poulenc. \nMathias Kjøller, klarinet. \nSøren Rastogi, klaver.  \n(Odense Valgmenighed 21. september). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -853,7 +924,6 @@
       "id": "urn:dr:radio:episode:681c994fb3140b1c1f3b771d",
       "slug": "aarhus-kammermusikfestival-og-den-alt-for-tidlige-doed-12422543385",
       "title": "Aarhus Kammermusikfestival og den alt for tidlige død",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Kan man begynde en festival med døden som tema? Det gør de i Aarhus: Hør smuk fransk kormusik af Lili Boulanger, der døde som blot 24-årig, Schuberts dramatiske strygekvartet Døden og pigen og Smetanas hjerteskærende klavertrio, skrevet til minde om hans lille datter. \nEnsemble Edge. \nTony Nguyen, klaver. \nAnna Egholm, violin. \nJonathan Swensen, cello. \nDavid Munk-Nielsen, klaver. \nEthan Hou, violin. \nJohannes Pihl, bratsch. \n(- direkte fra Aarhus Musikhus' Lille sal). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -934,7 +1004,6 @@
       "id": "urn:dr:radio:episode:681c9960083a81efebded349",
       "slug": "women-of-brass-i-roskilde-12422543383",
       "title": "Women of Brass - i Roskilde",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Du har måske allerede opdaget dem, og hvis ikke, har du her muligheden for at høre nogen af landets skarpeste messingblæsere. Egentlig er de 10, men i aften gæster de Roskilde i kvintetformation og spiller en vifte af både dansk og udenlandsk messingblæsermusik, af bl.a. Paul Dukas, Carl Nielsen og Caroline Recke-Madsen. \n(- direkte fra Koncertkapellet i Roskilde). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -1015,7 +1084,6 @@
       "id": "urn:dr:radio:episode:681c994fa95582916ea8cef4",
       "slug": "across-festival-novo-og-elmore-kvartetten-12422543382",
       "title": "Across Festival: Novo og Elmore kvartetten",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Across festival er den unge danske Novo kvartets nye festival-initiativ, og ideen er, at de hvert år inviterer udenlandske musikere til at spille sammen med sig. Hør Novo kvartetten spille med den engelske Elmore Quartet, som de også er koblet sammen med ved den fine udnævnelse som BBC Radio 3 New Generation Artist. Værkerne smager naturligvis af England:  \nVaughan Williams: Phantasy Quintet. \nBenjamin Britten: Strygekvartet nr. 2. \nImogen Holst: Phantasy Quartet. \nRobert Schumann: Strygekvartet nr. 2. \nElmore Quartet. \nNovo Quartet. \n(Literaturhaus, København 13. september). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -1097,7 +1165,6 @@
       "id": "urn:dr:radio:episode:681c9960923dffbb19775317",
       "slug": "danmark-overtager-eu-med-coco-og-brantelid-12422543381",
       "title": "Danmark overtager EU - med CoCo og Brantelid",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Midt i sommeren overtog vores lille land formandskabet for EU. Det blev markeret ved en koncert med Concerto Copenhagen i Bruxelles, hvor jo også mange af møderne foregår. Hør bl.a. Andreas Brantelid som solist i Haydns Cellokoncert nr. 1 og danske J.P.E. Hartmanns første symfoni. \nAndreas Brantelid, cello.\t  \nConcerto Copenhagen. \nMusikalsk ledelse: Lars Ulrik Mortensen. \n(Palais des Beaux-Arts, Bruxelles 4. september).  \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -1179,7 +1246,6 @@
       "id": "urn:dr:radio:episode:681c995fc56338368d767858",
       "slug": "duos-haydn-festival-m-p2-talent-12422543375",
       "title": "DUOs Haydn-festival m P2 Talent",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvis du ikke har hørt ham allerede, så er det på tide: Pianisten Valdemar Wenzel Most er solist i en Haydnkoncert i samspil med Danmarks Underholdningsorkester og uropfører et nyt solostykke, skrevet specielt til ham, af komponisten Aya Yoshida. \nAya Yoshida: \"A Sound That Isn't (Here)\" for klaver Uropførelse. \nHaydn: Symfoni nr. 89. \nHaydn: Klaverkoncert nr. 11. \nHaydn: Symfoni nr. 88. \nValdemar Wenzel Most, klaver.\nDanmarks Underholdningsorkester. \nDirigent: Adam Fischer. \n(DKDMs koncertsal 7. september). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -1213,7 +1279,7 @@
     {
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543374",
-      "durationMilliseconds": 10502144,
+      "durationMilliseconds": 6842905,
       "categories": [
         "Musik",
         "Klassisk"
@@ -1249,7 +1315,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68c2b7c2a437954b1383f054/9ced8394f878f1d4a5aef082af6454576d0ffb08b9d628dfcb44bb8aa4a03fb6"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68c2b7c2a437954b1383f054/e2a1f5ba2adf1459faa550f82423ef9da74cbb83d6222e5b75d692623a521b2b"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543374",
@@ -1260,7 +1326,6 @@
       "id": "urn:dr:radio:episode:68c2b7c2a437954b1383f054",
       "slug": "dr-vokalensemblet-hylder-arvo-part-12422543374",
       "title": "DR Vokalensemblet hylder Arvo Pärt",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør Arvo Pärts smukke og tidløse klange i en stemningsfuld koncert med DR Vokalensemblet og organist Hanne Kuhlmann. Koncerten fejrer den banebrydende estiske komponists 90-års fødselsdag.  \nArvo Pärt er en af nutidens mest betydningsfulde komponister. Hans meditative klangunivers taler til hjerter og øren langt uden for den klassiske verden. Ved koncerten kan du høre Pärts klassikere sammen med værker af estiske kollegaer og musikalske beundrere, bl.a. Alfred Schnittke og Veljo Tormis. \nMusik bl.a.: \nArvo Pärt: Spiegel im Spiegel. \nArvo Pärt: Summa. \nAlfred Schnittke: 3 sacred hymns. \nVeljo Tormis: Autumn landscapes (uddrag). \nMedvirkende. \nHanne Kuhlmann, organist. \nDR Vokalensemblet. \nDirigent: Alexander Lüken. \n( - direkte fra DR Koncerthuset). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -1341,7 +1406,6 @@
       "id": "urn:dr:radio:episode:681c994f923dffbb19775269",
       "slug": "mindesvaerker-for-mennesker-paa-flugt-12422543373",
       "title": "Mindesværker for mennesker på flugt",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det er 80 år siden befrielsen, men krigen er desværre kommet tilbage til Europa. Denne særlige solokoncert med Pianisten Ramez Mhanna er inspireret af pianisten og komponisten Gunnar Berg, som i året efter befrielsen spillede for flygtninge i Røde Kors' lejre. \nMusik af Beethoven, Bartok, Gunnar Berg og Chopin. \nRamez Mhanna, klaver. \n(Kongegaarden, Korsør 3. september). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -1422,7 +1486,6 @@
       "id": "urn:dr:radio:episode:681c995f2b77f3385e307bd8",
       "slug": "copenhagen-baroque-piber-og-floejter-12422543372",
       "title": "Copenhagen Baroque: Piber og fløjter",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Lyt med når den københavnske musikfestival sætter fokus på orglet og fløjterne i barokken. Musik af Charpentier, Johann A. Schmierer, Couperin og Torelli. \nDavid van Laar, kontratenor.  \nPeter Navarro-Alonso, orgel.  \nBolette Roed, blokfløjte. \nJoachim Becerra-Thomsen, tværfløjte. \nArte dei Suonatori. \nMusikalsk ledelse: Aureliusz Golinski. \n(Vor Frelsers Kirke 4. september). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -1503,7 +1566,6 @@
       "id": "urn:dr:radio:episode:681c998ba75c4b58350e20b6",
       "slug": "hyldig-og-de-smaa-kravl-i-ribe-12422543371",
       "title": "Hyldig og de små kravl i Ribe",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En hel aften i selskab med en af landets flittigste pianister, som i år er en del af Langaardfestivalen i Ribe. Omdrejningspunktet er Langgaardværket Insektarium - programmusik der beskriver alt fra stankelben, over ørentviste til fluer! \nMusikken i resten af koncerten kredser også om naturen: \nTekla Griebel Wandall: Vildmosen, Nat, Skyer, I den danske sommernat. \nRobert Schumann: Karneval. \nRued Langgaard: Insektarium. \nEdvard Grieg: Drömmesyn. \nRued Langgaard: Le Béguinage. \nKristoffer Hyldig, klaver. \n(Sct. Catharinæe Kirke, Ribe 4. september). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -1584,7 +1646,6 @@
       "id": "urn:dr:radio:episode:681c994fc56338368d7677ab",
       "slug": "langgaardfestival-for-fuld-udblaesning-12422543365",
       "title": "Langgaardfestival for fuld udblæsning",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tag med til Ribe og hør en koncert hvor alle sejl er sat til for at fejre byens berømte organist og komponist Rued Langgaard. Hør ham som symfoniker (inkl. orgel!), i et værk for kor, solist og orkester, og et for sopransolist og orkester. Værkerne bliver sat i perspektiv af en Messiaen-motet og en orkestersuite af Langgaards samtidige Ludolf Nielsen. \nLouise McClelland, sopran. \nVor Frelsers Kirkes Kor og Akademisk kor Aarhus. \nSønderjyllands Symfoniorkester. \nMikkel Andreassen og Jonas Rasmussen, kordirigenter. \nDirigent: Michael Schønwandt. \n(- direkte fra Ribe Domkirke).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -1665,7 +1726,6 @@
       "id": "urn:dr:radio:episode:681c994ea90908f76a9e7b7a",
       "slug": "ny-ung-stjernetrio-ved-schubertiaden-i-roskilde-12422543363",
       "title": "Ny ung stjernetrio ved Schubertiaden i Roskilde",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Trio Theros er navnet på et nystiftet ensemble med tre af Danmarks mest fremtrædende unge musikere: Violinisten Anna Agafia Egholm, cellisten Jonathan Swensen og pianisten Gustav Piekut. Hør deres flotte koncert under Schubertiaden i Roskilde. \nSjostakovitj: Klavertrio nr. 1. \nBeethoven: Klavertrio i Es-dur op. 70, nr 2. \nSchubert: Klavertrio nr 1 i B-dur. \nGustav Piekut, klaver. \nAnna Agafia Egholm, violin. \nJonathan Swensen, cello. \nHør også late night concert med sanger/sangskriver Mira Siegel, bl.a. numrene Bridges og I'll Be Seeing You. \n(Koncertkapellet, Roskilde 22. august). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -1746,7 +1806,6 @@
       "id": "urn:dr:radio:episode:681c995eb3140b1c1f3b77c3",
       "slug": "dr-vokalensemblet-paa-the-proms-12422543362",
       "title": "DR Vokalensemblet på The Proms",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblet i en koncert fra \"The Proms\", hvor musikken er en samtale over århundreder. Fra Bach og Palestrina til engelske Ethel Smythe og Carl Nielsen, som var inspirerede af de gamle komponister. Derimellem danske sommersange, sange af Alma og Gustav Mahler og af slovenske Uros Krek.  \nMusik bl.a. \nJ.S. Bach: \"Komm, Jesu, komm\". \nEthyl Smythe: \"Komm, süsser Tod\". \nPalestrina: \"Fratres ego enim accepi\". \nCarl Nielsen: \"Tre motetter\".  \nMedvirkende: \nDR Vokalensemblet. \nGraham Ross, dirigent. \n(Bristol Beacon 23. august 2025).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -1827,7 +1886,6 @@
       "id": "urn:dr:radio:episode:681c994e1720bd973dfaa92c",
       "slug": "cellomarathon-swensen-og-aarhus-kammerorkester-12422543361",
       "title": "Cellomarathon: Swensen og Aarhus Kammerorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Nyd en aften med cellolækkerier!  Jonathan Swensen har nok trætte fingre efter i aften - han er cellosolist i tre ud af de fire værker - akkompagneret af det unge Aarhus-orkester.\nHaydn: Cellokoncert nr. 1. \nGiovanni Sollima: Fecit Neap 17 for solo-cello og orkester. \nSchubert (arr. Mahler): Døden og Pigen, 1. sats. \nElgar: Cellokoncert i e-mol. \nJonathan Swensen, cello. \nAarhus Kammereorkester. \nMagnus Plejdrup, dirigent. \n(- direkte fra Diamanten i København). \nVært: Carsten Wolf Andersen.",
       "imageAssets": [
         {
@@ -1908,7 +1966,6 @@
       "id": "urn:dr:radio:episode:681c994ea75c4b58350e1ec6",
       "slug": "bornholms-musikfestival-12422543355",
       "title": "Bornholms Musikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Glæd dig til en inspirerende aften i Aa Kirke på Bornholm, hvor tre danske talenter fylder kirkerummet med toner. \nDu kan høre deres egen udgave af Mozarts Sonate nr. 21 i e-mol, oprindeligt for violin, nu arrangeret for klarinet og klaver, Camille Pépins \"\"Snow, moon & flowers\"\", et moderne værk fra 2018 og Beethovens \"Syv variationer over 'Bei Männern, welche Liebe fühlen'\" fra Mozarts Tryllefløjten. Aftenen byder også på Bent Sørensens \"Schattenlinie\" i komponistens egen version for klarinet, cello og klaver, inden Beethovens Trio, op. 11 \"\"Gassenhauer\"\" afslutter koncerten med sin velkendte charme. \nJonas Frølund, klarinet. \nJonathan Swensen, cello. \nElias Holm, klaver. \n(Aa Kirke, Bornholm 14. august). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -1989,7 +2046,6 @@
       "id": "urn:dr:radio:episode:68aec6233d1da25c23e8a920",
       "slug": "henschel-kvartetten-i-soroe-klosterkirke-12422543354",
       "title": "Henschel Kvartetten i Sorø Klosterkirke",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Sorø Internationale Musikfestival åbner dørene til den smukke klosterkirke i Sorø, når den anerkendte Henschel Kvartetten gæster. Kvartetten, kendt for deres formidable samspil og fortolkninger, præsenterer et program, der spænder over klassicismens elegance til det 20. århundredes ekspressivitet. \nKoncerten indledes med Ludwig van Beethovens Strygekvartet op. 18 nr. 1 i F-dur, et tidligt mesterværk, der viser hans innovative tilgang til genren. Herefter følger Leos Janáceks Strygekvartet nr. 1, \"Kreutzersonaten\", et dramatisk og lidenskabeligt værk inspireret af Tolstojs fortælling. Efter pausen afrundes aftenen med Franz Schuberts Strygekvartet i a-mol, D. 804, \"Rosamunde\", et lyrisk og melankolsk hovedværk i genren. \nHenschel Kvartetten. \n(Sorø Klosterkirke 27. august). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -2070,7 +2126,6 @@
       "id": "urn:dr:radio:episode:681c994eb3140b1c1f3b770f",
       "slug": "eventyr-i-ord-og-musik-12422543353",
       "title": "Eventyr i ord og musik",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En aften i Helligåndskirken i Hvide Sande, hvor musik og fortælling forenes. Oplev Brahms' Trio for mezzosopran, bratsch og klaver, et værk karakteriseret ved sin lyriske varme og melodiske integritet. Derefter følger Alban Bergs \"Sieben Frühe Lieder\", der demonstrerer senromantisk ekspressivitet og klangfarve. Disse leder frem til Griegs \"Haugtussa\"-cyklus, et værk rodfæstet i nordisk nationalromantik. Koncertens eneste instrumentale værk er festivalkomponisten Ole Bucks \"Divertimento Autumnale\" for bratsch og klaver. \nBrit-Tone Müllertz, sopran. \nKristoffer Hyldig, klaver. \nAnette Slaatto, bratsch. \n(Helligåndskirken, Hvide Sande 13. august). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -2151,7 +2206,6 @@
       "id": "urn:dr:radio:episode:681c994e923dffbb1977525b",
       "slug": "eicmf-12422543352",
       "title": "EICMF",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev en stjernespækket aften ved Esbjerg International Chamber Music Festival. Et hold af internationale musikere byder på tre vidt forskellige værker, der spænder fra det velkendte til det mere sjældne. Vi dykker ned i Johannes Brahms' smukke Strygekvintet i G-dur, et mesterværk der især hos musikerne på scenen ligger hjertet nær.  Derefter er der mulighed for nye bekendtskaber i Jean-Michel Damases charmerende Trio for Obo, Horn & Klaver, som byder på en unik klangkombination og Sergej Tanayevs udtryksfulde Klaverkvartet. \nJohannes Brahms: Strygekvintet Op.111. G Dur. \nJean-Michel Damase: Trio Oboe, Horn & Klaver. \nSergej Tanayev: Klaverkvartet  Op. 20. \nChristian Ihle Hadland, klaver. \nMaria Wloszczowska, violin. \nPablo Hernán Benedí, violin. \nTim Crawford, violin. \nHélène Clément, bratsch. \nMichel Camille, bratsch. \nEdvard Pogossian, cello. \nPau Codina, cello. \nDavid Dinu, obo. \nJoke Wijma, horn. \nAntti Salovaara, fagot. \n(Syddansk Musikkonservatorium, Esbjerg. 24. august). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -2232,7 +2286,6 @@
       "id": "urn:dr:radio:episode:681c998aa90908f76a9e7d52",
       "slug": "asmus-hanke-frederiksen-aarets-operatalent-i-christianskirken-12422543351",
       "title": "Asmus Hanke Frederiksen: Årets Operatalent i Christianskirken",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Glæd dig til en flot aften i Christianskirken med barytonen Asmus Hanke Frederiksen. Asmus er Årets Operatalent ved Copenhagen Opera Festival og en af Danmarks dygtigste unge stemmer. Han har allerede gjort sig bemærket på operascenen og er kendt for sin gode stemme og overbevisende fortolkninger.\nSammen med pianisten Berit Juul Rasmussen præsenterer Asmus et alsidigt program med nogle af operalitteraturens kendte arier.\nVærker af bl.a. Ravel, Verdi, Mozart og Carl Nielsen. \nAsmus Hanke Frederiksen, baryton. \nBerit Juul Rasmussen, klaver. \n(Christianskirken, København 24. august). \nVært: Mette Greiffenberg.",
       "imageAssets": [
         {
@@ -2313,7 +2366,6 @@
       "id": "urn:dr:radio:episode:681c994dc56338368d76779c",
       "slug": "fire-klaverkvintetter-med-rudersdal-kammersolister-12422543345",
       "title": "Fire klaverkvintetter med Rudersdal Kammersolister",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Sjostakovitj døde for 50 år siden. Det markerer ensemblet ved at spille hans klaverkvintet. Men ikke nok med det - de uropfører også to nye klaverkvintetter af Elena Firsova og danske Frederik Zeuthen. Sidste kvintet er skrevet af Sjostakovitjs landsman, Boris Tischenko. \nChristine Pryn og Amalie Kjældgaard, violin. \nIsabelle Bania, bratsch. \nJohn Ehde, cello. \nManuel Esperilla, klaver. \n(Gl. Holte Kirke 21. august). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -2394,7 +2446,6 @@
       "id": "urn:dr:radio:episode:681c995d083a81efebded334",
       "slug": "flugten-12422543343",
       "title": "\"Flugten\"",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev en dybt personlig og bevægende aften, når oboisten Henrik Goldschmidt formidler sin families dramatiske historie. I selskab med stjernesopranen Inger Dam-Jensen og Anders Singh Vesterdahl på harmonika, får publikum indblik i en central, turbulent periode i historien. \nKoncerten \"\"Flugten\"\" tager udgangspunkt i familien Goldschmidts liv i 1930'ernes Nazi-Tyskland, deres flugt til Danmark i 1938 som statsløse flygtninge og den videre dramatiske flugt til Sverige i 1943. Vi hører Henriks bedsteforældres - den hemmelige digter Jella Goldschmidt og den klaverspillende læge Ernst Goldschmidt - oplevelser. Aftenen byder på både instrumentalnumre, der beskriver livet som forfulgt, og sange til Jella Goldschmidts digte, som Henrik har sat musik til og Inger Dam-Jensen synger. \nInger Dam-Jensen, sopran. \nHenrik Goldschmidt, obo, klarinet og vokal. \nAnders Singh Vesterdahl, Harmonika. \n(Søbygaard, Ærø 13. august). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -2475,7 +2526,6 @@
       "id": "urn:dr:radio:episode:681c994d9514fc4eb6c86215",
       "slug": "concerto-copenhagen-og-freezing-italians-12422543342",
       "title": "Concerto Copenhagen og \"Freezing Italians\"",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tag med Concerto Copenhagen på en musikalsk ekspedition til en fascinerende periode i nordisk musikhistorie med koncerten \"Freezing Italians\". Titlen hentyder skælmsk til de italienske kunstneres møde med det kolde nord - en skarp kontrast til den ofte brandvarme italienske opera, de bragte til Stockholm og København mellem 1730 og 1760. \nMed mezzosopran Ann Hallenberg som solist, genopliver Concerto Copenhagen arier af Gluck, Sarti, Uttini, Scalabrini og Chelleri. Programmet er helt unikt, da alle arier er førsteindspilninger! \nAnn Hallenberg, mezzosopran. \nConcerto Copenhagen. \nDirigent: Lars Ulrik Mortensen. \n(Christians Kirke, København 15. august).  \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -2556,7 +2606,6 @@
       "id": "urn:dr:radio:episode:681c994d083a81efebded28d",
       "slug": "valdemar-og-ludvig-to-stjerneskud-indtager-nyborg-slotskoncerter-12422543341",
       "title": "Valdemar og Ludvig: To stjerneskud indtager Nyborg Slotskoncerter",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Gør dig klar til en aften i selskab med to af Nordens mest spændende unge musikere: Valdemar Wenzel Most ved klaveret og Ludvig Gudim på violin. Valdemar er udnævnt til P2 Talent i 2025 og har, ligesom Ludvig, allerede vundet adskillige priser og høstet stor anerkendelse for sit spil. Buen bliver spændt og alle oktaver taget i brug når de to præsenterer musik fra Mozart til Messiaen! \nMozart: Sonate i A dur, No. 22, K. 305. \nBrahms: Sonate i G dur, No. 1, Op. 78. \nMessiaen: Tema og Variationer.  \nFranck: Sonate i A dur. \nValdemar Wenzel Most, klaver.  \nLudvig Gudim, violin. \n(Nyborg Kirke 17. august). \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -2637,7 +2686,6 @@
       "id": "urn:dr:radio:episode:6880c69cdd7ee14cc3f4e7e2",
       "slug": "stemmer-fra-skyggen-aabningskoncert-fra-festivalen-skyggekvinder-12422543612",
       "title": "Stemmer fra Skyggen: Åbningskoncert fra festivalen \"Skyggekvinder\"",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Aftenens koncert er mere end blot en samling af smukke melodier; den er en hyldest til de kvindelige komponister, hvis enestående talent og vision har stået i musikhistoriens skygge. Sammen med bl.a. Nightingale String Quartet  belyser Steinaatrioen komponister som Louise Farrenc, hvis musik bugner af melodisk opfindsomhed og formmæssig beherskelse, og Elfrida Andrée, en pioner i svensk musik, hvis værker vidner om originalitet og styrke. Gennem aftenen får vi også indblik i musik af Hildegard Sehested og S. Meyer, der på hver deres måde har beriget det klassiske repertoire med unikke stemmer. \nSteinaatrioen.  \nNightingale String Quartet. \nZachary Hatcher, harpe. \nElias Holm, klaver. \nRikke Sandberg, klaver.  \nMichael Grolid, bratch.  \nHenrik Dam Thomsen, cello. \n(Unitarernes Hus, København 8. august). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -2718,7 +2766,6 @@
       "id": "urn:dr:radio:episode:681c994da95582916ea8ced7",
       "slug": "en-musikalsk-rejse-gennem-europa-ved-lundsgaard-festival-12422543333",
       "title": "En musikalsk rejse gennem Europa ved Lundsgaard Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Trio con Brio har vanen tro inviteret et hold af etablerede stjerner og unge talenter til Kerteminde for at tage del i festivalen. Men ved denne koncert er noget anderledes! \nSide om side med de klassiske musikere står nemlig specialister i Roma'ernes musik Ernö Kállai Kiss Gipsy Band og den tyrkiske Nagme Yarkin der spiller på det traditionelle strygeinstrument \"kemenche\". \nSå forbered dig på en fortryllende rejse gennem Europas varierede musikalske landskaber, der starter i Paris og bevæger sig gennem Venedig, Wien, Budapest, Bukarest, Sofia og Istanbul.  \nM. Ravel: Rhapsodie Espagnole. \nN. Paganini: Karneval i Venedig op. 10. \nF. Kreisler: Liebesleid. \nUkendt: Folkemusik. \nB. Bartók: Rumænske Folkedanse.  \nGeorgi Zlatev-Cherkin: Sevdana. \nSadi Isilay: Sultaniyegah Sirto. \nG. Enescu: Oktet. \nTrio con Brio. \nMarmen Quartet. \nEnrico Pace, klaver. \nMichael Germer, violin. \nAndrej Bielow, violin. \nHélène Clément, bratsch. \nErnö Kállai Kiss and his Gipsy Band. \nJonathan Swensen, cello. \nNagme Yarkin, kemenche. \n(Lundsgaard, Kerteminde 10. august).  \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -2799,7 +2846,6 @@
       "id": "urn:dr:radio:episode:681c995cc56338368d76783d",
       "slug": "equinox-festival-12422543332",
       "title": "Equinox Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Equinox Festival i København inviterer til en koncertoplevelse, der dykker ned i en række af kammermusikkens mere ukendte mesterværker. \nFørste del byder på Florence Prices 5 Folksongs in Counterpoint, et værk der smukt forener folkemelodiernes enkelhed med kontrapunktisk dybde. Derefter følger Louise Farrencs sjældent hørte Sekstet for klaver og blæsere, som demonstrerer Farrencs mesterskab i at skabe elegant og udtryksfuld musik for denne rige besætning. \nEfter pausen bevæger vi os ind i Joan Towers energiske Noon Dance, et fængslende værk fra en af vor tids fremtrædende komponister, og Reynaldo Hahns Klaverkvintet. \nAdam Koch, violin. \nEmma Gibout, violin. \nEmily Davis, violin. \nKei Tojo, bratsch. \nMinna Svedberg, bratsch. \nJoel Laakso, cello.  \nDorothea Wolff, cello. \nJoachim Becerra Thomsen, fløjte. \nFelicia Greciuc, obo. \nGerbrich Meijer, klarinet. \nNikolaj Henriques, fagot. \nClaudio Flückiger, horn. \nYannick Rafalimanana, klaver.  \nSara Rosendal, slagtøj. \n(Copenhagen Contemporary, København 9.august). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -2880,7 +2926,6 @@
       "id": "urn:dr:radio:episode:681c994da75c4b58350e1eb8",
       "slug": "trio-zoom-fra-silkeborg-classic-12422543331",
       "title": "Trio Zoom fra Silkeborg Classic",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det bliver helt sikkert en aften med store kontraster og en del musikalsk leg når \nSilkeborg Classic præsenterer Trio Zoom i en koncert, der med energi og musikalitet udforsker vidt forskellige klangverdener. Forvent både udfordrende rytmer og stemningsfulde lydbilleder, der viser trioens alsidighed. Koncerten byder på alt fra fransk elegance og eventyrlig magi til den smittende glæde der gennemsyrer jazz og tango. \nTanja Zapolski, klaver. \nJohann Bridger, percussion. \nStefan Baur, saxofoner. \n(Toftebjerg Medborgerhus, Them 7. august). \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -2961,7 +3006,6 @@
       "id": "urn:dr:radio:episode:681c994db3140b1c1f3b76fd",
       "slug": "klangbad-ro-paa-koncert-med-ensemble-storstroem-12422543325",
       "title": "KLANGBAD - \"Ro På\" koncert med Ensemble Storstrøm.",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Lad dig omslutte af rolig og meditativ musik, som under kirkerummets høje hvælvinge indhylder lytterne i forskellige beroligende klange fra ensemblets 7 forskellige instrumenter. Læn dig tilbage og nyd en pause fra hverdagen i en musikoplevelse, hvor ro og nærvær fylder både krop og sind. Ensemblets musikere spiller fra forskellige steder i kirken, og således kan koncerten opleves som et sanseligt og åndeligt klangbad. Velkommen til en time, hvor tiden står stille, og der er plads til fordybelse. \nDenne særlige koncertform er skabt til dig, der søger refleksion og indre fred i et smukt klangrum. \nVærker af bl.a. Bach, Pärt og Debussy. \nEnsemble Storstrøm. \n(Skt Jørgens Kirke, Næstved 7.august). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -3042,7 +3086,6 @@
       "id": "urn:dr:radio:episode:681c9989923dffbb19775473",
       "slug": "franske-perler-fra-esbjerg-international-chamber-music-festival-12422543323",
       "title": "Franske perler fra Esbjerg International Chamber Music Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Esbjerg International Chamber Music Festival inviterer til en aften dedikeret til 2 skelsættende franske kammermusikværker. Debussys Strygekvartet i g-mol fra 1893, er et banebrydende værk, der ofte ses som et vendepunkt i musikhistorien. Det er hans eneste strygekvartet, og den brød med mange af datidens traditionelle regler for harmoni og form, hvilket åbnede døren for Debussys senere impressionistiske klanglandskaber. Faurés Klaverkvintet nr. 1 er et mesterværk fra hans modne periode, der fascinerer med sine lysende teksturer, dybe lyrik og underspillede skønhed. Værket forener kompleksitet med en næsten hellig ro og elegant ynde, der viser Faurés unikke harmoniske sprog. \nDominic Chamot, klaver.  \nDmitry Smirnov, violin. \nJoel Bardolet, violin.  \nMichel Camille, bratsch. \nElisa Seiber, cello. \n(Nordby Kirke, Fanø 5. august). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -3123,7 +3166,6 @@
       "id": "urn:dr:radio:episode:681c995c2b77f3385e307bbd",
       "slug": "copenhagen-summer-festival-12422543322",
       "title": "Copenhagen Summer Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Copenhagen Summer Festival præsenterer Heathcliff Trio, der tager publikum med på en alsidig rejse gennem klavertrioens verden. \nAftenen byder på Niels W. Gades Klavertrio i B-dur, et tidligt og charmerende værk, der viser hans melodiske geni. Derefter følger Felix Mendelssohns dramatiske Klavertrio nr. 2 i c-mol, et mesterværk fyldt med passion og virtuositet. Koncerten afrundes med stil i Paul Schoenfields livlige Café Music, der med sine jazzede og folkelige elementer garanterer en festlig afslutning. \nJonathan Siahan, klaver. \nAshley Tong, violin. \nCansin Kara, cello. \n(-direkte fra Charlottenborg). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -3204,7 +3246,6 @@
       "id": "urn:dr:radio:episode:681c994c923dffbb19775245",
       "slug": "oremandsgaard-kammermusikfest-kammerperler-og-mestervaerker-12422543321",
       "title": "Oremandsgaard Kammermusikfest: Kammerperler og Mesterværker",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev en aften med mangfoldig kammermusik, der spænder fra Poulencs lyriske fløjtesonate (spillet på blokfløjte af Michala Petri) til Ruders' intense strygekvartet nr. 3 \"Motet\", samt Pärts kontemplative Fratres og elegant charme i Mozarts fløjtekvartet. \nKoncerten kulminerer med Schumanns storslåede Klaverkvintet, et hovedværk i kammermusikrepertoiret, som forener klaverets kraft med strygekvartettens enhed. En aften fyldt med varierede udtryk og fremragende musikere. \nMichala Petri, blokfløjter. \nGustav Piekut, klaver. \nAlexander Sitkovetsky, violin. \nAdam Koch, violin. \nMichael Grolid, bratsch. \nJoel Laakso, cello. \n(Oremandsgaard, 2 august). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -3285,7 +3326,6 @@
       "id": "urn:dr:radio:episode:681c994c2b77f3385e307b0d",
       "slug": "ro-paa-koncert-fra-odsherred-kammermusikfestival-12422543315",
       "title": "Ro På koncert fra Odsherred Kammermusikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Træd ind i et rum, hvor tiden sænkes, og tonerne får lov til at folde sig ud i al deres skønhed. Denne aften er en del af DR's \"Ro På\" format og inviterer til dyb fordybelse og indre ro gennem et nøje udvalgt program af poetisk og stemningsfuld kammermusik. \nKoncerten er en del af Odsherred Kammermusikfestival og er en stjernespækket aften med fløjtenist Ulla Miilmann og harpist Zachary Hatcher, det anerkendte Nightingale String Quartet, cellist Janne Fredens, samt pianisterne Søren Rastogi og Valdemar Wenzel Most, der forenes med violisterne Selma Theilmann og Antonia Fuglsang. \nRued Langgaard: Variationer over \"Mig hjertelig nu længes\".  \nDebussy: Clair de Lune. \nRavel: Pavane pour une infante défunte. \nDebussy: Syrinx. \nCarl Nielsen: Tågen letter. \nJules Massenet: Meditation fra \"Thais\". \nTekla Griebel-Wandall: Notturno.  \nSchumann: 3. sats fra Kvartet i Es-dur. \nSchumann: \"Waldszenen\".  \nUlla Miilmann, fløjte. \nZachary Hatcher, harpe. \nNightingale String Quartet. \nJanne Fredens, cello.  \nSøren Rastogi, klaver. \nValdemar Wenzel Most, klaver.  \nSelma Theilmann, violin.  \nAntonia Fuglsang, violin. \n(Nykøbing Sj. Kirke, 1. august). \nVært: Claus Berthelsen.",
       "imageAssets": [
         {
@@ -3366,7 +3406,6 @@
       "id": "urn:dr:radio:episode:685e4b7677533c99833627fb",
       "slug": "fyrig-tangoaften-fra-festivalen-djurs-og-mols-12422543609",
       "title": "Fyrig Tangoaften fra festivalen Djurs og Mols",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Forbered dig på en aften fyldt med lidenskab og melankoli, når Signe Asmussen, Bjarke Mogensen, Allan Sjölin og Joel Gonzales samles til en særlig tangooplevelse. \nKoncerten byder naturligvis på værker af tangoens mester, Astor Piazzolla, men udforsker også andre facetter af genren. Du får mulighed for at stifte bekendtskab med den finske tango. Denne variant er yderst populær i Finland og adskiller sig markant fra den mere kendte argentinske tango ved sin ofte dybere og mere melankolske karakter, samt en unik version af Jacob Gades klassiker \"Tango Jalousie\", her fremført med sang i stedet for den traditionelle violin. Måske genopdages endda en glemt tango af danske Vilfred Kjær. \nSigne Asmussen Manuitt, sopran. \nAllan Sjølin, guitar. \nJoel Gonzales, bas. \nBjarke Mogensen, accordion. \n(-direkte fra Dråby Kirke).  \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -3447,7 +3486,6 @@
       "id": "urn:dr:radio:episode:681c994c1720bd973dfaa911",
       "slug": "bach-12422543313",
       "title": "BACH!!!",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det er 275 år siden at verden sagde farvel til en stor, stor mester, men hvad han efterlod kan ikke undervurderes. Ved aftenens koncert er det Bach's tilskud til orgelrepertoiret der hyldes, når den unge anerkendte organist Johannes Lang sætter sig ved orgelet i Holmens Kirke. \nKoncerten giver et omfattende billede af Bachs overlegne evner til at skrive for instrumentet, fra de stringente fugaer og de dybt åndelige koraler til de mere frie fantasier og de elegante triosonater. Det er en sand skattekiste for enhver, der værdsætter barokkens mester. \nJohannes Lang, orgel. \n(Holmens Kirke, København 30.juli). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -3528,7 +3566,6 @@
       "id": "urn:dr:radio:episode:681c995ba90908f76a9e7bff",
       "slug": "uropfoerelse-og-unikt-carl-nielsen-vaerk-fra-nordisk-kammermusikfestival-12422543303",
       "title": "Uropførelse og unikt Carl Nielsen værk fra Nordisk Kammermusikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ikke siden Carl Nielsen selv opførte den i 1902 har man kunne høre hans \"Snefrid\". Denne aften er derfor uundgåelig for alle Nielsen-fans og en enestående mulighed for at opleve et glemt kapitel i Nielsens virke. Her flettes den dramatiske fortælling og Nielsens musik sammen i en intim og gribende form med Karen Lise Mynster som fortæller. \nDerudover er der en uropførelse af Line Tjørnhøj på programmet, samt Carl Nielsens Strygekvintet. \nSigrun Edwaldsdottir, violin. \nChristian Ellegård, violin. \nMarkus Falkbring, bratsch. \nDalia Dedinskaite, bratsch. \nTobias van der Pals, cello. \nRikke Sandberg, klaver. \nAdam Simonsen, recitation. \n(- direkte. Luthersk missionshøjskole, Hillerød). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -3609,7 +3646,6 @@
       "id": "urn:dr:radio:episode:681c994b2b77f3385e307b04",
       "slug": "overfloedighedshorn-fra-fejoe-kirke-12422543302",
       "title": "Overflødighedshorn fra Fejø Kirke",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det bliver på ingen måde den traditionelle kammerkoncert vi ved aftenens koncert skal lægge øre til.\nKomponister, tidsaldre og genrer krydser fordomsfrit indover hinanden, når en stor samling af veloplagte kammerspecialister indtaget scenen på Fejø Festival. \nVærker af Karg-Elert. Shostakovich, Bach, Ravel, Mel Bonis Mozart, Louis Glass og D'indy. \nBogdan Bozovic, violin.  \nKathy Gowers, violin. \nBartosz Skibinski, violin. \nMalin William-Olsson, violin. \nMagda Stevensson, bratsch. \nCansin Kara, cello. \nJoachim Becchera Thomsen, fløjte. \nOleg Shebeta-Dragan, klarinet. \nJoke Wijma, horn. \nAleksei Zaitsev, klaver. \nKristoffer Hyldig, klaver. \n(Fejø Kirke 19. juli).  \nCa. 21.15\nMilhaud: Scaramouche. \nNielsen: Klarinetkoncert. \nOleg Shebata-Dragan, klarinet. \nOdense Symfoniorkester. \nDirigent: Anna Skryleva. \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -3690,7 +3726,6 @@
       "id": "urn:dr:radio:episode:681c994bc56338368d767786",
       "slug": "kolding-i-toner-12422543301",
       "title": "Kolding i toner",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det bliver en atypsik rejse gennem kammermusikkens mangfoldighed ved afslutningskoncert ved Kolding i Toner.\nFør pausen er der tre nutidige værker på programmet med spændende instrumentkombinationer: Casteredes virtuose concertino for messingblæsere og klaver, efterfølges af den unge Gabriella Smiths  \"\"Anthozoa\"\" for violin, cello, klaver og slagtøj, og til sidst Guillaume Connessons drillende sekstet. \nEfter pausen bevæger vi os ind i romantikken med to store mesterværker. Wagners intime 'Siegfried Idyll' præsenteres i en sjælden og smuk kammerudgave for stryge- og blæserkvintet. Aftenen kulminerer med Tjajkovskijs 'Souvenir de Florence'. \nKern Westerberg,  violin. \nAdam Koch, violin. \nIsabelle Bania, violin. \nAnne Skærbæk, violin. \nAlva Rasmussen, bratsch. \nDaniel Sledzinski, bratsch. \nTheodor Lyngstad, cello. \nGiacomo Oudin, cello. \nMathilde Qvist. kontrabas. \nMarie Sophie Perez, fløjte. \nGerbrich Meijer, klarinet. \nNikolai Henriques, fagot. \nFreja Arendt, obo. \nOle Vetle Johansen, trombone. \nLuke Dempsey, trompet. \nNicola Carrara, slagtøj. \nKristian Riisager, klaver. \n(Nicoali Scene, Kolding 19. juli). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -3771,7 +3806,6 @@
       "id": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
       "slug": "romantiske-mestervaerker-med-popelka-12422543295",
       "title": "Romantiske Mesterværker med Popelka",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev en aften med romantik og virtuositet, når WDR Symfoniorkester, dirigenten Petr Popelka og pianisten Alexandre Kantorow træder på scenen. \nKoncerten åbner med fuld skrue på dramaet i Richard Wagners Faust Ouverture. Derefter klavervirtuositet af den særligt imponerende slags Liszts Klaverkoncert nr. 2, inden aftenen kulminerer på en mere festlig tone i Robert Schumanns \"Rhinske\" Symfoni. \nAlexandre Kantorow, klaver. \nWDR Symfoniorkester. \nDirigent: Petr Popelka. \n(Filharmonien, Köln 14. marts). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -3852,7 +3886,6 @@
       "id": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
       "slug": "wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
       "title": "Wiener Filharmonikernes Sommernatskoncert 2025",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Wiener Filharmonikernes årlige Sommernatskoncert finder traditionen tro sted i Schönbrunns barokke park med slottet som storslået kulisse. \nDen polske stjernetenor Piotr Beczala får sin debut med arier fra Carmen og Turandot, samt kendte operetteklassikere. Desuden optræder Wiener Sängerknaben for første gang på den imponerende udendørsscene. \nProgrammet tager publikum med på en rejse gennem europæiske lydlandskaber, fra Griegs \"Morgenstemning\" til Dvoráks \"Slavisk Dans\", og afsluttes traditionen tro med Johann Strauss II's \"Wiener Blut\". \nPiotr Beczala, tenor. \nWienerfilharmonikerne. \nWiener Sängerknaben. \nDirigent: Tugan Sokhiev. \n(Schönbrunn Slotshave, Wien 13. juni).  \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -3933,7 +3966,6 @@
       "id": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
       "slug": "verdens-bedste-brass-12422543285",
       "title": "Verdens bedste Brass?",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Siden 1988 har Stockholm Chamber Brass været et af verdens førende messingensembler. Deres gennembrud kom med en 1. pris ved en international konkurrence i Frankrig. \nEnsemblet er dedikeret til at udvide messingkvintettens repertoire og har bestilt over 50 nye værker, hvoraf mange er blevet standardværker. De har udgivet seks anmelderroste albums, der spænder fra kvintetklassikere til deres seneste udgivelse, \"THEN\", med renæssancemusik. Om albummet \"CLOCKWORKS\" skrev American Record Guide: \"Jeg kan ikke forestille mig, at en bedre messingkvintet nogensinde har eksisteret.\" \nHildegaard von Bingen: Improvisation on O Ecclesia. \nClaudio Monteverdi: Suite. \nDjuro Zivkovic: Quintette Byzantine. \nKarin Rehnquist: Valv. \nEnglish Madrigals. \nViktor Evald: Quintet no. 1. \nMalcolm Arnold: Brass Quintet. \nStockholm Chamber Brass. \n(Sæby Kirke 10. juli). \nCa 21.00. \nBruckner: Symfoni nr. 4.  \nBergen Filharmonikerne. \nDirigent: Thomas Dausgaard. \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -4014,7 +4046,6 @@
       "id": "urn:dr:radio:episode:681c994a923dffbb19775236",
       "slug": "vier-letzte-lieder-med-verdensstjernen-angel-blue-12422543283",
       "title": "Vier letzte Lieder med verdensstjernen Angel Blue",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Richard Strauss' \"Vier letzte Lieder\" er et drømmerepertoire for sopraner verden over, og den anerkendte amerikanske stjerne Angel Blue er ingen undtagelse. \nDisse fire sange, skrevet af Strauss i en alder af 84 år, er en smuk og afklaret refleksion over livets afslutning. Selvom de ikke oprindeligt var tænkt som en cyklus, opleves de som en samlet, dybt bevægende rejse fra erindring om livets forår til \"Im Abendrot,\" hvor sopranen spørger: \"Er dette måske døden?\".  \nMahler: 1. sats fra symfoni nr. 10. \nStrauss: Vier Letzte Lieder. \nStrauss: Don Juan. \nStraus: Udvalgte Sange. \nAngel Blue, sopran. \nTivoli Copenhagen Phil. \nDirigent: Christoph Gedshold. \n(Tivolis Koncertsal, København 3. juli).  \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -4095,7 +4126,6 @@
       "id": "urn:dr:radio:episode:681c994aa75c4b58350e1e91",
       "slug": "schumann-h-c-andersen-og-dvoraks-dumkytrio-12422543281",
       "title": "Schumann, H. C. Andersen og Dvoraks Dumkytrio",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Når verdens bedste digter og verdens bedste liedkomponist slår pjalterne sammen, kan det kun blive unikt! Døm selv, når den unge fremadstormende bariton, Jonas Müller, synger Schumanns 5 sange med tekst af H. C. Andersen under HICSUM festival på Herlufsholm gods. \nVed koncerten kan du også høre et stjernehold af unge musikere spille kammermusik fra bedste skuffe - blandt andet den skønne og evigt skiftende Dumkytrio af Dvorak. \nBartok Strygekvartet nr.1. \nSchumann: 5 Lieder op. 40. \nMahler: Klaverkvartet i a-mol. \nDvorak: Dumkytrio. \nJonas Müller, baryton. \nGerold Huber, klaver. \nNiklas Valentin, violin. \nMathias Beyer-Karlshøj, cello. \nDenis Khozukhin , klaver. \nHenschel-Quartett. \n( - direkte Herlufsholm Gods).  \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -4176,7 +4206,6 @@
       "id": "urn:dr:radio:episode:681c994ac56338368d767773",
       "slug": "noerre-vosborg-kammermusikfestival-med-en-af-verdens-foerende-oboister-12422543273",
       "title": "Nørre Vosborg Kammermusikfestival med en af verdens førende oboister",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Traditionen tro afslutter Ensemble Midtvest deres sæson på den smukke herregård Nørre Vosborg. Dette års gæst er oboisten Nicholas Daniel, der igennem en meget personlig spillestil har etableret sig som en af de mest lytteværdige obister i verden. \nVærker af Schumann, Tonia Ko, Fred O, Otto Mortensen og Mendelssohn. \nNicholas Daniel, obo. \nEnsemble Midtvest. \n(Nørre Vosborg 2. juli). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -4257,7 +4286,6 @@
       "id": "urn:dr:radio:episode:681c995a9514fc4eb6c86299",
       "slug": "tre-mestervaerker-med-tivoli-copenhagen-phil-12422543272",
       "title": "Tre mesterværker med Tivoli Copenhagen Phil",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tre mesterværker med Tivoli Copenhagen Phil. \nOplev en aften med mesterværker, hvor Mozarts og Beethovens symfoniske geni udfolder sig. \nKoncerten starter med Mozarts \"Linz-symfoni\" (nr. 36), skrevet på rekordtid under en uventet rejse hjem fra Salzburg. Dens livlige energi og referencer til Bortførelsen fra Seraillet vidner om et unikt talent. Herefter fremføres Mozarts 3. Violinkoncert, inspireret af operaen Il ré pastore, med en særligt smuk andensats, perfekt til Alexandra Conunovas glasklare violinklang. \nEfter pausen venter Beethovens mytiske 7. Symfoni, et værk hvor rytmen er i centrum, næsten som en besættelse. Især den hjerteskærende Allegretto-sats, der måtte genopføres ved uropførelsen, står som et af mesterens mest elskede bidrag. \nMozart: Symfoni nr. 36. \nMozart: Violinkoncert nr. 3. \nBeethoven: Symfoni nr. 7. \nAlexandra Conunova, violin. \nTivoli Copenhagen Phil. \nDirigent: Valentin Uryupin. \n(Tivolis Koncertsal, København 26. juni).  \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -4338,7 +4366,6 @@
       "id": "urn:dr:radio:episode:681c99491720bd973dfaa8fb",
       "slug": "trio-con-brio-og-venner-fra-frederiksvaerk-musikfestival-12422543271",
       "title": "Trio con Brio og venner fra Frederiksværk Musikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Martinu, Suk, og Dvorak er på programmet ved denne koncert, hvor den danske stjernetrio har inviteret to unge talentfulde strygere med ind. Violinisten Michael Germer er allerede godt i gang med en flot karriere, trods den unge alder, og bratschisten Michael Grolid fik i en ung alder kæmpet sig til stillingen som 1. solo bratschist i DR Symfoniorkester.\nBohuslav Martinu: 3 Madrigaler for violin og bratsch. \nJosef Suk: Klaverkvartet i a-mol,. \nDvorak: Klaverkvintet nr. 2 i A-dur. \nTrio con Brio. \nMichael Germer, violin.  \nMichael Grolid, bratsch. \n(- Direkte fra Gjethuset, Frederiksværk).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -4419,7 +4446,6 @@
       "id": "urn:dr:radio:episode:683580d99802d328c192bf8c",
       "slug": "nordiske-korkantater-fra-european-choir-games-12422543265",
       "title": "Nordiske korkantater fra European Choir Games",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Symfonisk Sal fyldes med kormusik, når Aarhus Symfoniorkester forenes med det prisbelønnede kammerkor Ars Nova Copenhagen, som er kendt for sin alsidighed inden for både ældre og ny musik. Koncerten er en del af European Choir Games, der for første gang foregår i Aarhus, og byder på sfæriske værker af Arvo Pärt og Anna Thorvaldsdottir samt fascinerende musik af Per Nørgård. \nArs Nova Copenhagen. \nAarhus Symfoniorkester. \nDirigent: Risto Joost. \n(- direkte fra Symfonisk Sal, Aarhus). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -4500,7 +4526,6 @@
       "id": "urn:dr:radio:episode:683598c85f16b698305eff25",
       "slug": "stemmer-og-strenge-fra-theatre-of-voices-festival-12422543602",
       "title": "Stemmer og strenge fra Theatre of Voices Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Den menneskelige stemme og strygernes strenge skal forenes ved aftenens koncert. Theatre of Voices og 4 strygere tager os gennem flere århundreders musik fra middelalderens mest betydningsfulde kvinde, Hildegard von Bingen, den franske mester Guillaume de Machaut og op til 90 års fødselaren Arvo Pärt. \nTheatre of Voices. \nChristina Åstrand, violin. \nTrine Yang Møller, violin. \nKatarzyna Bugala, bratsch. \nTherese Åstrand, cello. \n(- direkte fra Trinitatis Kirke, København). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -4581,7 +4606,6 @@
       "id": "urn:dr:radio:episode:6825c84661175376c1ff2846",
       "slug": "kvartetter-og-kvintetter-med-danske-stjernefroe-12422543263",
       "title": "Kvartetter og Kvintetter med danske stjernefrø",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Præmissen er klar. Aftenen står i kammermusikkens tegn. Nærmere bestemt kvartetter og kvintetter med nogle af Danmarks mest fremtrædende unge musikere. \nGabriella Smith: Carrot Revolution for strygekvartet. \nAlberto Ginastera: Klaverkvintet, op. 29. \nDvorak: Klaverkvintet. \nAnna Agafia, violin. \nMichael Germer, violin. \nLudvig Gudim, violin. \nAdam Koch violin. \nNicholas Swensen, bratsch. \nYura Lee, bratsch. \nAndreas Brantelid, cello.  \nJonathan Swensen, cello. \nGustav Piekut, klaver. \nValdemar Wenzel Most, klaver. \n(Koncertkirken, København 20. juni). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -4662,7 +4686,6 @@
       "id": "urn:dr:radio:episode:6814893bdf3e92be8a6468fb",
       "slug": "dr-vokalensemblet-synger-sommeren-varm-12422543262",
       "title": "DR Vokalensemblet synger sommeren varm",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblets tage med dirigent Phillip Faber på en eventyrlig rejse ind i en verden fuld af myter, magi, folklore og eventyr. Såvel Ravel som Poulenc elskede gamle franske folkesagn og fortællinger med skøre, dybe, sjove og mystiske historier om mennesker, dyr og overnaturlige væsner.  Også H.C. Andersen tager danske komponister med på eventyr, mens estiske Veljo Tormis besøger barndommens musikalske landskaber. Inden sommernatten kalder, får publikum også mulighed for at synge med i den lyse aften, ført an af DR Vokalensemblet og Phillip Faber. \nRavel: Trois Chansons.  \nHolten: Regn og rusk og tordenbusk.  \nGudmundsen-Holmgreen: Jeg bringer dig en lille vedbendranke. \nHenrik Rung: Hvor Nilen vander egypterens jord. \nTormis: Helletused. \nPoulenc: Chansons Francaises. \nVeronika Voetmann: En Stemning, uropførelse. \nDR Vokalensemblet. \nDirigent: Philip Faber. \n(Trinitatis Kirke, 20. juni). \nCa. 21.00. \nBørresen: Strygesekstet. \nCopenhagen Classic. \nCa. 21.30. \nChristian Winther Christensen: Klaverkoncert. \nRei Nakamura, klaver. \nKatowice Radiosymfoniorkester. \nDirigent: Yaroslav Shemet. \n( - Warsawa Symfonisk Sal, 20. september 2024). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -4743,7 +4766,6 @@
       "id": "urn:dr:radio:episode:681a08460766aecd9d957639",
       "slug": "festkoncert-fra-oesterbro-kammermusikfestival-12422543252",
       "title": "Festkoncert fra Østerbro Kammermusikfestival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Østebro Festivalensemble fyrer en festkoncert af, der ser stort på traditioner, konventioner og normer. Vi skal høre grænsebrydende musik af Else Marie Pade, der bliver tilføjet en blæserkvintet til Schumanns klaverperle Carnaval og så rundes det hele af med Griegs klaverkoncert for klaver og sinfonietta! \nAthanasia Kontronia: Lydlandskab. \nElse Marie Pade: Parametre. \nBéla Bartók: Divertimento. \nEdvard Grieg: Klaverkoncert. \nKristoffer Hylsig, klaver. \nØsterbro Festivalensemble. \n(Unitarernes hus, København 14. juni).  \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -4824,7 +4846,6 @@
       "id": "urn:dr:radio:episode:681a0827005cc6aa547bf30e",
       "slug": "carl-nielsen-og-women-of-brass-12422543251",
       "title": "Carl Nielsen og Women of Brass",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Denne koncert hylder Carl Nielsen, den danske nationalkomponist, der ville have fyldt 160 år den 8. juni 2025. Det er yderst passende, at netop ti dygtige messingblæsere tager del i  fejringen, da Nielsen selv startede sin karriere som messingmusiker i militæret. Koncertprogrammet vil spænde fra Nielsens velkendte værker til mindre opførte stykker - og så er der også plads til de elskede fællessange, som mange forbinder mest med komponisten. \nWomen of Brass er et messingensemble, der nyligt er trådt ind på den skandinaviske musikscene, og består af erfarne kvindelige musikere, der til dagligt optræder i landets førende symfoniorkestre og musikkorps. \n(Odense Valgmenighed, 13. juni). \nCa. 21:25\nCarl Nielsen: Symfoni nr, 2, De fire temperamenter\nDR Symfoniorkestret\nFabio Biondi, dirigent\nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -4905,7 +4926,6 @@
       "id": "urn:dr:radio:episode:681a07b7c70d51b7e4997f9b",
       "slug": "john-williams-filmhit-med-dr-symfoniorkestret-12422543245",
       "title": "John Williams filmhit med DR Symfoniorkestret",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør en koncert hvor du kan drømme dig tilbage til barndommens magi med tonerne fra E.T., opleve heroiske eventyr med Indiana Jones, mærke spændingen i en galakse langt, langt borte med musik fra Star Wars, flyve til Ønskeøen med Kaptajn Klo og lade dig bevæge af den hjerteskærende musik fra Schindlers Liste. \nAnna Agafia Egholm, violin. \nChristine Nonbo, vokal. \nDRSymfoniorkestret. \nJakob Stegelmann, scenevært. \n(Direkte fra DR Koncerthuset).  \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -4986,7 +5006,6 @@
       "id": "urn:dr:radio:episode:681a077a0766aecd9d9570cb",
       "slug": "per-noergaards-verden-12422543243",
       "title": "Per Nørgårds verden",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Per Nørgård (1932-2025) er en af de største skikkelser i dansk musik. Med en musik i stadig forvandling igennem mere end 60 år var han et musikalsk fyrtårn, der inspirerede andre og som lyser langt ind i fremtiden. Hør uddrag af nogle af Per Nørgårds hovedværker. Fra Symfoni nr. 1 Sinfonia austera (streng) over Rejse ind i den gyldne skærm, hvor uendelighedsrækken høres i sin urform, til den lysende, legende Symfoni nr. 8. Mød også mennesket Per Nørgård, der med sin smittende nysgerrighed åbnede op for nye erkendelser.\nGæster: Sanger og konservatorierektor Helen Gjerris, komponisterne Rune Glerup og Signe Lykke samt cellist Jakob Kullberg.\nVærter: Celine Haastrup og Esben Tange.",
       "imageAssets": [
         {
@@ -5067,7 +5086,6 @@
       "id": "urn:dr:radio:episode:681a06b90766aecd9d956bb3",
       "slug": "dsq-og-guldimund-12422543233",
       "title": "DSQ og Guldimund",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "DSQ har som koncertarrangør flere gange kastet sig ud i at bryde grænser og har ved flere lejligheder arbejdet sammen med singer/songwriters indenfor den rytmiske musik. Nyeste skud på stammen er samarbejdet med Guldimund som du kan høre her.\nGuldimund, guitar og sang. \nAnja Backmann, kor. \nVillads Hoffman, mandola. \nArendse Nordtorp Pedersen, violin. \nMathæus Bech. kontrabas. \nCarlo Becker, trumpet. \n + DSQ (den danske strygekvartet). \n(DKDM 14. marts)\nVært: Benedikte Granvig.",
       "imageAssets": [
         {
@@ -5148,7 +5166,6 @@
       "id": "urn:dr:radio:episode:681a06a5005cc6aa547be8f3",
       "slug": "den-danske-strygekvartet-og-lars-mikkelsen-12422543232",
       "title": "Den Danske Strygekvartet & Lars Mikkelsen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør skuespiller Lars Mikkelsen og Den Danske Strygekvartet i den gribende musikdramatiske koncert \"Jeg trykker varmt din hånd\". Her indrammes ord og sætninger fra Shostakovich' breve af en lydcollage plukket fra hans 15 strygekvartetter. Bratschist Asbjørn Nørgaard fra har udviklet teksten til én kraftfuld monolog, og Karen-Lise Mynster har instrueret. \nLars Mikkelsen, skuespiller. \nDen Danske Strygekvartet. \n(Bellevue Teater, 26. maj). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -5229,7 +5246,6 @@
       "id": "urn:dr:radio:episode:681a06680766aecd9d9569bd",
       "slug": "sommerstemning-med-dr-pigekoret-og-vilma-12422543231",
       "title": "Sommerstemning med DR Pigekoret og Vilma",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Kom til koncert med noget af den allersmukkeste musik når DR Pigekoret synger kendte sommersange som Danmark, nu blunder den lyse nat, Jeg gik mig ud en sommerdag og korklassikeren Yndigt dufter Danmark - side om side med mere moderne klange og sange af Katrine Muff, Aphaca og den unge sanger og sangskriver Vilma. \nDR Pigekoret. \nVilma, vokal. \nChristoffer Møller, keyboards. \nGustaf Ljunggren, vokal mm. \nDirigent: Charlotte Rowan. \n(DR Koncerthuset 25. maj 2025). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -5310,7 +5326,6 @@
       "id": "urn:dr:radio:episode:6807986eb564004141867019",
       "slug": "mozarts-store-messe-i-c-mol-og-ny-basunkoncert-af-signe-lykke-12422543225",
       "title": "Mozarts store Messe i c-mol og ny basunkoncert af Signe Lykke",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ligesom hans Requiem forblev Mozarts Messe i c-mol ufuldendt, og alligevel er den, ligesom døsmessen, et ubegribeligt underværk. \nDet kan du opleve ved Kapellets symfoniske afslutningskoncert, hvor der er også er en uropførelse af Signe Lykke på programmet. Stjernebasunisten Jesper Busk Sørensen er solist i hendes nyskrevne basunkoncert. \nDenise Beck, sopran. \nElisabeth Jansson, mezzo. \nJacob Skov Andersen, tenor. \nHenning von Schulman, bas. \nJesper Busk Sørensen, basun. \nDet Kongelige Kapel. \nDet Kongelige Operakor. \nDirigent: Marie Jacquot. \n(Operaen, Store Scene, København 29. maj). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -5391,7 +5406,6 @@
       "id": "urn:dr:radio:episode:680797e6b21aafec6d666d04",
       "slug": "fem-kvinder-og-fem-blaesere-12422543222",
       "title": "Fem kvinder og fem blæsere",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Aftenens program er udelukkende med kvindelige komponister, og det er der en grund til. Blæserkvintetten V Coloris spiller koncert i Nathanael kirke, der er en af de mange små kirker, tre visionære kvinder i 1800 tallet fik grundlagt. Koncerten forbinder dermed kirkens grundlæggeres arv med en hyldest til de ofte oversete kvindelige stemmer i musikken. \nNancy Dalberg: Arabisk musik fra Sahara. \nMette Nielsen Wind Quintet.  \nGrazyna Baczewicz: Quintet.  \nDoina Rotaru: The light. \nLera Auerbach: Praye. \nValeri Coleman: Red Clay and Missippi Delta. \n(Nathanael Kirke 25.maj). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -5472,7 +5486,6 @@
       "id": "urn:dr:radio:episode:6808e5e0d66209eebf65359c",
       "slug": "gyldne-korklange-i-rachmaninovs-vesper-12422543221",
       "title": "Gyldne korklange i Rachmaninovs Vesper",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Er du vild med korklang, vil du sandsynligvis også være begejstret for Rakhmaninovs Vesper. \nDR Koncertkorets 74 sangere opfører det romantiske, russisk-ortodokse storværk, der taler lige så stærkt til os i dag, som det gjorde på Rakhmaninovs tid med de dybe klange og gyldne glød.  \nDR Koncertkoret synger også mindre kendte værker. Bl.a. Rachmaninovs Sankt Johannes' hellige liturgi samt musik af Shvedov, Sviridov og Alexander Gretchaninov, én af zarens favoritter, der flygtede til Frankrig og senere New York efter revolutionen i 1917. \nRakhmaninov: Vesper, uddrag. \nRakhmaninov: Sankt Johannes' hellige liturgi, uddrag. \nShvedov: Kerub-hymnen. \nSviridov: Tre kor fra ' Zar Fjodor Ivanovitj', uddrag. \nGretchaninov: Den mystiske nadver fra 'Passionsugen'. \nSchnittke: Koncert for kor, uddrag. \nDR Koncertkoret. \nDirigent: Poul Emborg. \n(Vor Frue Kirke København, 24. maj). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -5553,7 +5566,6 @@
       "id": "urn:dr:radio:episode:67f638e1867a0ea6fee599d8",
       "slug": "en-hyldest-til-kammerkoncerten-med-den-danske-strygekvartet-12422543211",
       "title": "En hyldest til Kammerkoncerten med Den Danske Strygekvartet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Under overskriften Guldkoncerter hylder Den Danske Strygekvartet den traditionelle intime kammerkoncert. Her kommer publikum og lyttere helt tæt på kvartetten og musikken i nogle af de smukkeste gamle kammermusiksale i Danmark. Denne koncert i Svendborg åbner i øvrigt fejringen af Den Danske Strygekvartet som modtager af Léonie Sonnings Musikpris 2025.   Den Danske Strygekvartet. (Kulturhus, Svendborg 18.maj). \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -5634,7 +5646,6 @@
       "id": "urn:dr:radio:episode:67f6387c867a0ea6fee5975b",
       "slug": "ravels-treenighed-med-aarhus-symfoniorkester-12422543205",
       "title": "Ravels treenighed med Aarhus Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Vi fortsætter fejringen af Ravels 150 års fødselsdag med en koncert der byder på 3 af komponistens absolutte mest elskede værker. Den sommerhede klaverkoncert, valsen der eksploderer og verdens mest kendte crescendo.  Dirigent: Dmitry Matvienko. Alexandre Tharaud, klaver. Aarhus Symfoniorkester. (Symfonisk Sal, Aarhus 15. maj).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -5715,7 +5726,6 @@
       "id": "urn:dr:radio:episode:67f6382b8e208bf2ad2b5583",
       "slug": "vivaldi-for-fuld-udblaesning-med-concerto-copenhagen-12422543203",
       "title": "Vivaldi for fuld udblæsning med Concerto Copenhagen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det bliver en festlig aften med Concerto Copenhagen, der spiller en koncert dedikeret til Vivaldis Venedig. \nKoncerten byder på virtuose arier fra Vivaldis operaer og baroklækkerier af andre venetianske komponister som Albinoni og Pollarolo, samt Händel som fik musikalsk inspiration fra sine besøg i Venedig. \nMarie Lys, sopran. \nConcerto Copenhagen. \nDirigent: Lars Ulrik Mortensen. \n(Konservatoriets Koncertsal, København 11. maj).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -5796,7 +5806,6 @@
       "id": "urn:dr:radio:episode:67f637da867a0ea6fee59334",
       "slug": "ravel-150-i-aar-med-ensemble-storstroem-12422543201",
       "title": "Ravel 150 i år med Ensemble Storstrøm",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ravel bliver 150 I år, og det skal selvfølgelig fejres! Ved denne koncert er det Ensemble Storstrøm der tager sig kærligt af den franske fødselar, i et skønt varieret program der først og fremmest viser hans poetiske og lyriske side frem. Ravel bliver flankeret af danske nulevende komponister, der med arrangementer og nyskreven musik også er med til fejringen. Værker og arrangementer af Ravel, Nikolaj Bentzon, Erik Højsgaard. Ensemble Storstrøm. (Kumus 11. maj). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -5877,7 +5886,6 @@
       "id": "urn:dr:radio:episode:67f63738867a0ea6fee58ed0",
       "slug": "beethovens-pastoralesymfoni-og-stjernebratschist-i-odense-12422543195",
       "title": "Beethovens Pastoralesymfoni og stjernebratschist I Odense",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Beethovens sjette symfoni er idyl, frisk vind I håret, stormvejr og folkedans. Det er en af de mest elskede symfonier overhovedet, og klart Beethovens mest lyse og frydefulde. Før pausen kan du høre Lawrence Power i en bratschkoncert af den altid energiske og overraskende polske komponist Grazyna Bacewicz. Mendelssohn: Hebriderne.  Grazyna Bacewicz: Bratschkoncert. L.v. Beethoven: Symfoni nr. 6.  Lawrence Power, bratsch. Odense Symfoniorkester. Dirigent: Ariane Matiakh. (Carl Nielsen Salen, Odense 8. maj). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -5958,7 +5966,6 @@
       "id": "urn:dr:radio:episode:67f636c98e208bf2ad2b4972",
       "slug": "tirsdag-6-maj-2025-12422543192",
       "title": "Tirsdag 6. maj. 2025",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Dansk-franske Elsa Dreisig synger på både Statssoperaen i Berlin og på Bastille-operaen i Paris, men i aften bliver det meget mere intimt i et lied program med blandt andre Carl Nielsen, Heise og Grieg. Hun bliver akkompagneret af pianisten Jonathan Ware og violinisten Nikola Nikolov. Elsa Dreisig, sopran. Jonathan Ware, klaver. Nikola Nikolov, violin. (Mogens Dahls Koncertsal, 4. maj). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -6039,7 +6046,6 @@
       "id": "urn:dr:radio:episode:67f636a0867a0ea6fee58a5c",
       "slug": "dr-vokalensemblet-paa-caminoen-12422543191",
       "title": "DR Vokalensemblet på Caminoen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblet i en koncert der tager dig med på pilgrimsrejse på den spanske Camino. Komponisten Joby Talbots storværk, Miraklernes sti, begynder i Pyrenæerne i den lille by Roncesvalles og bringer os videre til Burgos og Léon inden vi ankommer til målet: Santiago de Compostella. De 17 sangstemmer skaber dybe droner, høje klokker, tågeslør og vandringspuls i stemninger og fortællinger fra den oldgamle pilgrimsrute. \nDR Vokalensemblet. \nDirigent: Krista Audere. \n(Trinitatis Kirke, København, 1. maj). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -6120,7 +6126,6 @@
       "id": "urn:dr:radio:episode:67f527167778ce8121d2bd26",
       "slug": "brahms-1-symfoni-og-stjernehornist-spiller-rohloff-12422543185",
       "title": "Brahms 1. symfoni og stjernehornist spiller Rohloff",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Brahms' første symfoni havde en hård fødsel og var 20 år undervejs. Den skulle nemlig løfte den umulige opgave, at tage over hvor giganten Beethoven slap. Knap så længe har islandsfødte Steingrímur Rohloff brugt på hans nye hornkoncert, som denne aften kan høres for første gang med Berliner Filharmonikernes solohornist Stefan Dohr. Mozart: Hornkoncert nr. 3. Rohloff: Hornkoncert. Brahms: Symfoni nr. 1. Stefan Dohr, horn. Aalborg Symfoniorkester. Dirigent: Joshua Weilerstein. (Musikkens Hus, Aalborg 1. maj). Vært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -6201,7 +6206,6 @@
       "id": "urn:dr:radio:episode:67ee3b4f034014f391172a9d",
       "slug": "p2-talentet-i-esbjerg-12422543173",
       "title": "P2 talentet i Esbjerg",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Måske er du allerede stødt på årets P2 talent i radioen, og nu har du chancen igen. Denne gang er det hans kammermusikalske evner han giver smag på når han sammen med Esbjerg Ensemble spiller koncert med både nyt og gammelt. Værker af Higdon, Taffanel, Francaix, Lekeu og Axel Borup-Jørgensen. Valdemar Wenzel Most, klaver. Esbjerg Ensemble. (Syddansk Musikkopnservatorium 11. april). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -6282,7 +6286,6 @@
       "id": "urn:dr:radio:episode:67e564ced5634992e72456d8",
       "slug": "no-resting-place-med-ars-nova-12422543167",
       "title": "No Resting Place med Ars Nova",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ars Nova Copenhagen præsenterer et påskeprogram, der undersøger sorg og trøst gennem værker fra renæssancen til moderne tid.Der er blandt andet Danmarks-premiere på Nico Muhlys \"No Resting Place\", der blander renæssanceklagesange med nutidige vidnesbyrd om identitet og tilhørsforhold. Koncerten inkluderer også værker af Caroline Shaw og Vagn Holmboe, samt klassikere af William Byrd og Palestrina, og en mulig moderne premiere på Manuel Cardosos \"Lamentationes\". Ars Nova, kor. Dirigent: Sofi Jeannin. (Trinitatis Kirke, København 13. april). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -6363,7 +6366,6 @@
       "id": "urn:dr:radio:episode:67ef0696f15fbe15e58739cd",
       "slug": "dr-vokalensemblets-passionskoncert-12422543161",
       "title": "DR Vokalensemblets Passionskoncert",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblets påskekoncert der dvæler ved højtidens sorg og smerte. Vi møder den sørgende Maria ved korset i den gamle middelaldertekst Stabat Mater, som har inspireret komponister gennem århundreder. Scarlatti maler teksten med stærke virkemidler, mens polske Anna Ignatowicz-Glinska udtrykker sorgen enkelt og fint. Indimellem vild og næsten uhyggelig musik af Goffredo Petrassi, mens Kuhnau og Lotti lader sorgen klinge nænsomt og blødt. Æresdirigent Marcus Creed dirigerer, og Søren Christian Vestergaard er med på orgel, Kjeld Steffensen på cello og Lars Bauvkilde på violone. \n(Trinitatis Kirke, København, 10. april).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -6444,7 +6446,6 @@
       "id": "urn:dr:radio:episode:67edb5ab034014f39113ac51",
       "slug": "sebastianis-matthaeuspassion-12422543615",
       "title": "Sebastianis Matthæuspassion",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Inden koncerten: Ruth Gipps violinkoncert. \nVi indvarsler påsken med en anden Matthæuspassion end Bachs, som du i øvrigt kan høre skærtorsdag. Det  danske ensemble HemiDemiSemiConsort har kastet sig over Sebastianis passion, som også er baseret på Matthæusevangeliets påskefortælling, men som er skrevet ca 50 år før Bachs. Johann Sebastiani: Matthæuspassion.HemiDemiSemiConsort.Jakob Bloch Jespersen, bas & musikalsk ledelse. (Frederiksborg Slotskirke 13. april).\nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -6525,7 +6526,6 @@
       "id": "urn:dr:radio:episode:67eb1259ab50e584ac3202eb",
       "slug": "galaxymphony-12422543155",
       "title": "Galaxymphony",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "DR Symfoniorkestret bryder lydmuren og tager dig med ud i galakserne til et sted mellem virkelighed og fantasi. De to tidligere Galaxymphony-koncerter i DR Koncerthuset fik taget til at lette. Nu er tiden inde til at afslutte den symfoniske trilogi med en storslået koncert for alle rumfilm-elskere. Jakob Stegelmann guider dig igennem det uendelige univers, hvor du kommer til at svæve frit mellem tonale meteorstorme og imponerende lydverdener fra rumfilm som bl.a. Star Trek, The Mandalorian, Dune, Star Wars m.fl. \n(- direkte fra Koncerthuset).  \nP2-vært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -6606,7 +6606,6 @@
       "id": "urn:dr:radio:episode:67e87d2fd5634992e738a483",
       "slug": "blaeserkvintetter-paa-fransk-milhaud-ibert-faure-gaubert-og-poulenc-12422543153",
       "title": "Blæserkvintetter på fransk - Milhaud, Ibert, Fauré, Gaubert og Poulenc",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Den danske blæserkvintet Opus Zoo går i aften all in på fransk musik. Hør to kvintetter, to duoværker for klaver og en blæser og til sidst Poulencs sekstet for klaver og blæserkvintet, som han selv i sin tid var pianist på ved premieren.   Charlotte Thaning, klaver. Blæserkvintetten Opus Zoo.  (- direkte fra Flintholm Kirke).  \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -6687,7 +6686,6 @@
       "id": "urn:dr:radio:episode:67e72b81d5634992e73022a2",
       "slug": "afsted-foer-solen-taender-ensemble-midtvest-fejrer-j-p-jacobsen-12422543152",
       "title": "Afsted før solen tænder - Ensemble Midtvest fejrer J.P Jacobsen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev Peter Bruuns nye værk til tekster af Jacobsen selv, i anledningen af at Thisted Musseum indvier nye lokaler til en permanent udstilling om bysbarnet J.P.Jacobsen. Hør desuden Carl Nielsens sange til J.P.Jacobsen tekster og musik af Kalevi Aho og Poul Ruders. Peter Bruun: Afsted, før solen tænder for mezzosopran, bratsch og blæserkvintet. Carl Nielsen: Sange med tekst af J.P. Jacobsen (arr. for mezzosopran og blæserkvintet af Peter Bruun). Poul Ruders: Autumn Collections for solo bratsch. Kalevi Aho: Blæserkvintet nr. 2. \nStina Bruun Schmidt, mezzosopran. \nEnsemble Midtvest. \n(- direkte fra Mantzius Live, Birkerød). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -6768,7 +6766,6 @@
       "id": "urn:dr:radio:episode:67e5da002b1c1cae53c0dd12",
       "slug": "aarets-p2-talent-2025-valdemar-wenzel-most-solo-12422543151",
       "title": "Årets P2 talent 2025: Valdemar Wenzel Most solo",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Vi har glædet os til at give dig denne koncert, hvor pianisten Valdemar Wenzel Most officielt modtager titlen som årets P2 talent. En meget ung musiker, med en stor modenhed og autoritet i sit spil, som insisterer på at musikken skal mærkes og ikke bare blive oppe på scenen. Hør ham i det flotte program med musik af stærke klaverkomponister: Schumann, Beethoven, Rakhmaninov og Liszt. Valdemar Wenzel Most, klaver. (Hjørring Gymnasium 6. april). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -6849,7 +6846,6 @@
       "id": "urn:dr:radio:episode:67e1e5244715e76f8f820e78",
       "slug": "piekut-i-chopins-klaverkoncert-nr-2-og-schumanns-4-symfoni-12422543145",
       "title": "Piekut i Chopins Klaverkoncert nr. 2 og Schumanns 4. symfoni",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Odense Symfoniorkester har inviteret den unge klaverløve Gustav Piekut til øen i midten for at spille Chopins smukke og ekspressive anden klaverkoncert. Og aftenen fortsætter i det romantiske spor med musik, der i følge komponistens hustru, Clara Schumann, dukkede op fra hans allerdybeste sjæl. Koncerten begynder med en ouverture af polske Gra¶yna Bacewicz, som verden er ved at genopdage. Grazyna Bacewicz: Ouverture. Chopin: Klaverkoncert nr. 2. Schumann: Symfoni nr. 4. Gustav Piekut, klaver. Odense Symfoniorkestrer. Dirigent: Nicolo Foron. (Carl Nielsen Salen, Odense 3. april).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -6930,7 +6926,6 @@
       "id": "urn:dr:radio:episode:67ddf1b8711e98720c98489f",
       "slug": "dr-symfoniorkestret-og-luisi-paa-tur-12422543142",
       "title": "DR Symfoniorkestret og Luisi på tur",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Følg med DR Symfoniorkestret og Fabio Luisi på tur til Berlin og hør deres sidste turnekoncert fra Budapest. Orkestret tog hul på sit 100-års-jubilæum med en stor turne til Europas store koncertsale med musik af Mahler og Nielsen og stjernepianisten Kathia Buniatishvili i Rachmaninovs berømte klaverkoncert. En tur der høstede flotte anmeldelser hele vejen rundt. \nSørensen: Evening Land. \nRachmaninoff: Klaverkoncert nr. 2. \nCarl Nielsen: Symfoni nr. 4. \nKathia Buniatishvili: pianist. \nDR Symfoniorkestret.  \nDirigent: Fabio Luisi. \n( - Budapest, 23. januar).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -7011,7 +7006,6 @@
       "id": "urn:dr:radio:episode:67d4b7ac2257e391d9f3cf1d",
       "slug": "rudersdal-kammersolister-og-musikkens-power-couples-12422543132",
       "title": "Rudersdal Kammersolister og musikkens power couples",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Smitter komponist-pars musik af på hinanden? I aften kan du måske få svaret. Kvartetten har valgt musik af 2 x mand og kone:Amanda Maier-Röntgen: Klaverkvartet. Julius Röntgen: Trio i fis-mol. Elena Firsova: Four Seasons. Dmitri Smirnov: To be or not to be... Rudersdal Kammersolister. (Birkerød Sognegård 21. marts). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -7092,7 +7086,6 @@
       "id": "urn:dr:radio:episode:67d36693b05baf68380d3bc6",
       "slug": "dr-vokalensemblet-og-zigeunerlieder-12422543131",
       "title": "DR Vokalensemblet og Zigeunerlieder",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Vokalensemblet i Brahms' og Schumanns lidenskabelige \"sigøjner-sange\", der fortæller om brusende blod, bål i natten, spåkoner og ulykkelig kærlighed. Og i ungarske Zoltan Kodalys sange er der optrin fra det landlige Matra med slyngler og vild natur. James Sherlock dirigerer den farverige koncert og akkompagnerer selv ved klaveret.  \nJohannes Brahms: Zigeunerlieder. \nRobert Schumann: Zigeunerleben. \nKodály: Matra billeder og Transsylvansk klagesang.  \n Medvirkende:  \nDR Vokalensemblet. \nDirigent og pianist: James Sherlock.  \n( - DR Studie 2, fredag d. 21. marts).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -7173,7 +7166,6 @@
       "id": "urn:dr:radio:episode:67cf70c37733feedac06badf",
       "slug": "germer-og-aalborg-symfoniorkester-i-sjostakovitjs-foerste-violinkoncert-12422543125",
       "title": "Germer og Aalborg Symfoniorkester i Sjostakovitjs første violinkoncert",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "For tre år siden var Michael Germer årets P2 talent - som teeanger. Nu er han i tyverne og allerede mere etableret. Hør udviklingen i aften, hvor Germer spiller Sjostakovitjs krævende Violinkoncert nr. 1. Tjajkovskijs smukke svanesang, Symfoni nr. 6, den med tilnavnet Pathetique, afslutter koncerten. Michael Germer, violin. Aalborg Symfoniorkester. Dirigent: Andris Poga. (Musikkens Hus, Aalborg 20. marts). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -7254,7 +7246,6 @@
       "id": "urn:dr:radio:episode:67cccdad7733feedacf608de",
       "slug": "ro-paa-koncert-meditationskoncert-med-ensemble-midtvest-12422543123",
       "title": "Ro På koncert: Meditationskoncert med Ensemble Midtvest",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Rolig musik har en dejlig indvirkning på sindet. Ensemble Midtvest har succes med at lave meditations- og yoga-koncerter og inviterer dig til at være med og opleve musikkens beroligende kraft. Ensemble Midtvests strygetrio og hornist. Meditation (og normalt ensemblets fløjtenist): Charlotte Norholt. Vil du have mere ro, så find P2s Ro På-podcastserier i DR Lyd. (Huset No. 7, Herning 1. februar). \nVært: Claus Berthelsen.",
       "imageAssets": [
         {
@@ -7335,7 +7326,6 @@
       "id": "urn:dr:radio:episode:67cb7c663c672e012ff5b887",
       "slug": "et-lille-stykke-himmel-med-esbjerg-ensemble-12422543122",
       "title": "Et lille stykke himmel med Esbjerg Ensemble",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Overjordisk skønhed, sfæriske klange og intime stemmer. Det er hvad du kan forvente af denne koncert med det vestdanske ensemble. Fem afvekslende værker der viser ensemblets bredde og klangunivers. Bent Sørensen: Fugitivo. John Fernström: Blæserkvintet, op. 59. Anna Thorvaldsdottir: Entropic Arrows. André Jolivet: Sonatine Duet for obo og fagot. Jean Sibelius: Voces Intimae, strygekvartet.  (SDMK 13. marts). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -7416,7 +7406,6 @@
       "id": "urn:dr:radio:episode:67ca2b5e3c672e012fed0b86",
       "slug": "dr-pigekorets-foraarskoncert-i-holmens-kirke-12422543121",
       "title": "DR Pigekorets Forårskoncert i Holmens Kirke",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "DR Pigekoret fylder Holmens Kirke med stærk kormusik, som peger frem mod lyset. Mærk stemmernes styrke og klang i kirkens flotte akustik, og oplev kormusikkens særlige nerve gennem både velkendte satser og sange og ny musik, der peger ind i fremtiden. I anledning af foråret blænder koret op for en kraftfuld vokal eksplosion med ung, vokal råstyrke og stærke nyskrevne værker, hvor lyset og foråret springer ud af vinterens mørke. \nDR Pigekoret. \nDirigent: Charlotte Rowan. \n(Holmens Kirke, 9. marts). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -7497,7 +7486,6 @@
       "id": "urn:dr:radio:episode:67c7879fd42d59035e8cfdd5",
       "slug": "finalen-i-aarhus-internationale-klaverkonkurrence-12422543611",
       "title": "Finalen i Aarhus internationale klaverkonkurrence",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det er intet mindre end finalen på landets største klaverkonkurrence du kan lytte med på i aften! Fire finalister som måske bliver morgendagens stjerner, spiller fire klaverkoncerter, bakket op af Aarhus Symfoniorkester. Anna Skryleva, dirigent. (- direkte fra Symfonisk Sal, Musikhuset Aarhus). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -7578,7 +7566,6 @@
       "id": "urn:dr:radio:episode:67c636a71109412063e1e727",
       "slug": "portraetkoncert-aarets-p2-kunstnere-2025-nightingale-string-quartet-12422543115",
       "title": "Portrætkoncert: Årets P2-kunstnere 2025: Nightingale String Quartet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Mød årets P2-kunstnere i et særligt format med livemusik og interviews. Hør kvartetten spille musik de selv har udvalgt til at portrættere dem, og få et indblik i hvem menneskene i kvartetten er.  \nNightingale String Quartet: \nGunvor Sihm og Josefine Dalsgaard, violiner. \nMarie Louise Broholt Jensen, bratsch. Louisa Schwab, cello.  \n(P2s kontorlokale, DR Byen 14. marts). \n Vært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -7659,7 +7646,6 @@
       "id": "urn:dr:radio:episode:67c241fea039581a11d5ff11",
       "slug": "den-sidste-klarinetkoncert-med-kjoeller-og-aarhus-symfoniorkester-12422543112",
       "title": "Den sidste klarinetkoncert med  Kjøller og Aarhus Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Musik lige nu -  til mennesker lige nu: Oplev noget af den mest spændende og ikke mindst lyttevenlige musik fra de seneste ti år. Hør bl.a. uropførelsen af Pelle Gudmundsen-Holmgreens allersidste værk, klarinetkoncerten Castor Pollux, som han skrev til orkestrets klarinettist. Jörg Widmann: Zeitensprünge. Pelle Gudmundsen-Holmgreen: Castor Pollux (uropførelse). Anna Clyne:This Midnight Hour. Camille Pépin: Avant les clartés de l'aurore. Thomas Adès: Dawn. Thomas Larcher: Time. Three movements for orchestra. Mathias Vik Kjøller, klarinet. Aarhus Symfoniorkester. Dirigent: Joseph Bastian. (Symfonisk sal, Aarhus 6. marts).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -7740,7 +7726,6 @@
       "id": "urn:dr:radio:episode:67c0f16af0479bde33b490af",
       "slug": "marianna-shirinyan-og-danel-kvartetten-spiller-weinberg-12422543111",
       "title": "Marianna Shirinyan og Danel Kvartetten spiller Weinberg",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En af Danmarks bedste pianister og en fremragende belgisk-fransk strygekvaret. Diamanten har før parret herboende musikere med udenlandske med succes - og nu gør det de igen. Hør Shirinyan og kvartetten sammen og hver for sig. Bach/Busoni: Chaconne (soloklaver). Sjostakovitj: Strygekvartet nr. 14. Myeczyslav Weinberg: Klaverkvartet. Marianna Shirinyan, klaver. Danel Kvartetten. (Diamanten 1. marts). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -7821,7 +7806,6 @@
       "id": "urn:dr:radio:episode:67bbaab6a615dc6116721524",
       "slug": "pulsar-festival-med-helt-ny-musik-og-en-klassiker-fra-det-20-aarhundrede-12422543104",
       "title": "PULSAR festival med helt ny musik og en klassiker fra det 20. århundrede",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "DR Symfoniorkestret er på besøg på Det Kgl. Danske Musikkonservatorium, hvor alt kan ske i uropførelser af 23-årige Athanasia Kotronia fra Sverige og 30-årige Gustav Bjerre fra Danmark. Hør også det italienske komponist-koryfæ Luciano Berios Sinfonia fra 1968 - oprindeligt komponeret til New York Filharmonikerne med en indlagt hyldest til både Gustav Mahler og Martin Luther King.Nordic Voices. DR Symfoniorkestret. Dirigent: Martyn Brabbins.  (Direkte fra Det Kgl. Danske Musikkonservatorium).\nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -7902,7 +7886,6 @@
       "id": "urn:dr:radio:episode:67b9072c5a2f57d1ea51ed66",
       "slug": "piekut-og-cph-phil-spiller-herman-d-koppels-klaverkoncert-nr-3-12422543102",
       "title": "Piekut og Cph. Phil spiller Herman D. Koppels Klaverkoncert nr. 3",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvor mange danske klaverkoncerter kender du? Tag med og hør den unge fremadstormende klaverløve spille en. Få mere dansk musik oven i hatten med Hilda Sehesteds lille orkesterværk Lygtemænd - og til slut Tjajkovksijs flotte femte symfoni. Svært at sige nej til. Gustav Piekut, klaver. Copenhagen Phil. Dirigent: Thomas Dausgaard. (DKDMs koncertsal 28. februar). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -7983,7 +7966,6 @@
       "id": "urn:dr:radio:episode:67b7b538c51c478742b4760e",
       "slug": "gryesten-melchior-vinderen-vennerne-og-40-foedselsdagen-12422543101",
       "title": "Gryesten, Melchior-vinderen, vennerne og 40-fødselsdagen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Nogle fejrer sig selv med en stor fest eller rejse. Pianisten Emil Gryesten markerer sit skarpe hjørne med en koncert - og du er inviteret. Tag med til en flot musikalsk anretning med kammermusik og lieder af Mozart, Chopin, Sibelius og Strauss. Hedvig Haugerud, sopran - vinder af Lauritz Melchior konkurrencen 2024.  Kumi Shimizu, violin. Stine Hasbirk, bratsch.  Toke Møldrup, cello. .Søren Schausser, præsentation. (Garnisons Kirke 20. februar).  \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -8064,7 +8046,6 @@
       "id": "urn:dr:radio:episode:67b3c10b1c492b01048d9efe",
       "slug": "copenhagen-phil-nancy-dalbergs-symfoni-i-cis-mol-12422543095",
       "title": "Copenhagen Phil: Nancy Dalbergs Symfoni i cis-mol",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Nancy Dalberg var den første danske kvinde der fik uropført en symfoni. Og hvem dirigerede den? - det gjorde Carl Nielsen, som hun var elev af. Siden har det været småt med opførelser, men i aften kan du høre symfonien i selskab med musik af to nordmænd med stærke forbindelser til Danmark: Griegs kendte og elskede klaverkoncert og Johann Svendsens Symfoni nr 2.  Lukás Vondrácek, klaver. Copenhagen Phil. Dirigent: Thomas Dausgaard. (DKDM 21. februar). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -8145,7 +8126,6 @@
       "id": "urn:dr:radio:episode:67b11e0a1e7b9aca695340c5",
       "slug": "akela-strygekvartetten-og-den-indre-stemme-12422543093",
       "title": "Akela strygekvartetten og den indre stemme",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Selvkritik. Selvundervurdering. Tvivl. Tre ting der kan ramme alle mennesker, men som i særdeleshed rammer kunstnere. I aften tager de unge musikere i Akela Strygekvartetten livtag med de ødelæggende kræfter og har inviteret komponisten Sune Kølster på scenen til at tale om problemet. Kvartetten har udvalgt musik som passer til emnet: Brahms' første strygekvartet, som han først lod slippe igennem efter at han havde kasseret en hel håndfuld forgængere. Schuberts Quartetsatz, som han aldrig fik  færdigkomponeret til en hel strygekvartet. Og endelig Sune Kølsters første strygekvartet.    Akela Strygekvartet. (Unitarernes Hus 21. februar). Vært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -8226,7 +8206,6 @@
       "id": "urn:dr:radio:episode:67afcc5ca5106e66e6806cb6",
       "slug": "tillykke-niels-w-gade-12422543092",
       "title": "Tillykke Niels W. Gade!",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Fylder han rundt? Næh: 208 år. Men Holmens kirke, hvor Gade selv tjente som organist, fejrer ham alligevel med en flot koncert her i Gades fødselsdagsmåned. Hør udvalgte korværker, bl.a. Morgensang af Elverskud og lieder af  komponistkollegaen, Grieg.   Johannes Weisser, baryton. Marianna Shirinyan, klaver.  Holmens Vokalensemble.  Jakob Lorentzen, dirigent. Mathias Hammer, konferencier. Dirigent: Jakob Lorentzen. (Holmens Kirke 22. februar). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -8307,7 +8286,6 @@
       "id": "urn:dr:radio:episode:67ae7b84ad0662f136e3e7c8",
       "slug": "himmelsk-lys-med-dr-vokalensemblet-12422543091",
       "title": "Himmelsk lys med DR Vokalensemblet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør DR Koncertensemblet i en koncert der kredser om lys, sol og stjerner. Koncerten tager dig på en rejse fra solnedgang til solopgang med blid moderne kormusik blandet med ældre kor-klassikere. Pianist og komponist Christoffer Møller binder værkerne sammen med specialkomponerede mellemspil. Koncerten dirigeres af makedonske Elena Mitrevska og finder sted i Marmorkirken under Copenhagen Light Festival.  \nDR Vokelsensemblet. \nChristoffer Møller, pianist, komponist. \nDirigent: Elena Mitrevska.  \n(Marmorkirken, København, 21. februar 2025). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -8388,7 +8366,6 @@
       "id": "urn:dr:radio:episode:67a692b1a122b9bdfd38dd7d",
       "slug": "julia-fischer-daniel-muller-schott-og-venner-i-bacewicz-bruch-og-ravel-12422543082",
       "title": "Julia Fischer, Daniel Müller-Schott og venner i Bacewicz, Bruch og Ravel",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "En violinkvartet. Hvabehar?! Hør Grazyna Bacewicz med Julia Fischer i spidsen. Læg dertil Bruchs smukke og romantiske Klaverkvintet og Schott og Fischer i formet duo-spil i Ravels musikalske hilsen til komponistkollegaen Debussy. Julia Fischer, violin. Daniel Müller-Schott, cello. Lena Neudauer, Bartek Niziol, Veriko Tchumburidze, violin.   Roland Glassl, bratsch. Anna Tyka Nyffenegger, Benjamin Nyffenegger, cello. Daumants Liepins, Robert Neumann, klaver.   Boswil Efterårsfestival 12. oktober. Vært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -8469,7 +8446,6 @@
       "id": "urn:dr:radio:episode:67a14c573d66609baec4443b",
       "slug": "concerto-copenhagen-eine-kleine-festmusik-12422543075",
       "title": "Concerto Copenhagen: Eine Kleine Festmusik",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Nachtmusik. Serenademusik. Kært barn har mange navne. Her dækker de over den musik som bl.a. Mozart og Haydns skrev for at underholde de adelige og indflydelsesrige. Sjov, sær, fængende og virtuos musik - og der var mange flere end de to der skrev den slags - det får du også smagsprøver på. Og så får du selvfølgelig det nyfundne Mozartværk i genren. Ifør dig din indre  pudderparyk, pop en flaske bobler og hør en hel koncert dedikeret til genren. (Den Sorte Diamant 8. februar). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -8550,7 +8526,6 @@
       "id": "urn:dr:radio:episode:679d57d77426d7b8e6421b4c",
       "slug": "det-kongelige-operakor-paa-egen-haand-i-maribo-12422543072",
       "title": "Det Kongelige Operakor på egen hånd i Maribo",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Normalt står de på Operaen eller Gamle Scene og synger. Men her i februar er de store stemmer i operakoret taget på tur. Hør dem i et flot koncertprogram, der ikke er opera. Musik af bl.a. Brahms, Mozarts, Bruckner og Mendelssohn. Jakob Lorentzen, orgel. Dirigent: Steven Moore. (Maribo Domkirke 9. februar). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -8631,7 +8606,6 @@
       "id": "urn:dr:radio:episode:679c05bd212b1e6bec99cd43",
       "slug": "crusell-trioen-spiller-svensk-og-mozart-12422543071",
       "title": "Crusell Trioen spiller svensk og Mozart",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Med svenske rødder er det klart at Crusell trioen har en forkærlighed for svensk musik. I aften kan du høre de tre blæsere, sammen med to gæstermusikere, give et bud på hvor forskelligt den kan lyde - og så runder  Mozart af. Bernhard Crusell: Koncerttrio. Magnus Lindberg: Klaverkvintet. Anders Eliasson: Pentagramm. Mozart: Kvintet for klaver og blæsere, K452.   Sebastian Stevensson, fagot. Viktor Wennesz, klarinet.David M.A.P. Palmquist, Horn. Emmanuel Laville, obo. Asuka Nakamura, klaver. (Unitarernes Hus 3. februar). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -8712,7 +8686,6 @@
       "id": "urn:dr:radio:episode:679811efe66b43f5cc677da9",
       "slug": "store-skridt-med-soenderjyderne-haydn-schumann-og-britten-12422543065",
       "title": "Store skridt med Sønderjyderne: Haydn, Schumann og Britten",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tre orkesterværker der lyder meget forskelligt - og med omkring 100 år i mellem sig. Det er hvad du får, hvis du lytter med når den unge britiske dirigent Stephanie Childress stiller sig på podiet. Benjamin Hulett, tenor. Sønderjyllands Symfoniorkester. Dirigent: Stephanie Childress. (Alsion 6. februar). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -8793,7 +8766,6 @@
       "id": "urn:dr:radio:episode:67956e46b42ca32cf2f07ffd",
       "slug": "kapellet-spiller-dansk-holmboe-sehested-og-tage-nielsen-12422543063",
       "title": "Kapellet spiller dansk: Holmboe, Sehested og Tage Nielsen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør når Det Kongelige Kapels dygtige musikere spiller kammermusik af tre danskere og slutter af med Mozarts strygekvintet nr. 6. Vagn Holmboe: Music til Morten (for obo og strygekvartet).  Hilda Sehested: 2 fantasistykker for sekstet. Tage Nielsen: 5 poems by William Blake. Mozart: Strygekvintet nr. 6. Medlemmer af Det Kongelige Kapel. (Takkelloftets foyer 2. februar). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -8874,7 +8846,6 @@
       "id": "urn:dr:radio:episode:6792cb365c7bc2bc9230ce12",
       "slug": "messiaen-kvartetten-blander-kortene-12422543061",
       "title": "Messiaen Kvartetten blander kortene",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør flot og alsidig musik med et stærkt og lidt usædvanligt sammensat ensemble. Fra Fanny Mendelssohns romantiske klavertrio -over Ravels franskduftende toner og til nyere musik af bl.a. Sally Beamish. Messiaen Kvartetten: Viktor Wennesz, klarinet.  Malin William-Olsson, violin. Kristoffer Hyldig, klaver. Cansin Kara, cello. (Unitarernes Hus 31. januar). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -8955,7 +8926,6 @@
       "id": "urn:dr:radio:episode:678ed74a3a199d52753f2cf6",
       "slug": "symfoniens-mestre-12422543055",
       "title": "Symfoniens mestre",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev en af symfoniens store mestre, Gustav Mahler, sammen med et næsten glemt navn fra fortiden, Pavel Haas, når Joshua Weilerstein i denne koncert udforsker to af det 20. århundredes helt store symfonier.\nMiah Persson, sopran\nAalborg Symfoniorkester\nDirigent: Joshua Weilerstein\n(23. januar, Musikkens Hus, Aalborg).\nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -9036,7 +9006,6 @@
       "id": "urn:dr:radio:episode:679a3eefa07e26e532523379",
       "slug": "trippel-talenter-i-aarhus-12422543054",
       "title": "Trippel-talenter i Aarhus",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Aarhus Symfoniorkester og de tre danske talenter Anna Agafia, Jonathan Swensen og Gustav Piekut præsenterer en koncert i romantikken og ungdommens tegn. Her hyldes følelse og intuition, mens fornuft og konventioner afvises. Værker af Weber, Beethoven og Mendelssohn. Anna Agafia: violin. Jonathan Swensen: cello. Gustav Piekut: klaver. Aarhus Symfoniorkester. Dirigent: Karl Heinz Steffens. ( - direkte, Symfonisk Sal, Aarhus). Vært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -9117,7 +9086,6 @@
       "id": "urn:dr:radio:episode:678ae3454b2912e2484d8a34",
       "slug": "toner-fra-land-og-by-med-dr-vokalensemblet-12422543052",
       "title": "Toner fra land og by med DR Vokalensemblet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvordan klinger landet? Hvordan klinger byen? Det har komponister til alle tider reflekteret over. I aften synger DR Vokalensemblet helt nye værker af bl.a. finske Lauri Supponen og danske Niels Rosing-Schow, sat over for gamle sange fra renæssancen. Måske er kontrasten ikke så stor? Den engelske dirigent Nicholas Kok er på besøg og har også tage et af sine egne værker med. \nDR Vokalensemblet\nDirigent: Nicholas Kok. \n( - Studie 2, 23. januar).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -9198,7 +9166,6 @@
       "id": "urn:dr:radio:episode:67859be181654c75b622646f",
       "slug": "et-moede-mellem-lys-og-skygge-12422543045",
       "title": "Et møde mellem lys og skygge",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "To verdenstjerner og to gigantiske instrumenter smelter sammen i Odense, når Notre Dames organist Olivier Latry og Odense Symfoniorkester spiller Kaija Saariahos \"\"Maan Varjot\"\". Det er en fascinerende og kompleks komposition for orgel og orkester, der dykker ned i de kontrasterende kræfter, der former vores verden. Inspireret af Percy Bysshe Shelleys digt til John Keats, udforsker værket de evige modsætninger mellem lys og mørke, forandring og bestandighed. Titlen, der betyder \"Jordens skygger\" på dansk, er en smuk metafor for livets flygtige natur og de dybe følelser, der følger med. Værker af Borodin, Saariaho og Rachmaninov. Odense Symfoniorkester. Solist: Olivier Latry, orgel. Dirigent: Pierre Bleuse. (23. januar, Carl Nielsen Salen, Odense).\nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -9279,7 +9246,6 @@
       "id": "urn:dr:radio:episode:677c61af193e25da397e6147",
       "slug": "verdenstjerne-i-soenderborg-12422543035",
       "title": "Verdenstjerne i Sønderborg",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Oplev den verdensberømte cellist Daniel Müller-Schott i en aften dedikeret til russisk musik. Som et af aftenens højdepunkter vil Müller-Schott fortolke Sjostakovitjs hjertegribende cellokoncert nr. 1. Det  er et af de mest kendte og elskede værker for cello og orkester. Komponeret i 1959 til cellisten Mstislav Rostropovich, er koncerten et mesterværk, der kombinerer dyb følsomhed, teknisk virtuositet og en stærk følelse af melankoli. Aftenen byder også på Glinkas spændende overture til \"Ruslan og Ludmila\" og Tjajkovskijs ungdommelige første symfoni. \nDaniel Müller-Schott, cello. \nSønderjyllands Symfoniorkester. \nDirigent: Alevtina Lofte. \n( - direkte fra Alsion, Sønderborg).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -9360,7 +9326,6 @@
       "id": "urn:dr:radio:episode:677327a2256a2fb5210c2483",
       "slug": "berlinerfilharmonikerne-12422543025",
       "title": "Berlinerfilharmonikerne",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Har du nogensinde følt dig rørt til tårer af en smuk melodi? Eller fået gåsehud af en kraftfuld crescendo? Så er denne koncert noget for dig! Oplev verdensberømte Berliner Philharmoniker under ledelse af dirigent Giovanni Antonini. Aftenen byder på et program med musik, der både er velkendt og overraskende. Lad dig føre med på en musikalsk rejse, hvor du vil opleve alt fra sorg og længsel til glæde og fest. Haydn: Symfoni nr 54. Haydn: Symfoni nr 44. Mozart: Uddrag fra 'Thamos, King in Egypt\". Purcell: Dido's lament. Fatma Said, sopran. Berlin Philharmonic Orchestra. Dirigent: Giovanni Antonini. (Berlinerfilharmonien, 1. november 2024). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -9441,7 +9406,6 @@
       "id": "urn:dr:radio:episode:676f32897475010a5703cd1b",
       "slug": "den-danske-strygekvartet-12422543022",
       "title": "Den Danske Strygekvartet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvad kan du forvente, når Den Danske Strygekvartet spiller? Denne aften byder på alt fra Haydns elegante klassiske toner til Sjostakovitjs intense udtryk og Caroline Shaws moderne eksperimenter. Og det er ikke alt! Kvartetten byder også på egne kompositioner og fortolkninger af folkemusik. Lad dig overraske af denne alsidige koncertoplevelse med de danske verdenstjerner. Den Danske Strygekvartet. (Mogens Dahl's Koncertsal, 2. december 2024). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -9523,7 +9487,6 @@
       "id": "urn:dr:radio:episode:67689b2d4238c0288be38dd9",
       "slug": "nytaarskoncert-fra-det-kongelige-teater-12422543014",
       "title": "Nytårskoncert fra Det Kongelige Teater",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Start det nye år med Wienervalze og champagne når Det Kongelige Kapel inviterer til nytårskoncert. Lad dig forføre af de mest elskede melodier fra valsekongen Johann Strauss II og de charmerende operettemelodier af Franz Lehár, der vil bringe et smil på læben. \nMarlene Metzger, sopran.\nFredrik Bjellsäter, tenor. \nJens Christian Tvilum, tenor. \nSine Bundgaard, sopran. \nHanne Fischer, mezzosopran. \nAnnette Heick, konferencier. \nDet Kongelige Kapel. \nDirigent: Hossein Pishkar. \n(Operaen, København, 30. december 2024). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -9605,7 +9568,6 @@
       "id": "urn:dr:radio:episode:6765f83ce579e9b1c12a873d",
       "slug": "superwoman-og-kvindeaktivist-12422443606",
       "title": "SuperWoman og kvindeaktivist",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ethel Smyth sultestrejkede for at komme på konservatoriet og studere. Hun kastede med sten for kvindefrigørelse og endte i fængsel. Hun diskuterede kvinders plads i musiklivet med Tjakovskij og Brahms. Ethyl Smyth var en isbryder for kvinder i eftertiden og ved denne koncert kan du opleve hendes både smukke og heroiske dobbeltkoncert for violin og horn. Ethyl Smyth: Koncert for Violin og Horn. Anton Bruckner: Symfoni nr. 5. Renaud Capuçon, violin. Stefan Dohr, horn. German Symphony Orchestra, Berlin.  Dirigent: Pablo Heras-Casado. (Berlinerfilharmonien, 27. oktober). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -9687,7 +9649,6 @@
       "id": "urn:dr:radio:episode:6765f82a8b06e97775283705",
       "slug": "nytaarskoncert-med-dr-symfoniorkestret-12422443605",
       "title": "Nytårskoncert med DR Symfoniorkestret",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Sig farvel til 2024 og goddag til 2025 med et musikalsk festfyrværkeri fuld af tango, polka, galop og masser af vals. DR  Symfoniorkestret er i festhumør, og den unge sydamerikaner Ana Maria Patino-Osorio, prisvinder i Malko Konkurrencen, svinger dirigentstokken i et overdådigt nytårsprogram. Oplev kendte klassiske toner af bl.a. Tjajkovskij, Strauss og Brahms side om side med jazzede lækkerier, lidenskabelig tango og selvfølgelig nytårsklassikere af Strauss og Lumbye. Årets nytårssolister er den engelske sangerinde Emma Smith og akkordeon-virtuosen Bjarke Mogensen. Scenevært er Lise Baastrup, kendt fra DR's succesrige tv-serie 'Orkestret'. \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -9769,7 +9730,6 @@
       "id": "urn:dr:radio:episode:675e0f245d225c8af95730ba",
       "slug": "nordisk-jul-12422443602",
       "title": "Nordisk Jul",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvordan kommer man i julesteming i Norge, er de svenske sange mere \"\"julede\"\" end de danske salmer, og er den smukkeste julesang nogensinde skrevet af Sibelius? De spørgsmål stiller Ars Nova ved deres julekoncert i år, og svaret er nok et du selv må tænke over. Julemusik fra hele Norden. Ars Nova. Sofi Jeannin, dirigent. \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -9851,7 +9811,6 @@
       "id": "urn:dr:radio:episode:675cbd934117f084681f829a",
       "slug": "pigekorets-jul-12422443604",
       "title": "Pigekorets jul",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvert år samler julen os omkring glade traditioner og sange - men julen giver også anledning til eftertanke og savn. DR Pigekoret fejrer, sammen med DR Juniorkoret og DR Børnekoret og et hold af skønne musikere, de tilbagevendende traditioner og alle dem vi savner i den søde juletid. Susanne Wendt og Charlotte Rowan dirigerer. \nVært: Benedikte Granvig.",
       "imageAssets": [
         {
@@ -9933,7 +9892,6 @@
       "id": "urn:dr:radio:episode:675b6c724268a8bf7444df98",
       "slug": "handels-messias-med-mogens-dahls-kammerkor-12422443521",
       "title": "Händels Messias med Mogens Dahls Kammerkor",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Mogens Dahls Kammerkor er gået sammen med et af verdens førende barokorkestre, Orchestra of the Age of Enlightenment, for at fremføre en unik udgave af Händels Messias. Julia Doyle, sopran. Keyleigh Decker, alt. Robin Tritschler, tenor. Morgan Pearce, bas. Mogens Dahls Kammerkor. Orchestra of the Age of Enlightenment. Dirigent: Mogens Dahl. (Viborg Domkirke, 8. december). Vært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -10015,7 +9973,6 @@
       "id": "urn:dr:radio:episode:675b6c71472b8ebe1e729430",
       "slug": "jul-med-dr-vokalensemblet-12422443603",
       "title": "Jul med DR Vokalensemblet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ingen jul uden DR Vokalensemblets julekoncert. I år er den fuld af sprød julemusik fra England og Frankrig tilsat harpe og orgel. Og selvfølgelig bliver det også til en fællessang. Musik af bl.a. Francis Grier, Britten, Poulenc og Pierre Villette. \nZachary Hatcher, harpe. \nSøren Christian Vestergård, orgel. \nDR Vokalensemblet. \nDirigent: Martina Batic. \n(Garnisonskirken, København, 15. december). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -10097,7 +10054,6 @@
       "id": "urn:dr:radio:episode:675b6c714268a8bf7444df90",
       "slug": "fra-alle-os-til-alle-jer-disney-i-100-aar-12422443600",
       "title": "Fra alle os til alle jer ... Disney i 100 år",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "I 2023 fejrede Disney 100-års jubilæum, og DR markerede jubilæet med et musikalsk overflødighedshorn af kendte Disney-soundtracks, udødelige sange og levende billeder i salen. Jakob Stegelmann var vært i selskab med mere end 120 medvirkende solister, sangere og musikere. Sammen fortalte de historien om 100 års eventyr i en aften fuld af grin og gråd, minder og vanvittige øjeblikke. Hør et uddrag fra den forrygende koncert. Andrea Lykke Oehlenschläger, solist. Diluckshan Jeyaratnam, solist. Pelle Emil Hebsgaard, solist. Anna Miilmann, solist.  Wilhelm David Lumholt Hakesberg, solist. DR Symfoniorkestret. DR Koncertkoret. Dirigent: Michael Kosarin.  (Redigeret genudsendelse fra 1. december 2023).",
       "imageAssets": [
         {
@@ -10179,7 +10135,6 @@
       "id": "urn:dr:radio:episode:675383ec7b1cbac66d1c37a2",
       "slug": "goldbergvariationer-for-3-klarinetter-12422443512",
       "title": "Goldbergvariationer for 3 klarinetter",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Et udødeligt mesterværk for 10 fingre bliver til klarinettrio. Lyt med når 3 unge klarinetvirtuoser kaster sig ud i et af Bachs mest elegante værker. Frederik von Wurden, klarinet. Gerbrich Meijer, klarinet. Jonas Frølund, klarinet. (Taksigelseskirken, Nørrebro, 3. november). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -10261,7 +10216,6 @@
       "id": "urn:dr:radio:episode:675232107b1cbac66d15f5be",
       "slug": "moed-europamestrene-i-kor-12422443511",
       "title": "Mød Europamestrene i kor",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Julekoncert med Sankt Annæ Pigekor, som i november vandt den prestigefyldte Silver Rose Bowl ved den store europæiske korkonkurrence Let the Peoples Sing. De bliver akkompagneret af oboisten Eva Steinaa og harpenisten Maria Boelskov Sørensen i et program der både byder på kendt og mindre kendt julemusik for kor.  Værker af blandt andre Britten, Weyse og Duruflé. Eva Steinaa, obo. Maria Boelskov Sørensen, harpe. Sankt Annæ Pigekor. Dirigent: Anne-Terese Sales. (Christiansborg Slotskirke, 15. december). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -10343,7 +10297,6 @@
       "id": "urn:dr:radio:episode:674ceccd7c5eeb4989fdb9cd",
       "slug": "groenlandsk-jul-med-julie-berthelsen-og-odense-symfoniorkester-12422443504",
       "title": "Grønlandsk jul med Julie Berthelsen og Odense Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvis det kniber med julestemningen, så er det her du skal lukke ørene op! Der er lagt op til en af de uundværlige julekoncerter når Julie Berthelsen, Odense Symfoniorkester og Det Fynske Kammerkor giver de velkendte og elskede julesange et grønlandsk præg. Vi bliver taget igennem gnistrende islandskaber og ind i varme stuer, og klassiske toner blander sig med popmusikkens julehits. Julie Berthelsen, vokal. Odense Symfoniorkester. Dirigent: Elias Brown. (Carl Nielsen Salen, Odense, 11. december). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -10425,7 +10378,6 @@
       "id": "urn:dr:radio:episode:674b9a858a53e3935a9fb0ef",
       "slug": "vinterromantik-med-esbjerg-ensemble-12422443503",
       "title": "Vinterromantik med Esbjerg Ensemble",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Esbjerg Ensemble og pianisten Christian Ihle Hadland har sammensat et program der lader vinteren trænge ind i koncertsalen. Og selvom den hvide sne dæmper lydene udenfor, så er vinteren her fuld af energi og farver. Et mangfoldigt sammensat program tager dig gennem varierede landskaber og ved hvert et hjørne gemmer der sig nye overraskelser. Mizzi Mazzoli: Still Life with Avalanche. Fauré: Klavertrio.  Saint-Säins: Romance op. 67.   Klughadt: Trio for obo, bratsch og klaver. Schönberg: Chamber Symphony. Christian Ihle Hadland, klaver. Esbjerg Esnemble. (Syddansk Musikkonservatorium, Esbjerg, 11. december).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -10507,7 +10459,6 @@
       "id": "urn:dr:radio:episode:674a49ad7c5eeb4989f14005",
       "slug": "ro-paa-med-bach-og-theatre-of-voices-12422443502",
       "title": "Ro på med Bach og Theatre of Voices",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Alt ved denne koncert indbyder til fordybelse, ro og afkobling fra julestresset. Theatre of Voices tager dig med ind i kirkerummet og ind i et musikalsk rum, hvor der ikke sættes krav til andet, end at du trækker vejret med sangerne og lader Bachs toner give dig velnære. Musik af Bach og Paul Drayton. Theatre of Voices. Joakim Peterson, violone. David Bendix Nielsen, orgel. Dirigent: Paul Hillier.  (Vejby Kirke, 30. november).  \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -10589,7 +10540,6 @@
       "id": "urn:dr:radio:episode:6748f82c3060dc9ab8e8b49c",
       "slug": "camerata-oeresund-og-handels-favorit-oratorium-12422443501",
       "title": "Camerata Øresund og Händels favorit-oratorium",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Camerata Øresund opfører Händels ynglings oratorie, og nej, det er ikke Messias. I oratoriet \"\"Theodora\"\" er martyren ikke en mand, men den modige kvinde Theodora, der bruger medfølelse og kærlighed som sit våben mod samfundets uretfærdighed og undertrykkelse. Virker det genkendeligt? Lyt med og vurder selv om dette kunne blive det nye faste indslag i julerepertoiret. Helena Schuback, sopran. Steffen Jespersen, kontratenor. Matilda Paulsson, mezzosopran.  Guy Cutting, tenor.  Jacob Abel, bas. Camerata Øresund. Dirigent: Peter Spisský. (Diamanten, 7. december). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -10671,7 +10621,6 @@
       "id": "urn:dr:radio:episode:67450308a5616e00843b42ca",
       "slug": "musik-imod-krig-med-copenhagen-phil-12422443495",
       "title": "Musik imod krig med Copenhagen Phil",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Humanisten Beethoven i oprør mod Napoleon og Sibelius i skovene og musikkens verden på flugt fra 1. verdenskrig. Ved aftenens koncert er musikken i oprør mod verdens ødelæggende krige. Den insisterer på skønheden, trodser ufreden og hylder mennesket og naturen. Lyt med når Copenhagen Phil spiller Beethovens klaverkoncert nr. 4, Sibelius' symfoni nr. 5 og et mere ukendt værk af Rudi Stephan der, inden han måtte lade livet i en skyttegrav, fik skrevet musik så skøn at krigens uhyrligheder synes langt, langt borte. Beatrice Berrut, klaver. Copenhagen Phil. Dirigent: Sebastian Weigle. (Konservatoriets Koncertsal, København, 22. november). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
@@ -10753,7 +10702,6 @@
       "id": "urn:dr:radio:episode:67426005f43ee13a099bda92",
       "slug": "steinaatrioen-og-nye-bekendtskaber-12422443493",
       "title": "Steinaatrioen og nye bekendtskaber",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "De to søstre Maria og Eva Steinaa spiller sammen med pianisten Elias Holm, og ved denne koncert er der værker af komponister du måske ikke er stødt på før på programmet - og det er skam! Hvorfor har man for eksempel aldrig hørt Madeleine Drings yderst velklingende og charmerende trio? Og hvad med Mélanie Bonis, en af Cesar Francks studerende, der kæler for dine ører med kølig, drømmende og sødmefyldte toner. Værker af blandt andre Telemann, Bonis, Dring og Schumann. Maria Steinaa, fløjte. Eva Steniaa, obo. Elias Holm, klaver. (- direkte fra Koncertkapellet, Roskilde). \nVært: Ole Bartholin Kiilerich.",
       "imageAssets": [
         {
@@ -10835,7 +10783,6 @@
       "id": "urn:dr:radio:episode:67410e5101732c1ea9083b23",
       "slug": "aarets-p2-kunstner-bjarke-mogensen-med-egne-vaerker-12422443492",
       "title": "Årets P2 kunstner Bjarke Mogensen med egne værker",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Årets P2 kunstner Bjarke Mogensen kan ved denne koncert opleves i værker skrevet af ham selv. Få et særligt indblik i hans musikalske univers når han sammen med et par faste \"\"partners in crime\"\" kompromisløst kommer godt ud i hjørnene af det klanglige landskab. Og det er nok ikke et velkendt landskab, da scenen fyldes op af slagtøj, mundharpe, klaver og akkordeon!Værker af Bjarke Mogensen, Sjostakovitj og Bach. Bjarke Mogensen, akkordeon. Johan Bridger, slagtøj. Mathias Heise, mundharpe/klaver. \nDuo Ventus. (- direkte Frederiksberg Slotskirke). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -10917,7 +10864,6 @@
       "id": "urn:dr:radio:episode:673fbcd8aa7bc2beaee5db7a",
       "slug": "else-marie-pade-100-aar-12422443491",
       "title": "Else Marie Pade 100 år",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "På 100 års dagen for Else Marie Pades fødsel fejrer en række musikere, på grænsen mellem det elektroniske og klassiske, denne store danske musikpioner med en hyldestkoncert. Lær én af danmarkshistoriens vigtigste komponister bedre at kende, hvor man kan høre både sjældne akustiske og elektroniske værker samt moderne fortolkninger af hendes musik.  Værker af Else Marie Pade.  Dybfølt. Kira Martini, vocal. Jakob Kullberg, cello. Jacob Kirkegaard, elektronik. Vigdis, kor. (- direkte fra DR Koncerthuset, studie 2). \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -10999,7 +10945,6 @@
       "id": "urn:dr:radio:episode:673bc8c9a5616e0084138690",
       "slug": "orgelfetival-med-verdensstjerne-12422443485",
       "title": "Orgelfetival med verdensstjerne",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Aarhus får besøg af en af verdens allerbedste organister. Iveta Apkalna lægger arm med det mægtige Klais-orgel i Symfonisk sal og mon ikke hun kommer ud i alle afkroge af instrumentets væld af muligheder. G. Fauré: Pavane. E-P. Salonen: Sinfonia Concertante. A. Bruckner: Symfoni nr. 4, \"Den romantiske\". Iveta Apkalna, orgel. Aarhus Symfoniorkester. Pierre Bleuse, dirigent. (Symfonisk Sal, Aarhus, 14. november). Vært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -11081,7 +11026,6 @@
       "id": "urn:dr:radio:episode:673925afd65aaf64eaa7687a",
       "slug": "copenhagen-renaissance-music-festival-12422443483",
       "title": "Copenhagen Renaissance Music Festival",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Er du fan af Monteverdi, kan vi helt sikkert interesse med en hans dygtigste samtidige. Sigismondo d'India har aldrig opnået samme popularitet som hans berømte kollega og det er en skam. Udvid dit kendskab til renæssancens verden af drama, skønhed og klang ved denne aftens koncert. Værker af Sigismundo d'India. Musica Ficta. Dirigent: Bo Holten. (Koncertkirken, København, 4. november). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -11163,7 +11107,6 @@
       "id": "urn:dr:radio:episode:6737d495e5089cfcafa75e3a",
       "slug": "musik-om-musik-12422443482",
       "title": "Musik om musik",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Ingen sange om bjerge, floder og hav, ingen sange om kærlighed og tab, kun sange om musik. Aftenens koncert er en hyldest til det det hele handler om - musikken. Lyt med når Ars Nova og deres chefdirigent Sofi Jeanin præsenterer et program af hovedsageligt engelske komponister, med en lille afstikker til Tyskland. Værker af Blandt andre Britten, Elgar og Sullivan. Ars Nova. Dirigent: Sofi Jeannin. (Garnisons Kirke, København, 3. november). \nCa. 20.55.\nElgar: Violinkoncert. \nVilde Frang, violin. \nDet Tyske Symfoniorkester Berlin. \nDirigent: Robin Ticciati. \nCa. 21.30. \nElgar: Strygekvartet. \nBrodsky Kvartetten. \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -11245,7 +11188,6 @@
       "id": "urn:dr:radio:episode:67368338d91ec585bda9438c",
       "slug": "uropfoerelser-gennem-tiderne-12422443481",
       "title": "Uropførelser gennem tiderne",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Forestil dig du er tilibage i 1724 - du har lige sat dig til rette i teateret og de første toner af Händels nyskrevne mesterværk begynder at klinge. Operaen Julius Cæsar er Händels hovedværk i genren og DU er med til premieren! Leg med på Odense Symfoniorkesters fantasisrejse gennem fire århundrede, der ende med en vaskeægte 2024 uropførelse når de til sidst spiller Ruders helt nye symfoni nr. 6. Værker af Händel, Mendelssohn, Strauss og Ruders. Odense Symfoniorkester. Dirigent: Christopher Lichtenstein. (Carl Nielsen Salen, Odense, 21. november). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -11327,7 +11269,6 @@
       "id": "urn:dr:radio:episode:6732e4d7166260dfe63f6039",
       "slug": "dr-vokalensemblet-og-sankt-caecilia-12422443475",
       "title": "DR Vokalensemblet og Sankt Cæcilia",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Sankt Cæcilia er musikkens skytshelgen. DR Vokalensemblet og æresdirigent Marcus Creed fejrer Sankt Cæcilia-dag med musik af renæssancens mestre og moderne komponister, lige fra Orlando di Lasso og Palestrina til Gabriel Jackson og Benjamin Britten. De hylder alle den gamle helgen i himmelstræbende og glædesfyldt musik. \nDR Vokalensemblet. \nDirigent: Marcus Creed. \n( - direkte fra Trinitatis Kirke, København). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -11409,7 +11350,6 @@
       "id": "urn:dr:radio:episode:672e999c446d78ff8d32b0a4",
       "slug": "dansk-supertalent-med-spanske-stjerner-12422443472",
       "title": "Dansk supertalent med spanske stjerner",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvis det er første gang du hører Gustav Piekut spille, lover vi at det ikke bliver sidste! Den nyligt uddannede pianist er allerede godt i gang med en karriere, der løfter øjenbryn. Ved denne koncert er han sat sammen med etablerede verdenstjerner i form af den spanske kvartet Quiroga, så scenen er sat for en direkte koncert fra med værker af blandt andet Debussy, Grieg og Schumann. Gustav Piekut, klaver. Quiroga Kvartetten. (- direkte fra Diamanten, København). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -11491,7 +11431,6 @@
       "id": "urn:dr:radio:episode:672d4853da093e2facd83940",
       "slug": "den-komponerende-pianist-12422443471",
       "title": "Den komponerende pianist",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Mozart, Beethoven, Chopin, Liszt og mange mange flere - listen er lang over komponister der også var blændende pianister. Det er dog en uddød tradition, så aftenens koncert er en helt speciel begivenhed, da det er komponisten selv der sidder bag tangenterne. Pianist og komponist Bo Lundby Jæger fejrer sin egen 60 års fødselsdag værker skrevet gennem de sidste 30 år. Bo Lundby Jæger, klaver. (Musikhuset, København, 16. november). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -11573,7 +11512,6 @@
       "id": "urn:dr:radio:episode:6726b054e77971e4cbbb1e1e",
       "slug": "velkommen-ind-i-blaesernes-univers-12422443463",
       "title": "Velkommen ind i blæsernes univers",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tag en dyb indånding og lad den friske luft fylde dine lunger. Ved denne koncert skal der nemlig bruges ekstra meget ilt når Ensemble Midtvest tager dig med ind i træblæsernes klangfulde univers.  Musikken har sit udspring i Frankrig, men tager dig så vidt som Braslilien når du blandt kan høre Poulencs viltre klarinetsonate og Villa-Lobos' aromatiske blæserkvintet. Ensemble Midtvest. (- direkte fra Kunstcenter Silkeborg Bad). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -11655,7 +11593,6 @@
       "id": "urn:dr:radio:episode:67255f45a06b2a6e3fbd049f",
       "slug": "dansk-kormester-hyldes-12422443462",
       "title": "Dansk kormester hyldes",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "I Danmark elsker vi kor og få har bidraget til kormusikken som Niels la Cour. Han fylder 80 i år og det skal selvfølgelig fejres. Hør med når Lille MUKO fejre den internationalt anerkendte komponist i et bredt udvalg af hans bedste værker. Peter Navarro Alonso, orgel. Lille MUKO, kor. Dirigent, Ole Faurschou. (Vor Frelser Kirke, København, 9. november). \nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -11737,7 +11674,6 @@
       "id": "urn:dr:radio:episode:67201934310eb7c15c197d3d",
       "slug": "trio-con-brio-og-aarhus-symfoniorkester-12422443455",
       "title": "Trio con Brio og Aarhus Symfoniorkester",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tre mesterværker skabt af minder. Aarhus Symfoniorkester og Trio con Brio spiller tre enestående værker der alle på hver sin måde har vores minder som omdrejningspunkt. Det er musik der skaber drømmeagtige steminger, der husker os på dem vi har mistet og læger sår. Hør et af de stærkeste fortolkninger af tab i Barbers Adagio, den stemningsskabende L'isola della Città af Bent Sørensen og Prokofievs 6. symfoni, der minder os om de sår, som 2. verdenskrig medførte. Trio con Brio: Soo-Jin Hong, violin. Soo-Kyung Hong, cello. Jens Elvekjær, klaver. Aarhus Symfoniorkester. Dirigent: Dmitry Matvienko. (Symfonisk Sal, Aarhus, 7. november). \nCa. kl. 21.30: \nBent Sørensen: Masquerade. \nTrio con Brio Copenhagen. \n(Fra koncert ved Frederiksberg Festspil 9. september 2024). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -11819,7 +11755,6 @@
       "id": "urn:dr:radio:episode:671c165fc0065080aada9d6f",
       "slug": "hvordan-ville-det-lyde-hvis-schubert-var-en-moderne-singer-songwriter-12422443452",
       "title": "Hvordan ville det lyde hvis Schubert var en moderne singer-songwriter?",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Schubert bliver iklædt nyt tøj og sat på scenen sammen med et Fender Rhodes. Oplev de velkendte sange på en helt ny måde, når Ensemble Storstrøm og en række gæstesolister spiller udvalgte Schubert lieder på måder du helt sikkert ikke har hørt før! Værker af Schubert og Eivind Buene. Ensemble Storstrøm. Eivind Buene, sang og Fender Rhodes. Andrea Pellegrini, mezzosopran. Halvor Melien, bariton. (KUMUS, 15. september). \nVært: Mette Greiffenberg.",
       "imageAssets": [
         {
@@ -11901,7 +11836,6 @@
       "id": "urn:dr:radio:episode:67238e91832f7a5b81946eeb",
       "slug": "allehelgen-med-dr-vokalensemblet-12422443444",
       "title": "Allehelgen med DR Vokalensemblet",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Allehelgen er fuld af stemning og eftertanke, og i renæssancemusikkens fletværk af stemmer er der plads til at lade tankerne flyve. DR Vokalensemblet synger musik af to af renæssancens hofkomponister, William Byrd og Tomas Luis de Victoria, lagt i hænderne på en specialist, den engelske dirigent Peter Phillips.  \nDR Vokalensemblet. \nDirigent: Peter Phillips. \n(- direkte fra Trinitatis Kirke, København). \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -11983,7 +11917,6 @@
       "id": "urn:dr:radio:episode:670af2e87a29711438f8283d",
       "slug": "baroque-society-12422443433",
       "title": "Baroque Society",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "The Baroque Society er ikke noget barokensemble, det er et band. Det er sådan de forstår sig selv, for de kan li' at improvisere, og vil ikke have at et stykke musik, lyder ens to gange i træk. De går gerne efter ukendt musik, for de vil gerne give deres lytter oplevelser, de ikke har haft før. Men måske vigtigst af alt, så vil de i deres fortolkninger gerne finde \"hjem til musikken\". Hør hvordan det lyder i værker af blandt andre Francoise-Charlotte Menetou, Helene-Louise Demars og Antonia Bembo. \nChristina af Klinteberg Herresthal, mezzosopran. Jesenka Balic Zunic, barokviolin. Adam Grauman, gambe. Yngvild Haaland Ruud, cembalo & kunstnerisk ledelse. \n(Jægersborg kirke 13. oktober).\nVært: Jakob Wivel.",
       "imageAssets": [
         {
@@ -12065,7 +11998,6 @@
       "id": "urn:dr:radio:episode:6701b8a6b90c51f5c0935021",
       "slug": "maecenens-optegnelser-brantelid-harald-haugaard-janne-thomsen-m-fl-12422443423",
       "title": "Mæcenens optegnelser - Brantelid, Harald  Haugaard, Janne Thomsen m.fl",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "I år fylder Hostebro 750 år. I den anledning fejrer fløjtenist Janne Thomsens festival, Klassiske Dage, mæcenen bag spillestedet Knudsens, Valdemar Birn. Programmet er inspireret af personlige optegnelser fra hans rejsedagbøger og musikbibliotek - hør musik af festivalkomponist Tõnu Kõrvits, Fanny Mendelssohn, Schubert, Chopin og Sergei Taneyev. Janne Thomsen, fløjte. Christoffer Sundqvist, klarinet. Harald Haugaard, Elina Vähälä, violin. Gotlibovich, bratsch. Andreas Brantelid, David Cohen, cello. Irina Zahharenkova, klaver. (Knudsens, Holstebro 3. oktober). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -12147,7 +12079,6 @@
       "id": "urn:dr:radio:episode:66ff1648cb018709089c3043",
       "slug": "dr-pigekoret-i-moerke-12422443421",
       "title": "DR Pigekoret i mørke",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "DR Pigekoret slukker for lyset i Koncertsalen og inviterer ind i musikken og mørket. Kom helt tæt på stemmer, ord og klange i en musikalsk fortælling sat sammen af musik du kender og musik som du måske aldrig har hørt før, præsenteret på en anderledes måde i mørket. \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
@@ -12229,7 +12160,6 @@
       "id": "urn:dr:radio:episode:66fb217acb018709088b0c1a",
       "slug": "planeterne-i-aarhus-12422443415",
       "title": "Planeterne i Aarhus",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Tag med til en britisk aften i Aarhus, hvor den nytiltrådte Matvienko dirigerer Gustav Holsts storstilede tonedigt om universet. Koncerten begynder med Benjamin Brittens kærlighedserklæring til sin lærer, Frank Bridge: Benjamin Britten: Variationer over et tema af Frank Bridge. Gustav Holst: Planeterne. SORA. Aarhus Symfoniorkester. Dirigent: Dmitry Matvienko. (Symfonisk Sal, Aarhus 10. oktober). \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -12311,7 +12241,6 @@
       "id": "urn:dr:radio:episode:66f72c438168ebc64d5ef936",
       "slug": "concerto-copenhagens-store-weyse-fejring-12422443412",
       "title": "Concerto Copenhagens store Weyse-fejring",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Concerto Copenhagen er gået all in på at fejre den danske (men tyskfødte) komponist, der står bag sange som Det er så yndigt at følges ad og Julen har bragt velsignet bud, men som også skrev symfonier og meget anden musik. Tag med til den tredelte koncert som fejrer kirkens, salonens og teatrets Weyse og hør blandt andet hans første symfoni og  uddrag af kantater og syngespillet Sovedrikken. Concerto Copenhagen. Studerende og Børnekor fra DKDM. (DKDM 29. september). \nVært: Rie Koch.",
       "imageAssets": [
         {
@@ -12393,7 +12322,6 @@
       "id": "urn:dr:radio:episode:66ef433eb126e597122e7df9",
       "slug": "aarets-p2-kunstner-bjarke-mogensen-og-prinsens-musikkorps-12422443403",
       "title": "Årets P2 Kunstner, Bjarke Mogensen og Prinsens Musikkorps",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Har du hørt P2 koncerten i år, så er du allerede stødt på ham et par gange - den forrygende danske akkordeonist som både spiller klassisk, ny musik, folkemusik, tango og enge kompositioner. I aften er vi glade for at kunne præsentere ham sammen med et af Danmarks bedste militærorkestre, i en Niklas Schmidt-Concertino, skrevet til Bjarke. Du får naturligvis også et par tangoer og et spritnyt værk af Pernille Sejlund.  Bjarke Mogensen, akkordeon. Prinsens Musikkorps. (Viborg Domkirke 29. september). Vært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -12475,7 +12403,6 @@
       "id": "urn:dr:radio:episode:66de20974312715628cdfccb",
       "slug": "aarhus-har-faaet-ny-chef-og-med-ham-foelger-et-skift-i-hele-byens-grundtone-12422443384",
       "title": "Aarhus har fået ny chef, og med ham følger et skift i hele byens grundtone",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "- så markant beskriver Aarhus Symfoniorkester sin nye chefdirigent. I aften kan du høre hans officielle tiltrædelseskoncert, med tre flotte værker på programmet: \nStravinskij: Fyrværkeri. \nKorngold: Violinkoncert. \nRichard Strauss: Tod und Verklarung. \nAlena Baeva, violin. \nAarhus Symfoniorkester. \nDirigent: Dmitry Matvienko. \n(Musikhuset  Aarhus 12. september).  \nVært: Klaus Møller-Jørgensen.",
       "imageAssets": [
         {
@@ -12557,7 +12484,6 @@
       "id": "urn:dr:radio:episode:66db7d82fb1a3138527e388d",
       "slug": "marianna-shirinyan-solo-i-odense-12422443382",
       "title": "Marianna Shirinyan solo i Odense",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hvis der er en dansk pianist der kan bære en hel soloaften alene, så er det armensk fødte Shirinyan. Det er Kammermusik Odense der har inviteret hende til at spille et program der kommer vidt omkring: Scarlatti: Klaversonater K213, K27 og K159.  Hans Abrahamsen: Etuder: Traumlied, Sturm og Arabesque.  Ravel: Gaspard de la nuit. Bach: Jesus bleibet meine Freude.  Schubert: Impromptu i Es-dur. Skrjabin: Trois Morceaux, op. 45.  Schubert: Impromptu i Ges-dur. Chopin: Ballade Nr. 4 i f-mol. Marianna Shirinyan, klaver. (Odense Valgmenighed 15. september). \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -12639,7 +12565,6 @@
       "id": "urn:dr:radio:episode:66d0f14bfc6a7f25beddf415",
       "slug": "trio-con-brio-kan-i-aar-fejre-25-aar-med-sublim-trio-kunst-12422443371",
       "title": "Trio con brio kan i år fejre 25 år med sublim trio-kunst",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Det markerer de ved aftenens koncert med et helt nyt værk af Bent Sørensen, garneret med kendte trioer af Schubert og Beethoven. Teaterscenen på Edison skaber en atmosfærefyldt ramme for jubilæumskoncerten. \nBeethoven: Klavertrio i D-dur op 70/1 (Geister).  \nBent Sørensen: Klavertrio nr. 3 (Masquerade).  \nSchubert: Klavertrio i Es-Dur. \nTrio con Brio.  \n( - fra Edison-teatret på Frederiksberg).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -12721,7 +12646,6 @@
       "id": "urn:dr:radio:episode:66ba87b2a56be59b029464f6",
       "slug": "jacquots-tiltraedelseskoncert-med-kapellet-strauss-mozart-og-korngold-12422443345",
       "title": "Jacquots tiltrædelseskoncert med kapellet: Strauss, Mozart & Korngold",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Franske Marie Jacquot har allerede tyvstartet og spillet med Det Kongelige Kapel, men i aften er den officielle tiltrædelsesaften. Hør hvordan kvinden der skal forme orkestret de næste fire år lyder i musik af Mozart, Strauss og Korngold.    Noah Bendix-Balgley, violin. Det Kgl. Kapel. Dirigent: Marie Jacquot. (- direkte fra Operaen i København).\nVært: Celine Haastrup.",
       "imageAssets": [
         {
@@ -12802,7 +12726,6 @@
       "id": "urn:dr:radio:episode:6692fa7364697fc5a3616f10",
       "slug": "oremandsgaards-med-folkemusik-i-bagagen-12422443303",
       "title": "Oremandsgaards - med folkemusik i bagagen",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Hør rytmerne blive stampet frem af jorden hos komponister med folkemusik i bagagen. I Wiens stemningsfulde gyder, hvor Brahms havde sine spadsereture, og hvor Haydn iført paryk og silkestrømper tilbage i 1700-tallet hørte gademusikanterne - eller i små rumænske landsbyer, hvor komponisterne Kodaly og Bartok rejste til for at optage indbyggernes sange.  Desuden musik af Athanasia Kotronia og György Ligeti. Boris Brovtsyn, Adam Koch, Yura Lee, violin. Nicholas Swensen & Eivind Ringstad, bratsch. Brannon Cho & Andreas Brantelid, cello. Gerbrich Meijer, klarinet. (- direkte fra Oremandsgaard, Præstø). \nVært: Esben Tange.",
       "imageAssets": [
         {
@@ -12883,7 +12806,6 @@
       "id": "urn:dr:radio:episode:65a074f2b513c3e7e101cc1b",
       "slug": "nordenvind-fra-vest-med-esbjerg-ensemble-12422443041",
       "title": "Nordenvind fra vest med Esbjerg Ensemble",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Der er både blæsermusik og nordiske toner på spil i denne koncert, hvor komponisterne kommer fra Norge, Finland, Danmark, Sverige og Island: Grieg: Strygekvartet i g-mol. Esa-Pekka Salonen: Memoria, for blæserkvintet. Hans Abrahamsen: Walden, for blæserkvintet.  Liza Lim: Ming Qi (Bright Vessel) for obo og slagtøj.  Bára Gisladottir: Laufgar, for bratsch og slagtøj.  Esbjerg Ensemble.  (SDMK, Esbjerg 18. januar).  \nVært: Charlotte Norholt.",
       "imageAssets": [
         {
@@ -12965,7 +12887,6 @@
       "id": "urn:dr:radio:episode:6571bb46122adb1868f10869",
       "slug": "dreamers-circus-jul-med-teitur-12422343504",
       "title": "Dreamers' Circus' jul med Teitur",
-      "punchline": "Hver dag 19.20 gør vi klar til klassisk koncert i P2",
       "description": "Vi slutter den forrygende trios år som P2-kunstnere af med en transmission af deres julekoncert, som de selv beskriver sådan: \"Siden vi udgav det færøske nummer Brestiskvædi med Teitur i 2022, har det været en drøm for os at stå på scenen sammen med ham. Teitur repræsenterer på en og samme tid en forfriskende nysgerrighed og stærk kunstnerisk integritet og hans fantastiske stemme komplementerer vores univers på smukkeste vis. Man kan forvente musik der er både traditionsrig og eksotisk - toner der lyder som noget man aldrig har hørt før.\n(-direkte fra Diamanten).  \nVært: Celine Haastrup.",
       "imageAssets": [
         {
