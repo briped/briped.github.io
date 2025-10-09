@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-08T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-10-09T08:30:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,8 +74,95 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530414",
+      "durationMilliseconds": 8522601,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530414",
+      "publishTime": "2025-10-09T08:30:00+02:00",
+      "startTime": "2025-10-09T08:30:00+02:00",
+      "endTime": "2025-11-07T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/museer-i-danmark-12422530414",
+      "order": 638955956025335414,
+      "previousId": "urn:dr:radio:episode:681ca2973f4a9729ac88dece",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "productionNumber": "758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca298923dffbb19779350/ec29fe80a204e3d1e6099c839092de872daba00ee8df79998860effd63f904f1"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530414",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-09T08:30:00+02:00",
+      "id": "urn:dr:radio:episode:681ca298923dffbb19779350",
+      "slug": "museer-i-danmark-12422530414",
+      "title": "Museer i Danmark",
+      "description": "Hvilket museum i Danmark vil du anbefale og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Malene Wichmann.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3F2102",
+            "#ACCD82"
+          ]
+        },
+        "colors": {
+          "dark": "#3F2102",
+          "light": "#ACCD82"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530413",
-      "durationMilliseconds": 9000024,
+      "durationMilliseconds": 8519208,
       "categories": [
         "Musik",
         "Klassisk"
@@ -86,6 +173,7 @@
       "endTime": "2025-11-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/hvilket-musikstykke-er-jeg-12422530413",
       "order": 638955092025334413,
+      "nextId": "urn:dr:radio:episode:681ca298923dffbb19779350",
       "previousId": "urn:dr:radio:episode:681ca2d32e64822ed594751c",
       "series": {
         "title": "Hej P2",
@@ -111,7 +199,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2973f4a9729ac88dece/32719593ac20717e07cbec4346e56122e75f178d4553872250b6b74547740a24"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2973f4a9729ac88dece/6ae516c1bb0aaad4814e82e8c069e4a786aaf46b0bab931db883487aa862a7ba"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530413",
@@ -1846,7 +1934,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/kat-12422530373",
       "order": 638930900025314373,
       "nextId": "urn:dr:radio:episode:681ca2882e64822ed59472e5",
-      "previousId": "urn:dr:radio:episode:681ca288b3140b1c1f3bbb36",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1883,93 +1970,6 @@
       "slug": "kat-12422530373",
       "title": "Kat",
       "description": "Hvilken kat glemmer du aldrig - og hvilke oplevelser har gjort den uforglemmelig?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Mette Greiffenberg.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530372",
-      "durationMilliseconds": 8458935,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530372",
-      "publishTime": "2025-09-09T08:30:00+02:00",
-      "startTime": "2025-09-09T08:30:00+02:00",
-      "endTime": "2025-10-08T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/folketone-12422530372",
-      "order": 638930036025313372,
-      "nextId": "urn:dr:radio:episode:681ca28d3f4a9729ac88de70",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca288b3140b1c1f3bbb36/6c093c9dbcead579832170a914ee0346a2cf90639193d5ef178c7d7348a4ac7a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530372",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-09T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:681ca288b3140b1c1f3bbb36",
-      "slug": "folketone-12422530372",
-      "title": "Folketone",
-      "description": "Hvilket stykke klassisk musik med inspiration fra folkemusik skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
