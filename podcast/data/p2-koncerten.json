@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 162,
+  "numberOfEpisodes": 163,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-14T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-15T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543423",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543423",
+      "publishTime": "2025-10-15T19:20:00+02:00",
+      "startTime": "2025-10-15T19:20:00+02:00",
+      "endTime": "2025-11-13T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/modigliani-og-novo-kvartetten-12422543423",
+      "order": 638961530025179423,
+      "previousId": "urn:dr:radio:episode:681c9963083a81efebded367",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99631720bd973dfaa9fd/1d21b9cbb2d918d9cd2ebd8a9333df53f69a278d4d4c07ca9588329593a84aaf"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543423",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-15T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c99631720bd973dfaa9fd",
+      "slug": "modigliani-og-novo-kvartetten-12422543423",
+      "title": "Modigliani- og Novo-kvartetten",
+      "description": "Sejt gået af den unge danske Novo kvartet!: De er blevet en del af BBCs New Generatin Artists program - og det har banet vejen for samarbejdet med stjernerne i Modlgliani kvartetten ved denne koncert. Hør Novo i Schumanns Strygekvartet nr. 3, Haydns Strygekvartet nr. 67, og begge kvartetterne sammen i Mendelssohns oktet, som koncertens finale. \nModigliani Quartet. \nNovo Quartet. \n(Schubertiade Schwarzenberg 29. juni). \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68ed08d7ea7316447c31b2e2",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o8BCc5589t}@0~wcGF=wS4I;wII=^5I;R*RjtR$%EMIpxZRkI:-o9uRjofofxDs:9as:={WVNbs."
+        },
+        {
+          "id": "urn:dr:radio:image:68ed08d7ea7316447c31b2e2",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o8BCc5589t}@0~wcGF=wS4I;wII=^5I;R*RjtR$%EMIpxZRkI:-o9uRjofofxDs:9as:={WVNbs."
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543422",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "endTime": "2025-11-12T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bratschstjernen-tamestit-haydns-ur-og-schumanns-livskraft-12422543422",
       "order": 638960666025178422,
+      "nextId": "urn:dr:radio:episode:681c99631720bd973dfaa9fd",
       "previousId": "urn:dr:radio:episode:681c9963923dffbb19775337",
       "series": {
         "title": "P2 Koncerten",
