@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 19,
+  "numberOfEpisodes": 20,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-05T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-19T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
   "psdbUrn": "urn:dr:mu:bundle:58653c7ba11f9f1504d1ccca",
   "psdbSlug": "p2-guldkoncerten-p2d",
@@ -74,6 +74,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554427",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422554427",
+      "publishTime": "2025-10-19T19:20:00+02:00",
+      "startTime": "2025-10-19T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/mozarts-odense-symfoni-12422554427",
+      "order": 638964986025042427,
+      "previousId": "urn:dr:radio:episode:681c9c68c56338368d768b98",
+      "series": {
+        "title": "P2 Guldkoncerten",
+        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
+        "slug": "p2-guldkoncerten-1206952410000",
+        "productionNumber": "1206952410000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c682b77f3385e308ef0/201113d6a4e58c6b797d879dc1bf9d274df3f69b2d41b0708e13ee3971a2ea06"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554427",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-19T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c9c682b77f3385e308ef0",
+      "slug": "mozarts-odense-symfoni-12422554427",
+      "title": "Mozarts Odense-symfoni",
+      "description": "I 1984 fandt man i nodearkivet hos Odense Symfoniorkester en bortkommet Mozart-symfoni, som Mozart-eksperter havde ledt efter meget længe. Symfonien blev genopført ved en festkoncert i Odense under international bevågenhed, og den fik tilnavnet \"Odense-symfonien\". Senere kom musikforskere frem til, at symfonien slet ikke er komponeret af Mozart - men hvem der så er komponisten, har man endnu ikke fundet ud af.  \nI Guldkoncerten kan du høre den begivenhedsrige festkoncert, dirigeret af Tamas Vetö, som også opførte en ouverture af Rossini, der var blevet fundet i Odense tilbage i 1948. \nRossini: Ouverture, A-dur (\"Sinfonia di Odense\"). \nMozart & Rossini: Arier. \nMozart: Symfoni, a-mol, Odense-symfonien. \nCarl Nielsen: Symfoni nr. 5. \nNiall Murray, baryton. \nOdense Symfoniorkester. \nDirigent: Tamas Vetö. \n(Koncert i Odense, 9. december 1984). \nVært: Carsten Wolf Andersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68ef9b69ce798980ce0660d6",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ojM6;i_N-=iwWBIV%gVtflR%ofWCM|RjxakCjZj@t7ofjsRjW;t7ogoLjsWVofofjZayt7azjaa{"
+        },
+        {
+          "id": "urn:dr:radio:image:68ef9b69ce798980ce0660d6",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ojM6;i_N-=iwWBIV%gVtflR%ofWCM|RjxakCjZj@t7ofjsRjW;t7ogoLjsWVofofjZayt7azjaa{"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#412001",
+            "#FA9F20"
+          ]
+        },
+        "colors": {
+          "dark": "#412001",
+          "light": "#FA9F20"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422554407",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +164,7 @@
       "startTime": "2025-10-05T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-emil-gilels-og-per-noergaard-12422554407",
       "order": 638952890025040407,
+      "nextId": "urn:dr:radio:episode:681c9c682b77f3385e308ef0",
       "previousId": "urn:dr:radio:episode:681c9c682b77f3385e308ee7",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -562,6 +642,7 @@
       "productionNumber": "12422554287",
       "publishTime": "2025-07-13T19:20:00+02:00",
       "startTime": "2025-07-13T19:20:00+02:00",
+      "endTime": "2026-01-13T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/eugen-jochum-dirigerer-mozart-12422554287",
       "order": 638880314025028287,
       "nextId": "urn:dr:radio:episode:681c9c66c56338368d768b65",
@@ -1051,7 +1132,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/musik-til-danmarks-befrielse-12422554187",
       "order": 638819834025018187,
       "nextId": "urn:dr:radio:episode:67f638b08e208bf2ad2b58d9",
-      "previousId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
+      "previousId": "urn:dr:radio:episode:67a3ee8e4c552cce50cb1c6a",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1119,18 +1200,17 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422554147",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554077",
       "durationMilliseconds": 9603500,
       "categories": [
         "Musik",
         "Klassisk"
       ],
-      "productionNumber": "12422554147",
-      "publishTime": "2025-04-06T19:20:00+02:00",
-      "startTime": "2025-04-06T19:20:00+02:00",
-      "endTime": "2025-10-06T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-dr-s-jubilaeumskoncert-1975-12422554147",
-      "order": 638795642025014147,
+      "productionNumber": "12422554077",
+      "publishTime": "2025-10-12T19:20:00+02:00",
+      "startTime": "2025-02-16T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/leonard-bernstein-og-claudio-arrau-12422554077",
+      "order": 638753270025007077,
       "nextId": "urn:dr:radio:episode:67f527531045f0766471e807",
       "previousId": "urn:dr:radio:episode:67917989ec59142e673121bf",
       "series": {
@@ -1157,32 +1237,32 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e4883a52248c98a43e1c73/3823e308c9f429418008c4fd3a20851e6549a7c056aad2818b4fe4ff4ba38a73"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67a3ee8e4c552cce50cb1c6a/03ccd8346d041442b289b5b46e465423d6a00c1cdaa2b00b6399e3e3e1b3bfc9"
         }
       ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554147",
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554077",
       "isAvailableOnDemand": true,
       "hasVideo": false,
       "explicitContent": false,
-      "latestPublishTime": "2025-04-06T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
-      "slug": "dr-symfoniorkestret-100-aar-dr-s-jubilaeumskoncert-1975-12422554147",
-      "title": "DR Symfoniorkestret 100 år: DR's jubilæumskoncert 1975",
-      "description": "I 1975 kunne DR fejre sit 50-års jubilæum, og i den anledning blev der afholdt en stor festkoncert med overvejende dansk musik, bl.a. af Carl Nielsen og Finn Høffding. Alle DR's ensembler var på scenen sammen med tre dirigenter og flere kendte solister. I denne udgave af Guldkoncerten kan man for første gang siden 1975 høre hele 50-års jubilæumskoncerten. Medvirkende bl.a.: violinist Henryk Szeryng, saxofonist Jesper Thilo, sopran Tove Hyldgård, dirigenterne Herbert Blomstedt, Finn Savery og Mogens Wöldike samt DR Symfoniorkestret, DR Big Band, DR Underholdningsorkestret, DR Radiokoret, DR Pigekoret & Zahles Skoles drengekor.(Koncert i Radiohusets Koncertsal, 3. april 1975).\nVært: Esben Tange.",
+      "latestPublishTime": "2025-10-12T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:67a3ee8e4c552cce50cb1c6a",
+      "slug": "leonard-bernstein-og-claudio-arrau-12422554077",
+      "title": "Leonard Bernstein og Claudio Arrau",
+      "description": "I 1976 optrådte to af det 20. århundredes største klassiske musikere, Leonard Bernstein og Claudio Arrau, ved en velgørenhedskoncert til fordel for Amnesty International. De valgte at spille musik af en komponist, der besynger frihed og broderskab: Beethoven. Hør bl.a. Beethovens Klaverkoncert nr 4 og Skæbnesymfonien.  \nClaudio Arrau, klaver. Bayerns Radiosymfoniorkester. Dirigent: Leonard Bernstein. (Koncert i Kongressalen, Deutsches Museum, München, 1976). Vært: Rie Koch.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67efa89740737fa5401612b0",
+          "id": "urn:dr:radio:image:67ecd2321c128984740a4090",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o47Kk{_3D%4n4.j@%Mf7%Mt8IUE1~W%MM{IUs:xu9YD%%2?H%Ms:E0IUWBof%M%MIUWBt7xuj]ay"
+          "blurHash": "oCDJO}?b00xuM{j[IURj-;%MxuxuRj%M-;t7t7WBIUoft7WBoft7Rjt7xuWBM{M{oft7j[WBRjM{"
         },
         {
-          "id": "urn:dr:radio:image:67efa89740737fa5401612b0",
+          "id": "urn:dr:radio:image:67ecd2321c128984740a4090",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o47Kk{_3D%4n4.j@%Mf7%Mt8IUE1~W%MM{IUs:xu9YD%%2?H%Ms:E0IUWBof%M%MIUWBt7xuj]ay"
+          "blurHash": "oCDJO}?b00xuM{j[IURj-;%MxuxuRj%M-;t7t7WBIUoft7WBoft7Rjt7xuWBM{M{oft7j[WBRjM{"
         }
       ],
       "visualIdentity": {
@@ -1210,8 +1290,8 @@
       "publishTime": "2025-09-28T19:20:00+02:00",
       "startTime": "2025-02-02T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-martha-argerich-og-ole-buck-12422554057",
-      "order": 638741174025005057,
-      "nextId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
+      "order": 638741210025005057,
+      "nextId": "urn:dr:radio:episode:67a3ee8e4c552cce50cb1c6a",
       "previousId": "urn:dr:radio:episode:677f058781654c75b603f28b",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -1290,7 +1370,7 @@
       "publishTime": "2025-09-07T19:20:00+02:00",
       "startTime": "2025-01-19T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/john-frandsen-og-isabelle-van-keulen-12422554037",
-      "order": 638729078025003037,
+      "order": 638729114025003037,
       "nextId": "urn:dr:radio:episode:67917989ec59142e673121bf",
       "previousId": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
       "series": {
@@ -1370,7 +1450,7 @@
       "publishTime": "2025-08-31T19:20:00+02:00",
       "startTime": "2025-01-05T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/celibidache-dirigerer-verdis-requiem-12422554017",
-      "order": 638716982025001017,
+      "order": 638717018025001017,
       "nextId": "urn:dr:radio:episode:677f058781654c75b603f28b",
       "previousId": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
       "series": {
@@ -1450,7 +1530,7 @@
       "publishTime": "2025-08-03T19:20:00+02:00",
       "startTime": "2024-12-08T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/klaveraften-med-rudolf-serkin-12422454497",
-      "order": 638692788000049497,
+      "order": 638692824000049497,
       "nextId": "urn:dr:radio:episode:676c8f87d81a4d6d6bba905f",
       "previousId": "urn:dr:radio:episode:672bf607421f1136651688a5",
       "series": {
@@ -1530,7 +1610,7 @@
       "publishTime": "2025-07-20T19:20:00+02:00",
       "startTime": "2024-11-17T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten/bruckner-200-aar-12422454467",
-      "order": 638674644000046467,
+      "order": 638674680000046467,
       "nextId": "urn:dr:radio:episode:6747a623f43ee13a09b26785",
       "series": {
         "title": "P2 Guldkoncerten",
