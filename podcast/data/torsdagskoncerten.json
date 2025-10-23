@@ -17,7 +17,7 @@
   "numberOfEpisodes": 12,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-10-16T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-23T19:20:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,6 +74,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545434",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545434",
+      "publishTime": "2025-10-23T19:20:00+02:00",
+      "startTime": "2025-10-23T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/dr-symfoniorkestret-100-aar-sfaerernes-musik-12422545434",
+      "order": 638968442025043434,
+      "previousId": "urn:dr:radio:episode:681c9963a75c4b58350e1fa7",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99649514fc4eb6c862f9/f9a60ae3d1b4b54bea3417b54ad49c7c148c066a726b4bb844f0c262a14aed06"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545434",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-23T19:20:00+02:00",
+      "id": "urn:dr:radio:episode:681c99649514fc4eb6c862f9",
+      "slug": "dr-symfoniorkestret-100-aar-sfaerernes-musik-12422545434",
+      "title": "DR Symfoniorkestret 100 år: Sfærernes musik",
+      "description": "Hør den første af DR Symfoniorkestrets 100-års jubilæumskoncerter. Komponisten Hans Abrahamsen er gået på opdagelse i kollegaen Rued Langgaards Gitanjali-hymner for klaver, inspireret af indisk poesi. Hør dem i farvestrålende orkesterdragt. På programmet er også Langgaards utrolige værk Sfærernes Musik, med flimrende, stemningsfulde klange og et fjernorkester! Indimellem kan du opleve to stærke orkesterværker af Arnold Schönberg - Ode til Napoleon og En overlevende fra Warszawa, begge skrevet i lyset af 2. Verdenskrig. \nAbrahamsen: 3 stykker fra Gitanjali-hymner. \nSchönberg: En overlevende fra Warszawa. \nSchönberg: Ode til Napoleon Bonaparte. \nLangaard: Sfærernes musik.  \nDR Symfoniorkestret, kor og solister. \nDirigent: Fabio Luisi. \n(- direkte fra DR Koncerthuset).  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68f8e6365e2136977bd82f1c",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o97J^MxuxaRj0fIp-Vofs:axEMRk9uWBR*of%1oeNGjZR+j[xZofjZfPoLWVj[j[NGR*oLofxaof"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e6365e2136977bd82f1c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o97J^MxuxaRj0fIp-Vofs:axEMRk9uWBR*of%1oeNGjZR+j[xZofjZfPoLWVj[j[NGR*oLofxaof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545424",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +164,7 @@
       "startTime": "2025-10-16T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/dr-symfoniorkestret-i-rumaenien-12422545424",
       "order": 638962394025042424,
+      "nextId": "urn:dr:radio:episode:681c99649514fc4eb6c862f9",
       "previousId": "urn:dr:radio:episode:681c9962c56338368d767874",
       "series": {
         "title": "Torsdagskoncerten",
@@ -325,7 +405,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/isabelle-faust-og-sibelius-rige-symfoniske-verden-12422545394",
       "order": 638944250025039394,
       "nextId": "urn:dr:radio:episode:681c999eb3140b1c1f3b796e",
-      "previousId": "urn:dr:radio:episode:681c99609514fc4eb6c862d4",
+      "previousId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
@@ -393,87 +473,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545384",
-      "durationMilliseconds": 9601772,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545384",
-      "publishTime": "2025-09-18T19:20:00+02:00",
-      "startTime": "2025-09-18T19:20:00+02:00",
-      "endTime": "2025-10-18T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/musik-til-morgengryet-12422545384",
-      "order": 638938202025038384,
-      "nextId": "urn:dr:radio:episode:681c99601720bd973dfaa9e5",
-      "previousId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "productionNumber": "4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99609514fc4eb6c862d4/fb62a7446f982d2a27b1d1c156c356f5cc94243f0340f2e5aa8dc5a97d651a2a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545384",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-18T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c99609514fc4eb6c862d4",
-      "slug": "musik-til-morgengryet-12422545384",
-      "title": "Musik til morgengryet",
-      "description": "Hør DR Symfoniorkestret spille Lil Lacys stykke Aurora, der er inspireret af solopgangen, lyset og en ny begyndelse. Lyset går igen i den unge Felix Mendelssohns Koncert for to klaverer i E-dur. De to lyshårede brøde Lucas og Arthur Jussen er solister. Efter pausen står den på musik af Robert Schumann - hans 4. symfoni der bevæger sig fra mørk kamp til lys triumf. \nLil Lacy: Aurora (dansk førsteopførelse). \nFelix Mendelssohn: Koncert for to klaverer, E-dur. \nRobert Schumann: Symfoni nr. 4. \nLucas & Arthur Jussen, klaverer. \nDR Symfoniorkestret. \nDirigent: Nicholas Collon. \n(- direkte fra DR Koncerthuset). \nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68c9430ddb0376e10a351cf3",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oPD]oARjM{ay9Fxu~qoft7Rjofayt7RjofxuxuWARjofRjRjxuxuIUtRj[WBxuRj%MRjWBxuM{WB"
-        },
-        {
-          "id": "urn:dr:radio:image:68c9430ddb0376e10a351cf3",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oPD]oARjM{ay9Fxu~qoft7Rjofayt7RjofxuxuWARjofRjRjxuxuIUtRj[WBxuRj%MRjWBxuM{WB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545364",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -485,7 +484,7 @@
       "startTime": "2025-09-04T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/blomstedt-og-bruckners-9-12422545364",
       "order": 638926106025036364,
-      "nextId": "urn:dr:radio:episode:681c99609514fc4eb6c862d4",
+      "nextId": "urn:dr:radio:episode:681c99601720bd973dfaa9e5",
       "previousId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
       "series": {
         "title": "Torsdagskoncerten",
