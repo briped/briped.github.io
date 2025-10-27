@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 163,
+  "numberOfEpisodes": 164,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-26T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-10-27T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543441",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543441",
+      "publishTime": "2025-10-27T19:20:00+01:00",
+      "startTime": "2025-10-27T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/athelas-og-den-nordiske-lyd-12422543441",
+      "order": 638971898025185441,
+      "previousId": "urn:dr:radio:episode:68cd38de4e0efd14f51456a0",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99522b77f3385e307b4f/6032674bfb1f8e51a2cb46f4b6a11092e9c3bf92affa305fbc36023c9b49b54e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543441",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-27T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c99522b77f3385e307b4f",
+      "slug": "athelas-og-den-nordiske-lyd-12422543441",
+      "title": "Athelas og den nordiske lyd",
+      "description": "Er der nogen der bærer faklen for den ny musik i Danmark, så er det Athelas Sinfonietta. Hør dem i en koncert med fokus på den nordiske lyd - og hør hele hele to uropførelser! \nEli Tausen a Láva: Álvan. \nAya Yoshida: Cellokoncert (uropførelse).  \nDaniel Bjárnasson: Skelja. \nFriðrik Margrétar-Guðmundsson: Fiktia. \nAnna Thorvaldsdottir: Entropic Arrows. \nVeronique Vaka: Akkordeonkoncert (uropførelse). \nJónas Ásgeir Ásgeirsson, akkordeon. \nMaria Isabel Edlund, cello. \nAthelas Sinfonietta Copenhagen. \nDirigent: Bjarni Frímann. \n(Nordatlantens Brygge 25. oktober). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68fb65cd91066218a48db843",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJDR{HkWNHM{IoIo0fIpxZt7t6-oxYxDR*W=xtNH9u%2j[xEIoIoWBR*WCNGofxaM{WAjZkCozW="
+        },
+        {
+          "id": "urn:dr:radio:image:68fb65cd91066218a48db843",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJDR{HkWNHM{IoIo0fIpxZt7t6-oxYxDR*W=xtNH9u%2j[xEIoIoWBR*WCNGofxaM{WAjZkCozW="
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543613",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-10-26T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/copenhagen-lied-duo-competition-finale-12422543613",
       "order": 638971034025235613,
+      "nextId": "urn:dr:radio:episode:681c99522b77f3385e307b4f",
       "previousId": "urn:dr:radio:episode:681c9953b3140b1c1f3b7743",
       "series": {
         "title": "P2 Koncerten",
