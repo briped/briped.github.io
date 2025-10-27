@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 22,
+  "numberOfEpisodes": 21,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-24T08:30:00+02:00",
+  "latestEpisodeStartTime": "2025-10-27T08:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530441",
+      "durationMilliseconds": 9000000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530441",
+      "publishTime": "2025-10-27T08:30:00+01:00",
+      "startTime": "2025-10-27T08:30:00+01:00",
+      "endTime": "2025-11-25T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/spil-dansk-paa-p2-12422530441",
+      "order": 638971508025347441,
+      "previousId": "urn:dr:radio:episode:681ca29db3140b1c1f3bbbea",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "productionNumber": "758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca29d1e0a1c49e06560cf/f43936f4eede3b54c6d96f7765f98765f166cfa65183e94114e305a726d28b4a"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530441",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-27T08:30:00+01:00",
+      "id": "urn:dr:radio:episode:681ca29d1e0a1c49e06560cf",
+      "slug": "spil-dansk-paa-p2-12422530441",
+      "title": "Spil Dansk på P2",
+      "description": "I dag er det Spil Dansk-dag på P2. Hvilke danske komponister eller musikere skal vi høre og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3F2102",
+            "#ACCD82"
+          ]
+        },
+        "colors": {
+          "dark": "#3F2102",
+          "light": "#ACCD82"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530435",
       "durationMilliseconds": 8525475,
       "categories": [
@@ -86,6 +173,7 @@
       "endTime": "2025-11-22T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/et-sted-du-vender-tilbage-til-12422530435",
       "order": 638968916025346435,
+      "nextId": "urn:dr:radio:episode:681ca29d1e0a1c49e06560cf",
       "previousId": "urn:dr:radio:episode:681ca29d923dffbb1977937c",
       "series": {
         "title": "Hej P2",
@@ -1758,7 +1846,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/efteraars-strandtur-12422530401",
       "order": 638947316025327401,
       "nextId": "urn:dr:radio:episode:681ca2952b77f3385e30bd33",
-      "previousId": "urn:dr:radio:episode:681ca28f2e64822ed594732d",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1795,181 +1882,6 @@
       "slug": "efteraars-strandtur-12422530401",
       "title": "Efterårs-strandtur",
       "description": "Hvilken strand er smukkest her i efteråret?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530395",
-      "durationMilliseconds": 8522968,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530395",
-      "publishTime": "2025-09-26T08:30:00+02:00",
-      "startTime": "2025-09-26T08:30:00+02:00",
-      "endTime": "2025-10-25T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/de-bedste-tegnefilm-12422530395",
-      "order": 638944724025326395,
-      "nextId": "urn:dr:radio:episode:681ca28fb3140b1c1f3bbb75",
-      "previousId": "urn:dr:radio:episode:681ca28a923dffbb197792d4",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca28f2e64822ed594732d/67f51361e30f5cfd970da797680c7f13b2b6c3f4e966d332dc60ff29dd515c68"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530395",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-26T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:681ca28f2e64822ed594732d",
-      "slug": "de-bedste-tegnefilm-12422530395",
-      "title": "De bedste tegnefilm",
-      "description": "Vi hylder tegnefilm i dag! Hvad er din yndlingstegnefilm og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk \nVært: Cæcilie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530394",
-      "durationMilliseconds": 8519707,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530394",
-      "publishTime": "2025-09-25T08:30:00+02:00",
-      "startTime": "2025-09-25T08:30:00+02:00",
-      "endTime": "2025-10-24T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/shakespeare-i-musikken-12422530394",
-      "order": 638943860025325394,
-      "nextId": "urn:dr:radio:episode:681ca28f2e64822ed594732d",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca28a923dffbb197792d4/a4f5230d1b03a94cf3152a29256d75aa2e026c777b083ba9319bed952f822e08"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530394",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-09-25T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:681ca28a923dffbb197792d4",
-      "slug": "shakespeare-i-musikken-12422530394",
-      "title": "Shakespeare i musikken",
-      "description": "I dag gælder det klassisk musik med inspiration fra Shakespeare. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Mette Greiffenberg.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
