@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 164,
+  "numberOfEpisodes": 165,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-27T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-10-28T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -75,6 +75,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543442",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543442",
+      "publishTime": "2025-10-28T19:20:00+01:00",
+      "startTime": "2025-10-28T19:20:00+01:00",
+      "endTime": "2025-11-26T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/barnlig-ravel-og-mozart-med-jussen-broedrene-12422543442",
+      "order": 638972762025186442,
+      "previousId": "urn:dr:radio:episode:681c99522b77f3385e307b4f",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9952a95582916ea8cf0d/aa8285c3838dff1e96ced70920360f81a3d3342aa91365454203a73a13e4433f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543442",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-28T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9952a95582916ea8cf0d",
+      "slug": "barnlig-ravel-og-mozart-med-jussen-broedrene-12422543442",
+      "title": "Barnlig Ravel og Mozart med Jussen-brødrene",
+      "description": "To komponister der havde en barnlig sjæl. En dobbeltklaverkoncert stjernepianistbrødrene Jussen. Og en miniatureopera om et barn der gør oprør mod sin strenge mor. Tag med til en usædvanligt blandet koncert med barnet i centrum.\nRavel: Gåsemors historier (suite). \nMozart: Klaverkoncert nr 10 i Es-dur, for to klaverer. \nRavel: L'enfant et les sortilèges, opera. \nSangsolister: Camille Bauer, Nora Gubisch, Anne Sophie Petit, Amandine Ammirati, Eva Zaïcik, Cyrille Dubois, Thomas Dolié og Laurent Naouri. \nNFM Choir. \nFrankfurt Operaens Børnekor. \nFrankfurts Radiosymfoniorkester. \nDirigent: Alain Altinoglu. \nAlte Oper, Frankfurt 26. september. \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68fb678991066218a48dc648",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oDCidekCIUofE%xa~WWXRjRjo}oJ^+IoM{WVWqxaNGxu%2%2sUNG9Zs:xaR*$*WBRkNGM{WBR*fk"
+        },
+        {
+          "id": "urn:dr:radio:image:68fb678991066218a48dc648",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oDCidekCIUofE%xa~WWXRjRjo}oJ^+IoM{WVWqxaNGxu%2%2sUNG9Zs:xaR*$*WBRkNGM{WBR*fk"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543441",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +166,7 @@
       "startTime": "2025-10-27T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/athelas-og-den-nordiske-lyd-12422543441",
       "order": 638971898025185441,
+      "nextId": "urn:dr:radio:episode:681c9952a95582916ea8cf0d",
       "previousId": "urn:dr:radio:episode:68cd38de4e0efd14f51456a0",
       "series": {
         "title": "P2 Koncerten",
