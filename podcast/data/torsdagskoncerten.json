@@ -17,7 +17,7 @@
   "numberOfEpisodes": 12,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-10-23T19:20:00+02:00",
+  "latestEpisodeStartTime": "2025-10-30T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -74,6 +74,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545444",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545444",
+      "publishTime": "2025-10-30T19:20:00+01:00",
+      "startTime": "2025-10-30T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/100-aars-foedselsdagskoncert-med-mahlers-8-12422545444",
+      "order": 638974490025044444,
+      "previousId": "urn:dr:radio:episode:681c99649514fc4eb6c862f9",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9964a90908f76a9e7c58/1fcd71a21a20ff574ba4a52a853301e3616527c6ffdda14753932e991e46f65b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545444",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-10-30T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9964a90908f76a9e7c58",
+      "slug": "100-aars-foedselsdagskoncert-med-mahlers-8-12422545444",
+      "title": "100-års fødselsdagskoncert med Mahlers 8",
+      "description": "Chefdirigent Fabio Luisi står i spidsen for fejringen af DR Symfoniorkestrets 100-års jubilæum med Gustav Mahlers storslåede Symfoni nr. 8. Et værk, som rækker fra jorden helt til de højeste sfærer, kraftfuldt og gribende skrevet for et kæmpestort orkester og kor, og med religiøse tekster og uddrag af Goethes Faust. \nGustav Mahler: Symfoni nr. 8. \nDR Koncertkoret. \nBBC Singers. \nKøbenhavns Drengekor. \nDR Symfoniorkestret. \nDirigent: Fabio Luisi. \n(-direkte fra DR Koncerthuset). \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68fb67f905162390da09d6de",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o89ZWC9aof=_9b^i-o58t6-nIp-U9bofWVENRkSh0$xFoLI;$%I;%1-UjZR*$*I;My-oRkRj-oi_"
+        },
+        {
+          "id": "urn:dr:radio:image:68fb67f905162390da09d6de",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o89ZWC9aof=_9b^i-o58t6-nIp-U9bofWVENRkSh0$xFoLI;$%I;%1-UjZR*$*I;My-oRkRj-oi_"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545434",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -85,6 +164,7 @@
       "startTime": "2025-10-23T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/dr-symfoniorkestret-100-aar-sfaerernes-musik-12422545434",
       "order": 638968442025043434,
+      "nextId": "urn:dr:radio:episode:681c9964a90908f76a9e7c58",
       "previousId": "urn:dr:radio:episode:681c9963a75c4b58350e1fa7",
       "series": {
         "title": "Torsdagskoncerten",
@@ -888,7 +968,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/blomstedt-og-beethovens-7-12422545194",
       "order": 638823290025019194,
       "nextId": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
-      "previousId": "urn:dr:radio:episode:67fc35ed5526fe4ad95762c9",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
@@ -939,86 +1018,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "oB84JOIU4n~Wxu4.sSR*bcs,Rjoz9ZkCxuIoM{tR%gs9ITx]xuD%NGxa%2NGf6xuIUW=%2IURj-p"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545174",
-      "durationMilliseconds": 9577281,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545174",
-      "publishTime": "2025-04-24T19:20:00+02:00",
-      "startTime": "2025-04-24T19:20:00+02:00",
-      "endTime": "2025-10-24T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/ny-dansk-violinkoncert-og-sibelius-1-12422545174",
-      "order": 638811194025017174,
-      "nextId": "urn:dr:radio:episode:67f6370f8e208bf2ad2b4b41",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "productionNumber": "4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67fc35ed5526fe4ad95762c9/80aa2ff8a7a66f7ae6beedf92e25aa386c5e3ae6380e13e19f8c4f98269742a4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545174",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-24T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67fc35ed5526fe4ad95762c9",
-      "slug": "ny-dansk-violinkoncert-og-sibelius-1-12422545174",
-      "title": "Ny dansk violinkoncert og Sibelius 1.",
-      "description": "Thomas Agerfeldt Olesen er en dybt personlig stemme blandt tidens komponister, så det bliver spændende at høre uropførelsen af hans Violinkoncert, der er skrevet med tanke på koncertens hollandske solist, Simone Lamsma. Allerede i sin Symfoni nr. 1 viser Sibelius at han var en mester udi melankoli, dramatik og længselsfulde toner. Thomas Agerfeldt-Olesen: Violinkoncert. Uropførelse. Sibelius: Symfoni nr. 1. Simone Lamsma, violin. DR Symfoniorkestret. Otto Tausk, dirigent. (- direkte fra DR Koncerthuset). \nVært: Esben Tange.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68089f8ab5640041418d7bcc",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o*Kd}Gxtx]t7RjRj~WR*f,j[aej[%NofxajZfkoft7ayofR*jtayayR*RjayoLfkj[ofRjj[R*a|"
-        },
-        {
-          "id": "urn:dr:radio:image:68089f8ab5640041418d7bcc",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o*Kd}Gxtx]t7RjRj~WR*f,j[aej[%NofxajZfkoft7ayofR*jtayayR*RjayoLfkj[ofRjj[R*a|"
         }
       ],
       "visualIdentity": {
