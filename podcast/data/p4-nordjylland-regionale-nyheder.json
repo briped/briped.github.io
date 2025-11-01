@@ -11,10 +11,10 @@
   },
   "isUmbrella": false,
   "categories": [],
-  "numberOfEpisodes": 316,
+  "numberOfEpisodes": 317,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-10-31T17:30:00+01:00",
+  "latestEpisodeStartTime": "2025-11-01T07:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder-1092488072000",
   "psdbUrn": "urn:dr:mu:bundle:57d7f8566187a4031cfd75fc",
   "psdbSlug": "seasonjob160913-nyheder-fra-p4-nordjylland-radio",
@@ -71,14 +71,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14102507446",
+      "durationMilliseconds": 120000,
+      "categories": [],
+      "productionNumber": "14102507446",
+      "publishTime": "2025-11-01T07:30:00+01:00",
+      "startTime": "2025-11-01T07:30:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-07-30-14102507446",
+      "order": 638975790000305446,
+      "previousId": "urn:dr:radio:episode:6835b9e5dc1fbc0f1f77d191",
+      "series": {
+        "title": "P4 Nordjylland regionale nyheder",
+        "id": "urn:dr:radio:series:5fa1570dda351264f87b46ff",
+        "slug": "p4-nordjylland-regionale-nyheder-1092488072000",
+        "productionNumber": "1092488072000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder-1092488072000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092488072000"
+      },
+      "channel": {
+        "title": "P4 Nordjylland",
+        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465d",
+        "slug": "p4nord",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4nord"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835958ab55477aa472b0164/242fe71b711c9fc7a3cc504dd6655de953ebff886c673e1ff63cbfc7bdfe0c00"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14102507446",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-01T07:30:00+01:00",
+      "id": "urn:dr:radio:episode:6835958ab55477aa472b0164",
+      "slug": "seneste-nyt-kl-07-30-14102507446",
+      "title": "Seneste nyt kl. 07:30",
+      "description": "Hør seneste regionale nyheder fra P4 Nordjylland.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9282b53e8e759bb9cce",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZKei%PAGFS4ozwcy?n4R5R*nit7K5xZenV@W=of"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9282b53e8e759bb9cce",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NZKei%PAGFS4ozwcy?n4R5R*nit7K5xZenV@W=of"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#301111",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#301111",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14102517445",
       "durationMilliseconds": 180024,
       "categories": [],
       "productionNumber": "14102517445",
       "publishTime": "2025-10-31T17:30:00+01:00",
       "startTime": "2025-10-31T17:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-17-30-14102517445",
       "order": 638975286000217445,
+      "nextId": "urn:dr:radio:episode:6835958ab55477aa472b0164",
       "previousId": "urn:dr:radio:episode:6835b8cbdc1fbc0f1f77c167",
       "series": {
         "title": "P4 Nordjylland regionale nyheder",
@@ -160,6 +245,7 @@
       "productionNumber": "14102516445",
       "publishTime": "2025-10-31T16:30:00+01:00",
       "startTime": "2025-10-31T16:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-16-30-14102516445",
       "order": 638975250000217445,
       "nextId": "urn:dr:radio:episode:6835b9e5dc1fbc0f1f77d191",
@@ -244,6 +330,7 @@
       "productionNumber": "14102515445",
       "publishTime": "2025-10-31T15:30:00+01:00",
       "startTime": "2025-10-31T15:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-15-30-14102515445",
       "order": 638975214000217445,
       "nextId": "urn:dr:radio:episode:6835b8cbdc1fbc0f1f77c167",
@@ -328,6 +415,7 @@
       "productionNumber": "14102512445",
       "publishTime": "2025-10-31T12:30:00+01:00",
       "startTime": "2025-10-31T12:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-12-30-14102512445",
       "order": 638975106000304445,
       "nextId": "urn:dr:radio:episode:6835aacc5f16b698305f8c6a",
@@ -412,6 +500,7 @@
       "productionNumber": "14102511445",
       "publishTime": "2025-10-31T11:30:00+01:00",
       "startTime": "2025-10-31T11:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-11-30-14102511445",
       "order": 638975070000304445,
       "nextId": "urn:dr:radio:episode:6835a975b55477aa472ba299",
@@ -496,6 +585,7 @@
       "productionNumber": "14102510445",
       "publishTime": "2025-10-31T10:30:00+01:00",
       "startTime": "2025-10-31T10:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-10-30-14102510445",
       "order": 638975034000304445,
       "nextId": "urn:dr:radio:episode:6835add9ef271ab62ebbfed9",
@@ -580,6 +670,7 @@
       "productionNumber": "14102509445",
       "publishTime": "2025-10-31T09:30:00+01:00",
       "startTime": "2025-10-31T09:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-09-30-14102509445",
       "order": 638974998000304445,
       "nextId": "urn:dr:radio:episode:68359b3cb55477aa472b3a98",
@@ -664,6 +755,7 @@
       "productionNumber": "14102508445",
       "publishTime": "2025-10-31T08:30:00+01:00",
       "startTime": "2025-10-31T08:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-08-30-14102508445",
       "order": 638974962000304445,
       "nextId": "urn:dr:radio:episode:683596deb55477aa472b1497",
@@ -748,6 +840,7 @@
       "productionNumber": "14102507445",
       "publishTime": "2025-10-31T07:30:00+01:00",
       "startTime": "2025-10-31T07:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-07-30-14102507445",
       "order": 638974926000304445,
       "nextId": "urn:dr:radio:episode:68359619fe5ec8521a272279",
@@ -832,6 +925,7 @@
       "productionNumber": "14102506445",
       "publishTime": "2025-10-31T06:30:00+01:00",
       "startTime": "2025-10-31T06:30:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4nord/p4-nordjylland-regionale-nyheder/p4-nordjylland-regionale-nyheder/seneste-nyt-kl-06-30-14102506445",
       "order": 638974890000217445,
       "nextId": "urn:dr:radio:episode:6835958afe5ec8521a271917",
