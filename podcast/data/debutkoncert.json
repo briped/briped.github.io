@@ -17,7 +17,7 @@
   "numberOfEpisodes": 7,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-10-04T12:15:00+02:00",
+  "latestEpisodeStartTime": "2025-11-01T12:15:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
   "psdbUrn": "urn:dr:mu:bundle:644f94fe539f0217286bfd97",
   "psdbSlug": "debutkoncert",
@@ -74,6 +74,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422564011",
+      "durationMilliseconds": 1440023,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422564011",
+      "publishTime": "2025-11-01T12:15:00+01:00",
+      "startTime": "2025-11-01T12:15:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/lloyd-griffin-trompet-12422564011",
+      "order": 638975963025011011,
+      "previousId": "urn:dr:radio:episode:682720f27b626ea9bb0e5b5c",
+      "series": {
+        "title": "Debutkoncert",
+        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
+        "slug": "debutkoncert-4568946429000",
+        "productionNumber": "4568946429000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
+        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682720fe61175376c1086e09/f46a7f5ff1f3c62b2d6d486914a310dfa762e458c209b8125e40d31d4755bfcb"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564011",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-01T12:15:00+01:00",
+      "id": "urn:dr:radio:episode:682720fe61175376c1086e09",
+      "slug": "lloyd-griffin-trompet-12422564011",
+      "title": "Lloyd Griffin - trompet",
+      "description": "I dag kan du komme til koncert med den skotske trompetist, Lloyd Griffin, der har slået sig ned i Danmark. Ved sin debutkoncert på Det Jyske Musikkonservatorium 23. juni havde han sammensat et program med musik fra begge sider af Nordsøen - de lande, han har levet i: Skotland og Danmark. \nLyt med til hans fortolkninger af danske messing-klassikere. \nWilkenschildt: Bagatelle. \nThorvald Hansen: Sonate for Kornet. \nLloyd Griffin, trompet og kornet. \nMaria Eshpai, klaver. \nVært: Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68d1164a4e0efd14f5363e5e",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oMHB=0i]8^Mx%2jEm*x^%g-o%0NH#Po#yEWVx]Ip%MtStRn$xtIU%2s:s.t7ofRj%Ne-jYt7aeof"
+        },
+        {
+          "id": "urn:dr:radio:image:68d1164a4e0efd14f5363e5e",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oMHB=0i]8^Mx%2jEm*x^%g-o%0NH#Po#yEWVx]Ip%MtStRn$xtIU%2s:s.t7ofRj%Ne-jYt7aeof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2E1613",
+            "#ED8E6E"
+          ]
+        },
+        "colors": {
+          "dark": "#2E1613",
+          "light": "#ED8E6E"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422564010",
       "durationMilliseconds": 2340024,
       "categories": [
@@ -85,6 +164,7 @@
       "startTime": "2025-10-04T12:15:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/daniel-tobijanski-baryton-12422564010",
       "order": 638951771025010010,
+      "nextId": "urn:dr:radio:episode:682720fe61175376c1086e09",
       "previousId": "urn:dr:radio:episode:682720e87b626ea9bb0e5b1b",
       "series": {
         "title": "Debutkoncert",
@@ -322,6 +402,7 @@
       "productionNumber": "12422564007",
       "publishTime": "2025-07-05T12:15:00+02:00",
       "startTime": "2025-07-05T12:15:00+02:00",
+      "endTime": "2026-01-05T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/michael-germer-violin-12422564007",
       "order": 638873147025007007,
       "nextId": "urn:dr:radio:episode:682720df7b626ea9bb0e5ada",
@@ -487,7 +568,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/marianne-sihvonen-floejte-12422564005",
       "order": 638818715025005005,
       "nextId": "urn:dr:radio:episode:6824438c6f051f913cfbfde1",
-      "previousId": "urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
@@ -538,86 +618,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "omIW~Ix^o#M{K6wJ_4S~WYr=S$r=O[R*n$xDt5R*Xnr=WAfkoJS$S#nOR*NesnkVf+n#oJS2e-oe"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2E1613",
-            "#ED8E6E"
-          ]
-        },
-        "colors": {
-          "dark": "#2E1613",
-          "light": "#ED8E6E"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422564004",
-      "durationMilliseconds": 2160024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422564004",
-      "publishTime": "2025-04-05T12:15:00+02:00",
-      "startTime": "2025-04-05T12:15:00+02:00",
-      "endTime": "2025-10-05T23:59:00+02:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/cecilia-bergman-guitar-12422564004",
-      "order": 638794523025004004,
-      "nextId": "urn:dr:radio:episode:67ee3c05034014f391172f2e",
-      "series": {
-        "title": "Debutkoncert",
-        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
-        "slug": "debutkoncert-4568946429000",
-        "productionNumber": "4568946429000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
-        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a/2a3722fa42405e0b3af55d5e9fb5b9883478410ce1e8b31bea667e60a092545b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564004",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-04-05T12:15:00+02:00",
-      "id": "urn:dr:radio:episode:67e3375da25ef3f5a3c8e86a",
-      "slug": "cecilia-bergman-guitar-12422564004",
-      "title": "Cecilia Bergman - guitar",
-      "description": "Kom med til koncert med den svenske guitarist Cecilia Bergman, der debuterede fra Det Kongelige Danske Musikkonservatorium i februar. Programmet bød på spanske klassikere, svensk musik samt helt nyskreven musik. \nAlbéniz (arr. Holmlund): Córdoba. \nDe Falla: Spansk dans nr. 1 \"La Vida Breve\". \nNorrbotten Guitar Duo. \nVon Koch: \"Rauna\" variationer over en samisk melodi. \nCecilia Bergman, guitar. \n(Konservatoriets Koncertsal, 5. februar).",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd07b1b3cf2409c6c9f16",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "omPQ1=Io~q?bR+D%-=V@M|ozV@t7xat7NGM{ogoK%MoeRjWBoKayofofaeWAazofa}j[oLaej[of"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd07b1b3cf2409c6c9f16",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "omPQ1=Io~q?bR+D%-=V@M|ozV@t7xat7NGM{ogoK%MoeRjWBoKayofofaeWAazofa}j[oLaej[of"
         }
       ],
       "visualIdentity": {
