@@ -14,10 +14,10 @@
     "Musik",
     "Underholdning"
   ],
-  "numberOfEpisodes": 1,
+  "numberOfEpisodes": 2,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-01T07:03:00+01:00",
+  "latestEpisodeStartTime": "2025-11-02T07:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen-760476643000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ca746187a40ef4069c7f",
   "psdbSlug": "p5-morgen",
@@ -79,142 +79,283 @@
   },
   "sSlug": "p5-morgen",
   "rssUri": "https://xmpl.dk/podcast/p5-morgen.xml",
-  "episodes": {
-    "type": "Episode",
-    "learnId": "urn:dr:ocs:audio:content:playable:15452520446",
-    "durationMilliseconds": 10620000,
-    "categories": [
-      "Musik",
-      "Underholdning"
-    ],
-    "productionNumber": "15452520446",
-    "publishTime": "2025-11-01T07:03:00+01:00",
-    "startTime": "2025-11-01T07:03:00+01:00",
-    "endTime": "2025-11-05T23:59:00+01:00",
-    "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen/p5-morgen/loerdag-1-november-2025-15452520446",
-    "order": 638975773800079446,
-    "series": {
-      "title": "P5 Morgen",
-      "id": "urn:dr:radio:series:5fb6249ef45a4df9a5f9bfdf",
-      "slug": "p5-morgen-760476643000",
-      "productionNumber": "760476643000",
-      "type": "Series",
+  "episodes": [
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:15452520447",
+      "durationMilliseconds": 9649599,
+      "categories": [
+        "Musik",
+        "Underholdning"
+      ],
+      "productionNumber": "15452520447",
+      "publishTime": "2025-11-02T07:03:00+01:00",
+      "startTime": "2025-11-02T07:03:00+01:00",
+      "endTime": "2025-11-06T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen/p5-morgen/soendag-2-november-2025-15452520447",
+      "order": 638976637800080447,
+      "previousId": "urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef",
+      "series": {
+        "title": "P5 Morgen",
+        "id": "urn:dr:radio:series:5fb6249ef45a4df9a5f9bfdf",
+        "slug": "p5-morgen-760476643000",
+        "productionNumber": "760476643000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen-760476643000",
+        "learnId": "urn:dr:ocs:audio:content:series:760476643000"
+      },
+      "channel": {
+        "title": "P5",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
+        "slug": "p5",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p5"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 79008088,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/8d7fe7bca2d208ad542bf854cd3b66d00ae4afa3e2e3729523f6a778a5a8550d"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 233404327,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/5a5520782b9c4d5973a62d8cfd63d17412fa923e8d81396059238f7b88cf274c"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 310601968,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/26c73af17f9ba38809704dde5774a5936155868464a4f540d9bda30f0a4b12fa"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 77197517,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/70af0570fbeb35cc707e22ddf7b5e9576ff2034e6bd7e970bbc5bf70168451d2"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 231592013,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/d1f6e3c5f06e44399333e5c596f35bf09ef147b0dc9dcc2850d31038c750a0c2"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fde61175376c1f7708f/3a9377aa25cbe2645233924e72e973dbfaa9aaddf914b50d0d2f83fbf6f65ce2"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:15452520447",
       "isAvailableOnDemand": true,
-      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen-760476643000",
-      "learnId": "urn:dr:ocs:audio:content:series:760476643000"
-    },
-    "channel": {
-      "title": "P5",
-      "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
-      "slug": "p5",
-      "type": "Channel",
-      "presentationUrl": "https://www.dr.dk/lyd/p5"
-    },
-    "audioAssets": [
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 64,
-        "fileSize": 86954295,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/bfb854f485142a8f556a130d7c372368ee659a60b6567cc377d088d3533002fd"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 192,
-        "fileSize": 256876471,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/6ba1dd79bc2d4d3cb550d7cc9bbf4c0b65a363127194c2cdcdcb487d0162244f"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 256,
-        "fileSize": 341837349,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/7c381d082d6666ea1fe6d57b97ab426fe59d417cffcf3383d35664b48bd16584"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 64,
-        "fileSize": 84960653,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/8dbd137e59e0eb4b2ccc6efe88581314fac19f18fa73cf72b7eb1ae31ced9d66"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 192,
-        "fileSize": 254881421,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/af350d4f89f18ddc5d5016adc1e33f38b3b86d7896f7a89642b57f21ce63163f"
-      },
-      {
-        "type": "Audio",
-        "target": "Stream",
-        "isStreamLive": false,
-        "format": "HLS",
-        "bitrate": 0,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/ea98afe166c06892ce2283c2feda141b1e4ef11b1155f27ba29e1366cc2afc59"
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-02T07:03:00+01:00",
+      "id": "urn:dr:radio:episode:68249fde61175376c1f7708f",
+      "slug": "soendag-2-november-2025-15452520447",
+      "title": "Søndag 2. november 2025",
+      "description": "Historier om dagen i dag, dagens fødselarer, dagens TV-tips og masser af den gode P5-Musik.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591c",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NYHVYNv~.lr?nOWB%#S#NGozRPjZOrbbsnX8WCf6"
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591e",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#390E08",
+            "#8EC7B4"
+          ]
+        },
+        "colors": {
+          "dark": "#390E08",
+          "light": "#8EC7B4"
+        }
       }
-    ],
-    "ocsUrn": "urn:dr:ocs:audio:content:playable:15452520446",
-    "isAvailableOnDemand": true,
-    "hasVideo": false,
-    "explicitContent": false,
-    "latestPublishTime": "2025-11-01T07:03:00+01:00",
-    "id": "urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef",
-    "slug": "loerdag-1-november-2025-15452520446",
-    "title": "Lørdag 1. november 2025",
-    "description": "Historier om dagen i dag, dagens fødselarer, dagens TV-tips og masser af den gode P5-Musik.",
-    "imageAssets": [
-      {
-        "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591c",
-        "target": "Default",
-        "ratio": "16:9",
-        "format": "image/jpeg",
-        "blurHash": "NYHVYNv~.lr?nOWB%#S#NGozRPjZOrbbsnX8WCf6"
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:15452520446",
+      "durationMilliseconds": 9652395,
+      "categories": [
+        "Musik",
+        "Underholdning"
+      ],
+      "productionNumber": "15452520446",
+      "publishTime": "2025-11-01T07:03:00+01:00",
+      "startTime": "2025-11-01T07:03:00+01:00",
+      "endTime": "2025-11-05T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen/p5-morgen/loerdag-1-november-2025-15452520446",
+      "order": 638975773800079446,
+      "series": {
+        "title": "P5 Morgen",
+        "id": "urn:dr:radio:series:5fb6249ef45a4df9a5f9bfdf",
+        "slug": "p5-morgen-760476643000",
+        "productionNumber": "760476643000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p5/p5-morgen-760476643000",
+        "learnId": "urn:dr:ocs:audio:content:series:760476643000"
       },
-      {
-        "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
-        "target": "SquareImage",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
+      "channel": {
+        "title": "P5",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4638",
+        "slug": "p5",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p5"
       },
-      {
-        "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591e",
-        "target": "Podcast",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
-      },
-      {
-        "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
-        "target": "Default",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
-      }
-    ],
-    "visualIdentity": {
-      "gradient": {
-        "colors": [
-          "#390E08",
-          "#8EC7B4"
-        ]
-      },
-      "colors": {
-        "dark": "#390E08",
-        "light": "#8EC7B4"
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 79031168,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/0debd43b87e1f1bfa2df116d08463b39fab6b5b2c39828717ed83a961f09b6a5"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 233472331,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/872bbf0ff3ad0da7c273e95db35bca2e7214316d578305fcc23e2a5cbcdff02a"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 310692512,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/e5ddb6a81cef90726b7b096d007c42815ea205452b6ee817057f1b7aa373d0d0"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 77219981,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/2464564e1897065a0c21a1115561f7ab3ac47fe0d2385a5a02407988bd5b72ff"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 231659405,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/5d3b5acbfeeb0978b32b2c7ed6620c29141850739ca1688e589755d4c711e38a"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef/cb9293771169f7d39ddcb11864488e2dcbeb58a3b9ae85bd84387775250d33a5"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:15452520446",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-01T07:03:00+01:00",
+      "id": "urn:dr:radio:episode:68249fdd7b626ea9bbfd09ef",
+      "slug": "loerdag-1-november-2025-15452520446",
+      "title": "Lørdag 1. november 2025",
+      "description": "Historier om dagen i dag, dagens fødselarer, dagens TV-tips og masser af den gode P5-Musik.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591c",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NYHVYNv~.lr?nOWB%#S#NGozRPjZOrbbsnX8WCf6"
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591e",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e5d8608b2e4877edc8591d",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oYGSZ1wd.Rwd-UVt.lS2NGbuMyofO?fkr?W;R*off+ofV@WBt7ays:jti_e.X8jtoLafnijtW;j["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#390E08",
+            "#8EC7B4"
+          ]
+        },
+        "colors": {
+          "dark": "#390E08",
+          "light": "#8EC7B4"
+        }
       }
     }
-  }
+  ]
 }
