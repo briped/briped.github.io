@@ -10,13 +10,11 @@
     "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
   },
   "isUmbrella": false,
-  "categories": [
-    "Nyheder"
-  ],
-  "numberOfEpisodes": 26,
+  "categories": [],
+  "numberOfEpisodes": 27,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-31T16:05:00+01:00",
+  "latestEpisodeStartTime": "2025-11-03T15:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn-1092513406000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1092513406000",
   "productionNumber": "1092513406000",
@@ -72,16 +70,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14802530451",
+      "durationMilliseconds": 10620000,
+      "categories": [],
+      "productionNumber": "14802530451",
+      "publishTime": "2025-11-03T15:03:00+01:00",
+      "startTime": "2025-11-03T15:03:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/mandag-3-november-2025-14802530451",
+      "order": 638977789800218451,
+      "previousId": "urn:dr:radio:episode:6842a3104206aa0f173ef4d4",
+      "series": {
+        "title": "P4 Eftermiddag København",
+        "id": "urn:dr:radio:series:5fa1580cda351264f87b4cb8",
+        "slug": "p4-eftermiddag-koebenhavn-1092513406000",
+        "productionNumber": "1092513406000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn-1092513406000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092513406000"
+      },
+      "channel": {
+        "title": "P4 København",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
+        "slug": "p4kbh",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6842a2efe6453a5281750eaf/ada679e062bbf2f4c999934ffe868b3effe5374a992236930e9a90103d6e500c"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802530451",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-03T15:03:00+01:00",
+      "id": "urn:dr:radio:episode:6842a2efe6453a5281750eaf",
+      "slug": "mandag-3-november-2025-14802530451",
+      "title": "Mandag 3. november 2025",
+      "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e40921446b9d8eb14e827c",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "WdI=DQIoDiM|M_of-nM{M{WBR*t7_NaKIVV@M|t7j[ogs:RjazkC"
+        },
+        {
+          "id": "urn:dr:radio:image:67e40921446b9d8eb14e827c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "WdI=DQIoDiM|M_of-nM{M{WBR*t7_NaKIVV@M|t7j[ogs:RjazkC"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3D0405",
+            "#BEC5CC"
+          ]
+        },
+        "colors": {
+          "dark": "#3D0405",
+          "light": "#BEC5CC"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530445",
       "durationMilliseconds": 6900024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530445",
       "publishTime": "2025-10-31T16:05:00+01:00",
       "startTime": "2025-10-31T16:05:00+01:00",
+      "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-31-oktober-2025-14802530445",
       "order": 638975235000217445,
+      "nextId": "urn:dr:radio:episode:6842a2efe6453a5281750eaf",
       "previousId": "urn:dr:radio:episode:6842a3107c360182ec3af487",
       "series": {
         "title": "P4 Eftermiddag København",
@@ -159,9 +240,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530444",
       "durationMilliseconds": 10619904,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530444",
       "publishTime": "2025-10-30T15:03:00+01:00",
       "startTime": "2025-10-30T15:03:00+01:00",
@@ -246,9 +325,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530443",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530443",
       "publishTime": "2025-10-29T15:03:00+01:00",
       "startTime": "2025-10-29T15:03:00+01:00",
@@ -333,9 +410,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530442",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530442",
       "publishTime": "2025-10-28T15:03:00+01:00",
       "startTime": "2025-10-28T15:03:00+01:00",
@@ -420,9 +495,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530441",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530441",
       "publishTime": "2025-10-27T15:03:00+01:00",
       "startTime": "2025-10-27T15:03:00+01:00",
@@ -507,9 +580,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530435",
       "durationMilliseconds": 6900024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530435",
       "publishTime": "2025-10-24T16:05:00+02:00",
       "startTime": "2025-10-24T16:05:00+02:00",
@@ -594,9 +665,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530434",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530434",
       "publishTime": "2025-10-23T15:03:00+02:00",
       "startTime": "2025-10-23T15:03:00+02:00",
@@ -681,9 +750,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530433",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530433",
       "publishTime": "2025-10-22T15:03:00+02:00",
       "startTime": "2025-10-22T15:03:00+02:00",
@@ -768,9 +835,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530432",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530432",
       "publishTime": "2025-10-21T15:03:00+02:00",
       "startTime": "2025-10-21T15:03:00+02:00",
@@ -855,9 +920,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530431",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530431",
       "publishTime": "2025-10-20T15:03:00+02:00",
       "startTime": "2025-10-20T15:03:00+02:00",
@@ -942,9 +1005,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530425",
       "durationMilliseconds": 6900024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530425",
       "publishTime": "2025-10-17T16:05:00+02:00",
       "startTime": "2025-10-17T16:05:00+02:00",
@@ -1029,9 +1090,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530424",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530424",
       "publishTime": "2025-10-16T15:03:00+02:00",
       "startTime": "2025-10-16T15:03:00+02:00",
@@ -1116,9 +1175,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530423",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530423",
       "publishTime": "2025-10-15T15:03:00+02:00",
       "startTime": "2025-10-15T15:03:00+02:00",
@@ -1203,9 +1260,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530422",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530422",
       "publishTime": "2025-10-14T15:03:00+02:00",
       "startTime": "2025-10-14T15:03:00+02:00",
@@ -1290,9 +1345,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530421",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530421",
       "publishTime": "2025-10-13T15:03:00+02:00",
       "startTime": "2025-10-13T15:03:00+02:00",
@@ -1377,14 +1430,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530415",
       "durationMilliseconds": 6900000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530415",
       "publishTime": "2025-10-10T16:05:00+02:00",
       "startTime": "2025-10-10T16:05:00+02:00",
       "endTime": "2026-01-10T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-10-okt-2025-14802530415",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-10-oktober-2025-14802530415",
       "order": 638957091000202415,
       "nextId": "urn:dr:radio:episode:6842a30e040b79c6125965ea",
       "previousId": "urn:dr:radio:episode:6842a2d1052e78b6ec4902c8",
@@ -1421,8 +1472,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-10T16:05:00+02:00",
       "id": "urn:dr:radio:episode:6842a30e052e78b6ec490478",
-      "slug": "fredag-10-okt-2025-14802530415",
-      "title": "Fredag 10. okt. 2025",
+      "slug": "fredag-10-oktober-2025-14802530415",
+      "title": "Fredag 10. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1464,14 +1515,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530414",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530414",
       "publishTime": "2025-10-09T15:03:00+02:00",
       "startTime": "2025-10-09T15:03:00+02:00",
       "endTime": "2026-01-09T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/torsdag-9-okt-2025-14802530414",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/torsdag-9-oktober-2025-14802530414",
       "order": 638956189800201414,
       "nextId": "urn:dr:radio:episode:6842a30e052e78b6ec490478",
       "previousId": "urn:dr:radio:episode:6842a2d16937853071e8abcb",
@@ -1508,8 +1557,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-09T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d1052e78b6ec4902c8",
-      "slug": "torsdag-9-okt-2025-14802530414",
-      "title": "Torsdag 9. okt. 2025",
+      "slug": "torsdag-9-oktober-2025-14802530414",
+      "title": "Torsdag 9. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1551,14 +1600,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530413",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530413",
       "publishTime": "2025-10-08T15:03:00+02:00",
       "startTime": "2025-10-08T15:03:00+02:00",
       "endTime": "2026-01-08T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/onsdag-8-okt-2025-14802530413",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/onsdag-8-oktober-2025-14802530413",
       "order": 638955325800200413,
       "nextId": "urn:dr:radio:episode:6842a2d1052e78b6ec4902c8",
       "previousId": "urn:dr:radio:episode:6842a2d0040b79c612596450",
@@ -1595,8 +1642,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-08T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d16937853071e8abcb",
-      "slug": "onsdag-8-okt-2025-14802530413",
-      "title": "Onsdag 8. okt. 2025",
+      "slug": "onsdag-8-oktober-2025-14802530413",
+      "title": "Onsdag 8. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1638,14 +1685,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530412",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530412",
       "publishTime": "2025-10-07T15:03:00+02:00",
       "startTime": "2025-10-07T15:03:00+02:00",
       "endTime": "2026-01-07T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/tirsdag-7-okt-2025-14802530412",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/tirsdag-7-oktober-2025-14802530412",
       "order": 638954461800199412,
       "nextId": "urn:dr:radio:episode:6842a2d16937853071e8abcb",
       "previousId": "urn:dr:radio:episode:6842a2d0e6453a5281750dd6",
@@ -1682,8 +1727,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-07T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d0040b79c612596450",
-      "slug": "tirsdag-7-okt-2025-14802530412",
-      "title": "Tirsdag 7. okt. 2025",
+      "slug": "tirsdag-7-oktober-2025-14802530412",
+      "title": "Tirsdag 7. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1725,14 +1770,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530411",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530411",
       "publishTime": "2025-10-06T15:03:00+02:00",
       "startTime": "2025-10-06T15:03:00+02:00",
       "endTime": "2026-01-06T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/mandag-6-okt-2025-14802530411",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/mandag-6-oktober-2025-14802530411",
       "order": 638953597800198411,
       "nextId": "urn:dr:radio:episode:6842a2d0040b79c612596450",
       "previousId": "urn:dr:radio:episode:6842a2d07c360182ec3af2d9",
@@ -1769,8 +1812,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-06T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d0e6453a5281750dd6",
-      "slug": "mandag-6-okt-2025-14802530411",
-      "title": "Mandag 6. okt. 2025",
+      "slug": "mandag-6-oktober-2025-14802530411",
+      "title": "Mandag 6. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1812,14 +1855,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530405",
       "durationMilliseconds": 6900000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530405",
       "publishTime": "2025-10-03T16:05:00+02:00",
       "startTime": "2025-10-03T16:05:00+02:00",
       "endTime": "2026-01-03T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-3-okt-2025-14802530405",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-3-oktober-2025-14802530405",
       "order": 638951043000197405,
       "nextId": "urn:dr:radio:episode:6842a2d0e6453a5281750dd6",
       "previousId": "urn:dr:radio:episode:6842a2d04206aa0f173ef324",
@@ -1856,8 +1897,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-03T16:05:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d07c360182ec3af2d9",
-      "slug": "fredag-3-okt-2025-14802530405",
-      "title": "Fredag 3. okt. 2025",
+      "slug": "fredag-3-oktober-2025-14802530405",
+      "title": "Fredag 3. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1899,14 +1940,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530404",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530404",
       "publishTime": "2025-10-02T15:03:00+02:00",
       "startTime": "2025-10-02T15:03:00+02:00",
       "endTime": "2026-01-02T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/torsdag-2-okt-2025-14802530404",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/torsdag-2-oktober-2025-14802530404",
       "order": 638950141800196404,
       "nextId": "urn:dr:radio:episode:6842a2d07c360182ec3af2d9",
       "previousId": "urn:dr:radio:episode:6842a2d08a732f5906d98a17",
@@ -1943,8 +1982,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-02T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d04206aa0f173ef324",
-      "slug": "torsdag-2-okt-2025-14802530404",
-      "title": "Torsdag 2. okt. 2025",
+      "slug": "torsdag-2-oktober-2025-14802530404",
+      "title": "Torsdag 2. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -1986,14 +2025,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530403",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530403",
       "publishTime": "2025-10-01T15:03:00+02:00",
       "startTime": "2025-10-01T15:03:00+02:00",
       "endTime": "2026-01-01T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/onsdag-1-okt-2025-14802530403",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/onsdag-1-oktober-2025-14802530403",
       "order": 638949277800195403,
       "nextId": "urn:dr:radio:episode:6842a2d04206aa0f173ef324",
       "previousId": "urn:dr:radio:episode:6842a2a3a0451cdf26e16f3c",
@@ -2030,8 +2067,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-10-01T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2d08a732f5906d98a17",
-      "slug": "onsdag-1-okt-2025-14802530403",
-      "title": "Onsdag 1. okt. 2025",
+      "slug": "onsdag-1-oktober-2025-14802530403",
+      "title": "Onsdag 1. oktober 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -2073,14 +2110,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530402",
       "durationMilliseconds": 10620024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530402",
       "publishTime": "2025-09-30T15:03:00+02:00",
       "startTime": "2025-09-30T15:03:00+02:00",
       "endTime": "2025-12-30T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/tirsdag-30-sep-2025-14802530402",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/tirsdag-30-september-2025-14802530402",
       "order": 638948413800194402,
       "nextId": "urn:dr:radio:episode:6842a2d08a732f5906d98a17",
       "previousId": "urn:dr:radio:episode:6842a2df040b79c6125964be",
@@ -2117,8 +2152,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-09-30T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2a3a0451cdf26e16f3c",
-      "slug": "tirsdag-30-sep-2025-14802530402",
-      "title": "Tirsdag 30. sep. 2025",
+      "slug": "tirsdag-30-september-2025-14802530402",
+      "title": "Tirsdag 30. september 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -2160,14 +2195,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530401",
       "durationMilliseconds": 10620000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530401",
       "publishTime": "2025-09-29T15:03:00+02:00",
       "startTime": "2025-09-29T15:03:00+02:00",
       "endTime": "2025-12-29T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/mandag-29-sep-2025-14802530401",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/mandag-29-september-2025-14802530401",
       "order": 638947549800193401,
       "nextId": "urn:dr:radio:episode:6842a2a3a0451cdf26e16f3c",
       "previousId": "urn:dr:radio:episode:6842a2a2052e78b6ec49018e",
@@ -2204,8 +2237,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-09-29T15:03:00+02:00",
       "id": "urn:dr:radio:episode:6842a2df040b79c6125964be",
-      "slug": "mandag-29-sep-2025-14802530401",
-      "title": "Mandag 29. sep. 2025",
+      "slug": "mandag-29-september-2025-14802530401",
+      "title": "Mandag 29. september 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
@@ -2247,14 +2280,12 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802530395",
       "durationMilliseconds": 6900024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14802530395",
       "publishTime": "2025-09-26T16:05:00+02:00",
       "startTime": "2025-09-26T16:05:00+02:00",
       "endTime": "2025-12-26T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-26-sep-2025-14802530395",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-eftermiddag-koebenhavn/p4-eftermiddag-koebenhavn/fredag-26-september-2025-14802530395",
       "order": 638944995000192395,
       "nextId": "urn:dr:radio:episode:6842a2df040b79c6125964be",
       "series": {
@@ -2290,8 +2321,8 @@
       "explicitContent": false,
       "latestPublishTime": "2025-09-26T16:05:00+02:00",
       "id": "urn:dr:radio:episode:6842a2a2052e78b6ec49018e",
-      "slug": "fredag-26-sep-2025-14802530395",
-      "title": "Fredag 26. sep. 2025",
+      "slug": "fredag-26-september-2025-14802530395",
+      "title": "Fredag 26. september 2025",
       "description": "P4 Eftermiddag København er dit soundtrack til en god tur hjem. Vi er både din vejviser i trafikken og i den dag, der er ved at være gået.",
       "imageAssets": [
         {
