@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 21,
+  "numberOfEpisodes": 20,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-10-31T08:30:00+01:00",
+  "latestEpisodeStartTime": "2025-11-03T08:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530451",
+      "durationMilliseconds": 5041094,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530451",
+      "publishTime": "2025-11-03T08:30:00+01:00",
+      "startTime": "2025-11-03T08:30:00+01:00",
+      "endTime": "2025-12-02T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/langsom-mandag-12422530451",
+      "order": 638977556025352451,
+      "previousId": "urn:dr:radio:episode:681ca29fc56338368d76b85a",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "productionNumber": "758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca29f3f4a9729ac88df0f/625cbdb9ff0de120befce33e8f20b80b22aa120df9269662e44d518f6ec3999f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530451",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-03T08:30:00+01:00",
+      "id": "urn:dr:radio:episode:681ca29f3f4a9729ac88df0f",
+      "slug": "langsom-mandag-12422530451",
+      "title": "Langsom mandag",
+      "description": "Hvilket stykke rolig eller langsom klassisk musik skal vi høre og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3F2102",
+            "#ACCD82"
+          ]
+        },
+        "colors": {
+          "dark": "#3F2102",
+          "light": "#ACCD82"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530445",
       "durationMilliseconds": 8519236,
       "categories": [
@@ -86,6 +173,7 @@
       "endTime": "2025-11-29T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/uhyggelig-musik-12422530445",
       "order": 638974964025351445,
+      "nextId": "urn:dr:radio:episode:681ca29f3f4a9729ac88df0f",
       "previousId": "urn:dr:radio:episode:681ca29e2b77f3385e30bd83",
       "series": {
         "title": "Hej P2",
@@ -1670,7 +1758,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/steder-i-italien-12422530411",
       "order": 638953364025332411,
       "nextId": "urn:dr:radio:episode:681ca2d32e64822ed594751c",
-      "previousId": "urn:dr:radio:episode:681ca2962e64822ed594736c",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1707,181 +1794,6 @@
       "slug": "steder-i-italien-12422530411",
       "title": "Steder i Italien",
       "description": "Hvad er dit yndlingssted i Italien og hvorfor? Fortæl løs!  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Carsten Wolf Andersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530405",
-      "durationMilliseconds": 8525552,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530405",
-      "publishTime": "2025-10-03T08:30:00+02:00",
-      "startTime": "2025-10-03T08:30:00+02:00",
-      "endTime": "2025-11-01T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/godt-med-fagot-12422530405",
-      "order": 638950772025331405,
-      "nextId": "urn:dr:radio:episode:681ca296f811f507147f2867",
-      "previousId": "urn:dr:radio:episode:681ca2961e0a1c49e0656090",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2962e64822ed594736c/6a7fa2d97fd66bb73aec702d3dc4cd0a3d918d53cc7d6b09c1bfcf5480c17c0e"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530405",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-10-03T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:681ca2962e64822ed594736c",
-      "slug": "godt-med-fagot-12422530405",
-      "title": "Godt med fagot",
-      "description": "Hvilket stykke musik med fagot skal vi høre og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Jakob Wivel.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530404",
-      "durationMilliseconds": 8521632,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530404",
-      "publishTime": "2025-10-02T08:30:00+02:00",
-      "startTime": "2025-10-02T08:30:00+02:00",
-      "endTime": "2025-10-31T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/yndlingstoej-12422530404",
-      "order": 638949908025330404,
-      "nextId": "urn:dr:radio:episode:681ca2962e64822ed594736c",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2961e0a1c49e0656090/571b45159504a7c91fce8ca13123e2b31e02ff682a10fa9742eedecc16abe667"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530404",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-10-02T08:30:00+02:00",
-      "id": "urn:dr:radio:episode:681ca2961e0a1c49e0656090",
-      "slug": "yndlingstoej-12422530404",
-      "title": "Yndlingstøj",
-      "description": "Hvilket stykke tøj fra klædeskabet derhjemme er din favorit, og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Malena Rønnow.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
