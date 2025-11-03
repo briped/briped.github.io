@@ -10,13 +10,11 @@
     "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
   },
   "isUmbrella": false,
-  "categories": [
-    "Nyheder"
-  ],
-  "numberOfEpisodes": 176,
+  "categories": [],
+  "numberOfEpisodes": 177,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-11-03T09:30:00+01:00",
+  "latestEpisodeStartTime": "2025-11-03T15:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
   "psdbUrn": "urn:dr:mu:bundle:57d7c320a11fa007bcfbc806",
   "psdbSlug": "p4-esbjerg-nyheder",
@@ -73,16 +71,98 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14032519451",
+      "durationMilliseconds": 180000,
+      "categories": [],
+      "productionNumber": "14032519451",
+      "publishTime": "2025-11-03T15:30:00+01:00",
+      "startTime": "2025-11-03T15:30:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-15-30-14032519451",
+      "order": 638977806000218451,
+      "previousId": "urn:dr:radio:episode:682b16957b626ea9bb296e37",
+      "series": {
+        "title": "P4 Esbjerg regionale nyheder",
+        "id": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
+        "slug": "p4-esbjerg-regionale-nyheder-836630723000",
+        "productionNumber": "836630723000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder-836630723000",
+        "learnId": "urn:dr:ocs:audio:content:series:836630723000"
+      },
+      "channel": {
+        "title": "P4 Esbjerg",
+        "id": "urn:dr:radio:channel:5fa156d4da351264f87b465c",
+        "slug": "p4esbjerg",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682b1d72f65c9b85106ddf08/7143435af17be65a2eeb0575bd3b66256a7eeb2cb180dd91852b4443a10f1c2e"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14032519451",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-03T15:30:00+01:00",
+      "id": "urn:dr:radio:episode:682b1d72f65c9b85106ddf08",
+      "slug": "seneste-nyt-kl-15-30-14032519451",
+      "title": "Seneste nyt kl. 15:30",
+      "description": "Seneste nyt kl. 15:30",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9292b53e8e759bb9d49",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NZIGr]OENdofofoe~WM{IoofWBt7ozs:NGoJazj["
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#103131",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#103131",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515451",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515451",
       "publishTime": "2025-11-03T09:30:00+01:00",
       "startTime": "2025-11-03T09:30:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4esbjerg/p4-esbjerg-regionale-nyheder/p4-esbjerg-regionale-nyheder/seneste-nyt-kl-09-30-14032515451",
       "order": 638977590000220451,
+      "nextId": "urn:dr:radio:episode:682b1d72f65c9b85106ddf08",
       "previousId": "urn:dr:radio:episode:682b1371f65c9b85106d8d92",
       "series": {
         "title": "P4 Esbjerg regionale nyheder",
@@ -160,9 +240,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514451",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514451",
       "publishTime": "2025-11-03T08:30:00+01:00",
       "startTime": "2025-11-03T08:30:00+01:00",
@@ -246,9 +324,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513451",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513451",
       "publishTime": "2025-11-03T07:30:00+01:00",
       "startTime": "2025-11-03T07:30:00+01:00",
@@ -332,9 +408,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512451",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512451",
       "publishTime": "2025-11-03T06:30:00+01:00",
       "startTime": "2025-11-03T06:30:00+01:00",
@@ -505,9 +579,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520445",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520445",
       "publishTime": "2025-10-31T16:30:00+01:00",
       "startTime": "2025-10-31T16:30:00+01:00",
@@ -592,9 +664,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515445",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515445",
       "publishTime": "2025-10-31T09:30:00+01:00",
       "startTime": "2025-10-31T09:30:00+01:00",
@@ -679,9 +749,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514445",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514445",
       "publishTime": "2025-10-31T08:30:00+01:00",
       "startTime": "2025-10-31T08:30:00+01:00",
@@ -766,9 +834,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513445",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513445",
       "publishTime": "2025-10-31T07:30:00+01:00",
       "startTime": "2025-10-31T07:30:00+01:00",
@@ -853,9 +919,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512445",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512445",
       "publishTime": "2025-10-31T06:30:00+01:00",
       "startTime": "2025-10-31T06:30:00+01:00",
@@ -1027,9 +1091,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520444",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520444",
       "publishTime": "2025-10-30T16:30:00+01:00",
       "startTime": "2025-10-30T16:30:00+01:00",
@@ -1114,9 +1176,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519444",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519444",
       "publishTime": "2025-10-30T15:30:00+01:00",
       "startTime": "2025-10-30T15:30:00+01:00",
@@ -1201,9 +1261,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515444",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515444",
       "publishTime": "2025-10-30T09:30:00+01:00",
       "startTime": "2025-10-30T09:30:00+01:00",
@@ -1288,9 +1346,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514444",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514444",
       "publishTime": "2025-10-30T08:30:00+01:00",
       "startTime": "2025-10-30T08:30:00+01:00",
@@ -1375,9 +1431,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513444",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513444",
       "publishTime": "2025-10-30T07:30:00+01:00",
       "startTime": "2025-10-30T07:30:00+01:00",
@@ -1462,9 +1516,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512444",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512444",
       "publishTime": "2025-10-30T06:30:00+01:00",
       "startTime": "2025-10-30T06:30:00+01:00",
@@ -1636,9 +1688,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520443",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520443",
       "publishTime": "2025-10-29T16:30:00+01:00",
       "startTime": "2025-10-29T16:30:00+01:00",
@@ -1723,9 +1773,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519443",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519443",
       "publishTime": "2025-10-29T15:30:00+01:00",
       "startTime": "2025-10-29T15:30:00+01:00",
@@ -1810,9 +1858,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515443",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515443",
       "publishTime": "2025-10-29T09:30:00+01:00",
       "startTime": "2025-10-29T09:30:00+01:00",
@@ -1897,9 +1943,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514443",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514443",
       "publishTime": "2025-10-29T08:30:00+01:00",
       "startTime": "2025-10-29T08:30:00+01:00",
@@ -1984,9 +2028,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513443",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513443",
       "publishTime": "2025-10-29T07:30:00+01:00",
       "startTime": "2025-10-29T07:30:00+01:00",
@@ -2071,9 +2113,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512443",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512443",
       "publishTime": "2025-10-29T06:30:00+01:00",
       "startTime": "2025-10-29T06:30:00+01:00",
@@ -2245,9 +2285,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520442",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520442",
       "publishTime": "2025-10-28T16:30:00+01:00",
       "startTime": "2025-10-28T16:30:00+01:00",
@@ -2332,9 +2370,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519442",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519442",
       "publishTime": "2025-10-28T15:30:00+01:00",
       "startTime": "2025-10-28T15:30:00+01:00",
@@ -2419,9 +2455,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515442",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515442",
       "publishTime": "2025-10-28T09:30:00+01:00",
       "startTime": "2025-10-28T09:30:00+01:00",
@@ -2506,9 +2540,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514442",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514442",
       "publishTime": "2025-10-28T08:30:00+01:00",
       "startTime": "2025-10-28T08:30:00+01:00",
@@ -2593,9 +2625,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513442",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513442",
       "publishTime": "2025-10-28T07:30:00+01:00",
       "startTime": "2025-10-28T07:30:00+01:00",
@@ -2680,9 +2710,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512442",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512442",
       "publishTime": "2025-10-28T06:30:00+01:00",
       "startTime": "2025-10-28T06:30:00+01:00",
@@ -2854,9 +2882,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520441",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520441",
       "publishTime": "2025-10-27T16:30:00+01:00",
       "startTime": "2025-10-27T16:30:00+01:00",
@@ -2941,9 +2967,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519441",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519441",
       "publishTime": "2025-10-27T15:30:00+01:00",
       "startTime": "2025-10-27T15:30:00+01:00",
@@ -3028,9 +3052,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515441",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515441",
       "publishTime": "2025-10-27T09:30:00+01:00",
       "startTime": "2025-10-27T09:30:00+01:00",
@@ -3115,9 +3137,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514441",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514441",
       "publishTime": "2025-10-27T08:30:00+01:00",
       "startTime": "2025-10-27T08:30:00+01:00",
@@ -3202,9 +3222,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513441",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513441",
       "publishTime": "2025-10-27T07:30:00+01:00",
       "startTime": "2025-10-27T07:30:00+01:00",
@@ -3289,9 +3307,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512441",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512441",
       "publishTime": "2025-10-27T06:30:00+01:00",
       "startTime": "2025-10-27T06:30:00+01:00",
@@ -3463,9 +3479,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520435",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520435",
       "publishTime": "2025-10-24T16:30:00+02:00",
       "startTime": "2025-10-24T16:30:00+02:00",
@@ -3550,9 +3564,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515435",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515435",
       "publishTime": "2025-10-24T09:30:00+02:00",
       "startTime": "2025-10-24T09:30:00+02:00",
@@ -3637,9 +3649,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514435",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514435",
       "publishTime": "2025-10-24T08:30:00+02:00",
       "startTime": "2025-10-24T08:30:00+02:00",
@@ -3724,9 +3734,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513435",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513435",
       "publishTime": "2025-10-24T07:30:00+02:00",
       "startTime": "2025-10-24T07:30:00+02:00",
@@ -3811,9 +3819,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512435",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512435",
       "publishTime": "2025-10-24T06:30:00+02:00",
       "startTime": "2025-10-24T06:30:00+02:00",
@@ -3985,9 +3991,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520434",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520434",
       "publishTime": "2025-10-23T16:30:00+02:00",
       "startTime": "2025-10-23T16:30:00+02:00",
@@ -4072,9 +4076,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519434",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519434",
       "publishTime": "2025-10-23T15:30:00+02:00",
       "startTime": "2025-10-23T15:30:00+02:00",
@@ -4159,9 +4161,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515434",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515434",
       "publishTime": "2025-10-23T09:30:00+02:00",
       "startTime": "2025-10-23T09:30:00+02:00",
@@ -4246,9 +4246,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514434",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514434",
       "publishTime": "2025-10-23T08:30:00+02:00",
       "startTime": "2025-10-23T08:30:00+02:00",
@@ -4333,9 +4331,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513434",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513434",
       "publishTime": "2025-10-23T07:30:00+02:00",
       "startTime": "2025-10-23T07:30:00+02:00",
@@ -4420,9 +4416,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512434",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512434",
       "publishTime": "2025-10-23T06:30:00+02:00",
       "startTime": "2025-10-23T06:30:00+02:00",
@@ -4594,9 +4588,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520433",
       "publishTime": "2025-10-22T16:30:00+02:00",
       "startTime": "2025-10-22T16:30:00+02:00",
@@ -4681,9 +4673,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519433",
       "publishTime": "2025-10-22T15:30:00+02:00",
       "startTime": "2025-10-22T15:30:00+02:00",
@@ -4768,9 +4758,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515433",
       "publishTime": "2025-10-22T09:30:00+02:00",
       "startTime": "2025-10-22T09:30:00+02:00",
@@ -4855,9 +4843,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514433",
       "publishTime": "2025-10-22T08:30:00+02:00",
       "startTime": "2025-10-22T08:30:00+02:00",
@@ -4942,9 +4928,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513433",
       "publishTime": "2025-10-22T07:30:00+02:00",
       "startTime": "2025-10-22T07:30:00+02:00",
@@ -5029,9 +5013,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512433",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512433",
       "publishTime": "2025-10-22T06:30:00+02:00",
       "startTime": "2025-10-22T06:30:00+02:00",
@@ -5203,9 +5185,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520432",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520432",
       "publishTime": "2025-10-21T16:30:00+02:00",
       "startTime": "2025-10-21T16:30:00+02:00",
@@ -5290,9 +5270,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519432",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519432",
       "publishTime": "2025-10-21T15:30:00+02:00",
       "startTime": "2025-10-21T15:30:00+02:00",
@@ -5377,9 +5355,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515432",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515432",
       "publishTime": "2025-10-21T09:30:00+02:00",
       "startTime": "2025-10-21T09:30:00+02:00",
@@ -5464,9 +5440,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514432",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514432",
       "publishTime": "2025-10-21T08:30:00+02:00",
       "startTime": "2025-10-21T08:30:00+02:00",
@@ -5551,9 +5525,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513432",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513432",
       "publishTime": "2025-10-21T07:30:00+02:00",
       "startTime": "2025-10-21T07:30:00+02:00",
@@ -5638,9 +5610,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512432",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512432",
       "publishTime": "2025-10-21T06:30:00+02:00",
       "startTime": "2025-10-21T06:30:00+02:00",
@@ -5812,9 +5782,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520431",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520431",
       "publishTime": "2025-10-20T16:30:00+02:00",
       "startTime": "2025-10-20T16:30:00+02:00",
@@ -5899,9 +5867,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519431",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519431",
       "publishTime": "2025-10-20T15:30:00+02:00",
       "startTime": "2025-10-20T15:30:00+02:00",
@@ -5986,9 +5952,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515431",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515431",
       "publishTime": "2025-10-20T09:30:00+02:00",
       "startTime": "2025-10-20T09:30:00+02:00",
@@ -6073,9 +6037,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514431",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514431",
       "publishTime": "2025-10-20T08:30:00+02:00",
       "startTime": "2025-10-20T08:30:00+02:00",
@@ -6160,9 +6122,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513431",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513431",
       "publishTime": "2025-10-20T07:30:00+02:00",
       "startTime": "2025-10-20T07:30:00+02:00",
@@ -6247,9 +6207,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512431",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512431",
       "publishTime": "2025-10-20T06:30:00+02:00",
       "startTime": "2025-10-20T06:30:00+02:00",
@@ -6421,9 +6379,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520425",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520425",
       "publishTime": "2025-10-17T16:30:00+02:00",
       "startTime": "2025-10-17T16:30:00+02:00",
@@ -6508,9 +6464,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515425",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515425",
       "publishTime": "2025-10-17T09:30:00+02:00",
       "startTime": "2025-10-17T09:30:00+02:00",
@@ -6595,9 +6549,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514425",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514425",
       "publishTime": "2025-10-17T08:30:00+02:00",
       "startTime": "2025-10-17T08:30:00+02:00",
@@ -6682,9 +6634,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513425",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513425",
       "publishTime": "2025-10-17T07:30:00+02:00",
       "startTime": "2025-10-17T07:30:00+02:00",
@@ -6769,9 +6719,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512425",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512425",
       "publishTime": "2025-10-17T06:30:00+02:00",
       "startTime": "2025-10-17T06:30:00+02:00",
@@ -6943,9 +6891,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520424",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520424",
       "publishTime": "2025-10-16T16:30:00+02:00",
       "startTime": "2025-10-16T16:30:00+02:00",
@@ -7030,9 +6976,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519424",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519424",
       "publishTime": "2025-10-16T15:30:00+02:00",
       "startTime": "2025-10-16T15:30:00+02:00",
@@ -7117,9 +7061,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515424",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515424",
       "publishTime": "2025-10-16T09:30:00+02:00",
       "startTime": "2025-10-16T09:30:00+02:00",
@@ -7204,9 +7146,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514424",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514424",
       "publishTime": "2025-10-16T08:30:00+02:00",
       "startTime": "2025-10-16T08:30:00+02:00",
@@ -7291,9 +7231,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513424",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513424",
       "publishTime": "2025-10-16T07:30:00+02:00",
       "startTime": "2025-10-16T07:30:00+02:00",
@@ -7378,9 +7316,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512424",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512424",
       "publishTime": "2025-10-16T06:30:00+02:00",
       "startTime": "2025-10-16T06:30:00+02:00",
@@ -7552,9 +7488,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520423",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520423",
       "publishTime": "2025-10-15T16:30:00+02:00",
       "startTime": "2025-10-15T16:30:00+02:00",
@@ -7639,9 +7573,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519423",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519423",
       "publishTime": "2025-10-15T15:30:00+02:00",
       "startTime": "2025-10-15T15:30:00+02:00",
@@ -7726,9 +7658,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515423",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515423",
       "publishTime": "2025-10-15T09:30:00+02:00",
       "startTime": "2025-10-15T09:30:00+02:00",
@@ -7813,9 +7743,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514423",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514423",
       "publishTime": "2025-10-15T08:30:00+02:00",
       "startTime": "2025-10-15T08:30:00+02:00",
@@ -7900,9 +7828,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513423",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513423",
       "publishTime": "2025-10-15T07:30:00+02:00",
       "startTime": "2025-10-15T07:30:00+02:00",
@@ -7987,9 +7913,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512423",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512423",
       "publishTime": "2025-10-15T06:30:00+02:00",
       "startTime": "2025-10-15T06:30:00+02:00",
@@ -8161,9 +8085,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520422",
       "publishTime": "2025-10-14T16:30:00+02:00",
       "startTime": "2025-10-14T16:30:00+02:00",
@@ -8248,9 +8170,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519422",
       "publishTime": "2025-10-14T15:30:00+02:00",
       "startTime": "2025-10-14T15:30:00+02:00",
@@ -8335,9 +8255,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515422",
       "publishTime": "2025-10-14T09:30:00+02:00",
       "startTime": "2025-10-14T09:30:00+02:00",
@@ -8422,9 +8340,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514422",
       "publishTime": "2025-10-14T08:30:00+02:00",
       "startTime": "2025-10-14T08:30:00+02:00",
@@ -8509,9 +8425,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513422",
       "publishTime": "2025-10-14T07:30:00+02:00",
       "startTime": "2025-10-14T07:30:00+02:00",
@@ -8596,9 +8510,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512422",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512422",
       "publishTime": "2025-10-14T06:30:00+02:00",
       "startTime": "2025-10-14T06:30:00+02:00",
@@ -8770,9 +8682,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520421",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520421",
       "publishTime": "2025-10-13T16:30:00+02:00",
       "startTime": "2025-10-13T16:30:00+02:00",
@@ -8857,9 +8767,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519421",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519421",
       "publishTime": "2025-10-13T15:30:00+02:00",
       "startTime": "2025-10-13T15:30:00+02:00",
@@ -8944,9 +8852,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515421",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515421",
       "publishTime": "2025-10-13T09:30:00+02:00",
       "startTime": "2025-10-13T09:30:00+02:00",
@@ -9031,9 +8937,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514421",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514421",
       "publishTime": "2025-10-13T08:30:00+02:00",
       "startTime": "2025-10-13T08:30:00+02:00",
@@ -9118,9 +9022,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513421",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513421",
       "publishTime": "2025-10-13T07:30:00+02:00",
       "startTime": "2025-10-13T07:30:00+02:00",
@@ -9205,9 +9107,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512421",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512421",
       "publishTime": "2025-10-13T06:30:00+02:00",
       "startTime": "2025-10-13T06:30:00+02:00",
@@ -9379,9 +9279,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520415",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520415",
       "publishTime": "2025-10-10T16:30:00+02:00",
       "startTime": "2025-10-10T16:30:00+02:00",
@@ -9466,9 +9364,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515415",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515415",
       "publishTime": "2025-10-10T09:30:00+02:00",
       "startTime": "2025-10-10T09:30:00+02:00",
@@ -9553,9 +9449,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514415",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514415",
       "publishTime": "2025-10-10T08:30:00+02:00",
       "startTime": "2025-10-10T08:30:00+02:00",
@@ -9640,9 +9534,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513415",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513415",
       "publishTime": "2025-10-10T07:30:00+02:00",
       "startTime": "2025-10-10T07:30:00+02:00",
@@ -9727,9 +9619,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512415",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512415",
       "publishTime": "2025-10-10T06:30:00+02:00",
       "startTime": "2025-10-10T06:30:00+02:00",
@@ -9901,9 +9791,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520414",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520414",
       "publishTime": "2025-10-09T16:30:00+02:00",
       "startTime": "2025-10-09T16:30:00+02:00",
@@ -9988,9 +9876,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519414",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519414",
       "publishTime": "2025-10-09T15:30:00+02:00",
       "startTime": "2025-10-09T15:30:00+02:00",
@@ -10075,9 +9961,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515414",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515414",
       "publishTime": "2025-10-09T09:30:00+02:00",
       "startTime": "2025-10-09T09:30:00+02:00",
@@ -10162,9 +10046,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514414",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514414",
       "publishTime": "2025-10-09T08:30:00+02:00",
       "startTime": "2025-10-09T08:30:00+02:00",
@@ -10249,9 +10131,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513414",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513414",
       "publishTime": "2025-10-09T07:30:00+02:00",
       "startTime": "2025-10-09T07:30:00+02:00",
@@ -10336,9 +10216,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512414",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512414",
       "publishTime": "2025-10-09T06:30:00+02:00",
       "startTime": "2025-10-09T06:30:00+02:00",
@@ -10510,9 +10388,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520413",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520413",
       "publishTime": "2025-10-08T16:30:00+02:00",
       "startTime": "2025-10-08T16:30:00+02:00",
@@ -10597,9 +10473,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519413",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519413",
       "publishTime": "2025-10-08T15:30:00+02:00",
       "startTime": "2025-10-08T15:30:00+02:00",
@@ -10684,9 +10558,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515413",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515413",
       "publishTime": "2025-10-08T09:30:00+02:00",
       "startTime": "2025-10-08T09:30:00+02:00",
@@ -10771,9 +10643,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514413",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514413",
       "publishTime": "2025-10-08T08:30:00+02:00",
       "startTime": "2025-10-08T08:30:00+02:00",
@@ -10858,9 +10728,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513413",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513413",
       "publishTime": "2025-10-08T07:30:00+02:00",
       "startTime": "2025-10-08T07:30:00+02:00",
@@ -10945,9 +10813,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512413",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512413",
       "publishTime": "2025-10-08T06:30:00+02:00",
       "startTime": "2025-10-08T06:30:00+02:00",
@@ -11119,9 +10985,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520412",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520412",
       "publishTime": "2025-10-07T16:30:00+02:00",
       "startTime": "2025-10-07T16:30:00+02:00",
@@ -11206,9 +11070,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519412",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519412",
       "publishTime": "2025-10-07T15:30:00+02:00",
       "startTime": "2025-10-07T15:30:00+02:00",
@@ -11293,9 +11155,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515412",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515412",
       "publishTime": "2025-10-07T09:30:00+02:00",
       "startTime": "2025-10-07T09:30:00+02:00",
@@ -11380,9 +11240,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514412",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514412",
       "publishTime": "2025-10-07T08:30:00+02:00",
       "startTime": "2025-10-07T08:30:00+02:00",
@@ -11467,9 +11325,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513412",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513412",
       "publishTime": "2025-10-07T07:30:00+02:00",
       "startTime": "2025-10-07T07:30:00+02:00",
@@ -11554,9 +11410,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512412",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512412",
       "publishTime": "2025-10-07T06:30:00+02:00",
       "startTime": "2025-10-07T06:30:00+02:00",
@@ -11728,9 +11582,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520411",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520411",
       "publishTime": "2025-10-06T16:30:00+02:00",
       "startTime": "2025-10-06T16:30:00+02:00",
@@ -11815,9 +11667,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519411",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519411",
       "publishTime": "2025-10-06T15:30:00+02:00",
       "startTime": "2025-10-06T15:30:00+02:00",
@@ -11902,9 +11752,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515411",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515411",
       "publishTime": "2025-10-06T09:30:00+02:00",
       "startTime": "2025-10-06T09:30:00+02:00",
@@ -11989,9 +11837,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514411",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514411",
       "publishTime": "2025-10-06T08:30:00+02:00",
       "startTime": "2025-10-06T08:30:00+02:00",
@@ -12076,9 +11922,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513411",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513411",
       "publishTime": "2025-10-06T07:30:00+02:00",
       "startTime": "2025-10-06T07:30:00+02:00",
@@ -12163,9 +12007,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512411",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512411",
       "publishTime": "2025-10-06T06:30:00+02:00",
       "startTime": "2025-10-06T06:30:00+02:00",
@@ -12337,9 +12179,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520405",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520405",
       "publishTime": "2025-10-03T16:30:00+02:00",
       "startTime": "2025-10-03T16:30:00+02:00",
@@ -12424,9 +12264,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515405",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515405",
       "publishTime": "2025-10-03T09:30:00+02:00",
       "startTime": "2025-10-03T09:30:00+02:00",
@@ -12511,9 +12349,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514405",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514405",
       "publishTime": "2025-10-03T08:30:00+02:00",
       "startTime": "2025-10-03T08:30:00+02:00",
@@ -12598,9 +12434,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513405",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513405",
       "publishTime": "2025-10-03T07:30:00+02:00",
       "startTime": "2025-10-03T07:30:00+02:00",
@@ -12685,9 +12519,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512405",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512405",
       "publishTime": "2025-10-03T06:30:00+02:00",
       "startTime": "2025-10-03T06:30:00+02:00",
@@ -12859,9 +12691,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520404",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520404",
       "publishTime": "2025-10-02T16:30:00+02:00",
       "startTime": "2025-10-02T16:30:00+02:00",
@@ -12946,9 +12776,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519404",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519404",
       "publishTime": "2025-10-02T15:30:00+02:00",
       "startTime": "2025-10-02T15:30:00+02:00",
@@ -13033,9 +12861,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515404",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515404",
       "publishTime": "2025-10-02T09:30:00+02:00",
       "startTime": "2025-10-02T09:30:00+02:00",
@@ -13120,9 +12946,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514404",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514404",
       "publishTime": "2025-10-02T08:30:00+02:00",
       "startTime": "2025-10-02T08:30:00+02:00",
@@ -13207,9 +13031,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513404",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513404",
       "publishTime": "2025-10-02T07:30:00+02:00",
       "startTime": "2025-10-02T07:30:00+02:00",
@@ -13294,9 +13116,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512404",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512404",
       "publishTime": "2025-10-02T06:30:00+02:00",
       "startTime": "2025-10-02T06:30:00+02:00",
@@ -13468,9 +13288,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520403",
       "publishTime": "2025-10-01T16:30:00+02:00",
       "startTime": "2025-10-01T16:30:00+02:00",
@@ -13555,9 +13373,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519403",
       "publishTime": "2025-10-01T15:30:00+02:00",
       "startTime": "2025-10-01T15:30:00+02:00",
@@ -13642,9 +13458,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515403",
       "publishTime": "2025-10-01T09:30:00+02:00",
       "startTime": "2025-10-01T09:30:00+02:00",
@@ -13729,9 +13543,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514403",
       "publishTime": "2025-10-01T08:30:00+02:00",
       "startTime": "2025-10-01T08:30:00+02:00",
@@ -13816,9 +13628,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513403",
       "publishTime": "2025-10-01T07:30:00+02:00",
       "startTime": "2025-10-01T07:30:00+02:00",
@@ -13903,9 +13713,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512403",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512403",
       "publishTime": "2025-10-01T06:30:00+02:00",
       "startTime": "2025-10-01T06:30:00+02:00",
@@ -14077,9 +13885,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520402",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520402",
       "publishTime": "2025-09-30T16:30:00+02:00",
       "startTime": "2025-09-30T16:30:00+02:00",
@@ -14164,9 +13970,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519402",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519402",
       "publishTime": "2025-09-30T15:30:00+02:00",
       "startTime": "2025-09-30T15:30:00+02:00",
@@ -14251,9 +14055,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515402",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515402",
       "publishTime": "2025-09-30T09:30:00+02:00",
       "startTime": "2025-09-30T09:30:00+02:00",
@@ -14338,9 +14140,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514402",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514402",
       "publishTime": "2025-09-30T08:30:00+02:00",
       "startTime": "2025-09-30T08:30:00+02:00",
@@ -14425,9 +14225,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513402",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513402",
       "publishTime": "2025-09-30T07:30:00+02:00",
       "startTime": "2025-09-30T07:30:00+02:00",
@@ -14512,9 +14310,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512402",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512402",
       "publishTime": "2025-09-30T06:30:00+02:00",
       "startTime": "2025-09-30T06:30:00+02:00",
@@ -14686,9 +14482,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520401",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520401",
       "publishTime": "2025-09-29T16:30:00+02:00",
       "startTime": "2025-09-29T16:30:00+02:00",
@@ -14773,9 +14567,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032519401",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032519401",
       "publishTime": "2025-09-29T15:30:00+02:00",
       "startTime": "2025-09-29T15:30:00+02:00",
@@ -14860,9 +14652,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032515401",
       "durationMilliseconds": 180024,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032515401",
       "publishTime": "2025-09-29T09:30:00+02:00",
       "startTime": "2025-09-29T09:30:00+02:00",
@@ -14947,9 +14737,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032514401",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032514401",
       "publishTime": "2025-09-29T08:30:00+02:00",
       "startTime": "2025-09-29T08:30:00+02:00",
@@ -15034,9 +14822,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032513401",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032513401",
       "publishTime": "2025-09-29T07:30:00+02:00",
       "startTime": "2025-09-29T07:30:00+02:00",
@@ -15121,9 +14907,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032512401",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032512401",
       "publishTime": "2025-09-29T06:30:00+02:00",
       "startTime": "2025-09-29T06:30:00+02:00",
@@ -15295,9 +15079,7 @@
       "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14032520395",
       "durationMilliseconds": 180000,
-      "categories": [
-        "Nyheder"
-      ],
+      "categories": [],
       "productionNumber": "14032520395",
       "publishTime": "2025-09-26T16:30:00+02:00",
       "startTime": "2025-09-26T16:30:00+02:00",
