@@ -11,10 +11,10 @@
   },
   "isUmbrella": false,
   "categories": [],
-  "numberOfEpisodes": 367,
+  "numberOfEpisodes": 368,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-11-06T17:30:00+01:00",
+  "latestEpisodeStartTime": "2025-11-07T06:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
   "psdbUrn": "urn:dr:mu:bundle:57d7faf36187a4031cfd77c2",
   "psdbSlug": "nyheder-nv4-radio",
@@ -71,14 +71,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14702510455",
+      "durationMilliseconds": 180024,
+      "categories": [],
+      "productionNumber": "14702510455",
+      "publishTime": "2025-11-07T06:30:00+01:00",
+      "startTime": "2025-11-07T06:30:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-06-30-14702510455",
+      "order": 638980938000222455,
+      "previousId": "urn:dr:radio:episode:6835b9bd2056b79e0666f441",
+      "series": {
+        "title": "P4 Sjælland regionale nyheder",
+        "id": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
+        "slug": "p4-sjaelland-regionale-nyheder-1092685975000",
+        "productionNumber": "1092685975000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder-1092685975000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092685975000"
+      },
+      "channel": {
+        "title": "P4 Sjælland",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b464d",
+        "slug": "p4sjaelland",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:683586b7df03c6aa9bc309e7/d20600a97d46e7f6af51cd374d50700d86ff98182d7eff0c4a97ac59fa5b6175"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14702510455",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-07T06:30:00+01:00",
+      "id": "urn:dr:radio:episode:683586b7df03c6aa9bc309e7",
+      "slug": "seneste-nyt-kl-06-30-14702510455",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 Sjælland.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c92752248c98a43900f0",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NWL~2PEnA0R+f,${O_w?nfR*s+kDESxajXjXWYoM"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#122B2F",
+            "#FEFEFE"
+          ]
+        },
+        "colors": {
+          "dark": "#122B2F",
+          "light": "#FEFEFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14702519454",
       "durationMilliseconds": 180000,
       "categories": [],
       "productionNumber": "14702519454",
       "publishTime": "2025-11-06T17:30:00+01:00",
       "startTime": "2025-11-06T17:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-17-30-14702519454",
       "order": 638980470000221454,
+      "nextId": "urn:dr:radio:episode:683586b7df03c6aa9bc309e7",
       "previousId": "urn:dr:radio:episode:6835b91cf0501130c3bcfbf1",
       "series": {
         "title": "P4 Sjælland regionale nyheder",
@@ -160,6 +245,7 @@
       "productionNumber": "14702518454",
       "publishTime": "2025-11-06T16:30:00+01:00",
       "startTime": "2025-11-06T16:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-16-30-14702518454",
       "order": 638980434000221454,
       "nextId": "urn:dr:radio:episode:6835b9bd2056b79e0666f441",
@@ -244,6 +330,7 @@
       "productionNumber": "14702517454",
       "publishTime": "2025-11-06T15:30:00+01:00",
       "startTime": "2025-11-06T15:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-15-30-14702517454",
       "order": 638980398000221454,
       "nextId": "urn:dr:radio:episode:6835b91cf0501130c3bcfbf1",
@@ -328,6 +415,7 @@
       "productionNumber": "14702516454",
       "publishTime": "2025-11-06T12:30:00+01:00",
       "startTime": "2025-11-06T12:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-12-30-14702516454",
       "order": 638980290000310454,
       "nextId": "urn:dr:radio:episode:6835b83af0501130c3bcf373",
@@ -412,6 +500,7 @@
       "productionNumber": "14702515454",
       "publishTime": "2025-11-06T11:30:00+01:00",
       "startTime": "2025-11-06T11:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-11-30-14702515454",
       "order": 638980254000310454,
       "nextId": "urn:dr:radio:episode:6835b789c1384bae2f2a34a3",
@@ -496,6 +585,7 @@
       "productionNumber": "14702514454",
       "publishTime": "2025-11-06T10:30:00+01:00",
       "startTime": "2025-11-06T10:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-10-30-14702514454",
       "order": 638980218000310454,
       "nextId": "urn:dr:radio:episode:6835b6b5b55477aa472c12f0",
@@ -580,6 +670,7 @@
       "productionNumber": "14702513454",
       "publishTime": "2025-11-06T09:30:00+01:00",
       "startTime": "2025-11-06T09:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-09-30-14702513454",
       "order": 638980182000310454,
       "nextId": "urn:dr:radio:episode:6835b693b55477aa472c1116",
@@ -664,6 +755,7 @@
       "productionNumber": "14702511454",
       "publishTime": "2025-11-06T08:30:00+01:00",
       "startTime": "2025-11-06T08:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-08-30-14702511454",
       "order": 638980146000310454,
       "nextId": "urn:dr:radio:episode:6835b602b55477aa472c0812",
@@ -748,6 +840,7 @@
       "productionNumber": "14702512454",
       "publishTime": "2025-11-06T07:30:00+01:00",
       "startTime": "2025-11-06T07:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-07-30-14702512454",
       "order": 638980110000310454,
       "nextId": "urn:dr:radio:episode:6835b5855f16b698305fde97",
@@ -832,6 +925,7 @@
       "productionNumber": "14702510454",
       "publishTime": "2025-11-06T06:30:00+01:00",
       "startTime": "2025-11-06T06:30:00+01:00",
+      "endTime": "2026-02-06T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4sjaelland/p4-sjaelland-regionale-nyheder/p4-sjaelland-regionale-nyheder/seneste-nyt-kl-06-30-14702510454",
       "order": 638980074000221454,
       "nextId": "urn:dr:radio:episode:6835b3185f16b698305fc875",
