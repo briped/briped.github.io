@@ -18,7 +18,7 @@
   "numberOfEpisodes": 6,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-01T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-11-08T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,8 +75,89 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566456",
+      "durationMilliseconds": 11403500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566456",
+      "publishTime": "2025-11-08T19:20:00+01:00",
+      "startTime": "2025-11-08T19:20:00+01:00",
+      "endTime": "2025-12-07T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/verdi-othello-fra-teatro-real-12422566456",
+      "order": 638982266025045456,
+      "previousId": "urn:dr:radio:episode:681c9c23c56338368d7689b5",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c22b3140b1c1f3b8910/816edd4dc14a6c6a67d4b71c768359f86ec59d50ea79388213c59f9fbbc4a3d9"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566456",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-08T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9c22b3140b1c1f3b8910",
+      "slug": "verdi-othello-fra-teatro-real-12422566456",
+      "title": "Verdi: Othello fra Teatro Real",
+      "description": "Verdis intense Shakespeare-opera om jalousi, bedrag og kærlighedens undergang åbner sæsonen på Teatro Real, der i år har særligt fokus på Shakespeare. Glæd dig til den litauiske sopran Asmik Grigorian som den tragiske Desdemona. \nTeatro Reals orkester og kor. \nNicola Luisotti (dirigent). \n(Teatro Real, Madrid, 2. oktober 2025). \nVært: Cæcilie Iburg Printzlau.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:690e047fb221485a01ac0859",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oNAvLeS20y$j$*I:9toK%2S4WVs:NGj[s;aeS1ofbHoLoKR*R*sooLWUWBofofa{R*j[s:ayWVay"
+        },
+        {
+          "id": "urn:dr:radio:image:690e047fb221485a01ac0859",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oNAvLeS20y$j$*I:9toK%2S4WVs:NGj[s;aeS1ofbHoLoKR*R*sooLWUWBofofa{R*j[s:ayWVay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#320F23",
+            "#E48D99"
+          ]
+        },
+        "colors": {
+          "dark": "#320F23",
+          "light": "#E48D99"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566446",
-      "durationMilliseconds": 9603500,
+      "durationMilliseconds": 9654554,
       "categories": [
         "Musik",
         "Klassisk",
@@ -88,6 +169,7 @@
       "endTime": "2025-11-30T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/berg-wozzeck-12422566446",
       "order": 638976218025044446,
+      "nextId": "urn:dr:radio:episode:681c9c22b3140b1c1f3b8910",
       "previousId": "urn:dr:radio:episode:681c9c22a75c4b58350e31a1",
       "series": {
         "title": "P2 Operaaften",
@@ -113,7 +195,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c23c56338368d7689b5/74c6249b2611c4172c4a7b34446196c08fc7b2febe87afb9142c2de9756e2467"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c23c56338368d7689b5/e48ebcdbcdee4ab5e517cb94eceef75e505bce8559121ab76cda2fe19ede3bd5"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566446",
@@ -252,7 +334,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/bellini-norma-12422566416",
       "order": 638958074025041416,
       "nextId": "urn:dr:radio:episode:681c9c22a75c4b58350e31a1",
-      "previousId": "urn:dr:radio:episode:681c9c21c56338368d7689a1",
+      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
@@ -320,88 +402,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422566406",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422566406",
-      "publishTime": "2025-10-04T19:20:00+02:00",
-      "startTime": "2025-10-04T19:20:00+02:00",
-      "endTime": "2025-11-02T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/loerdag-4-okt-2025-12422566406",
-      "order": 638952026025040406,
-      "nextId": "urn:dr:radio:episode:681c9c21923dffbb1977645e",
-      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "productionNumber": "1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c21c56338368d7689a1/dd9547b6d86d6b30990504e9620088d431d97faa3768ad3a1c603145c2d3414e"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566406",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-10-04T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c9c21c56338368d7689a1",
-      "slug": "loerdag-4-okt-2025-12422566406",
-      "title": "Lørdag 4. okt. 2025",
-      "description": "Venskab over kærlighed - eller omvendt?  Vennerne Nadir og Zurga har svoret, at ingen kvinde skal komme imellem dem. Men da Leïla dukker op, bliver deres begær og loyalitet sat på prøve. Er der plads til både venskab og kærlighed, eller må én af dem ofres? Som perler på en snor falder arier og duetter i en lind strøm fra tenor Pene Pati og baryton Florian Sempey i rollerne som perlefisker-vennerne Nadir og Zurga. Edwin Crossley-Mercer høres i rollen som den autoritetstunge ypperstepræst Nourabad, mens sopranen Elsa Benoit forfører alle som den uimodståelige Leïla.\nKor: Grand Avignon Operaens Kor. \nOrkester: Les Musiciens du Louvre. \nDirigent: Marc Minkowski. \nGæst: Psykoterapeut, Martin Østergaard. \n(Aix-en-Provence, 19. juli). \nVært: Stine Rosengren.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68dd2d0bec3c25ed706a8f82",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o~K_IF%M?wNGjujYt7V@offlfQofR.a}WBofWAa}t7WAofj[WBj[a}j[WBoeWBWVkCayoKjsayay"
-        },
-        {
-          "id": "urn:dr:radio:image:68dd2d0bec3c25ed706a8f82",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o~K_IF%M?wNGjujYt7V@offlfQofR.a}WBofWAa}t7WAofj[WBj[a}j[WBoeWBWVkCayoKjsayay"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#320F23",
-            "#E48D99"
-          ]
-        },
-        "colors": {
-          "dark": "#320F23",
-          "light": "#E48D99"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566216",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -414,7 +414,7 @@
       "startTime": "2025-05-24T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/nyskrevet-opera-over-nobelpristagers-roman-12422566216",
       "order": 638837042025021216,
-      "nextId": "urn:dr:radio:episode:681c9c21c56338368d7689a1",
+      "nextId": "urn:dr:radio:episode:681c9c21923dffbb1977645e",
       "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
       "series": {
         "title": "P2 Operaaften",
