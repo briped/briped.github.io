@@ -11,10 +11,10 @@
   },
   "isUmbrella": false,
   "categories": [],
-  "numberOfEpisodes": 398,
+  "numberOfEpisodes": 399,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-11-10T17:30:00+01:00",
+  "latestEpisodeStartTime": "2025-11-11T06:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
   "psdbUrn": "urn:dr:mu:bundle:57d7d1f06187a4031cfd57e0",
   "psdbSlug": "regionale-nyheder-kh4",
@@ -71,14 +71,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14802506462",
+      "durationMilliseconds": 180024,
+      "categories": [],
+      "productionNumber": "14802506462",
+      "publishTime": "2025-11-11T06:30:00+01:00",
+      "startTime": "2025-11-11T06:30:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-06-30-14802506462",
+      "order": 638984394000224462,
+      "previousId": "urn:dr:radio:episode:6842ba47a0451cdf26e23149",
+      "series": {
+        "title": "P4 København regionale nyheder",
+        "id": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
+        "slug": "p4-koebenhavn-regionale-nyheder-846720666000",
+        "productionNumber": "846720666000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder-846720666000",
+        "learnId": "urn:dr:ocs:audio:content:series:846720666000"
+      },
+      "channel": {
+        "title": "P4 København",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4651",
+        "slug": "p4kbh",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4kbh"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6842a7b3052e78b6ec49267b/f1d606bb4f1bdbf27c2f014c9afb7df6f8c5ff2b2abe34453ce30436dcef1474"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14802506462",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-11T06:30:00+01:00",
+      "id": "urn:dr:radio:episode:6842a7b3052e78b6ec49267b",
+      "slug": "seneste-nyt-kl-06-30-14802506462",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 København.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c9262b53e8e759bb9c40",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NaH|Eob_TJS3ozs9_NROIUR+e.t7S$xaV@RjkCof"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#1D1F25",
+            "#9CD0D9"
+          ]
+        },
+        "colors": {
+          "dark": "#1D1F25",
+          "light": "#9CD0D9"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14802517461",
       "durationMilliseconds": 180000,
       "categories": [],
       "productionNumber": "14802517461",
       "publishTime": "2025-11-10T17:30:00+01:00",
       "startTime": "2025-11-10T17:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-17-30-14802517461",
       "order": 638983926000223461,
+      "nextId": "urn:dr:radio:episode:6842a7b3052e78b6ec49267b",
       "previousId": "urn:dr:radio:episode:6842b97da0451cdf26e22980",
       "series": {
         "title": "P4 København regionale nyheder",
@@ -160,6 +245,7 @@
       "productionNumber": "14802516461",
       "publishTime": "2025-11-10T16:30:00+01:00",
       "startTime": "2025-11-10T16:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-16-30-14802516461",
       "order": 638983890000223461,
       "nextId": "urn:dr:radio:episode:6842ba47a0451cdf26e23149",
@@ -244,6 +330,7 @@
       "productionNumber": "14802515461",
       "publishTime": "2025-11-10T15:30:00+01:00",
       "startTime": "2025-11-10T15:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-15-30-14802515461",
       "order": 638983854000223461,
       "nextId": "urn:dr:radio:episode:6842b97da0451cdf26e22980",
@@ -328,6 +415,7 @@
       "productionNumber": "14802512461",
       "publishTime": "2025-11-10T12:30:00+01:00",
       "startTime": "2025-11-10T12:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-12-30-14802512461",
       "order": 638983746000314461,
       "nextId": "urn:dr:radio:episode:6842b822185a8c65400655d5",
@@ -412,6 +500,7 @@
       "productionNumber": "14802511461",
       "publishTime": "2025-11-10T11:30:00+01:00",
       "startTime": "2025-11-10T11:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-11-30-14802511461",
       "order": 638983710000314461,
       "nextId": "urn:dr:radio:episode:6842b77aa0451cdf26e21657",
@@ -496,6 +585,7 @@
       "productionNumber": "14802510461",
       "publishTime": "2025-11-10T10:30:00+01:00",
       "startTime": "2025-11-10T10:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-10-30-14802510461",
       "order": 638983674000314461,
       "nextId": "urn:dr:radio:episode:6842b225052e78b6ec49778f",
@@ -580,6 +670,7 @@
       "productionNumber": "14802509461",
       "publishTime": "2025-11-10T09:30:00+01:00",
       "startTime": "2025-11-10T09:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-09-30-14802509461",
       "order": 638983638000314461,
       "nextId": "urn:dr:radio:episode:6842b054052e78b6ec496802",
@@ -664,6 +755,7 @@
       "productionNumber": "14802508461",
       "publishTime": "2025-11-10T08:30:00+01:00",
       "startTime": "2025-11-10T08:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-08-30-14802508461",
       "order": 638983602000314461,
       "nextId": "urn:dr:radio:episode:6842addc052e78b6ec495325",
@@ -748,6 +840,7 @@
       "productionNumber": "14802507461",
       "publishTime": "2025-11-10T07:30:00+01:00",
       "startTime": "2025-11-10T07:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-07-30-14802507461",
       "order": 638983566000314461,
       "nextId": "urn:dr:radio:episode:6842ac7e052e78b6ec494811",
@@ -832,6 +925,7 @@
       "productionNumber": "14802506461",
       "publishTime": "2025-11-10T06:30:00+01:00",
       "startTime": "2025-11-10T06:30:00+01:00",
+      "endTime": "2026-02-10T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4kbh/p4-koebenhavn-regionale-nyheder/p4-koebenhavn-regionale-nyheder/seneste-nyt-kl-06-30-14802506461",
       "order": 638983530000223461,
       "nextId": "urn:dr:radio:episode:6842aaefa9615f37760f3dd2",
