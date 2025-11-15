@@ -18,7 +18,7 @@
   "numberOfEpisodes": 6,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-08T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-11-15T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
   "psdbUrn": "urn:dr:mu:bundle:58653bb8a11f9f1504d1ccc8",
   "psdbSlug": "p2-operaaften",
@@ -75,6 +75,87 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422566466",
+      "durationMilliseconds": 13203500,
+      "categories": [
+        "Musik",
+        "Klassisk",
+        "Opera"
+      ],
+      "productionNumber": "12422566466",
+      "publishTime": "2025-11-15T19:20:00+01:00",
+      "startTime": "2025-11-15T19:20:00+01:00",
+      "endTime": "2025-12-14T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/cosi-van-tutte-fra-la-scala-12422566466",
+      "order": 638988314025046466,
+      "previousId": "urn:dr:radio:episode:681c9c22b3140b1c1f3b8910",
+      "series": {
+        "title": "P2 Operaaften",
+        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
+        "slug": "p2-operaaften-1206951121000",
+        "productionNumber": "1206951121000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c222b77f3385e308d11/319c219f64675e31013665083ebcc9eada014b4ac12b3212fc062fd600c7bc1f"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566466",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-15T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9c222b77f3385e308d11",
+      "slug": "cosi-van-tutte-fra-la-scala-12422566466",
+      "title": "Cosi van Tutte fra La Scala",
+      "description": "Hør i aften Mozarts kommedie med to unge par der bliver sat på prøve i kærlighedens spil: Hvor sand og trofast er kærligheden når det kommer til stykket?  \nI rollerne er det sopranen Elsa Dreisig der har rollen som Fiordiligi, Nina van Essen er Dorabella,  Sandrine Piau er Despina, og med er bl.a. også Gerald Finley er Don Alfonso. \nScala Operaens Orkester og Kor. \nDirigent: Alexander Soddy. \n(Milano, 5 november). \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6915ad83732953ec6f35e7a2",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVL{@?=s0.%14;R+5GNFa*RPNfNH4@xuf,s-xuWY-;t7RkR.rqs:pJIpsRogaebIIUWCWBR,tRR,"
+        },
+        {
+          "id": "urn:dr:radio:image:6915ad83732953ec6f35e7a2",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVL{@?=s0.%14;R+5GNFa*RPNfNH4@xuf,s-xuWY-;t7RkR.rqs:pJIpsRogaebIIUWCWBR,tRR,"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#320F23",
+            "#E48D99"
+          ]
+        },
+        "colors": {
+          "dark": "#320F23",
+          "light": "#E48D99"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566456",
       "durationMilliseconds": 11403500,
       "categories": [
@@ -88,6 +169,7 @@
       "endTime": "2025-12-07T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/verdi-othello-fra-teatro-real-12422566456",
       "order": 638982266025045456,
+      "nextId": "urn:dr:radio:episode:681c9c222b77f3385e308d11",
       "previousId": "urn:dr:radio:episode:681c9c23c56338368d7689b5",
       "series": {
         "title": "P2 Operaaften",
@@ -252,7 +334,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/siciliansk-vesper-af-verdi-fra-new-york-1974-12422566436",
       "order": 638970170025043436,
       "nextId": "urn:dr:radio:episode:681c9c23c56338368d7689b5",
-      "previousId": "urn:dr:radio:episode:681c9c21923dffbb1977645e",
+      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
       "series": {
         "title": "P2 Operaaften",
         "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
@@ -320,88 +402,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422566416",
-      "durationMilliseconds": 11403500,
-      "categories": [
-        "Musik",
-        "Klassisk",
-        "Opera"
-      ],
-      "productionNumber": "12422566416",
-      "publishTime": "2025-10-11T19:20:00+02:00",
-      "startTime": "2025-10-11T19:20:00+02:00",
-      "endTime": "2025-11-09T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/bellini-norma-12422566416",
-      "order": 638958074025041416,
-      "nextId": "urn:dr:radio:episode:681c9c22a75c4b58350e31a1",
-      "previousId": "urn:dr:radio:episode:67f639a18e208bf2ad2b5f46",
-      "series": {
-        "title": "P2 Operaaften",
-        "id": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-        "slug": "p2-operaaften-1206951121000",
-        "productionNumber": "1206951121000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften-1206951121000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206951121000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c21923dffbb1977645e/d94d3d68ea605b23e87dddb5021c7a85387c8218e495b99b9b1a971257caa1c3"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422566416",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-10-11T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c9c21923dffbb1977645e",
-      "slug": "bellini-norma-12422566416",
-      "title": "Bellini: Norma",
-      "description": "Norma er præstinde og mor - men også kvinde i krise. Hun elsker romeren Pollione, som har forladt hende for en yngre kvinde. Forræderiet sætter ikke kun deres kærlighed, men også Normas pligt til sit folk på spil. Kan en krigsherre, en ung præstinde og en mor finde tilgivelse, eller ender det i tragedie? En historie om kærlighed, svigt og mod til at ofre alt. I en optagelse fra La Scala er en ny Norma på firmamentet. Marina Rebeka synger sig ind i historien som den nye Maria Callas. \nMarina Rebeka, sopran. \nVasilisa Berzhanskaya, mezzosopran. \nFreddie De Tommaso, tenor. \nScala Operaens kor og orkester. \nDirigent: Fabio Luisi. \nVært: Stine Rosengren. \n(La Scala, Milano, 27. Juni).  \nVært: Stine Rosengren.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68e4f3b06a608c1e54a000bd",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o98N5?$%9u0f9b^ks;9at6xtoe=|NtNG-oxaIVNHELM|$*-Vs.NG%1%1M|NGWBS2IpoLWUoet6WC"
-        },
-        {
-          "id": "urn:dr:radio:image:68e4f3b06a608c1e54a000bd",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o98N5?$%9u0f9b^ks;9at6xtoe=|NtNG-oxaIVNHELM|$*-Vs.NG%1%1M|NGWBS2IpoLWUoet6WC"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#320F23",
-            "#E48D99"
-          ]
-        },
-        "colors": {
-          "dark": "#320F23",
-          "light": "#E48D99"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422566216",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -414,7 +414,7 @@
       "startTime": "2025-05-24T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-operaaften/p2-operaaften-2025/nyskrevet-opera-over-nobelpristagers-roman-12422566216",
       "order": 638837042025021216,
-      "nextId": "urn:dr:radio:episode:681c9c21923dffbb1977645e",
+      "nextId": "urn:dr:radio:episode:681c9c22a75c4b58350e31a1",
       "previousId": "urn:dr:radio:episode:6603549ff6340c50cd80f4e1",
       "series": {
         "title": "P2 Operaaften",
