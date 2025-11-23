@@ -17,7 +17,7 @@
   "numberOfEpisodes": 5,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-22T12:03:00+01:00",
+  "latestEpisodeStartTime": "2025-11-23T12:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1652350131000",
   "productionNumber": "1652350131000",
@@ -81,6 +81,100 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13332547477",
+      "durationMilliseconds": 7020024,
+      "categories": [
+        "Musik",
+        "Pop"
+      ],
+      "productionNumber": "13332547477",
+      "publishTime": "2025-11-23T12:03:00+01:00",
+      "startTime": "2025-11-23T12:03:00+01:00",
+      "endTime": "2025-11-27T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/soendag-23-november-2025-13332547477",
+      "order": 638994961800157477,
+      "previousId": "urn:dr:radio:episode:68a32e00ab4fb6876c39401e",
+      "series": {
+        "title": "Popdatering",
+        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
+        "slug": "popdatering-1652350131000",
+        "productionNumber": "1652350131000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
+        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
+      },
+      "channel": {
+        "title": "P3",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
+        "slug": "p3",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p3"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68a32e01f869958e2a1ff949/00b9d9c9f1dc38aa42eb8f2c37ad702457beb115c92ec094608a9c2febfc1a7d"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13332547477",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-23T12:03:00+01:00",
+      "id": "urn:dr:radio:episode:68a32e01f869958e2a1ff949",
+      "slug": "soendag-23-november-2025-13332547477",
+      "title": "Søndag 23. november 2025",
+      "description": "I Popdatering præsenterer Nynne Givskov dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b56",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NJECzf{yUcvg8wL1.-tlGaIoT0rXD%niRPGZyDrX"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b58",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "obDA=AxZtlrWRPV@.-xtWBS#ShbbIorXR5S~ofjZKPb]bvr?n%WBMySgo}s:kWX8X-nOv~ayoLo0"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3D1505",
+            "#03FDFD"
+          ]
+        },
+        "colors": {
+          "dark": "#3D1505",
+          "light": "#03FDFD"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:13332547476",
       "durationMilliseconds": 7020000,
       "categories": [
@@ -93,6 +187,7 @@
       "endTime": "2025-11-26T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/loerdag-22-november-2025-13332547476",
       "order": 638994097800156476,
+      "nextId": "urn:dr:radio:episode:68a32e01f869958e2a1ff949",
       "previousId": "urn:dr:radio:episode:68a32e1fcb1de455176289ff",
       "series": {
         "title": "Popdatering",
@@ -423,7 +518,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/yap-k-pop-og-soen-i-popdatering-16122533473",
       "order": 638991507825183473,
       "nextId": "urn:dr:radio:episode:686308c977533c99835f8994",
-      "previousId": "urn:dr:radio:episode:686309b709593a81dfd07dba",
       "series": {
         "title": "Popdatering",
         "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
@@ -505,145 +599,6 @@
       "slug": "yap-k-pop-og-soen-i-popdatering-16122533473",
       "title": "YAP, K-POP og SØN i Popdatering",
       "description": "Ena har optur over P3's Uundgåelige, som kommer fra det ultimative svenske popikon Robyn! Popdatering får besøg af Kasper Reippurt fra Det Gode Liv. Han præsenterer en kunstner, der leverer lækre harmonier pakket ind i en blanding af R&B og house. Forsanger i SØN, Kristoffer, er med på en forbindelse og taler om den nyeste udgivelse. Et band, der har masser af fede ting på vej!!! K-pop har gjort sit indtog - også i Milliardklubben. Måske du kan gætte, hvilken sang, der med lynets hastighed, har gjort sin entre i klubben?\nI Popdatering præsenterer Ena Cosovic dig for den bedste, nye popmusik og tager dig med på en tur op og ned ad hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b56",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NJECzf{yUcvg8wL1.-tlGaIoT0rXD%niRPGZyDrX"
-        },
-        {
-          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
-        },
-        {
-          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b58",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "obDA=AxZtlrWRPV@.-xtWBS#ShbbIorXR5S~ofjZKPb]bvr?n%WBMySgo}s:kWX8X-nOv~ayoLo0"
-        },
-        {
-          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3D1505",
-            "#03FDFD"
-          ]
-        },
-        "colors": {
-          "dark": "#3D1505",
-          "light": "#03FDFD"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:16122533472",
-      "durationMilliseconds": 7020024,
-      "categories": [
-        "Musik",
-        "Pop"
-      ],
-      "productionNumber": "16122533472",
-      "publishTime": "2025-11-18T12:03:00+01:00",
-      "startTime": "2025-11-18T12:03:00+01:00",
-      "endTime": "2025-11-22T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering-2025/kaerlighedstattoo-i-pass-eller-play-16122533472",
-      "order": 638990643825182472,
-      "nextId": "urn:dr:radio:episode:686308c684761efefa4308e5",
-      "series": {
-        "title": "Popdatering",
-        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
-        "slug": "popdatering-1652350131000",
-        "productionNumber": "1652350131000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
-        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
-      },
-      "channel": {
-        "title": "P3",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
-        "slug": "p3",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p3"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 64,
-          "fileSize": 57479303,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/f4a3e2ca82f30f1b4b35b6386fdf0fbe42f4f808564398c0d6df1310b6176b82"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 192,
-          "fileSize": 169800977,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/73fb23ae2958c1fe18cb1f511a1c4ffeb15e63346c672d827acb05f285ef4069"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp4",
-          "bitrate": 256,
-          "fileSize": 225962080,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/f8444a3db06b6ecf9f71d38681fc627306266fb6ed681dbec6a880b9ce368b07"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp3",
-          "bitrate": 64,
-          "fileSize": 56161033,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/5874bc69d9232536384ce586f80a27136e468d26ad15cdb774ddea3c0d77f262"
-        },
-        {
-          "type": "Audio",
-          "target": "Progressive",
-          "isStreamLive": false,
-          "format": "mp3",
-          "bitrate": 192,
-          "fileSize": 168482185,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/afa1d1d0d3369bb85fb6f7ee081a25c530d611a4a338582a8e7f15a5812dd9b1"
-        },
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:686309b709593a81dfd07dba/9bcabb2ccbf7558702b4297fcbc7ec27286e7de7966f7226d4fa62aee4e4a221"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:16122533472",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-11-18T12:03:00+01:00",
-      "id": "urn:dr:radio:episode:686309b709593a81dfd07dba",
-      "slug": "kaerlighedstattoo-i-pass-eller-play-16122533472",
-      "title": "Kærlighedstattoo i Pass eller Play",
-      "description": "Ena spotter en tendens i Milliardklubben, som er ret interessant OG rar for ørerne - lyt med! Derudover skal vi høre ny dansk musik. Søn er ude med singlen \"Skabt til at være to\", der er en lille historie om den store tvivl i parforholdet. Ena præsenterer også et nyt dansk navn, der hitter på top 10 og på sociale medier. JONATHAN er sammen med etablerede navne som Annika og Mille med til at skabe den nye lyd for ungdommen. I Pass eller Play ringer Thomas og hans hustru ind og vil bestemme soundtracket til deres kærlighedstatovering. Intet Popdatering for tiden uden en britisk kvindelig artist, der sætter dagsordenen for, hvordan pop skal lyde i 2025. Vi kan stadig ikke få armene ned over Lily Allen.\nI Popdatering præsenterer Ena Cosovic dig for den bedste, nye popmusik og tager dig med på en tur op og ned ad hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68f8e958031a82095d8a3b56",
