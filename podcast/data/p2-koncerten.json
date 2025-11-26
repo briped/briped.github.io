@@ -17,7 +17,7 @@
   "numberOfEpisodes": 166,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-11-25T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-11-26T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -26,6 +26,7 @@
   "isAvailableOnDemand": true,
   "hasVideo": false,
   "explicitContent": false,
+  "franchise": "P2 Koncerter",
   "defaultOrder": "Desc",
   "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
   "slug": "p2-koncerten-758659903000",
@@ -75,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543483",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543483",
+      "publishTime": "2025-11-26T19:20:00+01:00",
+      "startTime": "2025-11-26T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/musica-ficta-palestrina-500-12422543483",
+      "order": 638997818025203483,
+      "previousId": "urn:dr:radio:episode:681c99901720bd973dfaab32",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9954a95582916ea8cf31/15e4f6a05a5cf1bcae5ace10d680dd720a590f8ab4ca89b16c6e605d026388ef"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543483",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-26T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9954a95582916ea8cf31",
+      "slug": "musica-ficta-palestrina-500-12422543483",
+      "title": "Musica Ficta: Palestrina 500!",
+      "description": "En af kormusikkens vigtigste komponister fylder 500 år i år - og er man et vokalensemble, så skal det fejres. Musica Ficta siger selv at Palestrina er for vokalmusikken, hvad Michelangelo var for malerkunsten ellr Shakespeare var for litteraturen.\nHør dem fejre den gamle mester ved at opføre hans Marcellusmesse og madrigaler fra Canticum Canticorum. \nMusica Ficta. \nDirigent: Bo Holten. \n(Vor Frelser Kirke, København 25. november).  \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69242b060e36ecb4d6bbe076",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oYJt}6Rjoe9FMxM_~qoKM{Ioxas:%fxajYt7t7t7NG%Mt7jYWBWBRjWWxuWAoLjss:ofaxWBWBj["
+        },
+        {
+          "id": "urn:dr:radio:image:69242b060e36ecb4d6bbe076",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oYJt}6Rjoe9FMxM_~qoKM{Ioxas:%fxajYt7t7t7NG%Mt7jYWBWBRjWWxuWAoLjss:ofaxWBWBj["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543482",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +166,7 @@
       "startTime": "2025-11-25T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/michala-petri-vivaldi-mogens-christensen-og-esbjerg-ensemble-12422543482",
       "order": 638996954025202482,
+      "nextId": "urn:dr:radio:episode:681c9954a95582916ea8cf31",
       "previousId": "urn:dr:radio:episode:681c9954c56338368d7677e9",
       "series": {
         "title": "P2 Koncerten",
@@ -324,7 +405,7 @@
       "publishTime": "2025-11-21T19:20:00+01:00",
       "startTime": "2025-11-21T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/p2-talent-2025-valdemar-wenzel-most-og-ensemble-midtvest-12422543475",
-      "order": 638993498025200475,
+      "order": 638993462025200475,
       "nextId": "urn:dr:radio:episode:68ee499ece798980cefb2a1a",
       "previousId": "urn:dr:radio:episode:681c9953b3140b1c1f3b774b",
       "series": {
@@ -9772,6 +9853,7 @@
       "productionNumber": "12422543092",
       "publishTime": "2025-02-25T19:20:00+01:00",
       "startTime": "2025-02-25T19:20:00+01:00",
+      "endTime": "2026-02-25T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/tillykke-niels-w-gade-12422543092",
       "order": 638761082025032092,
       "nextId": "urn:dr:radio:episode:67b11e0a1e7b9aca695340c5",
@@ -12691,7 +12773,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/musik-om-musik-12422443482",
       "order": 638682458024314482,
       "nextId": "urn:dr:radio:episode:673925afd65aaf64eaa7687a",
-      "previousId": "urn:dr:radio:episode:67368338d91ec585bda9438c",
+      "previousId": "urn:dr:radio:episode:672e999c446d78ff8d32b0a4",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12759,87 +12841,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443481",
-      "durationMilliseconds": 9600000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443481",
-      "publishTime": "2024-11-25T19:20:00+01:00",
-      "startTime": "2024-11-25T19:20:00+01:00",
-      "endTime": "2025-11-25T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/uropfoerelser-gennem-tiderne-12422443481",
-      "order": 638681594024313481,
-      "nextId": "urn:dr:radio:episode:6737d495e5089cfcafa75e3a",
-      "previousId": "urn:dr:radio:episode:672e999c446d78ff8d32b0a4",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67368338d91ec585bda9438c/0414e0312a25355f497aa22c8e2727a6041ab595ac866d82c9318e467168720d"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443481",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-11-25T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:67368338d91ec585bda9438c",
-      "slug": "uropfoerelser-gennem-tiderne-12422443481",
-      "title": "Uropførelser gennem tiderne",
-      "description": "Forestil dig du er tilibage i 1724 - du har lige sat dig til rette i teateret og de første toner af Händels nyskrevne mesterværk begynder at klinge. Operaen Julius Cæsar er Händels hovedværk i genren og DU er med til premieren! Leg med på Odense Symfoniorkesters fantasisrejse gennem fire århundrede, der ende med en vaskeægte 2024 uropførelse når de til sidst spiller Ruders helt nye symfoni nr. 6. Værker af Händel, Mendelssohn, Strauss og Ruders. Odense Symfoniorkester. Dirigent: Christopher Lichtenstein. (Carl Nielsen Salen, Odense, 21. november). \nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecd383852d6a4412cd3a49",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oIAv%yIV0f^*%1D*t7WBRjs:a|ae4:xa=|IVR*xaNGofxaRjWBofR*j[oeWBWVt6xaayRjoft6WB"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecd383852d6a4412cd3a49",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oIAv%yIV0f^*%1D*t7WBRjs:a|ae4:xa=|IVR*xaNGofxaRjWBofR*j[oeWBWVt6xaayRjoft6WB"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443472",
       "durationMilliseconds": 10503438,
       "categories": [
@@ -12852,7 +12853,7 @@
       "endTime": "2025-12-25T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/dansk-supertalent-med-spanske-stjerner-12422443472",
       "order": 638676410024310472,
-      "nextId": "urn:dr:radio:episode:67368338d91ec585bda9438c",
+      "nextId": "urn:dr:radio:episode:6737d495e5089cfcafa75e3a",
       "previousId": "urn:dr:radio:episode:66de20974312715628cdfccb",
       "series": {
         "title": "P2 Koncerten",
