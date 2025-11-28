@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 11,
+  "numberOfEpisodes": 10,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-10-30T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-11-27T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -26,6 +26,7 @@
   "isAvailableOnDemand": true,
   "hasVideo": false,
   "explicitContent": false,
+  "franchise": "P2 Koncerter",
   "defaultOrder": "Desc",
   "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
   "slug": "torsdagskoncerten-4012849570000",
@@ -74,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545484",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545484",
+      "publishTime": "2025-11-27T19:20:00+01:00",
+      "startTime": "2025-11-27T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/brahms-og-sjostakovitj-12422545484",
+      "order": 638998682025048484,
+      "previousId": "urn:dr:radio:episode:681c9964a90908f76a9e7c58",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9967a75c4b58350e1fc8/0e6afc837b31431dd61c4d1219aa35aaf5424adb9f3ee95d3c55f247d11d7082"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545484",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-11-27T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9967a75c4b58350e1fc8",
+      "slug": "brahms-og-sjostakovitj-12422545484",
+      "title": "Brahms og Sjostakovitj",
+      "description": "Hør Brahms' kraftfulde Klaverkoncert nr. 1 med Kirill Gerstein som solist. Efter pausen står den på musik af Sjostakovitj - Symfoni nr. 9, et værk der overraskede publikum ved uropførelsen i 1945. Sjostakovitj havde talt om et momumentalt værk, en sejrssymfoni. I stedet fik de en humoristisk symfoni med glimt i øjet. \nBrahms: Klaverkoncert nr. 1. \nSchubert: Entr'acte nr. 3. \nSjostakovitj: Symfoni Nr. 9. \nKirill Gerstein, klaver. \nDR Symfoniorkestret. \nDirigent: Elim Chan. \n(- direkte fra DR Koncerthuset). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69286a2bf813fbba9062c521",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o-Kd*%bH?bWBV@j]~qoeozj[Rjof%2a|M{ayRjayNGayRjj[t7ayt7jtfkoft7ayozayayazWBay"
+        },
+        {
+          "id": "urn:dr:radio:image:69286a2bf813fbba9062c521",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o-Kd*%bH?bWBV@j]~qoeozj[Rjof%2a|M{ayRjayNGayRjj[t7ayt7jtfkoft7ayozayayazWBay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545444",
       "durationMilliseconds": 9569744,
       "categories": [
@@ -85,6 +165,7 @@
       "startTime": "2025-10-30T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/100-aars-foedselsdagskoncert-med-mahlers-8-12422545444",
       "order": 638974490025044444,
+      "nextId": "urn:dr:radio:episode:681c9967a75c4b58350e1fc8",
       "previousId": "urn:dr:radio:episode:681c99649514fc4eb6c862f9",
       "series": {
         "title": "Torsdagskoncerten",
@@ -521,7 +602,7 @@
       "id": "urn:dr:radio:episode:681c99601720bd973dfaa9e5",
       "slug": "isabelle-faust-og-sibelius-rige-symfoniske-verden-12422545394",
       "title": "Isabelle Faust og Sibelius rige symfoniske verden",
-      "description": "Den tyske stjernemusiker Isabelle Faust er solist i Dvoráks violinkoncert, som er fuld af skønne melodier og dansende rytmer. Efter pausen spiller DR Symfoniorkestret under ledelse af finske Susanna Mälkki Sibelius'\n6. og 7. symfoni, der rummer alt fra det friske og lyse til det mørke og fortvivlede. \nDvorák: Violinkoncert. \nSibelius: Symfoni Nr. 6 og 7. \nIsabelle Faust, violin. \nDR Symfoniorkestret. \nDirigent: Susanna Mälkki. \n(- direkte fra DR Koncerthuset).\nVært. Esben Tange.",
+      "description": "Den tyske stjernemusiker Isabelle Faust er solist i Dvoráks violinkoncert, som er fuld af skønne melodier og dansende rytmer. Efter pausen spiller DR Symfoniorkestret under ledelse af finske Susanna Mälkki Sibelius'\n6. og 7. symfoni, der rummer alt fra det friske og lyse til det mørke og fortvivlede. \nDvorák: Violinkoncert. \nSibelius: Symfoni Nr. 6 og 7. \nIsabelle Faust, violin. \nDR Symfoniorkestret. \nDirigent: Susanna Mälkki. \n(- fra DR Koncerthuset).\nVært. Esben Tange.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68d53d63e921df0687d6f2fc",
@@ -642,6 +723,7 @@
       "productionNumber": "12422545344",
       "publishTime": "2025-08-21T19:20:00+02:00",
       "startTime": "2025-08-21T19:20:00+02:00",
+      "endTime": "2026-02-21T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
       "order": 638914010025034344,
       "nextId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
@@ -726,7 +808,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/100-aar-for-tango-jalousie-12422545324",
       "order": 638901914025032324,
       "nextId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
-      "previousId": "urn:dr:radio:episode:67f639468e208bf2ad2b5cf3",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
@@ -777,167 +858,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "oVHeF8%M-;xaV?sp~pWBNGWVRPofJUo0soW=bHNGRPRjnixGkDbHxutRWBo0bbj@o#j[RjNHj[of"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545214",
-      "durationMilliseconds": 9582436,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545214",
-      "publishTime": "2025-05-22T19:20:00+02:00",
-      "startTime": "2025-05-22T19:20:00+02:00",
-      "endTime": "2025-11-22T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/nordisk-musiktopmoede-12422545214",
-      "order": 638835386025021214,
-      "nextId": "urn:dr:radio:episode:681c996bb3140b1c1f3b7831",
-      "previousId": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "productionNumber": "4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f639468e208bf2ad2b5cf3/9d3cfacc93c5fd2583120d4a2cc80aed847aee92fb78e1c84d5d168abfcdbc3e"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545214",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-22T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67f639468e208bf2ad2b5cf3",
-      "slug": "nordisk-musiktopmoede-12422545214",
-      "title": "Nordisk musiktopmøde",
-      "description": "Med Sibelius Symfoni nr. 2 og islandske Anna Thorvaldsdottirs Katamorfose, hvor katastrofe og håb kæmper mod hinanden, er det en torsdagskoncert, hvor stærke nordiske kræfter kommer i spil. Læg dertil Samuel Barbers lyrisk syngende violinkoncert med James Ehnes, der er som skabt for denne koncert med sit glødende violinspil. I spidsen for det hele står den britiske dirigent Andrew Manze, der er en gammel ven af DR Symfoniorkestret. \nAnne Thorvaldsdottir: Catamorphosis. \nSamuel Barber: Violinkoncert. \nSibelius: Symfoni nr. 2. \nJames Ehnes, violin. \nDR Symfoniorkestret. \nDirigent: Andrew Manze.  \n(- direkte fra DR Koncerthuset).  \nVært: Esben Tange.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:682c5cbdf65c9b851076111a",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o77^iDSNIo~BIpIUNG0fRj%29us:NFxaxuWBjZs:xt?HWVM{%1R*0LIoRjNGof%2%2-o-okCRjjs"
-        },
-        {
-          "id": "urn:dr:radio:image:682c5cbdf65c9b851076111a",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o77^iDSNIo~BIpIUNG0fRj%29us:NFxaxuWBjZs:xt?HWVM{%1R*0LIoRjNGof%2%2-o-okCRjjs"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545204",
-      "durationMilliseconds": 9599191,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545204",
-      "publishTime": "2025-05-15T19:20:00+02:00",
-      "startTime": "2025-05-15T19:20:00+02:00",
-      "endTime": "2025-11-15T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/ravel-og-gaasemors-historier-12422545204",
-      "order": 638829338025020204,
-      "nextId": "urn:dr:radio:episode:67f639468e208bf2ad2b5cf3",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "productionNumber": "4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67f63849867a0ea6fee59602/ec2a2d0b2bd112432512ebfca277616b3cec4a6acd925611cb55fa96e8e065dc"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545204",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-15T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:67f63849867a0ea6fee59602",
-      "slug": "ravel-og-gaasemors-historier-12422545204",
-      "title": "Ravel og Gåsemors Historier",
-      "description": "Hør DR Symfoniorkestret i en koncert med Ravels farverige orkesterværk \"Gåsemors Historier\", hvor han genfortæller gamle franske eventyr i musik. Koncerten indledes med to andre fortællende værker, der opføres for første gang i Danmark: den amerikanske komponist Nico Muhlys \"Register hvor vi kan opleve Koncerthusets store orgel, og svenske Andrea Tarrodi \"Carmelopardalis\", der digter om venskabet med en giraf.  \nJames McVinnie, orgel. \nDR Symfoniorkestret. \nDirigent: Pekka Kuusisto. \n( - direkte fra Koncerthuset). \nVært: Celine Haastrup.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6819d1460766aecd9d940335",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oB8|;VRi00%M-;M{j@ofM{WB-;Rjj@ayt8WBIUxu9Ft7-;M{Int7M{WBxaofRjWB%MWBM{t7fRRj"
-        },
-        {
-          "id": "urn:dr:radio:image:6819d1460766aecd9d940335",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oB8|;VRi00%M-;M{j@ofM{WB-;Rjj@ayt8WBIUxu9Ft7-;M{Int7M{WBxaofRjWB%MWBM{t7fRRj"
         }
       ],
       "visualIdentity": {
