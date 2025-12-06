@@ -17,7 +17,7 @@
   "numberOfEpisodes": 7,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-01T12:15:00+01:00",
+  "latestEpisodeStartTime": "2025-12-06T12:15:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
   "psdbUrn": "urn:dr:mu:bundle:644f94fe539f0217286bfd97",
   "psdbSlug": "debutkoncert",
@@ -26,6 +26,7 @@
   "isAvailableOnDemand": true,
   "hasVideo": false,
   "explicitContent": false,
+  "franchise": "P2 Koncerter",
   "defaultOrder": "Desc",
   "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
   "slug": "debutkoncert-4568946429000",
@@ -74,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422564012",
+      "durationMilliseconds": 1740000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422564012",
+      "publishTime": "2025-12-06T12:15:00+01:00",
+      "startTime": "2025-12-06T12:15:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/flora-acosta-klarinet-12422564012",
+      "order": 639006203025012012,
+      "previousId": "urn:dr:radio:episode:682720fe61175376c1086e09",
+      "series": {
+        "title": "Debutkoncert",
+        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
+        "slug": "debutkoncert-4568946429000",
+        "productionNumber": "4568946429000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
+        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:682720fe7b626ea9bb0e5bb5/5abe7fb46bab0fb0c634fa758ada203221065991566b584d50b358544b1198e1"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564012",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-06T12:15:00+01:00",
+      "id": "urn:dr:radio:episode:682720fe7b626ea9bb0e5bb5",
+      "slug": "flora-acosta-klarinet-12422564012",
+      "title": "Flora Acosta - klarinet",
+      "description": "I dag kan du komme til koncert med klarinettisten Flora Acosta, der har slået sig ned i Danmark og har studeret i solistklassen på Det Jyske Musikkonservatorium. Ved sin debutkoncert spillede hun et program, der spændte fra den romantiske musik af Schumann og Brahms til den helt nye musik for soloklarinet. \nSchumann: Romances Op. 94. \nRózsa: Sonatine for soloklarinet. \nBrahms: Klarinettrio op.114, uddrag. \nFlora Acosta, klarinet. \nSonja Honkamaa, klaver.\nMaren Marie Tange, klaver.\nAleksandra Lyczba, cello. \n(- Symfonisk Sal, Musikhuset Aarhus 24. juni). \nVært: Rie Koch.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6900855c91066218a4b8c8ba",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJAAaRV[0Lo}={nOROWqkWnit7NGaKWB%2s:IpS2KOjZrrNaofxGs9o1ofRjRjxaRPWBozoKayX8"
+        },
+        {
+          "id": "urn:dr:radio:image:6900855c91066218a4b8c8ba",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oJAAaRV[0Lo}={nOROWqkWnit7NGaKWB%2s:IpS2KOjZrrNaofxGs9o1ofRjRjxaRPWBozoKayX8"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2E1613",
+            "#ED8E6E"
+          ]
+        },
+        "colors": {
+          "dark": "#2E1613",
+          "light": "#ED8E6E"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422564011",
       "durationMilliseconds": 1440023,
       "categories": [
@@ -85,6 +165,7 @@
       "startTime": "2025-11-01T12:15:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/lloyd-griffin-trompet-12422564011",
       "order": 638975963025011011,
+      "nextId": "urn:dr:radio:episode:682720fe7b626ea9bb0e5bb5",
       "previousId": "urn:dr:radio:episode:682720f27b626ea9bb0e5b5c",
       "series": {
         "title": "Debutkoncert",
@@ -322,6 +403,7 @@
       "productionNumber": "12422564008",
       "publishTime": "2025-08-02T12:15:00+02:00",
       "startTime": "2025-08-02T12:15:00+02:00",
+      "endTime": "2026-02-02T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/justina-la-cour-violin-12422564008",
       "order": 638897339025008008,
       "nextId": "urn:dr:radio:episode:682720e87b626ea9bb0e5b1b",
@@ -487,7 +569,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/gerbrich-meijer-klarinet-12422564006",
       "order": 638848955025006006,
       "nextId": "urn:dr:radio:episode:682720d27b626ea9bb0e5a78",
-      "previousId": "urn:dr:radio:episode:67ee3c05034014f391172f2e",
       "series": {
         "title": "Debutkoncert",
         "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
@@ -538,86 +619,6 @@
           "ratio": "1:1",
           "format": "image/png",
           "blurHash": "oqHB9:jYE1X9E2j?~Ve.IUozNHWVtSWBV?t6ogWXbwV[V@t6kCj]tSaeV@bbWBoeo}oJWBWXaeof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2E1613",
-            "#ED8E6E"
-          ]
-        },
-        "colors": {
-          "dark": "#2E1613",
-          "light": "#ED8E6E"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422564005",
-      "durationMilliseconds": 1680000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422564005",
-      "publishTime": "2025-05-03T12:15:00+02:00",
-      "startTime": "2025-05-03T12:15:00+02:00",
-      "endTime": "2025-11-03T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert/debutkoncert-2025/marianne-sihvonen-floejte-12422564005",
-      "order": 638818715025005005,
-      "nextId": "urn:dr:radio:episode:6824438c6f051f913cfbfde1",
-      "series": {
-        "title": "Debutkoncert",
-        "id": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
-        "slug": "debutkoncert-4568946429000",
-        "productionNumber": "4568946429000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/debutkoncert-4568946429000",
-        "learnId": "urn:dr:ocs:audio:content:series:4568946429000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67ee3c05034014f391172f2e/783d6d5305aae337650a4fc7771bbd37a9b8888f53f28e6c9a2bcd9489456c13"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422564005",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-05-03T12:15:00+02:00",
-      "id": "urn:dr:radio:episode:67ee3c05034014f391172f2e",
-      "slug": "marianne-sihvonen-floejte-12422564005",
-      "title": "Marianne Sihvonen - fløjte",
-      "description": "I dag kan du komme til koncert med den finsk-samiske fløjtenist og komponist, Marianne Sihvonen. Hun er debuteret fra Det Jyske Musikkonservatoriums solistklasse med en koncert i Symfonisk Sal i Musikhuset i Aarhus. En debut, der spændte fra det helt nyskrevne, bl.a. en verdenspremiere af Marianne Sihvonen selv - til klassikere i fløjterepertoiret. \nWidor: Suite for fløjte og klaver, uddrag. \nMoMa: Not Worth Telling, verdenspremiere. \nMarianne Sihvonen, fløjte. \nMolly Påhlsson, fløjte. \nMorten Elkjær, elektronik. \nMaren Marie Tange, klaver. \n(Musikhuset Aarhus, 28. april).",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ee3c05034014f391172f2f",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "omIW~Ix^o#M{K6wJ_4S~WYr=S$r=O[R*n$xDt5R*Xnr=WAfkoJS$S#nOR*NesnkVf+n#oJS2e-oe"
-        },
-        {
-          "id": "urn:dr:radio:image:67ee3c05034014f391172f2f",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "omIW~Ix^o#M{K6wJ_4S~WYr=S$r=O[R*n$xDt5R*Xnr=WAfkoJS$S#nOR*NesnkVf+n#oJS2e-oe"
         }
       ],
       "visualIdentity": {
