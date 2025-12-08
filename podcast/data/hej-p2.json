@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 22,
+  "numberOfEpisodes": 21,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-05T08:30:00+01:00",
+  "latestEpisodeStartTime": "2025-12-08T08:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530501",
+      "durationMilliseconds": 8524814,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530501",
+      "publishTime": "2025-12-08T08:30:00+01:00",
+      "startTime": "2025-12-08T08:30:00+01:00",
+      "endTime": "2026-01-06T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/jul-i-udlandet-12422530501",
+      "order": 639007796025377501,
+      "previousId": "urn:dr:radio:episode:681ca2a42e64822ed59473e8",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "productionNumber": "758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2922e64822ed594734f/28f4639ea6e84da0e9c3386740644d7a862734074020246e64cb7d852c4cc861"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530501",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-08T08:30:00+01:00",
+      "id": "urn:dr:radio:episode:681ca2922e64822ed594734f",
+      "slug": "jul-i-udlandet-12422530501",
+      "title": "Jul i udlandet",
+      "description": "Del dine oplevelser med at fejre jul i udlandet med os!  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Mette Greiffenberg.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3F2102",
+            "#ACCD82"
+          ]
+        },
+        "colors": {
+          "dark": "#3F2102",
+          "light": "#ACCD82"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530495",
       "durationMilliseconds": 8519087,
       "categories": [
@@ -86,6 +173,7 @@
       "endTime": "2026-01-03T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/brocher-og-manchetknapper-12422530495",
       "order": 639005204025376495,
+      "nextId": "urn:dr:radio:episode:681ca2922e64822ed594734f",
       "previousId": "urn:dr:radio:episode:681ca2a31e0a1c49e0656104",
       "series": {
         "title": "Hej P2",
@@ -1758,7 +1846,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/mit-stoppested-12422530461",
       "order": 638983604025357461,
       "nextId": "urn:dr:radio:episode:681ca2a12e64822ed59473cd",
-      "previousId": "urn:dr:radio:episode:681ca2a01e0a1c49e06560e9",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1795,181 +1882,6 @@
       "slug": "mit-stoppested-12422530461",
       "title": "Mit stoppested",
       "description": "Hvordan ser dit stoppested ud?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk \nVært: Stine Rosengren.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530455",
-      "durationMilliseconds": 8521869,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530455",
-      "publishTime": "2025-11-07T08:30:00+01:00",
-      "startTime": "2025-11-07T08:30:00+01:00",
-      "endTime": "2025-12-06T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/danse-i-klassisk-musik-12422530455",
-      "order": 638981012025356455,
-      "nextId": "urn:dr:radio:episode:681ca2a1923dffbb197793bf",
-      "previousId": "urn:dr:radio:episode:681ca2a0f108f0a6b2ce2648",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2a01e0a1c49e06560e9/eb34ecb6ce66908c297c96e3e29f2d06284dd4c620d7bf73c16309073c86e53a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530455",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-11-07T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:681ca2a01e0a1c49e06560e9",
-      "slug": "danse-i-klassisk-musik-12422530455",
-      "title": "Danse i klassisk musik",
-      "description": "I dag dyrker vi dansen i den klassiske musik. Hvad skal vi høre og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk \nVært: Cæciie Iburg Printzlau.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530454",
-      "durationMilliseconds": 8528873,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530454",
-      "publishTime": "2025-11-06T08:30:00+01:00",
-      "startTime": "2025-11-06T08:30:00+01:00",
-      "endTime": "2025-12-05T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/vinterhi-12422530454",
-      "order": 638980148025355454,
-      "nextId": "urn:dr:radio:episode:681ca2a01e0a1c49e06560e9",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2a0f108f0a6b2ce2648/48554913ca3aefcd357d3501989d28d08801ffbf479d9345a137e25e4ec3c714"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530454",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-11-06T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:681ca2a0f108f0a6b2ce2648",
-      "slug": "vinterhi-12422530454",
-      "title": "Vinterhi",
-      "description": "Hvordan går du i vinterhi - og hvilket stykke klassisk musik passer til?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk \nVært: Cæcilie Iburg Printzlau.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
