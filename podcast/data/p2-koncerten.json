@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 162,
+  "numberOfEpisodes": 163,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-08T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-12-09T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543502",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543502",
+      "publishTime": "2025-12-09T19:20:00+01:00",
+      "startTime": "2025-12-09T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/ars-novas-julerejse-12422543502",
+      "order": 639009050025210502,
+      "previousId": "urn:dr:radio:episode:681c9955083a81efebded2f0",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99679514fc4eb6c86319/53d2eea051d2aab9dc49e4bd48fef01997765488f41fc50ef95f988b92b95880"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543502",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-09T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c99679514fc4eb6c86319",
+      "slug": "ars-novas-julerejse-12422543502",
+      "title": "Ars Novas julerejse",
+      "description": "Tag en pause fra juleræset og læn dig tilbage i smuk korklang. Ars Nova lover os en rejse gennem profeti, mirakel, moderskab og julens glæde. Programmet spænder over alt fra middelalderhymner over kendte klassikere til helt friske uropførelser, med en behaglig slagside til det engelske, for aftenens gæstedirigent er britiske Eamonn Dougan.\nArs Nova. \nDirigent: Eamonn Dougan. \n(Trinitatis Kirke, København 8. december). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69301813e92e3adf1534fb74",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oIIp}4^P=_V[%L^*~BI;IpadIoM{krNGRQxFNGNG?vWBRjxF%1bbt7NGIpn$ELw]x]ofaxocI;xt"
+        },
+        {
+          "id": "urn:dr:radio:image:69301813e92e3adf1534fb74",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oIIp}4^P=_V[%L^*~BI;IpadIoM{krNGRQxFNGNG?vWBRjxF%1bbt7NGIpn$ELw]x]ofaxocI;xt"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543501",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +166,7 @@
       "startTime": "2025-12-08T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/figuras-og-camerata-oeresunds-jul-12422543501",
       "order": 639008186025209501,
+      "nextId": "urn:dr:radio:episode:681c99679514fc4eb6c86319",
       "previousId": "urn:dr:radio:episode:681c9991a90908f76a9e7d81",
       "series": {
         "title": "P2 Koncerten",
