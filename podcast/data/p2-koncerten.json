@@ -17,7 +17,7 @@
   "numberOfEpisodes": 164,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-15T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-12-16T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543512",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543512",
+      "publishTime": "2025-12-16T19:20:00+01:00",
+      "startTime": "2025-12-16T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/the-king-s-singers-synger-disney-12422543512",
+      "order": 639015098025214512,
+      "previousId": "urn:dr:radio:episode:681c9955b3140b1c1f3b776c",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9968b3140b1c1f3b781d/7d417f564ab9f93b1b0b0f5b37e16b1a3d0eff767850729cc6529160e1e2742d"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543512",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-16T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9968b3140b1c1f3b781d",
+      "slug": "the-king-s-singers-synger-disney-12422543512",
+      "title": "The King's Singers synger Disney",
+      "description": "Tag med på en musikhistorisk Disneyrejse og hør det engelske vokalensemble synge klassikere fra de helt tidlige film frem til Toy Story, Frost og Coco. \nThe King's Singers. \nKölns Radiosymfoniorkester. \n(Filharmonien, Köln 4. april). \nVært: Louise Hjorth.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69303f044f22de874e0895b0",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWCG3}RjRjofj@of~WWBWBfkayoL-pWBj[fkWBoMRjayoffQR*ayIoayj[j[azWCNGaya|a}offP"
+        },
+        {
+          "id": "urn:dr:radio:image:69303f044f22de874e0895b0",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oWCG3}RjRjofj@of~WWBWBfkayoL-pWBj[fkWBoMRjayoffQR*ayIoayj[j[azWCNGaya|a}offP"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543511",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -88,6 +167,7 @@
       "endTime": "2026-01-13T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/konstantin-krimmels-rejsesange-12422543511",
       "order": 639014234025213511,
+      "nextId": "urn:dr:radio:episode:681c9968b3140b1c1f3b781d",
       "previousId": "urn:dr:radio:episode:681c99682b77f3385e307c34",
       "series": {
         "title": "P2 Koncerten",
@@ -368,25 +448,18 @@
       "description": "Det var ikke kun Bach og Händel der skrev julemusik - det gjorde mange af deres kendte samtidige også. I aften kan du bade dig i lækre juletoner af Vivaldi, Graun, Charpentier, Corelli, Schmelzer - og selvfølgeliug også lidt uddrag af Händel og Bach. \nJulia Lezhneva, sopran. \nFreiburg Barokorkester.  \nGottfried von der Goltz, violin og musikalsk ledelse.  \n(Koncerthuset, Freiburg im Breisgau 18. december 2024). \nVært: Louise Hjorth.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3e9f",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "N79?wX%KIpE29aIn9Df6xCR.xbxbsQS5xuNGj]$z"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:69412250af5ce9656465d8d4",
           "target": "SquareImage",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oQD*|X%MofWCWXniK6ozfloIs:j[~B%2s:WBa#WCxvXSbHs:S4jZS~t7j]jYa{WW%2ozWVWXa#o0"
         },
         {
-          "id": "urn:dr:radio:image:67e4455ec7555875182c3ea0",
+          "id": "urn:dr:radio:image:69412250af5ce9656465d8d4",
           "target": "Default",
           "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "o7AvkF-pEN4.9tWG4,s7NG%3NM9uRhxvNJxZV]xuxdE3-oWAaws,I;ITD*s;ozadxa?I%LWBR+t8"
+          "format": "image/png",
+          "blurHash": "oQD*|X%MofWCWXniK6ozfloIs:j[~B%2s:WBa#WCxvXSbHs:S4jZS~t7j]jYa{WW%2ozWVWXa#o0"
         }
       ],
       "visualIdentity": {
@@ -1543,7 +1616,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/mesterpianister-paa-p2-hamelin-12422543471",
       "order": 638990042025197471,
       "nextId": "urn:dr:radio:episode:681c9953b3140b1c1f3b774b",
-      "previousId": "urn:dr:radio:episode:681c9953083a81efebded2d6",
+      "previousId": "urn:dr:radio:episode:681c99531720bd973dfaa95c",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1611,87 +1684,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543465",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543465",
-      "publishTime": "2025-11-14T19:20:00+01:00",
-      "startTime": "2025-11-14T19:20:00+01:00",
-      "endTime": "2025-12-15T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/doedens-toner-med-danmarks-underholdningsorkester-12422543465",
-      "order": 638987450025196465,
-      "nextId": "urn:dr:radio:episode:681c9953923dffbb1977529a",
-      "previousId": "urn:dr:radio:episode:681c99531720bd973dfaa95c",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9953083a81efebded2d6/10232e61c21c30f26876e880e4855722040e7bdcab344d1246171bd95637014c"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543465",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-11-14T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:681c9953083a81efebded2d6",
-      "slug": "doedens-toner-med-danmarks-underholdningsorkester-12422543465",
-      "title": "Dødens toner med Danmarks Underholdningsorkester",
-      "description": "Underholdningsorkestret har gjort det til en tradition at lave en koncert for de efterladte. I år gør de det med Samuel Barbers smukke Adagio, Pergolesis Stabat Mater, en ny cellokoncert af Rune Glerup og Pia Tafdrup, der læser uddrag af sin egen Hjertet i Zenit. \nAndreas Brantelid, cello. \nEmöke Baráth, sopran. \nMorten Grove Frandsen, kontratenor.  \nPia Tafdrup, forfatter/oplæsning. \nDanmarks Underholdningsorkester. \nDirigent: Christian Reif. \n(DKDM 8. november). \nVært: Esben Tange.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:6915ad1d3d1d95f2b224da16",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oDAvLPI]13^iD$9w10-V^N9uI=acD*%0S#E2-oxW-oE1IW^jM|S6I;WBocWEsns,RR%MxtIVt7n#"
-        },
-        {
-          "id": "urn:dr:radio:image:6915ad1d3d1d95f2b224da16",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oDAvLPI]13^iD$9w10-V^N9uI=acD*%0S#E2-oxW-oE1IW^jM|S6I;WBocWEsns,RR%MxtIVt7n#"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543463",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1703,7 +1695,7 @@
       "startTime": "2025-11-12T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/admeta-string-quartet-12422543463",
       "order": 638985722025195463,
-      "nextId": "urn:dr:radio:episode:681c9953083a81efebded2d6",
+      "nextId": "urn:dr:radio:episode:681c9953923dffbb1977529a",
       "previousId": "urn:dr:radio:episode:681c9966923dffbb19775352",
       "series": {
         "title": "P2 Koncerten",
@@ -9783,6 +9775,7 @@
       "productionNumber": "12422543611",
       "publishTime": "2025-03-15T19:20:00+01:00",
       "startTime": "2025-03-15T19:20:00+01:00",
+      "endTime": "2026-03-15T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/finalen-i-aarhus-internationale-klaverkonkurrence-12422543611",
       "order": 638776634025111611,
       "nextId": "urn:dr:radio:episode:67ca2b5e3c672e012fed0b86",
@@ -10347,9 +10340,8 @@
       "productionNumber": "12422543095",
       "publishTime": "2025-02-28T19:20:00+01:00",
       "startTime": "2025-02-28T19:20:00+01:00",
-      "endTime": "2026-02-28T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/copenhagen-phil-nancy-dalbergs-symfoni-i-cis-mol-12422543095",
-      "order": 638763674025034095,
+      "order": 638763638025034095,
       "nextId": "urn:dr:radio:episode:67b7b538c51c478742b4760e",
       "previousId": "urn:dr:radio:episode:67b11e0a1e7b9aca695340c5",
       "series": {
