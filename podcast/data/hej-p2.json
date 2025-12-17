@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-16T08:30:00+01:00",
+  "latestEpisodeStartTime": "2025-12-17T08:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
   "psdbUrn": "urn:dr:mu:bundle:57d7ae316187a40ef4067eaf",
   "psdbSlug": "hej-p2",
@@ -74,6 +74,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422530513",
+      "durationMilliseconds": 8523536,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422530513",
+      "publishTime": "2025-12-17T08:30:00+01:00",
+      "startTime": "2025-12-17T08:30:00+01:00",
+      "endTime": "2026-01-15T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/juleboeger-12422530513",
+      "order": 639015572025384513,
+      "previousId": "urn:dr:radio:episode:681ca2a5f811f507147f28e5",
+      "series": {
+        "title": "Hej P2",
+        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
+        "slug": "hej-p2-758665572000",
+        "productionNumber": "758665572000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
+        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2a5f108f0a6b2ce266f/b1c99d2c049e16dd64660da5f042d4d709b0bfad76e6e35f00c6685456afd5f5"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530513",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-17T08:30:00+01:00",
+      "id": "urn:dr:radio:episode:681ca2a5f108f0a6b2ce266f",
+      "slug": "juleboeger-12422530513",
+      "title": "Julebøger",
+      "description": "Vi samler på anbefalinger af julebøger. Hvad skal vi læse og hvorfor?  \nVi giver dit input radiovinger hvis du skriver til hejp2@dr.dk  \nVært: Jakob Wivel.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3F2102",
+            "#ACCD82"
+          ]
+        },
+        "colors": {
+          "dark": "#3F2102",
+          "light": "#ACCD82"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422530512",
       "durationMilliseconds": 5023950,
       "categories": [
@@ -86,6 +173,7 @@
       "endTime": "2026-01-14T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/anbefal-et-bjerg-12422530512",
       "order": 639014708025383512,
+      "nextId": "urn:dr:radio:episode:681ca2a5f108f0a6b2ce266f",
       "previousId": "urn:dr:radio:episode:681ca293f811f507147f2849",
       "series": {
         "title": "Hej P2",
@@ -1846,7 +1934,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/er-du-blevet-valgt-til-noget-12422530472",
       "order": 638990516025363472,
       "nextId": "urn:dr:radio:episode:681ca2a7c56338368d76b8a6",
-      "previousId": "urn:dr:radio:episode:681ca2901e0a1c49e0656054",
       "series": {
         "title": "Hej P2",
         "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
@@ -1883,93 +1970,6 @@
       "slug": "er-du-blevet-valgt-til-noget-12422530472",
       "title": "Er du blevet valgt til noget?",
       "description": "Idrætsforeningen, skolebestyrelsen, menighedsrådet, tjansen som Lucia-brud? Er du blevet valgt til noget - og hvordan var det?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Stine Rosengren.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "NbM?U{^+$gt2M|aK%2oJIpRjoekC~ntSnjR*R+oe"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4641",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "ocNl-g={xBM|NGj?spRjM}a}bbWC?[Rnsot6s,R*%fxtt6aeaekBSft5s:fkR*s:tQWExZWCbFof"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3F2102",
-            "#ACCD82"
-          ]
-        },
-        "colors": {
-          "dark": "#3F2102",
-          "light": "#ACCD82"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422530471",
-      "durationMilliseconds": 8524167,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422530471",
-      "publishTime": "2025-11-17T08:30:00+01:00",
-      "startTime": "2025-11-17T08:30:00+01:00",
-      "endTime": "2025-12-16T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2/hej-p2-2025/min-yndlingsforfatter-12422530471",
-      "order": 638989652025362471,
-      "nextId": "urn:dr:radio:episode:681ca2a73f4a9729ac88df59",
-      "series": {
-        "title": "Hej P2",
-        "id": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-        "slug": "hej-p2-758665572000",
-        "productionNumber": "758665572000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/hej-p2-758665572000",
-        "learnId": "urn:dr:ocs:audio:content:series:758665572000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681ca2901e0a1c49e0656054/110041d2918e24eee561ef531527f5be3924f2e138d7f1ffebd03c153baeee26"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422530471",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-11-17T08:30:00+01:00",
-      "id": "urn:dr:radio:episode:681ca2901e0a1c49e0656054",
-      "slug": "min-yndlingsforfatter-12422530471",
-      "title": "Min yndlingsforfatter",
-      "description": "Hvilken forfatter er din favorit og hvorfor?  \nVi giver dit input radiovinger, hvis du skriver til hejp2@dr.dk  \nVært: Jakob Wivel.",
       "imageAssets": [
         {
           "id": "urn:dr:radio:image:68bfde0e1a33e0e6472a4640",
