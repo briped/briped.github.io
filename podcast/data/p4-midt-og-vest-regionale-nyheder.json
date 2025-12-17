@@ -11,10 +11,10 @@
   },
   "isUmbrella": false,
   "categories": [],
-  "numberOfEpisodes": 721,
+  "numberOfEpisodes": 722,
   "presentationType": "News",
   "groupingType": "Daily",
-  "latestEpisodeStartTime": "2025-12-16T17:30:00+01:00",
+  "latestEpisodeStartTime": "2025-12-17T06:30:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder-1092556358000",
   "psdbUrn": "urn:dr:mu:bundle:57d7cbc7a11fa007bcfbc824",
   "psdbSlug": "regionalnyt",
@@ -71,14 +71,99 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14202506513",
+      "durationMilliseconds": 180000,
+      "categories": [],
+      "productionNumber": "14202506513",
+      "publishTime": "2025-12-17T06:30:00+01:00",
+      "startTime": "2025-12-17T06:30:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-06-30-14202506513",
+      "order": 639015498000250513,
+      "previousId": "urn:dr:radio:episode:6835a89e5f16b698305f708a",
+      "series": {
+        "title": "P4 Midt & Vest regionale nyheder",
+        "id": "urn:dr:radio:series:5fa158a0da351264f87b4fee",
+        "slug": "p4-midt-og-vest-regionale-nyheder-1092556358000",
+        "productionNumber": "1092556358000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder-1092556358000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092556358000"
+      },
+      "channel": {
+        "title": "P4 Midt & Vest",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4650",
+        "slug": "p4vest",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4vest"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:68358655df03c6aa9bc3066f/1f8fdef43999a2b00f8c5474f323d1df6e589e1ae39d0bf55a4ddde55b79c426"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14202506513",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-17T06:30:00+01:00",
+      "id": "urn:dr:radio:episode:68358655df03c6aa9bc3066f",
+      "slug": "seneste-nyt-kl-06-30-14202506513",
+      "title": "Seneste nyt kl. 06:30",
+      "description": "Hør seneste regionale nyheder fra P4 Midt & Vest.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3c92852248c98a439017f",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NeHzFfkqJ.t7kCae_NM{IUs:WBt7%MWCV@jFWqof"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3c92852248c98a439017f",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "NeHzFfkqJ.t7kCae_NM{IUs:WBt7%MWCV@jFWqof"
+        },
+        {
+          "id": "urn:dr:radio:image:6499a86ee6402b4153bee931",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpg",
+          "blurHash": "o2Iq+{SwNE?Kay-?xvoMogxcR%s;R%WUs;s=R%j]SwNExc$,ogWANENEs;oMj]oMo#NEoMogj[og"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#162C2C",
+            "#97CDD7"
+          ]
+        },
+        "colors": {
+          "dark": "#162C2C",
+          "light": "#97CDD7"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14202517512",
       "durationMilliseconds": 180024,
       "categories": [],
       "productionNumber": "14202517512",
       "publishTime": "2025-12-16T17:30:00+01:00",
       "startTime": "2025-12-16T17:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-17-30-14202517512",
       "order": 639015030000249512,
+      "nextId": "urn:dr:radio:episode:68358655df03c6aa9bc3066f",
       "previousId": "urn:dr:radio:episode:6835ac7b8602af869f7dac64",
       "series": {
         "title": "P4 Midt & Vest regionale nyheder",
@@ -160,6 +245,7 @@
       "productionNumber": "14202516512",
       "publishTime": "2025-12-16T16:30:00+01:00",
       "startTime": "2025-12-16T16:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-16-30-14202516512",
       "order": 639014994000249512,
       "nextId": "urn:dr:radio:episode:6835a89e5f16b698305f708a",
@@ -244,6 +330,7 @@
       "productionNumber": "14202515512",
       "publishTime": "2025-12-16T15:30:00+01:00",
       "startTime": "2025-12-16T15:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-15-30-14202515512",
       "order": 639014958000249512,
       "nextId": "urn:dr:radio:episode:6835ac7b8602af869f7dac64",
@@ -328,6 +415,7 @@
       "productionNumber": "14202512512",
       "publishTime": "2025-12-16T12:30:00+01:00",
       "startTime": "2025-12-16T12:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-12-30-14202512512",
       "order": 639014850000350512,
       "nextId": "urn:dr:radio:episode:68359a54b55477aa472b3166",
@@ -412,6 +500,7 @@
       "productionNumber": "14202511512",
       "publishTime": "2025-12-16T11:30:00+01:00",
       "startTime": "2025-12-16T11:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-11-30-14202511512",
       "order": 639014814000350512,
       "nextId": "urn:dr:radio:episode:68359723e17707e24dd84eda",
@@ -496,6 +585,7 @@
       "productionNumber": "14202510512",
       "publishTime": "2025-12-16T10:30:00+01:00",
       "startTime": "2025-12-16T10:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-10-30-14202510512",
       "order": 639014778000350512,
       "nextId": "urn:dr:radio:episode:68359650b55477aa472b0ee5",
@@ -580,6 +670,7 @@
       "productionNumber": "14202509512",
       "publishTime": "2025-12-16T09:30:00+01:00",
       "startTime": "2025-12-16T09:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-09-30-14202509512",
       "order": 639014742000350512,
       "nextId": "urn:dr:radio:episode:683595ef037aa47a6dd4762b",
@@ -664,6 +755,7 @@
       "productionNumber": "14202508512",
       "publishTime": "2025-12-16T08:30:00+01:00",
       "startTime": "2025-12-16T08:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-08-30-14202508512",
       "order": 639014706000350512,
       "nextId": "urn:dr:radio:episode:683594fd5f16b698305ed449",
@@ -748,6 +840,7 @@
       "productionNumber": "14202507512",
       "publishTime": "2025-12-16T07:30:00+01:00",
       "startTime": "2025-12-16T07:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-07-30-14202507512",
       "order": 639014670000350512,
       "nextId": "urn:dr:radio:episode:6835943eb55477aa472af1b0",
@@ -832,6 +925,7 @@
       "productionNumber": "14202506512",
       "publishTime": "2025-12-16T06:30:00+01:00",
       "startTime": "2025-12-16T06:30:00+01:00",
+      "endTime": "2026-03-16T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4vest/p4-midt-og-vest-regionale-nyheder/p4-midt-og-vest-regionale-nyheder/seneste-nyt-kl-06-30-14202506512",
       "order": 639014634000249512,
       "nextId": "urn:dr:radio:episode:6835872b5f16b698305e6b60",
