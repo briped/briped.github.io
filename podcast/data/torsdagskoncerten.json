@@ -17,7 +17,7 @@
   "numberOfEpisodes": 10,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-11-27T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-12-18T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -75,8 +75,87 @@
   "episodes": [
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545484",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545514",
       "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422545514",
+      "publishTime": "2025-12-18T19:20:00+01:00",
+      "startTime": "2025-12-18T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/en-salmesymfoni-12422545514",
+      "order": 639016826025051514,
+      "previousId": "urn:dr:radio:episode:681c9967a75c4b58350e1fc8",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9968a90908f76a9e7c7c/2318b88cfed9b1db381cb21b5fe2dc1793326aa18285da417a5cbc6cef81a885"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545514",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-18T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9968a90908f76a9e7c7c",
+      "slug": "en-salmesymfoni-12422545514",
+      "title": "En salmesymfoni",
+      "description": "Hør DR Symfoniorkestret spille koncert inden jul. På programmet er Beethovens 6. symfoni, der tager os med ud på landet, til rislende bække, fuglesang og et tordenbrag. Du kan også høre Stravinskijs Salmesymfoni, hvor blikket vendes indad og opad, og Brittens Simple Symphony, hvor han leger med melodier han skrev som barn. \nBritten: Simple Symphony. \nStravinskij: Salmesymfoni. \nBeethoven: Symfoni nr. 6, Pastorale. \nDR Symfoniorkestret. \nDR Koncertkoret. \nDirigent: Tugan Sokhiev.  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6930412ee92e3adf15367e24",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ojJ#m1WBI:t7R*ofxGayazbHS2s:0zkCkCWBoLWBR*ofn%WBbHNGX8WBjZW;S3j[n%f6ofbIWVof"
+        },
+        {
+          "id": "urn:dr:radio:image:6930412ee92e3adf15367e24",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ojJ#m1WBI:t7R*ofxGayazbHS2s:0zkCkCWBoLWBR*ofn%WBbHNGX8WBjZW;S3j[n%f6ofbIWVof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545484",
+      "durationMilliseconds": 9600802,
       "categories": [
         "Musik",
         "Klassisk"
@@ -86,6 +165,7 @@
       "startTime": "2025-11-27T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/brahms-og-sjostakovitj-12422545484",
       "order": 638998682025048484,
+      "nextId": "urn:dr:radio:episode:681c9968a90908f76a9e7c7c",
       "previousId": "urn:dr:radio:episode:681c9964a90908f76a9e7c58",
       "series": {
         "title": "Torsdagskoncerten",
@@ -111,7 +191,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9967a75c4b58350e1fc8/0e6afc837b31431dd61c4d1219aa35aaf5424adb9f3ee95d3c55f247d11d7082"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9967a75c4b58350e1fc8/30ce879c27a441ca923797b4646c7cff53ea106046acb9e2b6cbc16233a37255"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545484",
@@ -564,7 +644,7 @@
       "publishTime": "2025-09-25T19:20:00+02:00",
       "startTime": "2025-09-25T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/isabelle-faust-og-sibelius-rige-symfoniske-verden-12422545394",
-      "order": 638944250025039394,
+      "order": 638944178025039394,
       "nextId": "urn:dr:radio:episode:681c999eb3140b1c1f3b796e",
       "previousId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
       "series": {
@@ -643,10 +723,11 @@
       "productionNumber": "12422545364",
       "publishTime": "2025-09-04T19:20:00+02:00",
       "startTime": "2025-09-04T19:20:00+02:00",
+      "endTime": "2026-03-04T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/blomstedt-og-bruckners-9-12422545364",
       "order": 638926106025036364,
       "nextId": "urn:dr:radio:episode:681c99601720bd973dfaa9e5",
-      "previousId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
+      "previousId": "urn:dr:radio:episode:681c996bb3140b1c1f3b7831",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
@@ -714,87 +795,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545344",
-      "durationMilliseconds": 13186188,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422545344",
-      "publishTime": "2025-08-21T19:20:00+02:00",
-      "startTime": "2025-08-21T19:20:00+02:00",
-      "endTime": "2026-02-21T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
-      "order": 638914010025034344,
-      "nextId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
-      "previousId": "urn:dr:radio:episode:681c996bb3140b1c1f3b7831",
-      "series": {
-        "title": "Torsdagskoncerten",
-        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-        "slug": "torsdagskoncerten-4012849570000",
-        "productionNumber": "4012849570000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
-        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c995d1720bd973dfaa9c4/64e1f328e20b58debe9467cdcb58b9c91b90665507b13989de1956acc3d88620"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545344",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-08-21T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
-      "slug": "a-night-at-the-proms-med-luisi-og-dr-symfoniorkestret-12422545344",
-      "title": "A night at The Proms med Luisi og DR Symfoniorkestret",
-      "description": "Hør Beethovens 9. symfoni med Fabio Luisi og DR Symfoniorkestret i en direkte koncert fra \"The Proms\" i den ikoniske koncertsal Royal Albert Hall.  \nDet er en begivenhed at være inviteret til The Proms og her er alle sejl sat: Beethovens 9. Symfoni er et storværk med et humanistisk budskab om fred mellem mennesker, som desværre er lige så aktuelt i dag. Koncerten indledes med Bent Sørensens billedrige minder fra landet og storbyen i \"Evening Land\" og engelske Anna Clynes kalejdoskop over tidens gang i korværket \"The Years\".  \nBent Sørensen: Evening Land. \nAnna Clyne: The Years.   \nLudwig van Beethoven: Symfoni nr. 9.  \nMedvirkende: \nClara Cecilie Thomsen, sopran. \nJasmin White, kontraalt.  \nIssachah Savage, tenor. \nAdam Palka, bas. \nDR Koncertkoret. \nDR Symfoniorkestret. \nDirigent: Fabio Luisi.  \n( - direkte fra Royal Albert Hall). \nVært: Celine Haastrup.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68a6f942a4542a14a453a932",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oPI3qCIn=yWCS$s:.AM{XTWBkCflGvRiOEbHjFW=={WBwIoeV@ofF2j?M{ofjEoLRibHRiofWUfQ"
-        },
-        {
-          "id": "urn:dr:radio:image:68a6f942a4542a14a453a932",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oPI3qCIn=yWCS$s:.AM{XTWBkCflGvRiOEbHjFW=={WBwIoeV@ofF2j?M{ofjEoLRibHRiofWUfQ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#0F2233",
-            "#75ACFE"
-          ]
-        },
-        "colors": {
-          "dark": "#0F2233",
-          "light": "#75ACFE"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422545324",
       "durationMilliseconds": 10800234,
       "categories": [
@@ -807,7 +807,7 @@
       "endTime": "2026-02-07T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/100-aar-for-tango-jalousie-12422545324",
       "order": 638901914025032324,
-      "nextId": "urn:dr:radio:episode:681c995d1720bd973dfaa9c4",
+      "nextId": "urn:dr:radio:episode:681c995fa90908f76a9e7c22",
       "series": {
         "title": "Torsdagskoncerten",
         "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
