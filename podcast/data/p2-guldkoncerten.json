@@ -17,7 +17,7 @@
   "numberOfEpisodes": 22,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-11-30T19:20:00+01:00",
+  "latestEpisodeStartTime": "2025-12-21T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
   "psdbUrn": "urn:dr:mu:bundle:58653c7ba11f9f1504d1ccca",
   "psdbSlug": "p2-guldkoncerten-p2d",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554517",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422554517",
+      "publishTime": "2025-12-21T19:20:00+01:00",
+      "startTime": "2025-12-21T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/jul-med-herbert-blomstedt-og-teddy-petersen-12422554517",
+      "order": 639019418025051517,
+      "previousId": "urn:dr:radio:episode:681c9c69c56338368d768bb7",
+      "series": {
+        "title": "P2 Guldkoncerten",
+        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
+        "slug": "p2-guldkoncerten-1206952410000",
+        "productionNumber": "1206952410000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
+        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9c6ac56338368d768bcf/a0381ae2f9239f3f9d53a5f07d6ac040301a69fbf77f49e523533ef8ddb39045"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554517",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-21T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9c6ac56338368d768bcf",
+      "slug": "jul-med-herbert-blomstedt-og-teddy-petersen-12422554517",
+      "title": "Jul med Herbert Blomstedt - og Teddy Petersen",
+      "description": "DR Symfoniorkestrets æresdirigent Herbert Blomstedt stod i 1974 for en sjælden julekoncert i Radiohusets Koncertsal - en type koncert, han ellers normalt ikke tog sig af. Blomstedt dirigerede juleværker af J.S. Bach og Arthur Honegger, og derimellem sang Radiokammerkoret engelske julesange under ledelse af kordirigenten John Alldis.\nBagefter kan du høre julemusik med DR Underholdningsorkestret, dirigeret af den populære veteran Teddy Petersen. Optagelsen fra 1971 var i mange år en fast del af radioens program på Juleaftensdag. Efter mange års pause vender den nu tilbage her i P2 Guldkoncerten. \nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69304727506742f16ca87178",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o5B:vz00%May%MRj%MRjD%M{t7%M00IURjM{j[tQayxuxu%MxuIU9FWB?b4nD%t7-;WBRj%Mxuj["
+        },
+        {
+          "id": "urn:dr:radio:image:69304727506742f16ca87178",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o5B:vz00%May%MRj%MRjD%M{t7%M00IURjM{j[tQayxuxu%MxuIU9FWB?b4nD%t7-;WBRj%Mxuj["
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#412001",
+            "#FA9F20"
+          ]
+        },
+        "colors": {
+          "dark": "#412001",
+          "light": "#FA9F20"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422554487",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2025-11-30T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/christa-ludwigs-farvel-12422554487",
       "order": 639001274025048487,
+      "nextId": "urn:dr:radio:episode:681c9c6ac56338368d768bcf",
       "previousId": "urn:dr:radio:episode:681c9c692b77f3385e308efb",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -563,6 +643,7 @@
       "productionNumber": "12422554377",
       "publishTime": "2025-09-14T19:20:00+02:00",
       "startTime": "2025-09-14T19:20:00+02:00",
+      "endTime": "2026-03-14T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-comala-og-katchen-12422554377",
       "order": 638934746025037377,
       "nextId": "urn:dr:radio:episode:681c9c682b77f3385e308ee7",
@@ -971,7 +1052,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/alfred-brendel-in-memoriam-12422554267",
       "order": 638868218025026267,
       "nextId": "urn:dr:radio:episode:681c9c662b77f3385e308eca",
-      "previousId": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
+      "previousId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
       "series": {
         "title": "P2 Guldkoncerten",
         "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
@@ -1039,100 +1120,18 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422554247",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422554147",
       "durationMilliseconds": 9603500,
       "categories": [
         "Musik",
         "Klassisk"
       ],
-      "productionNumber": "12422554247",
-      "publishTime": "2025-06-15T19:20:00+02:00",
-      "startTime": "2025-06-15T19:20:00+02:00",
-      "endTime": "2025-12-15T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/sidste-aften-med-horowitz-12422554247",
-      "order": 638856122025024247,
+      "productionNumber": "12422554147",
+      "publishTime": "2025-12-07T19:20:00+01:00",
+      "startTime": "2025-04-06T19:20:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-dr-s-jubilaeumskoncert-1975-12422554147",
+      "order": 638795570025014147,
       "nextId": "urn:dr:radio:episode:68271d237b626ea9bb0e422a",
-      "previousId": "urn:dr:radio:episode:681a063f005cc6aa547be671",
-      "series": {
-        "title": "P2 Guldkoncerten",
-        "id": "urn:dr:radio:series:5fa15be4da351264f87b614d",
-        "slug": "p2-guldkoncerten-1206952410000",
-        "productionNumber": "1206952410000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten-1206952410000",
-        "learnId": "urn:dr:ocs:audio:content:series:1206952410000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a07fff57e0225791e97a3/f13e6c6bf2d0e87bcfb106d6f82d0b70456c1686757c6adab58095c93103fcf2"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554247",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-06-15T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
-      "slug": "sidste-aften-med-horowitz-12422554247",
-      "title": "Sidste aften med Horowitz",
-      "description": "Ved en koncert i Hamborg, sommeren 1987, spillede den legendariske pianist Vladimir Horowitz for sidste gang for sit beundrende publikum. Han var da 83 år og i fineste form - ingen vidste, at denne sidste koncert på hans Europaturné ville blive hans sidste overhovedet. Horowitz døde først to et halvt år senere. \nFørst et par årtier senere blev denne optagelse af hans sidste koncert offentliggjort. \nMozart: Rondo, D-dur og Klaversonate, B-dur. \nLiszt: Valse-caprice nr. 6. \nSchumann: Kinderszenen. \t\nChopin: Mazurka, h-mol og Polonaise, As-Vladimir Horowitz, klaver. \n(Koncert i Laeiszhalle, Hamborg, 21. juli 1987). \nVært: Louise Hjorth.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:684ae4996544fa2dfc46b048",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oZB.+Jof0gRj={t6xZayRkofoeWBIqWV$%oeWWayNHfQt6ayafoeR*j[s:WWR*jsafoLoeWVWCfP"
-        },
-        {
-          "id": "urn:dr:radio:image:684ae4996544fa2dfc46b048",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oZB.+Jof0gRj={t6xZayRkofoeWBIqWV$%oeWWayNHfQt6ayafoeR*j[s:WWR*jsafoLoeWVWCfP"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#412001",
-            "#FA9F20"
-          ]
-        },
-        "colors": {
-          "dark": "#412001",
-          "light": "#FA9F20"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422554227",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422554227",
-      "publishTime": "2025-06-01T19:20:00+02:00",
-      "startTime": "2025-06-01T19:20:00+02:00",
-      "endTime": "2025-12-01T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/dr-symfoniorkestret-100-aar-mahlers-opstandelsessymfoni-12422554227",
-      "order": 638844026025022227,
-      "nextId": "urn:dr:radio:episode:681a07fff57e0225791e97a3",
       "previousId": "urn:dr:radio:episode:67c8da723c672e012fe452d6",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -1158,32 +1157,32 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681a063f005cc6aa547be671/e120d59968cbe301e2a627430bd59c0558e7b33246d492fc6e056ce4e5dd9ec5"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:67e4883a52248c98a43e1c73/42a0fbbe02bb125d405c7176025021f67455007787c77a30e0e0469cf6bc42bd"
         }
       ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554227",
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422554147",
       "isAvailableOnDemand": true,
       "hasVideo": false,
       "explicitContent": false,
-      "latestPublishTime": "2025-06-01T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:681a063f005cc6aa547be671",
-      "slug": "dr-symfoniorkestret-100-aar-mahlers-opstandelsessymfoni-12422554227",
-      "title": "DR Symfoniorkestret 100 år: Mahlers Opstandelsessymfoni",
-      "description": "I 1960'erne var det stadig sjældent, man opførte Gustav Mahlers store, senromantiske symfonier i Danmark. Men i 1966 gør DR Symfoniorkestret en undtagelse, da de spiller Mahlers Symfoni nr. 2, \"Opstandelsessymfonien\" under ledelse af den tyske dirigent Leopold Ludwig. Koncerten begyndte meget utraditionelt med to satser fra Rued Langgaards kæmpemæssige orgelværk Messis, hvormed der blev gjort et forsøg på at rehabilitere både senromantikken og de to hidtil uglesete komponister. \nRued Langgaard: Uddrag af Messis. \nGustav Mahler: Symfoni nr. 2. Opstandelsessymfonien. \nFinn Reiff, orgel. \nBonna Søndberg, sopran; Gurli Plesner, alt. \nDR Radiokoret & DR Symfoniorkestret. \nDirigent: Leopold Ludwig. \n(Koncert i Radiohusets Koncertsal, 13. oktober 1966). \nVært: Esben Tange.",
+      "latestPublishTime": "2025-12-07T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
+      "slug": "dr-symfoniorkestret-100-aar-dr-s-jubilaeumskoncert-1975-12422554147",
+      "title": "DR Symfoniorkestret 100 år: DR's jubilæumskoncert 1975",
+      "description": "I 1975 kunne DR fejre sit 50-års jubilæum, og i den anledning blev der afholdt en stor festkoncert med overvejende dansk musik, bl.a. af Carl Nielsen og Finn Høffding. Alle DR's ensembler var på scenen sammen med tre dirigenter og flere kendte solister. I denne udgave af Guldkoncerten kan man for første gang siden 1975 høre hele 50-års jubilæumskoncerten. Medvirkende bl.a.: violinist Henryk Szeryng, saxofonist Jesper Thilo, sopran Tove Hyldgård, dirigenterne Herbert Blomstedt, Finn Savery og Mogens Wöldike samt DR Symfoniorkestret, DR Big Band, DR Underholdningsorkestret, DR Radiokoret, DR Pigekoret & Zahles Skoles drengekor.(Koncert i Radiohusets Koncertsal, 3. april 1975).\nVært: Esben Tange.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:68387341b55477aa473e54b2",
+          "id": "urn:dr:radio:image:67efa89740737fa5401612b0",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o584i6~q4n00M{-;%MRjD%D%t7%MD%j[ayof-;xuM{Rjt7%MofM{oyWBxuay9FIUj[t7ayRjofWB"
+          "blurHash": "o47Kk{_3D%4n4.j@%Mf7%Mt8IUE1~W%MM{IUs:xu9YD%%2?H%Ms:E0IUWBof%M%MIUWBt7xuj]ay"
         },
         {
-          "id": "urn:dr:radio:image:68387341b55477aa473e54b2",
+          "id": "urn:dr:radio:image:67efa89740737fa5401612b0",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "o584i6~q4n00M{-;%MRjD%D%t7%MD%j[ayof-;xuM{Rjt7%MofM{oyWBxuay9FIUj[t7ayRjofWB"
+          "blurHash": "o47Kk{_3D%4n4.j@%Mf7%Mt8IUE1~W%MM{IUs:xu9YD%%2?H%Ms:E0IUWBof%M%MIUWBt7xuj]ay"
         }
       ],
       "visualIdentity": {
@@ -1212,7 +1211,7 @@
       "startTime": "2025-03-16T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/maxim-vengerov-i-tivoli-12422554117",
       "order": 638777462025011117,
-      "nextId": "urn:dr:radio:episode:681a063f005cc6aa547be671",
+      "nextId": "urn:dr:radio:episode:67e4883a52248c98a43e1c73",
       "previousId": "urn:dr:radio:episode:67b66560ff5c53172ffa8ca8",
       "series": {
         "title": "P2 Guldkoncerten",
@@ -1530,6 +1529,7 @@
       "productionNumber": "12422554037",
       "publishTime": "2025-09-07T19:20:00+02:00",
       "startTime": "2025-01-19T19:20:00+01:00",
+      "endTime": "2026-03-07T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/john-frandsen-og-isabelle-van-keulen-12422554037",
       "order": 638729114025003037,
       "nextId": "urn:dr:radio:episode:67917989ec59142e673121bf",
@@ -1610,6 +1610,7 @@
       "productionNumber": "12422554017",
       "publishTime": "2025-08-31T19:20:00+02:00",
       "startTime": "2025-01-05T19:20:00+01:00",
+      "endTime": "2026-02-28T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-guldkoncerten/p2-guldkoncerten-2025/celibidache-dirigerer-verdis-requiem-12422554017",
       "order": 638717018025001017,
       "nextId": "urn:dr:radio:episode:677f058781654c75b603f28b",
