@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 21,
+  "numberOfEpisodes": 22,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-22T06:05:00+01:00",
+  "latestEpisodeStartTime": "2025-12-23T06:05:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen-758661407000",
   "psdbUrn": "urn:dr:mu:bundle:57d7bb206187a40ef4069a46",
   "psdbSlug": "p2-morgenmusik",
@@ -75,6 +75,93 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422538522",
+      "durationMilliseconds": 6000495,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422538522",
+      "publishTime": "2025-12-23T06:05:00+01:00",
+      "startTime": "2025-12-23T06:05:00+01:00",
+      "endTime": "2026-01-21T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/tirsdag-23-december-2025-12422538522",
+      "order": 639020667000255522,
+      "previousId": "urn:dr:radio:episode:681c7249923dffbb19763d73",
+      "series": {
+        "title": "Klassisk morgen",
+        "id": "urn:dr:radio:series:5fa2651a330eac2f135b82e3",
+        "slug": "klassisk-morgen-758661407000",
+        "productionNumber": "758661407000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen-758661407000",
+        "learnId": "urn:dr:ocs:audio:content:series:758661407000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c7283923dffbb19763f41/ae9bf2d85fb7290c31933237294bd53a97703e91903122a09b3d4269e0a0d88a"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422538522",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-23T06:05:00+01:00",
+      "id": "urn:dr:radio:episode:681c7283923dffbb19763f41",
+      "slug": "tirsdag-23-december-2025-12422538522",
+      "title": "Tirsdag 23. december 2025",
+      "description": "Drømmer du om en morgenblid begyndelse, så står P2 parat. Vi vækker dig med lyden af den klassiske musik, al det skønne, og vi garanterer en rolig start på dagen med masser af musikalsk medvind.\nVært: Tina Rømer.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68c021bd1e226ed5abeb5277",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NaIXNrNHERxZaeW=*0NdNeoKaej]15NHxCa#WWoe"
+        },
+        {
+          "id": "urn:dr:radio:image:68c021bd1e226ed5abeb5278",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oXJjuF=sM|X9M|of?wxCR*kCWVoe1PI?WVockCbH0gW=oejYofayIps:oeafn%ae?GWVWVayjFjs"
+        },
+        {
+          "id": "urn:dr:radio:image:68c021bd1e226ed5abeb5278",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oXJjuF=sM|X9M|of?wxCR*kCWVoe1PI?WVockCbH0gW=oejYofayIps:oeafn%ae?GWVWVayjFjs"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3B2506",
+            "#F4BD89"
+          ]
+        },
+        "colors": {
+          "dark": "#3B2506",
+          "light": "#F4BD89"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422538521",
       "durationMilliseconds": 6000911,
       "categories": [
@@ -87,6 +174,7 @@
       "endTime": "2026-01-20T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/klassisk-morgen/klassisk-morgen/mandag-22-december-2025-12422538521",
       "order": 639019803000254521,
+      "nextId": "urn:dr:radio:episode:681c7283923dffbb19763f41",
       "previousId": "urn:dr:radio:episode:681c7242923dffbb19763ca3",
       "series": {
         "title": "Klassisk morgen",
