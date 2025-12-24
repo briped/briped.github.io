@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 161,
+  "numberOfEpisodes": 162,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-24T12:15:00+01:00",
+  "latestEpisodeStartTime": "2025-12-24T14:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543623",
+      "durationMilliseconds": 7022726,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543623",
+      "publishTime": "2025-12-24T14:03:00+01:00",
+      "startTime": "2025-12-24T14:03:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/dr-pigekorets-jul-12422543623",
+      "order": 639021819825244623,
+      "previousId": "urn:dr:radio:episode:691b0c7da90450d1bd54c540",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:691b0c880f451c13cb59adab/ee69f77f73e476c08174bcca41cffebe1d4b5874857b8115d24fdb5f36b1cfeb"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543623",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-24T14:03:00+01:00",
+      "id": "urn:dr:radio:episode:691b0c880f451c13cb59adab",
+      "slug": "dr-pigekorets-jul-12422543623",
+      "title": "DR Pigekorets jul",
+      "description": "Hør en stemningsfuld koncert, hvor tradition møder nutid. Barnets jul er i centrum, når DR Pigekoret byder indenfor sammen med DR Børnekoret, DR Juniorkoret og musikalske gæster på bl.a. harpe og kontrabas. Musik/tekster af Benjamin Britten, Grundtvig, Ingemann, Guldimund, Rasmus Seebach m.fl. Dirigenter: Charlotte Rowan og Susanne Wendt. \n(Koncerthuset 14. december).  \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6940076f695fcbe0faff8a4c",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oh9$0=WUNYxAS4a*W{oJs8sjjrNfstbIWVn$oHf6WaspspWZoLoLWZoIoMW?oLj]jYWTbEj^ayoK"
+        },
+        {
+          "id": "urn:dr:radio:image:6940076f695fcbe0faff8a4c",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oh9$0=WUNYxAS4a*W{oJs8sjjrNfstbIWVn$oHf6WaspspWZoLoLWZoIoMW?oLj]jYWTbEj^ayoK"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543622",
       "durationMilliseconds": 6301548,
       "categories": [
@@ -87,6 +166,7 @@
       "startTime": "2025-12-24T12:15:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/santa-claus-og-alle-de-andre-12422543622",
       "order": 639021755025243622,
+      "nextId": "urn:dr:radio:episode:691b0c880f451c13cb59adab",
       "previousId": "urn:dr:radio:episode:691b0c74a90450d1bd54c4f3",
       "series": {
         "title": "P2 Koncerten",
