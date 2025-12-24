@@ -17,7 +17,7 @@
   "numberOfEpisodes": 161,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-23T14:03:00+01:00",
+  "latestEpisodeStartTime": "2025-12-24T12:15:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543622",
+      "durationMilliseconds": 6301548,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543622",
+      "publishTime": "2025-12-24T12:15:00+01:00",
+      "startTime": "2025-12-24T12:15:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/santa-claus-og-alle-de-andre-12422543622",
+      "order": 639021755025243622,
+      "previousId": "urn:dr:radio:episode:691b0c74a90450d1bd54c4f3",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:691b0c7da90450d1bd54c540/c722d59a7510d81809ff0f07ae6cab6e0626a39fb36f1bbe40141442bbf7d9ca"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543622",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-24T12:15:00+01:00",
+      "id": "urn:dr:radio:episode:691b0c7da90450d1bd54c540",
+      "slug": "santa-claus-og-alle-de-andre-12422543622",
+      "title": "Santa Claus og alle de andre",
+      "description": "Så er det lige om lidt - og vi varmer op med en julekoncert med kendte klassikere som Santa Claus is coming to town, White Christmas og uddrag fra Nøddeknækkeren. Frem med julegodterne! \nBen Stümke, trompet. \nGeorge Warren, orgel.  \nKöln Radiosymfoniorkester. \nDirigent: Johannes Witt. \n(Bismarcksalen, Köln 20. december 2024).  \nVært: Charlotte Norholt.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6930478283478af0355a1b12",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oPCX^aNHFpWJxcsu%7Ik$,R:SzjcxMnnt8R$bHjaSQxKbKR#f,oMs-sQI-sloIS0W[jXR$jpW9WC"
+        },
+        {
+          "id": "urn:dr:radio:image:6930478283478af0355a1b12",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oPCX^aNHFpWJxcsu%7Ik$,R:SzjcxMnnt8R$bHjaSQxKbKR#f,oMs-sQI-sloIS0W[jXR$jpW9WC"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543621",
       "durationMilliseconds": 7023811,
       "categories": [
@@ -87,6 +166,7 @@
       "startTime": "2025-12-23T14:03:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/jul-med-dr-vokalensemblet-12422543621",
       "order": 639020955825242621,
+      "nextId": "urn:dr:radio:episode:691b0c7da90450d1bd54c540",
       "previousId": "urn:dr:radio:episode:681c99562b77f3385e307b84",
       "series": {
         "title": "P2 Koncerten",
@@ -406,9 +486,9 @@
       "productionNumber": "12422543511",
       "publishTime": "2025-12-15T19:20:00+01:00",
       "startTime": "2025-12-15T19:20:00+01:00",
-      "endTime": "2026-01-13T23:59:00+01:00",
+      "endTime": "2026-02-01T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/konstantin-krimmels-rejsesange-12422543511",
-      "order": 639014234025213511,
+      "order": 639014198025213511,
       "nextId": "urn:dr:radio:episode:681c9968b3140b1c1f3b781d",
       "previousId": "urn:dr:radio:episode:681c99682b77f3385e307c34",
       "series": {
@@ -12127,7 +12207,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/handels-messias-med-mogens-dahls-kammerkor-12422443521",
       "order": 638705750024329521,
       "nextId": "urn:dr:radio:episode:675cbd934117f084681f829a",
-      "previousId": "urn:dr:radio:episode:675b6c71472b8ebe1e729430",
+      "previousId": "urn:dr:radio:episode:675b6c714268a8bf7444df90",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12195,87 +12275,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422443603",
-      "durationMilliseconds": 7020000,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422443603",
-      "publishTime": "2024-12-23T14:03:00+01:00",
-      "startTime": "2024-12-23T14:03:00+01:00",
-      "endTime": "2025-12-23T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/jul-med-dr-vokalensemblet-12422443603",
-      "order": 638705595824352603,
-      "nextId": "urn:dr:radio:episode:675b6c724268a8bf7444df98",
-      "previousId": "urn:dr:radio:episode:675b6c714268a8bf7444df90",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:675b6c71472b8ebe1e729430/c539f5daf3aec1910b04bbb3b1ebf82a376c909787e59dc6baa3ef7d1d6ee835"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422443603",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2024-12-23T14:03:00+01:00",
-      "id": "urn:dr:radio:episode:675b6c71472b8ebe1e729430",
-      "slug": "jul-med-dr-vokalensemblet-12422443603",
-      "title": "Jul med DR Vokalensemblet",
-      "description": "Ingen jul uden DR Vokalensemblets julekoncert. I år er den fuld af sprød julemusik fra England og Frankrig tilsat harpe og orgel. Og selvfølgelig bliver det også til en fællessang. Musik af bl.a. Francis Grier, Britten, Poulenc og Pierre Villette. \nZachary Hatcher, harpe. \nSøren Christian Vestergård, orgel. \nDR Vokalensemblet. \nDirigent: Martina Batic. \n(Garnisonskirken, København, 15. december). \nVært: Celine Haastrup.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:692d9065f813fbba908fdc4d",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oGC#Yl0%Ez^4WXAD}?NINaxZEOk9JU$j$gE%Eg-9I=-A$iJ8NbaysCxFWVR*S2S3I@$$n%NHS2a#"
-        },
-        {
-          "id": "urn:dr:radio:image:692d9065f813fbba908fdc4d",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oGC#Yl0%Ez^4WXAD}?NINaxZEOk9JU$j$gE%Eg-9I=-A$iJ8NbaysCxFWVR*S2S3I@$$n%NHS2a#"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443600",
       "durationMilliseconds": 6303500,
       "categories": [
@@ -12287,7 +12286,7 @@
       "startTime": "2024-12-23T12:15:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/fra-alle-os-til-alle-jer-disney-i-100-aar-12422443600",
       "order": 638705495024349600,
-      "nextId": "urn:dr:radio:episode:675b6c71472b8ebe1e729430",
+      "nextId": "urn:dr:radio:episode:675b6c724268a8bf7444df98",
       "previousId": "urn:dr:radio:episode:6748f82c3060dc9ab8e8b49c",
       "series": {
         "title": "P2 Koncerten",
