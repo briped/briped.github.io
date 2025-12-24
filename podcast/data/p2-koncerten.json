@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 162,
+  "numberOfEpisodes": 163,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2025-12-24T14:03:00+01:00",
+  "latestEpisodeStartTime": "2025-12-24T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422543523",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422543523",
+      "publishTime": "2025-12-24T19:20:00+01:00",
+      "startTime": "2025-12-24T19:20:00+01:00",
+      "endTime": "2026-01-22T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/petite-messe-solennelle-fra-la-scala-12422543523",
+      "order": 639022010025219523,
+      "previousId": "urn:dr:radio:episode:691b0c880f451c13cb59adab",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9969a95582916ea8d004/053917259b1b81ce1da7f337fe837c32936240aa1a7f1df745b61bb1b3755ba9"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543523",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2025-12-24T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:681c9969a95582916ea8d004",
+      "slug": "petite-messe-solennelle-fra-la-scala-12422543523",
+      "title": "Petite messe solennelle fra La Scala",
+      "description": "Charles Gounods messe til musikkens skytshelgen Skt. Cecilie er egentlig ikke et juleværk. Men Messe solennelle de Sainte-Cécile er religiøs - så det er ikke helt skævt når den bliver spillet op mod jul (sådan er det jo egentlig også med Händels Messias, som oprindeligt blev skrevet til påsken). Her får du den i en flot version fra La Scala, sammen med ballet musik af Francis Poulenc:\nFrancis Poulenc: Les Animaux modèles, suite for orkester.\nCharles Gounod: Messe solennelle de Sainte-Cécile.\nKrassimira Stoyanova, sopran.\nJulien Behr, tenor.\nMarkus Eiche, baryton.\nScala Operaens Kor og Orkester.\nDirigent: Lorenzo Viotti. \n(La Scala 20. december).\nVært: Esben Tange.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:693047dde92e3adf1536be15",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofGHPS~BI:E2NGR*0fIosos:j[f6NGNGs:t7j[ofoft6WVs:xaayt7WVjZWBRkj@R*oeWVR*WVay"
+        },
+        {
+          "id": "urn:dr:radio:image:693047dde92e3adf1536be15",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "ofGHPS~BI:E2NGR*0fIosos:j[f6NGNGs:t7j[ofoft6WVs:xaayt7WVjZWBRkj@R*oeWVR*WVay"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543623",
       "durationMilliseconds": 7022726,
       "categories": [
@@ -87,6 +167,7 @@
       "startTime": "2025-12-24T14:03:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/dr-pigekorets-jul-12422543623",
       "order": 639021819825244623,
+      "nextId": "urn:dr:radio:episode:681c9969a95582916ea8d004",
       "previousId": "urn:dr:radio:episode:691b0c7da90450d1bd54c540",
       "series": {
         "title": "P2 Koncerten",
