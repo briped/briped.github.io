@@ -14,12 +14,14 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 0,
+  "numberOfEpisodes": 1,
   "presentationType": "Ongoing",
   "groupingType": "None",
+  "latestEpisodeStartTime": "2026-01-01T16:03:00+01:00",
+  "presentationUrl": "https://www.dr.dk/lyd/p2/helt-klassisk-med-lotte-heise-1190727809000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1190727809000",
   "productionNumber": "1190727809000",
-  "isAvailableOnDemand": false,
+  "isAvailableOnDemand": true,
   "hasVideo": false,
   "explicitContent": false,
   "defaultOrder": "Desc",
@@ -46,6 +48,14 @@
     },
     {
       "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c2f",
+      "target": "Podcast",
+      "ratio": "1:1",
+      "format": "image/jpeg",
+      "blurHash": "ofFq?#~CxuM}M~RlIoIpt7t7RkNGxuofRjV@WBazoej[bbbIj[oeRkIpWBn%jua#xtofkBfiayj[",
+      "uri": "https://asset.dr.dk/imagescaler/?protocol=https&server=api.dr.dk&file=%2Fradio%2Fv2%2Fimages%2Fraw%2Furn%3Adr%3Aradio%3Aimage%3A67ef06aef15fbe15e5873c2f&scaleAfter=crop&quality=70&w=720&h=720"
+    },
+    {
+      "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c2f",
       "target": "Default",
       "ratio": "1:1",
       "format": "image/jpeg",
@@ -57,15 +67,152 @@
     "gradient": {
       "colors": [
         "#2B1627",
-        "#E3B995"
+        "#EAC3A4"
       ]
     },
     "colors": {
       "dark": "#2B1627",
-      "light": "#E3B995"
+      "light": "#EAC3A4"
     }
   },
   "sSlug": "helt-klassisk-med-lotte-heise",
   "rssUri": "https://xmpl.dk/podcast/helt-klassisk-med-lotte-heise.xml",
-  "episodes": null
+  "episodes": {
+    "type": "Episode",
+    "learnId": "urn:dr:ocs:audio:content:playable:12422659014",
+    "durationMilliseconds": 6960000,
+    "categories": [
+      "Musik",
+      "Klassisk"
+    ],
+    "productionNumber": "12422659014",
+    "publishTime": "2026-01-01T16:03:00+01:00",
+    "startTime": "2026-01-01T16:03:00+01:00",
+    "endTime": "2026-01-30T23:59:00+01:00",
+    "presentationUrl": "https://www.dr.dk/lyd/p2/helt-klassisk-med-lotte-heise/helt-klassisk-med-lotte-heise-2026/torsdag-1-januar-2026-12422659014",
+    "order": 639028803826001014,
+    "series": {
+      "title": "Helt Klassisk - med Lotte Heise",
+      "id": "urn:dr:radio:series:5fa159fdda351264f87b56b4",
+      "slug": "helt-klassisk-med-lotte-heise-1190727809000",
+      "productionNumber": "1190727809000",
+      "type": "Series",
+      "isAvailableOnDemand": true,
+      "presentationUrl": "https://www.dr.dk/lyd/p2/helt-klassisk-med-lotte-heise-1190727809000",
+      "learnId": "urn:dr:ocs:audio:content:series:1190727809000"
+    },
+    "channel": {
+      "title": "P2",
+      "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+      "slug": "p2",
+      "type": "Channel",
+      "presentationUrl": "https://www.dr.dk/lyd/p2"
+    },
+    "audioAssets": [
+      {
+        "type": "Audio",
+        "target": "Progressive",
+        "isStreamLive": false,
+        "format": "mp4",
+        "bitrate": 64,
+        "fileSize": 56987623,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/4ddd4bc1c2c9bd3b9c6d4a076ffc2969c85200cf33a3d4ddeda4428a9e6bcb98"
+      },
+      {
+        "type": "Audio",
+        "target": "Progressive",
+        "isStreamLive": false,
+        "format": "mp4",
+        "bitrate": 192,
+        "fileSize": 168349040,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/bee58072421a9f7a3ccfe90cfb1a9932c985ef8bd0d9725878109f89396e3685"
+      },
+      {
+        "type": "Audio",
+        "target": "Progressive",
+        "isStreamLive": false,
+        "format": "mp4",
+        "bitrate": 256,
+        "fileSize": 224029616,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/1f25a8dd2725120d4015daf3e8086c4c53e4eb792163342bd12a10e6a58904bc"
+      },
+      {
+        "type": "Audio",
+        "target": "Progressive",
+        "isStreamLive": false,
+        "format": "mp3",
+        "bitrate": 64,
+        "fileSize": 55680704,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/e6b04f9d7454f1123dba59fe2c1da813d29237d6021fc9d5c68ffe96595e3eef"
+      },
+      {
+        "type": "Audio",
+        "target": "Progressive",
+        "isStreamLive": false,
+        "format": "mp3",
+        "bitrate": 192,
+        "fileSize": 167041472,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/1c86de379f0e616e7707741efdae1c037d3612a72d86534519e2aa20e16bac8f"
+      },
+      {
+        "type": "Audio",
+        "target": "Stream",
+        "isStreamLive": false,
+        "format": "HLS",
+        "bitrate": 0,
+        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b4a00af5ce9656431a064/385458f95c30838e48abc5395bb80d08015b4b05f3bcb43d5fdcf0f78bf4e76a"
+      }
+    ],
+    "ocsUrn": "urn:dr:ocs:audio:content:playable:12422659014",
+    "isAvailableOnDemand": true,
+    "hasVideo": false,
+    "explicitContent": false,
+    "latestPublishTime": "2026-01-01T16:03:00+01:00",
+    "id": "urn:dr:radio:episode:693b4a00af5ce9656431a064",
+    "slug": "torsdag-1-januar-2026-12422659014",
+    "title": "Torsdag 1. januar 2026",
+    "description": "Lyt med når Lotte boltrer sig i den klassiske musik, som hun har lyttet til siden før hun blev født!\nVært: Lotte Heise.",
+    "imageAssets": [
+      {
+        "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c30",
+        "target": "Default",
+        "ratio": "16:9",
+        "format": "image/jpeg",
+        "blurHash": "NUE2C8~C%3IsIXIWIoM|n%n$M|M|xu%2R+Wqoft7"
+      },
+      {
+        "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c2f",
+        "target": "SquareImage",
+        "ratio": "1:1",
+        "format": "image/jpeg",
+        "blurHash": "ofFq?#~CxuM}M~RlIoIpt7t7RkNGxuofRjV@WBazoej[bbbIj[oeRkIpWBn%jua#xtofkBfiayj["
+      },
+      {
+        "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c2f",
+        "target": "Podcast",
+        "ratio": "1:1",
+        "format": "image/jpeg",
+        "blurHash": "ofFq?#~CxuM}M~RlIoIpt7t7RkNGxuofRjV@WBazoej[bbbIj[oeRkIpWBn%jua#xtofkBfiayj["
+      },
+      {
+        "id": "urn:dr:radio:image:67ef06aef15fbe15e5873c2f",
+        "target": "Default",
+        "ratio": "1:1",
+        "format": "image/jpeg",
+        "blurHash": "ofFq?#~CxuM}M~RlIoIpt7t7RkNGxuofRjV@WBazoej[bbbIj[oeRkIpWBn%jua#xtofkBfiayj["
+      }
+    ],
+    "visualIdentity": {
+      "gradient": {
+        "colors": [
+          "#2B1627",
+          "#EAC3A4"
+        ]
+      },
+      "colors": {
+        "dark": "#2B1627",
+        "light": "#EAC3A4"
+      }
+    }
+  }
 }
