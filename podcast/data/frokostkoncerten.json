@@ -17,7 +17,7 @@
   "numberOfEpisodes": 17,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-02T13:03:00+01:00",
+  "latestEpisodeStartTime": "2026-01-05T13:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten-5131861257000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:5131861257000",
   "productionNumber": "5131861257000",
@@ -81,6 +81,100 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422635021",
+      "durationMilliseconds": 3421026,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422635021",
+      "publishTime": "2026-01-05T13:03:00+01:00",
+      "startTime": "2026-01-05T13:03:00+01:00",
+      "endTime": "2026-02-03T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten/frokostkoncerten-2026/nytaarskoncert-fra-budapest-12422635021",
+      "order": 639032151826003021,
+      "previousId": "urn:dr:radio:episode:693b2bb3ab13616ad97b9dec",
+      "series": {
+        "title": "Frokostkoncerten",
+        "id": "urn:dr:radio:series:658e00ce4b5108079847cbc3",
+        "slug": "frokostkoncerten-5131861257000",
+        "productionNumber": "5131861257000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten-5131861257000",
+        "learnId": "urn:dr:ocs:audio:content:series:5131861257000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2bb3ab13616ad97b9de0/e0b40658fe76901d6720947244d1b9b20798e8e8aa456c5cac1cebfef904f704"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422635021",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-05T13:03:00+01:00",
+      "id": "urn:dr:radio:episode:693b2bb3ab13616ad97b9de0",
+      "slug": "nytaarskoncert-fra-budapest-12422635021",
+      "title": "Nytårskoncert fra Budapest",
+      "description": "Det Ungarske Radiosymfoniorkester spiller en festlig nytårskoncert på Franz Liszt Akademiet i Budapest med musik af Verdi, Brahms, Lehár, Bellini, Grieg, Erkel, Liszt, Sjostakovitj og Bizet, dirigeret af Domonkos Héja. Fra den 1. januar 2025. \nVært: Magnus Larsson.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68bfddd2703bf171484380b5",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "N7PrwgEv@-]TD%x^~WITxva0Swo#=#sn9sIUxa%M"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfddd2703bf171484380b6",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o8PPJ?KO}Iv$-Xab-VWFrsV?o#Z~}vtQ9ZM{W-ah%4W8kWogaJtS8yIA-;%gInxv-qWUR*t7RjR*"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3ed0152248c98a43a171d",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "osLDMv0Js;%3R:IoniWCjbWBa~WBRkWXs.xFs.ays:oIjua~aej[fSWBayofocs:j]WBayoffPaz"
+        },
+        {
+          "id": "urn:dr:radio:image:68bfddd2703bf171484380b6",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o8PPJ?KO}Iv$-Xab-VWFrsV?o#Z~}vtQ9ZM{W-ah%4W8kWogaJtS8yIA-;%gInxv-qWUR*t7RjR*"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#2C151A",
+            "#DCDCD2"
+          ]
+        },
+        "colors": {
+          "dark": "#2C151A",
+          "light": "#DCDCD2"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422635015",
       "durationMilliseconds": 3421027,
       "categories": [
@@ -93,6 +187,7 @@
       "endTime": "2026-01-31T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten/frokostkoncerten-2026/pianisten-alexandre-tharaud-12422635015",
       "order": 639029559826002015,
+      "nextId": "urn:dr:radio:episode:693b2bb3ab13616ad97b9de0",
       "previousId": "urn:dr:radio:episode:6915ee3e0f451c13cb2ab574",
       "series": {
         "title": "Frokostkoncerten",
@@ -1423,7 +1518,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten/frokostkoncerten-2025/bbc-singers-12422535501",
       "order": 639007959825244501,
       "nextId": "urn:dr:radio:episode:681c756c923dffbb197657c7",
-      "previousId": "urn:dr:radio:episode:681c75a8a75c4b58350d26eb",
+      "previousId": "urn:dr:radio:episode:681c756f923dffbb19765818",
       "series": {
         "title": "Frokostkoncerten",
         "id": "urn:dr:radio:series:658e00ce4b5108079847cbc3",
@@ -1505,101 +1600,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422535495",
-      "durationMilliseconds": 3420827,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422535495",
-      "publishTime": "2025-12-05T13:03:00+01:00",
-      "startTime": "2025-12-05T13:03:00+01:00",
-      "endTime": "2026-01-03T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten/frokostkoncerten-2025/brahms-violinkoncert-12422535495",
-      "order": 639005367825243495,
-      "nextId": "urn:dr:radio:episode:681c75a8a75c4b58350d26e6",
-      "previousId": "urn:dr:radio:episode:681c756f923dffbb19765818",
-      "series": {
-        "title": "Frokostkoncerten",
-        "id": "urn:dr:radio:series:658e00ce4b5108079847cbc3",
-        "slug": "frokostkoncerten-5131861257000",
-        "productionNumber": "5131861257000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten-5131861257000",
-        "learnId": "urn:dr:ocs:audio:content:series:5131861257000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c75a8a75c4b58350d26eb/5eb6ba0e245e71336e3fd2c052f893e0eb6abd96b60662e848cc1e170ca66d8a"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422535495",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-12-05T13:03:00+01:00",
-      "id": "urn:dr:radio:episode:681c75a8a75c4b58350d26eb",
-      "slug": "brahms-violinkoncert-12422535495",
-      "title": "Brahms' violinkoncert",
-      "description": "Den belgiske violinist Marc Bouchkov er solist i Brahms' Violinkoncert i D-dur, sammen med Verbier Festivalens Kammerorkester dirigeret af Teodor Currentzis ved Verbier Festivalen 2025. \nVært: Magnus Larsson.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:68bfddd2703bf171484380b5",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/png",
-          "blurHash": "N7PrwgEv@-]TD%x^~WITxva0Swo#=#sn9sIUxa%M"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfddd2703bf171484380b6",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o8PPJ?KO}Iv$-Xab-VWFrsV?o#Z~}vtQ9ZM{W-ah%4W8kWogaJtS8yIA-;%gInxv-qWUR*t7RjR*"
-        },
-        {
-          "id": "urn:dr:radio:image:67e3ed0152248c98a43a171d",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "osLDMv0Js;%3R:IoniWCjbWBa~WBRkWXs.xFs.ays:oIjua~aej[fSWBayofocs:j]WBayoffPaz"
-        },
-        {
-          "id": "urn:dr:radio:image:68bfddd2703bf171484380b6",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "o8PPJ?KO}Iv$-Xab-VWFrsV?o#Z~}vtQ9ZM{W-ah%4W8kWogaJtS8yIA-;%gInxv-qWUR*t7RjR*"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#2C151A",
-            "#DCDCD2"
-          ]
-        },
-        "colors": {
-          "dark": "#2C151A",
-          "light": "#DCDCD2"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422535293",
       "durationMilliseconds": 3420856,
       "categories": [
@@ -1612,7 +1612,7 @@
       "endTime": "2026-01-20T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/frokostkoncerten/frokostkoncerten-2025/tjajkovskijs-aarstiderne-12422535293",
       "order": 638882607825141293,
-      "nextId": "urn:dr:radio:episode:681c75a8a75c4b58350d26eb",
+      "nextId": "urn:dr:radio:episode:681c75a8a75c4b58350d26e6",
       "series": {
         "title": "Frokostkoncerten",
         "id": "urn:dr:radio:series:658e00ce4b5108079847cbc3",
