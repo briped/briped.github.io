@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 156,
+  "numberOfEpisodes": 157,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-05T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-06T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422643022",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422643022",
+      "publishTime": "2026-01-06T19:20:00+01:00",
+      "startTime": "2026-01-06T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/anna-egholm-spiller-fransk-i-schweiz-12422643022",
+      "order": 639033242026003022,
+      "previousId": "urn:dr:radio:episode:693b45e4af5ce96564317970",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b45e5b73064306f3d2e3b/0d9d58e0b30a6555b2f18afb7c29ffc51ccb10ac5e81f9908896cca927e75828"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422643022",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-06T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b45e5b73064306f3d2e3b",
+      "slug": "anna-egholm-spiller-fransk-i-schweiz-12422643022",
+      "title": "Anna Egholm spiller fransk i Schweiz",
+      "description": "Den danske violinist Anna Egholm har fået godt fat i udlandet. Hør hende sammen med pianisten Sergei Redkin i et rent fransk program: \nRavel: Violinsonate nr. 2 i G-dur. \nFauré: Violinsonate nr. 2 i e-mol. \nLili Boulanger: Tre stykker for violin og klaver: Nocturne, Cortège og D'un matin de printemps. \nFranck: Violinsonate i A-dur. \nAnna Agafia Egholm, violin.  \nSergei Redkin, klaver.  \n(Musiksalen, La Chaux-de-Fonds 20. oktober 2024). \nVært: Charlotte Norholt.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:695cd27f424d2364ef3766e1",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKF=jq?G56D%=Xba00M|D*t9T1RjOZof%MR%t5sRo#jFrqV?V?xvD$WBxuX9kDxZIoX8ozxZoeNG"
+        },
+        {
+          "id": "urn:dr:radio:image:695cd27f424d2364ef3766e1",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oKF=jq?G56D%=Xba00M|D*t9T1RjOZof%MR%t5sRo#jFrqV?V?xvD$WBxuX9kDxZIoX8ozxZoeNG"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422643021",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +166,7 @@
       "startTime": "2026-01-05T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/det-franske-nationalorkesters-nytaar-12422643021",
       "order": 639032378026002021,
+      "nextId": "urn:dr:radio:episode:693b45e5b73064306f3d2e3b",
       "previousId": "urn:dr:radio:episode:693b45e4af5ce9656431797e",
       "series": {
         "title": "P2 Koncerten",
