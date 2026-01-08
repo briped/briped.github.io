@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 10,
+  "numberOfEpisodes": 11,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2025-12-18T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-08T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -75,8 +75,87 @@
   "episodes": [
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422545514",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422645024",
       "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422645024",
+      "publishTime": "2026-01-08T19:20:00+01:00",
+      "startTime": "2026-01-08T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2026/szeps-znaider-bruch-og-rakhmaninov-12422645024",
+      "order": 639034970026002024,
+      "previousId": "urn:dr:radio:episode:681c9968a90908f76a9e7c7c",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b335dab13616ad97be76f/f2f7ec746de7662a09b9d1638e1507085ef9901b309345e7207a1854c9daaab2"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422645024",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-08T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b335dab13616ad97be76f",
+      "slug": "szeps-znaider-bruch-og-rakhmaninov-12422645024",
+      "title": "Szeps-Znaider, Bruch og Rakhmaninov",
+      "description": "Hør den danske stjerneviolinist Nikolaj Szeps-Znaider i Max Bruchs Violinkoncert, der flyder over af skønne melodier, og derefter Rakhmaninovs dramatiske Symfoni nr. 3 fuld af drama og russisk folketone. DR Symfoniorkestret bliver dirigeret af engelske Edward Gardner. \nVært: Celine Haastrup.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:69415a44695fcbe0fa0b6661",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVHeF8%M-;xaV?sp~pWBNGWVRPofJUo0soW=bHNGRPRjnixGkDbHxutRWBo0bbj@o#j[RjNHj[of"
+        },
+        {
+          "id": "urn:dr:radio:image:69415a44695fcbe0fa0b6661",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oVHeF8%M-;xaV?sp~pWBNGWVRPofJUo0soW=bHNGRPRjnixGkDbHxutRWBo0bbj@o#j[RjNHj[of"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422545514",
+      "durationMilliseconds": 9602060,
       "categories": [
         "Musik",
         "Klassisk"
@@ -85,7 +164,8 @@
       "publishTime": "2025-12-18T19:20:00+01:00",
       "startTime": "2025-12-18T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/en-salmesymfoni-12422545514",
-      "order": 639016826025051514,
+      "order": 639016790025051514,
+      "nextId": "urn:dr:radio:episode:693b335dab13616ad97be76f",
       "previousId": "urn:dr:radio:episode:681c9967a75c4b58350e1fc8",
       "series": {
         "title": "Torsdagskoncerten",
@@ -111,7 +191,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9968a90908f76a9e7c7c/2318b88cfed9b1db381cb21b5fe2dc1793326aa18285da417a5cbc6cef81a885"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c9968a90908f76a9e7c7c/41e92b91d3fc6ad8832755b96035bd346369626723790c7b798b0eedbdcf84fe"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:12422545514",
@@ -125,18 +205,18 @@
       "description": "Hør DR Symfoniorkestret spille koncert inden jul. På programmet er Beethovens 6. symfoni, der tager os med ud på landet, til rislende bække, fuglesang og et tordenbrag. Du kan også høre Stravinskijs Salmesymfoni, hvor blikket vendes indad og opad, og Brittens Simple Symphony, hvor han leger med melodier han skrev som barn. \nBritten: Simple Symphony. \nStravinskij: Salmesymfoni. \nBeethoven: Symfoni nr. 6, Pastorale. \nDR Symfoniorkestret. \nDR Koncertkoret. \nDirigent: Tugan Sokhiev.  \nVært: Max Fage-Pedersen.",
       "imageAssets": [
         {
-          "id": "urn:dr:radio:image:6930412ee92e3adf15367e24",
+          "id": "urn:dr:radio:image:69453d3b2e0ce5f0a41a4ae5",
           "target": "SquareImage",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "ojJ#m1WBI:t7R*ofxGayazbHS2s:0zkCkCWBoLWBR*ofn%WBbHNGX8WBjZW;S3j[n%f6ofbIWVof"
+          "blurHash": "ooK*7BaeI:t7R*kVxGaya|bHS2s:0|f+f+WBoLWBRkkCjZWBW;NGX8aejZW;S3j[jZjGoLX8WVof"
         },
         {
-          "id": "urn:dr:radio:image:6930412ee92e3adf15367e24",
+          "id": "urn:dr:radio:image:69453d3b2e0ce5f0a41a4ae5",
           "target": "Default",
           "ratio": "1:1",
           "format": "image/png",
-          "blurHash": "ojJ#m1WBI:t7R*ofxGayazbHS2s:0zkCkCWBoLWBR*ofn%WBbHNGX8WBjZW;S3j[n%f6ofbIWVof"
+          "blurHash": "ooK*7BaeI:t7R*kVxGaya|bHS2s:0|f+f+WBoLWBRkkCjZWBW;NGX8aejZW;S3j[jZjGoLX8WVof"
         }
       ],
       "visualIdentity": {
@@ -563,6 +643,7 @@
       "productionNumber": "12422545404",
       "publishTime": "2025-10-02T19:20:00+02:00",
       "startTime": "2025-10-02T19:20:00+02:00",
+      "endTime": "2026-04-02T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/laenge-leve-beethoven-og-dr-symfoniorkestret-12422545404",
       "order": 638950298025040404,
       "nextId": "urn:dr:radio:episode:681c9962c56338368d767874",
