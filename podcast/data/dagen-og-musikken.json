@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 1,
+  "numberOfEpisodes": 2,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2026-01-12T16:05:00+01:00",
+  "latestEpisodeStartTime": "2026-01-13T16:05:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken-5067528119000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:5067528119000",
   "productionNumber": "5067528119000",
@@ -77,142 +77,284 @@
   },
   "sSlug": "dagen-og-musikken",
   "rssUri": "https://xmpl.dk/podcast/dagen-og-musikken.xml",
-  "episodes": {
-    "type": "Episode",
-    "learnId": "urn:dr:ocs:audio:content:playable:12422660031",
-    "durationMilliseconds": 6900000,
-    "categories": [
-      "Musik",
-      "Klassisk"
-    ],
-    "productionNumber": "12422660031",
-    "publishTime": "2026-01-12T16:05:00+01:00",
-    "startTime": "2026-01-12T16:05:00+01:00",
-    "endTime": "2026-01-16T23:59:00+01:00",
-    "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken/dagen-og-musikken-2026/mandag-12-januar-2026-12422660031",
-    "order": 639038309026006031,
-    "series": {
-      "title": "Dagen og Musikken",
-      "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
-      "slug": "dagen-og-musikken-5067528119000",
-      "productionNumber": "5067528119000",
-      "type": "Series",
+  "episodes": [
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422660032",
+      "durationMilliseconds": 6900000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422660032",
+      "publishTime": "2026-01-13T16:05:00+01:00",
+      "startTime": "2026-01-13T16:05:00+01:00",
+      "endTime": "2026-01-17T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken/dagen-og-musikken-2026/tirsdag-13-januar-2026-12422660032",
+      "order": 639039173026007032,
+      "previousId": "urn:dr:radio:episode:693b2f17ab13616ad97bbf38",
+      "series": {
+        "title": "Dagen og Musikken",
+        "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
+        "slug": "dagen-og-musikken-5067528119000",
+        "productionNumber": "5067528119000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken-5067528119000",
+        "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 56496364,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/0bea9715294072f934c6f54a5114fab3ef39452c22a52723ae6522d0e5f970a7"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 166897687,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/37f900188b1ee57e8e2b34fd02a45015c4fca749990b0813c3004008e3ed7369"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 222098733,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/0d69e4f2c10c2e87bbbf3875bbe826fa98db46760dfb47d5cf402fd395560b9f"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 55200767,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/b5b9270307492528a5f17e5fc5a635316d86e03ce3a75fca68ff23f07702d49b"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 165601535,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/34ecd88d171129d8e8086879a0c4dd5fbb408d14daf798a14660505671643c11"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f18ab13616ad97bbf4d/6ac7b5321d7d24c01f17f299197cbb7ef11fae2c12e1b007cb4e911f0b597927"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422660032",
       "isAvailableOnDemand": true,
-      "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken-5067528119000",
-      "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
-    },
-    "channel": {
-      "title": "P2",
-      "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-      "slug": "p2",
-      "type": "Channel",
-      "presentationUrl": "https://www.dr.dk/lyd/p2"
-    },
-    "audioAssets": [
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 64,
-        "fileSize": 56496205,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/55393e21fe5a90e14ed3425b4e17f2c05afc90694df10219cb36ee38fc125cf6"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 192,
-        "fileSize": 166897687,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/87d42e3488f7cc5ec65e9835b88680635f0decfca59debad84e746a6836c554d"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp4",
-        "bitrate": 256,
-        "fileSize": 222098601,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/9a0dc360eedbef844620dd34b6c1a19673c4c1e727c06fad11e4079d97c9b712"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 64,
-        "fileSize": 55200756,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/fdf8c48021a712084856e9893993e9b9facfc9f8a51ca8d798d148a5253a40c2"
-      },
-      {
-        "type": "Audio",
-        "target": "Progressive",
-        "isStreamLive": false,
-        "format": "mp3",
-        "bitrate": 192,
-        "fileSize": 165601524,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/4c4972baf5c0200341f11116c49533c4258a9ffebec5ddac74787cbcc4572a5b"
-      },
-      {
-        "type": "Audio",
-        "target": "Stream",
-        "isStreamLive": false,
-        "format": "HLS",
-        "bitrate": 0,
-        "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/68012415f11d4af0a39d95584e0664ae9d88cca3164212783d4dc09cc27b9fa1"
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-13T16:05:00+01:00",
+      "id": "urn:dr:radio:episode:693b2f18ab13616ad97bbf4d",
+      "slug": "tirsdag-13-januar-2026-12422660032",
+      "title": "Tirsdag 13. januar 2026",
+      "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Carsten Wolf Andersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b210",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NTD0HFoaIv$*VxI;^-t8RixZS0RljFaejDt2S0WD"
+        },
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#02193F",
+            "#9AA2D4"
+          ]
+        },
+        "colors": {
+          "dark": "#02193F",
+          "light": "#9AA2D4"
+        }
       }
-    ],
-    "ocsUrn": "urn:dr:ocs:audio:content:playable:12422660031",
-    "isAvailableOnDemand": true,
-    "hasVideo": false,
-    "explicitContent": false,
-    "latestPublishTime": "2026-01-12T16:05:00+01:00",
-    "id": "urn:dr:radio:episode:693b2f17ab13616ad97bbf38",
-    "slug": "mandag-12-januar-2026-12422660031",
-    "title": "Mandag 12. januar 2026",
-    "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Nina Ørum.",
-    "imageAssets": [
-      {
-        "id": "urn:dr:radio:image:68da3b26b63e3f388341b210",
-        "target": "Default",
-        "ratio": "16:9",
-        "format": "image/png",
-        "blurHash": "NTD0HFoaIv$*VxI;^-t8RixZS0RljFaejDt2S0WD"
+    },
+    {
+      "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422660031",
+      "durationMilliseconds": 6900000,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422660031",
+      "publishTime": "2026-01-12T16:05:00+01:00",
+      "startTime": "2026-01-12T16:05:00+01:00",
+      "endTime": "2026-01-16T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken/dagen-og-musikken-2026/mandag-12-januar-2026-12422660031",
+      "order": 639038309026006031,
+      "nextId": "urn:dr:radio:episode:693b2f18ab13616ad97bbf4d",
+      "series": {
+        "title": "Dagen og Musikken",
+        "id": "urn:dr:radio:series:655fdb7dc638d654cda94947",
+        "slug": "dagen-og-musikken-5067528119000",
+        "productionNumber": "5067528119000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/dagen-og-musikken-5067528119000",
+        "learnId": "urn:dr:ocs:audio:content:series:5067528119000"
       },
-      {
-        "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
-        "target": "SquareImage",
-        "ratio": "1:1",
-        "format": "image/png",
-        "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
       },
-      {
-        "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
-        "target": "Podcast",
-        "ratio": "1:1",
-        "format": "image/jpeg",
-        "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
-      },
-      {
-        "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
-        "target": "Default",
-        "ratio": "1:1",
-        "format": "image/png",
-        "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
-      }
-    ],
-    "visualIdentity": {
-      "gradient": {
-        "colors": [
-          "#02193F",
-          "#9AA2D4"
-        ]
-      },
-      "colors": {
-        "dark": "#02193F",
-        "light": "#9AA2D4"
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 56496205,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/55393e21fe5a90e14ed3425b4e17f2c05afc90694df10219cb36ee38fc125cf6"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 166897687,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/87d42e3488f7cc5ec65e9835b88680635f0decfca59debad84e746a6836c554d"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 222098601,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/9a0dc360eedbef844620dd34b6c1a19673c4c1e727c06fad11e4079d97c9b712"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 55200756,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/fdf8c48021a712084856e9893993e9b9facfc9f8a51ca8d798d148a5253a40c2"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 165601524,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/4c4972baf5c0200341f11116c49533c4258a9ffebec5ddac74787cbcc4572a5b"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b2f17ab13616ad97bbf38/68012415f11d4af0a39d95584e0664ae9d88cca3164212783d4dc09cc27b9fa1"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422660031",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-12T16:05:00+01:00",
+      "id": "urn:dr:radio:episode:693b2f17ab13616ad97bbf38",
+      "slug": "mandag-12-januar-2026-12422660031",
+      "title": "Mandag 12. januar 2026",
+      "description": "Nyd den sene eftermiddag til lyden af den klassiske musik. Slap af i bilkøen eller slæng dig i sofaen og få musikken serveret af en vært, der vil dig det bedste. \nVært: Nina Ørum.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b210",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/png",
+          "blurHash": "NTD0HFoaIv$*VxI;^-t8RixZS0RljFaejDt2S0WD"
+        },
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4179f72590b49fde5a8cd",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "o2Q,H]:kQS^Qae_N:kQ8QSVEaepIUvUvU^Z$e.kq}tq]m,n4jZbvwJwJwJr?jZW;~q%Mxut7j[WB"
+        },
+        {
+          "id": "urn:dr:radio:image:68da3b26b63e3f388341b211",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oaECntEfNZxZnoRk^-NLWFocobbbR.Rnspj[j=bIE2t5k7a$oMjcNFs.j^R+fOj?xae.WBs:R+WU"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#02193F",
+            "#9AA2D4"
+          ]
+        },
+        "colors": {
+          "dark": "#02193F",
+          "light": "#9AA2D4"
+        }
       }
     }
-  }
+  ]
 }
