@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 157,
+  "numberOfEpisodes": 158,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-12T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-13T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422643032",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422643032",
+      "publishTime": "2026-01-13T19:20:00+01:00",
+      "startTime": "2026-01-13T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/vi-taler-om-at-doe-2-3-ensemble-midtvest-12422643032",
+      "order": 639039290026007032,
+      "previousId": "urn:dr:radio:episode:693b45e6b73064306f3d2e54",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b45e7b73064306f3d2e6e/b71a6de2f2b82b6c1ce693461963a19e47b3f00e671c8b122f350e6596a46cdd"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422643032",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-13T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b45e7b73064306f3d2e6e",
+      "slug": "vi-taler-om-at-doe-2-3-ensemble-midtvest-12422643032",
+      "title": "Vi taler om at dø (2:3) Ensemble Midtvest",
+      "description": "I uge 3 har hele DR fokus på døden. Vi har samlet tre koncerter der kredser om emnet. I aften kan du høre Ensemble Midtvests Allehelgens-koncert med Beethovens Måneskinssonate og anden smuk musik til de efterladte.  \nVærker af Kurtág, Beethoven, Brahms, Schubert og Sjostakovitj. \nEnsemble Midtvest. \n(Musikværket, Morsø 28. oktober). \nVært: Klaus Møller-Jørgensen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6964c73539379cc3ef63f899",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o@L4HJofj[ofWVa}~pj[WCjsjtoft7j[oLazazWBM{a}ayj[j[oLR*j[j[jtjtf6s.fPjtWBWVfR"
+        },
+        {
+          "id": "urn:dr:radio:image:6964c73539379cc3ef63f899",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o@L4HJofj[ofWVa}~pj[WCjsjtoft7j[oLazazWBM{a}ayj[j[oLR*j[j[jtjtf6s.fPjtWBWVfR"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422643031",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +166,7 @@
       "startTime": "2026-01-12T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/vi-taler-om-at-doe-1-3-mogens-dahl-kammerkor-12422643031",
       "order": 639038426026006031,
+      "nextId": "urn:dr:radio:episode:693b45e7b73064306f3d2e6e",
       "previousId": "urn:dr:radio:episode:693b45e6af5ce965643179a0",
       "series": {
         "title": "P2 Koncerten",
