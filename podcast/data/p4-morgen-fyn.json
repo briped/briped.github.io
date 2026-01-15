@@ -14,7 +14,7 @@
   "numberOfEpisodes": 57,
   "presentationType": "CurrentAffairs",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-14T06:05:00+01:00",
+  "latestEpisodeStartTime": "2026-01-15T06:05:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
   "psdbUrn": "urn:dr:mu:bundle:57d7fb3d6187a4031cfd77dd",
   "psdbSlug": "p4fyn-morgen",
@@ -80,6 +80,97 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:14602620034",
+      "durationMilliseconds": 14100000,
+      "categories": [],
+      "productionNumber": "14602620034",
+      "publishTime": "2026-01-15T06:05:00+01:00",
+      "startTime": "2026-01-15T06:05:00+01:00",
+      "endTime": "2026-01-19T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2026/torsdag-15-januar-2026-14602620034",
+      "order": 639040541026010034,
+      "previousId": "urn:dr:radio:episode:693007fd4f22de874e065770",
+      "series": {
+        "title": "P4 Morgen Fyn",
+        "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
+        "slug": "p4-morgen-fyn-1092703350000",
+        "productionNumber": "1092703350000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
+        "learnId": "urn:dr:ocs:audio:content:series:1092703350000"
+      },
+      "channel": {
+        "title": "P4 Fyn",
+        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
+        "slug": "p4fyn",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693007c04f22de874e0653f8/2a6c720f8cfdf8d7f7d18fed47eebb15ee0b1d0864653864e79a935d2d7145a4"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602620034",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-15T06:05:00+01:00",
+      "id": "urn:dr:radio:episode:693007c04f22de874e0653f8",
+      "slug": "torsdag-15-januar-2026-14602620034",
+      "title": "Torsdag 15. januar 2026",
+      "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009df",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NKE1%HxcBTNFouNs}DV?NsbIOYbbv#WAI:WXR+WX"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e1",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oQDRd9xbS~V@-UWA}ZnjWoaes;ay+]ngjXoLSOogwJsTR*j?R*Wq-Ct8X9azWBWA$+jvozo0oejZ"
+        },
+        {
+          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#301212",
+            "#D79494"
+          ]
+        },
+        "colors": {
+          "dark": "#301212",
+          "light": "#D79494"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:14602620033",
       "durationMilliseconds": 14100000,
       "categories": [],
@@ -89,6 +180,7 @@
       "endTime": "2026-01-18T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2026/onsdag-14-januar-2026-14602620033",
       "order": 639039677026009033,
+      "nextId": "urn:dr:radio:episode:693007c04f22de874e0653f8",
       "previousId": "urn:dr:radio:episode:693007c0e92e3adf15344dcd",
       "series": {
         "title": "P4 Morgen Fyn",
@@ -5149,7 +5241,6 @@
       "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/onsdag-15-oktober-2025-14602520423",
       "order": 638961053025205423,
       "nextId": "urn:dr:radio:episode:68358ebe5f16b698305ea003",
-      "previousId": "urn:dr:radio:episode:6835960cfe5ec8521a2721b2",
       "series": {
         "title": "P4 Morgen Fyn",
         "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
@@ -5185,97 +5276,6 @@
       "id": "urn:dr:radio:episode:683595d0b55477aa472b068f",
       "slug": "onsdag-15-oktober-2025-14602520423",
       "title": "Onsdag 15. oktober 2025",
-      "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009df",
-          "target": "Default",
-          "ratio": "16:9",
-          "format": "image/jpeg",
-          "blurHash": "NKE1%HxcBTNFouNs}DV?NsbIOYbbv#WAI:WXR+WX"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e1",
-          "target": "Podcast",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oQDRd9xbS~V@-UWA}ZnjWoaes;ay+]ngjXoLSOogwJsTR*j?R*Wq-Ct8X9azWBWA$+jvozo0oejZ"
-        },
-        {
-          "id": "urn:dr:radio:image:67e4dc88c7555875183009e0",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/jpeg",
-          "blurHash": "oPDH{hxbS~V@-UWA}ZnjSLWBs;ay#lacawoLSOogwJn~NHj?R*a}-Ct8X9WWWBWA$+bIozo0oejZ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#301212",
-            "#D79494"
-          ]
-        },
-        "colors": {
-          "dark": "#301212",
-          "light": "#D79494"
-        }
-      }
-    },
-    {
-      "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:14602520422",
-      "durationMilliseconds": 14100024,
-      "categories": [],
-      "productionNumber": "14602520422",
-      "publishTime": "2025-10-14T06:05:00+02:00",
-      "startTime": "2025-10-14T06:05:00+02:00",
-      "endTime": "2026-01-14T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn/p4-morgen-fyn-2025/tirsdag-14-oktober-2025-14602520422",
-      "order": 638960189025204422,
-      "nextId": "urn:dr:radio:episode:683595d0b55477aa472b068f",
-      "series": {
-        "title": "P4 Morgen Fyn",
-        "id": "urn:dr:radio:series:5fa15939da351264f87b5307",
-        "slug": "p4-morgen-fyn-1092703350000",
-        "productionNumber": "1092703350000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn/p4-morgen-fyn-1092703350000",
-        "learnId": "urn:dr:ocs:audio:content:series:1092703350000"
-      },
-      "channel": {
-        "title": "P4 Fyn",
-        "id": "urn:dr:radio:channel:5fa156d3da351264f87b4656",
-        "slug": "p4fyn",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p4fyn"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:6835960cfe5ec8521a2721b2/65979dbe21a691bf0c87075ae9541abd5bdd9d14c8331d8d3a6e186d20bc94e4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:14602520422",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-10-14T06:05:00+02:00",
-      "id": "urn:dr:radio:episode:6835960cfe5ec8521a2721b2",
-      "slug": "tirsdag-14-oktober-2025-14602520422",
-      "title": "Tirsdag 14. oktober 2025",
       "description": "Stå op med P4 Morgen Fyn og få dagens vigtigste nyheder serveret med god musik til morgenkaffen. Her har vi altid øjnene på vejen, vejret og verden, så du kan komme godt i gang med din dag.",
       "imageAssets": [
         {
