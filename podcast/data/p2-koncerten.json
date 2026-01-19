@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 159,
+  "numberOfEpisodes": 157,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-16T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-19T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422643041",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422643041",
+      "publishTime": "2026-01-19T19:20:00+01:00",
+      "startTime": "2026-01-19T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/rydvall-mjelva-og-carr-fra-folkets-festival-12422643041",
+      "order": 639044474026010041,
+      "previousId": "urn:dr:radio:episode:693b45e8af5ce965643179df",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b45e9b73064306f3d2e9c/2697793c46402d6f1fa9717c59526fe95ae8100d3648d69c2016a1152e4c2d4b"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422643041",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-19T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b45e9b73064306f3d2e9c",
+      "slug": "rydvall-mjelva-og-carr-fra-folkets-festival-12422643041",
+      "title": "Rydvall, Mjelva og Carr fra Folkets Festival",
+      "description": "Tag med til Folkemusikfestival i Vega i København. På scenen står tre musikere der leverer folkemusik på højeste plan - rodfæstet i traditionen, men fuld af fornyelse.  \nErik Rydvall, nøgleharpe. \nOlav Luksengård Mjelva,  hardangerfele. \nAle Carr, cittern. \n(Lille Vega, København 17. januar). \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6964c8df39379cc3ef6407c8",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o99F~9NvE3j?,:kB-BJU-9X7IpI;IoofoeI=NbR*I:$gShw^oyNH0#$i-UsAI=s.S#sm9^R+-T$*"
+        },
+        {
+          "id": "urn:dr:radio:image:6964c8df39379cc3ef6407c8",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "o99F~9NvE3j?,:kB-BJU-9X7IpI;IoofoeI=NbR*I:$gShw^oyNH0#$i-UsAI=s.S#sm9^R+-T$*"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422643035",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -88,6 +167,7 @@
       "endTime": "2026-02-14T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/london-filharmonikerne-spiller-hans-abrahamsen-og-mahlers-4-12422643035",
       "order": 639041882026009035,
+      "nextId": "urn:dr:radio:episode:693b45e9b73064306f3d2e9c",
       "previousId": "urn:dr:radio:episode:693b45e7b73064306f3d2e74",
       "series": {
         "title": "P2 Koncerten",
@@ -1375,7 +1455,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/jul-med-dr-vokalensemblet-12422543621",
       "order": 639020955825242621,
       "nextId": "urn:dr:radio:episode:691b0c7da90450d1bd54c540",
-      "previousId": "urn:dr:radio:episode:681c99562b77f3385e307b84",
+      "previousId": "urn:dr:radio:episode:681c9968b3140b1c1f3b781d",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -1443,87 +1523,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543515",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543515",
-      "publishTime": "2025-12-19T19:20:00+01:00",
-      "startTime": "2025-12-19T19:20:00+01:00",
-      "endTime": "2026-01-17T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/bachs-juleoratorium-12422543515",
-      "order": 639017690025216515,
-      "nextId": "urn:dr:radio:episode:691b0c74a90450d1bd54c4f3",
-      "previousId": "urn:dr:radio:episode:681c9968b3140b1c1f3b781d",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:681c99562b77f3385e307b84/3715cc214abf639273156d44727c94a1ab6cf9ea67a22fa39c24244e3ed82ded"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543515",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-12-19T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:681c99562b77f3385e307b84",
-      "slug": "bachs-juleoratorium-12422543515",
-      "title": "Bachs Juleoratorium",
-      "description": "Hver tid sine svære musikalske valg: Er du til Stones eller Beatles, Taylor Swift eller Katy Perry - og her i juletiden: Er det Händels Messias eller Bachs Juleoratorium der for alvor bringer dig i julestemning? Messias får du på P2 lillejuleaften, så i aften gælder det Bachs mastodontiske 2½-times-værk om Messiasprofetier, Jesu fødsel, liv og betydning. Glædelig jul!  \nBach. Juleoratoriet. \nJulia Grüter, sopran.  \nUlrike Malotta, alt.  \nKliran Carrel, tenor.  \nAndreas Wolf, bas.  \nLes Arts Florissants.  \nVocalconsort Berlin. \nBerlins Radiosymfoniorkester. \nDirigent: Vladimir Jurowski. \n(Filharmonien, Berlin 23. dec 2024).  \nVært: Charlotte Norholt.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:69304174f813fbba90a80a38",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oB9sC%}@ae0z0zR+^P%1f6EL9uR*5RNbkC$jxEaf5RI:R*-U-UWWIoRkWVt6xaW;RkRkoLoexaxZ"
-        },
-        {
-          "id": "urn:dr:radio:image:69304174f813fbba90a80a38",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oB9sC%}@ae0z0zR+^P%1f6EL9uR*5RNbkC$jxEaf5RI:R*-U-UWWIoRkWVt6xaW;RkRkoLoexaxZ"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543512",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -1535,7 +1534,7 @@
       "startTime": "2025-12-16T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/the-king-s-singers-synger-disney-12422543512",
       "order": 639015098025214512,
-      "nextId": "urn:dr:radio:episode:681c99562b77f3385e307b84",
+      "nextId": "urn:dr:radio:episode:691b0c74a90450d1bd54c4f3",
       "previousId": "urn:dr:radio:episode:681c9955b3140b1c1f3b776c",
       "series": {
         "title": "P2 Koncerten",
@@ -6737,7 +6736,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/romantiske-mestervaerker-med-popelka-12422543295",
       "order": 638884634025128295,
       "nextId": "urn:dr:radio:episode:681c994bc56338368d767786",
-      "previousId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
+      "previousId": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -6805,87 +6804,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543607",
-      "durationMilliseconds": 9603500,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543607",
-      "publishTime": "2025-07-17T19:20:00+02:00",
-      "startTime": "2025-07-17T19:20:00+02:00",
-      "endTime": "2026-01-17T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
-      "order": 638883770025228607,
-      "nextId": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
-      "previousId": "urn:dr:radio:episode:681c994ba95582916ea8cebd",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:685e4b2f84761efefa19fddc/6e2386f20b0f10cb4971a079a0f02c6ddf978952c7dfd7202212aa182dbf0b8b"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543607",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-07-17T19:20:00+02:00",
-      "id": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
-      "slug": "wiener-filharmonikernes-sommernatskoncert-2025-12422543607",
-      "title": "Wiener Filharmonikernes Sommernatskoncert 2025",
-      "description": "Wiener Filharmonikernes årlige Sommernatskoncert finder traditionen tro sted i Schönbrunns barokke park med slottet som storslået kulisse. \nDen polske stjernetenor Piotr Beczala får sin debut med arier fra Carmen og Turandot, samt kendte operetteklassikere. Desuden optræder Wiener Sängerknaben for første gang på den imponerende udendørsscene. \nProgrammet tager publikum med på en rejse gennem europæiske lydlandskaber, fra Griegs \"Morgenstemning\" til Dvoráks \"Slavisk Dans\", og afsluttes traditionen tro med Johann Strauss II's \"Wiener Blut\". \nPiotr Beczala, tenor. \nWienerfilharmonikerne. \nWiener Sängerknaben. \nDirigent: Tugan Sokhiev. \n(Schönbrunn Slotshave, Wien 13. juni).  \nVært: Max Fage-Pedersen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:685e8b5b84761efefa1c321f",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYJ7{.-;~qx]sm%2x[xa?HoLWqR*57s.RjMxNGWV^*j[kDt7aeRjr?t7RjIooeRjRjjsofaybHs:"
-        },
-        {
-          "id": "urn:dr:radio:image:685e8b5b84761efefa1c321f",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oYJ7{.-;~qx]sm%2x[xa?HoLWqR*57s.RjMxNGWV^*j[kDt7aeRjr?t7RjIooeRjRjjsofaybHs:"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422543285",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -6897,7 +6815,7 @@
       "startTime": "2025-07-11T19:20:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/verdens-bedste-brass-12422543285",
       "order": 638878586025124285,
-      "nextId": "urn:dr:radio:episode:685e4b2f84761efefa19fddc",
+      "nextId": "urn:dr:radio:episode:681c994ba90908f76a9e7b4e",
       "previousId": "urn:dr:radio:episode:681c994a923dffbb19775236",
       "series": {
         "title": "P2 Koncerten",
@@ -12133,7 +12051,7 @@
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/et-moede-mellem-lys-og-skygge-12422543045",
       "order": 638733434025014045,
       "nextId": "urn:dr:radio:episode:678ae3454b2912e2484d8a34",
-      "previousId": "urn:dr:radio:episode:677c61af193e25da397e6147",
+      "previousId": "urn:dr:radio:episode:675e0f245d225c8af95730ba",
       "series": {
         "title": "P2 Koncerten",
         "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
@@ -12201,87 +12119,6 @@
     },
     {
       "type": "Episode",
-      "learnId": "urn:dr:ocs:audio:content:playable:12422543035",
-      "durationMilliseconds": 9600024,
-      "categories": [
-        "Musik",
-        "Klassisk"
-      ],
-      "productionNumber": "12422543035",
-      "publishTime": "2025-01-17T19:20:00+01:00",
-      "startTime": "2025-01-17T19:20:00+01:00",
-      "endTime": "2026-01-17T23:59:00+01:00",
-      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2025/verdenstjerne-i-soenderborg-12422543035",
-      "order": 638727386025010035,
-      "nextId": "urn:dr:radio:episode:67859be181654c75b622646f",
-      "previousId": "urn:dr:radio:episode:675e0f245d225c8af95730ba",
-      "series": {
-        "title": "P2 Koncerten",
-        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-        "slug": "p2-koncerten-758659903000",
-        "productionNumber": "758659903000",
-        "type": "Series",
-        "isAvailableOnDemand": true,
-        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
-        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
-      },
-      "channel": {
-        "title": "P2",
-        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
-        "slug": "p2",
-        "type": "Channel",
-        "presentationUrl": "https://www.dr.dk/lyd/p2"
-      },
-      "audioAssets": [
-        {
-          "type": "Audio",
-          "target": "Stream",
-          "isStreamLive": false,
-          "format": "HLS",
-          "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:677c61af193e25da397e6147/5b88ae0c1f5f4b460ab5cf8f95f9920076858fcbefe48dfc029f7cb9324c16e4"
-        }
-      ],
-      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422543035",
-      "isAvailableOnDemand": true,
-      "hasVideo": false,
-      "explicitContent": false,
-      "latestPublishTime": "2025-01-17T19:20:00+01:00",
-      "id": "urn:dr:radio:episode:677c61af193e25da397e6147",
-      "slug": "verdenstjerne-i-soenderborg-12422543035",
-      "title": "Verdenstjerne i Sønderborg",
-      "description": "Oplev den verdensberømte cellist Daniel Müller-Schott i en aften dedikeret til russisk musik. Som et af aftenens højdepunkter vil Müller-Schott fortolke Sjostakovitjs hjertegribende cellokoncert nr. 1. Det  er et af de mest kendte og elskede værker for cello og orkester. Komponeret i 1959 til cellisten Mstislav Rostropovich, er koncerten et mesterværk, der kombinerer dyb følsomhed, teknisk virtuositet og en stærk følelse af melankoli. Aftenen byder også på Glinkas spændende overture til \"Ruslan og Ludmila\" og Tjajkovskijs ungdommelige første symfoni. \nDaniel Müller-Schott, cello. \nSønderjyllands Symfoniorkester. \nDirigent: Alevtina Lofte. \n( - direkte fra Alsion, Sønderborg).  \nVært: Klaus Møller-Jørgensen.",
-      "imageAssets": [
-        {
-          "id": "urn:dr:radio:image:67ecdadb1b3cf2409c6d0e50",
-          "target": "SquareImage",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oABW6;={0hD*?G%2PVOEx]%LwIWV-oX8IUj?oyxZjExDr=M|IpNG0MNG?Gt7I;aexZRkRks.xtR+"
-        },
-        {
-          "id": "urn:dr:radio:image:67ecdadb1b3cf2409c6d0e50",
-          "target": "Default",
-          "ratio": "1:1",
-          "format": "image/png",
-          "blurHash": "oABW6;={0hD*?G%2PVOEx]%LwIWV-oX8IUj?oyxZjExDr=M|IpNG0MNG?Gt7I;aexZRkRks.xtR+"
-        }
-      ],
-      "visualIdentity": {
-        "gradient": {
-          "colors": [
-            "#3A1B08",
-            "#CBA690"
-          ]
-        },
-        "colors": {
-          "dark": "#3A1B08",
-          "light": "#CBA690"
-        }
-      }
-    },
-    {
-      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422443602",
       "durationMilliseconds": 6303500,
       "categories": [
@@ -12293,7 +12130,7 @@
       "startTime": "2024-12-25T12:15:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2024/nordisk-jul-12422443602",
       "order": 638707223024351602,
-      "nextId": "urn:dr:radio:episode:677c61af193e25da397e6147",
+      "nextId": "urn:dr:radio:episode:67859be181654c75b622646f",
       "previousId": "urn:dr:radio:episode:675b6c724268a8bf7444df98",
       "series": {
         "title": "P2 Koncerten",
