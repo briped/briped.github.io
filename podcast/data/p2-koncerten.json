@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 157,
+  "numberOfEpisodes": 158,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-01-19T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-20T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
   "psdbUrn": "urn:dr:mu:bundle:57d79a876187a40ef4066d58",
   "psdbSlug": "p2-koncerten",
@@ -76,6 +76,86 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422643042",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422643042",
+      "publishTime": "2026-01-20T19:20:00+01:00",
+      "startTime": "2026-01-20T19:20:00+01:00",
+      "endTime": "2026-02-18T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/dansk-kormusik-i-tyskland-12422643042",
+      "order": 639045338026011042,
+      "previousId": "urn:dr:radio:episode:693b45e9b73064306f3d2e9c",
+      "series": {
+        "title": "P2 Koncerten",
+        "id": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
+        "slug": "p2-koncerten-758659903000",
+        "productionNumber": "758659903000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten-758659903000",
+        "learnId": "urn:dr:ocs:audio:content:series:758659903000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b45eaaf5ce965643179f1/332f84e857bf48826e25f5f30fc9568ff49851db8bdf297af68fa94252c91bd2"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422643042",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-20T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b45eaaf5ce965643179f1",
+      "slug": "dansk-kormusik-i-tyskland-12422643042",
+      "title": "Dansk kormusik i Tyskland",
+      "description": "Det trækker ikke overskrifter når et dansk kor synger tysk kormusik, for det sker hele tiden. Men det er lidt af et særsyn når det omvendte sker - og det kan du opleve i aften. Det Sydvesttyske Radiokor har helliget en hel aften til musik af Carl Nielsen, Bo Holten, Vagn Holmboe, Mette Nielsen, Per Nørgård m.fl. \nDet Sydvesttyske Radiokor. \nDirigent: Yuval Weinberg. \n(Liederhalle, Stuttgart 16. oktober). \nVært: Charlotte Norholt.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:6964c9f1a23c38f47ee713f8",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oC7nUZM{RjIUt7tRx]ofRjWBj[t700%MfQxuRjWBD%WB%MozWBM{%MIUxuayt7Rj%MWBRjt7ofof"
+        },
+        {
+          "id": "urn:dr:radio:image:6964c9f1a23c38f47ee713f8",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oC7nUZM{RjIUt7tRx]ofRjWBj[t700%MfQxuRjWBD%WB%MozWBM{%MIUxuayt7Rj%MWBRjt7ofof"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3A1B08",
+            "#CBA690"
+          ]
+        },
+        "colors": {
+          "dark": "#3A1B08",
+          "light": "#CBA690"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422643041",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -87,6 +167,7 @@
       "startTime": "2026-01-19T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/p2-koncerten/p2-koncerten-2026/rydvall-mjelva-og-carr-fra-folkets-festival-12422643041",
       "order": 639044474026010041,
+      "nextId": "urn:dr:radio:episode:693b45eaaf5ce965643179f1",
       "previousId": "urn:dr:radio:episode:693b45e8af5ce965643179df",
       "series": {
         "title": "P2 Koncerten",
