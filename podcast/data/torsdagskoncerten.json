@@ -14,10 +14,10 @@
     "Musik",
     "Klassisk"
   ],
-  "numberOfEpisodes": 12,
+  "numberOfEpisodes": 13,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2026-01-15T19:20:00+01:00",
+  "latestEpisodeStartTime": "2026-01-22T19:20:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
   "psdbUrn": "urn:dr:mu:bundle:6357f5a9539f024cb4d3e658",
   "psdbSlug": "torsdagskoncerten",
@@ -75,6 +75,85 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:12422645044",
+      "durationMilliseconds": 9603500,
+      "categories": [
+        "Musik",
+        "Klassisk"
+      ],
+      "productionNumber": "12422645044",
+      "publishTime": "2026-01-22T19:20:00+01:00",
+      "startTime": "2026-01-22T19:20:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2026/et-doegn-rundt-i-symfoniorkestret-12422645044",
+      "order": 639047066026004044,
+      "previousId": "urn:dr:radio:episode:693b3320af5ce9656430d29c",
+      "series": {
+        "title": "Torsdagskoncerten",
+        "id": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
+        "slug": "torsdagskoncerten-4012849570000",
+        "productionNumber": "4012849570000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten-4012849570000",
+        "learnId": "urn:dr:ocs:audio:content:series:4012849570000"
+      },
+      "channel": {
+        "title": "P2",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4633",
+        "slug": "p2",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p2"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:693b3322b73064306f3c83e6/e9ab9d4e2688f252d4960437c379b7e74eae2ab54f681043b7f8d9c57a0e96d6"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:12422645044",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-22T19:20:00+01:00",
+      "id": "urn:dr:radio:episode:693b3322b73064306f3c83e6",
+      "slug": "et-doegn-rundt-i-symfoniorkestret-12422645044",
+      "title": "Et døgn rundt i symfoniorkestret",
+      "description": "Hør en musikalsk koncertvandring der starter om morgenen en forårsdag, med musik af franske Lili Boulanger. Varme sommernætter får vi i Berlioz' Les Nuits D'été. Og komponisten Szymanowskis tredje symfoni har fået undertitlen 'Nattens sang'. Her indgår tekster af den persiske digter og mystiker Rumi. Når natten er omme venter en af musikhistoriens smukkeste solopgange i Ravels Daphnis og Chloé. \nLili Boulanger: D'un matin de printemps. \nBerlioz: Les Nuits D'été. \nSzymanowski: Symfoni Nr. 3, Nattens Sang. \nRavel: Suite nr. 2 fra Daphnis og Chloé. \nBeth Taylor, mezzosopran. \nJames Ley, tenor. \nDR Symfoniorkestret. \nDirigent: Thomas Søndergård. \nVært: Max Fage-Pedersen.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:696f8e561f59a35d49d0d154",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oAC~uF.7Kj^P~W9Z-oM{kDIoxa%M9vsm$$tRIoV@S#Rj-pM{R*xaxuRjRjt7RksmsmofNGxaWBW="
+        },
+        {
+          "id": "urn:dr:radio:image:696f8e561f59a35d49d0d154",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/png",
+          "blurHash": "oAC~uF.7Kj^P~W9Z-oM{kDIoxa%M9vsm$$tRIoV@S#Rj-pM{R*xaxuRjRjt7RksmsmofNGxaWBW="
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#0F2233",
+            "#75ACFE"
+          ]
+        },
+        "colors": {
+          "dark": "#0F2233",
+          "light": "#75ACFE"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:12422645034",
       "durationMilliseconds": 9603500,
       "categories": [
@@ -86,6 +165,7 @@
       "startTime": "2026-01-15T19:20:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2026/symfonisk-strengeleg-med-vinderdirigent-12422645034",
       "order": 639041018026003034,
+      "nextId": "urn:dr:radio:episode:693b3322b73064306f3c83e6",
       "previousId": "urn:dr:radio:episode:693b335dab13616ad97be76f",
       "series": {
         "title": "Torsdagskoncerten",
@@ -563,6 +643,7 @@
       "productionNumber": "12422545424",
       "publishTime": "2025-10-16T19:20:00+02:00",
       "startTime": "2025-10-16T19:20:00+02:00",
+      "endTime": "2026-04-16T23:59:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/p2/torsdagskoncerten/torsdagskoncerten-2025/dr-symfoniorkestret-i-rumaenien-12422545424",
       "order": 638962394025042424,
       "nextId": "urn:dr:radio:episode:681c99649514fc4eb6c862f9",
