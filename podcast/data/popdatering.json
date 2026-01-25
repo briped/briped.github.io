@@ -14,10 +14,10 @@
     "Musik",
     "Pop"
   ],
-  "numberOfEpisodes": 4,
+  "numberOfEpisodes": 5,
   "presentationType": "Ongoing",
   "groupingType": "None",
-  "latestEpisodeStartTime": "2026-01-24T12:03:00+01:00",
+  "latestEpisodeStartTime": "2026-01-25T12:03:00+01:00",
   "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
   "ocsUrn": "urn:dr:ocs:audio:content:series:1652350131000",
   "productionNumber": "1652350131000",
@@ -81,6 +81,100 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:13332647047",
+      "durationMilliseconds": 7020000,
+      "categories": [
+        "Musik",
+        "Pop"
+      ],
+      "productionNumber": "13332647047",
+      "publishTime": "2026-01-25T12:03:00+01:00",
+      "startTime": "2026-01-25T12:03:00+01:00",
+      "endTime": "2026-01-29T23:59:00+01:00",
+      "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/harry-styles-er-tilbage-13332647047",
+      "order": 639049393800027047,
+      "previousId": "urn:dr:radio:episode:69298400ab1506d5ae6f7319",
+      "series": {
+        "title": "Popdatering",
+        "id": "urn:dr:radio:series:6001727d6c12863ced19e874",
+        "slug": "popdatering-1652350131000",
+        "productionNumber": "1652350131000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering-1652350131000",
+        "learnId": "urn:dr:ocs:audio:content:series:1652350131000"
+      },
+      "channel": {
+        "title": "P3",
+        "id": "urn:dr:radio:channel:5fa156d2da351264f87b4634",
+        "slug": "p3",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/p3"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:692984004f22de874ecccefb/42f391bf3a57ddc1bed3f187cb76d6d504f64872f9160390c6324d133d8712b1"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:13332647047",
+      "isAvailableOnDemand": true,
+      "hasVideo": false,
+      "explicitContent": false,
+      "latestPublishTime": "2026-01-25T12:03:00+01:00",
+      "id": "urn:dr:radio:episode:692984004f22de874ecccefb",
+      "slug": "harry-styles-er-tilbage-13332647047",
+      "title": "Harry Styles er tilbage",
+      "description": "I Popdatering præsenterer Nynne Givskov dig for den bedste, nye popmusik og tager dig med på en tur op og ned af hitlisterne og ud til de kunstnere, som skaber den musik, vi elsker lige nu.",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b56",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NJECzf{yUcvg8wL1.-tlGaIoT0rXD%niRPGZyDrX"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b58",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "obDA=AxZtlrWRPV@.-xtWBS#ShbbIorXR5S~ofjZKPb]bvr?n%WBMySgo}s:kWX8X-nOv~ayoLo0"
+        },
+        {
+          "id": "urn:dr:radio:image:68f8e958031a82095d8a3b57",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oaDA=AxZtlrDRPV@.nxtR*S#ShbbIorXR5OrofjZKPb]bvr?n%WBMxSgo}s:kWW=X-nOv~ayoLo0"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#3D1505",
+            "#03FDFD"
+          ]
+        },
+        "colors": {
+          "dark": "#3D1505",
+          "light": "#03FDFD"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:13332647046",
       "durationMilliseconds": 7020024,
       "categories": [
@@ -93,6 +187,7 @@
       "endTime": "2026-01-28T23:59:00+01:00",
       "presentationUrl": "https://www.dr.dk/lyd/p3/popdatering/popdatering/loerdag-24-januar-2026-13332647046",
       "order": 639048529800026046,
+      "nextId": "urn:dr:radio:episode:692984004f22de874ecccefb",
       "previousId": "urn:dr:radio:episode:692983984f22de874ecccb1e",
       "series": {
         "title": "Popdatering",
