@@ -389,7 +389,7 @@ function New-Html {
                 <div class="podcast" title="$($Podcast.title) - $($Podcast.numberOfEpisodes) episoder">
                     <div class="cover">
                         <a href="$($Podcast.rssUri)"><img src="$($ImageUri)" alt="$($Podcast.title)"></a>
-                        <a href="$($Podcast.rssUri)"><div class="icon-rss"></div></a>
+                        <!-- <a href="$($Podcast.rssUri)"><div class="icon-rss"></div></a> -->
                         <a href="$($Podcast.presentationUrl)" target="_blank"><div class="icon-logo-drlyd"></div></a>
                         <div class="episodes">$($Podcast.numberOfEpisodes)</div>
                     </div>
