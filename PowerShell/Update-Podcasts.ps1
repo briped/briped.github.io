@@ -1,7 +1,6 @@
 $Manifest = [System.IO.FileInfo](Join-Path -Path $PSScriptRoot -ChildPath 'DRPodcast.psd1')
 Import-Module -Force -Name $Manifest
 
-$VerbosePreference = 'Continue'
 
 $WalledJsonPath = Join-Path -Path $PSScriptRoot -ChildPath 'walled.json'
 Write-Verbose -Message "Reading ${WalledJsonPath}"
