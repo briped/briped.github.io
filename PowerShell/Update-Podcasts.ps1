@@ -9,8 +9,8 @@ $Walled = Get-Content -Raw -Encoding utf8 -Path $WalledJsonPath | ConvertFrom-Js
 Write-Verbose -Message "Fetching podcasts"
 $Podcasts = $Walled | 
 	Sort-Object -Unique id | 
-	Sort-Object -Property title | 
-	Get-DRPodcast
+	Get-DRPodcast | 
+	Sort-Object -Property latestEpisodeStartTime -Descending
 
 Write-Verbose -Message "Looping through fetched podcasts"
 foreach ($Podcast in $Podcasts) {
