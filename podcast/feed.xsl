@@ -1,253 +1,373 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  exclude-result-prefixes="itunes atom">
 
-  <xsl:template match="/">
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title><xsl:value-of select="/rss/channel/title"/></title>
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Source+Serif+4:ital,wght@0,300;0,400;1,300&amp;display=swap');
+<xsl:output method="html" version="5" encoding="UTF-8" indent="yes"/>
 
-          *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<xsl:template match="/">
+<html lang="da">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><xsl:value-of select="/rss/channel/title"/> – DR Lyd Recycled</title>
+  <style>
+    :root {
+      --bg:        #1a1a1a;
+      --surface:   #242424;
+      --surface2:  #2c2c2c;
+      --border:    #333333;
+      --accent:    #c0392b;
+      --accent-hv: #e74c3c;
+      --text:      #e8e8e8;
+      --text-muted:#999999;
+      --radius:    6px;
+      --logo-h:    2rem;
+    }
 
-          :root {
-            --ink:     #1a1410;
-            --muted:   #6b5e52;
-            --rule:    #d4c9bc;
-            --cream:   #faf7f2;
-            --accent:  #b5451b;
-            --card-bg: #ffffff;
-          }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-          body {
-            background: var(--cream);
-            color: var(--ink);
-            font-family: 'Source Serif 4', Georgia, serif;
-            font-weight: 300;
-            line-height: 1.7;
-            min-height: 100vh;
-          }
+    html, body {
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
 
-          /* ── masthead ── */
-          header {
-            background: var(--ink);
-            color: var(--cream);
-            padding: 3rem 2rem 2.5rem;
-            text-align: center;
-            border-bottom: 4px solid var(--accent);
-          }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-hv); }
 
-          .feed-tag {
-            display: inline-block;
-            font-family: 'Source Serif 4', serif;
-            font-size: .65rem;
-            font-weight: 400;
-            letter-spacing: .2em;
-            text-transform: uppercase;
-            color: var(--accent);
-            border: 1px solid var(--accent);
-            padding: .25rem .7rem;
-            margin-bottom: 1.2rem;
-          }
+    /* ── HEADER ─────────────────────────────────────────────── */
+    header {
+      background: var(--surface);
+      border-bottom: 2px solid var(--accent);
+      padding: 0.75rem 1.25rem;
+    }
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      line-height: 0;
+    }
+    .logo-link img {
+      height: var(--logo-h);
+      width: auto;
+      display: block;
+      transition: opacity 0.2s;
+    }
+    .logo-link:hover img { opacity: 0.75; }
+    .header-title {
+      flex: 1;
+      text-align: center;
+    }
+    .header-title h1 {
+      font-size: clamp(1.1rem, 3vw, 1.6rem);
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+      line-height: 1.1;
+    }
+    .header-title p {
+      font-size: clamp(0.7rem, 2vw, 0.85rem);
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-top: 0.1rem;
+    }
+    .back-link {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .back-link:hover { color: var(--text); }
 
-          header h1 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 700;
-            line-height: 1.1;
-            letter-spacing: -.01em;
-            margin-bottom: .75rem;
-          }
+    /* ── MAIN ────────────────────────────────────────────────── */
+    main {
+      max-width: 900px;
+      margin: 1.5rem auto 3rem;
+      padding: 0 1rem;
+    }
 
-          header p.description {
-            font-style: italic;
-            font-size: 1.05rem;
-            color: #c9bfb4;
-            max-width: 60ch;
-            margin: 0 auto .75rem;
-          }
+    /* ── HERO ────────────────────────────────────────────────── */
+    .podcast-hero {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .podcast-cover {
+      flex-shrink: 0;
+      width: clamp(100px, 20vw, 180px);
+    }
+    .podcast-cover img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: var(--radius);
+      display: block;
+    }
+    .podcast-info { flex: 1; min-width: 0; }
+    .podcast-info h2 {
+      font-size: clamp(1.2rem, 4vw, 1.75rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    .podcast-info .description {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
 
-          header .meta {
-            font-size: .8rem;
-            color: #8a7d72;
-            letter-spacing: .05em;
-          }
+    /* Subscribe bar */
+    .subscribe-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+    }
+    .subscribe-bar span.label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    .subscribe-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 0.35rem 0.8rem;
+      border-radius: 4px;
+    }
+    .subscribe-btn:hover { background: var(--accent-hv); }
+    .subscribe-btn.outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted) !important;
+    }
+    .subscribe-btn.outline:hover { border-color: var(--accent); color: var(--text) !important; }
 
-          header .meta a {
-            color: var(--accent);
-            text-decoration: none;
-          }
+    /* ── EPISODES ────────────────────────────────────────────── */
+    .section-heading {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .episode-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+    .episode {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+    .episode-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      gap: 1rem;
+    }
+    .episode-header:hover { background: var(--surface2); }
+    .episode-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      flex: 1;
+      min-width: 0;
+    }
+    .episode-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.1rem;
+      flex-shrink: 0;
+    }
+    .episode-date, .episode-duration {
+      font-size: 0.73rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .episode-chevron {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    .episode-body {
+      padding: 0 1rem 1rem;
+      border-top: 1px solid var(--border);
+    }
+    .episode-description {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin: 0.75rem 0 1rem;
+    }
+    audio.episode-player {
+      width: 100%;
+      display: block;
+      border-radius: 4px;
+      accent-color: var(--accent);
+    }
 
-          header .meta a:hover { text-decoration: underline; }
+    /* Details/summary toggle */
+    details > summary { list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
 
-          /* ── layout ── */
-          main {
-            max-width: 860px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 5rem;
-          }
+    /* ── FOOTER ─────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-          .section-rule {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 2.5rem;
-            color: var(--muted);
-            font-size: .7rem;
-            letter-spacing: .18em;
-            text-transform: uppercase;
-          }
+    @media (max-width: 540px) {
+      .podcast-hero { flex-direction: column; }
+      .podcast-cover { width: 120px; }
+    }
+  </style>
+</head>
+<body>
 
-          .section-rule::before,
-          .section-rule::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: var(--rule);
-          }
+<header>
+  <div class="header-inner">
+    <a class="logo-link" href="https://www.dr.dk/lyd" title="DR Lyd" target="_blank" rel="noopener">
+      <img src="assets/icon-logo-drlyd.svg" alt="DR Lyd"/>
+    </a>
+    <div class="header-title">
+      <h1>DR Lyd</h1>
+      <p>Recycled</p>
+    </div>
+    <a class="back-link" href="./">← Alle podcasts</a>
+  </div>
+</header>
 
-          /* ── article cards ── */
-          .item {
-            background: var(--card-bg);
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--ink);
-            padding: 2rem 2.25rem;
-            margin-bottom: 1.75rem;
-            transition: box-shadow .2s ease, transform .2s ease;
-          }
+<main>
+  <!-- Hero -->
+  <div class="podcast-hero">
+    <div class="podcast-cover">
+      <xsl:choose>
+        <xsl:when test="/rss/channel/itunes:image/@href">
+          <img src="{/rss/channel/itunes:image/@href}" alt="{/rss/channel/title}"/>
+        </xsl:when>
+        <xsl:when test="/rss/channel/image/url">
+          <img src="{/rss/channel/image/url}" alt="{/rss/channel/title}"/>
+        </xsl:when>
+      </xsl:choose>
+    </div>
+    <div class="podcast-info">
+      <h2><xsl:value-of select="/rss/channel/title"/></h2>
+      <p class="description"><xsl:value-of select="/rss/channel/description"/></p>
+    </div>
+  </div>
 
-          .item:hover {
-            box-shadow: 4px 4px 0 var(--rule);
-            transform: translate(-2px, -2px);
-          }
+  <!-- Subscribe bar -->
+  <div class="subscribe-bar">
+    <span class="label">Abonner:</span>
+    <xsl:variable name="feedPath" select="/rss/channel/atom:link/@href"/>
+    <a class="subscribe-btn" href="podcast:{$feedPath}">🎙 Podcast-app</a>
+    <xsl:if test="$feedPath">
+      <a class="subscribe-btn outline" href="{$feedPath}" target="_blank" rel="noopener">RSS</a>
+    </xsl:if>
+    <xsl:if test="/rss/channel/link">
+      <a class="subscribe-btn outline" href="{/rss/channel/link}" target="_blank" rel="noopener">DR Lyd</a>
+    </xsl:if>
+  </div>
 
-          .item-date {
-            font-size: .72rem;
-            letter-spacing: .12em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-bottom: .6rem;
-          }
+  <!-- Episode count -->
+  <p class="section-heading">
+    <xsl:value-of select="count(/rss/channel/item)"/> episoder
+  </p>
 
-          .item h2 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.45rem;
-            font-weight: 700;
-            line-height: 1.25;
-            margin-bottom: .9rem;
-          }
-
-          .item h2 a {
-            color: var(--ink);
-            text-decoration: none;
-          }
-
-          .item h2 a:hover {
-            color: var(--accent);
-          }
-
-          .item p.summary {
-            font-size: .97rem;
-            color: #3d342c;
-            line-height: 1.75;
-            margin-bottom: 1.25rem;
-            /* strip any embedded HTML tags from description */
-          }
-
-          .read-more {
-            display: inline-flex;
-            align-items: center;
-            gap: .4rem;
-            font-size: .8rem;
-            letter-spacing: .1em;
-            text-transform: uppercase;
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 400;
-            border-bottom: 1px solid transparent;
-            transition: border-color .15s;
-          }
-
-          .read-more:hover { border-color: var(--accent); }
-          .read-more::after { content: '→'; }
-
-          /* ── footer ── */
-          footer {
-            text-align: center;
-            padding: 2rem;
-            font-size: .78rem;
-            color: var(--muted);
-            border-top: 1px solid var(--rule);
-          }
-
-          footer a { color: var(--muted); }
-
-          @media (max-width: 540px) {
-            header { padding: 2rem 1.25rem; }
-            .item  { padding: 1.5rem 1.25rem; }
-          }
-        </style>
-      </head>
-      <body>
-
-        <header>
-          <div class="feed-tag">RSS Feed</div>
-          <h1><xsl:value-of select="/rss/channel/title"/></h1>
-          <xsl:if test="/rss/channel/description">
-            <p class="description"><xsl:value-of select="/rss/channel/description"/></p>
-          </xsl:if>
-          <p class="meta">
-            <xsl:if test="/rss/channel/link">
-              <a href="{/rss/channel/link}" target="_blank" rel="noopener">
-                <xsl:value-of select="/rss/channel/link"/>
-              </a>
-            </xsl:if>
-          </p>
-        </header>
-
-        <main>
-          <div class="section-rule">Latest Posts</div>
-
-          <xsl:for-each select="/rss/channel/item">
-            <article class="item">
+  <!-- Episode list -->
+  <div class="episode-list">
+    <xsl:for-each select="/rss/channel/item">
+      <div class="episode">
+        <details>
+          <summary class="episode-header">
+            <span class="episode-title"><xsl:value-of select="title"/></span>
+            <span class="episode-meta">
               <xsl:if test="pubDate">
-                <p class="item-date"><xsl:value-of select="pubDate"/></p>
+                <span class="episode-date"><xsl:value-of select="pubDate"/></span>
               </xsl:if>
-
-              <h2>
-                <xsl:choose>
-                  <xsl:when test="link">
-                    <a href="{link}" target="_blank" rel="noopener">
-                      <xsl:value-of select="title"/>
-                    </a>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="title"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </h2>
-
-              <xsl:if test="description">
-                <p class="summary"><xsl:value-of select="description"/></p>
+              <xsl:if test="itunes:duration">
+                <span class="episode-duration"><xsl:value-of select="itunes:duration"/></span>
               </xsl:if>
+            </span>
+            <span class="episode-chevron">▼</span>
+          </summary>
+          <div class="episode-body">
+            <xsl:if test="description">
+              <div class="episode-description">
+                <xsl:value-of select="description"/>
+              </div>
+            </xsl:if>
+            <xsl:if test="enclosure/@url">
+              <audio class="episode-player" controls="controls" preload="none">
+                <xsl:attribute name="src"><xsl:value-of select="enclosure/@url"/></xsl:attribute>
+                <xsl:if test="enclosure/@type">
+                  <xsl:attribute name="type"><xsl:value-of select="enclosure/@type"/></xsl:attribute>
+                </xsl:if>
+                Din browser understøtter ikke HTML5-lyd.
+              </audio>
+            </xsl:if>
+          </div>
+        </details>
+      </div>
+    </xsl:for-each>
+  </div>
+</main>
 
-              <xsl:if test="link">
-                <a class="read-more" href="{link}" target="_blank" rel="noopener">Read article</a>
-              </xsl:if>
-            </article>
-          </xsl:for-each>
-        </main>
+<footer>
+  <a href="./">DR Lyd – Recycled</a>
+</footer>
 
-        <footer>
-          This feed is rendered with an XSL stylesheet.
-          Subscribe by copying the feed URL into your RSS reader.
-        </footer>
-
-      </body>
-    </html>
-  </xsl:template>
+</body>
+</html>
+</xsl:template>
 
 </xsl:stylesheet>
