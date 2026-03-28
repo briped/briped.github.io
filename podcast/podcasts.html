@@ -230,14 +230,14 @@
 
     fetch('podcasts.json')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(podcasts => {
-        podcasts.forEach(({ xml, cover, title, episodes }) => {
+      .then(data => {
+        data.podcasts.forEach(({ xml, cover, title, episodes }) => {
           const card = document.createElement('div');
           card.className = 'card';
           card.innerHTML = `
             <a href="feed.html?podcast=${encodeURIComponent(xml)}">
               <div class="card-img-wrap">
-                <img src="cover/${cover}" alt="${title}" loading="lazy" decoding="async">
+                <img src="${cover}" alt="${title}" loading="lazy" decoding="async">
                 <span class="badge">${episodes}</span>
               </div>
               <div class="card-body">
@@ -252,7 +252,7 @@
       });
 
     // Show last-updated timestamp
-    const ts = new Date().toLocaleString('da-DK', {
+    const ts = new Date(data.lastUpdated).toLocaleString('da-DK', {
       timeZone: 'Europe/Copenhagen',
       dateStyle: 'medium',
       timeStyle: 'short'
