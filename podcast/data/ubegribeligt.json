@@ -14,10 +14,10 @@
     "Underholdning",
     "Videnskab og tech"
   ],
-  "numberOfEpisodes": 188,
+  "numberOfEpisodes": 189,
   "presentationType": "Ongoing",
   "groupingType": "Yearly",
-  "latestEpisodeStartTime": "2026-06-11T05:00:00+02:00",
+  "latestEpisodeStartTime": "2026-06-18T05:00:00+02:00",
   "presentationUrl": "https://www.dr.dk/lyd/special-radio/ubegribeligt-3455554599000",
   "podcastUrl": "https://api.dr.dk/podcasts/v1/feeds/ubegribeligt",
   "psdbUrn": "urn:dr:mu:bundle:62693173539f02110c8b4d2a",
@@ -25,7 +25,7 @@
   "ocsUrn": "urn:dr:ocs:audio:content:series:3455554599000",
   "productionNumber": "3455554599000",
   "isAvailableOnDemand": true,
-  "hasVideo": false,
+  "hasVideo": true,
   "explicitContent": false,
   "defaultOrder": "Desc",
   "id": "urn:dr:radio:series:626931758679fdf8af8a0e26",
@@ -70,12 +70,13 @@
   "visualIdentity": {
     "gradient": {
       "colors": [
-        "#360C21",
+        "#4A132D",
         "#FFEBA4"
       ]
     },
     "colors": {
-      "dark": "#360C21",
+      "dark": "#4A132D",
+      "mediumDark": "#7D254F",
       "light": "#FFEBA4"
     }
   },
@@ -84,8 +85,156 @@
   "episodes": [
     {
       "type": "Episode",
+      "learnId": "urn:dr:ocs:audio:content:playable:11162605257",
+      "durationMilliseconds": 3401200,
+      "categories": [
+        "Underholdning",
+        "Videnskab og tech"
+      ],
+      "productionNumber": "11162605257",
+      "publishTime": "2026-06-18T05:00:00+02:00",
+      "startTime": "2026-06-18T05:00:00+02:00",
+      "presentationUrl": "https://www.dr.dk/lyd/special-radio/ubegribeligt/ubegribeligt-2026/jordens-udvikling-11162605257",
+      "order": 639173486026025257,
+      "previousId": "urn:dr:radio:episode:69de2374164899668046c55b",
+      "series": {
+        "title": "Ubegribeligt",
+        "id": "urn:dr:radio:series:626931758679fdf8af8a0e26",
+        "slug": "ubegribeligt-3455554599000",
+        "productionNumber": "3455554599000",
+        "type": "Series",
+        "isAvailableOnDemand": true,
+        "presentationUrl": "https://www.dr.dk/lyd/special-radio/ubegribeligt-3455554599000",
+        "learnId": "urn:dr:ocs:audio:content:series:3455554599000"
+      },
+      "channel": {
+        "title": "SPECIAL RADIO",
+        "id": "urn:dr:radio:channel:5fa156d1da351264f87b4627",
+        "slug": "special-radio",
+        "type": "Channel",
+        "presentationUrl": "https://www.dr.dk/lyd/special-radio"
+      },
+      "audioAssets": [
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 64,
+          "fileSize": 27848868,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/830653c9e6273270e9eab7c284db80e1ea6fed17a8206d05687797097b5014e9"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 192,
+          "fileSize": 82269527,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/7e8d580ffd95ba6e6dc9758fc38224d491810dcbd6567b3f8b8110f37300026f"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp4",
+          "bitrate": 256,
+          "fileSize": 109479340,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/a99239a65dd9864daa7c9861129afbee58aec218a2a2182f9f1f44e58f802a68"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 64,
+          "fileSize": 27210487,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/376e91edb14e635bde67b5a40f664881915bab5ca3b3bfb49c3b604cabb363d2"
+        },
+        {
+          "type": "Audio",
+          "target": "Progressive",
+          "isStreamLive": false,
+          "format": "mp3",
+          "bitrate": 192,
+          "fileSize": 81630583,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/9d73b3cd38f99b47a1b7498d37ba2ed1f941bf7b486289cb6be7894c534ed21f"
+        },
+        {
+          "type": "Audio",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "bitrate": 0,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/e8ee99b929f5e463b997d4c638a19ba72e4ed285d7907b7b59c078a2c34346eb"
+        }
+      ],
+      "videoAssets": [
+        {
+          "type": "Video",
+          "target": "Stream",
+          "isStreamLive": false,
+          "format": "HLS",
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de23683b365c11ebd88db7/0d3a1821c7b25dc39a75f22697f98052ecc53d0c181dcad21b1df48482b925b5"
+        }
+      ],
+      "ocsUrn": "urn:dr:ocs:audio:content:playable:11162605257",
+      "isAvailableOnDemand": true,
+      "hasVideo": true,
+      "explicitContent": false,
+      "latestPublishTime": "2026-06-18T05:00:00+02:00",
+      "id": "urn:dr:radio:episode:69de23683b365c11ebd88db7",
+      "slug": "jordens-udvikling-11162605257",
+      "title": "Jordens udvikling",
+      "description": "Jorden er blot én ud af ubegribeligt mange planeter i et ubegribeligt stort univers. Alligevel er den noget helt særligt. Men hvordan opstod vores planet egentlig? Og hvordan har den forandret sig i løbet af de milliarder af år, der er gået siden Jordens fødsel?\nVært: Huxi Bach.\nGæst: Minik Rosing.\nTilrettelægger: Anna Olrik.\nProducer: Clara Faust Spies.\nI redaktionen: Linus Stene",
+      "imageAssets": [
+        {
+          "id": "urn:dr:radio:image:67e3fb4be0037e9766a43eeb",
+          "target": "Default",
+          "ratio": "16:9",
+          "format": "image/jpeg",
+          "blurHash": "NHQ*ZFsq{=t7IoxaL5WDRUj[=hoeA9WDx=n,aPj["
+        },
+        {
+          "id": "urn:dr:radio:image:67e3fb4be0037e9766a43eec",
+          "target": "SquareImage",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oQQuB3of=PxZX2of*4fQEdbE$+j?XeWVx:f8NGj@xuWVt3jbj@of-VoeWEWUS0j[^%oeIXoejbWB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3fb4be0037e9766a43eed",
+          "target": "Podcast",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oPQ[DJsp;pxZX2oe*3njInax$+bFO7jFx:jINGf%RVaexrjboeofRBoes:axbXkC%1oeM}oes:WB"
+        },
+        {
+          "id": "urn:dr:radio:image:67e3fb4be0037e9766a43eec",
+          "target": "Default",
+          "ratio": "1:1",
+          "format": "image/jpeg",
+          "blurHash": "oQQuB3of=PxZX2of*4fQEdbE$+j?XeWVx:f8NGj@xuWVt3jbj@of-VoeWEWUS0j[^%oeIXoejbWB"
+        }
+      ],
+      "visualIdentity": {
+        "gradient": {
+          "colors": [
+            "#4A132D",
+            "#FFEBA4"
+          ]
+        },
+        "colors": {
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
+          "light": "#FFEBA4"
+        }
+      }
+    },
+    {
+      "type": "Episode",
       "learnId": "urn:dr:ocs:audio:content:playable:11162605247",
-      "durationMilliseconds": 3413090,
+      "durationMilliseconds": 3358475,
       "categories": [
         "Underholdning",
         "Videnskab og tech"
@@ -94,7 +243,8 @@
       "publishTime": "2026-06-11T05:00:00+02:00",
       "startTime": "2026-06-11T05:00:00+02:00",
       "presentationUrl": "https://www.dr.dk/lyd/special-radio/ubegribeligt/ubegribeligt-2026/fotografiet-11162605247",
-      "order": 639167438026024247,
+      "order": 639167510026024247,
+      "nextId": "urn:dr:radio:episode:69de23683b365c11ebd88db7",
       "previousId": "urn:dr:radio:episode:69de23673b365c11ebd88d9e",
       "series": {
         "title": "Ubegribeligt",
@@ -120,8 +270,8 @@
           "isStreamLive": false,
           "format": "mp4",
           "bitrate": 64,
-          "fileSize": 27947350,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/86dae730654e99e94f6c13d0e9f8196c04ebaeed6783ff0652506ebf122fe636"
+          "fileSize": 27499083,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/b45788837a36ac749b150639e7a9301fcbe1c7edd6e57cd4a30ede82cb10d6e0"
         },
         {
           "type": "Audio",
@@ -129,8 +279,8 @@
           "isStreamLive": false,
           "format": "mp4",
           "bitrate": 192,
-          "fileSize": 82557160,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/878e023d4d9e22274297d81b2cf7d742e470c01a9dc9948d8efe115bacb81f41"
+          "fileSize": 81236119,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/2b33926ed0c87e13be43c9428880da121bd86aeef447d040a1de60077ba612b1"
         },
         {
           "type": "Audio",
@@ -138,8 +288,8 @@
           "isStreamLive": false,
           "format": "mp4",
           "bitrate": 256,
-          "fileSize": 109861841,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/0f42d18970e7410294f133f5f6815d0943e3500c1aa8b1db7293482bfda01cad"
+          "fileSize": 108103991,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/f62d01caf3b3a2f4bad41588f4231ef7b241880f9d887c8dfe9e6308a6f73a1b"
         },
         {
           "type": "Audio",
@@ -147,8 +297,8 @@
           "isStreamLive": false,
           "format": "mp3",
           "bitrate": 64,
-          "fileSize": 27305734,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/f5a01bd609478775721886a8fe1d9edd6b37a1586214510581e8f7a8c272fe5f"
+          "fileSize": 26868742,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/dc3ac26837a1929ccbd59245a1a1a37ce87b1de3b9171bf9628df0a71525b33f"
         },
         {
           "type": "Audio",
@@ -156,8 +306,8 @@
           "isStreamLive": false,
           "format": "mp3",
           "bitrate": 192,
-          "fileSize": 81916294,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/003744f9ee82e0692feae33531ae5e86d736b25495d34ed560dc35d3b50b36ed"
+          "fileSize": 80605318,
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/786d0a2eea5f7fd6fcc1a6055b45730d1dc4dd9c93a95c33bc85deea78149a34"
         },
         {
           "type": "Audio",
@@ -165,7 +315,7 @@
           "isStreamLive": false,
           "format": "HLS",
           "bitrate": 0,
-          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/3a8485f06e53afdf79dc5c3ee15f975def15e234371b2aebf78b6d772f4d15e3"
+          "url": "https://api.dr.dk/radio/v1/assetlinks/urn:dr:radio:episode:69de2374164899668046c55b/f15c7f4790874ae63bc8e84721c726a21605d159aaed89b98a84a002e209f52d"
         }
       ],
       "ocsUrn": "urn:dr:ocs:audio:content:playable:11162605247",
@@ -210,12 +360,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -349,12 +500,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -488,12 +640,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -627,12 +780,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -766,12 +920,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -905,12 +1060,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1044,12 +1200,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1183,12 +1340,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1322,12 +1480,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1461,12 +1620,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1600,12 +1760,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1739,12 +1900,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -1878,12 +2040,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2017,12 +2180,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2156,12 +2320,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2295,12 +2460,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2434,12 +2600,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2573,12 +2740,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2712,12 +2880,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2851,12 +3020,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -2990,12 +3160,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3129,12 +3300,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3268,12 +3440,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3407,12 +3580,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3546,12 +3720,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3685,12 +3860,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3824,12 +4000,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -3963,12 +4140,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4102,12 +4280,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4241,12 +4420,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4380,12 +4560,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4519,12 +4700,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4658,12 +4840,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4797,12 +4980,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -4936,12 +5120,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5075,12 +5260,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5214,12 +5400,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5353,12 +5540,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5492,12 +5680,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5631,12 +5820,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5770,12 +5960,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -5909,12 +6100,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6048,12 +6240,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6187,12 +6380,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6326,12 +6520,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6465,12 +6660,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6604,12 +6800,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6743,12 +6940,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -6882,12 +7080,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7021,12 +7220,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7160,12 +7360,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7299,12 +7500,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7438,12 +7640,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7577,12 +7780,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7716,12 +7920,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7855,12 +8060,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -7994,12 +8200,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8133,12 +8340,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8272,12 +8480,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8411,12 +8620,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8550,12 +8760,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8689,12 +8900,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8828,12 +9040,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -8967,12 +9180,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9106,12 +9320,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9245,12 +9460,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9384,12 +9600,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9523,12 +9740,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9662,12 +9880,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9801,12 +10020,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -9940,12 +10160,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10079,12 +10300,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10218,12 +10440,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10357,12 +10580,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10496,12 +10720,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10635,12 +10860,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10774,12 +11000,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -10913,12 +11140,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11052,12 +11280,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11191,12 +11420,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11330,12 +11560,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11469,12 +11700,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11608,12 +11840,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11747,12 +11980,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -11886,12 +12120,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12025,12 +12260,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12164,12 +12400,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12303,12 +12540,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12442,12 +12680,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12581,12 +12820,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12720,12 +12960,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12859,12 +13100,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -12998,12 +13240,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13137,12 +13380,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13276,12 +13520,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13415,12 +13660,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13554,12 +13800,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13693,12 +13940,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13832,12 +14080,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -13971,12 +14220,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14110,12 +14360,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14249,12 +14500,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14388,12 +14640,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14527,12 +14780,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14666,12 +14920,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14805,12 +15060,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -14944,12 +15200,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15083,12 +15340,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15222,12 +15480,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15361,12 +15620,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15500,12 +15760,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15639,12 +15900,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15778,12 +16040,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -15917,12 +16180,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16058,12 +16322,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16199,12 +16464,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16340,12 +16606,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16481,12 +16748,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16622,12 +16890,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16763,12 +17032,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -16904,12 +17174,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17045,12 +17316,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17186,12 +17458,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17327,12 +17600,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17468,12 +17742,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17609,12 +17884,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17750,12 +18026,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -17891,12 +18168,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18032,12 +18310,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18173,12 +18452,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18314,12 +18594,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18455,12 +18736,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18596,12 +18878,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18737,12 +19020,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -18878,12 +19162,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19019,12 +19304,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19160,12 +19446,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19301,12 +19588,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19442,12 +19730,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19583,12 +19872,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19724,12 +20014,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -19865,12 +20156,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20006,12 +20298,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20147,12 +20440,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20288,12 +20582,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20429,12 +20724,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20570,12 +20866,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20711,12 +21008,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20852,12 +21150,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -20993,12 +21292,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21134,12 +21434,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21275,12 +21576,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21416,12 +21718,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21557,12 +21860,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21698,12 +22002,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21839,12 +22144,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -21980,12 +22286,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22121,12 +22428,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22262,12 +22570,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22403,12 +22712,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22544,12 +22854,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22685,12 +22996,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22826,12 +23138,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -22967,12 +23280,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23108,12 +23422,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23249,12 +23564,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23390,12 +23706,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23531,12 +23848,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23672,12 +23990,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23813,12 +24132,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -23954,12 +24274,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24095,12 +24416,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24236,12 +24558,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24377,12 +24700,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24509,12 +24833,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24641,12 +24966,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24773,12 +25099,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -24905,12 +25232,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25037,12 +25365,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25169,12 +25498,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25301,12 +25631,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25433,12 +25764,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25565,12 +25897,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25697,12 +26030,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25829,12 +26163,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -25961,12 +26296,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -26093,12 +26429,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
@@ -26224,12 +26561,13 @@
       "visualIdentity": {
         "gradient": {
           "colors": [
-            "#360C21",
+            "#4A132D",
             "#FFEBA4"
           ]
         },
         "colors": {
-          "dark": "#360C21",
+          "dark": "#4A132D",
+          "mediumDark": "#7D254F",
           "light": "#FFEBA4"
         }
       }
